@@ -27,3 +27,6 @@ Thank you to [@kelle](https://github.com/kelle) for putting this project on our 
 
 # Moving from RMG-database to rmgdb
 To actually migrate, we will define the schema in this repository, spoof the RMG classes and execute the existing database files as RMG does to load them into a database, dump that into a better plaintext format.
+
+Reimplementing the tree structure will be difficult, but there is of course lots of existing technology to do this - see: https://docs.sqlalchemy.org/en/20/orm/self_referential.html about SQL Adjacency list and this even more closely related example: https://docs.sqlalchemy.org/en/20/orm/join_conditions.html#self-referential-many-to-many.
+Relevant blog post: https://www.kite.com/blog/python/sqlalchemy/
