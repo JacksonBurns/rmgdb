@@ -48,9 +48,9 @@ class FrequencyTable(Base):
 
     id = Column(Integer, primary_key=True)
     parent_id = mapped_column(ForeignKey("groups_table.id"))
-    frequency_part_1 = Column(SmallInteger)
-    frequency_part_2 = Column(SmallInteger)
-    frequency_part_3 = Column(SmallInteger)
+    lower = Column(SmallInteger)
+    upper = Column(SmallInteger)
+    degeneracy = Column(SmallInteger)
 
 
 # libraries and associated tables
@@ -91,12 +91,40 @@ class NonlinearRotorTable(Base):
     id = Column(Integer, primary_key=True)
     parent_id = mapped_column(ForeignKey("conformer_table.id"))
 
-    interia_x = Column(Float)
+    inertia_x = Column(Float)
     inertia_y = Column(Float)
     inertia_z = Column(Float)
     inertia_unit = Column(String)
     symmetry = Column(SmallInteger)
 
 
-class HarmonicOscillatorTable:
-    pass
+class LinearRotorTable(Base):
+    __tablename__ = "linear_rotor_table"
+
+    id = Column(Integer, primary_key=True)
+    parent_id = mapped_column(ForeignKey("conformer_table.id"))
+
+    inertia = Column(Float)
+    inertia_unit = Column(String)
+    symmetry = Column(SmallInteger)
+
+
+class HarmonicOscillatorTable(Base):
+    __tablename__ = "harmonic_oscillator_table"
+
+    id = Column(Integer, primary_key=True)
+    parent_id = mapped_column(ForeignKey("conformer_table.id"))
+
+    freq_unit = Column(String)
+    freq_1 = Column(Float)
+    freq_2 = Column(Float)
+    freq_3 = Column(Float)
+    freq_4 = Column(Float)
+    freq_5 = Column(Float)
+    freq_6 = Column(Float)
+    freq_7 = Column(Float)
+    freq_8 = Column(Float)
+    freq_9 = Column(Float)
+    freq_10 = Column(Float)
+    freq_11 = Column(Float)
+    freq_12 = Column(Float)

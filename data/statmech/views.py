@@ -14,7 +14,7 @@ engine = create_engine("sqlite:///demo.db", echo=True)
 #  conformer_table join ideal_gas_translation_table on conformer_table.id = ideal_gas_translation_table.parent_id) as temp_t
 #  on statmech_libraries_table.id = temp_t.parent_id
 
-inner_query = (
+conformer_view = (
     select(
         ConformerTable.parent_id.label("parent_id"),
         ConformerTable.energy.label("energy"),
@@ -33,7 +33,7 @@ inner_query = (
     )
 ).subquery("inner_t")
 
-print(inner_query)
+print(conformer_view)
 print()
 
 view_query = (
@@ -44,17 +44,17 @@ view_query = (
         StatmechLibrariesTable.long_description,
         StatmechLibrariesTable.label,
         StatmechLibrariesTable.adjacency_list,
-        inner_query.c.energy,
-        inner_query.c.energy_unit,
-        inner_query.c.spin_multiplicity,
-        inner_query.c.optical_isomers,
-        inner_query.c.mass,
-        inner_query.c.mass_unit,
+        conformer_view.c.energy,
+        conformer_view.c.energy_unit,
+        conformer_view.c.spin_multiplicity,
+        conformer_view.c.optical_isomers,
+        conformer_view.c.mass,
+        conformer_view.c.mass_unit,
     ).select_from(
-        inner_query,
+        conformer_view,
     ).join(
         StatmechLibrariesTable,
-        StatmechLibrariesTable.id == inner_query.c.parent_id,
+        StatmechLibrariesTable.id == conformer_view.c.parent_id,
     )
 )
 #     StatmechLibrariesTable.join(
