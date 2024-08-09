@@ -5,10 +5,13 @@ from pathlib import Path
 from functools import partial
 
 from schema import (
+    # Group
     GroupsTable,
     GroupsTreeTable,
-    IdealGasTranslationTable,
+    GroupFrequencyTable,
     FrequencyTable,
+    # Library
+    IdealGasTranslationTable,
     StatmechLibrariesTable,
     ConformerTable,
     NonlinearRotorTable,
@@ -22,6 +25,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 from schema import Base
+from tree_str_to_pairs import sketchy_conversion
 
 
 # Create engine and session
@@ -30,36 +34,73 @@ Session = sessionmaker(bind=engine)
 session = Session()
 Base.metadata.create_all(engine)
 
+label_to_new_id_lookup_dict = {None: None}  # for root/leaf nodes
+
+
 # map the groups in...
-def EntrySpoof(session, index, label, group, shortDesc, longDesc, symmetry=None):
+def EntrySpoof(session, index, label, group, statmech, shortDesc, longDesc):
     global entry_count
-    row = FrequencyTable(
-        id=index,
-        name=name,
+    row = GroupsTable(
+        id=entry_count,
         short_description=shortDesc,
         long_description=longDesc,
         label=label,
-        adjacency_list=molecule,
+        group=group,
     )
+    label_to_new_id_lookup_dict[label] = entry_count
     entry_count += 1
     session.add(row)
+
+
+def GroupFreqSpoof(session, frequencies, symmetry):
+    global entry_count
+    global group_freq_count
+    global freq_count
+    row = GroupFrequencyTable(
+        id=entry_count,
+        parent_id=entry_count,
+        symmetry=symmetry,
+    )
+    session.add(row)
+    for freq_group in frequencies:
+        row = FrequencyTable(
+            id=freq_count,
+            parent_id=group_freq_count,
+            lower=freq_group[0],
+            upper=freq_group[1],
+            degeneracy=freq_group[2],
+        )
+        freq_count += 1
+    group_freq_count += 1
+
+
+def tree_spoof_function(session, tree_str):
+    global tree_count
+    pairs = sketchy_conversion(tree_str)
+    for pair in pairs:
+        row = GroupsTreeTable(
+            id=tree_count,
+            parent_id=label_to_new_id_lookup_dict[pair[0]],
+            child_id=label_to_new_id_lookup_dict[pair[1]],
+        )
+        session.add(row)
+        tree_count += 1
+
+
+entry_count = 0
+group_freq_count = 0
+freq_count = 0
+tree_count = 0
+spoof_func = partial(EntrySpoof, session)
+freq_spoof = partial(GroupFreqSpoof, session)
+tree_spoof = partial(tree_spoof_function, session)
 group_file = Path("./original/groups/groups.py")
-spoof_func = partial(LibrarySpoof, session, library_file.stem)
-conf_spoof = partial(ConformerSpoof, session, library_file.stem)
-ig_spoof = partial(IGSpoof, session, library_file.stem)
-linear_spoof = partial(LinearSpoof, session, library_file.stem)
-nonlinear_spoof = partial(NonlinearSpoof, session, library_file.stem)
-harmonic_spoof = partial(HarmonicSpoof, session, library_file.stem)
 exec(
-    library_file.read_text(),
+    group_file.read_text(),
     {
         "entry": spoof_func,
-        "entry_count": entry_count,
-        "Conformer": conf_spoof,
-        "IdealGasTranslation": ig_spoof,
-        "LinearRotor": linear_spoof,
-        "NonlinearRotor": nonlinear_spoof,
-        "HarmonicOscillator": harmonic_spoof,
+        "GroupFrequencies": freq_spoof,
+        "tree": tree_spoof,
     },
 )
 
@@ -173,7 +214,6 @@ for library_file in library_dir.glob("*"):
         library_file.read_text(),
         {
             "entry": spoof_func,
-            "entry_count": entry_count,
             "Conformer": conf_spoof,
             "IdealGasTranslation": ig_spoof,
             "LinearRotor": linear_spoof,

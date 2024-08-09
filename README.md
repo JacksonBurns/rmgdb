@@ -27,6 +27,15 @@ Thank you to [@kelle](https://github.com/kelle) for putting this project on our 
 
 # Moving from RMG-database to rmgdb
 To actually migrate, we will define the schema in this repository, spoof the RMG classes and execute the existing database files as RMG does to load them into a database, dump that into a better plaintext format.
+We may also just want to stick with the Python file format, if it turns out to be easier.
 
 Reimplementing the tree structure will be difficult, but there is of course lots of existing technology to do this - see: https://docs.sqlalchemy.org/en/20/orm/self_referential.html about SQL Adjacency list and this even more closely related example: https://docs.sqlalchemy.org/en/20/orm/join_conditions.html#self-referential-many-to-many.
 Relevant blog post: https://www.kite.com/blog/python/sqlalchemy/
+
+To actually navigate the tree including subgraph-isomorphism comparisons, we should cache the calls of adjacency list -> molecule, which will make the database act like we have the whole set of molecules in memory.
+
+Reasons to do this:
+ 1. Reusability - can actually interrogate RMG-database now, and you can update it _waaaaaaay_ more easily. Example of the former would be withdrawing SMILES and a property and passing to Chemprop.
+ 2. Scalabilty and Speed - doing the tree searching and lookup operations in SQL is much faster than the current approach
+ 3. Because We Can - existing approach relies on `exec` is not debuggable and should be replaced, all of the functions we need can easily be done in SQL.
+ 4. Safety - current version uses bad coding practice.

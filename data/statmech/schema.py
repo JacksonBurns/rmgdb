@@ -24,12 +24,12 @@ class GroupsTable(Base):
     long_description = Column(String)
     label = Column(String)
     group = Column(String)
-    symmetry = Column(SmallInteger)
 
 
 def check_short_desc(mapper, connection, target):
     if len(target.short_description) > 20:
-        raise ValueError("Short description must be <20 characters - use long description.")
+        print("Truncating short description (consider using long).")
+        target.short_description = target.short_description[0:20]
 
 
 event.listen(GroupsTable, "before_insert", check_short_desc)
@@ -42,12 +42,18 @@ class GroupsTreeTable(Base):
     parent_id = mapped_column(ForeignKey("groups_table.id"))
     child_id = mapped_column(ForeignKey("groups_table.id"))
 
+class GroupFrequencyTable(Base):
+    __tablename__ = "group_frequency_table"
+
+    id = Column(Integer, primary_key=True)
+    parent_id = mapped_column(ForeignKey("groups_table.id"))
+    symmetry = Column(SmallInteger)
 
 class FrequencyTable(Base):
     __tablename__ = "frequency_table"
 
     id = Column(Integer, primary_key=True)
-    parent_id = mapped_column(ForeignKey("groups_table.id"))
+    parent_id = mapped_column(ForeignKey("group_frequency_table.id"))
     lower = Column(SmallInteger)
     upper = Column(SmallInteger)
     degeneracy = Column(SmallInteger)
