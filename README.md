@@ -7,7 +7,8 @@ This repository contains:
  - the official RMG database of chemical information, which adheres to this format, in the `data` directory.
 
 The goal is to eventually package both of these as separate tools - the former to enable others to create databases from scratch, and the latter to use the RMG database for their work or to extend it.
-This could take the form of `rmgdatabase` being the base standard definition, and then the option `rmgdatabase[data]` package containing all of the actual numbers.
+This could take the form of `rmgdatabase` being the SCHEMA_BASE standard definition, and then the option `rmgdatabase[data]` package containing all of the actual numbers.
+Technologically speaking, it would be easier to just ship it all together.
 
 ## Purpose
 Storing chemical data is very amenable to the use of relational databases.

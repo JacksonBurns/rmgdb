@@ -1,5 +1,3 @@
-# this belongs in rmgdb/statmech - putting here for ease of import while this package is not yet installable
-
 from sqlalchemy import (
     Column,
     Integer,
@@ -12,44 +10,43 @@ from sqlalchemy import (
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import mapped_column
 
-Base = declarative_base()
+from rmgdb.statmech.triggers import check_short_desc
+
+SCHEMA_BASE = declarative_base()
 
 
 # groups and associated tables
-class GroupsTable(Base):
+class Groups(SCHEMA_BASE):
     __tablename__ = "groups_table"
 
     id = Column(Integer, primary_key=True)
+    name = Column(String)
     short_description = Column(String)
     long_description = Column(String)
     label = Column(String)
     group = Column(String)
 
 
-def check_short_desc(mapper, connection, target):
-    if len(target.short_description) > 20:
-        print("Truncating short description (consider using long).")
-        target.short_description = target.short_description[0:20]
+event.listen(Groups, "before_insert", check_short_desc)
 
 
-event.listen(GroupsTable, "before_insert", check_short_desc)
-
-
-class GroupsTreeTable(Base):
+class GroupsTree(SCHEMA_BASE):
     __tablename__ = "groups_tree_table"
 
     id = Column(Integer, primary_key=True)
     parent_id = mapped_column(ForeignKey("groups_table.id"))
     child_id = mapped_column(ForeignKey("groups_table.id"))
 
-class GroupFrequencyTable(Base):
+
+class GroupFrequency(SCHEMA_BASE):
     __tablename__ = "group_frequency_table"
 
     id = Column(Integer, primary_key=True)
     parent_id = mapped_column(ForeignKey("groups_table.id"))
     symmetry = Column(SmallInteger)
 
-class FrequencyTable(Base):
+
+class Frequency(SCHEMA_BASE):
     __tablename__ = "frequency_table"
 
     id = Column(Integer, primary_key=True)
@@ -60,7 +57,7 @@ class FrequencyTable(Base):
 
 
 # libraries and associated tables
-class StatmechLibrariesTable(Base):
+class StatmechLibraries(SCHEMA_BASE):
     __tablename__ = "statmech_libraries_table"
 
     id = Column(Integer, primary_key=True)
@@ -71,7 +68,7 @@ class StatmechLibrariesTable(Base):
     adjacency_list = Column(String)
 
 
-class ConformerTable(Base):
+class Conformer(SCHEMA_BASE):
     __tablename__ = "conformer_table"
 
     id = Column(Integer, primary_key=True)
@@ -82,7 +79,7 @@ class ConformerTable(Base):
     optical_isomers = Column(Integer)
 
 
-class IdealGasTranslationTable(Base):
+class IdealGasTranslation(SCHEMA_BASE):
     __tablename__ = "ideal_gas_translation_table"
 
     id = Column(Integer, primary_key=True)
@@ -91,7 +88,7 @@ class IdealGasTranslationTable(Base):
     mass_unit = Column(String)
 
 
-class NonlinearRotorTable(Base):
+class NonlinearRotor(SCHEMA_BASE):
     __tablename__ = "nonlinear_rotor_table"
 
     id = Column(Integer, primary_key=True)
@@ -104,7 +101,7 @@ class NonlinearRotorTable(Base):
     symmetry = Column(SmallInteger)
 
 
-class LinearRotorTable(Base):
+class LinearRotor(SCHEMA_BASE):
     __tablename__ = "linear_rotor_table"
 
     id = Column(Integer, primary_key=True)
@@ -115,7 +112,7 @@ class LinearRotorTable(Base):
     symmetry = Column(SmallInteger)
 
 
-class HarmonicOscillatorTable(Base):
+class HarmonicOscillator(SCHEMA_BASE):
     __tablename__ = "harmonic_oscillator_table"
 
     id = Column(Integer, primary_key=True)

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rmgdb"
+version = "1.0.0a1"
+authors = [{ name = "Jackson Burns"}]
+license = { text = "MIT" }
+description = "The ReactionMechanismGenerator Database Standard"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+urls = { Homepage = "https://github.com/JacksonBurns/rmgdb" }
+requires-python = ">=3.7"
+dependencies = ["sqlalchemy"]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rmgdb"]
+exclude = ["test"]
+
