@@ -10,7 +10,10 @@ from sqlalchemy import (
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import mapped_column
 
-from rmgdb.statmech.triggers import check_short_desc
+from rmgdb.statmech.triggers import (
+    check_short_desc,
+    delete_empty_desc,
+)
 
 SCHEMA_BASE = declarative_base()
 
@@ -28,6 +31,7 @@ class Groups(SCHEMA_BASE):
 
 
 event.listen(Groups, "before_insert", check_short_desc)
+event.listen(Groups, "before_insert", delete_empty_desc)
 
 
 class GroupsTree(SCHEMA_BASE):
@@ -66,6 +70,10 @@ class StatmechLibraries(SCHEMA_BASE):
     long_description = Column(String)
     label = Column(String)
     adjacency_list = Column(String)
+
+
+event.listen(StatmechLibraries, "before_insert", check_short_desc)
+event.listen(StatmechLibraries, "before_insert", delete_empty_desc)
 
 
 class Conformer(SCHEMA_BASE):

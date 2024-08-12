@@ -18,7 +18,7 @@ classifiers = [
 ]
 urls = { Homepage = "https://github.com/JacksonBurns/rmgdb" }
 requires-python = ">=3.7"
-dependencies = ["pandas", "rmgdb"]
+dependencies = ["pandas", "rmgdb", "pyyaml", "tqdm"]
 
 [project.readme]
 file = "README.md"

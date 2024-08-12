@@ -16,16 +16,16 @@ from rmgdb.statmech.schema import (
     # declarative SCHEMA_BASE,
     SCHEMA_BASE,
 )
+from rmgdb.statmech.views import statmech_groups_view_sql, statmech_libraries_view_sql, label_pairs_view_sql
 
-
-from sqlalchemy import create_engine, select, text
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from rmgdatabase.common.tree_str_to_pairs import sketchy_conversion
 
 
 # Create engine and SESSION
-engine = create_engine("sqlite:///demo_v2.db", echo=False)
+engine = create_engine("sqlite:///statmech.db", echo=False)
 Session = sessionmaker(bind=engine)
 SESSION = Session()
 SCHEMA_BASE.metadata.create_all(engine)
@@ -71,6 +71,7 @@ def GroupFrequenciesSpoof(*, frequencies, symmetry):
             degeneracy=freq_group[2],
         )
         FREQUENCIES_COUNT += 1
+        SESSION.add(row)
     GROUP_FREQUENCIES_COUNT += 1
 
 
@@ -127,11 +128,24 @@ def HarmonicOscillatorSpoof(*, frequencies):
     global HARMONIC_OSCILLATOR_COUNT
     global CONFORMER_COUNT
     global SESSION
+    # pad frequencies out to 12 with None
+    padded_frequences = frequencies[0] + [None] * (13 - len(frequencies))
     new_igt = HarmonicOscillator(
         id=HARMONIC_OSCILLATOR_COUNT,
         parent_id=CONFORMER_COUNT,
         freq_unit=frequencies[1],
-        freq_1=frequencies[0][0],
+        freq_1=padded_frequences[0],
+        freq_2=padded_frequences[1],
+        freq_3=padded_frequences[2],
+        freq_4=padded_frequences[3],
+        freq_5=padded_frequences[4],
+        freq_6=padded_frequences[5],
+        freq_7=padded_frequences[6],
+        freq_8=padded_frequences[7],
+        freq_9=padded_frequences[8],
+        freq_10=padded_frequences[9],
+        freq_11=padded_frequences[10],
+        freq_12=padded_frequences[11],
         # do the rest as well, allowing for not all to be filled
     )
     HARMONIC_OSCILLATOR_COUNT += 1
@@ -231,90 +245,8 @@ except ValueError as e:
 
 
 # make the views we need
-conformer_view = (
-    select(
-        Conformer.parent_id.label("parent_id"),
-        Conformer.energy.label("energy"),
-        Conformer.energy_unit.label("energy_unit"),
-        Conformer.spin_multiplicity.label("spin_multiplicity"),
-        Conformer.optical_isomers.label("optical_isomers"),
-        IdealGasTranslation.mass.label("mass"),
-        IdealGasTranslation.mass_unit.label("mass_unit"),
-        NonlinearRotor.inertia_x.label("inertia_x"),
-        NonlinearRotor.inertia_y.label("inertia_y"),
-        NonlinearRotor.inertia_z.label("inertia_z"),
-        NonlinearRotor.inertia_unit.label("nonlinear_inertia_unit"),
-        NonlinearRotor.symmetry.label("nonlinear_symmetry"),
-        LinearRotor.inertia.label("linear_inertia"),
-        LinearRotor.inertia_unit.label("linear_inertia_unit"),
-        LinearRotor.symmetry.label("linear_symmetry"),
-        HarmonicOscillator.freq_unit.label("harmonic_freq_unit"),
-        HarmonicOscillator.freq_1.label("harmonic_freq_1"),
-    )
-    .select_from(
-        Conformer,
-    )
-    .outerjoin(
-        NonlinearRotor,
-        # sqlalchemy should infer this auto-magically from the FK relationship
-        # we give it anyway to make this relationship more explicit
-        Conformer.id == NonlinearRotor.parent_id,
-    )
-    .outerjoin(
-        LinearRotor,
-        Conformer.id == LinearRotor.parent_id,
-    )
-    .outerjoin(
-        HarmonicOscillator,
-        Conformer.id == HarmonicOscillator.parent_id,
-    )
-    .outerjoin(
-        IdealGasTranslation,
-        Conformer.id == IdealGasTranslation.parent_id,
-    )
-).subquery("inner_t")
-
-
-view_query = (
-    select(
-        StatmechLibraries.id,
-        StatmechLibraries.name,
-        StatmechLibraries.short_description,
-        StatmechLibraries.long_description,
-        StatmechLibraries.label,
-        StatmechLibraries.adjacency_list,
-        conformer_view.c.energy,
-        conformer_view.c.energy_unit,
-        conformer_view.c.spin_multiplicity,
-        conformer_view.c.optical_isomers,
-        conformer_view.c.mass,
-        conformer_view.c.mass_unit,
-        conformer_view.c.inertia_x,
-        conformer_view.c.inertia_y,
-        conformer_view.c.inertia_z,
-        conformer_view.c.nonlinear_inertia_unit,
-        conformer_view.c.nonlinear_symmetry,
-        conformer_view.c.linear_inertia,
-        conformer_view.c.linear_inertia_unit,
-        conformer_view.c.linear_symmetry,
-        conformer_view.c.harmonic_freq_unit,
-        conformer_view.c.harmonic_freq_1,
-    )
-    .select_from(
-        conformer_view,
-    )
-    .outerjoin(
-        StatmechLibraries,
-        StatmechLibraries.id == conformer_view.c.parent_id,
-    )
-)
-
-# Create the view in the database
-view_name = "statmech_libraries_view"
-create_view_sql = text(f"CREATE VIEW {view_name} AS {view_query}")
-
-Session = sessionmaker(bind=engine)
-SESSION = Session()
-SESSION.execute(create_view_sql)
+SESSION.execute(statmech_groups_view_sql)
+SESSION.execute(statmech_libraries_view_sql)
+SESSION.execute(label_pairs_view_sql)
 
 SESSION.close()
