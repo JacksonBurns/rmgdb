@@ -21,6 +21,7 @@ def get_node_pairs(tree_dict, parent=None):
 
 def sketchy_conversion(instr):
     # first parse the tree into dict
+    # TODO: handle dangling spaces
     overall_dict = {}
     added_stack = []
     last_level = 0

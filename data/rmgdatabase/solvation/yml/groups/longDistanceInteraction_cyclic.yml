@@ -1,0 +1,640 @@
+label: R
+children:
+- CO
+- Cs(OssH)Cs(OssH)
+- CbCsOssH
+- OssH
+- phenol
+- OxRing
+- N3sH2-benz
+- N3sHCd(O2d)N3sH
+- Cd(O2d)NH2
+- Cd(O2d)NHR
+- N3sCd(O2d)N3sH
+- CdsNdNsNs
+- SdOdOdN
+- C
+- O
+- N
+- S
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 R u0
+---
+label: aromatic-meta
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B}
+---
+label: aromatic-ortho
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2 *2 Cb u0 {1,B}
+---
+label: aromatic-para
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+---
+label: m_CHO_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {4,S}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B} {7,S}
+  4    C  u0 {1,S} {5,D} {6,S}
+  5    O  u0 {4,D}
+  6    H  u0 {4,S}
+  7    C  u0 {3,S} {8,D} {9,S}
+  8    O  u0 {7,D}
+  9    H  u0 {7,S}
+---
+label: o_CH3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C u0 {1,S} {4,S} {5,S} {6,S}
+  4    H u0 {3,S}
+  5    H u0 {3,S}
+  6    H u0 {3,S}
+---
+label: o_CH3_C2H5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {7,S}
+  3    C u0 {1,S} {4,S} {5,S} {6,S}
+  4    H u0 {3,S}
+  5    H u0 {3,S}
+  6    H u0 {3,S}
+  7    C u0 {2,S} {8,S} {9,S} {10,S}
+  8    H u0 {7,S}
+  9    H u0 {7,S}
+  10   C u0 {7,S} {11,S} {12,S} {13,S}
+  11   H u0 {10,S}
+  12   H u0 {10,S}
+  13   H u0 {10,S}
+solute:
+  S: 0.02407
+  B: -0.0113
+  E: 0.04752
+  L: 0.08493
+  A: 0.0
+dataCount:
+  S: 13.0
+  B: 12.0
+  E: 14.0
+  L: 13.0
+  A: 14.0
+---
+label: o_CH3_CH3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {7,S}
+  3    C u0 {1,S} {4,S} {5,S} {6,S}
+  4    H u0 {3,S}
+  5    H u0 {3,S}
+  6    H u0 {3,S}
+  7    C u0 {2,S} {8,S} {9,S} {10,S}
+  8    H u0 {7,S}
+  9    H u0 {7,S}
+  10    H u0 {7,S}
+solute:
+  S: 0.00252
+  B: 0.00305
+  E: 0.01519
+  L: 0.05823
+  A: 0.0
+dataCount:
+  S: 78.0
+  B: 72.0
+  E: 83.0
+  L: 73.0
+  A: 83.0
+---
+label: o_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C u0 {1,S} {4,S} {5,D}
+  4    H u0 {3,S}
+  5    O u0 {3,D}
+---
+label: o_CHO_CH3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {6,S}
+  3    C u0 {1,S} {4,S} {5,D}
+  4    H u0 {3,S}
+  5    O u0 {3,D}
+  6    C u0 {2,S} {7,S} {8,S} {9,S}
+  7    H u0 {6,S}
+  8    H u0 {6,S}
+  9    H u0 {6,S}
+solute:
+  S: -0.02032
+  B: 0.01155
+  E: 0.0217
+  L: 0.05993
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 3.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: o_CHO_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    C u0 {1,S} {4,S} {8,D}
+  4    H u0 {3,S}
+  5    C u0 {2,S} {6,S} {7,D}
+  6    H u0 {5,S}
+  7    O u0 {5,D}
+  8    O u0 {3,D}
+solute:
+  S: -0.02599
+  B: 0.02166
+  E: -0.02119
+  L: 0.05049
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: o_CHO_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {6,S}
+  3    C u0 {1,S} {4,S} {5,D}
+  4    H u0 {3,S}
+  5    O u0 {3,D}
+  6    O u0 {2,S} {7,S}
+  7    C u0 {6,S} {8,S} {9,S} {10,S}
+  8    H u0 {7,S}
+  9    H u0 {7,S}
+  10   H u0 {7,S}
+solute:
+  S: -0.00691
+  B: -0.02058
+  E: 0.03712
+  L: 0.03491
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: o_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O u0 {1,S} {4,S}
+  4    C u0 {3,S} {5,S} {6,S} {7,S}
+  5    H u0 {4,S}
+  6    H u0 {4,S}
+  7    H u0 {4,S}
+---
+label: o_MeO_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {8,S}
+  3    O u0 {1,S} {4,S}
+  4    C u0 {3,S} {5,S} {6,S} {7,S}
+  5    H u0 {4,S}
+  6    H u0 {4,S}
+  7    H u0 {4,S}
+  8    O u0 {2,S} {9,S}
+  9    C u0 {8,S} {10,S} {11,S} {12,S}
+  10   H u0 {9,S}
+  11   H u0 {9,S}
+  12   H u0 {9,S}
+solute:
+  S: 0.00232
+  B: 0.03528
+  E: -0.00533
+  L: 0.02199
+  A: 0.0
+dataCount:
+  S: 37.0
+  B: 27.0
+  E: 38.0
+  L: 35.0
+  A: 37.0
+---
+label: o_OH
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O u0 {1,S} {4,S}
+  4    H u0 {3,S}
+---
+label: o_OH_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O u0 {1,S} {4,S}
+  4    H u0 {3,S}
+  5    C u0 {2,S} {6,S} {7,D}
+  6    H u0 {5,S}
+  7    O u0 {5,D}
+solute:
+  S: -0.00219
+  B: -0.08964
+  E: -0.02234
+  L: -0.12099
+  A: -0.12705
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: o_OH_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O u0 {1,S} {4,S}
+  4    H u0 {3,S}
+  5    O u0 {2,S} {6,S}
+  6    C u0 {5,S} {7,S} {8,S} {9,S}
+  7    H u0 {6,S}
+  8    H u0 {6,S}
+  9    H u0 {6,S}
+solute:
+  S: -0.04689
+  B: 0.03429
+  E: -0.04782
+  L: -0.08123
+  A: -0.15375
+dataCount:
+  S: 27.0
+  B: 26.0
+  E: 30.0
+  L: 30.0
+  A: 27.0
+---
+label: o_OH_OH
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O u0 {1,S} {4,S}
+  4    H u0 {3,S}
+  5    O u0 {2,S} {6,S}
+  6    H u0 {5,S}
+solute:
+  S: -0.0125
+  B: -0.01125
+  E: -0.00857
+  L: -0.04727
+  A: -0.04812
+dataCount:
+  S: 45.0
+  B: 45.0
+  E: 46.0
+  L: 45.0
+  A: 45.0
+---
+label: o_vinyl
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C u0 {1,S} {4,S} {5,D}
+  4    H u0 {3,S}
+  5    C u0 {3,D} {6,S} {7,S}
+  6   H u0 {5,S}
+  7   H u0 {5,S}
+---
+label: o_vinyl_CH3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {8,S}
+  3    C u0 {1,S} {4,S} {5,D}
+  4    H u0 {3,S}
+  5    C u0 {3,D} {6,S} {7,S}
+  6    H u0 {5,S}
+  7    H u0 {5,S}
+  8    C u0 {2,S} {9,S} {10,S} {11,S}
+  9    H u0 {8,S}
+  10   H u0 {8,S}
+  11   H u0 {8,S}
+solute:
+  S: 0.00322
+  B: -0.01187
+  E: 0.01917
+  L: -0.0198
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: p_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    C u0 {1,S} {6,S} {7,D}
+  6    H u0 {5,S}
+  7    O u0 {5,D}
+---
+label: p_CHO_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    C u0 {1,S} {6,S} {10,D}
+  6    H u0 {5,S}
+  7    C u0 {4,S} {8,D} {9,S}
+  8    O u0 {7,D}
+  9    H u0 {7,S}
+  10   O u0 {5,D}
+solute:
+  S: -0.03508
+  B: -0.0012
+  E: -0.00785
+  L: -0.05185
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: p_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O u0 {1,S} {6,S}
+  6    C u0 {5,S} {7,S} {8,S} {9,S}
+  7    H u0 {6,S}
+  8    H u0 {6,S}
+  9    H u0 {6,S}
+---
+label: p_MeO_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O u0 {1,S} {6,S}
+  6    C u0 {5,S} {10,S} {11,S} {12,S}
+  7    C u0 {4,S} {8,D} {9,S}
+  8    O u0 {7,D}
+  9    H u0 {7,S}
+  10   H u0 {6,S}
+  11   H u0 {6,S}
+  12   H u0 {6,S}
+solute:
+  S: 0.03761
+  B: -0.04243
+  E: 0.01332
+  L: -0.01369
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: p_MeO_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O u0 {1,S} {6,S}
+  6    C u0 {5,S} {12,S} {13,S} {14,S}
+  7    O u0 {4,S} {8,S}
+  8    C u0 {7,S} {9,S} {10,S} {11,S}
+  9    H u0 {8,S}
+  10   H u0 {8,S}
+  11   H u0 {8,S}
+  12   H u0 {6,S}
+  13   H u0 {6,S}
+  14   H u0 {6,S}
+solute:
+  S: 0.01741
+  B: -0.02377
+  E: -0.01924
+  L: -0.06033
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 6.0
+  L: 6.0
+  A: 6.0
+---
+label: p_OH
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O u0 {1,S} {6,S}
+  6    H u0 {5,S}
+---
+label: p_OH_CHO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O u0 {1,S} {6,S}
+  6    H u0 {5,S}
+  7    C u0 {4,S} {8,D} {9,S}
+  8    O u0 {7,D}
+  9    H u0 {7,S}
+solute:
+  S: -0.00084
+  B: -0.02017
+  E: -0.00036
+  L: 0.17408
+  A: 0.03002
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 14.0
+  L: 14.0
+  A: 5.0
+---
+label: p_OH_MeO
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O u0 {1,S} {6,S}
+  6    H u0 {5,S}
+  7    O u0 {4,S} {8,S}
+  8    C u0 {7,S} {9,S} {10,S} {11,S}
+  9    H u0 {8,S}
+  10   H u0 {8,S}
+  11   H u0 {8,S}
+solute:
+  S: 0.05626
+  B: -0.02969
+  E: -0.02441
+  L: -0.06934
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 6.0
+  L: 5.0
+  A: 4.0
+---
+label: p_OH_OH
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O u0 {1,S} {6,S}
+  6    H u0 {5,S}
+  7    O u0 {4,S} {8,S}
+  8    H u0 {7,S}
+solute:
+  S: -0.01768
+  B: -0.01463
+  E: 0.00979
+  L: -0.0721
+  A: 0.0
+dataCount:
+  S: 20.0
+  B: 20.0
+  E: 20.0
+  L: 20.0
+  A: 20.0

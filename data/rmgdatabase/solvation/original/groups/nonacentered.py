@@ -874,7 +874,7 @@ L1: R
             L4: Lactam4
             L4: Lactam5
             L4: Lactam6
-            L4: Lactam7        
+            L4: Lactam7
         L3: Cd(O2d)N
             L4: NCd(O2d)N
             L4: OsCd(O2d)N

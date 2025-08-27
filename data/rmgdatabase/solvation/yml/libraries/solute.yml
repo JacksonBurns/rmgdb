@@ -1,0 +1,3518 @@
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propane
+adjacency_list: CCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.345
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-butane
+adjacency_list: CCCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.345
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpropane
+adjacency_list: CC(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.243
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-pentane
+adjacency_list: CCCCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.087
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylbutane
+adjacency_list: CCC(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.371
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,2-dimethylpropane
+adjacency_list: CC(C)(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.543
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-hexane
+adjacency_list: CCCCCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.247
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpentane
+adjacency_list: CCCC(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.275
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylpentane
+adjacency_list: CCC(C)CC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.281
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,2-dimethylbutane
+adjacency_list: CCC(C)(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.091
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,3-dimethylbutane
+adjacency_list: CC(C)C(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.0825
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-heptane
+adjacency_list: CCCCCCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.119
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylhexane
+adjacency_list: CCCCC(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.17
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,2-dimethylpentane
+adjacency_list: CCCC(C)(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,3-dimethylpentane
+adjacency_list: CCC(C)C(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,4-dimethylpentane
+adjacency_list: CC(C)CC(C)C
+solute:
+  S: 0.0811
+  B: 0.01778
+  E: 0.08002
+  L: 0.37429
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3,3-dimethylpentane
+adjacency_list: CCC(C)(C)CC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-octane
+adjacency_list: CCCCCCCC
+solute:
+  S: 0.07856
+  B: 0.01187
+  E: 0.24563
+  L: 0.75301
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylheptane
+adjacency_list: CCCCC(C)CC
+solute:
+  S: 0.06907
+  B: 0.03191
+  E: 0.30385
+  L: 0.64169
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,2,4-trimethylpentane
+adjacency_list: CC(C)CC(C)(C)C
+solute:
+  S: 0.06184
+  B: 0.05644
+  E: 0.22728
+  L: 0.45812
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,3,4-trimethylpentane
+adjacency_list: CC(C)C(C)C(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-nonane
+adjacency_list: CCCCCCCCC
+solute:
+  S: 0.10974
+  B: 0.01468
+  E: 0.11814
+  L: 0.53417
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,2,5-trimethylhexane
+adjacency_list: CC(C)CCC(C)(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-decane
+adjacency_list: CCCCCCCCCC
+solute:
+  S: 0.05477
+  B: 0.07566
+  E: 0.13338
+  L: 0.85899
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclopropane
+adjacency_list: C1CC1
+solute:
+  S: 0.06238
+  B: 0.20534
+  E: 0.12145
+  L: 0.72083
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclopentane
+adjacency_list: C1CCCC1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methylcyclopentane
+adjacency_list: CC1CCCC1
+solute:
+  S: 0.08806
+  B: 0.08873
+  E: 0.1174
+  L: 0.77137
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-propylcyclopentane
+adjacency_list: CCCC1CCCC1
+solute:
+  S: 0.14959
+  B: 0.01886
+  E: 0.14037
+  L: 0.78052
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclohexane
+adjacency_list: C1CCCCC1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methylcyclohexane
+adjacency_list: CC1CCCCC1
+solute:
+  S: 0.1768
+  B: 0.03402
+  E: 0.25607
+  L: 0.94701
+  A: 0.0
+---
+short_description: 'E, L values are the '
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1,2-dimethylcyclohexane
+adjacency_list: CC1CCCCC1C
+solute:
+  S: 0.07275
+  B: 0.03881
+  E: 0.30204
+  L: 0.98441
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethene
+adjacency_list: C=C
+solute:
+  S: 0.10827
+  B: 0.13776
+  E: 0.10492
+  L: 0.53771
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propene
+adjacency_list: C=CC
+solute:
+  S: 0.11593
+  B: 0.01448
+  E: 0.11357
+  L: 0.53224
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-butene
+adjacency_list: C=CCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-pentene
+adjacency_list: C=CCCC
+solute:
+  S: 0.12621
+  B: 0.11692
+  E: 0.21711
+  L: 1.02731
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-pentene
+adjacency_list: CC=CCC
+solute:
+  S: 0.11872
+  B: 0.11746
+  E: 0.22711
+  L: 0.98327
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylbut-1-ene
+adjacency_list: C=CC(C)C
+solute:
+  S: -0.04532
+  B: 0.03414
+  E: 0.10585
+  L: 0.37962
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylbut-2-ene
+adjacency_list: CC=C(C)C
+solute:
+  S: 0.18304
+  B: 0.14874
+  E: 0.25906
+  L: 0.88577
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-hexene
+adjacency_list: C=CCCCC
+solute:
+  S: 0.09953
+  B: -0.03875
+  E: 0.13249
+  L: 0.42484
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpent-1-ene
+adjacency_list: C=C(C)CCC
+solute:
+  S: 0.03915
+  B: 0.02085
+  E: 0.04258
+  L: 0.24081
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-heptene
+adjacency_list: C=CCCCCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-octene
+adjacency_list: C=CCCCCCC
+solute:
+  S: 0.06988
+  B: 0.02674
+  E: 0.17229
+  L: 0.40857
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-nonene
+adjacency_list: C=CCCCCCCC
+solute:
+  S: 0.07086
+  B: 0.06486
+  E: 0.13979
+  L: 0.71759
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1,3-butadiene
+adjacency_list: C=CC=C
+solute:
+  S: 0.08305
+  B: 0.09566
+  E: 0.11012
+  L: 0.8421
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylbuta-1,3-diene
+adjacency_list: C=CC(=C)C
+solute:
+  S: 0.01163
+  B: 0.0754
+  E: 0.09593
+  L: 0.57243
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,3-dimethylbuta-1,3-diene
+adjacency_list: C=C(C)C(=C)C
+solute:
+  S: -0.02437
+  B: 0.1304
+  E: 0.09298
+  L: 0.90955
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclopentene
+adjacency_list: C1=CCCC1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclohexene
+adjacency_list: C1=CCCCC1
+solute:
+  S: 0.04055
+  B: 0.01613
+  E: 0.12083
+  L: 0.54122
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1-methylcyclohexene
+adjacency_list: CC1=CCCCC1
+solute:
+  S: -0.1248
+  B: 0.00772
+  E: 0.11354
+  L: 0.34015
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclohepta-1,3,5-triene
+adjacency_list: C1=CC=CCC=C1
+solute:
+  S: 0.07357
+  B: 0.06763
+  E: 0.12021
+  L: 0.75313
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propyne
+adjacency_list: C#CC
+solute:
+  S: -0.07287
+  B: 0.14192
+  E: 0.10959
+  L: 0.4707
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: but-1-yne
+adjacency_list: C#CCC
+solute:
+  S: 0.19617
+  B: 0.00422
+  E: 0.07767
+  L: 0.7068
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pent-1-yne
+adjacency_list: C#CCCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hex-1-yne
+adjacency_list: C#CCCCC
+solute:
+  S: 0.00563
+  B: 0.01953
+  E: 0.07725
+  L: 0.26644
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hept-1-yne
+adjacency_list: C#CCCCCC
+solute:
+  S: 0.11598
+  B: 0.00278
+  E: 0.04079
+  L: 0.23385
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: oct-1-yne
+adjacency_list: C#CCCCCCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: diethylether
+adjacency_list: CCOCC
+solute:
+  S: -0.02836
+  B: 0.0517
+  E: 0.00114
+  L: 0.24359
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: di-n-propyl ether
+adjacency_list: CCCOCCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: diisopropyl ether
+adjacency_list: CC(C)OC(C)C
+solute:
+  S: 0.06822
+  B: 0.03635
+  E: 0.11788
+  L: 0.46689
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: di-n-butyl ether
+adjacency_list: CCCCOCCCC
+solute:
+  S: 0.16979
+  B: 0.05857
+  E: 0.09432
+  L: 0.51536
+  A: 0.08872
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: tetrahydrofuran
+adjacency_list: C1CCOC1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methyltetrahydrofuran
+adjacency_list: CC1CCCO1
+solute:
+  S: 0.02528
+  B: 0.01601
+  E: -0.00086
+  L: -0.00928
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2,5-dimethyltetrahydrofuran
+adjacency_list: CC1CCC(C)O1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: tetrahydropyran
+adjacency_list: C1CCOCC1
+solute:
+  S: 0.11598
+  B: 0.00278
+  E: 0.04079
+  L: 0.23385
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 1,4-dioxane
+adjacency_list: C1COCCO1
+solute:
+  S: 0.20222
+  B: 0.09272
+  E: -0.00212
+  L: 0.26366
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: formaldehyde
+adjacency_list: C=O
+solute:
+  S: -0.01538
+  B: 0.02984
+  E: 0.03048
+  L: 0.05675
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: acetaldehyde
+adjacency_list: CC=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propionaldehyde
+adjacency_list: CCC=O
+solute:
+  S: 0.06988
+  B: -0.05615
+  E: -0.00092
+  L: -0.04818
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: butyraldehyde
+adjacency_list: CCCC=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isobutyraldehyde
+adjacency_list: CC(C)C=O
+solute:
+  S: 0.15051
+  B: 0.12324
+  E: 0.1175
+  L: 0.95445
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentanal
+adjacency_list: CCCCC=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hexanal
+adjacency_list: CCCCCC=O
+solute:
+  S: 0.03378
+  B: 0.03713
+  E: 0.04079
+  L: 0.18477
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: heptanal
+adjacency_list: CCCCCCC=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: octanal
+adjacency_list: CCCCCCCC=O
+solute:
+  S: 0.05273
+  B: 0.01072
+  E: 0.09964
+  L: 0.45881
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: nonanal
+adjacency_list: CCCCCCCCC=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: but-2-enal
+adjacency_list: CC=CC=O
+solute:
+  S: 0.02917
+  B: 0.0151
+  E: 0.07612
+  L: 0.29643
+  A: -0.00186
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hex-2-enal
+adjacency_list: CCCC=CC=O
+solute:
+  S: 0.00563
+  B: 0.01953
+  E: 0.07725
+  L: 0.26644
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propanone
+adjacency_list: CC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: butanone
+adjacency_list: CCC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentan-2-one
+adjacency_list: CCCC(C)=O
+solute:
+  S: 0.05704
+  B: 0.02777
+  E: 0.08002
+  L: 0.54157
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentan-3-one
+adjacency_list: CCC(=O)CC
+solute:
+  S: 0.16925
+  B: 0.04807
+  E: 0.06879
+  L: 0.50992
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylbutan-2-one
+adjacency_list: CC(=O)C(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hexan-2-one
+adjacency_list: CCCCC(C)=O
+solute:
+  S: 0.03743
+  B: -0.02447
+  E: 0.08017
+  L: 0.23881
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 4-methylpentan-2-one
+adjacency_list: CC(=O)CC(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: heptan-2-one
+adjacency_list: CCCCCC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: heptan-4-one
+adjacency_list: CCCC(=O)CCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: octan-2-one
+adjacency_list: CCCCCCC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: nonan-2-one
+adjacency_list: CCCCCCCC(C)=O
+solute:
+  S: 0.06281
+  B: 0.10749
+  E: 0.0724
+  L: 0.44045
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: nonan-5-one
+adjacency_list: CCCCC(=O)CCCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: decan-2-one
+adjacency_list: CCCCCCCCC(C)=O
+solute:
+  S: 0.07519
+  B: 0.02264
+  E: 0.03618
+  L: 0.02914
+  A: 0.01906
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: undecan-2-one
+adjacency_list: CCCCCCCCCC(C)=O
+solute:
+  S: 0.00408
+  B: 0.04293
+  E: 0.0292
+  L: 0.13768
+  A: 0.01839
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclopentanone
+adjacency_list: O=C1CCCC1
+solute:
+  S: -0.06084
+  B: 0.12192
+  E: 0.0175
+  L: -0.00533
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: cyclohexanone
+adjacency_list: O=C1CCCCC1
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl formate
+adjacency_list: COC=O
+solute:
+  S: -0.0305
+  B: -0.02876
+  E: -0.0308
+  L: -0.13201
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl formate
+adjacency_list: CCOC=O
+solute:
+  S: 0.12285
+  B: 0.08867
+  E: 0.08413
+  L: 0.40012
+  A: 0.09053
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-propyl formate
+adjacency_list: CCCOC=O
+solute:
+  S: 0.19227
+  B: 0.0896
+  E: 0.0014
+  L: 0.33521
+  A: 0.05293
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isopropyl formate
+adjacency_list: CC(C)OC=O
+solute:
+  S: 0.13994
+  B: 0.04639
+  E: 0.0055
+  L: 0.3809
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isobutyl formate
+adjacency_list: CC(C)COC=O
+solute:
+  S: -0.09423
+  B: 0.04519
+  E: 0.05442
+  L: 0.13761
+  A: 0.05485
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isoamyl formate
+adjacency_list: CC(C)CCOC=O
+solute:
+  S: -0.08133
+  B: 0.09407
+  E: 0.00996
+  L: 0.03761
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl acetate
+adjacency_list: COC(C)=O
+solute:
+  S: -0.02549
+  B: 0.03455
+  E: 0.07157
+  L: 0.2347
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl acetate
+adjacency_list: CCOC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-propyl acetate
+adjacency_list: CCCOC(C)=O
+solute:
+  S: 0.02795
+  B: 0.05094
+  E: 0.03857
+  L: 0.13208
+  A: 0.00452
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isopropyl acetate
+adjacency_list: CC(=O)OC(C)C
+solute:
+  S: 0.32063
+  B: 0.0034
+  E: 0.05844
+  L: 0.24039
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-butyl acetate
+adjacency_list: CCCCOC(C)=O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isobutyl acetate
+adjacency_list: CC(=O)OCC(C)C
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-pentyl acetate
+adjacency_list: CCCCCOC(C)=O
+solute:
+  S: -0.05725
+  B: 0.01418
+  E: 0.02108
+  L: 0.11667
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isoamyl acetate
+adjacency_list: CC(=O)OCCC(C)C
+solute:
+  S: 0.00217
+  B: -0.03735
+  E: -0.03977
+  L: 0.22237
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-hexyl acetate
+adjacency_list: CCCCCCOC(C)=O
+solute:
+  S: -0.14401
+  B: -0.1385
+  E: 0.03368
+  L: -0.14794
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl propanoate
+adjacency_list: CCC(=O)OC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl propanoate
+adjacency_list: CCOC(=O)CC
+solute:
+  S: 0.06347
+  B: 0.03769
+  E: 0.11461
+  L: 0.37581
+  A: 0.01779
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-propyl propanoate
+adjacency_list: CCCOC(=O)CC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-pentyl propanoate
+adjacency_list: CCCCCOC(=O)CC
+solute:
+  S: -0.08418
+  B: -0.00225
+  E: 0.01188
+  L: -0.05354
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl butanoate
+adjacency_list: CCCC(=O)OC
+solute:
+  S: 0.10967
+  B: -0.04988
+  E: 0.05205
+  L: 0.28493
+  A: 0.05565
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl butanoate
+adjacency_list: CCCC(=O)OCC
+solute:
+  S: -0.03357
+  B: 0.01532
+  E: -0.03313
+  L: -0.07412
+  A: -0.01274
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: n-propyl butanoate
+adjacency_list: CCCOC(=O)CCC
+solute:
+  S: -0.0335
+  B: -0.08006
+  E: -0.00704
+  L: -0.07948
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl pentanoate
+adjacency_list: CCCCC(=O)OC
+solute:
+  S: -0.02841
+  B: 0.02223
+  E: 0.08891
+  L: 0.22034
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl pentanoate
+adjacency_list: CCCCC(=O)OCC
+solute:
+  S: 0.02503
+  B: 0.02072
+  E: -0.0181
+  L: -0.29483
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methyl hexanoate
+adjacency_list: CCCCCC(=O)OC
+solute:
+  S: 0.01559
+  B: 0.03222
+  E: -0.01775
+  L: -0.13747
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethyl hexanoate
+adjacency_list: CCCCCC(=O)OCC
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: isobutyl isobutanoate
+adjacency_list: CC(C)COC(=O)C(C)C
+solute:
+  S: 0.02704
+  B: 0.03807
+  E: 0.04191
+  L: 0.11996
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: acetic acid
+adjacency_list: CC(=O)O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propanoic acid
+adjacency_list: CCC(=O)O
+solute:
+  S: 0.04357
+  B: 0.0489
+  E: 0.00355
+  L: -0.18553
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: butanoic acid
+adjacency_list: CCCC(=O)O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentanoic acid
+adjacency_list: CCCCC(=O)O
+solute:
+  S: -0.01962
+  B: -0.00898
+  E: 0.00618
+  L: -0.32615
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylbutanoic acid
+adjacency_list: CC(C)CC(=O)O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hexanoic acid
+adjacency_list: CCCCCC(=O)O
+solute:
+  S: 0.22078
+  B: 0.01338
+  E: 0.0692
+  L: 0.08112
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: water
+adjacency_list: O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: methanol
+adjacency_list: CO
+solute:
+  S: 0.02798
+  B: 0.00501
+  E: 0.01823
+  L: -0.01933
+  A: 0.00026
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethanol
+adjacency_list: CCO
+solute:
+  S: 0.07491
+  B: -0.03993
+  E: 0.05398
+  L: -0.21798
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: butan-1-ol
+adjacency_list: CCCCO
+solute:
+  S: -0.00496
+  B: 0.04553
+  E: 0.00847
+  L: -0.06074
+  A: 0.03725
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpropan-1-ol
+adjacency_list: CC(C)CO
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: butan-2-ol
+adjacency_list: CCC(C)O
+solute:
+  S: 0.00581
+  B: 0.03213
+  E: 0.02256
+  L: 0.2041
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpropan-2-ol
+adjacency_list: CC(C)(C)O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentan-1-ol
+adjacency_list: CCCCCO
+solute:
+  S: 0.01149
+  B: 0.03832
+  E: -0.02591
+  L: 0.01317
+  A: 0.11724
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentan-2-ol
+adjacency_list: CCCC(C)O
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: pentan-3-ol
+adjacency_list: CCC(O)CC
+solute:
+  S: 0.07834
+  B: -0.06728
+  E: 0.01477
+  L: -0.04321
+  A: 0.03969
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylbutan-1-ol
+adjacency_list: CCC(C)CO
+solute:
+  S: -0.08075
+  B: -0.02867
+  E: -0.00374
+  L: -0.06622
+  A: 0.03418
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylbutan-1-ol
+adjacency_list: CC(C)CCO
+solute:
+  S: 0.004
+  B: 0.0094
+  E: 0.05806
+  L: 0.06004
+  A: 0.00477
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylbutan-2-ol
+adjacency_list: CCC(C)(C)O
+solute:
+  S: 0.09564
+  B: 0.06623
+  E: 0.01328
+  L: 0.08165
+  A: 0.02479
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hexan-1-ol
+adjacency_list: CCCCCCO
+solute:
+  S: -0.00562
+  B: -0.07988
+  E: -0.03377
+  L: -0.09524
+  A: 0.09476
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: hexan-3-ol
+adjacency_list: CCCC(O)CC
+solute:
+  S: -0.12167
+  B: 0.02031
+  E: -0.08476
+  L: -0.16654
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 2-methylpentan-2-ol
+adjacency_list: CCCC(C)(C)O
+solute:
+  S: 0.36542
+  B: 0.05361
+  E: -0.01988
+  L: 0.81639
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: Ar
+adjacency_list: '[Ar]'
+solute:
+  S: 0.03325
+  B: -0.0312
+  E: -0.06544
+  L: 0.17235
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: Ne
+adjacency_list: '[Ne]'
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: He
+adjacency_list: '[He]'
+solute:
+  S: 0.05757
+  B: 0.07131
+  E: 0.04521
+  L: 0.09985
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  Michael H. Abraham,a Andreas M. Zissimos, a and William E. Acree, Jr.
+  Phys. Chem. Chem. Phys., 2001,3, 3732-3736
+  DOI: 10.1039/B104682A
+label: N2
+adjacency_list: N#N
+solute:
+  S: -0.05927
+  B: -0.0593
+  E: -0.02584
+  L: 0.00516
+  A: 0.0
+---
+short_description: ''
+long_description: "\nMichael H. Abraham,a Andreas M. Zissimos, a and William E. Acree,\
+  \ Jr.\nPhys. Chem. Chem. Phys., 2001,3, 3732-3736\nDOI: 10.1039/B104682A \n"
+label: O2
+adjacency_list: '[O][O]'
+solute:
+  S: -0.05886
+  B: 0.00323
+  E: -0.04972
+  L: -0.30062
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 3-Chloropropan-1-ol
+adjacency_list: OCCCCl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen
+adjacency_list: '[H][H]'
+solute:
+  S: -0.09615
+  B: -0.04351
+  E: -0.08829
+  L: -0.2278
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ozone
+adjacency_list: '[O-][O+]=O'
+solute:
+  S: -0.00034
+  B: -0.0091
+  E: -0.06551
+  L: -0.06894
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: nitrous oxide
+adjacency_list: '[N-]=[N+]=O'
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: nitric oxide
+adjacency_list: '[N]=O'
+solute:
+  S: -0.0337
+  B: 0.07988
+  E: -0.03325
+  L: 0.02304
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: carbon monoxide
+adjacency_list: '[C-]#[O+]'
+solute:
+  S: 0.02604
+  B: 0.06312
+  E: 0.05659
+  L: 0.73746
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: carbon dioxide
+adjacency_list: C(=O)=O
+solute:
+  S: 0.07717
+  B: 0.00755
+  E: -0.01202
+  L: 0.16951
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen peroxide
+adjacency_list: OO
+solute:
+  S: 0.1506
+  B: -0.00263
+  E: -5.0e-05
+  L: 0.68732
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: sulfur dioxide
+adjacency_list: O=S=O
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: carbonoxysulfide
+adjacency_list: C(=O)=S
+solute:
+  S: -0.05409
+  B: 0.00062
+  E: -0.05738
+  L: -0.38313
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chlorine
+adjacency_list: ClCl
+solute:
+  S: 0.06456
+  B: 0.07691
+  E: -0.01848
+  L: 0.1697
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromine
+adjacency_list: BrBr
+solute:
+  S: 0.15652
+  B: 0.04417
+  E: 0.1531
+  L: 0.48548
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: iodine
+adjacency_list: II
+solute:
+  S: -0.05204
+  B: 0.02571
+  E: -0.00388
+  L: 0.06904
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrazine
+adjacency_list: NN
+solute:
+  S: -0.0632
+  B: -0.02449
+  E: 0.01077
+  L: -0.18425
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: nitrogen trifluoride
+adjacency_list: N(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dinitrogen tetrafluoride
+adjacency_list: N(N(F)F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: phosphine
+adjacency_list: P
+solute:
+  S: -0.07348
+  B: 0.02029
+  E: -0.03701
+  L: -0.78239
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: nitrosylchloride
+adjacency_list: N(=O)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen chloride
+adjacency_list: Cl
+solute:
+  S: -0.04584
+  B: 0.04096
+  E: 0.07457
+  L: 0.35646
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen bromide
+adjacency_list: Br
+solute:
+  S: -0.0497
+  B: -0.08156
+  E: -0.04558
+  L: -0.0879
+  A: -0.09185
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen iodide
+adjacency_list: I
+solute:
+  S: -0.03897
+  B: -0.00319
+  E: -0.00714
+  L: -0.06151
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen cyanide
+adjacency_list: C#N
+solute:
+  S: -0.03648
+  B: 0.01518
+  E: -0.04339
+  L: -0.21825
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrazoic acid
+adjacency_list: N=[N+]=[N-]
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ethyne
+adjacency_list: C#C
+solute:
+  S: -0.02007
+  B: -0.04944
+  E: -0.0298
+  L: -0.5171
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluoromethane
+adjacency_list: CF
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluoroethane
+adjacency_list: CCF
+solute:
+  S: -0.08793
+  B: -0.10178
+  E: -0.0768
+  L: -0.14387
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoroethane
+adjacency_list: CC(F)F
+solute:
+  S: -0.0145
+  B: -0.05778
+  E: 0.05717
+  L: 0.27953
+  A: 0.01107
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluoroethane
+adjacency_list: CC(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoroethane
+adjacency_list: C(C(F)F)F
+solute:
+  S: -0.05307
+  B: -0.01848
+  E: -0.02205
+  L: -0.28226
+  A: -0.00122
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1,2-tetrafluoroethane
+adjacency_list: C(C(F)(F)F)F
+solute:
+  S: 0.00554
+  B: -0.02378
+  E: -0.00392
+  L: -0.07243
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2,2-tetrafluoroethane
+adjacency_list: C(C(F)F)(F)F
+solute:
+  S: -0.13304
+  B: -0.12511
+  E: -0.09555
+  L: -0.41324
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: pentafluoroethane
+adjacency_list: C(C(F)(F)F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: difluoromethane
+adjacency_list: C(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trifluoromethane
+adjacency_list: C(F)(F)F
+solute:
+  S: -0.03681
+  B: 0.06652
+  E: 0.00411
+  L: -0.20092
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tetrafluoromethane
+adjacency_list: C(F)(F)(F)F
+solute:
+  S: -0.09288
+  B: -0.06035
+  E: 0.0435
+  L: 0.12467
+  A: 0.04837
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hexafluoroethane
+adjacency_list: C(C(F)(F)F)(F)(F)F
+solute:
+  S: 0.02797
+  B: 0.06693
+  E: 0.10481
+  L: 0.28635
+  A: 0.0493
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluoroethene
+adjacency_list: C=CF
+solute:
+  S: -0.07304
+  B: 0.13635
+  E: 0.01905
+  L: -0.14087
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoroethene
+adjacency_list: C=C(F)F
+solute:
+  S: -0.18202
+  B: 0.121
+  E: 0.08612
+  L: 0.2337
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloromethane
+adjacency_list: CCl
+solute:
+  S: -0.05465
+  B: -0.02885
+  E: -0.0932
+  L: -0.10844
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dichloromethane
+adjacency_list: C(Cl)Cl
+solute:
+  S: 0.11478
+  B: 0.04618
+  E: 0.06091
+  L: 0.40369
+  A: 0.00454
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trichloromethane
+adjacency_list: C(Cl)(Cl)Cl
+solute:
+  S: -0.11569
+  B: -0.0199
+  E: -0.01764
+  L: -0.1452
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tetrachloromethane
+adjacency_list: C(Cl)(Cl)(Cl)Cl
+solute:
+  S: 0.05706
+  B: 0.0323
+  E: 0.02313
+  L: 0.23506
+  A: 0.00129
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloroethane
+adjacency_list: CCCl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-dichloroethane
+adjacency_list: CC(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-dichloroethane
+adjacency_list: C(CCl)Cl
+solute:
+  S: 0.00809
+  B: 0.06584
+  E: 0.02751
+  L: 0.16423
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trichloroethane
+adjacency_list: CC(Cl)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trichloroethane
+adjacency_list: C(C(Cl)Cl)Cl
+solute:
+  S: 0.0052
+  B: 0.02661
+  E: 0.04547
+  L: 0.0616
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2,2-tetrachloroethane
+adjacency_list: C(C(Cl)Cl)(Cl)Cl
+solute:
+  S: 0.00568
+  B: 0.04318
+  E: 0.03287
+  L: 0.33367
+  A: 0.05831
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1,2-tetrachloroethane
+adjacency_list: C(C(Cl)(Cl)Cl)Cl
+solute:
+  S: -0.01981
+  B: -0.03783
+  E: 0.10647
+  L: 0.39653
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: pentachloroethane
+adjacency_list: C(C(Cl)(Cl)Cl)(Cl)Cl
+solute:
+  S: 0.04783
+  B: 0.02773
+  E: 0.02226
+  L: 0.13322
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hexachloroethane
+adjacency_list: C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
+solute:
+  S: -0.11547
+  B: -0.03873
+  E: -0.08101
+  L: -0.20247
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tetrafluoroethene
+adjacency_list: C(=C(F)F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloroethene
+adjacency_list: C=CCl
+solute:
+  S: -0.01188
+  B: -0.02839
+  E: 0.01501
+  L: 0.28115
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-dichloroethene
+adjacency_list: C=C(Cl)Cl
+solute:
+  S: 0.07892
+  B: 0.01192
+  E: 0.02933
+  L: 0.36501
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trans-1,2,-dichloroethene
+adjacency_list: C(=C/Cl)\Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trichloroethene
+adjacency_list: C(=C(Cl)Cl)Cl
+solute:
+  S: -0.01918
+  B: 0.03892
+  E: 0.08096
+  L: 0.26538
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tetrachloroethene
+adjacency_list: C(=C(Cl)Cl)(Cl)Cl
+solute:
+  S: -0.01139
+  B: 0.0087
+  E: -0.01161
+  L: 0.06755
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromomethane
+adjacency_list: CBr
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dibromomethane
+adjacency_list: C(Br)Br
+solute:
+  S: 0.00363
+  B: 0.02291
+  E: 0.02329
+  L: 0.04069
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tribromomethane
+adjacency_list: C(Br)(Br)Br
+solute:
+  S: 0.14776
+  B: 0.07104
+  E: 0.00797
+  L: 0.11432
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: tetrabromomethane
+adjacency_list: C(Br)(Br)(Br)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromoethane
+adjacency_list: CCBr
+solute:
+  S: 0.09529
+  B: 0.08537
+  E: 0.01173
+  L: 0.15595
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-dibromoethane
+adjacency_list: CC(Br)Br
+solute:
+  S: 0.02339
+  B: 0.04516
+  E: 0.06866
+  L: 0.07688
+  A: -0.01875
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-dibromoethane
+adjacency_list: C(CBr)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2,2-tetrabromoethane
+adjacency_list: C(C(Br)Br)(Br)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromoethene
+adjacency_list: C=CBr
+solute:
+  S: 0.06672
+  B: 0.07557
+  E: 0.05253
+  L: 0.22243
+  A: 0.00459
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trans-1,2-dibromoethene
+adjacency_list: C(=C/Br)\Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: iodomethane
+adjacency_list: CI
+solute:
+  S: -0.05762
+  B: 0.11105
+  E: 0.09599
+  L: 0.24135
+  A: 0.11162
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: diiodomethane
+adjacency_list: C(I)I
+solute:
+  S: 0.13118
+  B: 0.04032
+  E: 0.27899
+  L: 0.61708
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: triiodomethane
+adjacency_list: C(I)(I)I
+solute:
+  S: 0.02803
+  B: 0.15814
+  E: 0.12515
+  L: 0.26599
+  A: 0.01928
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: iodoethane
+adjacency_list: CCI
+solute:
+  S: 0.07647
+  B: -0.0845
+  E: 0.13324
+  L: 0.63295
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluorochloromethane
+adjacency_list: C(F)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chlorobromomethane
+adjacency_list: C(Cl)Br
+solute:
+  S: 0.05294
+  B: -0.00271
+  E: -0.0848
+  L: 0.06636
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloroiodomethane
+adjacency_list: C(Cl)I
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluorochlorobromomethane
+adjacency_list: C(F)(Cl)Br
+solute:
+  S: 0.10822
+  B: 0.0046
+  E: 0.03565
+  L: 0.12163
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluorodichloromethane
+adjacency_list: C(F)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: difluorochloromethane
+adjacency_list: C(F)(F)Cl
+solute:
+  S: -0.12638
+  B: 0.1695
+  E: 0.09143
+  L: 0.24028
+  A: 0.03016
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluorodibromomethane
+adjacency_list: C(F)(Br)Br
+solute:
+  S: 0.06492
+  B: 0.05554
+  E: 0.19152
+  L: 0.51827
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dichlorobromomethane
+adjacency_list: C(Cl)(Cl)Br
+solute:
+  S: 0.13198
+  B: 0.06486
+  E: 0.11619
+  L: 0.39926
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chlorodibromomethane
+adjacency_list: C(Cl)(Br)Br
+solute:
+  S: 0.0474
+  B: 0.00784
+  E: 0.07931
+  L: 0.37109
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: fluorotrichloromethane
+adjacency_list: C(F)(Cl)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: difluorodichloromethane
+adjacency_list: C(F)(F)(Cl)Cl
+solute:
+  S: 0.10377
+  B: 0.11958
+  E: 0.17103
+  L: 0.4173
+  A: 0.07499
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trifluorochloromethane
+adjacency_list: C(F)(F)(F)Cl
+solute:
+  S: -0.01283
+  B: 0.0848
+  E: 0.04368
+  L: 0.29691
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: difluorochlorobromomethane
+adjacency_list: C(F)(F)(Cl)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dibromodifluoromethane
+adjacency_list: C(F)(F)(Br)Br
+solute:
+  S: 0.01097
+  B: 0.02374
+  E: 0.01046
+  L: 0.20396
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trifluorobromomethane
+adjacency_list: C(F)(F)(F)Br
+solute:
+  S: -0.01777
+  B: 0.08029
+  E: 0.07612
+  L: 0.03641
+  A: -0.03456
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromotrichloromethane
+adjacency_list: C(Cl)(Cl)(Cl)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1-fluoro-2-bromoethane
+adjacency_list: C(CBr)F
+solute:
+  S: 0.09759
+  B: 0.00037
+  E: 0.17123
+  L: 0.62525
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1-chloro-2-bromoethane
+adjacency_list: C(CBr)Cl
+solute:
+  S: 0.13138
+  B: 0.0196
+  E: 0.16156
+  L: 0.55053
+  A: 0.07631
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1-chloroethane
+adjacency_list: CC(F)(F)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-2-chloroethane
+adjacency_list: C(C(F)F)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1-fluoro-1,1-dichloroethane
+adjacency_list: CC(F)(Cl)Cl
+solute:
+  S: 0.26414
+  B: 0.16023
+  E: 0.06966
+  L: 0.43991
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-difluoro-1,1,2-trichloroethane
+adjacency_list: FC(Cl)C(F)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1-bromo-2-chloroethane
+adjacency_list: FC(F)(Br)CCl
+solute:
+  S: 0.1306
+  B: 0.03256
+  E: 0.02325
+  L: 0.32982
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1-chloro-2-bromoethane
+adjacency_list: C(C(F)(F)Cl)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-difluoro-1,2-dichloroethane
+adjacency_list: C(C(F)Cl)(F)Cl
+solute:
+  S: 0.05264
+  B: 0.04581
+  E: -0.06632
+  L: -0.09899
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1,2-dichloroethane
+adjacency_list: C(C(F)(F)Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluoro-2-chloroethane
+adjacency_list: C(C(F)(F)F)Cl
+solute:
+  S: 0.02333
+  B: 0.01858
+  E: 0.08286
+  L: 0.25509
+  A: -0.015
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoro-1-chloroethane
+adjacency_list: C(C(F)(F)Cl)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluoro-2,2-dibromoethane
+adjacency_list: C(C(F)(F)F)(Br)Br
+solute:
+  S: 0.07801
+  B: 0.03393
+  E: 0.02476
+  L: 0.04437
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluoro-2,2-dichloroethane
+adjacency_list: C(C(F)(F)F)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoro-1,2-dichloroethane
+adjacency_list: C(C(F)(F)Cl)(F)Cl
+solute:
+  S: 0.19908
+  B: 0.14855
+  E: 0.06814
+  L: 0.48605
+  A: 0.11753
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoro-1,2-dibromoethane
+adjacency_list: C(C(F)(F)Br)(F)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluoro-2-chloro-2-bromoethane
+adjacency_list: C(C(F)(F)F)(Cl)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1,2-tetrafluoro-2-bromoethane
+adjacency_list: C(C(F)(F)F)(F)Br
+solute:
+  S: 0.07968
+  B: 0.01758
+  E: 0.06146
+  L: 0.33013
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2,2-tetrafluoro-1-bromoethane
+adjacency_list: C(C(F)(F)Br)(F)F
+solute:
+  S: 0.03399
+  B: 0.041
+  E: 0.07796
+  L: 0.43327
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1,2-tetrafluoro-2-chloroethane
+adjacency_list: FC(Cl)C(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1,2,2-trichloroethane
+adjacency_list: C(C(F)(F)Cl)(Cl)Cl
+solute:
+  S: 0.05813
+  B: 0.01946
+  E: 0.07261
+  L: 0.41198
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoro-1-bromo-2-chloroethane
+adjacency_list: C(C(F)(F)Br)(F)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluoro-1-chloro-2-bromoethane
+adjacency_list: FC(Br)C(F)(F)Cl
+solute:
+  S: 0.04765
+  B: 0.08459
+  E: 0.04788
+  L: 0.43043
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluoro-1,2-dichloro-2-bromoethane
+adjacency_list: FC(F)(Cl)C(Cl)Br
+solute:
+  S: 0.08597
+  B: 0.03952
+  E: 0.02714
+  L: 0.08372
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1-trifluorotrichloroethane
+adjacency_list: C(C(Cl)(Cl)Cl)(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,2-trifluorotrichloroethane
+adjacency_list: C(C(F)(Cl)Cl)(F)(F)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1-difluorotetrachloroethane
+adjacency_list: C(C(Cl)(Cl)Cl)(F)(F)Cl
+solute:
+  S: 0.13378
+  B: 0.08774
+  E: 0.01198
+  L: 0.23277
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-dichlorotetrafluoroethane
+adjacency_list: C(C(F)(F)Cl)(F)(F)Cl
+solute:
+  S: 0.03841
+  B: -0.0075
+  E: 0.03615
+  L: 0.22459
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-dibromotetrafluoroethane
+adjacency_list: C(C(F)(F)Br)(F)(F)Br
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,1,2-tetrafluoro-2-chloro-2-bromoethane
+adjacency_list: C(C(F)(Cl)Br)(F)(F)F
+solute:
+  S: -0.06523
+  B: 0.1068
+  E: 0.24047
+  L: 0.42503
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloropentafluoroethane
+adjacency_list: C(C(F)(F)Cl)(F)(F)F
+solute:
+  S: 0.25006
+  B: 0.14664
+  E: 0.12921
+  L: 0.65557
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromopentafluoroethane
+adjacency_list: C(C(F)(F)Br)(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chlorotrifluoroethene
+adjacency_list: C(=C(F)Cl)(F)F
+solute:
+  S: 0.12495
+  B: 0.06331
+  E: 0.0067
+  L: 0.11994
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromotrifluoroethene
+adjacency_list: C(=C(F)Br)(F)F
+solute:
+  S: 0.05238
+  B: 0.0511
+  E: -0.02091
+  L: 0.21
+  A: 0.00197
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,1,-difluoro-2-chloroethene
+adjacency_list: C(=C(F)F)Cl
+solute:
+  S: 0.08058
+  B: 0.11574
+  E: 0.01135
+  L: 0.25513
+  A: 0.10422
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dimethyl ether
+adjacency_list: COC
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ethylene oxide
+adjacency_list: C1CO1
+solute:
+  S: 0.0943
+  B: 0.15315
+  E: 0.12938
+  L: 0.65504
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloromethyl methyl ether
+adjacency_list: COCCl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ketene
+adjacency_list: C=C=O
+solute:
+  S: 0.06871
+  B: 0.00064
+  E: 0.14722
+  L: 0.30053
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trichloroethanal
+adjacency_list: C(=O)C(Cl)(Cl)Cl
+solute:
+  S: 0.032
+  B: -0.06231
+  E: 0.10723
+  L: 0.39227
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: acetonitrile
+adjacency_list: CC#N
+solute:
+  S: 0.01504
+  B: 0.07196
+  E: 0.09643
+  L: 0.1797
+  A: 0.06621
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloroacetonitrile
+adjacency_list: C(C#N)Cl
+solute:
+  S: 0.00369
+  B: 0.00874
+  E: 0.05214
+  L: 0.12815
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dichloroacetonitrile
+adjacency_list: ClC(Cl)C#N
+solute:
+  S: 0.02306
+  B: -0.03132
+  E: -0.07222
+  L: -0.14316
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trichloroacetonitrile
+adjacency_list: C(#N)C(Cl)(Cl)Cl
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dibromoacetonitrile
+adjacency_list: BrC(Br)C#N
+solute:
+  S: 0.0515
+  B: 0.10284
+  E: -0.01548
+  L: 0.42766
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: bromochloroacetonitrile
+adjacency_list: C(#N)C(Cl)Br
+solute:
+  S: -0.03404
+  B: -0.04538
+  E: -0.00417
+  L: 0.16282
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: methylisocyanide
+adjacency_list: C[N+]#[C-]
+solute:
+  S: -0.00581
+  B: 0.03189
+  E: 0.10957
+  L: 0.0395
+  A: -0.02945
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ammonia
+adjacency_list: N
+solute:
+  S: 0.02226
+  B: -0.01506
+  E: 0.07272
+  L: 0.08631
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: methylamine
+adjacency_list: CN
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ethylamine
+adjacency_list: CCN
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dimethylamine
+adjacency_list: CNC
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: aziridine
+adjacency_list: C1CN1
+solute:
+  S: 0.09462
+  B: 0.00309
+  E: 0.10521
+  L: 0.44391
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: cyanamide
+adjacency_list: C(#N)N
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: formamide
+adjacency_list: C(=O)N
+solute:
+  S: -0.02507
+  B: 0.00376
+  E: 0.03644
+  L: 0.24129
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: formic acid
+adjacency_list: C(=O)O
+solute:
+  S: 0.08511
+  B: 0.03005
+  E: 0.09702
+  L: 0.54967
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: chloroacetoyl chloride
+adjacency_list: C(C(=O)Cl)Cl
+solute:
+  S: 0.00706
+  B: 0.0366
+  E: 0.06762
+  L: 0.4507
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 2,2,2-trifluoroethanol
+adjacency_list: C(C(F)(F)F)O
+solute:
+  S: 0.006
+  B: 0.02316
+  E: 0.12287
+  L: 0.69995
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 2-chloroethanol
+adjacency_list: C(CCl)O
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 2,2,2-trichloroethanol
+adjacency_list: C(C(Cl)(Cl)Cl)O
+solute:
+  S: 0.036
+  B: 0.07147
+  E: 0.09085
+  L: 0.3019
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 2-bromoethanol
+adjacency_list: C(CBr)O
+solute:
+  S: 0.12557
+  B: 0.05233
+  E: 0.03925
+  L: 0.31276
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: sulfur hexafluoride
+adjacency_list: FS(F)(F)(F)(F)F
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: carbon disulphide
+adjacency_list: C(=S)=S
+solute:
+  S: 0.18917
+  B: 0.05309
+  E: 0.07234
+  L: 0.56724
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: hydrogen sulfide
+adjacency_list: S
+solute:
+  S: -0.00344
+  B: 0.04936
+  E: 0.02238
+  L: 0.17804
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: methylthiol
+adjacency_list: CS
+solute:
+  S: 0.18364
+  B: 0.13893
+  E: 0.06493
+  L: 0.53183
+  A: 0.09687
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ethylthiol
+adjacency_list: CCS
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: vinylthiol
+adjacency_list: C=CS
+solute:
+  S: 0.04783
+  B: 0.0362
+  E: 0.11287
+  L: 0.56372
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: trichloromethylmercaptan
+adjacency_list: SC(Cl)(Cl)Cl
+solute:
+  S: 0.10498
+  B: 0.03593
+  E: 0.12358
+  L: 0.52628
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: dimethyl sulfide
+adjacency_list: CSC
+solute:
+  S: 0.01586
+  B: -0.00161
+  E: 0.09037
+  L: 0.38978
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: ethylene sulfide
+adjacency_list: C1CS1
+solute:
+  S: 0.02247
+  B: 0.07088
+  E: 0.10137
+  L: 0.65942
+  A: 0.0
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: benzene
+adjacency_list: C1=CC=CC=C1

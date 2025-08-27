@@ -1,0 +1,236 @@
+label: N3_amide_aromatic
+children: []
+short_description: ''
+long_description: ''
+group: "\n1 * N3s\t  u1 p1 c0 {2,S} {3,S}\n2   [Cb,N3b] u0 {1,S}\n3   CO\t   u0 {1,S}\
+  \ {4,D}\n4   O\t\tu0 p2 {3,D}\n"
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.091
+---
+label: N3_amide_pri
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 c0 {2,S} {3,S}
+  2   H   u0 p0 c0 {1,S}
+  3   CO  u0 {1,S} {4,D}
+  4   O   u0 p2 {3,D}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.275
+---
+label: N3_amide_sec
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 c0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   CO  u0 {1,S} {4,D}
+  4   O   u0 p2 {3,D}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.281
+---
+label: N3_aniline
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 c0 {2,S} {3,S}
+  2   H   u0 p0 c0 {1,S}
+  3   Cb  u0 {1,S} {4,B} {5,B}
+  4   Cb  u0 {3,B} {6,B}
+  5   Cb  u0 {3,B} {7,B}
+  6   Cb  u0 {4,B} {8,B}
+  7   Cb  u0 {5,B} {8,B}
+  8   Cb  u0 {6,B} {7,B}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.247
+---
+label: N3_pyrrole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 {2,S} {3,S}
+  2   Cb  u0 {1,S} {4,B}
+  3   Cb  u0 {1,S} {5,B}
+  4   Cb  u0 {2,B} {5,B}
+  5   Cb  u0 {3,B} {4,B}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.371
+---
+label: N3_urea_pri
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 c0 {2,S} {3,S}
+  2   R!H u0 p0 c0 {1,S}
+  3   CO  u0 {1,S} {4,D} {5,S}
+  4   O   u0 p2 {3,D}
+  5   N3s u0 p1 {3,S} {6,S}
+  6   H   u0 p0 c0 {5,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.0825
+---
+label: N3_urea_sec
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * N3s u1 p1 c0 {2,S} {3,S}
+  2   R!H u0 p0 c0 {1,S}
+  3   CO  u0 {1,S} {4,D} {5,S}
+  4   O   u0 p2 {3,D}
+  5   N3s u0 p1 {3,S} {6,S} {7,S}
+  6   R!H u0 {5,S}
+  7   R!H u0 {5,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.119
+---
+label: N3d_guanidine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   Cd  u0 {2,D} {3,S} {4,S}
+  2 * N3d u1 {1,D}
+  3   N3s u0 {1,S} {5,S} {6,S}
+  4   N3s u0 {1,S} {7,S} {8,S}
+  5   H   u0 {3,S}
+  6   H   u0 {3,S}
+  7   H   u0 {4,S}
+  8   H   u0 {4,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.17
+---
+label: N3s_rad
+children: []
+short_description: ''
+long_description: ''
+group: "\n1 * N3s u1 p1 \n"
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.087
+---
+label: O_rad
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * O u1 p2
+---
+label: RC(O)OJ
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * O u1 p2 c0 {2,S}
+  2   C u0 p0 {1,S} {3,D} {4,S}
+  3   O u0 p2 {2,D}
+  4   R u0 {2,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.243
+---
+label: ROJ
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * O u1 p2 c0 {2,S}
+  2   R u0 {1,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.345
+---
+label: ROOJ
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * O u1 p2 c0 {2,S}
+  2   O u0 p2 {1,S} {3,S}
+  3   R u0 {2,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.345
+---
+label: R_rad
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R u1
+---
+label: phenoxy
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * O  u1 p2 c0 {2,S}
+  2   Cb u0 {1,S}
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.543

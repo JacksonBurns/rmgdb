@@ -1,0 +1,7828 @@
+label: 1H-Cyclopenta[a]chrysene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {3,S} {7,S} {9,S}
+  2  C u0 {3,S} {6,S} {12,S}
+  3  C u0 {1,S} {2,S} {13,S}
+  4  C u0 {5,S} {6,S} {14,S}
+  5  C u0 {4,S} {8,S} {15,S}
+  6  C u0 {2,S} {4,S} {18,S}
+  7  C u0 {1,S} {10,S} {11,S}
+  8  C u0 {5,S} {16,S} {17,S}
+  9  C u0 {1,S} {20,S}
+  10 C u0 {7,S} {19,S}
+  11 C u0 {7,S} {12,S}
+  12 C u0 {2,S} {11,S}
+  13 C u0 {3,S} {14,S}
+  14 C u0 {4,S} {13,S}
+  15 C u0 {5,S} {21,S}
+  16 C u0 {8,S} {21,S}
+  17 C u0 {8,S} {18,S}
+  18 C u0 {6,S} {17,S}
+  19 C u0 {10,S} {20,S}
+  20 C u0 {9,S} {19,S}
+  21 C u0 {15,S} {16,S}
+solute:
+  S: -0.035
+  B: 0.14057
+  E: -0.02027
+  L: 0.271
+  A: 0.04393
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: 1H-Cyclopenta[a]chrysene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  2  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {12,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {13,[S,D,B]}
+  4  R!H u0 {5,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
+  5  R!H u0 {4,[S,D,B]} {8,[S,D,B]} {15,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {18,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {10,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {5,[S,D,B]} {16,[S,D,B]} {17,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {20,[S,D,B]}
+  10 R!H u0 {7,[S,D,B]} {19,[S,D,B]}
+  11 R!H u0 {7,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {2,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {3,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  15 R!H u0 {5,[S,D,B]} {21,[S,D,B]}
+  16 R!H u0 {8,[S,D,B]} {21,[S,D,B]}
+  17 R!H u0 {8,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  19 R!H u0 {10,[S,D,B]} {20,[S,D,B]}
+  20 R!H u0 {9,[S,D,B]} {19,[S,D,B]}
+  21 R!H u0 {15,[S,D,B]} {16,[S,D,B]}
+---
+label: 5fused_r6_diene_r6_r6_r5_r5_dioxo
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {9,S} {16,S}
+  2  O u0 {8,S} {16,S}
+  3  C u0 {4,S} {5,S} {13,S}
+  4  C u0 {3,S} {6,S} {10,S}
+  5  C u0 {3,S} {7,S} {11,S}
+  6  C u0 {4,S} {8,S} {12,S}
+  7  C u0 {5,S} {17,S} {18,S}
+  8  C u0 {2,S} {6,S} {9,S}
+  9  C u0 {1,S} {8,S} {10,S}
+  10 C u0 {4,S} {9,S}
+  11 C u0 {5,S} {12,S}
+  12 C u0 {6,S} {11,S}
+  13 C u0 {3,S} {14,S}
+  14 C u0 {13,S} {17,S}
+  15 CO u0 {19,S} {20,S}
+  16 C u0 {1,S} {2,S}
+  17 C u0 {7,S} {14,S} {19,D}
+  18 C u0 {7,S} {20,D}
+  19 C u0 {15,S} {17,D}
+  20 C u0 {15,S} {18,D}
+solute:
+  S: -0.04129
+  B: 0.00759
+  E: 0.10643
+  L: 0.08733
+  A: 0.02091
+dataCount:
+  S: 8.0
+  B: 8.0
+  E: 8.0
+  L: 3.0
+  A: 8.0
+---
+label: 5fused_r6_r6_r6_r5_r5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {9,[S,D,B]} {16,[S,D,B]}
+  2  R!H u0 {8,[S,D,B]} {16,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {13,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {10,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {7,[S,D,B]} {11,[S,D,B]}
+  6  R!H u0 {4,[S,D,B]} {8,[S,D,B]} {12,[S,D,B]}
+  7  R!H u0 {5,[S,D,B]} {17,[S,D,B]} {18,[S,D,B]}
+  8  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {8,[S,D,B]} {10,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {9,[S,D,B]}
+  11 R!H u0 {5,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {3,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {13,[S,D,B]} {17,[S,D,B]}
+  15 R!H u0 {19,[S,D,B]} {20,[S,D,B]}
+  16 R!H u0 {1,[S,D,B]} {2,[S,D,B]}
+  17 R!H u0 {7,[S,D,B]} {14,[S,D,B]} {19,[S,D,B]}
+  18 R!H u0 {7,[S,D,B]} {20,[S,D,B]}
+  19 R!H u0 {15,[S,D,B]} {17,[S,D,B]}
+  20 R!H u0 {15,[S,D,B]} {18,[S,D,B]}
+---
+label: Acenaphthene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {4,S}
+  2  C u0 {1,S} {3,S}
+  3  C u0 {2,S} {5,B} {7,B}
+  4  C u0 {1,S} {5,B} {8,B}
+  5  C u0 {3,B} {4,B} {6,B}
+  6  C u0 {5,B} {9,B} {10,B}
+  7  C u0 {3,B} {11,B}
+  8  C u0 {4,B} {12,B}
+  9  C u0 {6,B} {12,B}
+  10 C u0 {6,B} {11,B}
+  11 C u0 {7,B} {10,B}
+  12 C u0 {8,B} {9,B}
+solute:
+  S: 0.01537
+  B: -0.01647
+  E: 0.0622
+  L: -0.06515
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: Acenaphthene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  6  R!H u0 {5,[S,D,B]} {9,[S,D,B]} {10,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  9  R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  10 R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  11 R!H u0 {7,[S,D,B]} {10,[S,D,B]}
+  12 R!H u0 {8,[S,D,B]} {9,[S,D,B]}
+---
+label: Acenaphthylene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,D} {4,S}
+  2  C u0 {1,D} {3,S}
+  3  C u0 {2,S} {5,B} {7,B}
+  4  C u0 {1,S} {5,B} {8,B}
+  5  C u0 {3,B} {4,B} {6,B}
+  6  C u0 {5,B} {9,B} {10,B}
+  7  C u0 {3,B} {11,B}
+  8  C u0 {4,B} {12,B}
+  9  C u0 {6,B} {12,B}
+  10 C u0 {6,B} {11,B}
+  11 C u0 {7,B} {10,B}
+  12 C u0 {8,B} {9,B}
+solute:
+  S: -0.00029
+  B: 0.01016
+  E: -0.03186
+  L: -0.39261
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: Adamantane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {5,S} {6,S} {9,S}
+  2  C u0 {6,S} {7,S} {10,S}
+  3  C u0 {5,S} {7,S} {8,S}
+  4  C u0 {8,S} {9,S} {10,S}
+  5  C u0 {1,S} {3,S}
+  6  C u0 {1,S} {2,S}
+  7  C u0 {2,S} {3,S}
+  8  C u0 {3,S} {4,S}
+  9  C u0 {1,S} {4,S}
+  10 C u0 {2,S} {4,S}
+solute:
+  S: 0.06655
+  B: 0.08122
+  E: 0.06194
+  L: 0.07941
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: Adamantane_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {5,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
+  2  R!H u0 {6,[S,D,B]} {7,[S,D,B]} {10,[S,D,B]}
+  3  R!H u0 {5,[S,D,B]} {7,[S,D,B]} {8,[S,D,B]}
+  4  R!H u0 {8,[S,D,B]} {9,[S,D,B]} {10,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {2,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {3,[S,D,B]}
+  8  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {4,[S,D,B]}
+  10 R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+---
+label: Artemether
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {14,S} {15,S}
+  2  O u0 {14,S} {16,S}
+  3  O u0 {4,S} {5,S}
+  4  O u0 {3,S} {15,S}
+  5  C u0 {3,S} {6,S} {7,S} {14,S}
+  6  C u0 {5,S} {8,S} {11,S}
+  7  C u0 {5,S} {9,S} {10,S}
+  8  C u0 {6,S} {12,S}
+  9  C u0 {7,S} {13,S}
+  10 C u0 {7,S} {12,S}
+  11 C u0 {6,S} {16,S}
+  12 C u0 {8,S} {10,S}
+  13 C u0 {9,S} {15,S}
+  14 C u0 {1,S} {2,S} {5,S}
+  15 C u0 {1,S} {4,S} {13,S}
+  16 C u0 {2,S} {11,S}
+solute:
+  S: 0.03995
+  B: 0.06911
+  E: 0.08418
+  L: 0.21893
+  A: 0.0
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 7.0
+  L: 7.0
+  A: 7.0
+---
+label: Artemether_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {14,[S,D,B]} {15,[S,D,B]}
+  2  R!H u0 {14,[S,D,B]} {16,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {5,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {15,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]} {14,[S,D,B]}
+  6  R!H u0 {5,[S,D,B]} {8,[S,D,B]} {11,[S,D,B]}
+  7  R!H u0 {5,[S,D,B]} {9,[S,D,B]} {10,[S,D,B]}
+  8  R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  9  R!H u0 {7,[S,D,B]} {13,[S,D,B]}
+  10 R!H u0 {7,[S,D,B]} {12,[S,D,B]}
+  11 R!H u0 {6,[S,D,B]} {16,[S,D,B]}
+  12 R!H u0 {8,[S,D,B]} {10,[S,D,B]}
+  13 R!H u0 {9,[S,D,B]} {15,[S,D,B]}
+  14 R!H u0 {1,[S,D,B]} {2,[S,D,B]} {5,[S,D,B]}
+  15 R!H u0 {1,[S,D,B]} {4,[S,D,B]} {13,[S,D,B]}
+  16 R!H u0 {2,[S,D,B]} {11,[S,D,B]}
+---
+label: Benzo[a]pyrene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,B} {4,B} {6,B}
+  2  C u0 {1,B} {7,B} {8,B}
+  3  C u0 {4,B} {5,B} {10,B}
+  4  C u0 {1,B} {3,B} {17,B}
+  5  C u0 {3,B} {9,B} {11,B}
+  6  C u0 {1,B} {9,B} {12,B}
+  7  C u0 {2,B} {13,B} {14,B}
+  8  C u0 {2,B} {15,B} {16,B}
+  9  C u0 {5,B} {6,B}
+  10 C u0 {3,B} {19,B}
+  11 C u0 {5,B} {18,B}
+  12 C u0 {6,B} {13,B}
+  13 C u0 {7,B} {12,B}
+  14 C u0 {7,B} {20,B}
+  15 C u0 {8,B} {20,B}
+  16 C u0 {8,B} {17,B}
+  17 C u0 {4,B} {16,B}
+  18 C u0 {11,B} {19,B}
+  19 C u0 {10,B} {18,B}
+  20 C u0 {14,B} {15,B}
+solute:
+  S: 0.01349
+  B: -0.01129
+  E: 0.08825
+  L: 0.18456
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: Benzo[a]pyrene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {7,[S,D,B]} {8,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {10,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {17,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {9,[S,D,B]} {11,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {9,[S,D,B]} {12,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {13,[S,D,B]} {14,[S,D,B]}
+  8  R!H u0 {2,[S,D,B]} {15,[S,D,B]} {16,[S,D,B]}
+  9  R!H u0 {5,[S,D,B]} {6,[S,D,B]}
+  10 R!H u0 {3,[S,D,B]} {19,[S,D,B]}
+  11 R!H u0 {5,[S,D,B]} {18,[S,D,B]}
+  12 R!H u0 {6,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {7,[S,D,B]} {12,[S,D,B]}
+  14 R!H u0 {7,[S,D,B]} {20,[S,D,B]}
+  15 R!H u0 {8,[S,D,B]} {20,[S,D,B]}
+  16 R!H u0 {8,[S,D,B]} {17,[S,D,B]}
+  17 R!H u0 {4,[S,D,B]} {16,[S,D,B]}
+  18 R!H u0 {11,[S,D,B]} {19,[S,D,B]}
+  19 R!H u0 {10,[S,D,B]} {18,[S,D,B]}
+  20 R!H u0 {14,[S,D,B]} {15,[S,D,B]}
+---
+label: Benzo[e]pyrene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,B} {6,B} {8,B}
+  2  C u0 {1,B} {5,B} {7,B}
+  3  C u0 {4,B} {6,B} {9,B}
+  4  C u0 {3,B} {5,B} {10,B}
+  5  C u0 {2,B} {4,B} {11,B}
+  6  C u0 {1,B} {3,B} {16,B}
+  7  C u0 {2,B} {12,B} {13,B}
+  8  C u0 {1,B} {14,B} {15,B}
+  9  C u0 {3,B} {18,B}
+  10 C u0 {4,B} {17,B}
+  11 C u0 {5,B} {19,B}
+  12 C u0 {7,B} {19,B}
+  13 C u0 {7,B} {14,B}
+  14 C u0 {8,B} {13,B}
+  15 C u0 {8,B} {20,B}
+  16 C u0 {6,B} {20,B}
+  17 C u0 {10,B} {18,B}
+  18 C u0 {9,B} {17,B}
+  19 C u0 {11,B} {12,B}
+  20 C u0 {15,B} {16,B}
+solute:
+  S: 0.02831
+  B: -0.04796
+  E: 0.03844
+  L: 0.39002
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: Benzo[e]pyrene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {6,[S,D,B]} {8,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {5,[S,D,B]} {10,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {11,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {16,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {12,[S,D,B]} {13,[S,D,B]}
+  8  R!H u0 {1,[S,D,B]} {14,[S,D,B]} {15,[S,D,B]}
+  9  R!H u0 {3,[S,D,B]} {18,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {17,[S,D,B]}
+  11 R!H u0 {5,[S,D,B]} {19,[S,D,B]}
+  12 R!H u0 {7,[S,D,B]} {19,[S,D,B]}
+  13 R!H u0 {7,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {8,[S,D,B]} {13,[S,D,B]}
+  15 R!H u0 {8,[S,D,B]} {20,[S,D,B]}
+  16 R!H u0 {6,[S,D,B]} {20,[S,D,B]}
+  17 R!H u0 {10,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {9,[S,D,B]} {17,[S,D,B]}
+  19 R!H u0 {11,[S,D,B]} {12,[S,D,B]}
+  20 R!H u0 {15,[S,D,B]} {16,[S,D,B]}
+---
+label: Benzo[ghi]fluoranthene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {3,B} {4,B} {6,B}
+  2  C u0 {3,B} {5,B} {8,B}
+  3  C u0 {1,B} {2,B} {7,B}
+  4  C u0 {1,B} {5,S} {9,B}
+  5  C u0 {2,B} {4,S} {16,B}
+  6  C u0 {1,B} {10,B} {11,B}
+  7  C u0 {3,B} {12,B} {13,B}
+  8  C u0 {2,B} {14,B} {15,B}
+  9  C u0 {4,B} {17,B}
+  10 C u0 {6,B} {17,B}
+  11 C u0 {6,B} {12,B}
+  12 C u0 {7,B} {11,B}
+  13 C u0 {7,B} {14,B}
+  14 C u0 {8,B} {13,B}
+  15 C u0 {8,B} {18,B}
+  16 C u0 {5,B} {18,B}
+  17 C u0 {9,B} {10,B}
+  18 C u0 {15,B} {16,B}
+solute:
+  S: 0.01965
+  B: 0.01096
+  E: 0.03205
+  L: -0.0848
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: Benzo[ghi]fluoranthene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {3,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {9,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {16,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {10,[S,D,B]} {11,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {12,[S,D,B]} {13,[S,D,B]}
+  8  R!H u0 {2,[S,D,B]} {14,[S,D,B]} {15,[S,D,B]}
+  9  R!H u0 {4,[S,D,B]} {17,[S,D,B]}
+  10 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  11 R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {7,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {7,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {8,[S,D,B]} {13,[S,D,B]}
+  15 R!H u0 {8,[S,D,B]} {18,[S,D,B]}
+  16 R!H u0 {5,[S,D,B]} {18,[S,D,B]}
+  17 R!H u0 {9,[S,D,B]} {10,[S,D,B]}
+  18 R!H u0 {15,[S,D,B]} {16,[S,D,B]}
+---
+label: Cholanthrene
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * C u0 {2,S} {3,S}\n2  C u0 {1,S} {4,S}\n3  C u0 {1,S} {5,B} {6,B}\n\
+  4  C u0 {2,S} {5,B} {12,B}\n5  C u0 {3,B} {4,B} {10,B}\n6  C u0 {3,B} {8,B} {13,B}\n\
+  7  C u0 {8,B} {9,B} {16,B}\n8  C u0 {6,B} {7,B} {11,B}\n9  C u0 {7,B} {14,B} {15,B}\n\
+  10 C u0 {5,B} {11,B} {17,B}\n11 C u0 {8,B} {10,B}\n12 C u0 {4,B} {18,B}\n13 C u0\
+  \ {6,B} {14,B}\n14 C u0 {9,B} {13,B}\n15 C u0 {9,B} {19,B}\n16 C u0 {7,B} {20,B}\n\
+  17 C u0 {10,B} {18,B}\n18 C u0 {12,B} {17,B}\n19 C u0 {15,B} {20,B} \n20 C u0 {16,B}\
+  \ {19,B}\n"
+solute:
+  S: -0.0327
+  B: 0.02006
+  E: 0.08714
+  L: 0.1028
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 1.0
+  A: 2.0
+---
+label: Cholanthrene_general
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]}\n2  R!H u0 {1,[S,D,B]} {4,[S,D,B]}\n\
+  3  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {6,[S,D,B]}\n4  R!H u0 {2,[S,D,B]} {5,[S,D,B]}\
+  \ {12,[S,D,B]}\n5  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}\n6  R!H u0 {3,[S,D,B]}\
+  \ {8,[S,D,B]} {13,[S,D,B]}\n7  R!H u0 {8,[S,D,B]} {9,[S,D,B]} {16,[S,D,B]}\n8  R!H\
+  \ u0 {6,[S,D,B]} {7,[S,D,B]} {11,[S,D,B]}\n9  R!H u0 {7,[S,D,B]} {14,[S,D,B]} {15,[S,D,B]}\n\
+  10 R!H u0 {5,[S,D,B]} {11,[S,D,B]} {17,[S,D,B]}\n11 R!H u0 {8,[S,D,B]} {10,[S,D,B]}\n\
+  12 R!H u0 {4,[S,D,B]} {18,[S,D,B]}\n13 R!H u0 {6,[S,D,B]} {14,[S,D,B]}\n14 R!H u0\
+  \ {9,[S,D,B]} {13,[S,D,B]}\n15 R!H u0 {9,[S,D,B]} {19,[S,D,B]}\n16 R!H u0 {7,[S,D,B]}\
+  \ {20,[S,D,B]}\n17 R!H u0 {10,[S,D,B]} {18,[S,D,B]}\n18 R!H u0 {12,[S,D,B]} {17,[S,D,B]}\n\
+  19 R!H u0 {15,[S,D,B]} {20,[S,D,B]} \n20 R!H u0 {16,[S,D,B]} {19,[S,D,B]}\n"
+---
+label: Dihydro-normorphine,3-desoxy-
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {6,S} {15,S}
+  2  N u0 {5,S} {12,S}
+  3  C u0 {4,S} {6,S} {7,S} {13,S}
+  4  C u0 {3,S} {5,S} {8,S}
+  5  C u0 {2,S} {4,S} {11,S}
+  6  C u0 {1,S} {3,S} {9,S}
+  7  C u0 {3,S} {12,S}
+  8  C u0 {4,S} {10,S}
+  9  CO u0 {6,S} {10,S}
+  10 C u0 {8,S} {9,S}
+  11 C u0 {5,S} {14,S}
+  12 C u0 {2,S} {7,S}
+  13 C u0 {3,S} {14,B} {15,B}
+  14 C u0 {11,S} {13,B} {16,B}
+  15 C u0 {1,S} {13,B} {17,B}
+  16 C u0 {14,B} {18,B}
+  17 C u0 {15,B} {18,B}
+  18 C u0 {16,B} {17,B}
+solute:
+  S: 0.11119
+  B: -0.0807
+  E: 0.04218
+  L: 0.12585
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 6.0
+  L: 6.0
+  A: 6.0
+---
+label: Dihydromorphine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {6,S} {15,S}
+  2  N u0 {5,S} {12,S}
+  3  C u0 {4,S} {6,S} {7,S} {13,S}
+  4  C u0 {3,S} {5,S} {8,S}
+  5  C u0 {2,S} {4,S} {11,S}
+  6  C u0 {1,S} {3,S} {9,S}
+  7  C u0 {3,S} {12,S}
+  8  C u0 {4,S} {10,S}
+  9  C u0 {6,S} {10,S}
+  10 C u0 {8,S} {9,S}
+  11 C u0 {5,S} {14,S}
+  12 C u0 {2,S} {7,S}
+  13 C u0 {3,S} {14,B} {15,B}
+  14 C u0 {11,S} {13,B} {16,B}
+  15 C u0 {1,S} {13,B} {17,B}
+  16 C u0 {14,B} {18,B}
+  17 C u0 {15,B} {18,B}
+  18 C u0 {16,B} {17,B}
+solute:
+  S: 0.03415
+  B: 0.1379
+  E: 0.01346
+  L: -0.10507
+  A: -0.0423
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: Fluoran
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {3,S} {4,S}
+  2  O u0 {9,S} {10,S}
+  3  C u0 {1,S} {5,S} {6,S} {7,S}
+  4  CO u0 {1,S} {8,S}
+  5  C u0 {3,S} {8,B} {13,B}
+  6  C u0 {3,S} {9,B} {11,B}
+  7  C u0 {3,S} {10,B} {12,B}
+  8  C u0 {4,S} {5,B} {14,B}
+  9  C u0 {2,S} {6,B} {15,B}
+  10 C u0 {2,S} {7,B} {16,B}
+  11 C u0 {6,B} {17,B}
+  12 C u0 {7,B} {20,B}
+  13 C u0 {5,B} {21,B}
+  14 C u0 {8,B} {22,B}
+  15 C u0 {9,B} {18,B}
+  16 C u0 {10,B} {19,B}
+  17 C u0 {11,B} {18,B}
+  18 C u0 {15,B} {17,B}
+  19 C u0 {16,B} {20,B}
+  20 C u0 {12,B} {19,B}
+  21 C u0 {13,B} {22,B}
+  22 C u0 {14,B} {21,B}
+solute:
+  S: 0.12438
+  B: -0.00941
+  E: -0.02436
+  L: 0.13617
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: Fluoran_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+  2  R!H u0 {9,[S,D,B]} {10,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {8,[S,D,B]} {13,[S,D,B]}
+  6  R!H u0 {3,[S,D,B]} {9,[S,D,B]} {11,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {10,[S,D,B]} {12,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {14,[S,D,B]}
+  9  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {15,[S,D,B]}
+  10 R!H u0 {2,[S,D,B]} {7,[S,D,B]} {16,[S,D,B]}
+  11 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  12 R!H u0 {7,[S,D,B]} {20,[S,D,B]}
+  13 R!H u0 {5,[S,D,B]} {21,[S,D,B]}
+  14 R!H u0 {8,[S,D,B]} {22,[S,D,B]}
+  15 R!H u0 {9,[S,D,B]} {18,[S,D,B]}
+  16 R!H u0 {10,[S,D,B]} {19,[S,D,B]}
+  17 R!H u0 {11,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {15,[S,D,B]} {17,[S,D,B]}
+  19 R!H u0 {16,[S,D,B]} {20,[S,D,B]}
+  20 R!H u0 {12,[S,D,B]} {19,[S,D,B]}
+  21 R!H u0 {13,[S,D,B]} {22,[S,D,B]}
+  22 R!H u0 {14,[S,D,B]} {21,[S,D,B]}
+---
+label: Fluoranthene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {4,B} {5,B} {6,B}
+  2  C u0 {3,B} {5,S} {7,B}
+  3  C u0 {2,B} {4,S} {8,B}
+  4  C u0 {1,B} {3,S} {9,B}
+  5  C u0 {1,B} {2,S} {12,B}
+  6  C u0 {1,B} {10,B} {11,B}
+  7  C u0 {2,B} {14,B}
+  8  C u0 {3,B} {13,B}
+  9  C u0 {4,B} {15,B}
+  10 C u0 {6,B} {15,B}
+  11 C u0 {6,B} {16,B}
+  12 C u0 {5,B} {16,B}
+  13 C u0 {8,B} {14,B}
+  14 C u0 {7,B} {13,B}
+  15 C u0 {9,B} {10,B}
+  16 C u0 {11,B} {12,B}
+solute:
+  S: -0.00838
+  B: -0.00639
+  E: 0.00714
+  L: 0.22045
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 2.0
+  A: 3.0
+---
+label: Fluoranthene_general
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {4,[S,D,B]} {5,[S,D,B]} {6,[S,D,B]}\n2  R!H u0 {3,[S,D,B]} {5,[S,D,B]}\
+  \ {7,[S,D,B]}\n3  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {8,[S,D,B]}\n4  R!H u0 {1,[S,D,B]}\
+  \ {3,[S,D,B]} {9,[S,D,B]}\n5  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {12,[S,D,B]}\n6  R!H\
+  \ u0 {1,[S,D,B]} {10,[S,D,B]} {11,[S,D,B]}\n7  R!H u0 {2,[S,D,B]} {14,[S,D,B]}\n\
+  8  R!H u0 {3,[S,D,B]} {13,[S,D,B]}\n9  R!H u0 {4,[S,D,B]} {15,[S,D,B]}\n10 R!H u0\
+  \ {6,[S,D,B]} {15,[S,D,B]}\n11 R!H u0 {6,[S,D,B]} {16,[S,D,B]}\n12 R!H u0 {5,[S,D,B]}\
+  \ {16,[S,D,B]}\n13 R!H u0 {8,[S,D,B]} {14,[S,D,B]}\n14 R!H u0 {7,[S,D,B]} {13,[S,D,B]}\
+  \ \n15 R!H u0 {9,[S,D,B]} {10,[S,D,B]}\n16 R!H u0 {11,[S,D,B]} {12,[S,D,B]}\n"
+---
+label: Icosahydropicene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {4,S} {9,S}
+  2  C u0 {1,S} {3,S} {20,S}
+  3  C u0 {2,S} {7,S} {12,S}
+  4  C u0 {1,S} {10,S} {11,S}
+  5  C u0 {6,S} {8,S} {13,S}
+  6  C u0 {5,S} {14,S} {21,S}
+  7  C u0 {3,S} {15,S} {21,S}
+  8  C u0 {5,S} {16,S}
+  9  C u0 {1,S} {18,S}
+  10 C u0 {4,S} {19,S}
+  11 C u0 {4,S} {12,S}
+  12 C u0 {3,S} {11,S}
+  13 C u0 {5,S} {15,S}
+  14 C u0 {6,S} {17,S}
+  15 C u0 {7,S} {13,S}
+  16 C u0 {8,S} {17,S}
+  17 C u0 {14,S} {16,S}
+  18 C u0 {9,S} {19,S}
+  19 C u0 {10,S} {18,S}
+  20 C u0 {2,S} {22,S}
+  21 C u0 {6,S} {7,S} {22,D}
+  22 C u0 {20,S} {21,D}
+solute:
+  S: -0.04109
+  B: 0.20873
+  E: -0.14768
+  L: 0.30673
+  A: 0.59089
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: Morphine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {6,S} {15,S}
+  2  N u0 {5,S} {12,S}
+  3  C u0 {4,S} {6,S} {7,S} {13,S}
+  4  C u0 {3,S} {5,S} {8,S}
+  5  C u0 {2,S} {4,S} {11,S}
+  6  C u0 {1,S} {3,S} {9,S}
+  7  C u0 {3,S} {12,S}
+  8  C u0 {4,S} {10,D}
+  9  C u0 {6,S} {10,S}
+  10 C u0 {8,D} {9,S}
+  11 C u0 {5,S} {14,S}
+  12 C u0 {2,S} {7,S}
+  13 C u0 {3,S} {14,B} {15,B}
+  14 C u0 {11,S} {13,B} {16,B}
+  15 C u0 {1,S} {13,B} {17,B}
+  16 C u0 {14,B} {18,B}
+  17 C u0 {15,B} {18,B}
+  18 C u0 {16,B} {17,B}
+solute:
+  S: 0.13666
+  B: -0.08163
+  E: -0.03679
+  L: 0.24899
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: Morphine_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {6,[S,D,B]} {15,[S,D,B]}
+  2  R!H u0 {5,[S,D,B]} {12,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]} {13,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {11,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {9,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {12,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {10,[S,D,B]}
+  9  R!H u0 {6,[S,D,B]} {10,[S,D,B]}
+  10 R!H u0 {8,[S,D,B]} {9,[S,D,B]}
+  11 R!H u0 {5,[S,D,B]} {14,[S,D,B]}
+  12 R!H u0 {2,[S,D,B]} {7,[S,D,B]}
+  13 R!H u0 {3,[S,D,B]} {14,[S,D,B]} {15,[S,D,B]}
+  14 R!H u0 {11,[S,D,B]} {13,[S,D,B]} {16,[S,D,B]}
+  15 R!H u0 {1,[S,D,B]} {13,[S,D,B]} {17,[S,D,B]}
+  16 R!H u0 {14,[S,D,B]} {18,[S,D,B]}
+  17 R!H u0 {15,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {16,[S,D,B]} {17,[S,D,B]}
+---
+label: Nortricyclene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {3,S} {6,S}
+  2  C u0 {1,S} {3,S} {5,S}
+  3  C u0 {1,S} {2,S} {7,S}
+  4  C u0 {5,S} {6,S} {7,S}
+  5  C u0 {2,S} {4,S}
+  6  C u0 {1,S} {4,S}
+  7  C u0 {3,S} {4,S}
+solute:
+  S: -0.09421
+  B: 0.06698
+  E: 0.00977
+  L: -0.24951
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: Nortricyclene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {5,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {4,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+---
+label: Picene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,B} {4,B} {9,B}
+  2  C u0 {1,B} {3,B} {20,B}
+  3  C u0 {2,B} {7,B} {12,B}
+  4  C u0 {1,B} {10,B} {11,B}
+  5  C u0 {6,B} {8,B} {13,B}
+  6  C u0 {5,B} {14,B} {21,B}
+  7  C u0 {3,B} {15,B} {21,B}
+  8  C u0 {5,B} {16,B}
+  9  C u0 {1,B} {18,B}
+  10 C u0 {4,B} {19,B}
+  11 C u0 {4,B} {12,B}
+  12 C u0 {3,B} {11,B}
+  13 C u0 {5,B} {15,B}
+  14 C u0 {6,B} {17,B}
+  15 C u0 {7,B} {13,B}
+  16 C u0 {8,B} {17,B}
+  17 C u0 {14,B} {16,B}
+  18 C u0 {9,B} {19,B}
+  19 C u0 {10,B} {18,B}
+  20 C u0 {2,B} {22,B}
+  21 C u0 {6,B} {7,B} {22,B}
+  22 C u0 {20,B} {21,B}
+solute:
+  S: -0.00848
+  B: 0.00482
+  E: 0.01055
+  L: 0.0778
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: Picene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {9,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {20,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {7,[S,D,B]} {12,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {10,[S,D,B]} {11,[S,D,B]}
+  5  R!H u0 {6,[S,D,B]} {8,[S,D,B]} {13,[S,D,B]}
+  6  R!H u0 {5,[S,D,B]} {14,[S,D,B]} {21,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {15,[S,D,B]} {21,[S,D,B]}
+  8  R!H u0 {5,[S,D,B]} {16,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {18,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {19,[S,D,B]}
+  11 R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {3,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {5,[S,D,B]} {15,[S,D,B]}
+  14 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  15 R!H u0 {7,[S,D,B]} {13,[S,D,B]}
+  16 R!H u0 {8,[S,D,B]} {17,[S,D,B]}
+  17 R!H u0 {14,[S,D,B]} {16,[S,D,B]}
+  18 R!H u0 {9,[S,D,B]} {19,[S,D,B]}
+  19 R!H u0 {10,[S,D,B]} {18,[S,D,B]}
+  20 R!H u0 {2,[S,D,B]} {22,[S,D,B]}
+  21 R!H u0 {6,[S,D,B]} {7,[S,D,B]} {22,[S,D,B]}
+  22 R!H u0 {20,[S,D,B]} {21,[S,D,B]}
+---
+label: PolycyclicRing
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R u0
+solute:
+  S: 0.00086
+  B: 0.04137
+  E: -0.08617
+  L: 0.16153
+  A: 0.0
+dataCount:
+  S: 17.0
+  B: 17.0
+  E: 17.0
+  L: 15.0
+  A: 17.0
+---
+label: Porphyrin
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * N u0 {7,[S,D]} {8,[S,D]}
+  2  N u0 {5,[S,D]} {6,[S,D]}
+  3  N u0 {10,[S,D]} {11,[S,D]}
+  4  N u0 {9,[S,D]} {12,[S,D]}
+  5  C u0 {2,[S,D]} {13,[S,D]} {17,[S,D]}
+  6  C u0 {2,[S,D]} {14,[S,D]} {18,[S,D]}
+  7  C u0 {1,[S,D]} {15,[S,D]} {19,[S,D]}
+  8  C u0 {1,[S,D]} {16,[S,D]} {20,[S,D]}
+  9  C u0 {4,[S,D]} {13,[S,D]} {22,[S,D]}
+  10 C u0 {3,[S,D]} {14,[S,D]} {24,[S,D]}
+  11 C u0 {3,[S,D]} {15,[S,D]} {23,[S,D]}
+  12 C u0 {4,[S,D]} {16,[S,D]} {21,[S,D]}
+  13 C u0 {5,[S,D]} {9,[S,D]}
+  14 C u0 {6,[S,D]} {10,[S,D]}
+  15 C u0 {7,[S,D]} {11,[S,D]}
+  16 C u0 {8,[S,D]} {12,[S,D]}
+  17 C u0 {5,[S,D]} {18,[S,D]}
+  18 C u0 {6,[S,D]} {17,[S,D]}
+  19 C u0 {7,[S,D]} {20,[S,D]}
+  20 C u0 {8,[S,D]} {19,[S,D]}
+  21 C u0 {12,[S,D]} {22,[S,D]}
+  22 C u0 {9,[S,D]} {21,[S,D]}
+  23 C u0 {11,[S,D]} {24,[S,D]}
+  24 C u0 {10,[S,D]} {23,[S,D]}
+solute:
+  S: 0.00826
+  B: -0.03271
+  E: -0.10104
+  L: 0.1185
+  A: -0.06272
+dataCount:
+  S: 17.0
+  B: 17.0
+  E: 26.0
+  L: 17.0
+  A: 26.0
+---
+label: Quadricyclane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {4,S} {5,S}
+  2  C u0 {1,S} {3,S} {5,S}
+  3  C u0 {2,S} {4,S} {6,S}
+  4  C u0 {1,S} {3,S} {6,S}
+  5  C u0 {1,S} {2,S} {7,S}
+  6  C u0 {3,S} {4,S} {7,S}
+  7  C u0 {5,S} {6,S}
+solute:
+  S: -0.0958
+  B: 0.0
+  E: -0.04218
+  L: -0.47881
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: Quadricyclane_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {6,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {7,[S,D,B]}
+  6  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
+  7  R!H u0 {5,[S,D,B]} {6,[S,D,B]}
+---
+label: Strychnine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {9,S} {16,S}
+  2  N u0 {7,S} {13,S} {15,S}
+  3  N u0 {6,S} {14,S} {19,S}
+  4  C u0 {6,S} {7,S} {10,S} {18,S}
+  5  C u0 {6,S} {8,S} {9,S}
+  6  C u0 {3,S} {4,S} {5,S}
+  7  C u0 {2,S} {4,S} {11,S}
+  8  C u0 {5,S} {11,S} {17,S}
+  9  C u0 {1,S} {5,S} {12,S}
+  10 C u0 {4,S} {13,S}
+  11 C u0 {7,S} {8,S}
+  12 C u0 {9,S} {14,S}
+  13 C u0 {2,S} {10,S}
+  14 CO u0 {3,S} {12,S}
+  15 C u0 {2,S} {17,S}
+  16 C u0 {1,S} {20,S}
+  17 C u0 {8,S} {15,S} {20,D}
+  18 C u0 {4,S} {19,B} {21,B}
+  19 C u0 {3,S} {18,B} {22,B}
+  20 C u0 {16,S} {17,D}
+  21 C u0 {18,B} {23,B}
+  22 C u0 {19,B} {24,B}
+  23 C u0 {21,B} {24,B}
+  24 C u0 {22,B} {23,B}
+solute:
+  S: -0.03901
+  B: 0.04494
+  E: 0.24179
+  L: 0.19867
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: Strychnine_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {9,[S,D,B]} {16,[S,D,B]}
+  2  R!H u0 {7,[S,D,B]} {13,[S,D,B]} {15,[S,D,B]}
+  3  R!H u0 {6,[S,D,B]} {14,[S,D,B]} {19,[S,D,B]}
+  4  R!H u0 {6,[S,D,B]} {7,[S,D,B]} {10,[S,D,B]} {18,[S,D,B]}
+  5  R!H u0 {6,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
+  6  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {5,[S,D,B]} {11,[S,D,B]} {17,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {12,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  11 R!H u0 {7,[S,D,B]} {8,[S,D,B]}
+  12 R!H u0 {9,[S,D,B]} {14,[S,D,B]}
+  13 R!H u0 {2,[S,D,B]} {10,[S,D,B]}
+  14 R!H u0 {3,[S,D,B]} {12,[S,D,B]}
+  15 R!H u0 {2,[S,D,B]} {17,[S,D,B]}
+  16 R!H u0 {1,[S,D,B]} {20,[S,D,B]}
+  17 R!H u0 {8,[S,D,B]} {15,[S,D,B]} {20,[S,D,B]}
+  18 R!H u0 {4,[S,D,B]} {19,[S,D,B]} {21,[S,D,B]}
+  19 R!H u0 {3,[S,D,B]} {18,[S,D,B]} {22,[S,D,B]}
+  20 R!H u0 {16,[S,D,B]} {17,[S,D,B]}
+  21 R!H u0 {18,[S,D,B]} {23,[S,D,B]}
+  22 R!H u0 {19,[S,D,B]} {24,[S,D,B]}
+  23 R!H u0 {21,[S,D,B]} {24,[S,D,B]}
+  24 R!H u0 {22,[S,D,B]} {23,[S,D,B]}
+---
+label: polycyclic_3fused
+children: []
+short_description: ''
+long_description: ''
+group: OR{Adamantane_general, s2_6_7_s2_7_6, s2_6_6_s2_6_5, s2_6_6_s2_6_6, s2_6_6_s2_6_6_A,
+  s2_6_5_s2_5_6, s2_5_6_s2_6_6,s2_5_7_s2_7_3, Nortricyclene_general, s3_6_3_s3_3_6,
+  Acenaphthene_general, s2_5_5_s2_5_5_ane}
+---
+label: polycyclic_4fused
+children: []
+short_description: ''
+long_description: ''
+group: OR{Artemether_general, Fluoranthene_general, s3_6_6_s3_6_6_s3_6_6, s2_5_6_s2_6_6_s2_6_6,
+  s2_6_6_s2_6_6_s2_6_6,s2_6_6_s2_6_6_s2_6_6_A, s2_6_6_s2_6_6_s2_6_6_B, s2_6_5_s2_5_9_s3_9_6,
+  s2_6_7_s2_7_6_s2_7_6, Quadricyclane_general}
+---
+label: polycyclic_5fused
+children: []
+short_description: ''
+long_description: ''
+group: OR{Porphyrin, Morphine_general, Benzo[e]pyrene_general, Benzo[a]pyrene_general,
+  Fluoran_general, Picene_general,1H-Cyclopenta[a]chrysene_general, Benzo[ghi]fluoranthene_general,
+  Cholanthrene_general, 5fused_r6_r6_r6_r5_r5}
+---
+label: polycyclic_7fused
+children: []
+short_description: ''
+long_description: ''
+group: OR{Strychnine_general}
+---
+label: s1_3_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {4,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {8,[S,D,T,B]}
+  8 * R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]}
+---
+label: s1_3_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S} {3,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {6,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {4,S} {8,S}
+  7   R!H u0 {5,S} {8,S}
+  8 * R!H u0 {6,S} {7,S}
+solute:
+  S: -0.00921
+  B: 0.0234
+  E: -0.03777
+  L: -0.0354
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s1_5_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2 * R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  6   R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]}
+  8   R!H u0 {5,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+---
+label: s1_5_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2 * R!H u0 {1,S} {9,S}
+  3   R!H u0 {1,S} {7,S}
+  4   R!H u0 {1,S} {6,S}
+  5   R!H u0 {1,S} {8,S}
+  6   R!H u0 {4,S} {7,S}
+  7   R!H u0 {3,S} {6,S}
+  8   R!H u0 {5,S} {9,S}
+  9   R!H u0 {2,S} {8,S}
+solute:
+  S: 0.12322
+  B: 0.03064
+  E: 0.0547
+  L: 0.04819
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 7.0
+  L: 3.0
+  A: 6.0
+---
+label: s1_5_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  4    R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  6  * R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  7    R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+  8    R!H u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
+---
+label: s1_5_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {7,S}
+  3    R!H u0 {1,S} {6,S}
+  4    R!H u0 {1,S} {8,S}
+  5    R!H u0 {1,S} {9,S}
+  6  * R!H u0 {3,S} {7,S}
+  7    R!H u0 {2,S} {6,S}
+  8    R!H u0 {4,S} {10,S}
+  9    R!H u0 {5,S} {10,S}
+  10   R!H u0 {8,S} {9,S}
+solute:
+  S: 0.06245
+  B: 0.12433
+  E: 0.02612
+  L: 0.10273
+  A: 0.0
+dataCount:
+  S: 16.0
+  B: 16.0
+  E: 16.0
+  L: 15.0
+  A: 16.0
+---
+label: s1_5_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s1_5_6_ene_1, s1_5_6_ene_2, s1_5_6_ene_7, s1_5_6_ene_8}
+---
+label: s1_5_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {6,S}
+  3    R!H u0 {1,S} {7,D}
+  4    R!H u0 {1,S} {8,S}
+  5    R!H u0 {1,S} {9,S}
+  6  * R!H u0 {2,S} {9,S}
+  7    R!H u0 {3,D} {10,S}
+  8    R!H u0 {4,S} {10,S}
+  9    R!H u0 {5,S} {6,S}
+  10   R!H u0 {7,S} {8,S}
+solute:
+  S: -0.01266
+  B: 0.04906
+  E: 0.06681
+  L: 0.19447
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s1_5_6_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {6,S}
+  3    R!H u0 {1,S} {8,S}
+  4    R!H u0 {1,S} {7,S}
+  5    R!H u0 {1,S} {9,S}
+  6    R!H u0 {2,S} {10,S}
+  7  * R!H u0 {4,S} {9,S}
+  8    R!H u0 {3,S} {10,D}
+  9    R!H u0 {5,S} {7,S}
+  10   R!H u0 {6,S} {8,D}
+solute:
+  S: -0.01143
+  B: 0.02849
+  E: -0.01609
+  L: 0.05583
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s1_5_6_ene_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {7,S}
+  3    R!H u0 {1,S} {8,D}
+  4    R!H u0 {1,S} {6,S}
+  5    R!H u0 {1,S} {9,S}
+  6    R!H u0 {4,S} {10,S}
+  7    R!H u0 {2,S} {10,S}
+  8  * R!H u0 {3,D} {9,S}
+  9    R!H u0 {5,S} {8,S}
+  10   R!H u0 {6,S} {7,S}
+solute:
+  S: 0.00048
+  B: -0.00723
+  E: 0.03829
+  L: -0.03837
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s1_5_6_ene_8
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {7,S}
+  3    R!H u0 {1,S} {6,S}
+  4    R!H u0 {1,S} {9,S}
+  5    R!H u0 {1,S} {8,S}
+  6  * R!H u0 {3,S} {8,D}
+  7    R!H u0 {2,S} {10,S}
+  8    R!H u0 {5,S} {6,D}
+  9    R!H u0 {4,S} {10,S}
+  10   R!H u0 {7,S} {9,S}
+solute:
+  S: -0.00962
+  B: 0.02498
+  E: -0.00381
+  L: -0.09931
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s1_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  6    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+  7    R!H u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
+  8    R!H u0 {2,[S,D,T,B]} {11,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {10,[S,D,T,B]}
+  10 * R!H u0 {7,[S,D,T,B]} {9,[S,D,T,B]}
+  11   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+---
+label: s1_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S} {5,S}
+  2    R!H u0 {1,S} {8,S}
+  3    R!H u0 {1,S} {9,S}
+  4    R!H u0 {1,S} {7,S}
+  5    R!H u0 {1,S} {6,S}
+  6    R!H u0 {5,S} {11,S}
+  7    R!H u0 {4,S} {10,S}
+  8    R!H u0 {2,S} {11,S}
+  9    R!H u0 {3,S} {10,S}
+  10 * R!H u0 {7,S} {9,S}
+  11   R!H u0 {6,S} {8,S}
+---
+label: s1_6_6_ane_2,4,8,10-Tetraoxa-3,9-diphosphaspiro-3,9-dioxide
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C   u0 {2,S} {3,S} {4,S} {5,S}
+  2    C   u0 {1,S} {8,S}
+  3    C   u0 {1,S} {9,S}
+  4    C   u0 {1,S} {7,S}
+  5    C   u0 {1,S} {6,S}
+  6    O2s u0 {5,S} {11,S}
+  7    O2s u0 {4,S} {10,S}
+  8    O2s u0 {2,S} {11,S}
+  9    O2s u0 {3,S} {10,S}
+  10 * P5d u0 {7,S} {9,S} {12,D}
+  11   P5d u0 {6,S} {8,S} {13,D}
+  12   O2d u0 {10,D}
+  13   O2d u0 {11,D}
+solute:
+  S: -0.05123
+  B: -0.1139
+  E: 0.0347
+  L: 0.11015
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 4.0
+  A: 6.0
+---
+label: s2_3_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  6   R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]}
+---
+label: s2_3_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {4,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {2,S} {6,S}
+  5   R!H u0 {1,S} {6,S}
+  6   R!H u0 {4,S} {5,S}
+solute:
+  S: -0.11358
+  B: 0.0
+  E: 0.01834
+  L: -0.32737
+  A: 0.0
+dataCount:
+  S: 12.0
+  B: 13.0
+  E: 12.0
+  L: 12.0
+  A: 15.0
+---
+label: s2_3_5_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_3_5_ene_1, s2_3_5_ene_side}
+---
+label: s2_3_5_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {4,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {2,S} {6,D}
+  5   R!H u0 {1,S} {6,S}
+  6   R!H u0 {4,D} {5,S}
+solute:
+  S: -0.04519
+  B: -0.00282
+  E: -0.02174
+  L: -0.19696
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_3_5_ene_side
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {4,S} {6,S}
+  2   R!H u0 {1,S} {4,S} {5,S}
+  3   R!H u0 {5,S} {6,S} {7,D}
+  4   R!H u0 {1,S} {2,S}
+  5   R!H u0 {2,S} {3,S}
+  6   R!H u0 {1,S} {3,S}
+  7   R!H ux {3,D}
+solute:
+  S: -0.02003
+  B: 0.0121
+  E: 0.04142
+  L: -0.35397
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_3_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6 * R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+---
+label: s2_3_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {4,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {2,S} {6,S}
+  5   R!H u0 {1,S} {7,S}
+  6 * R!H u0 {4,S} {7,S}
+  7   R!H u0 {5,S} {6,S}
+solute:
+  S: 0.03346
+  B: 0.0
+  E: -0.02132
+  L: -0.10768
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 6.0
+  E: 4.0
+  L: 4.0
+  A: 6.0
+---
+label: s2_3_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_3_6_ene_1, s2_3_6_ene_2}
+---
+label: s2_3_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S} {3,S} {5,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {6,D}
+  5   R!H u0 {2,S} {7,S}
+  6 * R!H u0 {4,D} {7,S}
+  7   R!H u0 {5,S} {6,S}
+solute:
+  S: -0.00984
+  B: -0.00092
+  E: -0.024
+  L: 0.00882
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_3_6_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S} {3,S} {5,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {7,S}
+  5   R!H u0 {2,S} {6,S}
+  6 * R!H u0 {5,S} {7,D}
+  7   R!H u0 {4,S} {6,D}
+solute:
+  S: 0.13834
+  B: 0.00926
+  E: 0.11867
+  L: 0.40853
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_3_8
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {4,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {4,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {9,[S,D,T,B]}
+  8   R!H u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
+---
+label: s2_3_8_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {4,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {2,S} {6,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {4,S} {8,S}
+  7   R!H u0 {5,S} {9,S}
+  8   R!H u0 {6,S} {9,S}
+  9   R!H u0 {7,S} {8,S}
+---
+label: s2_4_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+---
+label: s2_4_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {4,S} {6,S}
+  3   R!H u0 {1,S} {4,S}
+  4   R!H u0 {2,S} {3,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {2,S} {7,S}
+  7   R!H u0 {5,S} {6,S}
+solute:
+  S: 0.00818
+  B: 0.0
+  E: -0.0202
+  L: -0.17704
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_4_5_ane_hetero_N_S
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {5,S}
+  2   N   u0 {1,S} {4,S} {6,S}
+  3   C   u0 {1,S} {4,S}
+  4   C   u0 {2,S} {3,S}
+  5   S   u0 {1,S} {7,S}
+  6   C   u0 {2,S} {7,S}
+  7   C   u0 {5,S} {6,S}
+solute:
+  S: -0.14051
+  B: -0.00345
+  E: 0.11392
+  L: -0.20032
+  A: -0.17693
+dataCount:
+  S: 16.0
+  B: 16.0
+  E: 16.0
+  L: 15.0
+  A: 16.0
+---
+label: s2_4_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+  5   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  7 * R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+  8   R!H u0 {5,[S,D,T,B]} {7,[S,D,T,B]}
+---
+label: s2_4_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_4_6_ene_1}
+---
+label: s2_4_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {4,S} {6,S}
+  3   R!H u0 {1,S} {4,S}
+  4   R!H u0 {2,S} {3,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {2,S} {8,D}
+  7 * R!H u0 {5,S} {8,S}
+  8   R!H u0 {6,D} {7,S}
+solute:
+  S: 0.00319
+  B: 0.00594
+  E: 0.06447
+  L: -0.04443
+  A: 0.02298
+dataCount:
+  S: 11.0
+  B: 11.0
+  E: 11.0
+  L: 11.0
+  A: 11.0
+---
+label: s2_5_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+  3 * R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]}
+  8   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+---
+label: s2_5_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {4,S} {6,S}
+  3 * R!H u0 {1,S} {7,S}
+  4   R!H u0 {2,S} {7,S}
+  5   R!H u0 {1,S} {8,S}
+  6   R!H u0 {2,S} {8,S}
+  7   R!H u0 {3,S} {4,S}
+  8   R!H u0 {5,S} {6,S}
+solute:
+  S: -0.01758
+  B: -0.02628
+  E: 0.01724
+  L: -0.11722
+  A: 0.0
+dataCount:
+  S: 22.0
+  B: 22.0
+  E: 23.0
+  L: 21.0
+  A: 23.0
+---
+label: s2_5_5_diene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_5_diene_0_2, s2_5_5_diene_0_4}
+---
+label: s2_5_5_diene_0_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S} {5,S} {6,D}
+  3 * R!H u0 {1,S} {8,S}
+  4   R!H u0 {1,S} {7,D}
+  5   R!H u0 {2,S} {8,S}
+  6   R!H u0 {2,D} {7,S}
+  7   R!H u0 {4,D} {6,S}
+  8   R!H u0 {3,S} {5,S}
+---
+label: s2_5_5_diene_0_4
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,D} {4,S}
+  2   R!H u0 {1,S} {5,D} {6,S}
+  3 * R!H u0 {1,D} {7,S}
+  4   R!H u0 {1,S} {8,S}
+  5   R!H u0 {2,D} {8,S}
+  6   R!H u0 {2,S} {7,S}
+  7   R!H u0 {3,S} {6,S}
+  8   R!H u0 {4,S} {5,S}
+solute:
+  S: 0.03897
+  B: -0.02929
+  E: 0.00915
+  L: 0.02292
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 1.0
+  A: 2.0
+---
+label: s2_5_5_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_5_ene_0, s2_5_5_ene_1}
+---
+label: s2_5_5_ene_0
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S} {5,D} {6,S}
+  3 * R!H u0 {1,S} {8,S}
+  4   R!H u0 {1,S} {7,S}
+  5   R!H u0 {2,D} {7,S}
+  6   R!H u0 {2,S} {8,S}
+  7   R!H u0 {4,S} {5,S}
+  8   R!H u0 {3,S} {6,S}
+solute:
+  S: 0.00048
+  B: -0.00723
+  E: 0.03829
+  L: -0.03837
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_5_5_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,S} {4,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {6,S}
+  3 * R!H u0 {2,S} {7,D}
+  4   R!H u0 {1,S} {8,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {2,S} {8,S}
+  7   R!H u0 {3,D} {5,S}
+  8   R!H u0 {4,S} {6,S}
+solute:
+  S: -0.03907
+  B: -0.025
+  E: -0.04708
+  L: 0.05704
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 2.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_5_5_s2_5_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {4,S} {9,S}
+  2    R!H u0 {1,S} {3,S} {8,S}
+  3  * R!H u0 {2,S} {5,S} {6,S}
+  4    R!H u0 {1,S} {5,S} {7,S}
+  5    R!H u0 {3,S} {4,S}
+  6    R!H u0 {3,S} {7,S}
+  7    R!H u0 {4,S} {6,S}
+  8    R!H u0 {2,S} {10,S}
+  9    R!H u0 {1,S} {10,S}
+  10   R!H u0 {8,S} {9,S}
+solute:
+  S: -0.00425
+  B: 0.015
+  E: -0.02258
+  L: -0.13095
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_5_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+---
+label: s2_5_6_1,3-benzodioxole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   O u0 {1,S} {7,S}
+  4   O u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   C u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 1.0e-05
+  B: -0.04312
+  E: -0.04733
+  L: -0.12137
+  A: 0.0
+dataCount:
+  S: 12.0
+  B: 12.0
+  E: 12.0
+  L: 12.0
+  A: 12.0
+---
+label: s2_5_6_2,3-dihydrobenzofuran
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   O u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   C u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: -0.12431
+  B: 0.05867
+  E: -0.07069
+  L: -0.27658
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_5_6_2,3-dihydrobenzothiophene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   S u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   C u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.00187
+  B: -0.00339
+  E: -0.02439
+  L: 0.06063
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_5_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {4,S} {5,S}
+  2   R!H u0 {1,S} {3,S} {6,S}
+  3   R!H u0 {2,S} {9,S}
+  4   R!H u0 {1,S} {8,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {2,S} {7,S}
+  7   R!H u0 {5,S} {6,S}
+  8   R!H u0 {4,S} {9,S}
+  9   R!H u0 {3,S} {8,S}
+solute:
+  S: 0.06297
+  B: 0.0
+  E: 0.04766
+  L: 0.10993
+  A: 0.0
+dataCount:
+  S: 28.0
+  B: 28.0
+  E: 29.0
+  L: 24.0
+  A: 28.0
+---
+label: s2_5_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,B} {3,S} {5,B}
+  2   R!H u0 {1,B} {4,S} {6,B}
+  3   R!H u0 {1,S} {7,S}
+  4   R!H u0 {2,S} {7,S}
+  5   R!H u0 {1,B} {9,B}
+  6   R!H u0 {2,B} {8,B}
+  7   R!H u0 {3,S} {4,S}
+  8   R!H u0 {6,B} {9,B}
+  9   R!H u0 {5,B} {8,B}
+solute:
+  S: 0.05553
+  B: 0.11066
+  E: 0.0186
+  L: -0.15571
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_5_6_ben_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   C u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   C u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: -0.00818
+  B: -0.01021
+  E: 0.00879
+  L: 0.00438
+  A: 0.0
+dataCount:
+  S: 26.0
+  B: 22.0
+  E: 30.0
+  L: 29.0
+  A: 29.0
+---
+label: s2_5_6_ben_s2_6_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {5,S} {13,[S,D]}
+  2    C   u0 {3,B} {4,B} {6,B}
+  3    C   u0 {2,B} {5,B} {10,S}
+  4    C   u0 {2,B} {7,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {2,B} {12,B}
+  7    C   u0 {4,B} {11,B}
+  8    C   u0 {4,B} {9,B}
+  9    C   u0 {5,B} {8,B}
+  10   R!H u0 {3,S} {13,[S,D]}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {6,B} {11,B}
+  13   R!H u0 {1,[S,D]} {10,[S,D]}
+---
+label: s2_5_6_benzimidazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   N   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   N   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.09078
+  B: 0.0799
+  E: -0.03745
+  L: 0.24075
+  A: 0.0
+dataCount:
+  S: 27.0
+  B: 27.0
+  E: 27.0
+  L: 25.0
+  A: 27.0
+---
+label: s2_5_6_benzisoxazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   O   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   N   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.09013
+  B: 0.02305
+  E: 0.00484
+  L: 0.23195
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_5_6_benzofuran
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   O   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.07506
+  B: -0.04433
+  E: 0.0088
+  L: 0.06866
+  A: 0.0
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 7.0
+  L: 6.0
+  A: 7.0
+---
+label: s2_5_6_benzothiazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   S   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   N   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.08575
+  B: -0.01901
+  E: 0.03474
+  L: 0.35652
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 6.0
+  L: 5.0
+  A: 6.0
+---
+label: s2_5_6_benzothiophene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   S   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.01941
+  B: -0.01943
+  E: 0.03815
+  L: 0.17716
+  A: 0.0
+dataCount:
+  S: 26.0
+  B: 26.0
+  E: 27.0
+  L: 27.0
+  A: 27.0
+---
+label: s2_5_6_benzotriazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   N   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   N   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   N   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.12936
+  B: 0.03289
+  E: 0.1334
+  L: 0.28689
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_benzoxazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   O   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   N   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.07845
+  B: -0.02596
+  E: 0.02581
+  L: 0.1256
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_5_6_diene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_diene_m_2, s2_5_6_diene_m_7}
+---
+label: s2_5_6_diene_m_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,D} {3,S} {6,S}
+  2   R!H u0 {1,D} {4,S} {5,S}
+  3   R!H u0 {1,S} {9,S}
+  4   R!H u0 {2,S} {8,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {7,S}
+  7   R!H u0 {5,S} {6,S}
+  8   R!H u0 {4,S} {9,D}
+  9   R!H u0 {3,S} {8,D}
+---
+label: s2_5_6_diene_m_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,D} {3,S} {5,S}
+  2   R!H u0 {1,D} {4,S} {6,S}
+  3   R!H u0 {1,S} {8,S}
+  4   R!H u0 {2,S} {7,S}
+  5   R!H u0 {1,S} {7,D}
+  6   R!H u0 {2,S} {9,S}
+  7   R!H u0 {4,S} {5,D}
+  8   R!H u0 {3,S} {9,S}
+  9   R!H u0 {6,S} {8,S}
+solute:
+  S: -0.0051
+  B: -0.01207
+  E: 0.01266
+  L: 0.06481
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 1.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_diene_m_7_hetero
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {5,S}
+  2   C   u0 {1,D} {4,S} {6,S}
+  3   N   u0 {1,S} {8,S}
+  4   N   u0 {2,S} {7,S}
+  5   N   u0 {1,S} {7,D}
+  6   C   u0 {2,S} {9,S}
+  7   C   u0 {4,S} {5,D}
+  8   C   u0 {3,S} {9,S}
+  9   N   u0 {6,S} {8,S}
+---
+label: s2_5_6_diene_xanthine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {5,S}
+  2   C   u0 {1,D} {4,S} {6,S}
+  3   N   u0 {1,S} {8,S}
+  4   N   u0 {2,S} {7,S}
+  5   N   u0 {1,S} {7,D}
+  6   CO  u0 {2,S} {9,S}
+  7   C   u0 {4,S} {5,D}
+  8   CO  u0 {3,S} {9,S}
+  9   N   u0 {6,S} {8,S}
+solute:
+  S: 0.06485
+  B: 0.04158
+  E: 0.06747
+  L: 0.2829
+  A: 0.0
+dataCount:
+  S: 22.0
+  B: 22.0
+  E: 23.0
+  L: 22.0
+  A: 22.0
+---
+label: s2_5_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_ene_0, s2_5_6_ene_1, s2_5_6_ene_m, s2_5_6_ene_2, s2_5_6_ene_5}
+---
+label: s2_5_6_ene_0
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,S} {5,S}
+  2   R!H u0 {1,S} {4,D} {6,S}
+  3   R!H u0 {1,S} {7,S}
+  4   R!H u0 {2,D} {8,S}
+  5   R!H u0 {1,S} {9,S}
+  6   R!H u0 {2,S} {7,S}
+  7   R!H u0 {3,S} {6,S}
+  8   R!H u0 {4,S} {9,S}
+  9   R!H u0 {5,S} {8,S}
+solute:
+  S: -0.01105
+  B: -0.02032
+  E: -0.0784
+  L: 0.02487
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_5_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {4,S} {6,S}
+  2   R!H u0 {1,S} {3,S} {5,S}
+  3   R!H u0 {2,S} {8,D}
+  4   R!H u0 {1,S} {7,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {9,S}
+  7   R!H u0 {4,S} {5,S}
+  8   R!H u0 {3,D} {9,S}
+  9   R!H u0 {6,S} {8,S}
+solute:
+  S: 0.07429
+  B: 0.04486
+  E: 0.1405
+  L: 0.1252
+  A: -0.00999
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {5,S} {6,S}
+  2   R!H u0 {1,S} {3,S} {4,S}
+  3   R!H u0 {2,S} {7,S}
+  4   R!H u0 {2,S} {8,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {1,S} {9,S}
+  7   R!H u0 {3,S} {5,S}
+  8   R!H u0 {4,S} {9,D}
+  9   R!H u0 {6,S} {8,D}
+---
+label: s2_5_6_ene_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {3,D} {6,S}
+  2   R!H u0 {1,S} {4,S} {5,S}
+  3   R!H u0 {1,D} {7,S}
+  4   R!H u0 {2,S} {9,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {8,S}
+  7   R!H u0 {3,S} {5,S}
+  8   R!H u0 {6,S} {9,S}
+  9   R!H u0 {4,S} {8,S}
+solute:
+  S: 0.01693
+  B: -0.03572
+  E: 0.08585
+  L: 0.09047
+  A: -0.00992
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_ene_m
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,D} {5,S} {6,S}
+  2   R!H u0 {1,D} {3,S} {4,S}
+  3   R!H u0 {2,S} {8,S}
+  4   R!H u0 {2,S} {7,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {1,S} {9,S}
+  7   R!H u0 {4,S} {5,S}
+  8   R!H u0 {3,S} {9,S}
+  9   R!H u0 {6,S} {8,S}
+solute:
+  S: -0.08669
+  B: 0.0054
+  E: 0.02064
+  L: -0.30851
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_5_6_heteroaromatic_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_purine_general, s2_5_6_heteroaromatic1, s2_5_6_heteroaromatic2, s2_5_6_heteroaromatic3}
+---
+label: s2_5_6_hypoxanthine_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_hypoxanthine1, s2_5_6_hypoxanthine2}
+---
+label: s2_5_6_indazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   N   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   N   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: 0.06449
+  B: -0.02986
+  E: 0.10654
+  L: 0.1267
+  A: 0.03879
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_indene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   C    u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   C   u0 {4,B} {9,B}
+  9   C   u0 {6,B} {8,B}
+solute:
+  S: 0.03757
+  B: -0.01964
+  E: -0.01333
+  L: -0.24232
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_5_6_indene_general
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,B} {3,S} {4,B}
+  2   R!H u0 {1,B} {5,S} {6,B}
+  3   R!H u0 {1,S} {7,S}
+  4   R!H u0 {1,B} {8,B}
+  5   R!H u0 {2,S} {7,D}
+  6   R!H u0 {2,B} {9,B}
+  7   R!H u0 {3,S} {5,D}
+  8   R!H u0 {4,B} {9,B}
+  9   R!H u0 {6,B} {8,B}
+---
+label: s2_5_6_indole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * Cb  u0 {2,B} {3,S} {4,B}
+  2   Cb  u0 {1,B} {5,S} {6,B}
+  3   N   u0 {1,S} {7,S}
+  4   Cb  u0 {1,B} {8,B}
+  5   C   u0 {2,S} {7,D}
+  6   Cb  u0 {2,B} {9,B}
+  7   C   u0 {3,S} {5,D}
+  8   Cb  u0 {4,B} {9,B}
+  9   Cb  u0 {6,B} {8,B}
+solute:
+  S: -0.05644
+  B: -0.06163
+  E: 0.00162
+  L: -0.05036
+  A: 0.0
+dataCount:
+  S: 42.0
+  B: 34.0
+  E: 44.0
+  L: 42.0
+  A: 42.0
+---
+label: s2_5_6_indoline
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   N u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   C u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.02074
+  B: 0.06276
+  E: -0.03188
+  L: 0.20864
+  A: -0.01765
+dataCount:
+  S: 6.0
+  B: 4.0
+  E: 10.0
+  L: 10.0
+  A: 6.0
+---
+label: s2_5_6_isatin
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   N u0 {1,S} {7,S}
+  4   CO u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   CO u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.04765
+  B: -0.04551
+  E: -0.07313
+  L: -0.10695
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_isoindole-1,3-dione
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C  u0 {2,B} {3,S} {5,B}
+  2   C  u0 {1,B} {4,S} {6,B}
+  3   CO u0 {1,S} {7,S}
+  4   CO u0 {2,S} {7,S}
+  5   C  u0 {1,B} {9,B}
+  6   C  u0 {2,B} {8,B}
+  7   N  u0 {3,S} {4,S}
+  8   C  u0 {6,B} {9,B}
+  9   C  u0 {5,B} {8,B}
+solute:
+  S: 0.01774
+  B: -0.30115
+  E: -0.17385
+  L: -0.75088
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_5_6_isoindoline
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   C u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   N u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.13789
+  B: -0.07897
+  E: -0.04305
+  L: -0.07442
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 4.0
+  L: 4.0
+  A: 3.0
+---
+label: s2_5_6_oxindole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   N u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   CO u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.17678
+  B: 0.01136
+  E: 0.00837
+  L: 0.21558
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 6.0
+  L: 6.0
+  A: 6.0
+---
+label: s2_5_6_phthalan
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {2,B} {3,S} {5,B}
+  2   C u0 {1,B} {4,S} {6,B}
+  3   C u0 {1,S} {7,S}
+  4   C u0 {2,S} {7,S}
+  5   C u0 {1,B} {9,B}
+  6   C u0 {2,B} {8,B}
+  7   O u0 {3,S} {4,S}
+  8   C u0 {6,B} {9,B}
+  9   C u0 {5,B} {8,B}
+solute:
+  S: 0.15106
+  B: -0.03653
+  E: 0.07424
+  L: 0.18762
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_5_6_purine_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_purine1, s2_5_6_purine2, s2_5_6_purine3, s2_5_6_purine4, s2_5_6_purine5,
+  s2_5_6_purine6, s2_5_6_purine7, s2_5_6_purine8, s2_5_6_hypoxanthine_general}
+---
+label: s2_5_6_s2_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {5,[S,D,B]} {13,[S,D,B]}
+  2    R!H u0 {3,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  3    R!H u0 {2,[S,D,B]} {5,[S,D,B]} {10,[S,D,B]}
+  4    R!H u0 {2,[S,D,B]} {7,[S,D,B]} {8,[S,D,B]}
+  5    R!H u0 {1,[S,D,B]} {3,[S,D,B]} {9,[S,D,B]}
+  6    R!H u0 {2,[S,D,B]} {12,[S,D,B]}
+  7    R!H u0 {4,[S,D,B]} {11,[S,D,B]}
+  8    R!H u0 {4,[S,D,B]} {9,[S,D,B]}
+  9    R!H u0 {5,[S,D,B]} {8,[S,D,B]}
+  10   R!H u0 {3,[S,D,B]} {13,[S,D,B]}
+  11   R!H u0 {7,[S,D,B]} {12,[S,D,B]}
+  12   R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  13   R!H u0 {1,[S,D,B]} {10,[S,D,B]}
+---
+label: s2_5_6_s2_6_6_benzo[g][1]benzothiole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C   u0 {5,S} {13,D}
+  2    C   u0 {3,B} {4,B} {6,B}
+  3    C   u0 {2,B} {5,B} {10,S}
+  4    C   u0 {2,B} {7,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {2,B} {12,B}
+  7    C   u0 {4,B} {11,B}
+  8    C   u0 {4,B} {9,B}
+  9    C   u0 {5,B} {8,B}
+  10   S   u0 {3,S} {13,S}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {6,B} {11,B}
+  13   C   u0 {1,D} {10,S}
+solute:
+  S: 0.00561
+  B: 0.00367
+  E: 0.01878
+  L: -0.14187
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_5_6_s2_6_6_naphtho[2,1-b]thiophene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * S   u0 {5,S} {13,S}
+  2    C   u0 {3,B} {4,B} {6,B}
+  3    C   u0 {2,B} {5,B} {10,S}
+  4    C   u0 {2,B} {7,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {2,B} {12,B}
+  7    C   u0 {4,B} {11,B}
+  8    C   u0 {4,B} {9,B}
+  9    C   u0 {5,B} {8,B}
+  10   C   u0 {3,S} {13,D}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {6,B} {11,B}
+  13   C   u0 {1,S} {10,D}
+solute:
+  S: 0.00101
+  B: 0.01675
+  E: 0.01663
+  L: -0.06958
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_5_6_s2_6_6_s2_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {17,[S,D,B]}
+  2    R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  3    R!H u0 {2,[S,D,B]} {4,[S,D,B]} {15,[S,D,B]}
+  4    R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+  5    R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+  6    R!H u0 {5,[S,D,B]} {7,[S,D,B]} {14,[S,D,B]}
+  7    R!H u0 {6,[S,D,B]} {8,[S,D,B]} {11,[S,D,B]}
+  8    R!H u0 {7,[S,D,B]} {9,[S,D,B]}
+  9    R!H u0 {8,[S,D,B]} {10,[S,D,B]}
+  10   R!H u0 {9,[S,D,B]} {11,[S,D,B]}
+  11   R!H u0 {7,[S,D,B]} {10,[S,D,B]} {12,[S,D,B]}
+  12   R!H u0 {11,[S,D,B]} {13,[S,D,B]}
+  13   R!H u0 {12,[S,D,B]} {14,[S,D,B]}
+  14   R!H u0 {6,[S,D,B]} {13,[S,D,B]} {15,[S,D,B]}
+  15   R!H u0 {3,[S,D,B]} {14,[S,D,B]} {16,[S,D,B]}
+  16   R!H u0 {15,[S,D,B]} {17,[S,D,B]}
+  17   R!H u0 {1,[S,D,B]} {16,[S,D,B]}
+solute:
+  S: 0.12106
+  B: -0.00552
+  E: -0.02452
+  L: 0.38087
+  A: 0.0
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 7.0
+  L: 6.0
+  A: 8.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,S}
+  3    R!H u0 {2,S} {4,S} {15,S}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   R!H u0 {3,S} {14,S} {16,S}
+  16   R!H u0 {15,S} {17,S}
+  17   R!H u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_ane_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C  u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,S}
+  3    C  u0 {2,S} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,S}
+  17   C  u0 {1,S} {16,S}
+solute:
+  S: 0.1704
+  B: 0.0
+  E: -0.05725
+  L: 0.25677
+  A: 0.0
+dataCount:
+  S: 8.0
+  B: 8.0
+  E: 8.0
+  L: 6.0
+  A: 8.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_ane_onlyC(=O)
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * CO u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,S}
+  3    C  u0 {2,S} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,S}
+  17   C  u0 {1,S} {16,S}
+solute:
+  S: 0.16022
+  B: 0.06922
+  E: 0.00919
+  L: 0.29073
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 6.0
+  L: 5.0
+  A: 6.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {17,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,S} {15,B}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   Cb  u0 {3,B} {14,S} {16,B}
+  16   Cb  u0 {15,B} {17,B}
+  17   Cb  u0 {1,B} {16,B}
+---
+label: s2_5_6_s2_6_6_s2_6_6_ben_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {17,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,S} {15,B}
+  4    C   u0 {3,S} {5,S}
+  5    C   u0 {4,S} {6,S}
+  6    C   u0 {5,S} {7,S} {14,S}
+  7    C   u0 {6,S} {8,S} {11,S}
+  8    C   u0 {7,S} {9,S}
+  9    C   u0 {8,S} {10,S}
+  10   C   u0 {9,S} {11,S}
+  11   C   u0 {7,S} {10,S} {12,S}
+  12   C   u0 {11,S} {13,S}
+  13   C   u0 {12,S} {14,S}
+  14   C   u0 {6,S} {13,S} {15,S}
+  15   Cb  u0 {3,B} {14,S} {16,B}
+  16   Cb  u0 {15,B} {17,B}
+  17   Cb  u0 {1,B} {16,B}
+solute:
+  S: 0.10685
+  B: 0.19609
+  E: 0.16013
+  L: 0.04345
+  A: 0.0997
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_16
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,D}
+  3    R!H u0 {2,D} {4,S} {15,S}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   R!H u0 {3,S} {14,S} {16,S}
+  16   R!H u0 {15,S} {17,D}
+  17   R!H u0 {1,S} {16,D}
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C  u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,D}
+  3    C  u0 {2,D} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,D}
+  17   C  u0 {1,S} {16,D}
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_16_onlyC(=O)
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * CO u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,D}
+  3    C  u0 {2,D} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,D}
+  17   C  u0 {1,S} {16,D}
+solute:
+  S: 0.19379
+  B: 0.05248
+  E: 0.05417
+  L: 0.24345
+  A: 0.0
+dataCount:
+  S: 12.0
+  B: 12.0
+  E: 12.0
+  L: 8.0
+  A: 12.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_4
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,D}
+  3    R!H u0 {2,D} {4,S} {15,S}
+  4    R!H u0 {3,S} {5,D}
+  5    R!H u0 {4,D} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   R!H u0 {3,S} {14,S} {16,S}
+  16   R!H u0 {15,S} {17,S}
+  17   R!H u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {17,S}
+  2    C u0 {1,S} {3,D}
+  3    C u0 {2,D} {4,S} {15,S}
+  4    C u0 {3,S} {5,D}
+  5    C u0 {4,D} {6,S}
+  6    C u0 {5,S} {7,S} {14,S}
+  7    C u0 {6,S} {8,S} {11,S}
+  8    C u0 {7,S} {9,S}
+  9    C u0 {8,S} {10,S}
+  10   C u0 {9,S} {11,S}
+  11   C u0 {7,S} {10,S} {12,S}
+  12   C u0 {11,S} {13,S}
+  13   C u0 {12,S} {14,S}
+  14   C u0 {6,S} {13,S} {15,S}
+  15   C u0 {3,S} {14,S} {16,S}
+  16   C u0 {15,S} {17,S}
+  17   C u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_diene_2_4_onlyC(=O)
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * CO u0 {2,S} {17,S}
+  2    C u0 {1,S} {3,D}
+  3    C u0 {2,D} {4,S} {15,S}
+  4    C u0 {3,S} {5,D}
+  5    C u0 {4,D} {6,S}
+  6    C u0 {5,S} {7,S} {14,S}
+  7    C u0 {6,S} {8,S} {11,S}
+  8    C u0 {7,S} {9,S}
+  9    C u0 {8,S} {10,S}
+  10   C u0 {9,S} {11,S}
+  11   C u0 {7,S} {10,S} {12,S}
+  12   C u0 {11,S} {13,S}
+  13   C u0 {12,S} {14,S}
+  14   C u0 {6,S} {13,S} {15,S}
+  15   C u0 {3,S} {14,S} {16,S}
+  16   C u0 {15,S} {17,S}
+  17   C u0 {1,S} {16,S}
+solute:
+  S: 0.04583
+  B: 0.02142
+  E: 0.04648
+  L: 0.34717
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 2.0
+  A: 3.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,D}
+  3    R!H u0 {2,D} {4,S} {15,S}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   R!H u0 {3,S} {14,S} {16,S}
+  16   R!H u0 {15,S} {17,S}
+  17   R!H u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_ene_2_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C  u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,D}
+  3    C  u0 {2,D} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,S}
+  17   C  u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_ene_2_onlyC(=O)
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * CO u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,D}
+  3    C  u0 {2,D} {4,S} {15,S}
+  4    C  u0 {3,S} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,S}
+  17   C  u0 {1,S} {16,S}
+solute:
+  S: 0.04818
+  B: 0.03208
+  E: -0.00754
+  L: 0.04223
+  A: 0.0
+dataCount:
+  S: 63.0
+  B: 63.0
+  E: 63.0
+  L: 53.0
+  A: 63.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_ene_3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,S}
+  3    R!H u0 {2,S} {4,D} {15,S}
+  4    R!H u0 {3,D} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,S}
+  15   R!H u0 {3,S} {14,S} {16,S}
+  16   R!H u0 {15,S} {17,S}
+  17   R!H u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_ene_3_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C  u0 {2,S} {17,S}
+  2    C  u0 {1,S} {3,S}
+  3    C  u0 {2,S} {4,D} {15,S}
+  4    C  u0 {3,D} {5,S}
+  5    C  u0 {4,S} {6,S}
+  6    C  u0 {5,S} {7,S} {14,S}
+  7    C  u0 {6,S} {8,S} {11,S}
+  8    C  u0 {7,S} {9,S}
+  9    C  u0 {8,S} {10,S}
+  10   C  u0 {9,S} {11,S}
+  11   C  u0 {7,S} {10,S} {12,S}
+  12   C  u0 {11,S} {13,S}
+  13   C  u0 {12,S} {14,S}
+  14   C  u0 {6,S} {13,S} {15,S}
+  15   C  u0 {3,S} {14,S} {16,S}
+  16   C  u0 {15,S} {17,S}
+  17   C  u0 {1,S} {16,S}
+solute:
+  S: 0.10513
+  B: 0.02489
+  E: -0.02957
+  L: 0.43057
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 6.0
+  L: 4.0
+  A: 6.0
+---
+label: s2_5_6_s2_6_6_s2_6_6_triene_2_12_14
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {17,S}
+  2    R!H u0 {1,S} {3,D}
+  3    R!H u0 {2,D} {4,S} {15,S}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S}
+  6    R!H u0 {5,S} {7,S} {14,S}
+  7    R!H u0 {6,S} {8,S} {11,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {7,S} {10,S} {12,S}
+  12   R!H u0 {11,S} {13,D}
+  13   R!H u0 {12,D} {14,S}
+  14   R!H u0 {6,S} {13,S} {15,D}
+  15   R!H u0 {3,S} {14,D} {16,S}
+  16   R!H u0 {15,S} {17,S}
+  17   R!H u0 {1,S} {16,S}
+---
+label: s2_5_6_s2_6_6_s2_6_6_triene_2_12_14_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {17,S}
+  2    C u0 {1,S} {3,D}
+  3    C u0 {2,D} {4,S} {15,S}
+  4    C u0 {3,S} {5,S}
+  5    C u0 {4,S} {6,S}
+  6    C u0 {5,S} {7,S} {14,S}
+  7    C u0 {6,S} {8,S} {11,S}
+  8    C u0 {7,S} {9,S}
+  9    C u0 {8,S} {10,S}
+  10   C u0 {9,S} {11,S}
+  11   C u0 {7,S} {10,S} {12,S}
+  12   C u0 {11,S} {13,D}
+  13   C u0 {12,D} {14,S}
+  14   C u0 {6,S} {13,S} {15,D}
+  15   C u0 {3,S} {14,D} {16,S}
+  16   C u0 {15,S} {17,S}
+  17   C u0 {1,S} {16,S}
+solute:
+  S: 0.06874
+  B: 0.0392
+  E: -0.03672
+  L: 0.08413
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_6_tetraene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_tetraene_1_3_5_7, s2_5_6_tetraene_1_3_5_8}
+---
+label: s2_5_6_tetraene_1_3_5_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {4,S} {5,D}
+  2   R!H u0 {1,S} {3,S} {6,S}
+  3   R!H u0 {2,S} {8,D}
+  4   R!H u0 {1,S} {9,D}
+  5   R!H u0 {1,D} {7,S}
+  6   R!H u0 {2,S} {7,D}
+  7   R!H u0 {5,S} {6,D}
+  8   R!H u0 {3,D} {9,S}
+  9   R!H u0 {4,D} {8,S}
+solute:
+  S: 0.03533
+  B: -0.00632
+  E: -0.00303
+  L: -0.07679
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 3.0
+  A: 5.0
+---
+label: s2_5_6_tetraene_1_3_5_8
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,S} {5,S} {6,D}
+  2   R!H u0 {1,S} {3,S} {4,D}
+  3   R!H u0 {2,S} {8,D}
+  4   R!H u0 {2,D} {7,S}
+  5   R!H u0 {1,S} {9,D}
+  6   R!H u0 {1,D} {7,S}
+  7   R!H u0 {4,S} {6,S}
+  8   R!H u0 {3,D} {9,S}
+  9   R!H u0 {5,D} {8,S}
+solute:
+  S: 0.04788
+  B: 0.02431
+  E: 0.06783
+  L: 0.08692
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_5_6_triene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_5_6_triene_m_1_7}
+---
+label: s2_5_6_triene_m_1_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {2,D} {3,S} {6,S}
+  2   R!H u0 {1,D} {4,S} {5,S}
+  3   R!H u0 {1,S} {9,D}
+  4   R!H u0 {2,S} {8,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {7,D}
+  7   R!H u0 {5,S} {6,D}
+  8   R!H u0 {4,S} {9,S}
+  9   R!H u0 {3,D} {8,S}
+solute:
+  S: -0.07579
+  B: 0.01305
+  E: -0.06278
+  L: -0.23438
+  A: 0.02605
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  3    R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5    R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7    R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  8    R!H u0 {4,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {10,[S,D,T,B]}
+  10   R!H u0 {8,[S,D,T,B]} {9,[S,D,T,B]}
+solute:
+  S: 0.01109
+  B: 0.05613
+  E: 0.08479
+  L: 0.08047
+  A: 0.0
+dataCount:
+  S: 16.0
+  B: 16.0
+  E: 16.0
+  L: 14.0
+  A: 16.0
+---
+label: s2_5_7_azulene
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * C u0 {2,S} {3,D} {4,S}\n2  C u0 {1,S} {5,D} {6,S}\n3  C u0 {1,D} {8,S}\n\
+  4  C u0 {1,S} {9,D}\n5  C u0 {2,D} {9,S}\n6  C u0 {2,S} {10,D} \n7  C u0 {8,D} {10,S}\n\
+  8  C u0 {3,S} {7,D}\n9  C u0 {4,D} {5,S}\n10 C u0 {6,D} {7,S}\n"
+solute:
+  S: 0.00554
+  B: -0.06118
+  E: 0.02397
+  L: 0.26676
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 6.0
+  L: 6.0
+  A: 6.0
+---
+label: s2_5_7_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,D} {4,S} {5,S}
+  2    C u0 {1,D} {3,S} {6,S}
+  3    C u0 {2,S} {9,S}
+  4    C u0 {1,S} {8,S}
+  5    C u0 {1,S} {7,S}
+  6    C u0 {2,S} {7,S}
+  7    C u0 {5,S} {6,S}
+  8    C u0 {4,S} {10,S}
+  9    C u0 {3,S} {10,S}
+  10   C u0 {8,S} {9,S}
+solute:
+  S: -0.06294
+  B: -0.09034
+  E: -0.03948
+  L: -0.39742
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_5_7_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {4,D} {5,S}
+  2    C u0 {1,S} {3,S} {6,S}
+  3    C u0 {2,S} {9,S}
+  4    C u0 {1,D} {8,S}
+  5    C u0 {1,S} {7,S}
+  6    C u0 {2,S} {7,S}
+  7    C u0 {5,S} {6,S}
+  8    C u0 {4,S} {10,S}
+  9    C u0 {3,S} {10,S}
+  10   C u0 {8,S} {9,S}
+solute:
+  S: -0.04974
+  B: -0.04786
+  E: -0.01945
+  L: -0.09382
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_7_s2_7_3
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]} \n2  R!H u0 {1,[S,D,B]}\
+  \ {4,[S,D,B]} {8,[S,D,B]}\n3  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}\n4  R!H\
+  \ u0 {2,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}\n5  R!H u0 {1,[S,D,B]} {3,[S,D,B]}\n6 \
+  \ R!H u0 {4,[S,D,B]} {10,[S,D,B]}\n7  R!H u0 {3,[S,D,B]} {10,[S,D,B]}\n8  R!H u0\
+  \ {2,[S,D,B]} {11,[S,D,B]}\n9  R!H u0 {4,[S,D,B]} {11,[S,D,B]}\n10 R!H u0 {6,[S,D,B]}\
+  \ {7,[S,D,B]}\n11 R!H u0 {8,[S,D,B]} {9,[S,D,B]}\n"
+---
+label: s2_5_7_s2_7_3_ane
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {2,S} {3,S} {5,S} \n2  R!H u0 {1,S} {4,S} {8,S}\n3  R!H u0 {1,S}\
+  \ {5,S} {7,S}\n4  R!H u0 {2,S} {6,S} {9,S}\n5  R!H u0 {1,S} {3,S}\n6  R!H u0 {4,S}\
+  \ {10,S}\n7  R!H u0 {3,S} {10,S}\n8  R!H u0 {2,S} {11,S}\n9  R!H u0 {4,S} {11,S}\n\
+  10 R!H u0 {6,S} {7,S}\n11 R!H u0 {8,S} {9,S}\n"
+---
+label: s2_5_7_s2_7_3_ane_side_ene
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {2,S} {3,S} {5,S} \n2  R!H u0 {1,S} {4,S} {8,S}\n3  R!H u0 {1,S}\
+  \ {5,S} {7,S}\n4  R!H u0 {2,S} {6,S} {9,S}\n5  R!H u0 {1,S} {3,S}\n6  R!H u0 {4,S}\
+  \ {10,S} {12,D}\n7  R!H u0 {3,S} {10,S}\n8  R!H u0 {2,S} {11,S}\n9  R!H u0 {4,S}\
+  \ {11,S}\n10 R!H u0 {6,S} {7,S}\n11 R!H u0 {8,S} {9,S}\n12 R!H u0 {6,D}\n"
+solute:
+  S: -0.04971
+  B: 0.05845
+  E: -0.03569
+  L: -0.03516
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_5_7_s2_7_3_ene
+children: []
+short_description: ''
+long_description: ''
+group: "\n1  * R!H u0 {2,S} {3,S} {5,S} \n2  R!H u0 {1,S} {4,S} {8,D}\n3  R!H u0 {1,S}\
+  \ {5,S} {7,S}\n4  R!H u0 {2,S} {6,S} {9,S}\n5  R!H u0 {1,S} {3,S}\n6  R!H u0 {4,S}\
+  \ {10,S}\n7  R!H u0 {3,S} {10,S}\n8  R!H u0 {2,D} {11,S}\n9  R!H u0 {4,S} {11,S}\n\
+  10 R!H u0 {6,S} {7,S}\n11 R!H u0 {8,S} {9,S}\n"
+solute:
+  S: -0.04118
+  B: -0.03465
+  E: -0.00877
+  L: -0.18708
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_6_5_ben_ene_s2_5_9_s3_9_6_hetero
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * N u0 {7,S} {8,S} {9,S}
+  2  N u0 {13,S} {15,S}
+  3  C u0 {4,S} {5,S} {7,S}
+  4  C u0 {3,S} {6,S}
+  5  C u0 {3,S} {10,S}
+  6  C u0 {4,S} {8,S}
+  7  C u0 {1,S} {3,S}
+  8  C u0 {1,S} {6,S}
+  9  C u0 {1,S} {11,S}
+  10 C u0 {5,S} {13,S}
+  11 C u0 {9,S} {12,S}
+  12 C u0 {11,S} {13,D} {14,S}
+  13 C u0 {2,S} {10,S} {12,D}
+  14 C u0 {12,S} {15,B} {17,B}
+  15 C u0 {2,S} {14,B} {16,B}
+  16 C u0 {15,B} {18,B}
+  17 C u0 {14,B} {19,B}
+  18 C u0 {16,B} {19,B}
+  19 C u0 {17,B} {18,B}
+solute:
+  S: 0.03834
+  B: -0.01704
+  E: -0.00473
+  L: 0.04905
+  A: 0.01444
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_5_ben_s2_5_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    R!H u0 {5,S} {8,S}
+  8    R!H u0 {7,S} {9,S} {13,S}
+  9    R!H u0 {8,S} {10,S}
+  10   R!H u0 {9,S} {11,S}
+  11   R!H u0 {10,S} {12,S}
+  12   R!H u0 {11,S} {13,S}
+  13   R!H u0 {4,S} {8,S} {12,S}
+---
+label: s2_6_5_ben_s2_5_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    R!H u0 {5,S} {8,S}
+  8    Cb  u0 {7,S} {9,B} {13,B}
+  9    Cb  u0 {8,B} {10,B}
+  10   Cb  u0 {9,B} {11,B}
+  11   Cb  u0 {10,B} {12,B}
+  12   Cb  u0 {11,B} {13,B}
+  13   Cb  u0 {4,S} {8,B} {12,B}
+---
+label: s2_6_5_ben_s2_5_6_hetero
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    N   u0 {5,S} {8,S}
+  8    C   u0 {7,S} {9,S} {13,S}
+  9    C   u0 {8,S} {10,S}
+  10   C   u0 {9,S} {11,S}
+  11   N   u0 {10,S} {12,S}
+  12   C   u0 {11,S} {13,S}
+  13   C   u0 {4,S} {8,S} {12,S}
+solute:
+  S: -0.05001
+  B: -0.04688
+  E: 0.05438
+  L: 0.10199
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_6_5_s2_5_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {6,[S,D,B]}
+  2    R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  3    R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  4    R!H u0 {3,[S,D,B]} {5,[S,D,B]} {13,[S,D,B]}
+  5    R!H u0 {4,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]}
+  6    R!H u0 {1,[S,D,B]} {5,[S,D,B]}
+  7    R!H u0 {5,[S,D,B]} {8,[S,D,B]}
+  8    R!H u0 {7,[S,D,B]} {9,[S,D,B]} {13,[S,D,B]}
+  9    R!H u0 {8,[S,D,B]} {10,[S,D,B]}
+  10   R!H u0 {9,[S,D,B]} {11,[S,D,B]}
+  11   R!H u0 {10,[S,D,B]} {12,[S,D,B]}
+  12   R!H u0 {11,[S,D,B]} {13,[S,D,B]}
+  13   R!H u0 {4,[S,D,B]} {8,[S,D,B]} {12,[S,D,B]}
+solute:
+  S: 0.02272
+  B: -0.06517
+  E: 0.14311
+  L: 0.25278
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 6.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_6_5_s2_5_6_carbazole
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    N   u0 {5,S} {8,S}
+  8    Cb  u0 {7,S} {9,B} {13,B}
+  9    Cb  u0 {8,B} {10,B}
+  10   Cb  u0 {9,B} {11,B}
+  11   Cb  u0 {10,B} {12,B}
+  12   Cb  u0 {11,B} {13,B}
+  13   Cb  u0 {4,S} {8,B} {12,B}
+solute:
+  S: 0.15219
+  B: -0.15318
+  E: 0.05875
+  L: 0.36105
+  A: 0.0
+dataCount:
+  S: 11.0
+  B: 11.0
+  E: 14.0
+  L: 14.0
+  A: 11.0
+---
+label: s2_6_5_s2_5_6_dibenzofuran
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    O   u0 {5,S} {8,S}
+  8    Cb  u0 {7,S} {9,B} {13,B}
+  9    Cb  u0 {8,B} {10,B}
+  10   Cb  u0 {9,B} {11,B}
+  11   Cb  u0 {10,B} {12,B}
+  12   Cb  u0 {11,B} {13,B}
+  13   Cb  u0 {4,S} {8,B} {12,B}
+solute:
+  S: -0.08351
+  B: 0.01747
+  E: 0.00764
+  L: 0.13563
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 2.0
+  A: 4.0
+---
+label: s2_6_5_s2_5_6_dibenzothiophene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    S   u0 {5,S} {8,S}
+  8    Cb  u0 {7,S} {9,B} {13,B}
+  9    Cb  u0 {8,B} {10,B}
+  10   Cb  u0 {9,B} {11,B}
+  11   Cb  u0 {10,B} {12,B}
+  12   Cb  u0 {11,B} {13,B}
+  13   Cb  u0 {4,S} {8,B} {12,B}
+solute:
+  S: -0.00808
+  B: -0.08225
+  E: 0.01591
+  L: 0.25147
+  A: 0.0
+dataCount:
+  S: 45.0
+  B: 45.0
+  E: 46.0
+  L: 44.0
+  A: 46.0
+---
+label: s2_6_5_s2_5_6_fluorene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * Cb  u0 {2,B} {6,B}
+  2    Cb  u0 {1,B} {3,B}
+  3    Cb  u0 {2,B} {4,B}
+  4    Cb  u0 {3,B} {5,B} {13,S}
+  5    Cb  u0 {4,B} {6,B} {7,S}
+  6    Cb  u0 {1,B} {5,B}
+  7    C   u0 {5,S} {8,S}
+  8    Cb  u0 {7,S} {9,B} {13,B}
+  9    Cb  u0 {8,B} {10,B}
+  10   Cb  u0 {9,B} {11,B}
+  11   Cb  u0 {10,B} {12,B}
+  12   Cb  u0 {11,B} {13,B}
+  13   Cb  u0 {4,S} {8,B} {12,B}
+solute:
+  S: -0.0367
+  B: 0.00056
+  E: 0.00353
+  L: 0.20194
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 13.0
+  L: 11.0
+  A: 13.0
+---
+label: s2_6_5_s2_5_9_s3_9_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {7,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
+  2  R!H u0 {13,[S,D,B]} {15,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {6,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {10,[S,D,B]}
+  6  R!H u0 {4,[S,D,B]} {8,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  8  R!H u0 {1,[S,D,B]} {6,[S,D,B]}
+  9  R!H u0 {1,[S,D,B]} {11,[S,D,B]}
+  10 R!H u0 {5,[S,D,B]} {13,[S,D,B]}
+  11 R!H u0 {9,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {11,[S,D,B]} {13,[S,D,B]} {14,[S,D,B]}
+  13 R!H u0 {2,[S,D,B]} {10,[S,D,B]} {12,[S,D,B]}
+  14 R!H u0 {12,[S,D,B]} {15,[S,D,B]} {17,[S,D,B]}
+  15 R!H u0 {2,[S,D,B]} {14,[S,D,B]} {16,[S,D,B]}
+  16 R!H u0 {15,[S,D,B]} {18,[S,D,B]}
+  17 R!H u0 {14,[S,D,B]} {19,[S,D,B]}
+  18 R!H u0 {16,[S,D,B]} {19,[S,D,B]}
+  19 R!H u0 {17,[S,D,B]} {18,[S,D,B]}
+---
+label: s2_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: -0.16867
+  B: 0.13981
+  E: -0.05694
+  L: -0.42139
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_6_6_8-Hydroxyquinoline_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_8-Hydroxyquinoline1, s2_6_6_8-Hydroxyquinoline2}
+---
+label: s2_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {6,S}
+  2    R!H u0 {1,S} {4,S} {5,S}
+  3    R!H u0 {1,S} {9,S}
+  4    R!H u0 {2,S} {7,S}
+  5    R!H u0 {2,S} {8,S}
+  6    R!H u0 {1,S} {10,S}
+  7  * R!H u0 {4,S} {9,S}
+  8    R!H u0 {5,S} {10,S}
+  9    R!H u0 {3,S} {7,S}
+  10   R!H u0 {6,S} {8,S}
+solute:
+  S: -0.04038
+  B: 0.0
+  E: -0.04689
+  L: -0.13896
+  A: 0.0
+dataCount:
+  S: 18.0
+  B: 18.0
+  E: 22.0
+  L: 12.0
+  A: 22.0
+---
+label: s2_6_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,B} {5,S}
+  2    R!H u0 {1,B} {4,B} {6,S}
+  3    R!H u0 {1,B} {7,B}
+  4    R!H u0 {2,B} {9,B}
+  5    R!H u0 {1,S} {10,S}
+  6    R!H u0 {2,S} {8,S}
+  7  * R!H u0 {3,B} {9,B}
+  8    R!H u0 {6,S} {10,S}
+  9    R!H u0 {4,B} {7,B}
+  10   R!H u0 {5,S} {8,S}
+solute:
+  S: 0.07905
+  B: -0.01768
+  E: 0.0882
+  L: 0.11933
+  A: 0.0
+dataCount:
+  S: 13.0
+  B: 13.0
+  E: 14.0
+  L: 11.0
+  A: 14.0
+---
+label: s2_6_6_ben_1,4-dioxane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C u0 {2,B} {3,B} {5,S}
+  2    C u0 {1,B} {4,B} {6,S}
+  3    C u0 {1,B} {7,B}
+  4    C u0 {2,B} {9,B}
+  5    O u0 {1,S} {10,S}
+  6    O u0 {2,S} {8,S}
+  7  * C u0 {3,B} {9,B}
+  8    C u0 {6,S} {10,S}
+  9    C u0 {4,B} {7,B}
+  10   C u0 {5,S} {8,S}
+solute:
+  S: -0.02661
+  B: 0.03512
+  E: 0.00848
+  L: -0.137
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_6_ben_chromane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C u0 {2,B} {3,B} {5,S}
+  2    C u0 {1,B} {4,B} {6,S}
+  3    C u0 {1,B} {7,B}
+  4    C u0 {2,B} {9,B}
+  5    C u0 {1,S} {10,S}
+  6    O u0 {2,S} {8,S}
+  7  * C u0 {3,B} {9,B}
+  8    C u0 {6,S} {10,S}
+  9    C u0 {4,B} {7,B}
+  10   C u0 {5,S} {8,S}
+solute:
+  S: -0.25794
+  B: 0.03181
+  E: 0.06359
+  L: -0.2737
+  A: 0.0
+dataCount:
+  S: 11.0
+  B: 11.0
+  E: 11.0
+  L: 11.0
+  A: 11.0
+---
+label: s2_6_6_ben_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_ben_ene_1, s2_6_6_ben_ene_2}
+---
+label: s2_6_6_ben_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,S} {4,B}
+  2    R!H u0 {1,B} {5,B} {6,S}
+  3    R!H u0 {1,S} {7,D}
+  4    R!H u0 {1,B} {8,B}
+  5    R!H u0 {2,B} {9,B}
+  6    R!H u0 {2,S} {10,S}
+  7  * R!H u0 {3,D} {10,S}
+  8    R!H u0 {4,B} {9,B}
+  9    R!H u0 {5,B} {8,B}
+  10   R!H u0 {6,S} {7,S}
+solute:
+  S: -0.09384
+  B: 0.00273
+  E: -0.12769
+  L: -0.19321
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 8.0
+  A: 10.0
+---
+label: s2_6_6_ben_ene_1_2-Benzothiazine-1,1-dioxide
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C    u0 {2,B} {3,S} {4,B}
+  2    C    u0 {1,B} {5,B} {6,S}
+  3    C    u0 {1,S} {7,D}
+  4    C    u0 {1,B} {8,B}
+  5    C    u0 {2,B} {9,B}
+  6    S6dd u0 {2,S} {10,S} {11,D} {12,D}
+  7  * C    u0 {3,D} {10,S}
+  8    C    u0 {4,B} {9,B}
+  9    C    u0 {5,B} {8,B}
+  10   N    u0 {6,S} {7,S}
+  11   O    u0 {6,D}
+  12   O    u0 {6,D}
+solute:
+  S: 0.00607
+  B: 0.02677
+  E: 0.0138
+  L: 0.09781
+  A: -0.02712
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_6_6_ben_ene_1_coumarin
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C  u0 {2,B} {3,S} {4,B}
+  2    C  u0 {1,B} {5,B} {6,S}
+  3    C  u0 {1,S} {7,D}
+  4    C  u0 {1,B} {8,B}
+  5    C  u0 {2,B} {9,B}
+  6    O  u0 {2,S} {10,S}
+  7  * C  u0 {3,D} {10,S}
+  8    C  u0 {4,B} {9,B}
+  9    C  u0 {5,B} {8,B}
+  10   CO u0 {6,S} {7,S}
+solute:
+  S: -0.04893
+  B: -0.00137
+  E: -0.08314
+  L: -0.02796
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_6_6_ben_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {4,B} {5,S}
+  2    R!H u0 {1,B} {3,S} {6,B}
+  3    R!H u0 {2,S} {8,S}
+  4    R!H u0 {1,B} {10,B}
+  5    R!H u0 {1,S} {7,S}
+  6    R!H u0 {2,B} {9,B}
+  7  * R!H u0 {5,S} {8,D}
+  8    R!H u0 {3,S} {7,D}
+  9    R!H u0 {6,B} {10,B}
+  10   R!H u0 {4,B} {9,B}
+solute:
+  S: -0.13822
+  B: 0.14838
+  E: 0.0049
+  L: -0.19335
+  A: 0.0
+dataCount:
+  S: 20.0
+  B: 20.0
+  E: 22.0
+  L: 21.0
+  A: 22.0
+---
+label: s2_6_6_ben_heteroaromatic_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_ben_heteroaromatic1, s2_6_6_ben_heteroaromatic2, s2_6_6_ben_heteroaromatic3,
+  s2_6_6_ben_heteroaromatic4,s2_6_6_isoquinoline_general, s2_6_6_quinoline_general}
+---
+label: s2_6_6_ben_onlyC
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    C u0 {2,B} {3,B} {5,S}
+  2    C u0 {1,B} {4,B} {6,S}
+  3    C u0 {1,B} {7,B}
+  4    C u0 {2,B} {9,B}
+  5    C u0 {1,S} {10,S}
+  6    C u0 {2,S} {8,S}
+  7  * C u0 {3,B} {9,B}
+  8    C u0 {6,S} {10,S}
+  9    C u0 {4,B} {7,B}
+  10   C u0 {5,S} {8,S}
+solute:
+  S: -0.04077
+  B: 0.00568
+  E: -0.02663
+  L: -0.29995
+  A: 0.0
+dataCount:
+  S: 24.0
+  B: 24.0
+  E: 25.0
+  L: 23.0
+  A: 25.0
+---
+label: s2_6_6_ben_s2_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {2,B} {6,B}
+  2   R!H u0 {1,B} {3,B}
+  3   R!H u0 {2,B} {4,B}
+  4   R!H u0 {3,B} {5,B}
+  5 * R!H u0 {4,B} {6,B} {14,S}
+  6   R!H u0 {1,B} {5,B} {7,S}
+  7   R!H u0 {6,S} {8,S}
+  8   R!H u0 {7,S} {9,S}
+  9   R!H u0 {8,S} {10,S} {14,S}
+  10  R!H u0 {9,S} {11,S}
+  11  R!H u0 {10,S} {12,S}
+  12  R!H u0 {11,S} {13,S}
+  13  R!H u0 {12,S} {14,S}
+  14  R!H u0 {5,S} {9,S} {13,S}
+solute:
+  S: 0.05601
+  B: 0.01036
+  E: -0.02585
+  L: 0.24897
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_6_6_ben_s2_6_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C   u0 {2,S} {3,B} {5,B}
+  2    C   u0 {1,S} {4,B} {10,B}
+  3    C   u0 {1,B} {6,B} {7,S}
+  4    C   u0 {2,B} {8,S} {9,B}
+  5    C   u0 {1,B} {12,B}
+  6    C   u0 {3,B} {11,B}
+  7    R!H u0 {3,S} {8,S}
+  8    R!H u0 {4,S} {7,S}
+  9    C   u0 {4,B} {13,B}
+  10   C   u0 {2,B} {14,B}
+  11   C   u0 {6,B} {12,B}
+  12   C   u0 {5,B} {11,B}
+  13   C   u0 {9,B} {14,B}
+  14   C   u0 {10,B} {13,B}
+solute:
+  S: 0.00726
+  B: -0.00624
+  E: -0.01118
+  L: 0.34616
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 6.0
+  L: 6.0
+  A: 6.0
+---
+label: s2_6_6_ben_s2_6_6_ben_A
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {5,S} {6,S}
+  2    R!H u0 {3,S} {4,S}
+  3  * C   u0 {2,S} {5,B} {7,B}
+  4    C   u0 {2,S} {6,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {1,S} {4,B} {10,B}
+  7    C   u0 {3,B} {11,B}
+  8    C   u0 {4,B} {14,B}
+  9    C   u0 {5,B} {12,B}
+  10   C   u0 {6,B} {13,B}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {9,B} {11,B}
+  13   C   u0 {10,B} {14,B}
+  14   C   u0 {8,B} {13,B}
+solute:
+  S: -0.02275
+  B: 0.05088
+  E: -0.07847
+  L: 0.0514
+  A: 0.0
+dataCount:
+  S: 8.0
+  B: 9.0
+  E: 10.0
+  L: 9.0
+  A: 10.0
+---
+label: s2_6_6_ben_s2_6_6_ben_A_9H-xanthene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    O   u0 {5,S} {6,S}
+  2    C   u0 {3,S} {4,S}
+  3  * C   u0 {2,S} {5,B} {7,B}
+  4    C   u0 {2,S} {6,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {1,S} {4,B} {10,B}
+  7    C   u0 {3,B} {11,B}
+  8    C   u0 {4,B} {14,B}
+  9    C   u0 {5,B} {12,B}
+  10   C   u0 {6,B} {13,B}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {9,B} {11,B}
+  13   C   u0 {10,B} {14,B}
+  14   C   u0 {8,B} {13,B}
+solute:
+  S: -0.08633
+  B: 0.06984
+  E: -0.03276
+  L: -0.17675
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_6_6_ben_s2_6_6_ben_A_anthraquinone
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    CO  u0 {5,S} {6,S}
+  2    CO  u0 {3,S} {4,S}
+  3  * C   u0 {2,S} {5,B} {7,B}
+  4    C   u0 {2,S} {6,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {1,S} {4,B} {10,B}
+  7    C   u0 {3,B} {11,B}
+  8    C   u0 {4,B} {14,B}
+  9    C   u0 {5,B} {12,B}
+  10   C   u0 {6,B} {13,B}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {9,B} {11,B}
+  13   C   u0 {10,B} {14,B}
+  14   C   u0 {8,B} {13,B}
+solute:
+  S: -0.11753
+  B: -0.22439
+  E: -0.05683
+  L: -0.37362
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 11.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_6_6_ben_s2_6_6_ben_A_phenothiazine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    N   u0 {5,S} {6,S}
+  2    S   u0 {3,S} {4,S}
+  3  * C   u0 {2,S} {5,B} {7,B}
+  4    C   u0 {2,S} {6,B} {8,B}
+  5    C   u0 {1,S} {3,B} {9,B}
+  6    C   u0 {1,S} {4,B} {10,B}
+  7    C   u0 {3,B} {11,B}
+  8    C   u0 {4,B} {14,B}
+  9    C   u0 {5,B} {12,B}
+  10   C   u0 {6,B} {13,B}
+  11   C   u0 {7,B} {12,B}
+  12   C   u0 {9,B} {11,B}
+  13   C   u0 {10,B} {14,B}
+  14   C   u0 {8,B} {13,B}
+solute:
+  S: 0.05546
+  B: -0.03258
+  E: -0.00404
+  L: 0.05519
+  A: 0.0
+dataCount:
+  S: 21.0
+  B: 21.0
+  E: 21.0
+  L: 20.0
+  A: 21.0
+---
+label: s2_6_6_chromen-4-one
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    Cb  u0 {2,B} {4,B} {5,S}
+  2    Cb  u0 {1,B} {3,S} {6,B}
+  3    CO  u0 {2,S} {8,S}
+  4    Cb  u0 {1,B} {10,B}
+  5    O2s u0 {1,S} {7,S}
+  6    Cb  u0 {2,B} {9,B}
+  7  * Cd  u0 {5,S} {8,D}
+  8    Cd  u0 {3,S} {7,D}
+  9    Cb  u0 {6,B} {10,B}
+  10   Cb  u0 {4,B} {9,B}
+solute:
+  S: -0.02043
+  B: 0.08406
+  E: 0.10458
+  L: 0.47957
+  A: 0.17123
+dataCount:
+  S: 86.0
+  B: 86.0
+  E: 87.0
+  L: 85.0
+  A: 86.0
+---
+label: s2_6_6_diene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_diene_0_2, s2_6_6_diene_0_3, s2_6_6_diene_0_6, s2_6_6_diene_0_8,
+  s2_6_6_diene_1_6, s2_6_6_diene_1_7}
+---
+label: s2_6_6_diene_0_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {5,S}
+  2    R!H u0 {1,S} {4,S} {6,D}
+  3    R!H u0 {1,S} {8,S}
+  4    R!H u0 {2,S} {10,S}
+  5    R!H u0 {1,S} {9,S}
+  6    R!H u0 {2,D} {7,S}
+  7  * R!H u0 {6,S} {8,D}
+  8    R!H u0 {3,S} {7,D}
+  9    R!H u0 {5,S} {10,S}
+  10   R!H u0 {4,S} {9,S}
+solute:
+  S: 0.06559
+  B: 0.08608
+  E: 0.03331
+  L: 0.22695
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_diene_0_3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {4,S} {6,D}
+  2    R!H u0 {1,S} {3,S} {5,S}
+  3    R!H u0 {2,S} {10,S}
+  4    R!H u0 {1,S} {9,S}
+  5    R!H u0 {2,S} {7,D}
+  6    R!H u0 {1,D} {8,S}
+  7  * R!H u0 {5,D} {8,S}
+  8    R!H u0 {6,S} {7,S}
+  9    R!H u0 {4,S} {10,S}
+  10   R!H u0 {3,S} {9,S}
+solute:
+  S: -0.01643
+  B: 0.03143
+  E: 0.05837
+  L: 0.10156
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 1.0
+  A: 2.0
+---
+label: s2_6_6_diene_0_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {5,S} {6,D}
+  2    R!H u0 {1,S} {3,S} {4,S}
+  3    R!H u0 {2,S} {10,S}
+  4    R!H u0 {2,S} {9,D}
+  5    R!H u0 {1,S} {8,S}
+  6    R!H u0 {1,D} {7,S}
+  7  * R!H u0 {6,S} {10,S}
+  8    R!H u0 {5,S} {9,S}
+  9    R!H u0 {4,D} {8,S}
+  10   R!H u0 {3,S} {7,S}
+solute:
+  S: -0.0042
+  B: 0.01231
+  E: 0.04223
+  L: 0.0422
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_6_6_diene_0_8
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {4,S} {6,D}
+  2    R!H u0 {1,S} {3,S} {5,S}
+  3    R!H u0 {2,S} {9,S}
+  4    R!H u0 {1,S} {10,D}
+  5    R!H u0 {2,S} {8,S}
+  6    R!H u0 {1,D} {7,S}
+  7  * R!H u0 {6,S} {8,S}
+  8    R!H u0 {5,S} {7,S}
+  9    R!H u0 {3,S} {10,S}
+  10   R!H u0 {4,D} {9,S}
+solute:
+  S: 0.13668
+  B: 0.0284
+  E: 0.13603
+  L: 0.37567
+  A: 0.0
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 7.0
+  L: 6.0
+  A: 7.0
+---
+label: s2_6_6_diene_1_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {5,S} {6,S}
+  2    R!H u0 {1,S} {3,S} {4,S}
+  3    R!H u0 {2,S} {10,S}
+  4    R!H u0 {2,S} {8,D}
+  5    R!H u0 {1,S} {9,S}
+  6    R!H u0 {1,S} {7,D}
+  7  * R!H u0 {6,D} {10,S}
+  8    R!H u0 {4,D} {9,S}
+  9    R!H u0 {5,S} {8,S}
+  10   R!H u0 {3,S} {7,S}
+solute:
+  S: -0.03418
+  B: -0.03389
+  E: 0.02793
+  L: 0.04067
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_diene_1_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {4,S} {6,S}
+  2    R!H u0 {1,S} {3,S} {5,S}
+  3    R!H u0 {2,S} {10,S}
+  4    R!H u0 {1,S} {7,S}
+  5    R!H u0 {2,S} {8,D}
+  6    R!H u0 {1,S} {9,S}
+  7  * R!H u0 {4,S} {10,D}
+  8    R!H u0 {5,D} {9,S}
+  9    R!H u0 {6,S} {8,S}
+  10   R!H u0 {3,S} {7,D}
+solute:
+  S: 0.00753
+  B: 0.0184
+  E: 0.01157
+  L: 0.0012
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_ene_0, s2_6_6_ene_1, s2_6_6_ene_2, s2_6_6_ene_m}
+---
+label: s2_6_6_ene_0
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {5,S}
+  2    R!H u0 {1,S} {4,D} {6,S}
+  3    R!H u0 {1,S} {7,S}
+  4    R!H u0 {2,D} {8,S}
+  5    R!H u0 {1,S} {10,S}
+  6    R!H u0 {2,S} {9,S}
+  7  * R!H u0 {3,S} {8,S}
+  8    R!H u0 {4,S} {7,S}
+  9    R!H u0 {6,S} {10,S}
+  10   R!H u0 {5,S} {9,S}
+solute:
+  S: -0.09435
+  B: -0.00904
+  E: 0.03891
+  L: -0.04303
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 7.0
+  L: 5.0
+  A: 7.0
+---
+label: s2_6_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {5,S}
+  2    R!H u0 {1,S} {4,S} {6,S}
+  3    R!H u0 {1,S} {9,D}
+  4    R!H u0 {2,S} {7,S}
+  5    R!H u0 {1,S} {10,S}
+  6    R!H u0 {2,S} {8,S}
+  7  * R!H u0 {4,S} {10,S}
+  8    R!H u0 {6,S} {9,S}
+  9    R!H u0 {3,D} {8,S}
+  10   R!H u0 {5,S} {7,S}
+solute:
+  S: -0.00903
+  B: 0.02653
+  E: 0.04275
+  L: 0.1062
+  A: 0.0
+dataCount:
+  S: 14.0
+  B: 14.0
+  E: 14.0
+  L: 13.0
+  A: 14.0
+---
+label: s2_6_6_ene_2
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,S}
+  2    R!H u0 {1,S} {5,S} {6,S}
+  3    R!H u0 {1,S} {10,S}
+  4    R!H u0 {1,S} {7,S}
+  5    R!H u0 {2,S} {8,S}
+  6    R!H u0 {2,S} {9,S}
+  7  * R!H u0 {4,S} {8,S}
+  8    R!H u0 {5,S} {7,S}
+  9    R!H u0 {6,S} {10,D}
+  10   R!H u0 {3,S} {9,D}
+solute:
+  S: -0.01391
+  B: 0.005
+  E: 0.25196
+  L: -0.00083
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 2.0
+  A: 3.0
+---
+label: s2_6_6_ene_m
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,D} {5,S} {6,S}
+  2    R!H u0 {1,D} {3,S} {4,S}
+  3    R!H u0 {2,S} {7,S}
+  4    R!H u0 {2,S} {8,S}
+  5    R!H u0 {1,S} {10,S}
+  6    R!H u0 {1,S} {9,S}
+  7  * R!H u0 {3,S} {9,S}
+  8    R!H u0 {4,S} {10,S}
+  9    R!H u0 {6,S} {7,S}
+  10   R!H u0 {5,S} {8,S}
+---
+label: s2_6_6_ene_s2_6_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {14,S}
+  2    R!H u0 {1,S} {3,S}
+  3    R!H u0 {2,S} {4,S}
+  4    R!H u0 {3,S} {5,S}
+  5    R!H u0 {4,S} {6,S} {14,S}
+  6  * R!H u0 {5,S} {7,S} {11,S}
+  7    R!H u0 {6,S} {8,S}
+  8    R!H u0 {7,S} {9,S}
+  9    R!H u0 {8,S} {10,D}
+  10   R!H u0 {9,D} {11,S}
+  11   R!H u0 {6,S} {10,S} {12,D}
+  12   R!H u0 {11,D} {13,S}
+  13   R!H u0 {12,S} {14,S}
+  14   R!H u0 {1,S} {5,S} {13,S}
+solute:
+  S: -0.04326
+  B: 0.03785
+  E: 0.01024
+  L: 0.14346
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 2.0
+  A: 3.0
+---
+label: s2_6_6_isoquinoline_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_isoquinoline1, s2_6_6_isoquinoline2}
+---
+label: s2_6_6_naphthalene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,B} {4,B}
+  2    R!H u0 {1,B} {5,B} {6,B}
+  3    R!H u0 {1,B} {9,B}
+  4    R!H u0 {1,B} {8,B}
+  5    R!H u0 {2,B} {10,B}
+  6    R!H u0 {2,B} {7,B}
+  7  * R!H u0 {6,B} {8,B}
+  8    R!H u0 {4,B} {7,B}
+  9    R!H u0 {3,B} {10,B}
+  10   R!H u0 {5,B} {9,B}
+solute:
+  S: -0.11108
+  B: 0.03868
+  E: -0.10182
+  L: -0.02138
+  A: 0.0
+dataCount:
+  S: 221.0
+  B: 219.0
+  E: 236.0
+  L: 216.0
+  A: 235.0
+---
+label: s2_6_6_quinoline_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_quinoline1, s2_6_6_quinoline2, s2_6_6_8-Hydroxyquinoline_general,
+  s2_6_6_quinoline_nitro_general}
+---
+label: s2_6_6_quinoline_nitro_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_quinoline_nitro1, s2_6_6_quinoline_nitro2}
+---
+label: s2_6_6_s2_6_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {7,[S,D,B]} {13,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {8,[S,D,B]}
+  4  R!H u0 {7,[S,D,B]} {9,[S,D,B]} {12,[S,D,B]}
+  5  R!H u0 {6,[S,D,B]} {9,[S,D,B]} {10,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {11,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {3,[S,D,B]} {10,[S,D,B]}
+  9  R!H u0 {4,[S,D,B]} {5,[S,D,B]}
+  10 R!H u0 {5,[S,D,B]} {8,[S,D,B]}
+  11 R!H u0 {6,[S,D,B]} {7,[S,D,B]}
+  12 R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {2,[S,D,B]} {12,[S,D,B]}
+solute:
+  S: 0.04715
+  B: -0.02702
+  E: 0.02078
+  L: 0.14645
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_s2_6_5_ben_diene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,S} {6,S}
+  2  R!H u0 {7,S} {13,S}
+  3  R!H u0 {1,S} {8,S}
+  4  R!H u0 {7,B} {9,B} {12,S}
+  5  R!H u0 {6,B} {9,B} {10,S}
+  6  R!H u0 {1,S} {5,B} {11,B}
+  7  R!H u0 {2,S} {4,B} {11,B}
+  8  R!H u0 {3,S} {10,D}
+  9  R!H u0 {4,B} {5,B}
+  10 R!H u0 {5,S} {8,D}
+  11 R!H u0 {6,B} {7,B}
+  12 R!H u0 {4,S} {13,D}
+  13 R!H u0 {2,S} {12,D}
+---
+label: s2_6_6_s2_6_5_ben_diene_psoralen
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {3,S} {6,S}
+  2  O u0 {7,S} {13,S}
+  3  CO u0 {1,S} {8,S}
+  4  C u0 {7,B} {9,B} {12,S}
+  5  C u0 {6,B} {9,B} {10,S}
+  6  C u0 {1,S} {5,B} {11,B}
+  7  C u0 {2,S} {4,B} {11,B}
+  8  C u0 {3,S} {10,D}
+  9  C u0 {4,B} {5,B}
+  10 C u0 {5,S} {8,D}
+  11 C u0 {6,B} {7,B}
+  12 C u0 {4,S} {13,D}
+  13 C u0 {2,S} {12,D}
+solute:
+  S: -0.02531
+  B: 0.02067
+  E: 0.01404
+  L: -0.09039
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_6_6_s2_6_5_ben_ene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {3,S} {6,S}
+  2  R!H u0 {7,S} {13,S}
+  3  R!H u0 {1,S} {8,D}
+  4  R!H u0 {7,B} {9,B} {12,S}
+  5  R!H u0 {6,B} {9,B} {10,S}
+  6  R!H u0 {1,S} {5,B} {11,B}
+  7  R!H u0 {2,S} {4,B} {11,B}
+  8  R!H u0 {3,D} {10,S}
+  9  R!H u0 {4,B} {5,B}
+  10 R!H u0 {5,S} {8,S}
+  11 R!H u0 {6,B} {7,B}
+  12 R!H u0 {4,S} {13,S}
+  13 R!H u0 {2,S} {12,S}
+solute:
+  S: -0.08473
+  B: 0.01327
+  E: 0.10047
+  L: -0.26149
+  A: 0.00866
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 3.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_6_s2_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  2    R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
+  3    R!H u0 {1,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]}
+  4    R!H u0 {2,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
+  5    R!H u0 {1,[S,D,B]} {12,[S,D,B]}
+  6    R!H u0 {3,[S,D,B]} {11,[S,D,B]}
+  7    R!H u0 {3,[S,D,B]} {8,[S,D,B]}
+  8    R!H u0 {4,[S,D,B]} {7,[S,D,B]}
+  9    R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  10   R!H u0 {2,[S,D,B]} {14,[S,D,B]}
+  11   R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  12   R!H u0 {5,[S,D,B]} {11,[S,D,B]}
+  13   R!H u0 {9,[S,D,B]} {14,[S,D,B]}
+  14   R!H u0 {10,[S,D,B]} {13,[S,D,B]}
+solute:
+  S: 0.10072
+  B: -0.03236
+  E: 0.09049
+  L: -0.55079
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_s2_6_6_A
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
+  2  * R!H u0 {3,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {10,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {2,[S,D,B]}
+  6  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {12,[S,D,B]}
+  8  R!H u0 {2,[S,D,B]} {13,[S,D,B]}
+  9  R!H u0 {3,[S,D,B]} {14,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {11,[S,D,B]}
+  11 R!H u0 {10,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {7,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {8,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {9,[S,D,B]} {13,[S,D,B]}
+solute:
+  S: 0.2022
+  B: -0.03172
+  E: 0.15349
+  L: 0.33084
+  A: 0.0
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 9.0
+  L: 7.0
+  A: 9.0
+---
+label: s2_6_6_s2_6_6_A_acridine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  N u0 {4,S} {5,D}
+  2  * C u0 {4,B} {6,S} {7,B}
+  3  C u0 {5,S} {6,D} {8,S}
+  4  C u0 {1,S} {2,B} {9,B}
+  5  C u0 {1,D} {3,S} {10,S}
+  6  C u0 {2,S} {3,D}
+  7  C u0 {2,B} {12,B}
+  8  C u0 {3,S} {13,D}
+  9  C u0 {4,B} {11,B}
+  10 C u0 {5,S} {14,D}
+  11 C u0 {9,B} {12,B}
+  12 C u0 {7,B} {11,B}
+  13 C u0 {8,D} {14,S}
+  14 C u0 {10,D} {13,S}
+solute:
+  S: -0.07191
+  B: 0.0207
+  E: 0.27246
+  L: -0.05036
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 1.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_6_6_s2_6_6_A_anthracene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * C u0 {4,B} {5,B} {7,B}
+  2   C u0 {3,B} {5,B} {8,B}
+  3   C u0 {2,B} {6,B} {9,B}
+  4   C u0 {1,B} {6,B} {10,B}
+  5   C u0 {1,B} {2,B}
+  6   C u0 {3,B} {4,B}
+  7   C u0 {1,B} {12,B}
+  8   C u0 {2,B} {13,B}
+  9   C u0 {3,B} {14,B}
+  10  C u0 {4,B} {11,B}
+  11  C u0 {10,B} {12,B}
+  12  C u0 {7,B} {11,B}
+  13  C u0 {8,B} {14,B}
+  14  C u0 {9,B} {13,B}
+solute:
+  S: -0.0671
+  B: 0.07043
+  E: 0.0536
+  L: -0.24912
+  A: 0.0
+dataCount:
+  S: 26.0
+  B: 26.0
+  E: 26.0
+  L: 16.0
+  A: 26.0
+---
+label: s2_6_6_s2_6_6_A_aromatic
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_s2_6_6_A_anthracene, s2_6_6_s2_6_6_A_acridine}
+---
+label: s2_6_6_s2_6_6_aromatic
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_s2_6_6_aromatic1, s2_6_6_s2_6_6_aromatic2, s2_6_6_s2_6_6_aromatic3,
+  s2_6_6_s2_6_6_aromatic4}
+---
+label: s2_6_6_s2_6_6_s2_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
+  3  R!H u0 {5,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {8,[S,D,B]} {11,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {8,[S,D,B]} {10,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {12,[S,D,B]} {13,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {5,[S,D,B]}
+  9  R!H u0 {3,[S,D,B]} {16,[S,D,B]}
+  10 R!H u0 {5,[S,D,B]} {15,[S,D,B]}
+  11 R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  14 R!H u0 {2,[S,D,B]} {18,[S,D,B]}
+  15 R!H u0 {10,[S,D,B]} {16,[S,D,B]}
+  16 R!H u0 {9,[S,D,B]} {15,[S,D,B]}
+  17 R!H u0 {13,[S,D,B]} {18,[S,D,B]}
+  18 * R!H u0 {14,[S,D,B]} {17,[S,D,B]}
+---
+label: s2_6_6_s2_6_6_s2_6_6_A
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {4,[S,D,B]} {5,[S,D,B]} {7,[S,D,B]}
+  2  R!H u0 {3,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {11,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {2,[S,D,B]} {14,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
+  6  R!H u0 {3,[S,D,B]} {12,[S,D,B]} {13,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {16,[S,D,B]}
+  8  R!H u0 {5,[S,D,B]} {15,[S,D,B]}
+  9  R!H u0 {5,[S,D,B]} {10,[S,D,B]}
+  10 R!H u0 {2,[S,D,B]} {9,[S,D,B]}
+  11 R!H u0 {3,[S,D,B]} {17,[S,D,B]}
+  12 R!H u0 {6,[S,D,B]} {18,[S,D,B]}
+  13 R!H u0 {6,[S,D,B]} {14,[S,D,B]}
+  14 R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  15 R!H u0 {8,[S,D,B]} {16,[S,D,B]}
+  16 R!H u0 {7,[S,D,B]} {15,[S,D,B]}
+  17 R!H u0 {11,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {12,[S,D,B]} {17,[S,D,B]}
+---
+label: s2_6_6_s2_6_6_s2_6_6_A_chrysene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {4,B} {5,B} {7,B}
+  2  C u0 {3,B} {4,B} {10,B}
+  3  C u0 {2,B} {6,B} {11,B}
+  4  C u0 {1,B} {2,B} {14,B}
+  5  C u0 {1,B} {8,B} {9,B}
+  6  C u0 {3,B} {12,B} {13,B}
+  7  C u0 {1,B} {16,B}
+  8  C u0 {5,B} {15,B}
+  9  C u0 {5,B} {10,B}
+  10 C u0 {2,B} {9,B}
+  11 C u0 {3,B} {17,B}
+  12 C u0 {6,B} {18,B}
+  13 C u0 {6,B} {14,B}
+  14 C u0 {4,B} {13,B}
+  15 C u0 {8,B} {16,B}
+  16 C u0 {7,B} {15,B}
+  17 C u0 {11,B} {18,B}
+  18 C u0 {12,B} {17,B}
+solute:
+  S: -0.01431
+  B: 0.01003
+  E: -0.08884
+  L: 0.02838
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_6_6_s2_6_6_s2_6_6_B
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {12,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {8,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {9,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {10,[S,D,B]}
+  8  R!H u0 {5,[S,D,B]} {13,[S,D,B]}
+  9  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
+  10 R!H u0 {7,[S,D,B]} {11,[S,D,B]} {15,[S,D,B]}
+  11 R!H u0 {10,[S,D,B]} {14,[S,D,B]} {16,[S,D,B]}
+  12 R!H u0 {2,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {8,[S,D,B]} {12,[S,D,B]}
+  14 R!H u0 {9,[S,D,B]} {11,[S,D,B]}
+  15 R!H u0 {10,[S,D,B]} {18,[S,D,B]}
+  16 R!H u0 {11,[S,D,B]} {17,[S,D,B]}
+  17 R!H u0 {16,[S,D,B]} {18,[S,D,B]}
+  18 R!H u0 {15,[S,D,B]} {17,[S,D,B]}
+---
+label: s2_6_6_s2_6_6_s2_6_6_B_1,2,3,4,6,11-hexahydrotetracene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  C u0 {2,S} {3,S}
+  2  C u0 {1,S} {4,S}
+  3  C u0 {1,S} {8,S}
+  4  C u0 {2,S} {7,S}
+  5  C u0 {10,S} {11,S}
+  6  C u0 {9,S} {12,S}
+  7  C u0 {4,S} {8,B} {13,B}
+  8  * C u0 {3,S} {7,B} {14,B}
+  9  C u0 {6,S} {10,B} {16,B}
+  10 C u0 {5,S} {9,B} {15,B}
+  11 C u0 {5,S} {12,B} {14,B}
+  12 C u0 {6,S} {11,B} {13,B}
+  13 C u0 {7,B} {12,B}
+  14 C u0 {8,B} {11,B}
+  15 C u0 {10,B} {17,B}
+  16 C u0 {9,B} {18,B}
+  17 C u0 {15,B} {18,B}
+  18 C u0 {16,B} {17,B}
+solute:
+  S: 0.05984
+  B: 0.14753
+  E: -0.00157
+  L: -0.19294
+  A: -0.26192
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_s2_6_6_s2_6_6_B_ben_diene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {4,S} {5,S}
+  2  C u0 {1,S} {6,S} {12,S}
+  3  C u0 {4,S} {7,S} {9,S}
+  4  C u0 {1,S} {3,S}
+  5  C u0 {1,S} {8,S}
+  6  C u0 {2,S} {9,S}
+  7  C u0 {3,S} {10,S}
+  8  C u0 {5,S} {13,S}
+  9  C u0 {3,S} {6,S} {14,D}
+  10 C u0 {7,S} {11,B} {15,B}
+  11 C u0 {10,B} {14,S} {16,B}
+  12 C u0 {2,S} {13,D}
+  13 C u0 {8,S} {12,D}
+  14 C u0 {9,D} {11,S}
+  15 C u0 {10,B} {18,B}
+  16 C u0 {11,B} {17,B}
+  17 C u0 {16,B} {18,B}
+  18 C u0 {15,B} {17,B}
+solute:
+  S: -0.09062
+  B: -0.05727
+  E: -0.01586
+  L: -0.16117
+  A: 0.02541
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s2_6_6_s2_6_6_s2_6_6_B_tetracene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,B} {4,B} {5,B}
+  2  C u0 {1,B} {6,B} {12,B}
+  3  C u0 {4,B} {7,B} {9,B}
+  4  C u0 {1,B} {3,B}
+  5  C u0 {1,B} {8,B}
+  6  C u0 {2,B} {9,B}
+  7  C u0 {3,B} {10,B}
+  8  C u0 {5,B} {13,B}
+  9  C u0 {3,B} {6,B} {14,B}
+  10 C u0 {7,B} {11,B} {15,B}
+  11 C u0 {10,B} {14,B} {16,B}
+  12 C u0 {2,B} {13,B}
+  13 C u0 {8,B} {12,B}
+  14 C u0 {9,B} {11,B}
+  15 C u0 {10,B} {18,B}
+  16 C u0 {11,B} {17,B}
+  17 C u0 {16,B} {18,B}
+  18 C u0 {15,B} {17,B}
+solute:
+  S: -0.01103
+  B: 0.01066
+  E: -0.01482
+  L: -0.06004
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_6_6_s2_6_6_s2_6_6_aromatic
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_s2_6_6_s2_6_6_benz[a]anthracene, s2_6_6_s2_6_6_s2_6_6_benzacridine1,
+  s2_6_6_s2_6_6_s2_6_6_benzacridine2, s2_6_6_s2_6_6_s2_6_6_benzacridine3, s2_6_6_s2_6_6_s2_6_6_benzacridine4,
+  s2_6_6_s2_6_6_s2_6_6_benzacridine5}
+---
+label: s2_6_6_s2_6_6_s2_6_6_benz[a]anthracene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  C u0 {2,B} {4,B} {7,B}
+  2  C u0 {1,B} {6,B} {14,B}
+  3  C u0 {5,B} {7,B} {9,B}
+  4  C u0 {1,B} {8,B} {11,B}
+  5  C u0 {3,B} {8,B} {10,B}
+  6  C u0 {2,B} {12,B} {13,B}
+  7  C u0 {1,B} {3,B}
+  8  C u0 {4,B} {5,B}
+  9  C u0 {3,B} {16,B}
+  10 C u0 {5,B} {15,B}
+  11 C u0 {4,B} {12,B}
+  12 C u0 {6,B} {11,B}
+  13 C u0 {6,B} {17,B}
+  14 C u0 {2,B} {18,B}
+  15 C u0 {10,B} {16,B}
+  16 C u0 {9,B} {15,B}
+  17 C u0 {13,B} {18,B}
+  18 * C u0 {14,B} {17,B}
+solute:
+  S: -0.03349
+  B: 0.02413
+  E: -0.02557
+  L: -0.18099
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 18.0
+  L: 16.0
+  A: 18.0
+---
+label: s2_6_6_tetraene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_6_tetraene_0_2_4_7, s2_6_6_tetraene_0_2_6_8}
+---
+label: s2_6_6_tetraene_0_2_4_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {4,D}
+  2    R!H u0 {1,S} {5,D} {6,S}
+  3    R!H u0 {1,S} {8,S}
+  4    R!H u0 {1,D} {7,S}
+  5    R!H u0 {2,D} {10,S}
+  6    R!H u0 {2,S} {9,S}
+  7  * R!H u0 {4,S} {10,D}
+  8    R!H u0 {3,S} {9,D}
+  9    R!H u0 {6,S} {8,D}
+  10   R!H u0 {5,S} {7,D}
+solute:
+  S: -0.05566
+  B: 0.0594
+  E: -0.03677
+  L: -0.16307
+  A: 0.04066
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_6_tetraene_0_2_6_8
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,S} {3,S} {6,S}
+  2    R!H u0 {1,S} {4,D} {5,S}
+  3    R!H u0 {1,S} {8,D}
+  4    R!H u0 {2,D} {7,S}
+  5    R!H u0 {2,S} {10,D}
+  6    R!H u0 {1,S} {9,S}
+  7  * R!H u0 {4,S} {9,D}
+  8    R!H u0 {3,D} {10,S}
+  9    R!H u0 {6,S} {7,D}
+  10   R!H u0 {5,D} {8,S}
+solute:
+  S: -0.03623
+  B: 0.02064
+  E: 0.02425
+  L: -0.09794
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_6_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+  11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+solute:
+  S: 0.0443
+  B: -0.04834
+  E: 0.0981
+  L: 0.02258
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s2_6_7_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+  2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+  3    R!H u0 {1,B} {9,B}
+  4    R!H u0 {2,B} {7,B}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,B} {9,B}
+  8    R!H u0 {5,[S,D,T,B]} {11,[S,D,T,B]}
+  9    R!H u0 {3,B} {7,B}
+  10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+  11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+solute:
+  S: 0.02284
+  B: 0.02362
+  E: -0.03239
+  L: 0.03414
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_6_7_ben_diene_1_3
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+  2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+  3    R!H u0 {1,B} {9,B}
+  4    R!H u0 {2,B} {7,B}
+  5    R!H u0 {2,[S,D,T,B]} {8,D}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,B} {9,B}
+  8    R!H u0 {5,D} {11,[S,D,T,B]}
+  9    R!H u0 {3,B} {7,B}
+  10   R!H u0 {6,[S,D,T,B]} {11,D}
+  11   R!H u0 {8,[S,D,T,B]} {10,D}
+solute:
+  S: -0.04432
+  B: 0.04576
+  E: -0.02546
+  L: -0.0496
+  A: -0.01639
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s2_6_7_ben_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_7_ben_ene_1}
+---
+label: s2_6_7_ben_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1    R!H u0 {2,B} {3,B} {6,[S,D,T,B]}
+  2    R!H u0 {1,B} {4,B} {5,[S,D,T,B]}
+  3    R!H u0 {1,B} {9,B}
+  4    R!H u0 {2,B} {7,B}
+  5    R!H u0 {2,[S,D,T,B]} {8,D}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,B} {9,B}
+  8    R!H u0 {5,D} {11,[S,D,T,B]}
+  9    R!H u0 {3,B} {7,B}
+  10   R!H u0 {6,[S,D,T,B]} {11,[S,D,T,B]}
+  11   R!H u0 {8,[S,D,T,B]} {10,[S,D,T,B]}
+solute:
+  S: -0.19877
+  B: 0.13041
+  E: -0.09436
+  L: -0.16154
+  A: 0.0
+dataCount:
+  S: 31.0
+  B: 31.0
+  E: 31.0
+  L: 10.0
+  A: 31.0
+---
+label: s2_6_7_ben_s2_7_6_ben
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {6,S} {7,S}
+  2  R!H u0 {3,S} {4,S}
+  3  R!H u0 {2,S} {5,S}
+  4  R!H u0 {2,S} {6,B} {8,B}
+  5  R!H u0 {3,S} {7,B} {9,B}
+  6  R!H u0 {1,S} {4,B} {10,B}
+  7  R!H u0 {1,S} {5,B} {11,B}
+  8  R!H u0 {4,B} {12,B}
+  9  R!H u0 {5,B} {14,B}
+  10 R!H u0 {6,B} {13,B}
+  11 R!H u0 {7,B} {15,B}
+  12 R!H u0 {8,B} {13,B}
+  13 R!H u0 {10,B} {12,B}
+  14 R!H u0 {9,B} {15,B}
+  15 R!H u0 {11,B} {14,B}
+solute:
+  S: 0.00696
+  B: 0.00011
+  E: -0.00973
+  L: 0.07011
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s2_6_7_ben_s2_7_6_ben_ene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {6,S} {7,S}
+  2  R!H u0 {3,D} {4,S}
+  3  R!H u0 {2,D} {5,S}
+  4  R!H u0 {2,S} {6,B} {8,B}
+  5  R!H u0 {3,S} {7,B} {9,B}
+  6  R!H u0 {1,S} {4,B} {10,B}
+  7  R!H u0 {1,S} {5,B} {11,B}
+  8  R!H u0 {4,B} {12,B}
+  9  R!H u0 {5,B} {14,B}
+  10 R!H u0 {6,B} {13,B}
+  11 R!H u0 {7,B} {15,B}
+  12 R!H u0 {8,B} {13,B}
+  13 R!H u0 {10,B} {12,B}
+  14 R!H u0 {9,B} {15,B}
+  15 R!H u0 {11,B} {14,B}
+solute:
+  S: -0.10938
+  B: 0.09353
+  E: -0.11225
+  L: -0.19892
+  A: 0.0
+dataCount:
+  S: 11.0
+  B: 11.0
+  E: 11.0
+  L: 11.0
+  A: 11.0
+---
+label: s2_6_7_ben_s2_7_6_ben_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_7_ben_s2_7_6_ben, s2_6_7_ben_s2_7_6_ben_iminodibenzyl_general}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl_general
+children: []
+short_description: ''
+long_description: ''
+group: OR{s2_6_7_ben_s2_7_6_ben_iminodibenzyl1, s2_6_7_ben_s2_7_6_ben_iminodibenzyl2,
+  s2_6_7_ben_s2_7_6_ben_iminodibenzyl3, s2_6_7_ben_s2_7_6_ben_iminodibenzyl4, s2_6_7_ben_s2_7_6_ben_iminodibenzyl5,
+  s2_6_7_ben_s2_7_6_ben_iminodibenzyl6}
+---
+label: s2_6_7_ben_s2_7_6_ben_s2_7_6_piperidine
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * O u0 {10,S} {11,S}
+  2  N u0 {6,S} {7,S}
+  3  C u0 {4,S} {5,S} {8,S}
+  4  C u0 {3,S} {6,S} {9,S}
+  5  C u0 {3,S} {7,S}
+  6  C u0 {2,S} {4,S}
+  7  C u0 {2,S} {5,S}
+  8  C u0 {3,S} {10,B} {12,B}
+  9  C u0 {4,S} {11,B} {13,B}
+  10 C u0 {1,S} {8,B} {14,B}
+  11 C u0 {1,S} {9,B} {15,B}
+  12 C u0 {8,B} {17,B}
+  13 C u0 {9,B} {19,B}
+  14 C u0 {10,B} {16,B}
+  15 C u0 {11,B} {18,B}
+  16 C u0 {14,B} {17,B}
+  17 C u0 {12,B} {16,B}
+  18 C u0 {15,B} {19,B}
+  19 C u0 {13,B} {18,B}
+solute:
+  S: -0.01105
+  B: -0.02492
+  E: 0.02815
+  L: 0.01544
+  A: -0.01389
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_7_s2_7_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {6,[S,D,B]} {7,[S,D,B]}
+  2  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {5,[S,D,B]}
+  4  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  9  R!H u0 {5,[S,D,B]} {14,[S,D,B]}
+  10 R!H u0 {6,[S,D,B]} {13,[S,D,B]}
+  11 R!H u0 {7,[S,D,B]} {15,[S,D,B]}
+  12 R!H u0 {8,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {10,[S,D,B]} {12,[S,D,B]}
+  14 R!H u0 {9,[S,D,B]} {15,[S,D,B]}
+  15 R!H u0 {11,[S,D,B]} {14,[S,D,B]}
+---
+label: s2_6_7_s2_7_6_s2_7_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {10,[S,D,B]} {11,[S,D,B]}
+  2  R!H u0 {6,[S,D,B]} {7,[S,D,B]}
+  3  R!H u0 {4,[S,D,B]} {5,[S,D,B]} {8,[S,D,B]}
+  4  R!H u0 {3,[S,D,B]} {6,[S,D,B]} {9,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {7,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  7  R!H u0 {2,[S,D,B]} {5,[S,D,B]}
+  8  R!H u0 {3,[S,D,B]} {10,[S,D,B]} {12,[S,D,B]}
+  9  R!H u0 {4,[S,D,B]} {11,[S,D,B]} {13,[S,D,B]}
+  10 R!H u0 {1,[S,D,B]} {8,[S,D,B]} {14,[S,D,B]}
+  11 R!H u0 {1,[S,D,B]} {9,[S,D,B]} {15,[S,D,B]}
+  12 R!H u0 {8,[S,D,B]} {17,[S,D,B]}
+  13 R!H u0 {9,[S,D,B]} {19,[S,D,B]}
+  14 R!H u0 {10,[S,D,B]} {16,[S,D,B]}
+  15 R!H u0 {11,[S,D,B]} {18,[S,D,B]}
+  16 R!H u0 {14,[S,D,B]} {17,[S,D,B]}
+  17 R!H u0 {12,[S,D,B]} {16,[S,D,B]}
+  18 R!H u0 {15,[S,D,B]} {19,[S,D,B]}
+  19 R!H u0 {13,[S,D,B]} {18,[S,D,B]}
+solute:
+  S: -0.07266
+  B: -0.01224
+  E: 0.04993
+  L: 0.05495
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_9_4
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {5,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {9,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {8,[S,D,B]}
+  8  R!H u0 {7,[S,D,B]} {10,[S,D,B]}
+  9  R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  10 R!H u0 {8,[S,D,B]} {11,[S,D,B]}
+  11 R!H u0 {9,[S,D,B]} {10,[S,D,B]}
+---
+label: s2_9_4_ene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,S} {4,S} {6,S}
+  2  R!H u0 {1,S} {3,S} {5,S}
+  3  R!H u0 {2,S} {7,S}
+  4  R!H u0 {1,S} {5,S}
+  5  R!H u0 {2,S} {4,S}
+  6  R!H u0 {1,S} {9,S}
+  7  R!H u0 {3,S} {8,S}
+  8  R!H u0 {7,S} {10,S}
+  9  R!H u0 {6,S} {11,S}
+  10 R!H u0 {8,S} {11,D}
+  11 R!H u0 {9,S} {10,D}
+solute:
+  S: 0.03321
+  B: 0.00107
+  E: -0.03469
+  L: -0.18576
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s3_4_4
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3 * R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+---
+label: s3_4_4_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {5,S}
+  2   R!H u0 {3,S} {4,S} {5,S}
+  3 * R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {2,S}
+  5   R!H u0 {1,S} {2,S}
+solute:
+  S: 0.03269
+  B: 0.0155
+  E: 0.0513
+  L: -0.03673
+  A: 0.00139
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s3_4_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {6,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3 * R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  5   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+---
+label: s3_4_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {6,S}
+  2   R!H u0 {3,S} {4,S} {5,S}
+  3 * R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {2,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {7,S}
+  7   R!H u0 {5,S} {6,S}
+solute:
+  S: -0.032
+  B: 0.04435
+  E: 0.02742
+  L: -0.03462
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s3_4_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s3_4_6_ene_1}
+---
+label: s3_4_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {6,S}
+  2   R!H u0 {3,S} {4,S} {5,S}
+  3 * R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {2,S}
+  5   R!H u0 {2,S} {7,S}
+  6   R!H u0 {1,S} {7,D}
+  7   R!H u0 {5,S} {6,D}
+solute:
+  S: -0.02747
+  B: 0.01408
+  E: -0.01073
+  L: -0.22894
+  A: 0.0
+dataCount:
+  S: 8.0
+  B: 8.0
+  E: 8.0
+  L: 8.0
+  A: 8.0
+---
+label: s3_5_5
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4 * R!H u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+  7   R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+---
+label: s3_5_5_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {5,S}
+  2   R!H u0 {3,S} {6,S} {7,S}
+  3   R!H u0 {1,S} {2,S}
+  4 * R!H u0 {1,S} {6,S}
+  5   R!H u0 {1,S} {7,S}
+  6   R!H u0 {2,S} {4,S}
+  7   R!H u0 {2,S} {5,S}
+solute:
+  S: -0.1127
+  B: 0.0
+  E: -0.00276
+  L: -0.44472
+  A: 0.0
+dataCount:
+  S: 21.0
+  B: 21.0
+  E: 22.0
+  L: 21.0
+  A: 23.0
+---
+label: s3_5_5_diene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s3_5_5_diene_1_4}
+---
+label: s3_5_5_diene_1_4
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {6,S} {7,S}
+  2   R!H u0 {3,S} {4,S} {5,S}
+  3   R!H u0 {1,S} {2,S}
+  4 * R!H u0 {2,S} {6,D}
+  5   R!H u0 {2,S} {7,D}
+  6   R!H u0 {1,S} {4,D}
+  7   R!H u0 {1,S} {5,D}
+solute:
+  S: -0.00176
+  B: 0.00155
+  E: -0.0126
+  L: -0.01478
+  A: 0.0
+dataCount:
+  S: 1.0
+  B: 1.0
+  E: 1.0
+  L: 1.0
+  A: 1.0
+---
+label: s3_5_5_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s3_5_5_ene_1, s3_5_5_ene_side}
+---
+label: s3_5_5_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {5,S} {6,S}
+  2   R!H u0 {3,S} {4,S} {7,S}
+  3   R!H u0 {1,S} {2,S}
+  4 * R!H u0 {2,S} {5,S}
+  5   R!H u0 {1,S} {4,S}
+  6   R!H u0 {1,S} {7,D}
+  7   R!H u0 {2,S} {6,D}
+solute:
+  S: -0.05483
+  B: -0.11774
+  E: -0.01759
+  L: -0.30255
+  A: 0.0
+dataCount:
+  S: 19.0
+  B: 17.0
+  E: 22.0
+  L: 18.0
+  A: 22.0
+---
+label: s3_5_5_ene_side
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {6,S}
+  2   R!H u0 {4,S} {5,S} {7,S}
+  3 * R!H u0 {1,S} {5,S} {8,D}
+  4   R!H u0 {1,S} {2,S}
+  5   R!H u0 {2,S} {3,S}
+  6   R!H u0 {1,S} {7,S}
+  7   R!H u0 {2,S} {6,S}
+  8   R!H ux {3,D}
+solute:
+  S: -0.00708
+  B: 0.02176
+  E: -0.00349
+  L: -0.10827
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 4.0
+  A: 4.0
+---
+label: s3_5_5_ene_side_norcamphor
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   C  u0 {3,S} {4,S} {6,S}
+  2   C  u0 {4,S} {5,S} {7,S}
+  3 * CO u0 {1,S} {5,S} {8,D}
+  4   C  u0 {1,S} {2,S}
+  5   C  u0 {2,S} {3,S}
+  6   C  u0 {1,S} {7,S}
+  7   C  u0 {2,S} {6,S}
+  8   O2d u0 {3,D}
+solute:
+  S: -0.01799
+  B: 0.0456
+  E: -0.01425
+  L: -0.25746
+  A: 0.0
+dataCount:
+  S: 4.0
+  B: 4.0
+  E: 4.0
+  L: 3.0
+  A: 4.0
+---
+label: s3_5_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+  6   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  8 * R!H u0 {6,[S,D,T,B]} {7,[S,D,T,B]}
+---
+label: s3_5_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {5,S} {6,S}
+  2   R!H u0 {3,S} {4,S} {7,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {2,S} {5,S}
+  5   R!H u0 {1,S} {4,S}
+  6   R!H u0 {1,S} {8,S}
+  7   R!H u0 {2,S} {8,S}
+  8 * R!H u0 {6,S} {7,S}
+solute:
+  S: -0.04708
+  B: 0.06188
+  E: -0.04224
+  L: -0.1563
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 7.0
+  L: 6.0
+  A: 6.0
+---
+label: s3_5_6_ane_tropane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   C u0 {3,S} {5,S} {6,S}
+  2   C u0 {3,S} {4,S} {7,S}
+  3   N u0 {1,S} {2,S}
+  4   C u0 {2,S} {5,S}
+  5   C u0 {1,S} {4,S}
+  6   C u0 {1,S} {8,S}
+  7   C u0 {2,S} {8,S}
+  8 * C u0 {6,S} {7,S}
+solute:
+  S: -0.05339
+  B: 0.06184
+  E: -0.01742
+  L: -0.25923
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s3_5_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: OR{s3_5_6_ene_1}
+---
+label: s3_5_6_ene_1
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {4,S} {7,S}
+  2   R!H u0 {3,S} {5,S} {6,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {5,S}
+  5   R!H u0 {2,S} {4,S}
+  6   R!H u0 {2,S} {8,S}
+  7   R!H u0 {1,S} {8,D}
+  8 * R!H u0 {6,S} {7,D}
+solute:
+  S: -0.04624
+  B: -0.01231
+  E: -0.0039
+  L: -0.08479
+  A: 0.0
+dataCount:
+  S: 3.0
+  B: 3.0
+  E: 3.0
+  L: 3.0
+  A: 3.0
+---
+label: s3_5_7
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {5,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+  5   R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  8   R!H u0 {6,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {7,[S,D,T,B]} {8,[S,D,T,B]}
+---
+label: s3_5_7_ane_0
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {3,S} {4,S} {7,S}
+  2   R!H u0 {3,S} {5,S} {6,S}
+  3   R!H u0 {1,S} {2,S}
+  4   R!H u0 {1,S} {5,S}
+  5   R!H u0 {2,S} {4,S}
+  6   R!H u0 {2,S} {8,S}
+  7   R!H u0 {1,S} {9,S}
+  8   R!H u0 {6,S} {9,S}
+  9   R!H u0 {7,S} {8,S}
+solute:
+  S: 0.01611
+  B: -0.07058
+  E: 0.0761
+  L: 0.04672
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 1.0
+  A: 2.0
+---
+label: s3_6_3_s3_3_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {6,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
+  4  R!H u0 {2,[S,D,B]} {3,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {1,[S,D,B]} {9,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {10,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {10,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {9,[S,D,B]}
+  9  R!H u0 {5,[S,D,B]} {8,[S,D,B]}
+  10 R!H u0 {6,[S,D,B]} {7,[S,D,B]}
+---
+label: s3_6_3_s3_3_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {3,S} {5,S}
+  2  C u0 {1,S} {4,S} {6,S}
+  3  C u0 {1,S} {4,S} {7,S}
+  4  C u0 {2,S} {3,S} {8,S}
+  5  C u0 {1,S} {9,S}
+  6  C u0 {2,S} {10,S}
+  7  C u0 {3,S} {10,S}
+  8  C u0 {4,S} {9,S}
+  9  C u0 {5,S} {8,S}
+  10 C u0 {6,S} {7,S}
+solute:
+  S: -0.09448
+  B: 0.06445
+  E: -0.06016
+  L: -0.23017
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s3_6_3_s3_3_6_ene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,S} {3,S} {5,S}
+  2  C u0 {1,S} {4,S} {6,S}
+  3  C u0 {1,S} {4,S} {7,S}
+  4  C u0 {2,S} {3,S} {8,S}
+  5  C u0 {1,S} {9,S}
+  6  C u0 {2,S} {10,S}
+  7  C u0 {3,S} {10,D}
+  8  C u0 {4,S} {9,S}
+  9  C u0 {5,S} {8,S}
+  10 C u0 {6,S} {7,D}
+solute:
+  S: -0.11844
+  B: 0.04445
+  E: -0.05581
+  L: -0.40248
+  A: 0.0
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 2.0
+  L: 2.0
+  A: 2.0
+---
+label: s3_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {7,[S,D,T,B]}
+  2   R!H u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {2,[S,D,T,B]}
+  4 * R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  5   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  7   R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  8   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  9   R!H u0 {4,[S,D,T,B]} {7,[S,D,T,B]}
+---
+label: s3_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1   R!H u0 {3,S} {6,S} {7,S}
+  2   R!H u0 {3,S} {4,S} {5,S}
+  3   R!H u0 {1,S} {2,S}
+  4 * R!H u0 {2,S} {9,S}
+  5   R!H u0 {2,S} {8,S}
+  6   R!H u0 {1,S} {8,S}
+  7   R!H u0 {1,S} {9,S}
+  8   R!H u0 {5,S} {6,S}
+  9   R!H u0 {4,S} {7,S}
+solute:
+  S: 0.02842
+  B: 0.09046
+  E: 0.05043
+  L: 0.1276
+  A: 0.0
+dataCount:
+  S: 8.0
+  B: 8.0
+  E: 8.0
+  L: 5.0
+  A: 10.0
+---
+label: s3_6_6_s3_6_6_s3_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {6,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {5,[S,D,B]}
+  3  R!H u0 {1,[S,D,B]} {7,[S,D,B]} {8,[S,D,B]}
+  4  R!H u0 {2,[S,D,B]} {9,[S,D,B]} {10,[S,D,B]}
+  5  R!H u0 {2,[S,D,B]} {11,[S,D,B]} {12,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {13,[S,D,B]} {14,[S,D,B]}
+  7  R!H u0 {3,[S,D,B]} {15,[S,D,B]}
+  8  R!H u0 {3,[S,D,B]} {9,[S,D,B]}
+  9  R!H u0 {4,[S,D,B]} {8,[S,D,B]}
+  10 R!H u0 {4,[S,D,B]} {16,[S,D,B]}
+  11 R!H u0 {5,[S,D,B]} {16,[S,D,B]}
+  12 R!H u0 {5,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  14 * R!H u0 {6,[S,D,B]} {15,[S,D,B]}
+  15 R!H u0 {7,[S,D,B]} {14,[S,D,B]}
+  16 R!H u0 {10,[S,D,B]} {11,[S,D,B]}
+---
+label: s3_6_6_s3_6_6_s3_6_6_pyrene
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1  * C u0 {2,B} {3,B} {6,B}
+  2  C u0 {1,B} {4,B} {5,B}
+  3  C u0 {1,B} {7,B} {8,B}
+  4  C u0 {2,B} {9,B} {10,B}
+  5  C u0 {2,B} {11,B} {12,B}
+  6  C u0 {1,B} {13,B} {14,B}
+  7  C u0 {3,B} {15,B}
+  8  C u0 {3,B} {9,B}
+  9  C u0 {4,B} {8,B}
+  10 C u0 {4,B} {16,B}
+  11 C u0 {5,B} {16,B}
+  12 C u0 {5,B} {13,B}
+  13 C u0 {6,B} {12,B}
+  14 * C u0 {6,B} {15,B}
+  15 C u0 {7,B} {14,B}
+  16 C u0 {10,B} {11,B}
+solute:
+  S: 0.10088
+  B: -0.01296
+  E: 0.17247
+  L: 0.12107
+  A: 0.0
+dataCount:
+  S: 12.0
+  B: 12.0
+  E: 17.0
+  L: 16.0
+  A: 17.0
+---
+label: s4_6_6
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {3,[S,D,T,B]} {6,[S,D,T,B]} {8,[S,D,T,B]}
+  2   R!H u0 {4,[S,D,T,B]} {5,[S,D,T,B]} {7,[S,D,T,B]}
+  3   R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]}
+  4   R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+  5   R!H u0 {2,[S,D,T,B]} {6,[S,D,T,B]}
+  6   R!H u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+  7   R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  8   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+---
+label: s4_6_6_ane
+children: []
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R!H u0 {3,S} {6,S} {8,S}
+  2   R!H u0 {4,S} {5,S} {7,S}
+  3   R!H u0 {1,S} {4,S}
+  4   R!H u0 {2,S} {3,S}
+  5   R!H u0 {2,S} {6,S}
+  6   R!H u0 {1,S} {5,S}
+  7   R!H u0 {2,S} {8,S}
+  8   R!H u0 {1,S} {7,S}
+solute:
+  S: -0.07049
+  B: 0.07524
+  E: 0.03424
+  L: -0.03434
+  A: 0.0
+dataCount:
+  S: 9.0
+  B: 9.0
+  E: 9.0
+  L: 8.0
+  A: 9.0
+---
+label: s2_6_6_s2_6_6_all_ben
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all aromatic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6_aromatic1-4) together
+group: |2
+
+  1  * C  u0 {2,B} {3,B} {5,B}
+  2    C  u0 {1,B} {4,B} {10,B}
+  3    C  u0 {1,B} {6,B} {7,B}
+  4    C  u0 {2,B} {8,B} {9,B}
+  5    C  u0 {1,B} {12,B}
+  6    C  u0 {3,B} {11,B}
+  7    C  u0 {3,B} {8,B}
+  8    C  u0 {4,B} {7,B}
+  9    C  u0 {4,B} {13,B}
+  10   C  u0 {2,B} {14,B}
+  11   C  u0 {6,B} {12,B}
+  12   C  u0 {5,B} {11,B}
+  13   C  u0 {9,B} {14,B}
+  14   C  u0 {10,B} {13,B}
+solute:
+  S: -0.07986
+  B: 0.03301
+  E: -0.21229
+  L: -0.06221
+  A: 0.0
+dataCount:
+  S: 13.0
+  B: 13.0
+  E: 23.0
+  L: 22.0
+  A: 25.0
+---
+label: s2_6_6_s2_6_6_heteroaromatic
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all heterocyclic s2_6_6_s2_6_6_aromatic groups (s2_6_6_s2_6_6_aromatic1-4) together
+group: |2
+
+  1  * R!H u0 {2,[S,D,B]} {3,[S,D,B]} {5,[S,D,B]}
+  2    R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
+  3    R!H u0 {1,[S,D,B]} {6,[S,D,B]} {7,[S,D,B]}
+  4    R!H u0 {2,[S,D,B]} {8,[S,D,B]} {9,[S,D,B]}
+  5    R!H u0 {1,[S,D,B]} {12,[S,D,B]}
+  6    R!H u0 {3,[S,D,B]} {11,[S,D,B]}
+  7    R!H u0 {3,[S,D,B]} {8,[S,D,B]}
+  8    R!H u0 {4,[S,D,B]} {7,[S,D,B]}
+  9    R!H u0 {4,[S,D,B]} {13,[S,D,B]}
+  10   R!H u0 {2,[S,D,B]} {14,[S,D,B]}
+  11   R!H u0 {6,[S,D,B]} {12,[S,D,B]}
+  12   R!H u0 {5,[S,D,B]} {11,[S,D,B]}
+  13   R!H u0 {9,[S,D,B]} {14,[S,D,B]}
+  14   R!H u0 {10,[S,D,B]} {13,[S,D,B]}
+solute:
+  S: -0.03696
+  B: -0.01071
+  E: -0.02164
+  L: 0.16883
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 3.0
+  E: 5.0
+  L: 5.0
+  A: 5.0
+---
+label: s2_5_6_heteroaromatic
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_5_6_heteroaromatic groups (s2_5_6_heteroaromatic1-3) together
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: 0.01345
+  B: -0.00024
+  E: 0.14259
+  L: 0.24269
+  A: 0.06991
+dataCount:
+  S: 5.0
+  B: 5.0
+  E: 6.0
+  L: 4.0
+  A: 5.0
+---
+label: s2_5_6_hypoxanthine
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_5_6_hypoxanthine groups (s2_5_6_hypoxanthine1-2) together
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: -0.05496
+  B: 0.02645
+  E: 0.07175
+  L: 0.02655
+  A: 0.08134
+dataCount:
+  S: 7.0
+  B: 7.0
+  E: 7.0
+  L: 7.0
+  A: 7.0
+---
+label: s2_5_6_purine
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_5_6_purine groups (s2_5_6_purine1-8) together
+group: |2
+
+  1 * R!H u0 {2,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  2   R!H u0 {1,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  3   R!H u0 {2,[S,D,T,B]} {9,[S,D,T,B]}
+  4   R!H u0 {1,[S,D,T,B]} {8,[S,D,T,B]}
+  5   R!H u0 {1,[S,D,T,B]} {7,[S,D,T,B]}
+  6   R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  7   R!H u0 {5,[S,D,T,B]} {6,[S,D,T,B]}
+  8   R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  9   R!H u0 {3,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: 0.22179
+  B: -0.0447
+  E: 0.19292
+  L: 0.59304
+  A: 0.0
+dataCount:
+  S: 27.0
+  B: 25.0
+  E: 27.0
+  L: 25.0
+  A: 27.0
+---
+label: s2_6_6_8-Hydroxyquinoline
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_8-Hydroxyquinoline groups (s2_6_6_8-Hydroxyquinoline1-2) together
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: -0.14265
+  B: -0.03943
+  E: -0.06617
+  L: -0.17238
+  A: 0.0
+dataCount:
+  S: 40.0
+  B: 40.0
+  E: 40.0
+  L: 40.0
+  A: 40.0
+---
+label: s2_6_6_ben_heteroaromatic
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_ben_heteroaromatic groups (s2_6_6_ben_heteroaromatic1-4) together
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: 0.12359
+  B: -0.01719
+  E: 0.09017
+  L: 0.31087
+  A: 0.0
+dataCount:
+  S: 10.0
+  B: 10.0
+  E: 10.0
+  L: 10.0
+  A: 10.0
+---
+label: s2_6_6_isoquinoline
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_isoquinoline groups (s2_6_6_isoquinoline1-2) together
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: 0.03888
+  B: 0.02608
+  E: -0.00598
+  L: 0.16069
+  A: 0.0
+dataCount:
+  S: 5.0
+  B: 3.0
+  E: 5.0
+  L: 5.0
+  A: 6.0
+---
+label: s2_6_6_quinoline
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_quinoline groups (s2_6_6_quinoline1-2) together
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: -0.09548
+  B: 0.03091
+  E: -0.01508
+  L: 0.08005
+  A: 0.0
+dataCount:
+  S: 39.0
+  B: 39.0
+  E: 41.0
+  L: 36.0
+  A: 41.0
+---
+label: s2_6_6_quinoline_nitro
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_quinoline_nitro groups (s2_6_6_quinoline_nitro1-2) together
+group: |2
+
+  1    R!H u0 {2,[S,D,T,B]} {3,[S,D,T,B]} {6,[S,D,T,B]}
+  2    R!H u0 {1,[S,D,T,B]} {4,[S,D,T,B]} {5,[S,D,T,B]}
+  3    R!H u0 {1,[S,D,T,B]} {9,[S,D,T,B]}
+  4    R!H u0 {2,[S,D,T,B]} {7,[S,D,T,B]}
+  5    R!H u0 {2,[S,D,T,B]} {8,[S,D,T,B]}
+  6    R!H u0 {1,[S,D,T,B]} {10,[S,D,T,B]}
+  7  * R!H u0 {4,[S,D,T,B]} {9,[S,D,T,B]}
+  8    R!H u0 {5,[S,D,T,B]} {10,[S,D,T,B]}
+  9    R!H u0 {3,[S,D,T,B]} {7,[S,D,T,B]}
+  10   R!H u0 {6,[S,D,T,B]} {8,[S,D,T,B]}
+solute:
+  S: 0.10305
+  B: 0.02319
+  E: 0.05358
+  L: 0.2767
+  A: -0.00735
+dataCount:
+  S: 2.0
+  B: 2.0
+  E: 3.0
+  L: 2.0
+  A: 2.0
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy group to put all s2_6_6_s2_6_6_s2_6_6_benzacridine groups (s2_6_6_s2_6_6_s2_6_6_benzacridine1-5) together
+group: |2
+
+  1  R!H u0 {2,[S,D,B]} {4,[S,D,B]} {7,[S,D,B]}
+  2  R!H u0 {1,[S,D,B]} {6,[S,D,B]} {14,[S,D,B]}
+  3  R!H u0 {5,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  4  R!H u0 {1,[S,D,B]} {8,[S,D,B]} {11,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {8,[S,D,B]} {10,[S,D,B]}
+  6  R!H u0 {2,[S,D,B]} {12,[S,D,B]} {13,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {3,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {5,[S,D,B]}
+  9  R!H u0 {3,[S,D,B]} {16,[S,D,B]}
+  10 R!H u0 {5,[S,D,B]} {15,[S,D,B]}
+  11 R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  12 R!H u0 {6,[S,D,B]} {11,[S,D,B]}
+  13 R!H u0 {6,[S,D,B]} {17,[S,D,B]}
+  14 R!H u0 {2,[S,D,B]} {18,[S,D,B]}
+  15 R!H u0 {10,[S,D,B]} {16,[S,D,B]}
+  16 R!H u0 {9,[S,D,B]} {15,[S,D,B]}
+  17 R!H u0 {13,[S,D,B]} {18,[S,D,B]}
+  18 * R!H u0 {14,[S,D,B]} {17,[S,D,B]}
+solute:
+  S: 0.02388
+  B: -0.01301
+  E: 0.36148
+  L: 0.20888
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 1.0
+  E: 9.0
+  L: 9.0
+  A: 3.0
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+children: []
+short_description: special solvation po
+long_description: |2
+
+  dummy groups to put all s2_6_7_ben_s2_7_6_ben_iminodibenzyl groups (s2_6_7_ben_s2_7_6_ben_iminodibenzyl1-6) together
+group: |2
+
+  1  R!H u0 {6,[S,D,B]} {7,[S,D,B]}
+  2  R!H u0 {3,[S,D,B]} {4,[S,D,B]}
+  3  R!H u0 {2,[S,D,B]} {5,[S,D,B]}
+  4  R!H u0 {2,[S,D,B]} {6,[S,D,B]} {8,[S,D,B]}
+  5  R!H u0 {3,[S,D,B]} {7,[S,D,B]} {9,[S,D,B]}
+  6  R!H u0 {1,[S,D,B]} {4,[S,D,B]} {10,[S,D,B]}
+  7  R!H u0 {1,[S,D,B]} {5,[S,D,B]} {11,[S,D,B]}
+  8  R!H u0 {4,[S,D,B]} {12,[S,D,B]}
+  9  R!H u0 {5,[S,D,B]} {14,[S,D,B]}
+  10 R!H u0 {6,[S,D,B]} {13,[S,D,B]}
+  11 R!H u0 {7,[S,D,B]} {15,[S,D,B]}
+  12 R!H u0 {8,[S,D,B]} {13,[S,D,B]}
+  13 R!H u0 {10,[S,D,B]} {12,[S,D,B]}
+  14 R!H u0 {9,[S,D,B]} {15,[S,D,B]}
+  15 R!H u0 {11,[S,D,B]} {14,[S,D,B]}
+solute:
+  S: 0.02338
+  B: -0.05327
+  E: -0.10435
+  L: -0.15494
+  A: 0.0
+dataCount:
+  S: 6.0
+  B: 6.0
+  E: 7.0
+  L: 6.0
+  A: 6.0
+---
+label: s2_6_6_s2_6_6_aromatic1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
+group: |2
+
+  1  * [C,N]  u0 {2,[S,B]} {3,B} {5,B}
+  2    [C,N]  u0 {1,[S,B]} {4,B} {10,B}
+  3    [C,N]  u0 {1,B} {6,B} {7,[S,B]}
+  4    [C,N]  u0 {2,B} {8,[S,B]} {9,B}
+  5    [C,N]  u0 {1,B} {12,B}
+  6    [C,N]  u0 {3,B} {11,B}
+  7    [C,N]  u0 {3,[S,B]} {8,[D,B]}
+  8    [C,N]  u0 {4,[S,B]} {7,[D,B]}
+  9    [C,N]  u0 {4,B} {13,B}
+  10   [C,N]  u0 {2,B} {14,B}
+  11   [C,N]  u0 {6,B} {12,B}
+  12   [C,N]  u0 {5,B} {11,B}
+  13   [C,N]  u0 {9,B} {14,B}
+  14   [C,N]  u0 {10,B} {13,B}
+---
+label: s2_6_6_s2_6_6_aromatic2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
+group: |2
+
+  1  * [C,N]  u0 {2,[S,B]} {3,[D,B]} {5,[S,B]}
+  2    [C,N]  u0 {1,[S,B]} {4,[D,B]} {10,[S,B]}
+  3    [C,N]  u0 {1,[D,B]} {6,[S,B]} {7,[S,B]}
+  4    [C,N]  u0 {2,[D,B]} {8,[S,B]} {9,[S,B]}
+  5    [C,N]  u0 {1,[S,B]} {12,[D,B]}
+  6    [C,N]  u0 {3,[S,B]} {11,[D,B]}
+  7    [C,N]  u0 {3,[S,B]} {8,[D,B]}
+  8    [C,N]  u0 {4,[S,B]} {7,[D,B]}
+  9    [C,N]  u0 {4,[S,B]} {13,[D,B]}
+  10   [C,N]  u0 {2,[S,B]} {14,[D,B]}
+  11   [C,N]  u0 {6,[D,B]} {12,[S,B]}
+  12   [C,N]  u0 {5,[D,B]} {11,[S,B]}
+  13   [C,N]  u0 {9,[D,B]} {14,[S,B]}
+  14   [C,N]  u0 {10,[D,B]} {13,[S,B]}
+---
+label: s2_6_6_s2_6_6_aromatic3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
+group: |2
+
+  1  * [C,N]  u0 {2,[S,B]} {3,[D,B]} {5,[S,B]}
+  2    [C,N]  u0 {1,[S,B]} {4,[S,B]} {10,[D,B]}
+  3    [C,N]  u0 {1,[D,B]} {6,[S,B]} {7,[S,B]}
+  4    [C,N]  u0 {2,[S,B]} {8,[S,B]} {9,[D,B]}
+  5    [C,N]  u0 {1,[S,B]} {12,[D,B]}
+  6    [C,N]  u0 {3,[S,B]} {11,[D,B]}
+  7    [C,N]  u0 {3,[S,B]} {8,[D,B]}
+  8    [C,N]  u0 {4,[S,B]} {7,[D,B]}
+  9    [C,N]  u0 {4,[D,B]} {13,[S,B]}
+  10   [C,N]  u0 {2,[D,B]} {14,[S,B]}
+  11   [C,N]  u0 {6,[D,B]} {12,[S,B]}
+  12   [C,N]  u0 {5,[D,B]} {11,[S,B]}
+  13   [C,N]  u0 {9,[S,B]} {14,[D,B]}
+  14   [C,N]  u0 {10,[S,B]} {13,[D,B]}
+---
+label: s2_6_6_s2_6_6_aromatic4
+children: []
+short_description: special solvation po
+long_description: |2
+
+  the heterocyclic form belongs to s2_6_6_s2_6_6_heteroaromatic
+group: |2
+
+  1  * [C,N]  u0 {2,[S,B]} {3,[S,B]} {5,[D,B]}
+  2    [C,N]  u0 {1,[S,B]} {4,[S,B]} {10,[D,B]}
+  3    [C,N]  u0 {1,[S,B]} {6,[D,B]} {7,[S,B]}
+  4    [C,N]  u0 {2,[S,B]} {8,[S,B]} {9,[D,B]}
+  5    [C,N]  u0 {1,[D,B]} {12,[S,B]}
+  6    [C,N]  u0 {3,[D,B]} {11,[S,B]}
+  7    [C,N]  u0 {3,[S,B]} {8,[D,B]}
+  8    [C,N]  u0 {4,[S,B]} {7,[D,B]}
+  9    [C,N]  u0 {4,[D,B]} {13,[S,B]}
+  10   [C,N]  u0 {2,[D,B]} {14,[S,B]}
+  11   [C,N]  u0 {6,[S,B]} {12,[D,B]}
+  12   [C,N]  u0 {5,[S,B]} {11,[D,B]}
+  13   [C,N]  u0 {9,[S,B]} {14,[D,B]}
+  14   [C,N]  u0 {10,[S,B]} {13,[D,B]}
+---
+label: s2_5_6_heteroaromatic1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_heteroaromatic
+group: |2
+
+  1  [C,N,S] u0 {5,S} {9,S}
+  2  [C,N,S] u0 {4,S} {7,S}
+  3  [C,N,S] u0 {7,S} {9,D}
+  4  [C,N,S] u0 {2,S} {8,D}
+  5  [C,N,S] u0 {1,S} {6,S}
+  6  [C,N,S] u0 {5,S} {7,D} {8,S}
+  7  [C,N,S] u0 {2,S} {3,S} {6,D}
+  8  [C,N,S] u0 {4,D} {6,S}
+  9  [C,N,S] u0 {1,S} {3,D}
+---
+label: s2_5_6_heteroaromatic2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_heteroaromatic
+group: |2
+
+  1  [C,N,S] u0 {5,S} {9,D}
+  2  [C,N,S] u0 {4,D} {7,S}
+  3  [C,N,S] u0 {7,D} {9,S}
+  4  [C,N,S] u0 {2,D} {8,S}
+  5  [C,N,S] u0 {1,S} {6,D}
+  6  [C,N,S] u0 {5,D} {7,S} {8,S}
+  7  [C,N,S] u0 {2,S} {3,D} {6,S}
+  8  [C,N,S] u0 {4,S} {6,S}
+  9  [C,N,S] u0 {1,D} {3,S}
+---
+label: s2_5_6_heteroaromatic3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_heteroaromatic
+group: |2
+
+  1  [C,N,S] u0 {4,S} {7,S}
+  2  [C,N,S] u0 {4,S} {9,D}
+  3  [C,N,S] u0 {4,D} {5,S} {6,S}
+  4  * [C,N,S] u0 {1,S} {2,S} {3,D}
+  5  [C,N,S] u0 {3,S} {8,D}
+  6  [C,N,S] u0 {3,S} {7,D}
+  7  [C,N,S] u0 {1,S} {6,D}
+  8  [C,N,S] u0 {5,D} {9,S}
+  9  [C,N,S] u0 {2,D} {8,S}
+---
+label: s2_5_6_hypoxanthine1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_hypoxanthine
+group: |2
+
+  1  N  u0 {6,S} {9,S}
+  2  N  u0 {7,S} {8,S}
+  3  N  u0 {5,S} {8,D}
+  4  N  u0 {7,S} {9,D}
+  5  CO u0 {3,S} {6,S}
+  6  * C u0 {1,S} {5,S} {7,D}
+  7  C  u0 {2,S} {4,S} {6,D}
+  8  C  u0 {2,S} {3,D}
+  9  C  u0 {1,S} {4,D}
+---
+label: s2_5_6_hypoxanthine2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_hypoxanthine
+group: |2
+
+  1  N u0 {5,S} {8,S}
+  2  N u0 {7,S} {9,S}
+  3  N u0 {6,S} {9,D}
+  4  N u0 {7,S} {8,D}
+  5  CO u0 {1,S} {6,S}
+  6  * C u0 {3,S} {5,S} {7,D}
+  7  C u0 {2,S} {4,S} {6,D}
+  8  C u0 {1,S} {4,D}
+  9  C u0 {2,S} {3,D}
+---
+label: s2_5_6_purine1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1 * C u0 {2,S} {3,S} {5,D}
+  2   C u0 {1,S} {4,S} {6,D}
+  3   N u0 {1,S} {7,D}
+  4   N u0 {2,S} {7,S}
+  5   N u0 {1,D} {9,S}
+  6   C u0 {2,D} {8,S}
+  7   C u0 {3,D} {4,S}
+  8   N u0 {6,S} {9,D}
+  9   C u0 {5,S} {8,D}
+---
+label: s2_5_6_purine2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1 * C u0 {2,D} {3,S} {5,S}
+  2   C u0 {1,D} {4,S} {6,S}
+  3   N u0 {1,S} {7,D}
+  4   N u0 {2,S} {7,S}
+  5   N u0 {1,S} {9,D}
+  6   C u0 {2,S} {8,D}
+  7   C u0 {3,D} {4,S}
+  8   N u0 {6,D} {9,S}
+  9   C u0 {5,D} {8,S}
+---
+label: s2_5_6_purine3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1 * C u0 {2,S} {3,S} {5,D}
+  2   C u0 {1,S} {4,S} {6,D}
+  3   N u0 {1,S} {7,S}
+  4   N u0 {2,S} {7,D}
+  5   N u0 {1,D} {9,S}
+  6   C u0 {2,D} {8,S}
+  7   C u0 {3,S} {4,D}
+  8   N u0 {6,S} {9,D}
+  9   C u0 {5,S} {8,D}
+---
+label: s2_5_6_purine4
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1  N u0 {5,S} {8,S}
+  2  N u0 {6,S} {8,D}
+  3  N u0 {6,S} {9,D}
+  4  N u0 {7,D} {9,S}
+  5  * C u0 {1,S} {6,D} {7,S}
+  6  C u0 {2,S} {3,S} {5,D}
+  7  C u0 {4,D} {5,S}
+  8  C u0 {1,S} {2,D}
+  9  C u0 {3,D} {4,S}
+---
+label: s2_5_6_purine5
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1  N u0 {5,S} {7,S}
+  2  N u0 {6,S} {7,D}
+  3  N u0 {5,S} {9,D}
+  4  N u0 {8,D} {9,S}
+  5  * C u0 {1,S} {3,S} {6,D}
+  6  C u0 {2,S} {5,D} {8,S}
+  7  C u0 {1,S} {2,D}
+  8  C u0 {4,D} {6,S}
+  9  C u0 {3,D} {4,S}
+---
+label: s2_5_6_purine6
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1  N u0 {7,S} {8,S}
+  2  N u0 {5,S} {9,D}
+  3  N u0 {6,S} {8,D}
+  4  N u0 {6,D} {9,S}
+  5  * C u0 {2,S} {6,S} {7,D}
+  6  C u0 {3,S} {4,D} {5,S}
+  7  C u0 {1,S} {5,D}
+  8  C u0 {1,S} {3,D}
+  9  C u0 {2,D} {4,S}
+---
+label: s2_5_6_purine7
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1  N u0 {6,S} {9,S}
+  2  N u0 {7,S} {8,S}
+  3  N u0 {5,S} {8,D}
+  4  N u0 {7,S} {9,D}
+  5  C u0 {3,S} {6,S}
+  6  * C u0 {1,S} {5,S} {7,D}
+  7  C u0 {2,S} {4,S} {6,D}
+  8  C u0 {2,S} {3,D}
+  9  C u0 {1,S} {4,D}
+---
+label: s2_5_6_purine8
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_5_6_purine
+group: |2
+
+  1  N u0 {5,S} {8,S}
+  2  N u0 {7,S} {9,S}
+  3  N u0 {6,S} {9,D}
+  4  N u0 {7,S} {8,D}
+  5  C u0 {1,S} {6,S}
+  6  * C u0 {3,S} {5,S} {7,D}
+  7  C u0 {2,S} {4,S} {6,D}
+  8  C u0 {1,S} {4,D}
+  9  C u0 {2,S} {3,D}
+---
+label: s2_6_6_8-Hydroxyquinoline1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
+group: |2
+
+  1    Cb  u0 {2,B} {4,B} {5,S}
+  2    Cb  u0 {1,B} {3,S} {6,B}
+  3    N3d u0 {2,S} {8,D}
+  4    Cb  u0 {1,B} {10,B}
+  5    Cd  u0 {1,S} {7,D}
+  6    Cb  u0 {2,B} {9,B} {11,S}
+  7  * Cd  u0 {5,D} {8,S}
+  8    Cd  u0 {3,D} {7,S}
+  9    Cb  u0 {6,B} {10,B}
+  10   Cb  u0 {4,B} {9,B}
+  11   O   u0 {6,S} {12,S}
+  12   H   u0 {11,S}
+---
+label: s2_6_6_8-Hydroxyquinoline2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_8-Hydroxyquinoline
+group: |2
+
+  1  N u0 {3,D} {10,S}
+  2  C u0 {3,S} {4,D} {5,S}
+  3  C u0 {1,D} {2,S} {6,S}
+  4  C u0 {2,D} {9,S}
+  5  C u0 {2,S} {7,D}
+  6  C u0 {3,S} {8,D} {11,S}
+  7  C u0 {5,D} {8,S}
+  8  C u0 {6,D} {7,S}
+  9  * C u0 {4,S} {10,D}
+  10   C u0 {1,S} {9,D}
+  11   O   u0 {6,S} {12,S}
+  12   H   u0 {11,S}
+---
+label: s2_6_6_ben_heteroaromatic1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_ben_heteroaromatic
+group: |2
+
+  1  * [C,N] u0 {9,D} {10,S}
+  2  [C,N] u0 {3,B} {5,B} {6,S}
+  3  [C,N] u0 {2,B} {4,B} {9,S}
+  4  [C,N] u0 {3,B} {8,B}
+  5  [C,N] u0 {2,B} {7,B}
+  6  [C,N] u0 {2,S} {10,D}
+  7  [C,N] u0 {5,B} {8,B}
+  8  [C,N] u0 {4,B} {7,B}
+  9  [C,N] u0 {1,D} {3,S}
+  10 [C,N] u0 {1,S} {6,D}
+---
+label: s2_6_6_ben_heteroaromatic2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_ben_heteroaromatic
+group: |2
+
+  1  [C,N] u0 {3,S} {9,D}
+  2  [C,N] u0 {4,S} {10,D}
+  3  [C,N] u0 {1,S} {4,D} {5,S}
+  4  [C,N] u0 {2,S} {3,D} {6,S}
+  5  [C,N] u0 {3,S} {7,D}
+  6  [C,N] u0 {4,S} {8,D}
+  7  [C,N] u0 {5,D} {10,S}
+  8  * [C,N] u0 {6,D} {9,S}
+  9  [C,N] u0 {1,D} {8,S}
+  10 [C,N] u0 {2,D} {7,S}
+---
+label: s2_6_6_ben_heteroaromatic3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_ben_heteroaromatic
+group: |2
+
+  1  [C,N] u0 p1 c0 {9,S} {10,D}
+  2  [C,N] u0 p0 c0 {3,S} {4,S} {6,D}
+  3  [C,N] u0 p0 c0 {2,S} {5,S} {9,D}
+  4  [C,N] u0 p0 c0 {2,S} {7,D}
+  5  [C,N] u0 p0 c0 {3,S} {8,D}
+  6  [C,N] u0 p0 c0 {2,D} {10,S}
+  7  [C,N] u0 p0 c0 {4,D} {8,S}
+  8  [C,N] u0 p0 c0 {5,D} {7,S}
+  9  [C,N] u0 p0 c0 {1,S} {3,D}
+  10 [C,N] u0 p0 c0 {1,D} {6,S}
+---
+label: s2_6_6_ben_heteroaromatic4
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_ben_heteroaromatic
+group: |2
+
+  1  [C,N] u0 {5,S} {8,S}
+  2  [C,N] u0 {5,S} {10,D}
+  3  [C,N] u0 {4,S} {6,S}
+  4  [C,N] u0 {3,S} {5,D} {7,S}
+  5  [C,N] u0 {1,S} {2,S} {4,D}
+  6  [C,N] u0 {3,S} {8,D}
+  7  [C,N] u0 {4,S} {9,D}
+  8  [C,N] u0 {1,S} {6,D}
+  9  [C,N] u0 {7,D} {10,S}
+  10 [C,N] u0 {2,D} {9,S}
+---
+label: s2_6_6_isoquinoline1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_isoquinoline
+group: |2
+
+  1  * N u0 {9,D} {10,S}
+  2  C u0 {3,B} {5,B} {6,S}
+  3  C u0 {2,B} {4,B} {9,S}
+  4  C u0 {3,B} {8,B}
+  5  C u0 {2,B} {7,B}
+  6  C u0 {2,S} {10,D}
+  7  C u0 {5,B} {8,B}
+  8  C u0 {4,B} {7,B}
+  9  C u0 {1,D} {3,S}
+  10 C u0 {1,S} {6,D}
+---
+label: s2_6_6_isoquinoline2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_isoquinoline
+group: |2
+
+  1  * N u0 {9,S} {10,D}
+  2  C u0 {3,S} {4,S} {6,D}
+  3  C u0 {2,S} {5,S} {9,D}
+  4  C u0 {2,S} {7,D}
+  5  C u0 {3,S} {8,D}
+  6  C u0 {2,D} {10,S}
+  7  C u0 {4,D} {8,S}
+  8  C u0 {5,D} {7,S}
+  9  C u0 {1,S} {3,D}
+  10 C u0 {1,D} {6,S}
+---
+label: s2_6_6_quinoline1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_quinoline
+group: |2
+
+  1    Cb  u0 {2,B} {4,B} {5,S}
+  2    Cb  u0 {1,B} {3,S} {6,B}
+  3    N   u0 {2,S} {8,D}
+  4    Cb  u0 {1,B} {10,B}
+  5    Cd  u0 {1,S} {7,D}
+  6    Cb  u0 {2,B} {9,B}
+  7  * Cd  u0 {5,D} {8,S}
+  8    Cd  u0 {3,D} {7,S}
+  9    Cb  u0 {6,B} {10,B}
+  10   Cb  u0 {4,B} {9,B}
+---
+label: s2_6_6_quinoline2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_quinoline
+group: |2
+
+  1  N u0 {3,D} {10,S}
+  2  C u0 {3,S} {4,D} {5,S}
+  3  C u0 {1,D} {2,S} {6,S}
+  4  C u0 {2,D} {9,S}
+  5  C u0 {2,S} {7,D}
+  6  C u0 {3,S} {8,D}
+  7  C u0 {5,D} {8,S}
+  8  C u0 {6,D} {7,S}
+  9  * C u0 {4,S} {10,D}
+  10 C u0 {1,S} {9,D}
+---
+label: s2_6_6_quinoline_nitro1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_quinoline_nitro
+group: |2
+
+  1    Cb  u0 {2,B} {4,B} {5,S}
+  2    Cb  u0 {1,B} {3,S} {6,B}
+  3    N5dc  u0 {2,S} {8,D}
+  4    Cb  u0 {1,B} {10,B}
+  5    Cd  u0 {1,S} {7,D}
+  6    Cb  u0 {2,B} {9,B}
+  7  * Cd  u0 {5,D} {8,S}
+  8    Cd  u0 {3,D} {7,S}
+  9    Cb  u0 {6,B} {10,B}
+  10   Cb  u0 {4,B} {9,B}
+---
+label: s2_6_6_quinoline_nitro2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_quinoline_nitro
+group: |2
+
+  1  N5dc u0 {3,D} {10,S}
+  2  C u0 {3,S} {4,D} {5,S}
+  3  C u0 {1,D} {2,S} {6,S}
+  4  C u0 {2,D} {9,S}
+  5  C u0 {2,S} {7,D}
+  6  C u0 {3,S} {8,D}
+  7  C u0 {5,D} {8,S}
+  8  C u0 {6,D} {7,S}
+  9  * C u0 {4,S} {10,D}
+  10 C u0 {1,S} {9,D}
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
+group: |2
+
+  1  N u0 {6,D} {7,S}
+  2  C u0 {3,S} {4,B} {9,B}
+  3  C u0 {2,S} {6,S} {8,D}
+  4  C u0 {2,B} {10,B} {11,S}
+  5  C u0 {7,B} {8,S} {12,B}
+  6  C u0 {1,D} {3,S} {13,S}
+  7  C u0 {1,S} {5,B} {14,B}
+  8  C u0 {3,D} {5,S}
+  9  C u0 {2,B} {16,B}
+  10 C u0 {4,B} {15,B}
+  11 C u0 {4,S} {13,D}
+  12 C u0 {5,B} {18,B}
+  13 C u0 {6,S} {11,D}
+  14 C u0 {7,B} {17,B}
+  15 C u0 {10,B} {16,B}
+  16 * C u0 {9,B} {15,B}
+  17 C u0 {14,B} {18,B}
+  18 C u0 {12,B} {17,B}
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
+group: |2
+
+  1  N u0 {6,S} {7,D}
+  2  C u0 {3,B} {4,B} {12,B}
+  3  C u0 {2,B} {6,B} {8,S}
+  4  C u0 {2,B} {10,B} {11,B}
+  5  C u0 {7,S} {8,D} {9,S}
+  6  C u0 {1,S} {3,B} {13,B}
+  7  C u0 {1,D} {5,S} {14,S}
+  8  C u0 {3,S} {5,D}
+  9  C u0 {5,S} {15,D}
+  10 C u0 {4,B} {13,B}
+  11 C u0 {4,B} {16,B}
+  12 C u0 {2,B} {17,B}
+  13 C u0 {6,B} {10,B}
+  14 C u0 {7,S} {18,D}
+  15 C u0 {9,D} {18,S}
+  16 C u0 {11,B} {17,B}
+  17 * C u0 {12,B} {16,B}
+  18 C u0 {14,D} {15,S}
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
+group: "\n1  N u0 {6,D} {7,S}\n2  C u0 {3,B} {6,S} {12,B}\n3  C u0 {2,B} {11,S} {13,B}\n\
+  4  C u0 {7,B} {8,S} {9,B}\n5  C u0 {6,S} {8,D} {10,S}\n6  C u0 {1,D} {2,S} {5,S}\n\
+  7  C u0 {1,S} {4,B} {14,B}\n8  C u0 {4,S} {5,D}\n9  C u0 {4,B} {16,B}\n10 C u0 {5,S}\
+  \ {11,D}\n11 C u0 {3,S} {10,D}\n12 C u0 {2,B} {17,B}\n13 C u0 {3,B} {18,B}\n14 C\
+  \ u0 {7,B} {15,B}\n15 C u0 {14,B} {16,B} \n16 C u0 {9,B} {15,B}\n17 * C u0 {12,B}\
+  \ {18,B}\n18 C u0 {13,B} {17,B}\n"
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine4
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
+group: |2
+
+  1  N u0 {6,D} {7,S}
+  2  C u0 {3,B} {6,S} {9,B}
+  3  C u0 {2,B} {10,B} {11,S}
+  4  C u0 {6,S} {8,D} {12,S}
+  5  C u0 {7,B} {8,S} {13,B}
+  6  C u0 {1,D} {2,S} {4,S}
+  7  C u0 {1,S} {5,B} {14,B}
+  8  C u0 {4,D} {5,S}
+  9  C u0 {2,B} {16,B}
+  10 C u0 {3,B} {15,B}
+  11 C u0 {3,S} {12,D}
+  12 C u0 {4,S} {11,D}
+  13 C u0 {5,B} {17,B}
+  14 C u0 {7,B} {18,B}
+  15 C u0 {10,B} {16,B}
+  16 * C u0 {9,B} {15,B}
+  17 C u0 {13,B} {18,B}
+  18 C u0 {14,B} {17,B}
+---
+label: s2_6_6_s2_6_6_s2_6_6_benzacridine5
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_6_s2_6_6_s2_6_6_benzacridine
+group: |2
+
+  1  N u0 {6,S} {7,D}
+  2  C u0 {3,B} {6,B} {12,B}
+  3  C u0 {2,B} {10,B} {11,B}
+  4  C u0 {6,B} {8,S} {9,B}
+  5  C u0 {7,S} {8,D} {13,S}
+  6  C u0 {1,S} {2,B} {4,B}
+  7  C u0 {1,D} {5,S} {14,S}
+  8  C u0 {4,S} {5,D}
+  9  C u0 {4,B} {10,B}
+  10 C u0 {3,B} {9,B}
+  11 C u0 {3,B} {16,B}
+  12 C u0 {2,B} {17,B}
+  13 C u0 {5,S} {18,D}
+  14 C u0 {7,S} {15,D}
+  15 C u0 {14,D} {18,S}
+  16 C u0 {11,B} {17,B}
+  17 * C u0 {12,B} {16,B}
+  18 C u0 {13,D} {15,S}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl1
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  N u0 {6,S} {7,S}
+  2  C u0 {3,S} {4,S}
+  3  C u0 {2,S} {5,S}
+  4  C u0 {2,S} {6,B} {8,B}
+  5  C u0 {3,S} {7,B} {9,B}
+  6  C u0 {1,S} {4,B} {10,B}
+  7  C u0 {1,S} {5,B} {11,B}
+  8  C u0 {4,B} {12,B}
+  9  C u0 {5,B} {14,B}
+  10 C u0 {6,B} {13,B}
+  11 C u0 {7,B} {15,B}
+  12 C u0 {8,B} {13,B}
+  13 C u0 {10,B} {12,B}
+  14 C u0 {9,B} {15,B}
+  15 C u0 {11,B} {14,B}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl2
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  [C,N] u0 {4,S} {7,S}
+  2  N     u0 {6,S} {8,S}
+  3  [C,N] u0 {8,S} {15,D}
+  4  [C,N] u0 {1,S} {5,S}
+  5  [C,N] u0 {4,S} {6,B} {9,B}
+  6  [C,N] u0 {2,S} {5,B} {10,B}
+  7  [C,N] u0 {1,S} {8,D} {11,S}
+  8  [C,N] u0 {2,S} {3,S} {7,D}
+  9  [C,N] u0 {5,B} {13,B}
+  10 [C,N] u0 {6,B} {12,B}
+  11 [C,N] u0 {7,S} {14,D}
+  12 [C,N] u0 {10,B} {13,B}
+  13 [C,N] u0 {9,B} {12,B}
+  14 [C,N] u0 {11,D} {15,S}
+  15 [C,N] u0 {3,D} {14,S}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl3
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  [C,N] u0 {5,S} {7,S}
+  2  N     u0 {8,S} {9,S}
+  3  [C,N] u0 {9,D} {14,S}
+  4  [C,N] u0 {8,S} {15,D}
+  5  [C,N] u0 {1,S} {6,S}
+  6  [C,N] u0 {5,S} {8,D} {10,S}
+  7  [C,N] u0 {1,S} {9,S} {11,D}
+  8  [C,N] u0 {2,S} {4,S} {6,D}
+  9  [C,N] u0 {2,S} {3,D} {7,S}
+  10 [C,N] u0 {6,S} {13,D}
+  11 [C,N] u0 {7,D} {12,S}
+  12 [C,N] u0 {11,S} {14,D}
+  13 [C,N] u0 {10,D} {15,S}
+  14 [C,N] u0 {3,S} {12,D}
+  15 [C,N] u0 {4,D} {13,S}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl4
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  [C,N] u0 {5,S} {7,S}
+  2  N     u0 {8,S} {9,S}
+  3  [C,N] u0 {9,S} {14,D}
+  4  [C,N] u0 {8,S} {15,D}
+  5  [C,N] u0 {1,S} {6,S}
+  6  [C,N] u0 {5,S} {8,D} {10,S}
+  7  [C,N] u0 {1,S} {9,D} {11,S}
+  8  [C,N] u0 {2,S} {4,S} {6,D}
+  9  [C,N] u0 {2,S} {3,S} {7,D}
+  10 [C,N] u0 {6,S} {13,D}
+  11 [C,N] u0 {7,S} {12,D}
+  12 [C,N] u0 {11,D} {14,S}
+  13 [C,N] u0 {10,D} {15,S}
+  14 [C,N] u0 {3,D} {12,S}
+  15 [C,N] u0 {4,D} {13,S}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl5
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  [C,N] u0 {5,S} {7,S}
+  2  N     u0 {8,S} {9,S}
+  3  [C,N] u0 {9,D} {14,S}
+  4  [C,N] u0 {8,D} {15,S}
+  5  [C,N] u0 {1,S} {6,S}
+  6  [C,N] u0 {5,S} {8,S} {10,D}
+  7  [C,N] u0 {1,S} {9,S} {11,D}
+  8  [C,N] u0 {2,S} {4,D} {6,S}
+  9  [C,N] u0 {2,S} {3,D} {7,S}
+  10 [C,N] u0 {6,D} {13,S}
+  11 [C,N] u0 {7,D} {12,S}
+  12 [C,N] u0 {11,S} {14,D}
+  13 [C,N] u0 {10,S} {15,D}
+  14 [C,N] u0 {3,S} {12,D}
+  15 [C,N] u0 {4,S} {13,D}
+---
+label: s2_6_7_ben_s2_7_6_ben_iminodibenzyl6
+children: []
+short_description: special solvation po
+long_description: |2
+
+  this is one of the groups that belong to s2_6_7_ben_s2_7_6_ben_iminodibenzyl
+group: |2
+
+  1  [C,N] u0 {4,S} {7,S}
+  2  N     u0 {6,S} {8,S}
+  3  [C,N] u0 {8,D} {15,S}
+  4  [C,N] u0 {1,S} {5,S}
+  5  [C,N] u0 {4,S} {6,B} {9,B}
+  6  [C,N] u0 {2,S} {5,B} {10,B}
+  7  [C,N] u0 {1,S} {8,S} {11,D}
+  8  [C,N] u0 {2,S} {3,D} {7,S}
+  9  [C,N] u0 {5,B} {13,B}
+  10 [C,N] u0 {6,B} {12,B}
+  11 [C,N] u0 {7,D} {14,S}
+  12 [C,N] u0 {10,B} {13,B}
+  13 [C,N] u0 {9,B} {12,B}
+  14 [C,N] u0 {11,S} {15,D}
+  15 [C,N] u0 {3,S} {14,D}
