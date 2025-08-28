@@ -73,22 +73,6 @@ class SoluteLibrary(SCHEMA_BASE):
 event.listen(SoluteLibrary, "before_insert", check_short_desc)
 event.listen(SoluteLibrary, "before_insert", delete_empty_desc)
 
-class SolventLibrary(SCHEMA_BASE):
-    __tablename__ = "solvent_library_table"
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String)
-    short_description = Column(String)
-    long_description = Column(String)
-    label = Column(String)
-    adjacency_list = Column(String)
-
-
-event.listen(SolventLibrary, "before_insert", check_short_desc)
-event.listen(SolventLibrary, "before_insert", delete_empty_desc)
-event.listen(SolventLibrary, "before_insert", validate_solvent_parameters)
-
-
 class SoluteData(SCHEMA_BASE):
     __tablename__ = "solute_data_table"
 
@@ -106,7 +90,7 @@ class SolventData(SCHEMA_BASE):
     __tablename__ = "solvent_data_table"
 
     id = Column(Integer, primary_key=True)
-    parent_id = mapped_column(ForeignKey("solvent_library_table.id"))
+    parent_id = mapped_column(ForeignKey("solvent_data_table.id"))
     
     # Abraham gas-to-solvent parameters for solvation free energy (dGsolv) correction at 298K
     s_g = Column(Float)  # s parameter for dGsolv
@@ -137,6 +121,9 @@ class SolventData(SCHEMA_BASE):
     eps = Column(Float)  # Dielectric constant
     name_in_coolprop = Column(String)  # Name used in CoolProp package
 
+event.listen(SolventData, "before_insert", check_short_desc)
+event.listen(SolventData, "before_insert", delete_empty_desc)
+event.listen(SolventData, "before_insert", validate_solvent_parameters)
 
 class DataCountGAV(SCHEMA_BASE):
     __tablename__ = "data_count_gav_table"
@@ -159,7 +146,7 @@ class DataCountSolvent(SCHEMA_BASE):
     __tablename__ = "data_count_solvent_table"
 
     id = Column(Integer, primary_key=True)
-    parent_id = mapped_column(ForeignKey("solvent_library_table.id"))
+    parent_id = mapped_column(ForeignKey("solvent_data_table.id"))
     
     # Data quality metrics
     dGsolvCount = Column(Integer)  # Number of data points for dGsolv fitting
