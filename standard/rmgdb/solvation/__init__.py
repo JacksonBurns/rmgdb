@@ -31,7 +31,7 @@ from .schema import (
 )
 
 from .views import (
-    solvation_groups_view_sql,
+    solute_groups_view_sql,
     solvation_libraries_view_sql,
     solute_libraries_view_sql,
     solvent_libraries_view_sql,
@@ -59,7 +59,7 @@ __all__ = [
     'DataCountSolvent',
     
     # Views
-    'solvation_groups_view_sql',
+    'solute_groups_view_sql',
     'solvation_libraries_view_sql',
     'solute_libraries_view_sql',
     'solvent_libraries_view_sql',
