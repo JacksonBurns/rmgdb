@@ -107,7 +107,7 @@ solute_library_view_query = (
         SoluteLibrary.short_description,
         SoluteLibrary.long_description,
         SoluteLibrary.label,
-        SoluteLibrary.adjacency_list,
+        SoluteLibrary.molecule,
         solute_view.c.S,
         solute_view.c.B,
         solute_view.c.E,
@@ -130,7 +130,7 @@ solvent_library_view_query = (
         SolventLibrary.short_description,
         SolventLibrary.long_description,
         SolventLibrary.label,
-        SolventLibrary.adjacency_list,
+        SolventLibrary.molecule,
         solvent_view.c.s_g,
         solvent_view.c.b_g,
         solvent_view.c.e_g,
@@ -185,7 +185,7 @@ solvation_libraries_view_query = (
         SolvationLibraries.short_description,
         SolvationLibraries.long_description,
         SolvationLibraries.label,
-        SolvationLibraries.adjacency_list,
+        SolvationLibraries.molecule,
     )
     .select_from(SolvationLibraries)
 )

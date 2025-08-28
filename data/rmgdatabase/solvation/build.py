@@ -234,7 +234,7 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
             short_description=shortDesc,
             long_description=longDesc,
             label=label,
-            adjacency_list=molecule,
+            molecule=molecule,
         )
     elif solvent is not None:
         row = SolventLibrary(
@@ -243,7 +243,7 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
             short_description=shortDesc,
             long_description=longDesc,
             label=label,
-            adjacency_list=molecule,
+            molecule=molecule,
         )
     else:
         # Fallback to generic solvation library
@@ -253,7 +253,7 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
             short_description=shortDesc,
             long_description=longDesc,
             label=label,
-            adjacency_list=molecule,
+            molecule=molecule,
         )
     
     ENTRY_COUNT += 1

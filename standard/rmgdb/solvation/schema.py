@@ -52,7 +52,7 @@ class SolvationLibraries(SCHEMA_BASE):
     short_description = Column(String)
     long_description = Column(String)
     label = Column(String)
-    adjacency_list = Column(String)
+    molecule = Column(String)
 
 
 event.listen(SolvationLibraries, "before_insert", check_short_desc)
@@ -67,7 +67,7 @@ class SoluteLibrary(SCHEMA_BASE):
     short_description = Column(String)
     long_description = Column(String)
     label = Column(String)
-    adjacency_list = Column(String)
+    molecule = Column(String)
 
 
 event.listen(SoluteLibrary, "before_insert", check_short_desc)

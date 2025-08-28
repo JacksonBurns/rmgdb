@@ -53,7 +53,7 @@ def dump_db():
                 short_description=row.short_description,
                 long_description=row.long_description,
                 label=row.label,
-                adjacency_list=row.adjacency_list,
+                molecule=row.molecule,
             )
             
             # Add solute data if present
@@ -207,7 +207,7 @@ def gen_db():
                     short_description=row["short_description"],
                     long_description=row["long_description"],
                     label=row["label"],
-                    adjacency_list=row["adjacency_list"],
+                    molecule=row["molecule"],
                 )
                 session.add(new_row)
                 
@@ -233,7 +233,7 @@ def gen_db():
                     short_description=row["short_description"],
                     long_description=row["long_description"],
                     label=row["label"],
-                    adjacency_list=row["adjacency_list"],
+                    molecule=row["molecule"],
                 )
                 session.add(new_row)
                 
@@ -290,7 +290,7 @@ def gen_db():
                     short_description=row["short_description"],
                     long_description=row["long_description"],
                     label=row["label"],
-                    adjacency_list=row["adjacency_list"],
+                    molecule=row["molecule"],
                 )
                 session.add(new_row)
                 
