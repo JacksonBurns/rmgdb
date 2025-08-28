@@ -1,13 +1,13 @@
 from sqlalchemy import select, text
 
 from rmgdb.solvation.schema import (
-    SoluteData, SolventData, DataCountSolvent, DataCountGAV,
+    SoluteData, SoluteLibraryData, SolventData, DataCountSolvent, DataCountGAV,
     SoluteLibrary, SolventLibrary, SolvationLibraries,
     Groups
 )
 
-# Create view for solvation groups with solute data
-solvation_groups_view_sql = text("""CREATE VIEW solvation_groups_view AS 
+# Create view for solute groups with solute data (renamed from solvation_groups_view)
+solute_groups_view_sql = text("""CREATE VIEW solute_groups_view AS 
 SELECT 
     groups_table.name, 
     groups_table.short_description, 
@@ -38,19 +38,19 @@ FROM groups_tree_table
 JOIN groups_table child_lookup ON child_lookup.id = groups_tree_table.child_id
 JOIN groups_table parent_lookup ON parent_lookup.id = groups_tree_table.parent_id""")
 
-# Create view for solute libraries with solute data
-solute_view = (
+# Create view for solute library data (separate from group data)
+solute_library_data_view = (
     select(
-        SoluteData.parent_id.label("parent_id"),
-        SoluteData.S.label("S"),
-        SoluteData.B.label("B"),
-        SoluteData.E.label("E"),
-        SoluteData.L.label("L"),
-        SoluteData.A.label("A"),
-        SoluteData.V.label("V"),
+        SoluteLibraryData.parent_id.label("parent_id"),
+        SoluteLibraryData.S.label("S"),
+        SoluteLibraryData.B.label("B"),
+        SoluteLibraryData.E.label("E"),
+        SoluteLibraryData.L.label("L"),
+        SoluteLibraryData.A.label("A"),
+        SoluteLibraryData.V.label("V"),
     )
-    .select_from(SoluteData)
-).subquery("solute_t")
+    .select_from(SoluteLibraryData)
+).subquery("solute_library_data_t")
 
 # Create view for solvent libraries with solvent data
 solvent_view = (
@@ -99,7 +99,7 @@ data_count_view = (
     .select_from(DataCountSolvent)
 ).subquery("data_count_t")
 
-# Create comprehensive view for solute libraries
+# Create comprehensive view for solute libraries with library data (not group data)
 solute_library_view_query = (
     select(
         SoluteLibrary.id,
@@ -108,17 +108,17 @@ solute_library_view_query = (
         SoluteLibrary.long_description,
         SoluteLibrary.label,
         SoluteLibrary.molecule,
-        solute_view.c.S,
-        solute_view.c.B,
-        solute_view.c.E,
-        solute_view.c.L,
-        solute_view.c.A,
-        solute_view.c.V,
+        solute_library_data_view.c.S,
+        solute_library_data_view.c.B,
+        solute_library_data_view.c.E,
+        solute_library_data_view.c.L,
+        solute_library_data_view.c.A,
+        solute_library_data_view.c.V,
     )
-    .select_from(solute_view)
+    .select_from(SoluteLibrary)
     .outerjoin(
-        SoluteLibrary,
-        SoluteLibrary.id == solute_view.c.parent_id,
+        solute_library_data_view,
+        SoluteLibrary.id == solute_library_data_view.c.parent_id,
     )
 )
 
@@ -159,9 +159,9 @@ solvent_library_view_query = (
         data_count_view.c.dHsolvMAE_value,
         data_count_view.c.dHsolvMAE_unit,
     )
-    .select_from(solvent_view)
+    .select_from(SolventLibrary)
     .outerjoin(
-        SolventLibrary,
+        solvent_view,
         SolventLibrary.id == solvent_view.c.parent_id,
     )
     .outerjoin(
@@ -192,3 +192,64 @@ solvation_libraries_view_query = (
 
 solvation_libraries_view_name = "solvation_libraries_view"
 solvation_libraries_view_sql = text(f"CREATE VIEW {solvation_libraries_view_name} AS {solvation_libraries_view_query}")
+
+# Create a view for solute data table (group data, not library data)
+solute_data_table_view_sql = text("""CREATE VIEW solute_data_table_view AS 
+SELECT 
+    groups_table.id,
+    groups_table.name,
+    groups_table.short_description,
+    groups_table.long_description,
+    groups_table.label,
+    groups_table."group",
+    solute_data_table.S,
+    solute_data_table.B,
+    solute_data_table.E,
+    solute_data_table.L,
+    solute_data_table.A,
+    solute_data_table.V
+FROM groups_table
+LEFT JOIN solute_data_table ON solute_data_table.parent_id = groups_table.id""")
+
+# Create a view for solvent data with molecule information
+solvent_data_table_view_sql = text("""CREATE VIEW solvent_data_table_view AS 
+SELECT 
+    solvent_library_table.id,
+    solvent_library_table.name,
+    solvent_library_table.short_description,
+    solvent_library_table.long_description,
+    solvent_library_table.label,
+    solvent_library_table.molecule,
+    solvent_data_table.s_g,
+    solvent_data_table.b_g,
+    solvent_data_table.e_g,
+    solvent_data_table.l_g,
+    solvent_data_table.a_g,
+    solvent_data_table.c_g,
+    solvent_data_table.s_h,
+    solvent_data_table.b_h,
+    solvent_data_table.e_h,
+    solvent_data_table.l_h,
+    solvent_data_table.a_h,
+    solvent_data_table.c_h,
+    solvent_data_table.A,
+    solvent_data_table.B,
+    solvent_data_table.C,
+    solvent_data_table.D,
+    solvent_data_table.E,
+    solvent_data_table.alpha,
+    solvent_data_table.beta,
+    solvent_data_table.eps,
+    solvent_data_table.name_in_coolprop
+FROM solvent_library_table
+LEFT JOIN solvent_data_table ON solvent_data_table.parent_id = solvent_library_table.id""")
+
+# Create a view for solvent libraries with basic info (no molecule needed)
+solvent_libraries_basic_view_sql = text("""CREATE VIEW solvent_libraries_basic_view AS 
+SELECT 
+    solvent_library_table.id,
+    solvent_library_table.name,
+    solvent_library_table.short_description,
+    solvent_library_table.long_description,
+    solvent_library_table.label
+FROM solvent_library_table""")

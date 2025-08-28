@@ -22,7 +22,7 @@ from rmgdb.solvation.schema import (
     # declarative SCHEMA_BASE,
     SCHEMA_BASE,
 )
-from rmgdb.solvation.views import solvation_groups_view_sql, solute_libraries_view_sql, solvent_libraries_view_sql, label_pairs_view_sql
+from rmgdb.solvation.views import solute_groups_view_sql, solute_libraries_view_sql, solvent_libraries_view_sql, label_pairs_view_sql
 
 
 # fix multiline string printing
@@ -114,7 +114,7 @@ def dump_db():
             yaml.dump_all(all_rows, f, yaml.SafeDumper, sort_keys=False)
 
     # do the same for groups
-    all_groups_df = pd.read_sql("SELECT * FROM solvation_groups_view", "sqlite:///solvation.db")
+    all_groups_df = pd.read_sql("SELECT * FROM solute_groups_view", "sqlite:///solvation.db")
     for group_name, group_df in tqdm(all_groups_df.groupby("name"), desc="Generating groups"):
         all_rows = []
         # re-gather the solute data
@@ -372,7 +372,7 @@ def gen_db():
         session.rollback()
         print(f"Error: {e}")
 
-    session.execute(solvation_groups_view_sql)
+    session.execute(solute_groups_view_sql)
     session.execute(solute_libraries_view_sql)
     session.execute(solvent_libraries_view_sql)
     session.execute(label_pairs_view_sql)

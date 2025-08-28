@@ -77,7 +77,20 @@ class SoluteData(SCHEMA_BASE):
     __tablename__ = "solute_data_table"
 
     id = Column(Integer, primary_key=True)
-    parent_id = mapped_column(ForeignKey("solute_library_table.id"))
+    parent_id = mapped_column(ForeignKey("groups_table.id"))  # Link to groups for group data
+    # Abraham solute parameters
+    S = Column(Float)  # S parameter (dipolarity/polarizability)
+    B = Column(Float)  # B parameter (basicity)
+    E = Column(Float)  # E parameter (excess molar refraction)
+    L = Column(Float)  # L parameter (gas-hexadecane partition coefficient)
+    A = Column(Float)  # A parameter (hydrogen bond acidity)
+    V = Column(Float)  # V parameter (McGowan characteristic volume)
+
+class SoluteLibraryData(SCHEMA_BASE):
+    __tablename__ = "solute_library_data_table"
+
+    id = Column(Integer, primary_key=True)
+    parent_id = mapped_column(ForeignKey("solute_library_table.id"))  # Link to solute library
     # Abraham solute parameters
     S = Column(Float)  # S parameter (dipolarity/polarizability)
     B = Column(Float)  # B parameter (basicity)
