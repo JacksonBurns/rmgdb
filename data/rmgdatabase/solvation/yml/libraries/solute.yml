@@ -3,14 +3,45 @@ long_description: |2
 
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
-label: propane
-adjacency_list: CCC
+label: methane
+molecule: C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.345
+  L: -0.323
+  A: 0.0
+  V: 0.2495
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: ethane
+molecule: CC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.492
+  A: 0.0
+  V: 0.3904
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propane
+molecule: CCC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 1.05
+  A: 0.0
+  V: 0.5313
 ---
 short_description: ''
 long_description: |2
@@ -18,13 +49,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-butane
-adjacency_list: CCCC
+molecule: CCCC
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.345
+  L: 1.615
+  A: 0.0
+  V: 0.6722
 ---
 short_description: ''
 long_description: |2
@@ -32,13 +64,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpropane
-adjacency_list: CC(C)C
+molecule: CC(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.243
+  L: 1.409
+  A: 0.0
+  V: 0.6722
 ---
 short_description: ''
 long_description: |2
@@ -46,13 +79,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-pentane
-adjacency_list: CCCCC
+molecule: CCCCC
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.087
+  L: 2.162
+  A: 0.0
+  V: 0.8131
 ---
 short_description: ''
 long_description: |2
@@ -60,13 +94,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylbutane
-adjacency_list: CCC(C)C
+molecule: CCC(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.371
+  L: 2.013
+  A: 0.0
+  V: 0.8131
 ---
 short_description: ''
 long_description: |2
@@ -74,13 +109,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,2-dimethylpropane
-adjacency_list: CC(C)(C)C
+molecule: CC(C)(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.543
+  L: 1.82
+  A: 0.0
+  V: 0.8131
 ---
 short_description: ''
 long_description: |2
@@ -88,13 +124,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-hexane
-adjacency_list: CCCCCC
+molecule: CCCCCC
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.247
+  L: 2.668
+  A: 0.0
+  V: 0.954
 ---
 short_description: ''
 long_description: |2
@@ -102,13 +139,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpentane
-adjacency_list: CCCC(C)C
+molecule: CCCC(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.275
+  L: 2.503
+  A: 0.0
+  V: 0.954
 ---
 short_description: ''
 long_description: |2
@@ -116,13 +154,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylpentane
-adjacency_list: CCC(C)CC
+molecule: CCC(C)CC
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.281
+  L: 2.581
+  A: 0.0
+  V: 0.954
 ---
 short_description: ''
 long_description: |2
@@ -130,13 +169,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,2-dimethylbutane
-adjacency_list: CCC(C)(C)C
+molecule: CCC(C)(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: 0.091
+  L: 2.352
+  A: 0.0
+  V: 0.954
 ---
 short_description: ''
 long_description: |2
@@ -144,13 +184,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,3-dimethylbutane
-adjacency_list: CC(C)C(C)C
+molecule: CC(C)C(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: 0.0825
+  L: 2.495
+  A: 0.0
+  V: 0.954
 ---
 short_description: ''
 long_description: |2
@@ -158,13 +199,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-heptane
-adjacency_list: CCCCCCC
+molecule: CCCCCCC
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: 0.119
+  L: 3.173
+  A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -172,13 +214,29 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylhexane
-adjacency_list: CCCCC(C)C
+molecule: CCCCC(C)C
 solute:
   S: 0.0
   B: 0.0
   E: 0.0
-  L: 0.0
-  A: -0.17
+  L: 3.001
+  A: 0.0
+  V: 1.0949
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: 3-methylhexane
+molecule: CCCC(C)CC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.044
+  A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -186,7 +244,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,2-dimethylpentane
-adjacency_list: CCCC(C)(C)C
+molecule: CCCC(C)(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 2.796
+  A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -194,7 +259,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,3-dimethylpentane
-adjacency_list: CCC(C)C(C)C
+molecule: CCC(C)C(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.016
+  A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -202,13 +274,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,4-dimethylpentane
-adjacency_list: CC(C)CC(C)C
+molecule: CC(C)CC(C)C
 solute:
-  S: 0.0811
-  B: 0.01778
-  E: 0.08002
-  L: 0.37429
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 2.809
   A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -216,7 +289,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3,3-dimethylpentane
-adjacency_list: CCC(C)(C)CC
+molecule: CCC(C)(C)CC
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 2.809
+  A: 0.0
+  V: 1.0949
 ---
 short_description: ''
 long_description: |2
@@ -224,13 +304,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-octane
-adjacency_list: CCCCCCCC
+molecule: CCCCCCCC
 solute:
-  S: 0.07856
-  B: 0.01187
-  E: 0.24563
-  L: 0.75301
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.677
   A: 0.0
+  V: 1.2358
 ---
 short_description: ''
 long_description: |2
@@ -238,13 +319,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylheptane
-adjacency_list: CCCCC(C)CC
+molecule: CCCCC(C)CC
 solute:
-  S: 0.06907
-  B: 0.03191
-  E: 0.30385
-  L: 0.64169
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.51
   A: 0.0
+  V: 1.2358
 ---
 short_description: ''
 long_description: |2
@@ -252,13 +334,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,2,4-trimethylpentane
-adjacency_list: CC(C)CC(C)(C)C
+molecule: CC(C)CC(C)(C)C
 solute:
-  S: 0.06184
-  B: 0.05644
-  E: 0.22728
-  L: 0.45812
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.106
   A: 0.0
+  V: 1.2358
 ---
 short_description: ''
 long_description: |2
@@ -266,7 +349,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,3,4-trimethylpentane
-adjacency_list: CC(C)C(C)C(C)C
+molecule: CC(C)C(C)C(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.481
+  A: 0.0
+  V: 1.2358
 ---
 short_description: ''
 long_description: |2
@@ -274,13 +364,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-nonane
-adjacency_list: CCCCCCCCC
+molecule: CCCCCCCCC
 solute:
-  S: 0.10974
-  B: 0.01468
-  E: 0.11814
-  L: 0.53417
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 4.182
   A: 0.0
+  V: 1.3767
 ---
 short_description: ''
 long_description: |2
@@ -288,7 +379,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,2,5-trimethylhexane
-adjacency_list: CC(C)CCC(C)(C)C
+molecule: CC(C)CCC(C)(C)C
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 3.567
+  A: 0.0
+  V: 1.3767
 ---
 short_description: ''
 long_description: |2
@@ -296,13 +394,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-decane
-adjacency_list: CCCCCCCCCC
+molecule: CCCCCCCCCC
 solute:
-  S: 0.05477
-  B: 0.07566
-  E: 0.13338
-  L: 0.85899
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 4.686
   A: 0.0
+  V: 1.5176
 ---
 short_description: ''
 long_description: |2
@@ -310,13 +409,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclopropane
-adjacency_list: C1CC1
+molecule: C1CC1
 solute:
-  S: 0.06238
-  B: 0.20534
-  E: 0.12145
-  L: 0.72083
+  S: 0.15
+  B: 0.0
+  E: 0.18
+  L: 1.314
   A: 0.0
+  V: 0.4227
 ---
 short_description: ''
 long_description: |2
@@ -324,7 +424,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclopentane
-adjacency_list: C1CCCC1
+molecule: C1CCCC1
+solute:
+  S: 0.1
+  B: 0.0
+  E: 0.263
+  L: 2.477
+  A: 0.0
+  V: 0.7045
 ---
 short_description: ''
 long_description: |2
@@ -332,13 +439,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methylcyclopentane
-adjacency_list: CC1CCCC1
+molecule: CC1CCCC1
 solute:
-  S: 0.08806
-  B: 0.08873
-  E: 0.1174
-  L: 0.77137
+  S: 0.1
+  B: 0.0
+  E: 0.225
+  L: 2.816
   A: 0.0
+  V: 0.8454
 ---
 short_description: ''
 long_description: |2
@@ -346,13 +454,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-propylcyclopentane
-adjacency_list: CCCC1CCCC1
+molecule: CCCC1CCCC1
 solute:
-  S: 0.14959
-  B: 0.01886
-  E: 0.14037
-  L: 0.78052
+  S: 0.1
+  B: 0.225
+  E: 0.0
+  L: 3.803
   A: 0.0
+  V: 1.272
 ---
 short_description: ''
 long_description: |2
@@ -360,7 +469,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclohexane
-adjacency_list: C1CCCCC1
+molecule: C1CCCCC1
+solute:
+  S: 0.1
+  B: 0.0
+  E: 0.305
+  L: 2.964
+  A: 0.0
+  V: 0.8454
 ---
 short_description: ''
 long_description: |2
@@ -368,13 +484,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methylcyclohexane
-adjacency_list: CC1CCCCC1
+molecule: CC1CCCCC1
 solute:
-  S: 0.1768
-  B: 0.03402
-  E: 0.25607
-  L: 0.94701
+  S: 0.1
+  B: 0.0
+  E: 0.244
+  L: 3.323
   A: 0.0
+  V: 0.9863
 ---
 short_description: 'E, L values are the '
 long_description: |2
@@ -382,13 +499,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1,2-dimethylcyclohexane
-adjacency_list: CC1CCCCC1C
+molecule: CC1CCCCC1C
 solute:
-  S: 0.07275
-  B: 0.03881
-  E: 0.30204
-  L: 0.98441
+  S: 0.1
+  B: 0.0
+  E: 0.236
+  L: 3.6665
   A: 0.0
+  V: 1.272
 ---
 short_description: ''
 long_description: |2
@@ -396,13 +514,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethene
-adjacency_list: C=C
+molecule: C=C
 solute:
-  S: 0.10827
-  B: 0.13776
-  E: 0.10492
-  L: 0.53771
+  S: 0.1
+  B: 0.07
+  E: 0.107
+  L: 0.289
   A: 0.0
+  V: 0.3474
 ---
 short_description: ''
 long_description: |2
@@ -410,13 +529,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: propene
-adjacency_list: C=CC
+molecule: C=CC
 solute:
-  S: 0.11593
-  B: 0.01448
-  E: 0.11357
-  L: 0.53224
+  S: 0.08
+  B: 0.07
+  E: 0.103
+  L: 0.946
   A: 0.0
+  V: 0.4883
 ---
 short_description: ''
 long_description: |2
@@ -424,7 +544,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-butene
-adjacency_list: C=CCC
+molecule: C=CCC
+solute:
+  S: 0.08
+  B: 0.07
+  E: 0.1
+  L: 1.491
+  A: 0.0
+  V: 0.6292
 ---
 short_description: ''
 long_description: |2
@@ -432,13 +559,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-pentene
-adjacency_list: C=CCCC
+molecule: C=CCCC
 solute:
-  S: 0.12621
-  B: 0.11692
-  E: 0.21711
-  L: 1.02731
+  S: 0.08
+  B: 0.07
+  E: 0.093
+  L: 2.047
   A: 0.0
+  V: 0.7701
 ---
 short_description: ''
 long_description: |2
@@ -446,13 +574,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-pentene
-adjacency_list: CC=CCC
+molecule: CC=CCC
 solute:
-  S: 0.11872
-  B: 0.11746
-  E: 0.22711
-  L: 0.98327
+  S: 0.08
+  B: 0.07
+  E: 0.141
+  L: 2.211
   A: 0.0
+  V: 0.7701
 ---
 short_description: ''
 long_description: |2
@@ -460,13 +589,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylbut-1-ene
-adjacency_list: C=CC(C)C
+molecule: C=CC(C)C
 solute:
-  S: -0.04532
-  B: 0.03414
-  E: 0.10585
-  L: 0.37962
+  S: 0.08
+  B: 0.07
+  E: 0.063
+  L: 1.91
   A: 0.0
+  V: 0.7701
 ---
 short_description: ''
 long_description: |2
@@ -474,13 +604,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylbut-2-ene
-adjacency_list: CC=C(C)C
+molecule: CC=C(C)C
 solute:
-  S: 0.18304
-  B: 0.14874
-  E: 0.25906
-  L: 0.88577
+  S: 0.08
+  B: 0.07
+  E: 0.159
+  L: 2.226
   A: 0.0
+  V: 0.7701
 ---
 short_description: ''
 long_description: |2
@@ -488,13 +619,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-hexene
-adjacency_list: C=CCCCC
+molecule: C=CCCCC
 solute:
-  S: 0.09953
-  B: -0.03875
-  E: 0.13249
-  L: 0.42484
+  S: 0.08
+  B: 0.07
+  E: 0.078
+  L: 2.572
   A: 0.0
+  V: 0.911
 ---
 short_description: ''
 long_description: |2
@@ -502,13 +634,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpent-1-ene
-adjacency_list: C=C(C)CCC
+molecule: C=C(C)CCC
 solute:
-  S: 0.03915
-  B: 0.02085
-  E: 0.04258
-  L: 0.24081
+  S: 0.08
+  B: 0.07
+  E: 0.09
+  L: 2.588
   A: 0.0
+  V: 0.911
 ---
 short_description: ''
 long_description: |2
@@ -516,7 +649,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-heptene
-adjacency_list: C=CCCCCC
+molecule: C=CCCCCC
+solute:
+  S: 0.08
+  B: 0.07
+  E: 0.092
+  L: 3.063
+  A: 0.0
+  V: 1.0519
 ---
 short_description: ''
 long_description: |2
@@ -524,13 +664,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-octene
-adjacency_list: C=CCCCCCC
+molecule: C=CCCCCCC
 solute:
-  S: 0.06988
-  B: 0.02674
-  E: 0.17229
-  L: 0.40857
+  S: 0.08
+  B: 0.07
+  E: 0.094
+  L: 3.568
   A: 0.0
+  V: 1.1928
 ---
 short_description: ''
 long_description: |2
@@ -538,13 +679,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-nonene
-adjacency_list: C=CCCCCCCC
+molecule: C=CCCCCCCC
 solute:
-  S: 0.07086
-  B: 0.06486
-  E: 0.13979
-  L: 0.71759
+  S: 0.08
+  B: 0.07
+  E: 0.09
+  L: 4.073
   A: 0.0
+  V: 1.3337
 ---
 short_description: ''
 long_description: |2
@@ -552,13 +694,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1,3-butadiene
-adjacency_list: C=CC=C
+molecule: C=CC=C
 solute:
-  S: 0.08305
-  B: 0.09566
-  E: 0.11012
-  L: 0.8421
+  S: 0.23
+  B: 0.1
+  E: 0.32
+  L: 1.543
   A: 0.0
+  V: 0.5862
 ---
 short_description: ''
 long_description: |2
@@ -566,13 +709,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylbuta-1,3-diene
-adjacency_list: C=CC(=C)C
+molecule: C=CC(=C)C
 solute:
-  S: 0.01163
-  B: 0.0754
-  E: 0.09593
-  L: 0.57243
+  S: 0.23
+  B: 0.1
+  E: 0.313
+  L: 2.101
   A: 0.0
+  V: 0.7271
 ---
 short_description: ''
 long_description: |2
@@ -580,13 +724,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,3-dimethylbuta-1,3-diene
-adjacency_list: C=C(C)C(=C)C
+molecule: C=C(C)C(=C)C
 solute:
-  S: -0.02437
-  B: 0.1304
-  E: 0.09298
-  L: 0.90955
+  S: 0.23
+  B: 0.14
+  E: 0.352
+  L: 2.69
   A: 0.0
+  V: 0.868
 ---
 short_description: ''
 long_description: |2
@@ -594,7 +739,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclopentene
-adjacency_list: C1=CCCC1
+molecule: C1=CCCC1
+solute:
+  S: 0.2
+  B: 0.1
+  E: 0.335
+  L: 2.402
+  A: 0.0
+  V: 0.6615
 ---
 short_description: ''
 long_description: |2
@@ -602,13 +754,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclohexene
-adjacency_list: C1=CCCCC1
+molecule: C1=CCCCC1
 solute:
-  S: 0.04055
-  B: 0.01613
-  E: 0.12083
-  L: 0.54122
+  S: 0.2
+  B: 0.1
+  E: 0.395
+  L: 3.021
   A: 0.0
+  V: 0.8024
 ---
 short_description: ''
 long_description: |2
@@ -616,13 +769,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1-methylcyclohexene
-adjacency_list: CC1=CCCCC1
+molecule: CC1=CCCCC1
 solute:
-  S: -0.1248
-  B: 0.00772
-  E: 0.11354
-  L: 0.34015
+  S: 0.2
+  B: 0.1
+  E: 0.391
+  L: 3.483
   A: 0.0
+  V: 0.9433
 ---
 short_description: ''
 long_description: |2
@@ -630,13 +784,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclohepta-1,3,5-triene
-adjacency_list: C1=CC=CCC=C1
+molecule: C1=CC=CCC=C1
 solute:
-  S: 0.07357
-  B: 0.06763
-  E: 0.12021
-  L: 0.75313
+  S: 0.46
+  B: 0.18
+  E: 0.764
+  L: 3.442
   A: 0.0
+  V: 0.8573
 ---
 short_description: ''
 long_description: |2
@@ -644,13 +799,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: propyne
-adjacency_list: C#CC
+molecule: C#CC
 solute:
-  S: -0.07287
-  B: 0.14192
-  E: 0.10959
-  L: 0.4707
-  A: 0.0
+  S: 0.25
+  B: 0.15
+  E: 0.183
+  L: 1.025
+  A: 0.13
+  V: 0.4453
 ---
 short_description: ''
 long_description: |2
@@ -658,13 +814,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: but-1-yne
-adjacency_list: C#CCC
+molecule: C#CCC
 solute:
-  S: 0.19617
-  B: 0.00422
-  E: 0.07767
-  L: 0.7068
-  A: 0.0
+  S: 0.23
+  B: 0.15
+  E: 0.178
+  L: 1.52
+  A: 0.13
+  V: 0.5862
 ---
 short_description: ''
 long_description: |2
@@ -672,7 +829,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pent-1-yne
-adjacency_list: C#CCCC
+molecule: C#CCCC
+solute:
+  S: 0.23
+  B: 0.1
+  E: 0.172
+  L: 2.01
+  A: 0.13
+  V: 0.7271
 ---
 short_description: ''
 long_description: |2
@@ -680,13 +844,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hex-1-yne
-adjacency_list: C#CCCCC
+molecule: C#CCCCC
 solute:
-  S: 0.00563
-  B: 0.01953
-  E: 0.07725
-  L: 0.26644
-  A: 0.0
+  S: 0.23
+  B: 0.1
+  E: 0.166
+  L: 2.51
+  A: 0.13
+  V: 0.868
 ---
 short_description: ''
 long_description: |2
@@ -694,13 +859,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hept-1-yne
-adjacency_list: C#CCCCCC
+molecule: C#CCCCCC
 solute:
-  S: 0.11598
-  B: 0.00278
-  E: 0.04079
-  L: 0.23385
-  A: 0.0
+  S: 0.23
+  B: 0.1
+  E: 0.16
+  L: 3.0
+  A: 0.13
+  V: 1.0089
 ---
 short_description: ''
 long_description: |2
@@ -708,7 +874,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: oct-1-yne
-adjacency_list: C#CCCCCCC
+molecule: C#CCCCCCC
+solute:
+  S: 0.23
+  B: 0.1
+  E: 0.155
+  L: 3.521
+  A: 0.13
+  V: 1.1498
 ---
 short_description: ''
 long_description: |2
@@ -716,13 +889,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: diethylether
-adjacency_list: CCOCC
+molecule: CCOCC
 solute:
-  S: -0.02836
-  B: 0.0517
-  E: 0.00114
-  L: 0.24359
+  S: 0.25
+  B: 0.45
+  E: 0.041
+  L: 2.015
   A: 0.0
+  V: 0.7309
 ---
 short_description: ''
 long_description: |2
@@ -730,7 +904,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: di-n-propyl ether
-adjacency_list: CCCOCCC
+molecule: CCCOCCC
+solute:
+  S: 0.25
+  B: 0.45
+  E: 0.008
+  L: 2.954
+  A: 0.0
+  V: 1.0127
 ---
 short_description: ''
 long_description: |2
@@ -738,13 +919,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: diisopropyl ether
-adjacency_list: CC(C)OC(C)C
+molecule: CC(C)OC(C)C
 solute:
-  S: 0.06822
-  B: 0.03635
-  E: 0.11788
-  L: 0.46689
+  S: 0.19
+  B: 0.45
+  E: 0.0
+  L: 2.482
   A: 0.0
+  V: 1.0127
 ---
 short_description: ''
 long_description: |2
@@ -752,13 +934,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: di-n-butyl ether
-adjacency_list: CCCCOCCCC
+molecule: CCCCOCCCC
 solute:
-  S: 0.16979
-  B: 0.05857
-  E: 0.09432
-  L: 0.51536
-  A: 0.08872
+  S: 0.25
+  B: 0.45
+  E: 0.0
+  L: 3.924
+  A: 0.0
+  V: 1.2945
 ---
 short_description: ''
 long_description: |2
@@ -766,7 +949,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: tetrahydrofuran
-adjacency_list: C1CCOC1
+molecule: C1CCOC1
+solute:
+  S: 0.52
+  B: 0.48
+  E: 0.289
+  L: 2.636
+  A: 0.0
+  V: 0.6223
 ---
 short_description: ''
 long_description: |2
@@ -774,13 +964,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methyltetrahydrofuran
-adjacency_list: CC1CCCO1
+molecule: CC1CCCO1
 solute:
-  S: 0.02528
-  B: 0.01601
-  E: -0.00086
-  L: -0.00928
+  S: 0.48
+  B: 0.53
+  E: 0.241
+  L: 2.82
   A: 0.0
+  V: 0.7632
 ---
 short_description: ''
 long_description: |2
@@ -788,7 +979,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2,5-dimethyltetrahydrofuran
-adjacency_list: CC1CCC(C)O1
+molecule: CC1CCC(C)O1
+solute:
+  S: 0.38
+  B: 0.58
+  E: 0.204
+  L: 2.98
+  A: 0.0
+  V: 0.9041
 ---
 short_description: ''
 long_description: |2
@@ -796,13 +994,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: tetrahydropyran
-adjacency_list: C1CCOCC1
+molecule: C1CCOCC1
 solute:
-  S: 0.11598
-  B: 0.00278
-  E: 0.04079
-  L: 0.23385
+  S: 0.47
+  B: 0.55
+  E: 0.275
+  L: 3.057
   A: 0.0
+  V: 0.8288
 ---
 short_description: ''
 long_description: |2
@@ -810,13 +1009,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 1,4-dioxane
-adjacency_list: C1COCCO1
+molecule: C1COCCO1
 solute:
-  S: 0.20222
-  B: 0.09272
-  E: -0.00212
-  L: 0.26366
+  S: 0.75
+  B: 0.64
+  E: 0.329
+  L: 2.892
   A: 0.0
+  V: 0.681
 ---
 short_description: ''
 long_description: |2
@@ -824,13 +1024,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: formaldehyde
-adjacency_list: C=O
+molecule: C=O
 solute:
-  S: -0.01538
-  B: 0.02984
-  E: 0.03048
-  L: 0.05675
+  S: 0.7
+  B: 0.33
+  E: 0.22
+  L: 0.73
   A: 0.0
+  V: 0.2652
 ---
 short_description: ''
 long_description: |2
@@ -838,7 +1039,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: acetaldehyde
-adjacency_list: CC=O
+molecule: CC=O
+solute:
+  S: 0.67
+  B: 0.45
+  E: 0.208
+  L: 1.23
+  A: 0.0
+  V: 0.4061
 ---
 short_description: ''
 long_description: |2
@@ -846,13 +1054,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: propionaldehyde
-adjacency_list: CCC=O
+molecule: CCC=O
 solute:
-  S: 0.06988
-  B: -0.05615
-  E: -0.00092
-  L: -0.04818
+  S: 0.65
+  B: 0.45
+  E: 0.196
+  L: 1.815
   A: 0.0
+  V: 0.547
 ---
 short_description: ''
 long_description: |2
@@ -860,7 +1069,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: butyraldehyde
-adjacency_list: CCCC=O
+molecule: CCCC=O
+solute:
+  S: 0.65
+  B: 0.45
+  E: 0.187
+  L: 2.27
+  A: 0.0
+  V: 0.6879
 ---
 short_description: ''
 long_description: |2
@@ -868,13 +1084,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isobutyraldehyde
-adjacency_list: CC(C)C=O
+molecule: CC(C)C=O
 solute:
-  S: 0.15051
-  B: 0.12324
-  E: 0.1175
-  L: 0.95445
+  S: 0.62
+  B: 0.45
+  E: 0.144
+  L: 2.12
   A: 0.0
+  V: 0.6879
 ---
 short_description: ''
 long_description: |2
@@ -882,7 +1099,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentanal
-adjacency_list: CCCCC=O
+molecule: CCCCC=O
+solute:
+  S: 0.65
+  B: 0.45
+  E: 0.163
+  L: 2.851
+  A: 0.0
+  V: 0.8288
 ---
 short_description: ''
 long_description: |2
@@ -890,13 +1114,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hexanal
-adjacency_list: CCCCCC=O
+molecule: CCCCCC=O
 solute:
-  S: 0.03378
-  B: 0.03713
-  E: 0.04079
-  L: 0.18477
+  S: 0.65
+  B: 0.45
+  E: 0.146
+  L: 3.357
   A: 0.0
+  V: 0.9697
 ---
 short_description: ''
 long_description: |2
@@ -904,7 +1129,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: heptanal
-adjacency_list: CCCCCCC=O
+molecule: CCCCCCC=O
+solute:
+  S: 0.65
+  B: 0.45
+  E: 0.14
+  L: 3.865
+  A: 0.0
+  V: 1.1106
 ---
 short_description: ''
 long_description: |2
@@ -912,13 +1144,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: octanal
-adjacency_list: CCCCCCCC=O
+molecule: CCCCCCCC=O
 solute:
-  S: 0.05273
-  B: 0.01072
-  E: 0.09964
-  L: 0.45881
+  S: 0.65
+  B: 0.45
+  E: 0.16
+  L: 4.361
   A: 0.0
+  V: 1.2515
 ---
 short_description: ''
 long_description: |2
@@ -926,7 +1159,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: nonanal
-adjacency_list: CCCCCCCCC=O
+molecule: CCCCCCCCC=O
+solute:
+  S: 0.65
+  B: 0.45
+  E: 0.15
+  L: 4.856
+  A: 0.0
+  V: 1.3924
 ---
 short_description: ''
 long_description: |2
@@ -934,13 +1174,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: but-2-enal
-adjacency_list: CC=CC=O
+molecule: CC=CC=O
 solute:
-  S: 0.02917
-  B: 0.0151
-  E: 0.07612
-  L: 0.29643
-  A: -0.00186
+  S: 0.8
+  B: 0.49
+  E: 0.387
+  L: 2.57
+  A: 0.0
+  V: 0.6449
 ---
 short_description: ''
 long_description: |2
@@ -948,13 +1189,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hex-2-enal
-adjacency_list: CCCC=CC=O
+molecule: CCCC=CC=O
 solute:
-  S: 0.00563
-  B: 0.01953
-  E: 0.07725
-  L: 0.26644
+  S: 0.8
+  B: 0.45
+  E: 0.404
+  L: 3.4
   A: 0.0
+  V: 0.786
 ---
 short_description: ''
 long_description: |2
@@ -962,7 +1204,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: propanone
-adjacency_list: CC(C)=O
+molecule: CC(C)=O
+solute:
+  S: 0.7
+  B: 0.51
+  E: 0.179
+  L: 1.696
+  A: 0.04
+  V: 0.547
 ---
 short_description: ''
 long_description: |2
@@ -970,7 +1219,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: butanone
-adjacency_list: CCC(C)=O
+molecule: CCC(C)=O
+solute:
+  S: 0.7
+  B: 0.51
+  E: 0.166
+  L: 2.287
+  A: 0.0
+  V: 0.6879
 ---
 short_description: ''
 long_description: |2
@@ -978,13 +1234,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentan-2-one
-adjacency_list: CCCC(C)=O
+molecule: CCCC(C)=O
 solute:
-  S: 0.05704
-  B: 0.02777
-  E: 0.08002
-  L: 0.54157
+  S: 0.68
+  B: 0.51
+  E: 0.143
+  L: 2.755
   A: 0.0
+  V: 0.8288
 ---
 short_description: ''
 long_description: |2
@@ -992,13 +1249,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentan-3-one
-adjacency_list: CCC(=O)CC
+molecule: CCC(=O)CC
 solute:
-  S: 0.16925
-  B: 0.04807
-  E: 0.06879
-  L: 0.50992
+  S: 0.66
+  B: 0.51
+  E: 0.154
+  L: 2.811
   A: 0.0
+  V: 0.8288
 ---
 short_description: ''
 long_description: |2
@@ -1006,7 +1264,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylbutan-2-one
-adjacency_list: CC(=O)C(C)C
+molecule: CC(=O)C(C)C
+solute:
+  S: 0.65
+  B: 0.51
+  E: 0.134
+  L: 2.692
+  A: 0.0
+  V: 0.8288
 ---
 short_description: ''
 long_description: |2
@@ -1014,13 +1279,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hexan-2-one
-adjacency_list: CCCCC(C)=O
+molecule: CCCCC(C)=O
 solute:
-  S: 0.03743
-  B: -0.02447
-  E: 0.08017
-  L: 0.23881
+  S: 0.68
+  B: 0.51
+  E: 0.136
+  L: 3.262
   A: 0.0
+  V: 0.9676
 ---
 short_description: ''
 long_description: |2
@@ -1028,7 +1294,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 4-methylpentan-2-one
-adjacency_list: CC(=O)CC(C)C
+molecule: CC(=O)CC(C)C
+solute:
+  S: 0.65
+  B: 0.51
+  E: 0.111
+  L: 3.089
+  A: 0.0
+  V: 0.9676
 ---
 short_description: ''
 long_description: |2
@@ -1036,7 +1309,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: heptan-2-one
-adjacency_list: CCCCCC(C)=O
+molecule: CCCCCC(C)=O
+solute:
+  S: 0.68
+  B: 0.51
+  E: 0.123
+  L: 3.76
+  A: 0.0
+  V: 1.1106
 ---
 short_description: ''
 long_description: |2
@@ -1044,7 +1324,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: heptan-4-one
-adjacency_list: CCCC(=O)CCC
+molecule: CCCC(=O)CCC
+solute:
+  S: 0.66
+  B: 0.51
+  E: 0.113
+  L: 3.705
+  A: 0.0
+  V: 1.1106
 ---
 short_description: ''
 long_description: |2
@@ -1052,7 +1339,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: octan-2-one
-adjacency_list: CCCCCCC(C)=O
+molecule: CCCCCCC(C)=O
+solute:
+  S: 0.68
+  B: 0.51
+  E: 0.108
+  L: 4.257
+  A: 0.0
+  V: 1.2515
 ---
 short_description: ''
 long_description: |2
@@ -1060,13 +1354,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: nonan-2-one
-adjacency_list: CCCCCCCC(C)=O
+molecule: CCCCCCCC(C)=O
 solute:
-  S: 0.06281
-  B: 0.10749
-  E: 0.0724
-  L: 0.44045
+  S: 0.68
+  B: 0.51
+  E: 0.119
+  L: 4.735
   A: 0.0
+  V: 1.3924
 ---
 short_description: ''
 long_description: |2
@@ -1074,7 +1369,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: nonan-5-one
-adjacency_list: CCCCC(=O)CCCC
+molecule: CCCCC(=O)CCCC
+solute:
+  S: 0.66
+  B: 0.51
+  E: 0.103
+  L: 4.698
+  A: 0.0
+  V: 1.3924
 ---
 short_description: ''
 long_description: |2
@@ -1082,13 +1384,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: decan-2-one
-adjacency_list: CCCCCCCCC(C)=O
+molecule: CCCCCCCCC(C)=O
 solute:
-  S: 0.07519
-  B: 0.02264
-  E: 0.03618
-  L: 0.02914
-  A: 0.01906
+  S: 0.68
+  B: 0.51
+  E: 0.108
+  L: 5.245
+  A: 0.0
+  V: 1.5333
 ---
 short_description: ''
 long_description: |2
@@ -1096,13 +1399,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: undecan-2-one
-adjacency_list: CCCCCCCCCC(C)=O
+molecule: CCCCCCCCCC(C)=O
 solute:
-  S: 0.00408
-  B: 0.04293
-  E: 0.0292
-  L: 0.13768
-  A: 0.01839
+  S: 0.68
+  B: 0.51
+  E: 0.101
+  L: 5.732
+  A: 0.0
+  V: 1.6742
 ---
 short_description: ''
 long_description: |2
@@ -1110,13 +1414,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclopentanone
-adjacency_list: O=C1CCCC1
+molecule: O=C1CCCC1
 solute:
-  S: -0.06084
-  B: 0.12192
-  E: 0.0175
-  L: -0.00533
+  S: 0.86
+  B: 0.52
+  E: 0.373
+  L: 3.221
   A: 0.0
+  V: 0.7202
 ---
 short_description: ''
 long_description: |2
@@ -1124,7 +1429,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: cyclohexanone
-adjacency_list: O=C1CCCCC1
+molecule: O=C1CCCCC1
+solute:
+  S: 0.86
+  B: 0.56
+  E: 0.403
+  L: 3.792
+  A: 0.0
+  V: 0.8611
 ---
 short_description: ''
 long_description: |2
@@ -1132,13 +1444,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl formate
-adjacency_list: COC=O
+molecule: COC=O
 solute:
-  S: -0.0305
-  B: -0.02876
-  E: -0.0308
-  L: -0.13201
+  S: 0.68
+  B: 0.38
+  E: 0.192
+  L: 1.285
   A: 0.0
+  V: 0.4648
 ---
 short_description: ''
 long_description: |2
@@ -1146,13 +1459,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl formate
-adjacency_list: CCOC=O
+molecule: CCOC=O
 solute:
-  S: 0.12285
-  B: 0.08867
-  E: 0.08413
-  L: 0.40012
-  A: 0.09053
+  S: 0.66
+  B: 0.38
+  E: 0.146
+  L: 1.845
+  A: 0.0
+  V: 0.6057
 ---
 short_description: ''
 long_description: |2
@@ -1160,13 +1474,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-propyl formate
-adjacency_list: CCCOC=O
+molecule: CCCOC=O
 solute:
-  S: 0.19227
-  B: 0.0896
-  E: 0.0014
-  L: 0.33521
-  A: 0.05293
+  S: 0.63
+  B: 0.56
+  E: 0.132
+  L: 2.433
+  A: 0.0
+  V: 0.7466
 ---
 short_description: ''
 long_description: |2
@@ -1174,13 +1489,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isopropyl formate
-adjacency_list: CC(C)OC=O
+molecule: CC(C)OC=O
 solute:
-  S: 0.13994
-  B: 0.04639
-  E: 0.0055
-  L: 0.3809
+  S: 0.6
+  B: 0.4
+  E: 0.091
+  L: 2.23
   A: 0.0
+  V: 0.7466
 ---
 short_description: ''
 long_description: |2
@@ -1188,13 +1504,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isobutyl formate
-adjacency_list: CC(C)COC=O
+molecule: CC(C)COC=O
 solute:
-  S: -0.09423
-  B: 0.04519
-  E: 0.05442
-  L: 0.13761
-  A: 0.05485
+  S: 0.6
+  B: 0.4
+  E: 0.095
+  L: 2.789
+  A: 0.0
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1202,13 +1519,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isoamyl formate
-adjacency_list: CC(C)CCOC=O
+molecule: CC(C)CCOC=O
 solute:
-  S: -0.08133
-  B: 0.09407
-  E: 0.00996
-  L: 0.03761
+  S: 0.6
+  B: 0.4
+  E: 0.092
+  L: 3.306
   A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1216,13 +1534,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl acetate
-adjacency_list: COC(C)=O
+molecule: COC(C)=O
 solute:
-  S: -0.02549
-  B: 0.03455
-  E: 0.07157
-  L: 0.2347
+  S: 0.64
+  B: 0.45
+  E: 0.142
+  L: 1.911
   A: 0.0
+  V: 0.6057
 ---
 short_description: ''
 long_description: |2
@@ -1230,7 +1549,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl acetate
-adjacency_list: CCOC(C)=O
+molecule: CCOC(C)=O
+solute:
+  S: 0.62
+  B: 0.45
+  E: 0.106
+  L: 2.314
+  A: 0.0
+  V: 0.7466
 ---
 short_description: ''
 long_description: |2
@@ -1238,13 +1564,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-propyl acetate
-adjacency_list: CCCOC(C)=O
+molecule: CCCOC(C)=O
 solute:
-  S: 0.02795
-  B: 0.05094
-  E: 0.03857
-  L: 0.13208
-  A: 0.00452
+  S: 0.6
+  B: 0.4
+  E: 0.092
+  L: 2.819
+  A: 0.0
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1252,13 +1579,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isopropyl acetate
-adjacency_list: CC(=O)OC(C)C
+molecule: CC(=O)OC(C)C
 solute:
-  S: 0.32063
-  B: 0.0034
-  E: 0.05844
-  L: 0.24039
+  S: 0.57
+  B: 0.47
+  E: 0.055
+  L: 2.546
   A: 0.0
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1266,7 +1594,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-butyl acetate
-adjacency_list: CCCCOC(C)=O
+molecule: CCCCOC(C)=O
+solute:
+  S: 0.6
+  B: 0.45
+  E: 0.071
+  L: 3.353
+  A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1274,7 +1609,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isobutyl acetate
-adjacency_list: CC(=O)OCC(C)C
+molecule: CC(=O)OCC(C)C
+solute:
+  S: 0.57
+  B: 0.47
+  E: 0.052
+  L: 3.161
+  A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1282,13 +1624,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-pentyl acetate
-adjacency_list: CCCCCOC(C)=O
+molecule: CCCCCOC(C)=O
 solute:
-  S: -0.05725
-  B: 0.01418
-  E: 0.02108
-  L: 0.11667
+  S: 0.6
+  B: 0.45
+  E: 0.067
+  L: 3.844
   A: 0.0
+  V: 1.1693
 ---
 short_description: ''
 long_description: |2
@@ -1296,13 +1639,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isoamyl acetate
-adjacency_list: CC(=O)OCCC(C)C
+molecule: CC(=O)OCCC(C)C
 solute:
-  S: 0.00217
-  B: -0.03735
-  E: -0.03977
-  L: 0.22237
+  S: 0.57
+  B: 0.47
+  E: 0.051
+  L: 3.74
   A: 0.0
+  V: 1.1693
 ---
 short_description: ''
 long_description: |2
@@ -1310,13 +1654,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-hexyl acetate
-adjacency_list: CCCCCCOC(C)=O
+molecule: CCCCCCOC(C)=O
 solute:
-  S: -0.14401
-  B: -0.1385
-  E: 0.03368
-  L: -0.14794
+  S: 0.6
+  B: 0.45
+  E: 0.056
+  L: 4.351
   A: 0.0
+  V: 1.3102
 ---
 short_description: ''
 long_description: |2
@@ -1324,7 +1669,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl propanoate
-adjacency_list: CCC(=O)OC
+molecule: CCC(=O)OC
+solute:
+  S: 0.6
+  B: 0.45
+  E: 0.128
+  L: 2.431
+  A: 0.0
+  V: 0.7466
 ---
 short_description: ''
 long_description: |2
@@ -1332,13 +1684,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl propanoate
-adjacency_list: CCOC(=O)CC
+molecule: CCOC(=O)CC
 solute:
-  S: 0.06347
-  B: 0.03769
-  E: 0.11461
-  L: 0.37581
-  A: 0.01779
+  S: 0.58
+  B: 0.45
+  E: 0.087
+  L: 2.807
+  A: 0.0
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1346,7 +1699,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-propyl propanoate
-adjacency_list: CCCOC(=O)CC
+molecule: CCCOC(=O)CC
+solute:
+  S: 0.56
+  B: 0.45
+  E: 0.07
+  L: 3.338
+  A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1354,13 +1714,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-pentyl propanoate
-adjacency_list: CCCCCOC(=O)CC
+molecule: CCCCCOC(=O)CC
 solute:
-  S: -0.08418
-  B: -0.00225
-  E: 0.01188
-  L: -0.05354
+  S: 0.56
+  B: 0.45
+  E: 0.05
+  L: 4.331
   A: 0.0
+  V: 1.3102
 ---
 short_description: ''
 long_description: |2
@@ -1368,13 +1729,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl butanoate
-adjacency_list: CCCC(=O)OC
+molecule: CCCC(=O)OC
 solute:
-  S: 0.10967
-  B: -0.04988
-  E: 0.05205
-  L: 0.28493
-  A: 0.05565
+  S: 0.6
+  B: 0.45
+  E: 0.106
+  L: 2.893
+  A: 0.0
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1382,13 +1744,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl butanoate
-adjacency_list: CCCC(=O)OCC
+molecule: CCCC(=O)OCC
 solute:
-  S: -0.03357
-  B: 0.01532
-  E: -0.03313
-  L: -0.07412
-  A: -0.01274
+  S: 0.58
+  B: 0.45
+  E: 0.068
+  L: 3.271
+  A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1396,13 +1759,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: n-propyl butanoate
-adjacency_list: CCCOC(=O)CCC
+molecule: CCCOC(=O)CCC
 solute:
-  S: -0.0335
-  B: -0.08006
-  E: -0.00704
-  L: -0.07948
+  S: 0.56
+  B: 0.45
+  E: 0.05
+  L: 3.783
   A: 0.0
+  V: 1.1693
 ---
 short_description: ''
 long_description: |2
@@ -1410,13 +1774,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl pentanoate
-adjacency_list: CCCCC(=O)OC
+molecule: CCCCC(=O)OC
 solute:
-  S: -0.02841
-  B: 0.02223
-  E: 0.08891
-  L: 0.22034
+  S: 0.6
+  B: 0.45
+  E: 0.108
+  L: 3.392
   A: 0.0
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1424,13 +1789,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl pentanoate
-adjacency_list: CCCCC(=O)OCC
+molecule: CCCCC(=O)OCC
 solute:
-  S: 0.02503
-  B: 0.02072
-  E: -0.0181
-  L: -0.29483
+  S: 0.58
+  B: 0.45
+  E: 0.049
+  L: 3.769
   A: 0.0
+  V: 1.1693
 ---
 short_description: ''
 long_description: |2
@@ -1438,13 +1804,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methyl hexanoate
-adjacency_list: CCCCCC(=O)OC
+molecule: CCCCCC(=O)OC
 solute:
-  S: 0.01559
-  B: 0.03222
-  E: -0.01775
-  L: -0.13747
+  S: 0.6
+  B: 0.45
+  E: 0.08
+  L: 3.874
   A: 0.0
+  V: 1.1693
 ---
 short_description: ''
 long_description: |2
@@ -1452,7 +1819,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethyl hexanoate
-adjacency_list: CCCCCC(=O)OCC
+molecule: CCCCCC(=O)OCC
+solute:
+  S: 0.58
+  B: 0.45
+  E: 0.043
+  L: 4.251
+  A: 0.0
+  V: 1.3102
 ---
 short_description: ''
 long_description: |2
@@ -1460,13 +1834,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: isobutyl isobutanoate
-adjacency_list: CC(C)COC(=O)C(C)C
+molecule: CC(C)COC(=O)C(C)C
 solute:
-  S: 0.02704
-  B: 0.03807
-  E: 0.04191
-  L: 0.11996
+  S: 0.5
+  B: 0.47
+  E: 0.0
+  L: 3.885
   A: 0.0
+  V: 1.3102
 ---
 short_description: ''
 long_description: |2
@@ -1474,7 +1849,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: acetic acid
-adjacency_list: CC(=O)O
+molecule: CC(=O)O
+solute:
+  S: 0.65
+  B: 0.45
+  E: 0.265
+  L: 1.75
+  A: 0.61
+  V: 0.4648
 ---
 short_description: ''
 long_description: |2
@@ -1482,13 +1864,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: propanoic acid
-adjacency_list: CCC(=O)O
+molecule: CCC(=O)O
 solute:
-  S: 0.04357
-  B: 0.0489
-  E: 0.00355
-  L: -0.18553
-  A: 0.0
+  S: 0.65
+  B: 0.45
+  E: 0.233
+  L: 2.29
+  A: 0.6
+  V: 0.6057
 ---
 short_description: ''
 long_description: |2
@@ -1496,7 +1879,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: butanoic acid
-adjacency_list: CCCC(=O)O
+molecule: CCCC(=O)O
+solute:
+  S: 0.62
+  B: 0.45
+  E: 0.21
+  L: 2.83
+  A: 0.6
+  V: 0.7466
 ---
 short_description: ''
 long_description: |2
@@ -1504,13 +1894,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentanoic acid
-adjacency_list: CCCCC(=O)O
+molecule: CCCCC(=O)O
 solute:
-  S: -0.01962
-  B: -0.00898
-  E: 0.00618
-  L: -0.32615
-  A: 0.0
+  S: 0.6
+  B: 0.45
+  E: 0.205
+  L: 3.38
+  A: 0.6
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1518,7 +1909,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylbutanoic acid
-adjacency_list: CC(C)CC(=O)O
+molecule: CC(C)CC(=O)O
+solute:
+  S: 0.57
+  B: 0.5
+  E: 0.178
+  L: 3.14
+  A: 0.6
+  V: 0.8875
 ---
 short_description: ''
 long_description: |2
@@ -1526,13 +1924,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hexanoic acid
-adjacency_list: CCCCCC(=O)O
+molecule: CCCCCC(=O)O
 solute:
-  S: 0.22078
-  B: 0.01338
-  E: 0.0692
-  L: 0.08112
-  A: 0.0
+  S: 0.6
+  B: 0.45
+  E: 0.174
+  L: 3.92
+  A: 0.6
+  V: 1.0284
 ---
 short_description: ''
 long_description: |2
@@ -1540,7 +1939,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: water
-adjacency_list: O
+molecule: O
+solute:
+  S: 0.45
+  B: 0.35
+  E: 0.0
+  L: 0.26
+  A: 0.82
+  V: 0.1673
 ---
 short_description: ''
 long_description: |2
@@ -1548,13 +1954,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: methanol
-adjacency_list: CO
+molecule: CO
 solute:
-  S: 0.02798
-  B: 0.00501
-  E: 0.01823
-  L: -0.01933
-  A: 0.00026
+  S: 0.44
+  B: 0.47
+  E: 0.278
+  L: 0.97
+  A: 0.43
+  V: 0.3082
 ---
 short_description: ''
 long_description: |2
@@ -1562,13 +1969,44 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: ethanol
-adjacency_list: CCO
+molecule: CCO
 solute:
-  S: 0.07491
-  B: -0.03993
-  E: 0.05398
-  L: -0.21798
-  A: 0.0
+  S: 0.42
+  B: 0.48
+  E: 0.246
+  L: 1.485
+  A: 0.37
+  V: 0.4491
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propan-1-ol
+molecule: CCCO
+solute:
+  S: 0.42
+  B: 0.48
+  E: 0.236
+  L: 2.031
+  A: 0.37
+  V: 0.59
+---
+short_description: ''
+long_description: |2
+
+  From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
+  DOI: 10.1039/P29940001777
+label: propan-2-ol
+molecule: CC(C)O
+solute:
+  S: 0.36
+  B: 0.56
+  E: 0.212
+  L: 1.764
+  A: 0.33
+  V: 0.59
 ---
 short_description: ''
 long_description: |2
@@ -1576,13 +2014,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: butan-1-ol
-adjacency_list: CCCCO
+molecule: CCCCO
 solute:
-  S: -0.00496
-  B: 0.04553
-  E: 0.00847
-  L: -0.06074
-  A: 0.03725
+  S: 0.42
+  B: 0.48
+  E: 0.224
+  L: 2.601
+  A: 0.37
+  V: 0.7309
 ---
 short_description: ''
 long_description: |2
@@ -1590,7 +2029,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpropan-1-ol
-adjacency_list: CC(C)CO
+molecule: CC(C)CO
+solute:
+  S: 0.39
+  B: 0.48
+  E: 0.217
+  L: 2.413
+  A: 0.37
+  V: 0.7309
 ---
 short_description: ''
 long_description: |2
@@ -1598,13 +2044,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: butan-2-ol
-adjacency_list: CCC(C)O
+molecule: CCC(C)O
 solute:
-  S: 0.00581
-  B: 0.03213
-  E: 0.02256
-  L: 0.2041
-  A: 0.0
+  S: 0.36
+  B: 0.56
+  E: 0.217
+  L: 2.338
+  A: 0.33
+  V: 0.7309
 ---
 short_description: ''
 long_description: |2
@@ -1612,7 +2059,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpropan-2-ol
-adjacency_list: CC(C)(C)O
+molecule: CC(C)(C)O
+solute:
+  S: 0.3
+  B: 0.6
+  E: 0.18
+  L: 1.963
+  A: 0.31
+  V: 0.7309
 ---
 short_description: ''
 long_description: |2
@@ -1620,13 +2074,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentan-1-ol
-adjacency_list: CCCCCO
+molecule: CCCCCO
 solute:
-  S: 0.01149
-  B: 0.03832
-  E: -0.02591
-  L: 0.01317
-  A: 0.11724
+  S: 0.42
+  B: 0.48
+  E: 0.219
+  L: 3.106
+  A: 0.37
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1634,7 +2089,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentan-2-ol
-adjacency_list: CCCC(C)O
+molecule: CCCC(C)O
+solute:
+  S: 0.36
+  B: 0.56
+  E: 0.195
+  L: 3.106
+  A: 0.33
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1642,13 +2104,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: pentan-3-ol
-adjacency_list: CCC(O)CC
+molecule: CCC(O)CC
 solute:
-  S: 0.07834
-  B: -0.06728
-  E: 0.01477
-  L: -0.04321
-  A: 0.03969
+  S: 0.36
+  B: 0.56
+  E: 0.218
+  L: 2.84
+  A: 0.33
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1656,13 +2119,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylbutan-1-ol
-adjacency_list: CCC(C)CO
+molecule: CCC(C)CO
 solute:
-  S: -0.08075
-  B: -0.02867
-  E: -0.00374
-  L: -0.06622
-  A: 0.03418
+  S: 0.39
+  B: 0.48
+  E: 0.219
+  L: 3.011
+  A: 0.37
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1670,13 +2134,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 3-methylbutan-1-ol
-adjacency_list: CC(C)CCO
+molecule: CC(C)CCO
 solute:
-  S: 0.004
-  B: 0.0094
-  E: 0.05806
-  L: 0.06004
-  A: 0.00477
+  S: 0.39
+  B: 0.48
+  E: 0.192
+  L: 2.86
+  A: 0.37
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1684,13 +2149,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylbutan-2-ol
-adjacency_list: CCC(C)(C)O
+molecule: CCC(C)(C)O
 solute:
-  S: 0.09564
-  B: 0.06623
-  E: 0.01328
-  L: 0.08165
-  A: 0.02479
+  S: 0.3
+  B: 0.6
+  E: 0.194
+  L: 2.63
+  A: 0.31
+  V: 0.8718
 ---
 short_description: ''
 long_description: |2
@@ -1698,13 +2164,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hexan-1-ol
-adjacency_list: CCCCCCO
+molecule: CCCCCCO
 solute:
-  S: -0.00562
-  B: -0.07988
-  E: -0.03377
-  L: -0.09524
-  A: 0.09476
+  S: 0.42
+  B: 0.48
+  E: 0.21
+  L: 3.61
+  A: 0.37
+  V: 1.0127
 ---
 short_description: ''
 long_description: |2
@@ -1712,13 +2179,14 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: hexan-3-ol
-adjacency_list: CCCC(O)CC
+molecule: CCCC(O)CC
 solute:
-  S: -0.12167
-  B: 0.02031
-  E: -0.08476
-  L: -0.16654
-  A: 0.0
+  S: 0.36
+  B: 0.56
+  E: 0.2
+  L: 3.343
+  A: 0.33
+  V: 1.0127
 ---
 short_description: ''
 long_description: |2
@@ -1726,46 +2194,56 @@ long_description: |2
   From Abarahm et al., J. Chem. Soc., Perkin Trans. 2, 1994, 1777-1791,
   DOI: 10.1039/P29940001777
 label: 2-methylpentan-2-ol
-adjacency_list: CCCC(C)(C)O
+molecule: CCCC(C)(C)O
 solute:
-  S: 0.36542
-  B: 0.05361
-  E: -0.01988
-  L: 0.81639
-  A: 0.0
+  S: 0.3
+  B: 0.6
+  E: 0.169
+  L: 3.081
+  A: 0.31
+  V: 1.0127
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: Ar
-adjacency_list: '[Ar]'
+molecule: '[Ar]'
 solute:
-  S: 0.03325
-  B: -0.0312
-  E: -0.06544
-  L: 0.17235
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -0.688
   A: 0.0
+  V: 0.19
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: Ne
-adjacency_list: '[Ne]'
+molecule: '[Ne]'
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -1.575
+  A: 0.0
+  V: 0.085
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: He
-adjacency_list: '[He]'
+molecule: '[He]'
 solute:
-  S: 0.05757
-  B: 0.07131
-  E: 0.04521
-  L: 0.09985
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -1.741
   A: 0.0
+  V: 0.068
 ---
 short_description: ''
 long_description: |2
@@ -1774,1745 +2252,2236 @@ long_description: |2
   Phys. Chem. Chem. Phys., 2001,3, 3732-3736
   DOI: 10.1039/B104682A
 label: N2
-adjacency_list: N#N
+molecule: N#N
 solute:
-  S: -0.05927
-  B: -0.0593
-  E: -0.02584
-  L: 0.00516
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -0.978
   A: 0.0
+  V: 0.2222
 ---
 short_description: ''
 long_description: "\nMichael H. Abraham,a Andreas M. Zissimos, a and William E. Acree,\
   \ Jr.\nPhys. Chem. Chem. Phys., 2001,3, 3732-3736\nDOI: 10.1039/B104682A \n"
 label: O2
-adjacency_list: '[O][O]'
+molecule: '[O][O]'
 solute:
-  S: -0.05886
-  B: 0.00323
-  E: -0.04972
-  L: -0.30062
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -0.723
   A: 0.0
+  V: 0.183
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 3-Chloropropan-1-ol
-adjacency_list: OCCCCl
+molecule: OCCCCl
+solute:
+  S: 0.71
+  B: 0.5
+  E: 0.407
+  L: 2.651
+  A: 0.4
+  V: 0.7124
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen
-adjacency_list: '[H][H]'
+molecule: '[H][H]'
 solute:
-  S: -0.09615
-  B: -0.04351
-  E: -0.08829
-  L: -0.2278
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: -1.2
   A: 0.0
+  V: 0.1086
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ozone
-adjacency_list: '[O-][O+]=O'
+molecule: '[O-][O+]=O'
 solute:
-  S: -0.00034
-  B: -0.0091
-  E: -0.06551
-  L: -0.06894
-  A: 0.0
+  S: 0.1
+  B: 0.0
+  E: 0.0
+  L: 0.039
+  A: 0.09
+  V: 0.2417
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: nitrous oxide
-adjacency_list: '[N-]=[N+]=O'
+molecule: '[N-]=[N+]=O'
+solute:
+  S: 0.35
+  B: 0.1
+  E: 0.068
+  L: 0.164
+  A: 0.0
+  V: 0.2809
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: nitric oxide
-adjacency_list: '[N]=O'
+molecule: '[N]=O'
 solute:
-  S: -0.0337
-  B: 0.07988
-  E: -0.03325
-  L: 0.02304
+  S: -0.1
+  B: 0.05
+  E: -0.1
+  L: -0.596
   A: 0.0
+  V: 0.2026
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: carbon monoxide
-adjacency_list: '[C-]#[O+]'
+molecule: '[C-]#[O+]'
 solute:
-  S: 0.02604
-  B: 0.06312
-  E: 0.05659
-  L: 0.73746
+  S: 0.0
+  B: 0.04
+  E: 0.0
+  L: -0.836
   A: 0.0
+  V: 0.222
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: carbon dioxide
-adjacency_list: C(=O)=O
+molecule: C(=O)=O
 solute:
-  S: 0.07717
-  B: 0.00755
-  E: -0.01202
-  L: 0.16951
-  A: 0.0
+  S: 0.28
+  B: 0.1
+  E: 0.0
+  L: 0.058
+  A: 0.05
+  V: 0.2809
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen peroxide
-adjacency_list: OO
+molecule: OO
 solute:
-  S: 0.1506
-  B: -0.00263
-  E: -5.0e-05
-  L: 0.68732
-  A: 0.0
+  S: 0.66
+  B: 0.41
+  E: 0.451
+  L: 1.226
+  A: 0.78
+  V: 0.226
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: sulfur dioxide
-adjacency_list: O=S=O
+molecule: O=S=O
+solute:
+  S: 0.66
+  B: 0.1
+  E: 0.37
+  L: 0.778
+  A: 0.28
+  V: 0.3465
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: carbonoxysulfide
-adjacency_list: C(=O)=S
+molecule: C(=O)=S
 solute:
-  S: -0.05409
-  B: 0.00062
-  E: -0.05738
-  L: -0.38313
+  S: 0.28
+  B: 0.0
+  E: 0.487
+  L: 1.137
   A: 0.0
+  V: 0.3857
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chlorine
-adjacency_list: ClCl
+molecule: ClCl
 solute:
-  S: 0.06456
-  B: 0.07691
-  E: -0.01848
-  L: 0.1697
-  A: 0.0
+  S: 0.32
+  B: 0.0
+  E: 0.36
+  L: 1.193
+  A: 0.1
+  V: 0.3534
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromine
-adjacency_list: BrBr
+molecule: BrBr
 solute:
-  S: 0.15652
-  B: 0.04417
-  E: 0.1531
-  L: 0.48548
-  A: 0.0
+  S: 0.62
+  B: 0.0
+  E: 0.918
+  L: 2.4748
+  A: 0.18
+  V: 0.4586
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: iodine
-adjacency_list: II
+molecule: II
 solute:
-  S: -0.05204
-  B: 0.02571
-  E: -0.00388
-  L: 0.06904
-  A: 0.0
+  S: 0.63
+  B: 0.0
+  E: 1.216
+  L: 3.036
+  A: 0.28
+  V: 0.625
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrazine
-adjacency_list: NN
+molecule: NN
 solute:
-  S: -0.0632
-  B: -0.02449
-  E: 0.01077
-  L: -0.18425
-  A: 0.0
+  S: 1.21
+  B: 0.71
+  E: 0.514
+  L: 1.6277
+  A: 0.39
+  V: 0.3082
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: nitrogen trifluoride
-adjacency_list: N(F)(F)F
+molecule: N(F)(F)F
+solute:
+  S: -0.2
+  B: 0.0
+  E: 0.099
+  L: -0.2078
+  A: 0.0
+  V: 0.2615
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dinitrogen tetrafluoride
-adjacency_list: N(N(F)F)(F)F
+molecule: N(N(F)F)(F)F
+solute:
+  S: -0.15
+  B: 0.0
+  E: 0.044
+  L: 0.172
+  A: 0.0
+  V: 0.379
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: phosphine
-adjacency_list: P
+molecule: P
 solute:
-  S: -0.07348
-  B: 0.02029
-  E: -0.03701
-  L: -0.78239
+  S: 0.11
+  B: 0.05
+  E: 0.2
+  L: 0.34
   A: 0.0
+  V: 0.3132
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: nitrosylchloride
-adjacency_list: N(=O)Cl
+molecule: N(=O)Cl
+solute:
+  S: 0.38
+  B: 0.21
+  E: 0.23
+  L: 0.9167
+  A: 0.1
+  V: 0.3465
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen chloride
-adjacency_list: Cl
+molecule: Cl
 solute:
-  S: -0.04584
-  B: 0.04096
-  E: 0.07457
-  L: 0.35646
-  A: 0.0
+  S: 0.3
+  B: 0.089
+  E: 0.287
+  L: 0.489
+  A: 0.467
+  V: 0.231
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen bromide
-adjacency_list: Br
+molecule: Br
 solute:
-  S: -0.0497
-  B: -0.08156
-  E: -0.04558
-  L: -0.0879
-  A: -0.09185
+  S: 0.344
+  B: 0.078
+  E: 0.374
+  L: 0.931
+  A: 0.373
+  V: 0.2836
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen iodide
-adjacency_list: I
+molecule: I
 solute:
-  S: -0.03897
-  B: -0.00319
-  E: -0.00714
-  L: -0.06151
-  A: 0.0
+  S: 0.4
+  B: 0.183
+  E: 0.49
+  L: 1.43
+  A: 0.255
+  V: 0.3668
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen cyanide
-adjacency_list: C#N
+molecule: C#N
 solute:
-  S: -0.03648
-  B: 0.01518
-  E: -0.04339
-  L: -0.21825
-  A: 0.0
+  S: 0.66
+  B: 0.14
+  E: 0.213
+  L: 0.8289
+  A: 0.38
+  V: 0.2633
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrazoic acid
-adjacency_list: N=[N+]=[N-]
+molecule: N=[N+]=[N-]
+solute:
+  S: 0.78
+  B: 0.0
+  E: 0.26
+  L: 1.1508
+  A: 0.45
+  V: 0.322
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ethyne
-adjacency_list: C#C
+molecule: C#C
 solute:
-  S: -0.02007
-  B: -0.04944
-  E: -0.0298
-  L: -0.5171
+  S: 0.13
+  B: 0.21
+  E: 0.1
+  L: 0.236
   A: 0.0
+  V: 0.3044
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluoromethane
-adjacency_list: CF
+molecule: CF
+solute:
+  S: 0.35
+  B: 0.09
+  E: 0.066
+  L: 0.057
+  A: 0.0
+  V: 0.2672
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluoroethane
-adjacency_list: CCF
+molecule: CCF
 solute:
-  S: -0.08793
-  B: -0.10178
-  E: -0.0768
-  L: -0.14387
+  S: 0.34
+  B: 0.05
+  E: 0.052
+  L: 0.751
   A: 0.0
+  V: 0.4081
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoroethane
-adjacency_list: CC(F)F
+molecule: CC(F)F
 solute:
-  S: -0.0145
-  B: -0.05778
-  E: 0.05717
-  L: 0.27953
-  A: 0.01107
+  S: 0.46
+  B: 0.07
+  E: -0.204
+  L: 0.5954
+  A: 0.03
+  V: 0.4258
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluoroethane
-adjacency_list: CC(F)(F)F
+molecule: CC(F)(F)F
+solute:
+  S: 0.1
+  B: 0.1
+  E: -0.33
+  L: 0.324
+  A: 0.0
+  V: 0.4435
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoroethane
-adjacency_list: C(C(F)F)F
+molecule: C(C(F)F)F
 solute:
-  S: -0.05307
-  B: -0.01848
-  E: -0.02205
-  L: -0.28226
-  A: -0.00122
+  S: 0.3
+  B: 0.12
+  E: -0.3
+  L: 0.513
+  A: 0.16
+  V: 0.4435
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1,2-tetrafluoroethane
-adjacency_list: C(C(F)(F)F)F
+molecule: C(C(F)(F)F)F
 solute:
-  S: 0.00554
-  B: -0.02378
-  E: -0.00392
-  L: -0.07243
-  A: 0.0
+  S: 0.45
+  B: 0.0
+  E: -0.408
+  L: 0.4172
+  A: 0.06
+  V: 0.4612
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2,2-tetrafluoroethane
-adjacency_list: C(C(F)F)(F)F
+molecule: C(C(F)F)(F)F
 solute:
-  S: -0.13304
-  B: -0.12511
-  E: -0.09555
-  L: -0.41324
-  A: 0.0
+  S: 0.24
+  B: 0.12
+  E: -0.394
+  L: 0.394
+  A: 0.1
+  V: 0.4612
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: pentafluoroethane
-adjacency_list: C(C(F)(F)F)(F)F
+molecule: C(C(F)(F)F)(F)F
+solute:
+  S: 0.12
+  B: 0.0
+  E: -0.51
+  L: 0.1419
+  A: 0.12
+  V: 0.4789
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: difluoromethane
-adjacency_list: C(F)F
+molecule: C(F)F
+solute:
+  S: 0.54
+  B: 0.04
+  E: -0.204
+  L: 0.1699
+  A: 0.03
+  V: 0.2849
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trifluoromethane
-adjacency_list: C(F)(F)F
+molecule: C(F)(F)F
 solute:
-  S: -0.03681
-  B: 0.06652
-  E: 0.00411
-  L: -0.20092
-  A: 0.0
+  S: 0.32
+  B: 0.0
+  E: -0.306
+  L: -0.0956
+  A: 0.06
+  V: 0.3026
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tetrafluoromethane
-adjacency_list: C(F)(F)(F)F
+molecule: C(F)(F)(F)F
 solute:
-  S: -0.09288
-  B: -0.06035
-  E: 0.0435
-  L: 0.12467
-  A: 0.04837
+  S: -0.23
+  B: 0.0
+  E: -0.408
+  L: -0.799
+  A: 0.0
+  V: 0.3203
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hexafluoroethane
-adjacency_list: C(C(F)(F)F)(F)(F)F
+molecule: C(C(F)(F)F)(F)(F)F
 solute:
-  S: 0.02797
-  B: 0.06693
-  E: 0.10481
-  L: 0.28635
-  A: 0.0493
+  S: -0.4
+  B: 0.0
+  E: -0.64
+  L: -0.429
+  A: 0.0
+  V: 0.4966
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluoroethene
-adjacency_list: C=CF
+molecule: C=CF
 solute:
-  S: -0.07304
-  B: 0.13635
-  E: 0.01905
-  L: -0.14087
+  S: 0.1
+  B: 0.06
+  E: 0.03
+  L: 0.5386
   A: 0.0
+  V: 0.3651
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoroethene
-adjacency_list: C=C(F)F
+molecule: C=C(F)F
 solute:
-  S: -0.18202
-  B: 0.121
-  E: 0.08612
-  L: 0.2337
+  S: 0.01
+  B: 0.05
+  E: -0.1
+  L: 0.331
   A: 0.0
+  V: 0.3828
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloromethane
-adjacency_list: CCl
+molecule: CCl
 solute:
-  S: -0.05465
-  B: -0.02885
-  E: -0.0932
-  L: -0.10844
+  S: 0.47
+  B: 0.07
+  E: 0.249
+  L: 1.1487
   A: 0.0
+  V: 0.3719
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dichloromethane
-adjacency_list: C(Cl)Cl
+molecule: C(Cl)Cl
 solute:
-  S: 0.11478
-  B: 0.04618
-  E: 0.06091
-  L: 0.40369
-  A: 0.00454
+  S: 0.58
+  B: 0.05
+  E: 0.387
+  L: 1.818
+  A: 0.12
+  V: 0.4943
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trichloromethane
-adjacency_list: C(Cl)(Cl)Cl
+molecule: C(Cl)(Cl)Cl
 solute:
-  S: -0.11569
-  B: -0.0199
-  E: -0.01764
-  L: -0.1452
-  A: 0.0
+  S: 0.49
+  B: 0.04
+  E: 0.425
+  L: 2.4085
+  A: 0.15
+  V: 0.6167
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tetrachloromethane
-adjacency_list: C(Cl)(Cl)(Cl)Cl
+molecule: C(Cl)(Cl)(Cl)Cl
 solute:
-  S: 0.05706
-  B: 0.0323
-  E: 0.02313
-  L: 0.23506
-  A: 0.00129
+  S: 0.38
+  B: 0.0
+  E: 0.458
+  L: 2.823
+  A: 0.0
+  V: 0.7391
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloroethane
-adjacency_list: CCCl
+molecule: CCCl
+solute:
+  S: 0.4
+  B: 0.12
+  E: 0.227
+  L: 1.664
+  A: 0.0
+  V: 0.5128
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-dichloroethane
-adjacency_list: CC(Cl)Cl
+molecule: CC(Cl)Cl
+solute:
+  S: 0.53
+  B: 0.07
+  E: 0.322
+  L: 2.133
+  A: 0.07
+  V: 0.6352
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-dichloroethane
-adjacency_list: C(CCl)Cl
+molecule: C(CCl)Cl
 solute:
-  S: 0.00809
-  B: 0.06584
-  E: 0.02751
-  L: 0.16423
-  A: 0.0
+  S: 0.71
+  B: 0.09
+  E: 0.416
+  L: 2.55
+  A: 0.09
+  V: 0.6352
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trichloroethane
-adjacency_list: CC(Cl)(Cl)Cl
+molecule: CC(Cl)(Cl)Cl
+solute:
+  S: 0.48
+  B: 0.08
+  E: 0.369
+  L: 2.751
+  A: 0.0
+  V: 0.7576
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trichloroethane
-adjacency_list: C(C(Cl)Cl)Cl
+molecule: C(C(Cl)Cl)Cl
 solute:
-  S: 0.0052
-  B: 0.02661
-  E: 0.04547
-  L: 0.0616
-  A: 0.0
+  S: 0.68
+  B: 0.13
+  E: 0.499
+  L: 3.29
+  A: 0.13
+  V: 0.7576
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2,2-tetrachloroethane
-adjacency_list: C(C(Cl)Cl)(Cl)Cl
+molecule: C(C(Cl)Cl)(Cl)Cl
 solute:
-  S: 0.00568
-  B: 0.04318
-  E: 0.03287
-  L: 0.33367
-  A: 0.05831
+  S: 0.76
+  B: 0.12
+  E: 0.595
+  L: 3.803
+  A: 0.16
+  V: 0.88
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1,2-tetrachloroethane
-adjacency_list: C(C(Cl)(Cl)Cl)Cl
+molecule: C(C(Cl)(Cl)Cl)Cl
 solute:
-  S: -0.01981
-  B: -0.03783
-  E: 0.10647
-  L: 0.39653
-  A: 0.0
+  S: 0.63
+  B: 0.08
+  E: 0.542
+  L: 3.641
+  A: 0.1
+  V: 0.88
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: pentachloroethane
-adjacency_list: C(C(Cl)(Cl)Cl)(Cl)Cl
+molecule: C(C(Cl)(Cl)Cl)(Cl)Cl
 solute:
-  S: 0.04783
-  B: 0.02773
-  E: 0.02226
-  L: 0.13322
-  A: 0.0
+  S: 0.66
+  B: 0.06
+  E: 0.648
+  L: 4.267
+  A: 0.17
+  V: 1.0024
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hexachloroethane
-adjacency_list: C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
+molecule: C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl
 solute:
-  S: -0.11547
-  B: -0.03873
-  E: -0.08101
-  L: -0.20247
+  S: 0.68
+  B: 0.0
+  E: 0.68
+  L: 4.573
   A: 0.0
+  V: 1.1248
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tetrafluoroethene
-adjacency_list: C(=C(F)F)(F)F
+molecule: C(=C(F)F)(F)F
+solute:
+  S: -0.21
+  B: 0.14
+  E: -0.31
+  L: 0.0826
+  A: 0.0
+  V: 0.4182
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloroethene
-adjacency_list: C=CCl
+molecule: C=CCl
 solute:
-  S: -0.01188
-  B: -0.02839
-  E: 0.01501
-  L: 0.28115
+  S: 0.38
+  B: 0.05
+  E: 0.258
+  L: 1.404
   A: 0.0
+  V: 0.4698
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-dichloroethene
-adjacency_list: C=C(Cl)Cl
+molecule: C=C(Cl)Cl
 solute:
-  S: 0.07892
-  B: 0.01192
-  E: 0.02933
-  L: 0.36501
+  S: 0.34
+  B: 0.05
+  E: 0.362
+  L: 2.11
   A: 0.0
+  V: 0.5922
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trans-1,2,-dichloroethene
-adjacency_list: C(=C/Cl)\Cl
+molecule: C(=C/Cl)\Cl
+solute:
+  S: 0.41
+  B: 0.05
+  E: 0.425
+  L: 2.278
+  A: 0.09
+  V: 0.5922
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trichloroethene
-adjacency_list: C(=C(Cl)Cl)Cl
+molecule: C(=C(Cl)Cl)Cl
 solute:
-  S: -0.01918
-  B: 0.03892
-  E: 0.08096
-  L: 0.26538
+  S: 0.66
+  B: 0.01
+  E: 0.524
+  L: 3.0292
   A: 0.0
+  V: 0.7146
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tetrachloroethene
-adjacency_list: C(=C(Cl)Cl)(Cl)Cl
+molecule: C(=C(Cl)Cl)(Cl)Cl
 solute:
-  S: -0.01139
-  B: 0.0087
-  E: -0.01161
-  L: 0.06755
+  S: 0.44
+  B: 0.0
+  E: 0.639
+  L: 3.584
   A: 0.0
+  V: 0.837
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromomethane
-adjacency_list: CBr
+molecule: CBr
+solute:
+  S: 0.43
+  B: 0.1
+  E: 0.399
+  L: 1.63
+  A: 0.0
+  V: 0.4245
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dibromomethane
-adjacency_list: C(Br)Br
+molecule: C(Br)Br
 solute:
-  S: 0.00363
-  B: 0.02291
-  E: 0.02329
-  L: 0.04069
-  A: 0.0
+  S: 0.69
+  B: 0.07
+  E: 0.714
+  L: 2.886
+  A: 0.11
+  V: 0.5995
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tribromomethane
-adjacency_list: C(Br)(Br)Br
+molecule: C(Br)(Br)Br
 solute:
-  S: 0.14776
-  B: 0.07104
-  E: 0.00797
-  L: 0.11432
-  A: 0.0
+  S: 0.68
+  B: 0.06
+  E: 0.974
+  L: 3.784
+  A: 0.15
+  V: 0.7745
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: tetrabromomethane
-adjacency_list: C(Br)(Br)(Br)Br
+molecule: C(Br)(Br)(Br)Br
+solute:
+  S: 0.94
+  B: 0.0
+  E: 1.19
+  L: 4.557
+  A: 0.0
+  V: 0.9495
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromoethane
-adjacency_list: CCBr
+molecule: CCBr
 solute:
-  S: 0.09529
-  B: 0.08537
-  E: 0.01173
-  L: 0.15595
+  S: 0.4
+  B: 0.12
+  E: 0.366
+  L: 2.12
   A: 0.0
+  V: 0.5654
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-dibromoethane
-adjacency_list: CC(Br)Br
+molecule: CC(Br)Br
 solute:
-  S: 0.02339
-  B: 0.04516
-  E: 0.06866
-  L: 0.07688
-  A: -0.01875
+  S: 0.64
+  B: 0.16
+  E: 0.653
+  L: 3.174
+  A: 0.1
+  V: 0.7404
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-dibromoethane
-adjacency_list: C(CBr)Br
+molecule: C(CBr)Br
+solute:
+  S: 0.76
+  B: 0.17
+  E: 0.747
+  L: 3.382
+  A: 0.1
+  V: 0.7404
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2,2-tetrabromoethane
-adjacency_list: C(C(Br)Br)(Br)Br
+molecule: C(C(Br)Br)(Br)Br
+solute:
+  S: 0.93
+  B: 0.24
+  E: 1.343
+  L: 5.6
+  A: 0.17
+  V: 1.0904
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromoethene
-adjacency_list: C=CBr
+molecule: C=CBr
 solute:
-  S: 0.06672
-  B: 0.07557
-  E: 0.05253
-  L: 0.22243
-  A: 0.00459
+  S: 0.44
+  B: 0.08
+  E: 0.426
+  L: 1.8871
+  A: 0.0
+  V: 0.5224
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trans-1,2-dibromoethene
-adjacency_list: C(=C/Br)\Br
+molecule: C(=C/Br)\Br
+solute:
+  S: 0.53
+  B: 0.07
+  E: 0.771
+  L: 3.132
+  A: 0.09
+  V: 0.6974
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: iodomethane
-adjacency_list: CI
+molecule: CI
 solute:
-  S: -0.05762
-  B: 0.11105
-  E: 0.09599
-  L: 0.24135
-  A: 0.11162
+  S: 0.43
+  B: 0.12
+  E: 0.676
+  L: 2.106
+  A: 0.0
+  V: 0.5077
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: diiodomethane
-adjacency_list: C(I)I
+molecule: C(I)I
 solute:
-  S: 0.13118
-  B: 0.04032
-  E: 0.27899
-  L: 0.61708
-  A: 0.0
+  S: 0.69
+  B: 0.17
+  E: 1.2
+  L: 3.857
+  A: 0.05
+  V: 0.7659
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: triiodomethane
-adjacency_list: C(I)(I)I
+molecule: C(I)(I)I
 solute:
-  S: 0.02803
-  B: 0.15814
-  E: 0.12515
-  L: 0.26599
-  A: 0.01928
+  S: 1.17
+  B: 0.26
+  E: 1.95
+  L: 6.42
+  A: 0.09
+  V: 1.0241
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: iodoethane
-adjacency_list: CCI
+molecule: CCI
 solute:
-  S: 0.07647
-  B: -0.0845
-  E: 0.13324
-  L: 0.63295
+  S: 0.4
+  B: 0.14
+  E: 0.64
+  L: 2.573
   A: 0.0
+  V: 0.6486
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluorochloromethane
-adjacency_list: C(F)Cl
+molecule: C(F)Cl
+solute:
+  S: 0.61
+  B: 0.04
+  E: 0.042
+  L: 0.9818
+  A: 0.07
+  V: 0.3896
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chlorobromomethane
-adjacency_list: C(Cl)Br
+molecule: C(Cl)Br
 solute:
-  S: 0.05294
-  B: -0.00271
-  E: -0.0848
-  L: 0.06636
-  A: 0.0
+  S: 0.8
+  B: 0.06
+  E: 0.541
+  L: 2.445
+  A: 0.01
+  V: 0.5469
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloroiodomethane
-adjacency_list: C(Cl)I
+molecule: C(Cl)I
+solute:
+  S: 0.66
+  B: 0.08
+  E: 0.845
+  L: 2.947
+  A: 0.13
+  V: 0.6301
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluorochlorobromomethane
-adjacency_list: C(F)(Cl)Br
+molecule: C(F)(Cl)Br
 solute:
-  S: 0.10822
-  B: 0.0046
-  E: 0.03565
-  L: 0.12163
-  A: 0.0
+  S: 0.45
+  B: 0.07
+  E: 0.345
+  L: 1.95
+  A: 0.11
+  V: 0.5646
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluorodichloromethane
-adjacency_list: C(F)(Cl)Cl
+molecule: C(F)(Cl)Cl
+solute:
+  S: 0.39
+  B: 0.05
+  E: 0.174
+  L: 1.5356
+  A: 0.15
+  V: 0.512
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: difluorochloromethane
-adjacency_list: C(F)(F)Cl
+molecule: C(F)(F)Cl
 solute:
-  S: -0.12638
-  B: 0.1695
-  E: 0.09143
-  L: 0.24028
-  A: 0.03016
+  S: 0.4
+  B: 0.01
+  E: -0.066
+  L: 0.6955
+  A: 0.09
+  V: 0.4073
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluorodibromomethane
-adjacency_list: C(F)(Br)Br
+molecule: C(F)(Br)Br
 solute:
-  S: 0.06492
-  B: 0.05554
-  E: 0.19152
-  L: 0.51827
-  A: 0.0
+  S: 0.7
+  B: 0.05
+  E: 0.495
+  L: 2.4709
+  A: 0.15
+  V: 0.6172
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dichlorobromomethane
-adjacency_list: C(Cl)(Cl)Br
+molecule: C(Cl)(Cl)Br
 solute:
-  S: 0.13198
-  B: 0.06486
-  E: 0.11619
-  L: 0.39926
-  A: 0.0
+  S: 0.69
+  B: 0.04
+  E: 0.593
+  L: 2.891
+  A: 0.1
+  V: 0.6693
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chlorodibromomethane
-adjacency_list: C(Cl)(Br)Br
+molecule: C(Cl)(Br)Br
 solute:
-  S: 0.0474
-  B: 0.00784
-  E: 0.07931
-  L: 0.37109
-  A: 0.0
+  S: 0.68
+  B: 0.1
+  E: 0.775
+  L: 3.304
+  A: 0.12
+  V: 0.7219
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: fluorotrichloromethane
-adjacency_list: C(F)(Cl)(Cl)Cl
+molecule: C(F)(Cl)(Cl)Cl
+solute:
+  S: 0.23
+  B: 0.05
+  E: 0.318
+  L: 1.9168
+  A: 0.0
+  V: 0.6344
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: difluorodichloromethane
-adjacency_list: C(F)(F)(Cl)Cl
+molecule: C(F)(F)(Cl)Cl
 solute:
-  S: 0.10377
-  B: 0.11958
-  E: 0.17103
-  L: 0.4173
-  A: 0.07499
+  S: 0.09
+  B: 0.02
+  E: 0.071
+  L: 1.112
+  A: 0.0
+  V: 0.5297
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trifluorochloromethane
-adjacency_list: C(F)(F)(F)Cl
+molecule: C(F)(F)(F)Cl
 solute:
-  S: -0.01283
-  B: 0.0848
-  E: 0.04368
-  L: 0.29691
+  S: -0.08
+  B: 0.02
+  E: -0.168
+  L: 0.193
   A: 0.0
+  V: 0.425
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: difluorochlorobromomethane
-adjacency_list: C(F)(F)(Cl)Br
+molecule: C(F)(F)(Cl)Br
+solute:
+  S: 0.25
+  B: 0.0
+  E: 0.22
+  L: 1.5354
+  A: 0.0
+  V: 0.5823
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dibromodifluoromethane
-adjacency_list: C(F)(F)(Br)Br
+molecule: C(F)(F)(Br)Br
 solute:
-  S: 0.01097
-  B: 0.02374
-  E: 0.01046
-  L: 0.20396
+  S: 0.36
+  B: 0.0
+  E: 0.272
+  L: 1.961
   A: 0.0
+  V: 0.6349
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trifluorobromomethane
-adjacency_list: C(F)(F)(F)Br
+molecule: C(F)(F)(F)Br
 solute:
-  S: -0.01777
-  B: 0.08029
-  E: 0.07612
-  L: 0.03641
-  A: -0.03456
+  S: -0.02
+  B: 0.01
+  E: 0.033
+  L: 0.8287
+  A: 0.0
+  V: 0.4776
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromotrichloromethane
-adjacency_list: C(Cl)(Cl)(Cl)Br
+molecule: C(Cl)(Cl)(Cl)Br
+solute:
+  S: 0.46
+  B: 0.0
+  E: 0.637
+  L: 3.294
+  A: 0.0
+  V: 0.7917
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1-fluoro-2-bromoethane
-adjacency_list: C(CBr)F
+molecule: C(CBr)F
 solute:
-  S: 0.09759
-  B: 0.00037
-  E: 0.17123
-  L: 0.62525
-  A: 0.0
+  S: 0.73
+  B: 0.14
+  E: 0.23
+  L: 2.225
+  A: 0.09
+  V: 0.5831
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1-chloro-2-bromoethane
-adjacency_list: C(CBr)Cl
+molecule: C(CBr)Cl
 solute:
-  S: 0.13138
-  B: 0.0196
-  E: 0.16156
-  L: 0.55053
-  A: 0.07631
+  S: 0.7
+  B: 0.09
+  E: 0.572
+  L: 2.982
+  A: 0.1
+  V: 0.6878
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1-chloroethane
-adjacency_list: CC(F)(F)Cl
+molecule: CC(F)(F)Cl
+solute:
+  S: 0.33
+  B: 0.05
+  E: -0.066
+  L: 1.18
+  A: 0.0
+  V: 0.5482
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-2-chloroethane
-adjacency_list: C(C(F)F)Cl
+molecule: C(C(F)F)Cl
+solute:
+  S: 0.87
+  B: 0.04
+  E: -0.08
+  L: 1.76
+  A: 0.09
+  V: 0.5482
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1-fluoro-1,1-dichloroethane
-adjacency_list: CC(F)(Cl)Cl
+molecule: CC(F)(Cl)Cl
 solute:
-  S: 0.26414
-  B: 0.16023
-  E: 0.06966
-  L: 0.43991
+  S: 0.41
+  B: 0.06
+  E: 0.174
+  L: 1.986
   A: 0.0
+  V: 0.6529
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-difluoro-1,1,2-trichloroethane
-adjacency_list: FC(Cl)C(F)(Cl)Cl
+molecule: FC(Cl)C(F)(Cl)Cl
+solute:
+  S: 0.39
+  B: 0.02
+  E: 0.116
+  L: 2.54
+  A: 0.09
+  V: 0.793
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1-bromo-2-chloroethane
-adjacency_list: FC(F)(Br)CCl
+molecule: FC(F)(Br)CCl
 solute:
-  S: 0.1306
-  B: 0.03256
-  E: 0.02325
-  L: 0.32982
+  S: 0.51
+  B: 0.06
+  E: 0.236
+  L: 2.54
   A: 0.0
+  V: 0.7232
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1-chloro-2-bromoethane
-adjacency_list: C(C(F)(F)Cl)Br
+molecule: C(C(F)(F)Cl)Br
+solute:
+  S: 0.5
+  B: 0.06
+  E: 0.236
+  L: 2.49
+  A: 0.0
+  V: 0.7232
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-difluoro-1,2-dichloroethane
-adjacency_list: C(C(F)Cl)(F)Cl
+molecule: C(C(F)Cl)(F)Cl
 solute:
-  S: 0.05264
-  B: 0.04581
-  E: -0.06632
-  L: -0.09899
-  A: 0.0
+  S: 0.65
+  B: 0.08
+  E: 0.012
+  L: 2.21
+  A: 0.18
+  V: 0.6706
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1,2-dichloroethane
-adjacency_list: C(C(F)(F)Cl)Cl
+molecule: C(C(F)(F)Cl)Cl
+solute:
+  S: 0.48
+  B: 0.05
+  E: 0.012
+  L: 2.12
+  A: 0.0
+  V: 0.6706
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluoro-2-chloroethane
-adjacency_list: C(C(F)(F)F)Cl
+molecule: C(C(F)(F)F)Cl
 solute:
-  S: 0.02333
-  B: 0.01858
-  E: 0.08286
-  L: 0.25509
-  A: -0.015
+  S: 0.41
+  B: 0.06
+  E: -0.168
+  L: 1.1726
+  A: 0.07
+  V: 0.5659
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoro-1-chloroethane
-adjacency_list: C(C(F)(F)Cl)F
+molecule: C(C(F)(F)Cl)F
+solute:
+  S: 0.35
+  B: 0.08
+  E: -0.16
+  L: 1.186
+  A: 0.06
+  V: 0.5659
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluoro-2,2-dibromoethane
-adjacency_list: C(C(F)(F)F)(Br)Br
+molecule: C(C(F)(F)F)(Br)Br
 solute:
-  S: 0.07801
-  B: 0.03393
-  E: 0.02476
-  L: 0.04437
-  A: 0.0
+  S: 0.56
+  B: 0.04
+  E: 0.362
+  L: 2.889
+  A: 0.12
+  V: 0.7935
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluoro-2,2-dichloroethane
-adjacency_list: C(C(F)(F)F)(Cl)Cl
+molecule: C(C(F)(F)F)(Cl)Cl
+solute:
+  S: 0.24
+  B: 0.03
+  E: -0.03
+  L: 1.7577
+  A: 0.13
+  V: 0.6883
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoro-1,2-dichloroethane
-adjacency_list: C(C(F)(F)Cl)(F)Cl
+molecule: C(C(F)(F)Cl)(F)Cl
 solute:
-  S: 0.19908
-  B: 0.14855
-  E: 0.06814
-  L: 0.48605
-  A: 0.11753
+  S: 0.37
+  B: 0.03
+  E: -0.086
+  L: 1.83
+  A: 0.09
+  V: 0.6883
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoro-1,2-dibromoethane
-adjacency_list: C(C(F)(F)Br)(F)Br
+molecule: C(C(F)(F)Br)(F)Br
+solute:
+  S: 0.54
+  B: 0.04
+  E: 0.362
+  L: 2.866
+  A: 0.07
+  V: 0.7935
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluoro-2-chloro-2-bromoethane
-adjacency_list: C(C(F)(F)F)(Cl)Br
+molecule: C(C(F)(F)F)(Cl)Br
+solute:
+  S: 0.39
+  B: 0.05
+  E: 0.102
+  L: 1.982
+  A: 0.13
+  V: 0.7409
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1,2-tetrafluoro-2-bromoethane
-adjacency_list: C(C(F)(F)F)(F)Br
+molecule: C(C(F)(F)F)(F)Br
 solute:
-  S: 0.07968
-  B: 0.01758
-  E: 0.06146
-  L: 0.33013
-  A: 0.0
+  S: 0.3
+  B: 0.04
+  E: -0.064
+  L: 1.54
+  A: 0.09
+  V: 0.636
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2,2-tetrafluoro-1-bromoethane
-adjacency_list: C(C(F)(F)Br)(F)F
+molecule: C(C(F)(F)Br)(F)F
 solute:
-  S: 0.03399
-  B: 0.041
-  E: 0.07796
-  L: 0.43327
-  A: 0.0
+  S: 0.3
+  B: 0.04
+  E: -0.064
+  L: 1.54
+  A: 0.09
+  V: 0.636
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1,2-tetrafluoro-2-chloroethane
-adjacency_list: FC(Cl)C(F)(F)F
+molecule: FC(Cl)C(F)(F)F
+solute:
+  S: 0.34
+  B: 0.01
+  E: -0.27
+  L: 1.006
+  A: 0.06
+  V: 0.5836
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1,2,2-trichloroethane
-adjacency_list: C(C(F)(F)Cl)(Cl)Cl
+molecule: C(C(F)(F)Cl)(Cl)Cl
 solute:
-  S: 0.05813
-  B: 0.01946
-  E: 0.07261
-  L: 0.41198
-  A: 0.0
+  S: 0.38
+  B: 0.02
+  E: 0.116
+  L: 2.5
+  A: 0.09
+  V: 0.793
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoro-1-bromo-2-chloroethane
-adjacency_list: C(C(F)(F)Br)(F)Cl
+molecule: C(C(F)(F)Br)(F)Cl
+solute:
+  S: 0.37
+  B: 0.04
+  E: 0.138
+  L: 2.227
+  A: 0.07
+  V: 0.7409
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluoro-1-chloro-2-bromoethane
-adjacency_list: FC(Br)C(F)(F)Cl
+molecule: FC(Br)C(F)(F)Cl
 solute:
-  S: 0.04765
-  B: 0.08459
-  E: 0.04788
-  L: 0.43043
-  A: 0.0
+  S: 0.36
+  B: 0.04
+  E: 0.138
+  L: 2.21
+  A: 0.07
+  V: 0.7409
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluoro-1,2-dichloro-2-bromoethane
-adjacency_list: FC(F)(Cl)C(Cl)Br
+molecule: FC(F)(Cl)C(Cl)Br
 solute:
-  S: 0.08597
-  B: 0.03952
-  E: 0.02714
-  L: 0.08372
-  A: 0.0
+  S: 0.46
+  B: 0.04
+  E: 0.34
+  L: 2.953
+  A: 0.09
+  V: 0.8456
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1-trifluorotrichloroethane
-adjacency_list: C(C(Cl)(Cl)Cl)(F)(F)F
+molecule: C(C(Cl)(Cl)Cl)(F)(F)F
+solute:
+  S: -0.12
+  B: 0.09
+  E: 0.126
+  L: 2.0
+  A: 0.0
+  V: 0.8107
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,2-trifluorotrichloroethane
-adjacency_list: C(C(F)(Cl)Cl)(F)(F)Cl
+molecule: C(C(F)(Cl)Cl)(F)(F)Cl
+solute:
+  S: 0.14
+  B: 0.02
+  E: 0.108
+  L: 2.3309
+  A: 0.0
+  V: 0.8107
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1-difluorotetrachloroethane
-adjacency_list: C(C(Cl)(Cl)Cl)(F)(F)Cl
+molecule: C(C(Cl)(Cl)Cl)(F)(F)Cl
 solute:
-  S: 0.13378
-  B: 0.08774
-  E: 0.01198
-  L: 0.23277
+  S: 0.61
+  B: 0.04
+  E: 0.042
+  L: 0.9818
+  A: 0.07
+  V: 0.3896
+---
+short_description: ''
+long_description: |2
+
+  From in-house database received from Prof. Abraham
+label: 1,2-difluorotetrachloroethane
+molecule: C(C(F)(Cl)Cl)(F)(Cl)Cl
+solute:
+  S: 0.33
+  B: 0.03
+  E: 0.364
+  L: 3.094
   A: 0.0
+  V: 0.9154
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-dichlorotetrafluoroethane
-adjacency_list: C(C(F)(F)Cl)(F)(F)Cl
+molecule: C(C(F)(F)Cl)(F)(F)Cl
 solute:
-  S: 0.03841
-  B: -0.0075
-  E: 0.03615
-  L: 0.22459
+  S: 0.02
+  B: 0.01
+  E: -0.132
+  L: 1.4049
   A: 0.0
+  V: 0.706
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,2-dibromotetrafluoroethane
-adjacency_list: C(C(F)(F)Br)(F)(F)Br
+molecule: C(C(F)(F)Br)(F)(F)Br
+solute:
+  S: 0.1
+  B: 0.0
+  E: 0.068
+  L: 2.169
+  A: 0.0
+  V: 0.8112
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,1,2-tetrafluoro-2-chloro-2-bromoethane
-adjacency_list: C(C(F)(Cl)Br)(F)(F)F
+molecule: C(C(F)(Cl)Br)(F)(F)F
 solute:
-  S: -0.06523
-  B: 0.1068
-  E: 0.24047
-  L: 0.42503
+  S: 0.21
+  B: 0.0
+  E: 0.04
+  L: 1.9
   A: 0.0
+  V: 0.7586
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloropentafluoroethane
-adjacency_list: C(C(F)(F)Cl)(F)(F)F
+molecule: C(C(F)(F)Cl)(F)(F)F
 solute:
-  S: 0.25006
-  B: 0.14664
-  E: 0.12921
-  L: 0.65557
+  S: -0.18
+  B: 0.03
+  E: -0.372
+  L: 0.5158
   A: 0.0
+  V: 0.6013
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromopentafluoroethane
-adjacency_list: C(C(F)(F)Br)(F)(F)F
+molecule: C(C(F)(F)Br)(F)(F)F
+solute:
+  S: -0.2
+  B: 0.04
+  E: -0.16
+  L: 0.97
+  A: 0.0
+  V: 0.6539
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chlorotrifluoroethene
-adjacency_list: C(=C(F)Cl)(F)F
+molecule: C(=C(F)Cl)(F)F
 solute:
-  S: 0.12495
-  B: 0.06331
-  E: 0.0067
-  L: 0.11994
+  S: 0.12
+  B: 0.07
+  E: -0.06
+  L: 0.977
   A: 0.0
+  V: 0.5229
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromotrifluoroethene
-adjacency_list: C(=C(F)Br)(F)F
+molecule: C(=C(F)Br)(F)F
 solute:
-  S: 0.05238
-  B: 0.0511
-  E: -0.02091
-  L: 0.21
-  A: 0.00197
+  S: 0.36
+  B: 0.05
+  E: 0.13
+  L: 1.652
+  A: 0.0
+  V: 0.5755
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 1,1,-difluoro-2-chloroethene
-adjacency_list: C(=C(F)F)Cl
+molecule: C(=C(F)F)Cl
 solute:
-  S: 0.08058
-  B: 0.11574
-  E: 0.01135
-  L: 0.25513
-  A: 0.10422
+  S: 0.3
+  B: 0.04
+  E: 0.116
+  L: 1.2414
+  A: 0.02
+  V: 0.5052
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dimethyl ether
-adjacency_list: COC
+molecule: COC
+solute:
+  S: 0.27
+  B: 0.41
+  E: 0.0
+  L: 1.285
+  A: 0.0
+  V: 0.4491
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ethylene oxide
-adjacency_list: C1CO1
+molecule: C1CO1
 solute:
-  S: 0.0943
-  B: 0.15315
-  E: 0.12938
-  L: 0.65504
-  A: 0.0
+  S: 0.73
+  B: 0.35
+  E: 0.25
+  L: 1.371
+  A: 0.02
+  V: 0.3405
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloromethyl methyl ether
-adjacency_list: COCCl
+molecule: COCCl
+solute:
+  S: 0.52
+  B: 0.36
+  E: 0.17
+  L: 1.783
+  A: 0.0
+  V: 0.5715
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ketene
-adjacency_list: C=C=O
+molecule: C=C=O
 solute:
-  S: 0.06871
-  B: 0.00064
-  E: 0.14722
-  L: 0.30053
+  S: 0.75
+  B: 0.39
+  E: 0.28
+  L: 1.402
   A: 0.0
+  V: 0.3631
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trichloroethanal
-adjacency_list: C(=O)C(Cl)(Cl)Cl
+molecule: C(=O)C(Cl)(Cl)Cl
 solute:
-  S: 0.032
-  B: -0.06231
-  E: 0.10723
-  L: 0.39227
+  S: 0.9
+  B: 0.21
+  E: 0.437
+  L: 3.213
   A: 0.0
+  V: 0.7733
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: acetonitrile
-adjacency_list: CC#N
+molecule: CC#N
 solute:
-  S: 0.01504
-  B: 0.07196
-  E: 0.09643
-  L: 0.1797
-  A: 0.06621
+  S: 0.9
+  B: 0.32
+  E: 0.237
+  L: 1.739
+  A: 0.07
+  V: 0.4042
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloroacetonitrile
-adjacency_list: C(C#N)Cl
+molecule: C(C#N)Cl
 solute:
-  S: 0.00369
-  B: 0.00874
-  E: 0.05214
-  L: 0.12815
-  A: 0.0
+  S: 0.99
+  B: 0.24
+  E: 0.372
+  L: 2.4196
+  A: 0.13
+  V: 0.5266
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dichloroacetonitrile
-adjacency_list: ClC(Cl)C#N
+molecule: ClC(Cl)C#N
 solute:
-  S: 0.02306
-  B: -0.03132
-  E: -0.07222
-  L: -0.14316
-  A: 0.0
+  S: 0.96
+  B: 0.17
+  E: 0.428
+  L: 2.949
+  A: 0.2
+  V: 0.649
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trichloroacetonitrile
-adjacency_list: C(#N)C(Cl)(Cl)Cl
+molecule: C(#N)C(Cl)(Cl)Cl
+solute:
+  S: 1.2
+  B: 0.0
+  E: 0.378
+  L: 3.567
+  A: 0.0
+  V: 0.7714
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dibromoacetonitrile
-adjacency_list: BrC(Br)C#N
+molecule: BrC(Br)C#N
 solute:
-  S: 0.0515
-  B: 0.10284
-  E: -0.01548
-  L: 0.42766
-  A: 0.0
+  S: 1.24
+  B: 0.26
+  E: 0.766
+  L: 3.996
+  A: 0.25
+  V: 0.7542
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: bromochloroacetonitrile
-adjacency_list: C(#N)C(Cl)Br
+molecule: C(#N)C(Cl)Br
 solute:
-  S: -0.03404
-  B: -0.04538
-  E: -0.00417
-  L: 0.16282
-  A: 0.0
+  S: 1.1
+  B: 0.21
+  E: 0.597
+  L: 3.434
+  A: 0.22
+  V: 0.7016
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: methylisocyanide
-adjacency_list: C[N+]#[C-]
+molecule: C[N+]#[C-]
 solute:
-  S: -0.00581
-  B: 0.03189
-  E: 0.10957
-  L: 0.0395
-  A: -0.02945
+  S: 0.43
+  B: 0.09
+  E: 0.2
+  L: 1.146
+  A: 0.0
+  V: 0.4042
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ammonia
-adjacency_list: N
+molecule: N
 solute:
-  S: 0.02226
-  B: -0.01506
-  E: 0.07272
-  L: 0.08631
-  A: 0.0
+  S: 0.39
+  B: 0.56
+  E: 0.139
+  L: 0.319
+  A: 0.16
+  V: 0.2084
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: methylamine
-adjacency_list: CN
+molecule: CN
+solute:
+  S: 0.35
+  B: 0.58
+  E: 0.25
+  L: 1.3
+  A: 0.16
+  V: 0.3493
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ethylamine
-adjacency_list: CCN
+molecule: CCN
+solute:
+  S: 0.35
+  B: 0.61
+  E: 0.236
+  L: 1.677
+  A: 0.16
+  V: 0.4902
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dimethylamine
-adjacency_list: CNC
+molecule: CNC
+solute:
+  S: 0.3
+  B: 0.66
+  E: 0.189
+  L: 1.6
+  A: 0.08
+  V: 0.4902
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: aziridine
-adjacency_list: C1CN1
+molecule: C1CN1
 solute:
-  S: 0.09462
-  B: 0.00309
-  E: 0.10521
-  L: 0.44391
-  A: 0.0
+  S: 0.92
+  B: 0.44
+  E: 0.37
+  L: 1.8
+  A: 0.17
+  V: 0.3816
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: cyanamide
-adjacency_list: C(#N)N
+molecule: C(#N)N
+solute:
+  S: 1.36
+  B: 0.32
+  E: 0.45
+  L: 2.265
+  A: 0.26
+  V: 0.3631
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: formamide
-adjacency_list: C(=O)N
+molecule: C(=O)N
 solute:
-  S: -0.02507
-  B: 0.00376
-  E: 0.03644
-  L: 0.24129
-  A: 0.0
+  S: 1.31
+  B: 0.57
+  E: 0.468
+  L: 2.447
+  A: 0.64
+  V: 0.365
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: formic acid
-adjacency_list: C(=O)O
+molecule: C(=O)O
 solute:
-  S: 0.08511
-  B: 0.03005
-  E: 0.09702
-  L: 0.54967
-  A: 0.0
+  S: 0.75
+  B: 0.33
+  E: 0.343
+  L: 1.545
+  A: 0.76
+  V: 0.3239
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: chloroacetoyl chloride
-adjacency_list: C(C(=O)Cl)Cl
+molecule: C(C(=O)Cl)Cl
 solute:
-  S: 0.00706
-  B: 0.0366
-  E: 0.06762
-  L: 0.4507
+  S: 0.93
+  B: 0.33
+  E: 0.442
+  L: 2.799
   A: 0.0
+  V: 0.6509
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 2,2,2-trifluoroethanol
-adjacency_list: C(C(F)(F)F)O
+molecule: C(C(F)(F)F)O
 solute:
-  S: 0.006
-  B: 0.02316
-  E: 0.12287
-  L: 0.69995
-  A: 0.0
+  S: 0.6
+  B: 0.25
+  E: 0.015
+  L: 1.224
+  A: 0.57
+  V: 0.5022
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 2-chloroethanol
-adjacency_list: C(CCl)O
+molecule: C(CCl)O
+solute:
+  S: 0.77
+  B: 0.49
+  E: 0.419
+  L: 2.429
+  A: 0.39
+  V: 0.5715
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 2,2,2-trichloroethanol
-adjacency_list: C(C(Cl)(Cl)Cl)O
+molecule: C(C(Cl)(Cl)Cl)O
 solute:
-  S: 0.036
-  B: 0.07147
-  E: 0.09085
-  L: 0.3019
-  A: 0.0
+  S: 1.02
+  B: 0.3
+  E: 0.558
+  L: 3.488
+  A: 0.4
+  V: 0.8163
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: 2-bromoethanol
-adjacency_list: C(CBr)O
+molecule: C(CBr)O
 solute:
-  S: 0.12557
-  B: 0.05233
-  E: 0.03925
-  L: 0.31276
-  A: 0.0
+  S: 0.86
+  B: 0.49
+  E: 0.567
+  L: 2.913
+  A: 0.38
+  V: 0.6241
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: sulfur hexafluoride
-adjacency_list: FS(F)(F)(F)(F)F
+molecule: FS(F)(F)(F)(F)F
+solute:
+  S: -0.2
+  B: 0.0
+  E: -0.6
+  L: -0.12
+  A: 0.0
+  V: 0.4643
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: carbon disulphide
-adjacency_list: C(=S)=S
+molecule: C(=S)=S
 solute:
-  S: 0.18917
-  B: 0.05309
-  E: 0.07234
-  L: 0.56724
+  S: 0.26
+  B: 0.03
+  E: 0.876
+  L: 2.37
   A: 0.0
+  V: 0.4905
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: hydrogen sulfide
-adjacency_list: S
+molecule: S
 solute:
-  S: -0.00344
-  B: 0.04936
-  E: 0.02238
-  L: 0.17804
-  A: 0.0
+  S: 0.32
+  B: 0.08
+  E: 0.31
+  L: 0.706
+  A: 0.1
+  V: 0.2721
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: methylthiol
-adjacency_list: CS
+molecule: CS
 solute:
-  S: 0.18364
-  B: 0.13893
-  E: 0.06493
-  L: 0.53183
-  A: 0.09687
+  S: 0.6
+  B: 0.12
+  E: 0.4
+  L: 1.611
+  A: 0.0
+  V: 0.413
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ethylthiol
-adjacency_list: CCS
+molecule: CCS
+solute:
+  S: 0.42
+  B: 0.2
+  E: 0.392
+  L: 2.079
+  A: 0.0
+  V: 0.5539
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: vinylthiol
-adjacency_list: C=CS
+molecule: C=CS
 solute:
-  S: 0.04783
-  B: 0.0362
-  E: 0.11287
-  L: 0.56372
+  S: 0.51
+  B: 0.27
+  E: 0.446
+  L: 1.931
   A: 0.0
+  V: 0.5109
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: trichloromethylmercaptan
-adjacency_list: SC(Cl)(Cl)Cl
+molecule: SC(Cl)(Cl)Cl
 solute:
-  S: 0.10498
-  B: 0.03593
-  E: 0.12358
-  L: 0.52628
+  S: 0.61
+  B: 0.12
+  E: 0.76
+  L: 3.394
   A: 0.0
+  V: 0.7802
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: dimethyl sulfide
-adjacency_list: CSC
+molecule: CSC
 solute:
-  S: 0.01586
-  B: -0.00161
-  E: 0.09037
-  L: 0.38978
+  S: 0.43
+  B: 0.27
+  E: 0.404
+  L: 2.037
   A: 0.0
+  V: 0.5539
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: ethylene sulfide
-adjacency_list: C1CS1
+molecule: C1CS1
 solute:
-  S: 0.02247
-  B: 0.07088
-  E: 0.10137
-  L: 0.65942
+  S: 0.54
+  B: 0.38
+  E: 0.56
+  L: 1.867
   A: 0.0
+  V: 0.4453
 ---
 short_description: ''
 long_description: |2
 
   From in-house database received from Prof. Abraham
 label: benzene
-adjacency_list: C1=CC=CC=C1
+molecule: C1=CC=CC=C1
+solute:
+  S: 0.52
+  B: 0.14
+  E: 0.61
+  L: 2.786
+  A: 0.0
+  V: 0.7164
