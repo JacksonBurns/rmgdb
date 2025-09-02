@@ -158,54 +158,40 @@ def SoluteLibraryDataSpoof(*, S, B, E, L, A, V = None):
 
 def SolventDataSpoof(*, s_g, b_g, e_g, l_g, a_g, c_g, s_h, b_h, e_h, l_h, a_h, c_h, 
                      A, B, C, D, E, alpha, beta, eps, name_in_coolprop):
-    global SOLVENT_DATA_COUNT
-    global ENTRY_COUNT
-    global SESSION
-    new_solvent = SolventData(
-        id=SOLVENT_DATA_COUNT,
-        parent_id=ENTRY_COUNT,
-        s_g=s_g,
-        b_g=b_g,
-        e_g=e_g,
-        l_g=l_g,
-        a_g=a_g,
-        c_g=c_g,
-        s_h=s_h,
-        b_h=b_h,
-        e_h=e_h,
-        l_h=l_h,
-        a_h=a_h,
-        c_h=c_h,
-        A=A,
-        B=B,
-        C=C,
-        D=D,
-        E=E,
-        alpha=alpha,
-        beta=beta,
-        eps=eps,
-        name_in_coolprop=name_in_coolprop,
-    )
-    SOLVENT_DATA_COUNT += 1
-    SESSION.add(new_solvent)
+    """Return a plain dict with solvent fields for entry_spoof_library to insert."""
+    return {
+        "s_g": s_g,
+        "b_g": b_g,
+        "e_g": e_g,
+        "l_g": l_g,
+        "a_g": a_g,
+        "c_g": c_g,
+        "s_h": s_h,
+        "b_h": b_h,
+        "e_h": e_h,
+        "l_h": l_h,
+        "a_h": a_h,
+        "c_h": c_h,
+        "A": A,
+        "B": B,
+        "C": C,
+        "D": D,
+        "E": E,
+        "alpha": alpha,
+        "beta": beta,
+        "eps": eps,
+        "name_in_coolprop": name_in_coolprop,
+    }
 
 
 def DataCountSolventSpoof(*, dGsolvCount, dGsolvMAE, dHsolvCount, dHsolvMAE):
-    global DATA_COUNT_COUNT
-    global ENTRY_COUNT
-    global SESSION
-    new_data_count = DataCountSolvent(
-        id=DATA_COUNT_COUNT,
-        parent_id=ENTRY_COUNT,
-        dGsolvCount=dGsolvCount,
-        dGsolvMAE_value=dGsolvMAE[0] if dGsolvMAE is not None else None,
-        dGsolvMAE_unit=dGsolvMAE[1] if dGsolvMAE is not None else None,
-        dHsolvCount=dHsolvCount,
-        dHsolvMAE_value=dHsolvMAE[0] if dHsolvMAE is not None else None,
-        dHsolvMAE_unit=dHsolvMAE[1] if dHsolvMAE is not None else None,
-    )
-    DATA_COUNT_COUNT += 1
-    SESSION.add(new_data_count)
+    """Return a plain dict for data count; entry_spoof_library will insert."""
+    return {
+        "dGsolvCount": dGsolvCount,
+        "dGsolvMAE": dGsolvMAE,
+        "dHsolvCount": dHsolvCount,
+        "dHsolvMAE": dHsolvMAE,
+    }
 
 
 def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, shortDesc, longDesc, dataCount=None):
@@ -213,6 +199,8 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
     global SESSION
     global CURRENT_NAME
     global SOLUTE_LIBRARY_DATA_COUNT
+    global SOLVENT_DATA_COUNT
+    global DATA_COUNT_COUNT
     
     # Ensure molecule is a string
     if isinstance(molecule, list):
@@ -263,7 +251,7 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
         )
         SESSION.add(row)
         
-        # Add solvent data
+        # Add solvent data from plain dict
         solvent_dict = solvent
         new_solvent = SolventData(
             id=SOLVENT_DATA_COUNT,
@@ -293,18 +281,17 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
         SESSION.add(new_solvent)
         SOLVENT_DATA_COUNT += 1
         
-        # Add data count if present
-        if "dataCount" in solvent_dict:
-            data_count_dict = solvent_dict["dataCount"]
+        # Add data count if present (from separate dataCount arg)
+        if dataCount is not None:
             new_data_count = DataCountSolvent(
                 id=DATA_COUNT_COUNT,
                 parent_id=ENTRY_COUNT,
-                dGsolvCount=data_count_dict.get("dGsolvCount"),
-                dGsolvMAE_value=data_count_dict.get("dGsolvMAE", [None, None])[0],
-                dGsolvMAE_unit=data_count_dict.get("dGsolvMAE", [None, None])[1],
-                dHsolvCount=data_count_dict.get("dHsolvCount"),
-                dHsolvMAE_value=data_count_dict.get("dHsolvMAE", [None, None])[0],
-                dHsolvMAE_unit=data_count_dict.get("dHsolvMAE", [None, None])[1],
+                dGsolvCount=dataCount.get("dGsolvCount"),
+                dGsolvMAE_value=(dataCount.get("dGsolvMAE") or [None, None])[0],
+                dGsolvMAE_unit=(dataCount.get("dGsolvMAE") or [None, None])[1],
+                dHsolvCount=dataCount.get("dHsolvCount"),
+                dHsolvMAE_value=(dataCount.get("dHsolvMAE") or [None, None])[0],
+                dHsolvMAE_unit=(dataCount.get("dHsolvMAE") or [None, None])[1],
             )
             SESSION.add(new_data_count)
             DATA_COUNT_COUNT += 1

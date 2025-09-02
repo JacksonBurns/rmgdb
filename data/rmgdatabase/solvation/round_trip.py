@@ -16,6 +16,7 @@ from rmgdb.solvation.schema import (
     # Library
     SolvationLibraries,
     SoluteLibrary,
+    SoluteLibraryData,
     SolventLibrary,
     SolventData,
     DataCountSolvent,
@@ -211,9 +212,9 @@ def gen_db():
                 )
                 session.add(new_row)
                 
-                # Add solute data
+                # Add solute library data (separate table)
                 solute_dict = row["solute"]
-                new_solute = SoluteData(
+                new_solute = SoluteLibraryData(
                     id=solute_data_counter,
                     parent_id=entry_counter,
                     S=solute_dict.get("S"),
@@ -355,7 +356,10 @@ def gen_db():
                 
             entry_count += 1
 
-        # iterate again to build the pair table now that the label_to_id dict is filled
+    # Second pass: build the pair table after all labels are known
+    for group_file in group_dir.glob("*"):
+        with open(group_file, "r") as f:
+            all_rows = list(yaml.safe_load_all(f))
         for row in all_rows:
             for child_label in row["children"]:
                 new_row = GroupsTree(

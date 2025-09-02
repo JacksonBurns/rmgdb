@@ -85,7 +85,6 @@ class SolventLibrary(SCHEMA_BASE):
 
 event.listen(SolventLibrary, "before_insert", check_short_desc)
 event.listen(SolventLibrary, "before_insert", delete_empty_desc)
-event.listen(SolventLibrary, "before_insert", validate_solvent_parameters)
 
 
 class SoluteData(SCHEMA_BASE):
@@ -150,6 +149,8 @@ class SolventData(SCHEMA_BASE):
     name_in_coolprop = Column(String)  # Name used in CoolProp package
 
 
+event.listen(SolventData, "before_insert", validate_solvent_parameters)
+
 class DataCountGAV(SCHEMA_BASE):
     __tablename__ = "data_count_gav_table"
 
@@ -180,5 +181,6 @@ class DataCountSolvent(SCHEMA_BASE):
     dHsolvCount = Column(Integer)  # Number of data points for dHsolv fitting
     dHsolvMAE_value = Column(Float)  # Mean absolute error for dHsolv
     dHsolvMAE_unit = Column(String)  # Unit for dHsolv MAE
+
 
 event.listen(DataCountSolvent, "before_insert", validate_data_count)
