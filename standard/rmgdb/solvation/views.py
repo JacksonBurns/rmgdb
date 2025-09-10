@@ -2,7 +2,7 @@ from sqlalchemy import select, text
 
 from rmgdb.solvation.schema import (
     SoluteData, SoluteLibraryData, SolventData, DataCountSolvent, DataCountGAV,
-    SoluteLibrary, SolventLibrary, SolvationLibraries,
+    SoluteLibrary, SolventLibrary,
     Groups
 )
 
@@ -177,21 +177,7 @@ solute_libraries_view_sql = text(f"CREATE VIEW {solute_library_view_name} AS {so
 solvent_library_view_name = "solvent_libraries_view"
 solvent_libraries_view_sql = text(f"CREATE VIEW {solvent_library_view_name} AS {solvent_library_view_query}")
 
-# Create a combined view for all solvation libraries
-solvation_libraries_view_query = (
-    select(
-        SolvationLibraries.id,
-        SolvationLibraries.name,
-        SolvationLibraries.short_description,
-        SolvationLibraries.long_description,
-        SolvationLibraries.label,
-        SolvationLibraries.molecule,
-    )
-    .select_from(SolvationLibraries)
-)
-
-solvation_libraries_view_name = "solvation_libraries_view"
-solvation_libraries_view_sql = text(f"CREATE VIEW {solvation_libraries_view_name} AS {solvation_libraries_view_query}")
+# Removed generic solvation_libraries_view as the unified table is no longer used
 
 # Create a view for solute data table (group data, not library data)
 solute_data_table_view_sql = text("""CREATE VIEW solute_data_table_view AS 

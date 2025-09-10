@@ -44,20 +44,6 @@ class GroupsTree(SCHEMA_BASE):
     child_id = mapped_column(ForeignKey("groups_table.id"))
 
 # libraries and associated tables
-class SolvationLibraries(SCHEMA_BASE):
-    __tablename__ = "solvation_libraries_table"
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String)
-    short_description = Column(String)
-    long_description = Column(String)
-    label = Column(String)
-    molecule = Column(String)
-
-
-event.listen(SolvationLibraries, "before_insert", check_short_desc)
-event.listen(SolvationLibraries, "before_insert", delete_empty_desc)
-
 
 class SoluteLibrary(SCHEMA_BASE):
     __tablename__ = "solute_library_table"

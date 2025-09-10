@@ -21,7 +21,6 @@ from .schema import (
     SCHEMA_BASE,
     Groups,
     GroupsTree,
-    SolvationLibraries,
     SoluteLibrary,
     SolventLibrary,
     SoluteData,
@@ -32,7 +31,6 @@ from .schema import (
 
 from .views import (
     solute_groups_view_sql,
-    solvation_libraries_view_sql,
     solute_libraries_view_sql,
     solvent_libraries_view_sql,
     label_pairs_view_sql,
@@ -50,7 +48,6 @@ __all__ = [
     'SCHEMA_BASE',
     'Groups',
     'GroupsTree', 
-    'SolvationLibraries',
     'SoluteLibrary',
     'SolventLibrary',
     'SoluteData',
@@ -60,7 +57,6 @@ __all__ = [
     
     # Views
     'solute_groups_view_sql',
-    'solvation_libraries_view_sql',
     'solute_libraries_view_sql',
     'solvent_libraries_view_sql',
     'label_pairs_view_sql',

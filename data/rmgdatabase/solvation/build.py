@@ -7,7 +7,6 @@ from rmgdb.solvation.schema import (
     SoluteData,
     DataCountGAV,
     # Library
-    SolvationLibraries,
     SoluteLibrary,
     SoluteLibraryData,
     SolventLibrary,
@@ -296,16 +295,7 @@ def entry_spoof_library(*, index, label, molecule, solute=None, solvent=None, sh
             SESSION.add(new_data_count)
             DATA_COUNT_COUNT += 1
     else:
-        # Fallback to generic solvation library
-        row = SolvationLibraries(
-            id=ENTRY_COUNT,
-            name=CURRENT_NAME,
-            short_description=shortDesc,
-            long_description=longDesc,
-            label=label,
-            molecule=molecule,
-        )
-        SESSION.add(row)
+        raise ValueError("Library entry must contain either 'solute' or 'solvent' data.")
     
     ENTRY_COUNT += 1
 

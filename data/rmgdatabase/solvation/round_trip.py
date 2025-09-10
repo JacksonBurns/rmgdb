@@ -14,7 +14,6 @@ from rmgdb.solvation.schema import (
     SoluteData,
     DataCountGAV,
     # Library
-    SolvationLibraries,
     SoluteLibrary,
     SoluteLibraryData,
     SolventLibrary,
@@ -284,16 +283,7 @@ def gen_db():
                     session.add(new_data_count)
                     data_count_counter += 1
             else:
-                # Fallback to generic solvation library
-                new_row = SolvationLibraries(
-                    id=entry_counter,
-                    name=library_file.stem,
-                    short_description=row["short_description"],
-                    long_description=row["long_description"],
-                    label=row["label"],
-                    molecule=row["molecule"],
-                )
-                session.add(new_row)
+                raise ValueError("Library entry must contain either 'solute' or 'solvent' data.")
                 
             entry_counter += 1
 
