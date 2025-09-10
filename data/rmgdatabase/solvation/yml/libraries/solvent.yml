@@ -7602,6 +7602,28 @@ long_description: "\nMintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu,
   \ 433-446.\n"
 label: dimethyl carbonate
 molecule: COC(=O)OC
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: -17.43963
+  b_h: -2.99216
+  e_h: 6.67692
+  l_h: -8.18497
+  a_h: -28.87129
+  c_h: -3.10893
+  A: .nan
+  B: .nan
+  C: .nan
+  D: .nan
+  E: .nan
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: DimethylCarbonate
 ---
 short_description: ''
 long_description: "\nMintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu, H.,\
@@ -7611,3 +7633,24 @@ long_description: "\nMintz parameters: fitted by Chung, Y., Vermeire, F. H., Wu,
   \ The Netherlands: Dordrecht.\n"
 label: diethyl carbonate
 molecule: CCOC(=O)OCC
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: -16.14978
+  b_h: -0.17336
+  e_h: 6.62452
+  l_h: -8.74529
+  a_h: -25.49243
+  c_h: -4.31324
+  A: -47.078
+  B: 2783.2
+  C: 5.3617
+  D: 0.0
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan

@@ -74,7 +74,7 @@ event.listen(SolventLibrary, "before_insert", delete_empty_desc)
 
 
 class SoluteData(SCHEMA_BASE):
-    __tablename__ = "solute_data_table"
+    __tablename__ = "groups_solute_data_table"
 
     id = Column(Integer, primary_key=True)
     parent_id = mapped_column(ForeignKey("groups_table.id"))  # Link to groups for group data

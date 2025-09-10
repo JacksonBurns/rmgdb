@@ -14,19 +14,19 @@ SELECT
     groups_table.long_description, 
     groups_table.label, 
     groups_table."group",
-    solute_data_table.S,
-    solute_data_table.B,
-    solute_data_table.E,
-    solute_data_table.L,
-    solute_data_table.A,
-    solute_data_table.V,
+    groups_solute_data_table.S,
+    groups_solute_data_table.B,
+    groups_solute_data_table.E,
+    groups_solute_data_table.L,
+    groups_solute_data_table.A,
+    groups_solute_data_table.V,
     data_count_gav_table.S as S_count,
     data_count_gav_table.B as B_count,
     data_count_gav_table.E as E_count,
     data_count_gav_table.L as L_count,
     data_count_gav_table.A as A_count
 FROM groups_table
-LEFT JOIN solute_data_table ON solute_data_table.parent_id = groups_table.id
+LEFT JOIN groups_solute_data_table ON groups_solute_data_table.parent_id = groups_table.id
 LEFT JOIN data_count_gav_table ON data_count_gav_table.parent_id = groups_table.id""")
 
 # Create view for label pairs (parent-child relationships)
@@ -180,7 +180,7 @@ solvent_libraries_view_sql = text(f"CREATE VIEW {solvent_library_view_name} AS {
 # Removed generic solvation_libraries_view as the unified table is no longer used
 
 # Create a view for solute data table (group data, not library data)
-solute_data_table_view_sql = text("""CREATE VIEW solute_data_table_view AS 
+groups_solute_data_table_view_sql = text("""CREATE VIEW groups_solute_data_table_view AS 
 SELECT 
     groups_table.id,
     groups_table.name,
@@ -188,14 +188,14 @@ SELECT
     groups_table.long_description,
     groups_table.label,
     groups_table."group",
-    solute_data_table.S,
-    solute_data_table.B,
-    solute_data_table.E,
-    solute_data_table.L,
-    solute_data_table.A,
-    solute_data_table.V
+    groups_solute_data_table.S,
+    groups_solute_data_table.B,
+    groups_solute_data_table.E,
+    groups_solute_data_table.L,
+    groups_solute_data_table.A,
+    groups_solute_data_table.V
 FROM groups_table
-LEFT JOIN solute_data_table ON solute_data_table.parent_id = groups_table.id""")
+LEFT JOIN groups_solute_data_table ON groups_solute_data_table.parent_id = groups_table.id""")
 
 # Create a view for solvent data with molecule information
 solvent_data_table_view_sql = text("""CREATE VIEW solvent_data_table_view AS 

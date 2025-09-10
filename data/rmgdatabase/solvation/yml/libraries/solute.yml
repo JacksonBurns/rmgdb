@@ -12,6 +12,28 @@ solute:
   L: -0.323
   A: 0.0
   V: 0.2495
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -27,6 +49,28 @@ solute:
   L: 0.492
   A: 0.0
   V: 0.3904
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -42,6 +86,28 @@ solute:
   L: 1.05
   A: 0.0
   V: 0.5313
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -57,6 +123,28 @@ solute:
   L: 1.615
   A: 0.0
   V: 0.6722
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -72,6 +160,28 @@ solute:
   L: 1.409
   A: 0.0
   V: 0.6722
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -87,6 +197,28 @@ solute:
   L: 2.162
   A: 0.0
   V: 0.8131
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -102,6 +234,28 @@ solute:
   L: 2.013
   A: 0.0
   V: 0.8131
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -117,6 +271,28 @@ solute:
   L: 1.82
   A: 0.0
   V: 0.8131
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -132,6 +308,28 @@ solute:
   L: 2.668
   A: 0.0
   V: 0.954
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -147,6 +345,28 @@ solute:
   L: 2.503
   A: 0.0
   V: 0.954
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -162,6 +382,28 @@ solute:
   L: 2.581
   A: 0.0
   V: 0.954
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -177,6 +419,28 @@ solute:
   L: 2.352
   A: 0.0
   V: 0.954
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -192,6 +456,28 @@ solute:
   L: 2.495
   A: 0.0
   V: 0.954
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -207,6 +493,28 @@ solute:
   L: 3.173
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -222,6 +530,28 @@ solute:
   L: 3.001
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -237,6 +567,28 @@ solute:
   L: 3.044
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -252,6 +604,28 @@ solute:
   L: 2.796
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -267,6 +641,28 @@ solute:
   L: 3.016
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -282,6 +678,28 @@ solute:
   L: 2.809
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -297,6 +715,28 @@ solute:
   L: 2.809
   A: 0.0
   V: 1.0949
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -312,6 +752,28 @@ solute:
   L: 3.677
   A: 0.0
   V: 1.2358
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -327,6 +789,28 @@ solute:
   L: 3.51
   A: 0.0
   V: 1.2358
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -342,6 +826,28 @@ solute:
   L: 3.106
   A: 0.0
   V: 1.2358
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -357,6 +863,28 @@ solute:
   L: 3.481
   A: 0.0
   V: 1.2358
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -372,6 +900,28 @@ solute:
   L: 4.182
   A: 0.0
   V: 1.3767
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -387,6 +937,28 @@ solute:
   L: 3.567
   A: 0.0
   V: 1.3767
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -402,6 +974,28 @@ solute:
   L: 4.686
   A: 0.0
   V: 1.5176
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -417,6 +1011,28 @@ solute:
   L: 1.314
   A: 0.0
   V: 0.4227
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.18
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -432,6 +1048,28 @@ solute:
   L: 2.477
   A: 0.0
   V: 0.7045
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.263
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -447,6 +1085,28 @@ solute:
   L: 2.816
   A: 0.0
   V: 0.8454
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.225
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -462,6 +1122,28 @@ solute:
   L: 3.803
   A: 0.0
   V: 1.272
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.225
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -477,6 +1159,28 @@ solute:
   L: 2.964
   A: 0.0
   V: 0.8454
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.305
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -492,6 +1196,28 @@ solute:
   L: 3.323
   A: 0.0
   V: 0.9863
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.244
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: 'E, L values are the '
 long_description: |2
@@ -507,6 +1233,28 @@ solute:
   L: 3.6665
   A: 0.0
   V: 1.272
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.236
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -522,6 +1270,28 @@ solute:
   L: 0.289
   A: 0.0
   V: 0.3474
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.107
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -537,6 +1307,28 @@ solute:
   L: 0.946
   A: 0.0
   V: 0.4883
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.103
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -552,6 +1344,28 @@ solute:
   L: 1.491
   A: 0.0
   V: 0.6292
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.1
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -567,6 +1381,28 @@ solute:
   L: 2.047
   A: 0.0
   V: 0.7701
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.093
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -582,6 +1418,28 @@ solute:
   L: 2.211
   A: 0.0
   V: 0.7701
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.141
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -597,6 +1455,28 @@ solute:
   L: 1.91
   A: 0.0
   V: 0.7701
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.063
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -612,6 +1492,28 @@ solute:
   L: 2.226
   A: 0.0
   V: 0.7701
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.159
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -627,6 +1529,28 @@ solute:
   L: 2.572
   A: 0.0
   V: 0.911
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.078
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -642,6 +1566,28 @@ solute:
   L: 2.588
   A: 0.0
   V: 0.911
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.09
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -657,6 +1603,28 @@ solute:
   L: 3.063
   A: 0.0
   V: 1.0519
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.092
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -672,6 +1640,28 @@ solute:
   L: 3.568
   A: 0.0
   V: 1.1928
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.094
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -687,6 +1677,28 @@ solute:
   L: 4.073
   A: 0.0
   V: 1.3337
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.09
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -702,6 +1714,28 @@ solute:
   L: 1.543
   A: 0.0
   V: 0.5862
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.32
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -717,6 +1751,28 @@ solute:
   L: 2.101
   A: 0.0
   V: 0.7271
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.313
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -732,6 +1788,28 @@ solute:
   L: 2.69
   A: 0.0
   V: 0.868
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: 0.352
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -747,6 +1825,28 @@ solute:
   L: 2.402
   A: 0.0
   V: 0.6615
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.335
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -762,6 +1862,28 @@ solute:
   L: 3.021
   A: 0.0
   V: 0.8024
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.395
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -777,6 +1899,28 @@ solute:
   L: 3.483
   A: 0.0
   V: 0.9433
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.391
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -792,6 +1936,28 @@ solute:
   L: 3.442
   A: 0.0
   V: 0.8573
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.18
+  C: .nan
+  D: .nan
+  E: 0.764
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -807,6 +1973,28 @@ solute:
   L: 1.025
   A: 0.13
   V: 0.4453
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.15
+  C: .nan
+  D: .nan
+  E: 0.183
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -822,6 +2010,28 @@ solute:
   L: 1.52
   A: 0.13
   V: 0.5862
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.15
+  C: .nan
+  D: .nan
+  E: 0.178
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -837,6 +2047,28 @@ solute:
   L: 2.01
   A: 0.13
   V: 0.7271
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.172
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -852,6 +2084,28 @@ solute:
   L: 2.51
   A: 0.13
   V: 0.868
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.166
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -867,6 +2121,28 @@ solute:
   L: 3.0
   A: 0.13
   V: 1.0089
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.16
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -882,6 +2158,28 @@ solute:
   L: 3.521
   A: 0.13
   V: 1.1498
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.155
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -897,6 +2195,28 @@ solute:
   L: 2.015
   A: 0.0
   V: 0.7309
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.041
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -912,6 +2232,28 @@ solute:
   L: 2.954
   A: 0.0
   V: 1.0127
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.008
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -927,6 +2269,28 @@ solute:
   L: 2.482
   A: 0.0
   V: 1.0127
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -942,6 +2306,28 @@ solute:
   L: 3.924
   A: 0.0
   V: 1.2945
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -957,6 +2343,28 @@ solute:
   L: 2.636
   A: 0.0
   V: 0.6223
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.289
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -972,6 +2380,28 @@ solute:
   L: 2.82
   A: 0.0
   V: 0.7632
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.53
+  C: .nan
+  D: .nan
+  E: 0.241
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -987,6 +2417,28 @@ solute:
   L: 2.98
   A: 0.0
   V: 0.9041
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.58
+  C: .nan
+  D: .nan
+  E: 0.204
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1002,6 +2454,28 @@ solute:
   L: 3.057
   A: 0.0
   V: 0.8288
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.55
+  C: .nan
+  D: .nan
+  E: 0.275
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1017,6 +2491,28 @@ solute:
   L: 2.892
   A: 0.0
   V: 0.681
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.64
+  C: .nan
+  D: .nan
+  E: 0.329
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1032,6 +2528,28 @@ solute:
   L: 0.73
   A: 0.0
   V: 0.2652
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.33
+  C: .nan
+  D: .nan
+  E: 0.22
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1047,6 +2565,28 @@ solute:
   L: 1.23
   A: 0.0
   V: 0.4061
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.208
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1062,6 +2602,28 @@ solute:
   L: 1.815
   A: 0.0
   V: 0.547
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.196
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1077,6 +2639,28 @@ solute:
   L: 2.27
   A: 0.0
   V: 0.6879
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.187
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1092,6 +2676,28 @@ solute:
   L: 2.12
   A: 0.0
   V: 0.6879
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.144
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1107,6 +2713,28 @@ solute:
   L: 2.851
   A: 0.0
   V: 0.8288
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.163
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1122,6 +2750,28 @@ solute:
   L: 3.357
   A: 0.0
   V: 0.9697
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.146
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1137,6 +2787,28 @@ solute:
   L: 3.865
   A: 0.0
   V: 1.1106
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.14
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1152,6 +2824,28 @@ solute:
   L: 4.361
   A: 0.0
   V: 1.2515
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.16
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1167,6 +2861,28 @@ solute:
   L: 4.856
   A: 0.0
   V: 1.3924
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.15
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1182,6 +2898,28 @@ solute:
   L: 2.57
   A: 0.0
   V: 0.6449
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.49
+  C: .nan
+  D: .nan
+  E: 0.387
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1197,6 +2935,28 @@ solute:
   L: 3.4
   A: 0.0
   V: 0.786
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.404
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1212,6 +2972,28 @@ solute:
   L: 1.696
   A: 0.04
   V: 0.547
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.04
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.179
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1227,6 +3009,28 @@ solute:
   L: 2.287
   A: 0.0
   V: 0.6879
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.166
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1242,6 +3046,28 @@ solute:
   L: 2.755
   A: 0.0
   V: 0.8288
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.143
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1257,6 +3083,28 @@ solute:
   L: 2.811
   A: 0.0
   V: 0.8288
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.154
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1272,6 +3120,28 @@ solute:
   L: 2.692
   A: 0.0
   V: 0.8288
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.134
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1287,6 +3157,28 @@ solute:
   L: 3.262
   A: 0.0
   V: 0.9676
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.136
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1302,6 +3194,28 @@ solute:
   L: 3.089
   A: 0.0
   V: 0.9676
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.111
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1317,6 +3231,28 @@ solute:
   L: 3.76
   A: 0.0
   V: 1.1106
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.123
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1332,6 +3268,28 @@ solute:
   L: 3.705
   A: 0.0
   V: 1.1106
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.113
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1347,6 +3305,28 @@ solute:
   L: 4.257
   A: 0.0
   V: 1.2515
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.108
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1362,6 +3342,28 @@ solute:
   L: 4.735
   A: 0.0
   V: 1.3924
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.119
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1377,6 +3379,28 @@ solute:
   L: 4.698
   A: 0.0
   V: 1.3924
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.103
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1392,6 +3416,28 @@ solute:
   L: 5.245
   A: 0.0
   V: 1.5333
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.108
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1407,6 +3453,28 @@ solute:
   L: 5.732
   A: 0.0
   V: 1.6742
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.51
+  C: .nan
+  D: .nan
+  E: 0.101
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1422,6 +3490,28 @@ solute:
   L: 3.221
   A: 0.0
   V: 0.7202
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.52
+  C: .nan
+  D: .nan
+  E: 0.373
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1437,6 +3527,28 @@ solute:
   L: 3.792
   A: 0.0
   V: 0.8611
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.403
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1452,6 +3564,28 @@ solute:
   L: 1.285
   A: 0.0
   V: 0.4648
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.38
+  C: .nan
+  D: .nan
+  E: 0.192
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1467,6 +3601,28 @@ solute:
   L: 1.845
   A: 0.0
   V: 0.6057
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.38
+  C: .nan
+  D: .nan
+  E: 0.146
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1482,6 +3638,28 @@ solute:
   L: 2.433
   A: 0.0
   V: 0.7466
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.132
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1497,6 +3675,28 @@ solute:
   L: 2.23
   A: 0.0
   V: 0.7466
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.4
+  C: .nan
+  D: .nan
+  E: 0.091
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1512,6 +3712,28 @@ solute:
   L: 2.789
   A: 0.0
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.4
+  C: .nan
+  D: .nan
+  E: 0.095
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1527,6 +3749,28 @@ solute:
   L: 3.306
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.4
+  C: .nan
+  D: .nan
+  E: 0.092
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1542,6 +3786,28 @@ solute:
   L: 1.911
   A: 0.0
   V: 0.6057
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.142
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1557,6 +3823,28 @@ solute:
   L: 2.314
   A: 0.0
   V: 0.7466
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.106
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1572,6 +3860,28 @@ solute:
   L: 2.819
   A: 0.0
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.4
+  C: .nan
+  D: .nan
+  E: 0.092
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1587,6 +3897,28 @@ solute:
   L: 2.546
   A: 0.0
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.47
+  C: .nan
+  D: .nan
+  E: 0.055
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1602,6 +3934,28 @@ solute:
   L: 3.353
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.071
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1617,6 +3971,28 @@ solute:
   L: 3.161
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.47
+  C: .nan
+  D: .nan
+  E: 0.052
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1632,6 +4008,28 @@ solute:
   L: 3.844
   A: 0.0
   V: 1.1693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.067
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1647,6 +4045,28 @@ solute:
   L: 3.74
   A: 0.0
   V: 1.1693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.47
+  C: .nan
+  D: .nan
+  E: 0.051
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1662,6 +4082,28 @@ solute:
   L: 4.351
   A: 0.0
   V: 1.3102
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.056
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1677,6 +4119,28 @@ solute:
   L: 2.431
   A: 0.0
   V: 0.7466
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.128
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1692,6 +4156,28 @@ solute:
   L: 2.807
   A: 0.0
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.087
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1707,6 +4193,28 @@ solute:
   L: 3.338
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.07
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1722,6 +4230,28 @@ solute:
   L: 4.331
   A: 0.0
   V: 1.3102
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.05
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1737,6 +4267,28 @@ solute:
   L: 2.893
   A: 0.0
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.106
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1752,6 +4304,28 @@ solute:
   L: 3.271
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.068
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1767,6 +4341,28 @@ solute:
   L: 3.783
   A: 0.0
   V: 1.1693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.05
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1782,6 +4378,28 @@ solute:
   L: 3.392
   A: 0.0
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.108
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1797,6 +4415,28 @@ solute:
   L: 3.769
   A: 0.0
   V: 1.1693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.049
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1812,6 +4452,28 @@ solute:
   L: 3.874
   A: 0.0
   V: 1.1693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.08
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1827,6 +4489,28 @@ solute:
   L: 4.251
   A: 0.0
   V: 1.3102
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.043
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1842,6 +4526,28 @@ solute:
   L: 3.885
   A: 0.0
   V: 1.3102
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.47
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1857,6 +4563,28 @@ solute:
   L: 1.75
   A: 0.61
   V: 0.4648
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.61
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.265
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1872,6 +4600,28 @@ solute:
   L: 2.29
   A: 0.6
   V: 0.6057
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.6
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.233
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1887,6 +4637,28 @@ solute:
   L: 2.83
   A: 0.6
   V: 0.7466
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.6
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.21
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1902,6 +4674,28 @@ solute:
   L: 3.38
   A: 0.6
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.6
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.205
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1917,6 +4711,28 @@ solute:
   L: 3.14
   A: 0.6
   V: 0.8875
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.6
+  B: 0.5
+  C: .nan
+  D: .nan
+  E: 0.178
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1932,6 +4748,28 @@ solute:
   L: 3.92
   A: 0.6
   V: 1.0284
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.6
+  B: 0.45
+  C: .nan
+  D: .nan
+  E: 0.174
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1947,6 +4785,28 @@ solute:
   L: 0.26
   A: 0.82
   V: 0.1673
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.82
+  B: 0.35
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1962,6 +4822,28 @@ solute:
   L: 0.97
   A: 0.43
   V: 0.3082
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.43
+  B: 0.47
+  C: .nan
+  D: .nan
+  E: 0.278
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1977,6 +4859,28 @@ solute:
   L: 1.485
   A: 0.37
   V: 0.4491
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.246
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -1992,6 +4896,28 @@ solute:
   L: 2.031
   A: 0.37
   V: 0.59
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.236
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2007,6 +4933,28 @@ solute:
   L: 1.764
   A: 0.33
   V: 0.59
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.33
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.212
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2022,6 +4970,28 @@ solute:
   L: 2.601
   A: 0.37
   V: 0.7309
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.224
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2037,6 +5007,28 @@ solute:
   L: 2.413
   A: 0.37
   V: 0.7309
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.217
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2052,6 +5044,28 @@ solute:
   L: 2.338
   A: 0.33
   V: 0.7309
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.33
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.217
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2067,6 +5081,28 @@ solute:
   L: 1.963
   A: 0.31
   V: 0.7309
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.31
+  B: 0.6
+  C: .nan
+  D: .nan
+  E: 0.18
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2082,6 +5118,28 @@ solute:
   L: 3.106
   A: 0.37
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.219
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2097,6 +5155,28 @@ solute:
   L: 3.106
   A: 0.33
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.33
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.195
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2112,6 +5192,28 @@ solute:
   L: 2.84
   A: 0.33
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.33
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.218
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2127,6 +5229,28 @@ solute:
   L: 3.011
   A: 0.37
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.219
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2142,6 +5266,28 @@ solute:
   L: 2.86
   A: 0.37
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.192
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2157,6 +5303,28 @@ solute:
   L: 2.63
   A: 0.31
   V: 0.8718
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.31
+  B: 0.6
+  C: .nan
+  D: .nan
+  E: 0.194
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2172,6 +5340,28 @@ solute:
   L: 3.61
   A: 0.37
   V: 1.0127
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.37
+  B: 0.48
+  C: .nan
+  D: .nan
+  E: 0.21
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2187,6 +5377,28 @@ solute:
   L: 3.343
   A: 0.33
   V: 1.0127
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.33
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.2
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2202,6 +5414,28 @@ solute:
   L: 3.081
   A: 0.31
   V: 1.0127
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.31
+  B: 0.6
+  C: .nan
+  D: .nan
+  E: 0.169
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2216,6 +5450,28 @@ solute:
   L: -0.688
   A: 0.0
   V: 0.19
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2230,6 +5486,28 @@ solute:
   L: -1.575
   A: 0.0
   V: 0.085
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2244,6 +5522,28 @@ solute:
   L: -1.741
   A: 0.0
   V: 0.068
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2260,6 +5560,28 @@ solute:
   L: -0.978
   A: 0.0
   V: 0.2222
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: "\nMichael H. Abraham,a Andreas M. Zissimos, a and William E. Acree,\
@@ -2273,6 +5595,28 @@ solute:
   L: -0.723
   A: 0.0
   V: 0.183
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2287,6 +5631,28 @@ solute:
   L: 2.651
   A: 0.4
   V: 0.7124
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.4
+  B: 0.5
+  C: .nan
+  D: .nan
+  E: 0.407
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2301,6 +5667,28 @@ solute:
   L: -1.2
   A: 0.0
   V: 0.1086
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2315,6 +5703,28 @@ solute:
   L: 0.039
   A: 0.09
   V: 0.2417
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2329,6 +5739,28 @@ solute:
   L: 0.164
   A: 0.0
   V: 0.2809
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.068
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2343,6 +5775,28 @@ solute:
   L: -0.596
   A: 0.0
   V: 0.2026
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: -0.1
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2357,6 +5811,28 @@ solute:
   L: -0.836
   A: 0.0
   V: 0.222
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2371,6 +5847,28 @@ solute:
   L: 0.058
   A: 0.05
   V: 0.2809
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.05
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2385,6 +5883,28 @@ solute:
   L: 1.226
   A: 0.78
   V: 0.226
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.78
+  B: 0.41
+  C: .nan
+  D: .nan
+  E: 0.451
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2399,6 +5919,28 @@ solute:
   L: 0.778
   A: 0.28
   V: 0.3465
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.28
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.37
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2413,6 +5955,28 @@ solute:
   L: 1.137
   A: 0.0
   V: 0.3857
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.487
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2427,6 +5991,28 @@ solute:
   L: 1.193
   A: 0.1
   V: 0.3534
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.36
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2441,6 +6027,28 @@ solute:
   L: 2.4748
   A: 0.18
   V: 0.4586
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.18
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.918
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2455,6 +6063,28 @@ solute:
   L: 3.036
   A: 0.28
   V: 0.625
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.28
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 1.216
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2469,6 +6099,28 @@ solute:
   L: 1.6277
   A: 0.39
   V: 0.3082
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.39
+  B: 0.71
+  C: .nan
+  D: .nan
+  E: 0.514
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2483,6 +6135,28 @@ solute:
   L: -0.2078
   A: 0.0
   V: 0.2615
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.099
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2497,6 +6171,28 @@ solute:
   L: 0.172
   A: 0.0
   V: 0.379
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.044
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2511,6 +6207,28 @@ solute:
   L: 0.34
   A: 0.0
   V: 0.3132
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.2
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2525,6 +6243,28 @@ solute:
   L: 0.9167
   A: 0.1
   V: 0.3465
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.21
+  C: .nan
+  D: .nan
+  E: 0.23
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2539,6 +6279,28 @@ solute:
   L: 0.489
   A: 0.467
   V: 0.231
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.467
+  B: 0.089
+  C: .nan
+  D: .nan
+  E: 0.287
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2553,6 +6315,28 @@ solute:
   L: 0.931
   A: 0.373
   V: 0.2836
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.373
+  B: 0.078
+  C: .nan
+  D: .nan
+  E: 0.374
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2567,6 +6351,28 @@ solute:
   L: 1.43
   A: 0.255
   V: 0.3668
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.255
+  B: 0.183
+  C: .nan
+  D: .nan
+  E: 0.49
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2581,6 +6387,28 @@ solute:
   L: 0.8289
   A: 0.38
   V: 0.2633
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.38
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: 0.213
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2595,6 +6423,28 @@ solute:
   L: 1.1508
   A: 0.45
   V: 0.322
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.45
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.26
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2609,6 +6459,28 @@ solute:
   L: 0.236
   A: 0.0
   V: 0.3044
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.21
+  C: .nan
+  D: .nan
+  E: 0.1
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2623,6 +6495,28 @@ solute:
   L: 0.057
   A: 0.0
   V: 0.2672
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.09
+  C: .nan
+  D: .nan
+  E: 0.066
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2637,6 +6531,28 @@ solute:
   L: 0.751
   A: 0.0
   V: 0.4081
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.052
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2651,6 +6567,28 @@ solute:
   L: 0.5954
   A: 0.03
   V: 0.4258
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.03
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: -0.204
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2665,6 +6603,28 @@ solute:
   L: 0.324
   A: 0.0
   V: 0.4435
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: -0.33
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2679,6 +6639,28 @@ solute:
   L: 0.513
   A: 0.16
   V: 0.4435
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.16
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: -0.3
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2693,6 +6675,28 @@ solute:
   L: 0.4172
   A: 0.06
   V: 0.4612
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.06
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.408
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2707,6 +6711,28 @@ solute:
   L: 0.394
   A: 0.1
   V: 0.4612
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: -0.394
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2721,6 +6747,28 @@ solute:
   L: 0.1419
   A: 0.12
   V: 0.4789
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.12
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.51
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2735,6 +6783,28 @@ solute:
   L: 0.1699
   A: 0.03
   V: 0.2849
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.03
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: -0.204
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2749,6 +6819,28 @@ solute:
   L: -0.0956
   A: 0.06
   V: 0.3026
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.06
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.306
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2763,6 +6855,28 @@ solute:
   L: -0.799
   A: 0.0
   V: 0.3203
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.408
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2777,6 +6891,28 @@ solute:
   L: -0.429
   A: 0.0
   V: 0.4966
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.64
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2791,6 +6927,28 @@ solute:
   L: 0.5386
   A: 0.0
   V: 0.3651
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.03
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2805,6 +6963,28 @@ solute:
   L: 0.331
   A: 0.0
   V: 0.3828
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: -0.1
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2819,6 +6999,28 @@ solute:
   L: 1.1487
   A: 0.0
   V: 0.3719
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.249
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2833,6 +7035,28 @@ solute:
   L: 1.818
   A: 0.12
   V: 0.4943
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.12
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.387
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2847,6 +7071,28 @@ solute:
   L: 2.4085
   A: 0.15
   V: 0.6167
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.15
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.425
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2861,6 +7107,28 @@ solute:
   L: 2.823
   A: 0.0
   V: 0.7391
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.458
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2875,6 +7143,28 @@ solute:
   L: 1.664
   A: 0.0
   V: 0.5128
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.227
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2889,6 +7179,28 @@ solute:
   L: 2.133
   A: 0.07
   V: 0.6352
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.322
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2903,6 +7215,28 @@ solute:
   L: 2.55
   A: 0.09
   V: 0.6352
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.09
+  C: .nan
+  D: .nan
+  E: 0.416
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2917,6 +7251,28 @@ solute:
   L: 2.751
   A: 0.0
   V: 0.7576
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.369
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2931,6 +7287,28 @@ solute:
   L: 3.29
   A: 0.13
   V: 0.7576
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.13
+  C: .nan
+  D: .nan
+  E: 0.499
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2945,6 +7323,28 @@ solute:
   L: 3.803
   A: 0.16
   V: 0.88
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.16
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.595
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2959,6 +7359,28 @@ solute:
   L: 3.641
   A: 0.1
   V: 0.88
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.542
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2973,6 +7395,28 @@ solute:
   L: 4.267
   A: 0.17
   V: 1.0024
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.17
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.648
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -2987,6 +7431,28 @@ solute:
   L: 4.573
   A: 0.0
   V: 1.1248
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.68
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3001,6 +7467,28 @@ solute:
   L: 0.0826
   A: 0.0
   V: 0.4182
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: -0.31
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3015,6 +7503,28 @@ solute:
   L: 1.404
   A: 0.0
   V: 0.4698
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.258
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3029,6 +7539,28 @@ solute:
   L: 2.11
   A: 0.0
   V: 0.5922
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.362
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3043,6 +7575,28 @@ solute:
   L: 2.278
   A: 0.09
   V: 0.5922
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.425
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3057,6 +7611,28 @@ solute:
   L: 3.0292
   A: 0.0
   V: 0.7146
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.01
+  C: .nan
+  D: .nan
+  E: 0.524
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3071,6 +7647,28 @@ solute:
   L: 3.584
   A: 0.0
   V: 0.837
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.639
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3085,6 +7683,28 @@ solute:
   L: 1.63
   A: 0.0
   V: 0.4245
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.399
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3099,6 +7719,28 @@ solute:
   L: 2.886
   A: 0.11
   V: 0.5995
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.11
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.714
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3113,6 +7755,28 @@ solute:
   L: 3.784
   A: 0.15
   V: 0.7745
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.15
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.974
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3127,6 +7791,28 @@ solute:
   L: 4.557
   A: 0.0
   V: 0.9495
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 1.19
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3141,6 +7827,28 @@ solute:
   L: 2.12
   A: 0.0
   V: 0.5654
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.366
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3155,6 +7863,28 @@ solute:
   L: 3.174
   A: 0.1
   V: 0.7404
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.16
+  C: .nan
+  D: .nan
+  E: 0.653
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3169,6 +7899,28 @@ solute:
   L: 3.382
   A: 0.1
   V: 0.7404
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.17
+  C: .nan
+  D: .nan
+  E: 0.747
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3183,6 +7935,28 @@ solute:
   L: 5.6
   A: 0.17
   V: 1.0904
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.17
+  B: 0.24
+  C: .nan
+  D: .nan
+  E: 1.343
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3197,6 +7971,28 @@ solute:
   L: 1.8871
   A: 0.0
   V: 0.5224
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.426
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3211,6 +8007,28 @@ solute:
   L: 3.132
   A: 0.09
   V: 0.6974
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.771
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3225,6 +8043,28 @@ solute:
   L: 2.106
   A: 0.0
   V: 0.5077
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.676
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3239,6 +8079,28 @@ solute:
   L: 3.857
   A: 0.05
   V: 0.7659
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.05
+  B: 0.17
+  C: .nan
+  D: .nan
+  E: 1.2
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3253,6 +8115,28 @@ solute:
   L: 6.42
   A: 0.09
   V: 1.0241
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.26
+  C: .nan
+  D: .nan
+  E: 1.95
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3267,6 +8151,28 @@ solute:
   L: 2.573
   A: 0.0
   V: 0.6486
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: 0.64
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3281,6 +8187,28 @@ solute:
   L: 0.9818
   A: 0.07
   V: 0.3896
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.042
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3295,6 +8223,28 @@ solute:
   L: 2.445
   A: 0.01
   V: 0.5469
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.01
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.541
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3309,6 +8259,28 @@ solute:
   L: 2.947
   A: 0.13
   V: 0.6301
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.845
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3323,6 +8295,28 @@ solute:
   L: 1.95
   A: 0.11
   V: 0.5646
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.11
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: 0.345
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3337,6 +8331,28 @@ solute:
   L: 1.5356
   A: 0.15
   V: 0.512
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.15
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.174
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3351,6 +8367,28 @@ solute:
   L: 0.6955
   A: 0.09
   V: 0.4073
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.01
+  C: .nan
+  D: .nan
+  E: -0.066
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3365,6 +8403,28 @@ solute:
   L: 2.4709
   A: 0.15
   V: 0.6172
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.15
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.495
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3379,6 +8439,28 @@ solute:
   L: 2.891
   A: 0.1
   V: 0.6693
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.593
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3393,6 +8475,28 @@ solute:
   L: 3.304
   A: 0.12
   V: 0.7219
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.12
+  B: 0.1
+  C: .nan
+  D: .nan
+  E: 0.775
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3407,6 +8511,28 @@ solute:
   L: 1.9168
   A: 0.0
   V: 0.6344
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.318
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3421,6 +8547,28 @@ solute:
   L: 1.112
   A: 0.0
   V: 0.5297
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.02
+  C: .nan
+  D: .nan
+  E: 0.071
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3435,6 +8583,28 @@ solute:
   L: 0.193
   A: 0.0
   V: 0.425
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.02
+  C: .nan
+  D: .nan
+  E: -0.168
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3449,6 +8619,28 @@ solute:
   L: 1.5354
   A: 0.0
   V: 0.5823
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.22
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3463,6 +8655,28 @@ solute:
   L: 1.961
   A: 0.0
   V: 0.6349
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.272
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3477,6 +8691,28 @@ solute:
   L: 0.8287
   A: 0.0
   V: 0.4776
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.01
+  C: .nan
+  D: .nan
+  E: 0.033
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3491,6 +8727,28 @@ solute:
   L: 3.294
   A: 0.0
   V: 0.7917
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.637
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3505,6 +8763,28 @@ solute:
   L: 2.225
   A: 0.09
   V: 0.5831
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: 0.23
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3519,6 +8799,28 @@ solute:
   L: 2.982
   A: 0.1
   V: 0.6878
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.09
+  C: .nan
+  D: .nan
+  E: 0.572
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3533,6 +8835,28 @@ solute:
   L: 1.18
   A: 0.0
   V: 0.5482
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: -0.066
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3547,6 +8871,28 @@ solute:
   L: 1.76
   A: 0.09
   V: 0.5482
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: -0.08
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3561,6 +8907,28 @@ solute:
   L: 1.986
   A: 0.0
   V: 0.6529
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.174
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3575,6 +8943,28 @@ solute:
   L: 2.54
   A: 0.09
   V: 0.793
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.02
+  C: .nan
+  D: .nan
+  E: 0.116
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3589,6 +8979,28 @@ solute:
   L: 2.54
   A: 0.0
   V: 0.7232
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.236
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3603,6 +9015,28 @@ solute:
   L: 2.49
   A: 0.0
   V: 0.7232
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: 0.236
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3617,6 +9051,28 @@ solute:
   L: 2.21
   A: 0.18
   V: 0.6706
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.18
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.012
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3631,6 +9087,28 @@ solute:
   L: 2.12
   A: 0.0
   V: 0.6706
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.012
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3645,6 +9123,28 @@ solute:
   L: 1.1726
   A: 0.07
   V: 0.5659
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.06
+  C: .nan
+  D: .nan
+  E: -0.168
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3659,6 +9159,28 @@ solute:
   L: 1.186
   A: 0.06
   V: 0.5659
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.06
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: -0.16
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3673,6 +9195,28 @@ solute:
   L: 2.889
   A: 0.12
   V: 0.7935
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.12
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.362
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3687,6 +9231,28 @@ solute:
   L: 1.7577
   A: 0.13
   V: 0.6883
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.03
+  C: .nan
+  D: .nan
+  E: -0.03
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3701,6 +9267,28 @@ solute:
   L: 1.83
   A: 0.09
   V: 0.6883
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.03
+  C: .nan
+  D: .nan
+  E: -0.086
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3715,6 +9303,28 @@ solute:
   L: 2.866
   A: 0.07
   V: 0.7935
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.362
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3729,6 +9339,28 @@ solute:
   L: 1.982
   A: 0.13
   V: 0.7409
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.102
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3743,6 +9375,28 @@ solute:
   L: 1.54
   A: 0.09
   V: 0.636
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: -0.064
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3757,6 +9411,28 @@ solute:
   L: 1.54
   A: 0.09
   V: 0.636
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: -0.064
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3771,6 +9447,28 @@ solute:
   L: 1.006
   A: 0.06
   V: 0.5836
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.06
+  B: 0.01
+  C: .nan
+  D: .nan
+  E: -0.27
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3785,6 +9483,28 @@ solute:
   L: 2.5
   A: 0.09
   V: 0.793
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.02
+  C: .nan
+  D: .nan
+  E: 0.116
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3799,6 +9519,28 @@ solute:
   L: 2.227
   A: 0.07
   V: 0.7409
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.138
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3813,6 +9555,28 @@ solute:
   L: 2.21
   A: 0.07
   V: 0.7409
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.138
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3827,6 +9591,28 @@ solute:
   L: 2.953
   A: 0.09
   V: 0.8456
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.09
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.34
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3841,6 +9627,28 @@ solute:
   L: 2.0
   A: 0.0
   V: 0.8107
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.09
+  C: .nan
+  D: .nan
+  E: 0.126
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3855,6 +9663,28 @@ solute:
   L: 2.3309
   A: 0.0
   V: 0.8107
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.02
+  C: .nan
+  D: .nan
+  E: 0.108
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3869,6 +9699,28 @@ solute:
   L: 0.9818
   A: 0.07
   V: 0.3896
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.042
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3883,6 +9735,28 @@ solute:
   L: 3.094
   A: 0.0
   V: 0.9154
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.03
+  C: .nan
+  D: .nan
+  E: 0.364
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3897,6 +9771,28 @@ solute:
   L: 1.4049
   A: 0.0
   V: 0.706
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.01
+  C: .nan
+  D: .nan
+  E: -0.132
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3911,6 +9807,28 @@ solute:
   L: 2.169
   A: 0.0
   V: 0.8112
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.068
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3925,6 +9843,28 @@ solute:
   L: 1.9
   A: 0.0
   V: 0.7586
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.04
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3939,6 +9879,28 @@ solute:
   L: 0.5158
   A: 0.0
   V: 0.6013
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.03
+  C: .nan
+  D: .nan
+  E: -0.372
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3953,6 +9915,28 @@ solute:
   L: 0.97
   A: 0.0
   V: 0.6539
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: -0.16
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3967,6 +9951,28 @@ solute:
   L: 0.977
   A: 0.0
   V: 0.5229
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.07
+  C: .nan
+  D: .nan
+  E: -0.06
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3981,6 +9987,28 @@ solute:
   L: 1.652
   A: 0.0
   V: 0.5755
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.05
+  C: .nan
+  D: .nan
+  E: 0.13
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -3995,6 +10023,28 @@ solute:
   L: 1.2414
   A: 0.02
   V: 0.5052
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.02
+  B: 0.04
+  C: .nan
+  D: .nan
+  E: 0.116
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4009,6 +10059,28 @@ solute:
   L: 1.285
   A: 0.0
   V: 0.4491
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.41
+  C: .nan
+  D: .nan
+  E: 0.0
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4023,6 +10095,28 @@ solute:
   L: 1.371
   A: 0.02
   V: 0.3405
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.02
+  B: 0.35
+  C: .nan
+  D: .nan
+  E: 0.25
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4037,6 +10131,28 @@ solute:
   L: 1.783
   A: 0.0
   V: 0.5715
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.36
+  C: .nan
+  D: .nan
+  E: 0.17
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4051,6 +10167,28 @@ solute:
   L: 1.402
   A: 0.0
   V: 0.3631
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.39
+  C: .nan
+  D: .nan
+  E: 0.28
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4065,6 +10203,28 @@ solute:
   L: 3.213
   A: 0.0
   V: 0.7733
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.21
+  C: .nan
+  D: .nan
+  E: 0.437
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4079,6 +10239,28 @@ solute:
   L: 1.739
   A: 0.07
   V: 0.4042
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.07
+  B: 0.32
+  C: .nan
+  D: .nan
+  E: 0.237
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4093,6 +10275,28 @@ solute:
   L: 2.4196
   A: 0.13
   V: 0.5266
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.13
+  B: 0.24
+  C: .nan
+  D: .nan
+  E: 0.372
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4107,6 +10311,28 @@ solute:
   L: 2.949
   A: 0.2
   V: 0.649
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.2
+  B: 0.17
+  C: .nan
+  D: .nan
+  E: 0.428
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4121,6 +10347,28 @@ solute:
   L: 3.567
   A: 0.0
   V: 0.7714
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: 0.378
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4135,6 +10383,28 @@ solute:
   L: 3.996
   A: 0.25
   V: 0.7542
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.25
+  B: 0.26
+  C: .nan
+  D: .nan
+  E: 0.766
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4149,6 +10419,28 @@ solute:
   L: 3.434
   A: 0.22
   V: 0.7016
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.22
+  B: 0.21
+  C: .nan
+  D: .nan
+  E: 0.597
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4163,6 +10455,28 @@ solute:
   L: 1.146
   A: 0.0
   V: 0.4042
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.09
+  C: .nan
+  D: .nan
+  E: 0.2
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4177,6 +10491,28 @@ solute:
   L: 0.319
   A: 0.16
   V: 0.2084
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.16
+  B: 0.56
+  C: .nan
+  D: .nan
+  E: 0.139
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4191,6 +10527,28 @@ solute:
   L: 1.3
   A: 0.16
   V: 0.3493
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.16
+  B: 0.58
+  C: .nan
+  D: .nan
+  E: 0.25
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4205,6 +10563,28 @@ solute:
   L: 1.677
   A: 0.16
   V: 0.4902
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.16
+  B: 0.61
+  C: .nan
+  D: .nan
+  E: 0.236
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4219,6 +10599,28 @@ solute:
   L: 1.6
   A: 0.08
   V: 0.4902
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.08
+  B: 0.66
+  C: .nan
+  D: .nan
+  E: 0.189
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4233,6 +10635,28 @@ solute:
   L: 1.8
   A: 0.17
   V: 0.3816
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.17
+  B: 0.44
+  C: .nan
+  D: .nan
+  E: 0.37
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4247,6 +10671,28 @@ solute:
   L: 2.265
   A: 0.26
   V: 0.3631
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.26
+  B: 0.32
+  C: .nan
+  D: .nan
+  E: 0.45
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4261,6 +10707,28 @@ solute:
   L: 2.447
   A: 0.64
   V: 0.365
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.64
+  B: 0.57
+  C: .nan
+  D: .nan
+  E: 0.468
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4275,6 +10743,28 @@ solute:
   L: 1.545
   A: 0.76
   V: 0.3239
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.76
+  B: 0.33
+  C: .nan
+  D: .nan
+  E: 0.343
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4289,6 +10779,28 @@ solute:
   L: 2.799
   A: 0.0
   V: 0.6509
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.33
+  C: .nan
+  D: .nan
+  E: 0.442
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4303,6 +10815,28 @@ solute:
   L: 1.224
   A: 0.57
   V: 0.5022
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.57
+  B: 0.25
+  C: .nan
+  D: .nan
+  E: 0.015
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4317,6 +10851,28 @@ solute:
   L: 2.429
   A: 0.39
   V: 0.5715
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.39
+  B: 0.49
+  C: .nan
+  D: .nan
+  E: 0.419
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4331,6 +10887,28 @@ solute:
   L: 3.488
   A: 0.4
   V: 0.8163
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.4
+  B: 0.3
+  C: .nan
+  D: .nan
+  E: 0.558
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4345,6 +10923,28 @@ solute:
   L: 2.913
   A: 0.38
   V: 0.6241
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.38
+  B: 0.49
+  C: .nan
+  D: .nan
+  E: 0.567
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4359,6 +10959,28 @@ solute:
   L: -0.12
   A: 0.0
   V: 0.4643
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.0
+  C: .nan
+  D: .nan
+  E: -0.6
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4373,6 +10995,28 @@ solute:
   L: 2.37
   A: 0.0
   V: 0.4905
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.03
+  C: .nan
+  D: .nan
+  E: 0.876
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4387,6 +11031,28 @@ solute:
   L: 0.706
   A: 0.1
   V: 0.2721
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.1
+  B: 0.08
+  C: .nan
+  D: .nan
+  E: 0.31
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4401,6 +11067,28 @@ solute:
   L: 1.611
   A: 0.0
   V: 0.413
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.4
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4415,6 +11103,28 @@ solute:
   L: 2.079
   A: 0.0
   V: 0.5539
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.2
+  C: .nan
+  D: .nan
+  E: 0.392
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4429,6 +11139,28 @@ solute:
   L: 1.931
   A: 0.0
   V: 0.5109
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.27
+  C: .nan
+  D: .nan
+  E: 0.446
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4443,6 +11175,28 @@ solute:
   L: 3.394
   A: 0.0
   V: 0.7802
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.12
+  C: .nan
+  D: .nan
+  E: 0.76
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4457,6 +11211,28 @@ solute:
   L: 2.037
   A: 0.0
   V: 0.5539
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.27
+  C: .nan
+  D: .nan
+  E: 0.404
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4471,6 +11247,28 @@ solute:
   L: 1.867
   A: 0.0
   V: 0.4453
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.38
+  C: .nan
+  D: .nan
+  E: 0.56
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
 ---
 short_description: ''
 long_description: |2
@@ -4485,3 +11283,25 @@ solute:
   L: 2.786
   A: 0.0
   V: 0.7164
+solvent:
+  s_g: .nan
+  b_g: .nan
+  e_g: .nan
+  l_g: .nan
+  a_g: .nan
+  c_g: .nan
+  s_h: .nan
+  b_h: .nan
+  e_h: .nan
+  l_h: .nan
+  a_h: .nan
+  c_h: .nan
+  A: 0.0
+  B: 0.14
+  C: .nan
+  D: .nan
+  E: 0.61
+  alpha: .nan
+  beta: .nan
+  eps: .nan
+  name_in_coolprop: .nan
