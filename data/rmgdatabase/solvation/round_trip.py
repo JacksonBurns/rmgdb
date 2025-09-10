@@ -69,8 +69,12 @@ def dump_db():
                 # Remove None values
                 formatted_dict["solute"] = {k: v for k, v in formatted_dict["solute"].items() if v is not None}
             
-            # Add solvent data if present
-            if not math.isnan(row.s_g) if hasattr(row, 's_g') else True:
+            # Add solvent data if present (any solvent-related field present)
+            if any(not pd.isna(getattr(row, col, None)) for col in [
+                "s_g","b_g","e_g","l_g","a_g","c_g",
+                "s_h","b_h","e_h","l_h","a_h","c_h",
+                "A","B","C","D","E","alpha","beta","eps","name_in_coolprop"
+            ]):
                 formatted_dict["solvent"] = dict(
                     s_g=row.s_g if hasattr(row, 's_g') else None,
                     b_g=row.b_g if hasattr(row, 'b_g') else None,
