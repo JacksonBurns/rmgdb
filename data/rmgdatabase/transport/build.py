@@ -11,10 +11,14 @@ sys.path.insert(0, str(ROOT))
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 from rmgdb.transport.schema import TransportLibraries, TransportGroups, TransportGroupsTree
+from rmgdatabase.common.tree_str_to_pairs import sketchy_conversion
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 DB_URI = "sqlite:///transport.db"
+
+LABEL_TO_DB_ID = {None: None}  # None: None for root/leaf nodes
+ENTRY_COUNT = 1  # Start from 1 to avoid conflicts with None
 
 class Stub:
     def __init__(self, **kwargs):
@@ -32,6 +36,7 @@ def parse_entry(file_path: Path):
         "TransportData": Stub,
         "CriticalPointGroupContribution": Stub,
         "group": Stub,
+        "tree": Stub,
     }
     exec(file_path.read_text(), globals_)
     return entries
@@ -50,10 +55,9 @@ def main():
     libs_dir = base_dir / "libraries"
     groups_dir = base_dir / "groups"
 
-    lib_count = 0
     for lib_file in libs_dir.glob("*.py"):
         entries = parse_entry(lib_file)
-        for e in entries:
+        for e in entries[0:-1]:
             lib = TransportLibraries(
                 name=e.get("name"),
                 short_description=e.get("shortDesc"),
@@ -72,8 +76,21 @@ def main():
                 rotrelaxcollnum=e.get("transport", {}).get("rotrelaxcollnum"),
             )
             session.add(lib)
-            lib_count += 1
-    logging.info(f"Added {lib_count} library entries")
+            LABEL_TO_DB_ID[e.get("label")] = ENTRY_COUNT
+            ENTRY_COUNT += 1
+        # process tree separately
+        tree = entries[-1]
+        tree_str = tree.get("tree", "")
+        pairs = sketchy_conversion(tree_str)
+        for pair in pairs:
+            row = TransportGroupsTree(
+                id=TREE_PAIRS_COUNT,
+                parent_id=LABEL_TO_DB_ID[pair[0]],
+                child_id=LABEL_TO_DB_ID[pair[1]],
+            )
+            session.add(row)
+            TREE_PAIRS_COUNT += 1
+    logging.info(f"Added {ENTRY_COUNT - 1} library entries")
 
     grp_count = 0
     for grp_file in groups_dir.glob("*.py"):
