@@ -1,48 +1,44 @@
 import sys
 from pathlib import Path
-import ast
+import importlib.util
+import logging
 
-# Ensure project root is on sys.path for imports
+# Add project root to sys.path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
+
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 from rmgdb.transport.schema import TransportLibraries, TransportGroups, TransportGroupsTree
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
+DB_URI = "sqlite:///transport.db"
 
 class Stub:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():
             setattr(self, k, v)
 
-DB_URI = "sqlite:///transport.db"
 
-
-def load_module_from_file(module_name: str, file_path: str):
-    spec = importlib.util.spec_from_file_location(module_name, file_path)
-    if spec is None or spec.loader is None:
-        raise ImportError(f"Could not load {module_name} from {file_path}")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
-def parse_entries(file_path: Path):
+def parse_entry(file_path: Path):
     entries = []
     def entry(**kwargs):
         entries.append(kwargs)
-    module_globals = {
+        logging.info(f"Captured entry from {file_path.name}: {kwargs.get('label', 'n/a')}")
+    globals_ = {
         "entry": entry,
         "TransportData": Stub,
         "CriticalPointGroupContribution": Stub,
         "group": Stub,
     }
-    code = file_path.read_text()
-    exec(code, module_globals)
+    exec(file_path.read_text(), globals_)
     return entries
 
 
 def main():
+    logging.info("Starting build process")
     engine = create_engine(DB_URI)
     TransportLibraries.metadata.create_all(engine)
     TransportGroups.metadata.create_all(engine)
@@ -50,12 +46,13 @@ def main():
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    base_dir = Path("data/rmgdatabase/transport")
+    base_dir = Path(__file__).resolve().parent / "original"
     libs_dir = base_dir / "libraries"
     groups_dir = base_dir / "groups"
 
+    lib_count = 0
     for lib_file in libs_dir.glob("*.py"):
-        entries = parse_entries(lib_file)
+        entries = parse_entry(lib_file)
         for e in entries:
             lib = TransportLibraries(
                 name=e.get("name"),
@@ -75,9 +72,12 @@ def main():
                 rotrelaxcollnum=e.get("transport", {}).get("rotrelaxcollnum"),
             )
             session.add(lib)
+            lib_count += 1
+    logging.info(f"Added {lib_count} library entries")
 
+    grp_count = 0
     for grp_file in groups_dir.glob("*.py"):
-        entries = parse_entries(grp_file)
+        entries = parse_entry(grp_file)
         for e in entries:
             grp = TransportGroups(
                 name=e.get("name"),
@@ -92,9 +92,11 @@ def main():
                 structure_index=e.get("transportGroup", {}).get("structureIndex"),
             )
             session.add(grp)
+            grp_count += 1
+    logging.info(f"Added {grp_count} group entries")
 
     session.commit()
-    print("Transport database built.")
+    logging.info("Database commit complete")
 
 if __name__ == "__main__":
     main()
