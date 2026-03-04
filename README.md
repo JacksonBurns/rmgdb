@@ -28,6 +28,15 @@ This requires defining a schema for the database, in which each class gets its o
 
 See `statmech` for a working example of this principle.
 
+TODO:
+
+ - [x] statmech
+ - [x] thermo
+ - [x] transport
+ - [] kinetics
+ - [] solvation
+ - [] surface
+
 ## Phase 2 - Shift to a new Plaintext Format
 The `statmech` directory demonstrates how the database can be directly loaded into Python objects and then dumped into a human-editable YAML file for easy editing and adding of data.
 
