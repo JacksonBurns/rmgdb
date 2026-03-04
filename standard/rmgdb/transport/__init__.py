@@ -1,1 +1,0 @@
-# Transport database schema definitions

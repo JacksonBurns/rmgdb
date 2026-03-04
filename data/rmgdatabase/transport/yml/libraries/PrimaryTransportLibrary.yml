@@ -1,0 +1,213 @@
+short_description: library value for H2
+long_description: ''
+label: H2
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 496.376
+  epsilon_unit: J/mol
+  sigma: 2.8327
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: library value for O2
+long_description: ''
+label: O2
+adjacency_list: |2
+
+  multiplicity 3
+  1 O u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 887.157
+  epsilon_unit: J/mol
+  sigma: 3.467
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: library value for H2
+long_description: ''
+label: H2O
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 6727.26
+  epsilon_unit: J/mol
+  sigma: 2.641
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: library value for H2
+long_description: ''
+label: H2O2
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u0 p2 c0 {1,S} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2405.38
+  epsilon_unit: J/mol
+  sigma: 4.196
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: library value for CO
+long_description: ''
+label: CO2
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 O u0 p2 c0 {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 1622.99
+  epsilon_unit: J/mol
+  sigma: 3.941
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: library value for CO
+long_description: ''
+label: CO
+adjacency_list: |2
+
+  1 C u0 p1 c-1 {2,T}
+  2 O u0 p1 c+1 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 762.44
+  epsilon_unit: J/mol
+  sigma: 3.69
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: library value for H2
+long_description: ''
+label: H2S
+adjacency_list: |2
+
+  1 S u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1837.5
+  epsilon_unit: J/mol
+  sigma: 3.73
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 N u0 p1 c0 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 810.913
+  epsilon_unit: J/mol
+  sigma: 3.621
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C(S)
+adjacency_list: |2
+
+  1 C u0 p2 c0
+transport:
+  shapeIndex: 0
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.298
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NH(S)
+adjacency_list: |2
+
+  1 N u0 p2 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.65
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N(D)
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u1 p2 c0
+transport:
+  shapeIndex: 0
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.298
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0

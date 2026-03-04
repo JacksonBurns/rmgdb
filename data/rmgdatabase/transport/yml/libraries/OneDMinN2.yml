@@ -1,0 +1,321 @@
+short_description: ''
+long_description: ''
+label: N2
+adjacency_list: "\n    1 N u0 p1 c0 {2,T}\n    2 N u0 p1 c0 {1,T}\n    "
+transport:
+  shapeIndex: 1
+  epsilon: 322.846
+  epsilon_unit: K
+  sigma: 3.461
+  sigma_unit: angstroms
+  dipoleMoment: 1.781
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: NNH
+adjacency_list: "\n    multiplicity 2\n    1 N u1 p1 c0 {2,D}\n    2 N u0 p1 c0 {1,D}\
+  \ {3,S}\n    3 H u0 p0 c0 {2,S}\n    "
+transport:
+  shapeIndex: 1
+  epsilon: 292.088
+  epsilon_unit: K
+  sigma: 3.459
+  sigma_unit: angstroms
+  dipoleMoment: 1.858
+  dipoleMoment_unit: De
+  polarizability: 2.016
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: H2NN(S)
+adjacency_list: "\n    1 N u0 p0 c+1 {2,S} {3,S} {4,D}\n    2 H u0 p0 c0 {1,S}\n \
+  \   3 H u0 p0 c0 {1,S}\n    4 N u0 p2 c-1 {1,D}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 387.557
+  epsilon_unit: K
+  sigma: 3.467
+  sigma_unit: angstroms
+  dipoleMoment: 3.507
+  dipoleMoment_unit: De
+  polarizability: 2.349
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: H2NN(T)
+adjacency_list: "\n    multiplicity 3\n    1 N u0 p1 c0 {2,S} {3,S} {4,S}\n    2 N\
+  \ u2 p1 c0 {1,S}\n    3 H u0 p0 c0 {1,S}\n    4 H u0 p0 c0 {1,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 338.122
+  epsilon_unit: K
+  sigma: 3.528
+  sigma_unit: angstroms
+  dipoleMoment: 2.363
+  dipoleMoment_unit: De
+  polarizability: 2.371
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: N2H2
+adjacency_list: "\n    1 N u0 p1 c0 {2,D} {3,S}\n    2 N u0 p1 c0 {1,D} {4,S}\n  \
+  \  3 H u0 p0 c0 {1,S}\n    4 H u0 p0 c0 {2,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 323.008
+  epsilon_unit: K
+  sigma: 3.531
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 2.297
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: N2H2(T)
+adjacency_list: "\n    multiplicity 3\n    1 N u1 p1 c0 {2,S} {3,S}\n    2 H u0 p0\
+  \ c0 {1,S}\n    3 N u1 p1 c0 {1,S} {4,S}\n    4 H u0 p0 c0 {3,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 349.27
+  epsilon_unit: K
+  sigma: 3.5
+  sigma_unit: angstroms
+  dipoleMoment: 0.001
+  dipoleMoment_unit: De
+  polarizability: 3.776
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: N2H3
+adjacency_list: "\n    multiplicity 2\n    1 N u1 p1 c0 {2,S} {3,S}\n    2 H u0 p0\
+  \ c0 {1,S}\n    3 N u0 p1 c0 {1,S} {4,S} {5,S}\n    4 H u0 p0 c0 {3,S}\n    5 H\
+  \ u0 p0 c0 {3,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 327.797
+  epsilon_unit: K
+  sigma: 3.595
+  sigma_unit: angstroms
+  dipoleMoment: 2.254
+  dipoleMoment_unit: De
+  polarizability: 2.772
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: N2H4
+adjacency_list: "\n    1 N u0 p1 c0 {2,S} {3,S} {4,S}\n    2 N u0 p1 c0 {1,S} {5,S}\
+  \ {6,S}\n    3 H u0 p0 c0 {1,S}\n    4 H u0 p0 c0 {1,S}\n    5 H u0 p0 c0 {2,S}\n\
+  \    6 H u0 p0 c0 {2,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 344.722
+  epsilon_unit: K
+  sigma: 3.617
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 2.799
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: NH3NH
+adjacency_list: "\n    1 N u0 p0 c+1 {2,S} {3,S} {4,S} {5,S}\n    2 H u0 p0 c0 {1,S}\n\
+  \    3 H u0 p0 c0 {1,S}\n    4 H u0 p0 c0 {1,S}\n    5 N u0 p2 c-1 {1,S} {6,S}\n\
+  \    6 H u0 p0 c0 {5,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 469.217
+  epsilon_unit: K
+  sigma: 3.36
+  sigma_unit: angstroms
+  dipoleMoment: 5.526
+  dipoleMoment_unit: De
+  polarizability: 3.738
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: nN3H4
+adjacency_list: "\n    multiplicity 2\n    1 N u1 p1 c0 {2,S} {3,S}\n    2 H u0 p0\
+  \ c0 {1,S}\n    3 N u0 p1 c0 {1,S} {4,S} {5,S}\n    4 N u0 p1 c0 {3,S} {6,S} {7,S}\n\
+  \    5 H u0 p0 c0 {3,S}\n    6 H u0 p0 c0 {4,S}\n    7 H u0 p0 c0 {4,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 406.129
+  epsilon_unit: K
+  sigma: 3.79
+  sigma_unit: angstroms
+  dipoleMoment: 2.193
+  dipoleMoment_unit: De
+  polarizability: 4.09
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: iN3H4
+adjacency_list: "\n    multiplicity 2\n    1 N u0 p1 c0 {2,S} {4,S} {5,S}\n    2 N\
+  \ u1 p1 c0 {1,S} {3,S}\n    3 N u0 p1 c0 {2,S} {6,S} {7,S}\n    4 H u0 p0 c0 {1,S}\n\
+  \    5 H u0 p0 c0 {1,S}\n    6 H u0 p0 c0 {3,S}\n    7 H u0 p0 c0 {3,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 384.69
+  epsilon_unit: K
+  sigma: 3.765
+  sigma_unit: angstroms
+  dipoleMoment: 1.143
+  dipoleMoment_unit: De
+  polarizability: 3.95
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: nN3H5
+adjacency_list: "\n    1 N u0 p1 c0 {2,S} {4,S} {5,S}\n    2 N u0 p1 c0 {1,S} {3,S}\
+  \ {6,S}\n    3 N u0 p1 c0 {2,S} {7,S} {8,S}\n    4 H u0 p0 c0 {1,S}\n    5 H u0\
+  \ p0 c0 {1,S}\n    6 H u0 p0 c0 {2,S}\n    7 H u0 p0 c0 {3,S}\n    8 H u0 p0 c0\
+  \ {3,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 404.086
+  epsilon_unit: K
+  sigma: 3.812
+  sigma_unit: angstroms
+  dipoleMoment: 2.182
+  dipoleMoment_unit: De
+  polarizability: 4.126
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: 1,2-z-N3H5
+adjacency_list: "\n    1 N u0 p1 c0 {2,S} {7,S} {8,S}\n    2 N u0 p0 c+1 {1,S} {3,S}\
+  \ {4,S} {5,S}\n    3 H u0 p0 c0 {2,S}\n    4 H u0 p0 c0 {2,S}\n    5 N u0 p2 c-1\
+  \ {2,S} {6,S}\n    6 H u0 p0 c0 {5,S}\n    7 H u0 p0 c0 {1,S}\n    8 H u0 p0 c0\
+  \ {1,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 463.718
+  epsilon_unit: K
+  sigma: 3.814
+  sigma_unit: angstroms
+  dipoleMoment: 3.384
+  dipoleMoment_unit: De
+  polarizability: 4.466
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: NH2NHN
+adjacency_list: "\n    1 N u0 p1 c0 {2,S} {5,S} {6,S}\n    2 N u0 p0 c+1 {1,S} {3,S}\
+  \ {4,D}\n    3 H u0 p0 c0 {2,S}\n    4 N u0 p2 c-1 {2,D}\n    5 H u0 p0 c0 {1,S}\n\
+  \    6 H u0 p0 c0 {1,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 422.694
+  epsilon_unit: K
+  sigma: 3.704
+  sigma_unit: angstroms
+  dipoleMoment: 4.161
+  dipoleMoment_unit: De
+  polarizability: 4.008
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: NH2NNH
+adjacency_list: "\n    1 N u0 p1 c0 {2,S} {4,S} {5,S}\n    2 N u0 p1 c0 {1,S} {3,D}\n\
+  \    3 N u0 p1 c0 {2,D} {6,S}\n    4 H u0 p0 c0 {1,S}\n    5 H u0 p0 c0 {1,S}\n\
+  \    6 H u0 p0 c0 {3,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 392.041
+  epsilon_unit: K
+  sigma: 3.687
+  sigma_unit: angstroms
+  dipoleMoment: 1.327
+  dipoleMoment_unit: De
+  polarizability: 3.749
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: nN4H6
+adjacency_list: "\n    1  N u0 p1 c0 {2,S} {5,S} {6,S}\n    2  N u0 p1 c0 {1,S} {3,S}\
+  \ {7,S}\n    3  N u0 p1 c0 {2,S} {4,S} {8,S}\n    4  N u0 p1 c0 {3,S} {9,S} {10,S}\n\
+  \    5  H u0 p0 c0 {1,S}\n    6  H u0 p0 c0 {1,S}\n    7  H u0 p0 c0 {2,S}\n   \
+  \ 8  H u0 p0 c0 {3,S}\n    9  H u0 p0 c0 {4,S}\n    10 H u0 p0 c0 {4,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 457.953
+  epsilon_unit: K
+  sigma: 3.976
+  sigma_unit: angstroms
+  dipoleMoment: 2.401
+  dipoleMoment_unit: De
+  polarizability: 5.481
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: 1,2-z-N4H6
+adjacency_list: "\n    1  N u0 p1 c0 {2,S} {8,S} {9,S}\n    2  N u0 p1 c0 {1,S} {3,S}\
+  \ {10,S}\n    3  N u0 p0 c+1 {2,S} {4,S} {5,S} {6,S}\n    4  H u0 p0 c0 {3,S}\n\
+  \    5  H u0 p0 c0 {3,S}\n    6  N u0 p2 c-1 {3,S} {7,S}\n    7  H u0 p0 c0 {6,S}\n\
+  \    8  H u0 p0 c0 {1,S}\n    9  H u0 p0 c0 {1,S}\n    10 H u0 p0 c0 {2,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 516.985
+  epsilon_unit: K
+  sigma: 3.959
+  sigma_unit: angstroms
+  dipoleMoment: 3.264
+  dipoleMoment_unit: De
+  polarizability: 5.472
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: ''
+long_description: ''
+label: 1,3-z-N4H6
+adjacency_list: "\n    1  N u0 p1 c0 {2,S} {7,S} {8,S}\n    2  N u0 p0 c+1 {1,S} {3,S}\
+  \ {4,S} {5,S}\n    3  H u0 p0 c0 {2,S}\n    4  H u0 p0 c0 {2,S}\n    5  N u0 p2\
+  \ c-1 {2,S} {6,S}\n    6  N u0 p1 c0 {5,S} {9,S} {10,S}\n    7  H u0 p0 c0 {1,S}\n\
+  \    8  H u0 p0 c0 {1,S}\n    9  H u0 p0 c0 {6,S}\n    10 H u0 p0 c0 {6,S}\n    "
+transport:
+  shapeIndex: 2
+  epsilon: 514.807
+  epsilon_unit: K
+  sigma: 3.911
+  sigma_unit: angstroms
+  dipoleMoment: 3.493
+  dipoleMoment_unit: De
+  polarizability: 5.75
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0

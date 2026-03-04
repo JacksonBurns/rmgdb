@@ -1,119 +1,169 @@
-import sys
 from pathlib import Path
-import importlib.util
-import logging
 
-# Add project root to sys.path
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT))
+from rmgdb.transport.schema import (
+    Groups,
+    GroupsTree,
+    CriticalPointGroupContribution,
+    TransportLibraries,
+    TransportData,
+    SCHEMA_BASE,
+)
+from rmgdb.transport.views import transport_groups_view_sql, transport_libraries_view_sql, label_pairs_view_sql
 
-# Set up logging
-logging.basicConfig(level=logging.INFO, format='%(message)s')
-
-from rmgdb.transport.schema import TransportLibraries, TransportGroups, TransportGroupsTree
-from rmgdatabase.common.tree_str_to_pairs import sketchy_conversion
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-DB_URI = "sqlite:///transport.db"
+from rmgdatabase.common.tree_str_to_pairs import sketchy_conversion
 
-LABEL_TO_DB_ID = {None: None}  # None: None for root/leaf nodes
-ENTRY_COUNT = 1  # Start from 1 to avoid conflicts with None
+# Create engine and SESSION
+engine = create_engine("sqlite:///transport.db", echo=False)
+Session = sessionmaker(bind=engine)
+SESSION = Session()
+SCHEMA_BASE.metadata.create_all(engine)
 
-class Stub:
-    def __init__(self, **kwargs):
-        for k, v in kwargs.items():
-            setattr(self, k, v)
+LABEL_TO_DB_ID = {None: None}
+
+# Mock Classes for exec() ingestion
+def TransportDataSpoof(**kwargs):
+    return kwargs
+
+def CriticalPointGroupContributionSpoof(**kwargs):
+    return kwargs
+
+# Map the groups in...
+def entry_group_spoof(*, index, label, group, transportGroup=None, shortDesc="", longDesc=""):
+    global ENTRY_COUNT
+    global CPGC_COUNT
+    global SESSION
+    global CURRENT_NAME
+    
+    row = Groups(
+        id=ENTRY_COUNT,
+        name=CURRENT_NAME,
+        short_description=shortDesc,
+        long_description=longDesc,
+        label=label,
+        group=group,
+    )
+    LABEL_TO_DB_ID[label] = ENTRY_COUNT
+    SESSION.add(row)
+    
+    # Process transportGroup data if it's not None
+    if transportGroup is not None:
+        cpgc_row = CriticalPointGroupContribution(
+            id=CPGC_COUNT,
+            parent_id=ENTRY_COUNT,
+            Tc=transportGroup.get("Tc"),
+            Pc=transportGroup.get("Pc"),
+            Vc=transportGroup.get("Vc"),
+            Tb=transportGroup.get("Tb"),
+            structureIndex=transportGroup.get("structureIndex"),
+        )
+        SESSION.add(cpgc_row)
+        CPGC_COUNT += 1
+        
+    ENTRY_COUNT += 1
+
+def tree_spoof(tree_str):
+    global TREE_PAIRS_COUNT
+    global SESSION
+    pairs = sketchy_conversion(tree_str)
+    for pair in pairs:
+        row = GroupsTree(
+            id=TREE_PAIRS_COUNT,
+            parent_id=LABEL_TO_DB_ID.get(pair[0]),
+            child_id=LABEL_TO_DB_ID.get(pair[1]),
+        )
+        SESSION.add(row)
+        TREE_PAIRS_COUNT += 1
+
+ENTRY_COUNT = 0
+CPGC_COUNT = 0
+TREE_PAIRS_COUNT = 0
+
+group_dir = Path("./original/groups")
+for group_file in group_dir.glob("*.py"):
+    CURRENT_NAME = group_file.stem
+    exec(
+        group_file.read_text(),
+        {
+            "entry": entry_group_spoof,
+            "CriticalPointGroupContribution": CriticalPointGroupContributionSpoof,
+            "tree": tree_spoof,
+        },
+    )
 
 
-def parse_entry(file_path: Path):
-    entries = []
-    def entry(**kwargs):
-        entries.append(kwargs)
-        logging.info(f"Captured entry from {file_path.name}: {kwargs.get('label', 'n/a')}")
-    globals_ = {
-        "entry": entry,
-        "TransportData": Stub,
-        "CriticalPointGroupContribution": Stub,
-        "group": Stub,
-        "tree": Stub,
-    }
-    exec(file_path.read_text(), globals_)
-    return entries
+# Map the libraries in...
+def entry_library_spoof(*, index, label, molecule, transport, shortDesc="", longDesc=""):
+    global LIB_ENTRY_COUNT
+    global TRANSPORT_DATA_COUNT
+    global SESSION
+    global CURRENT_NAME
+    
+    row = TransportLibraries(
+        id=LIB_ENTRY_COUNT,
+        name=CURRENT_NAME,
+        short_description=shortDesc,
+        long_description=longDesc,
+        label=label,
+        adjacency_list=molecule,
+    )
+    SESSION.add(row)
 
+    # Some variables like epsilon are stored as tuples (value, 'units')
+    # Unpack them safely
+    def unpack(tup):
+        return (tup[0], tup[1]) if isinstance(tup, tuple) else (tup, None)
 
-def main():
-    logging.info("Starting build process")
-    engine = create_engine(DB_URI)
-    TransportLibraries.metadata.create_all(engine)
-    TransportGroups.metadata.create_all(engine)
-    TransportGroupsTree.metadata.create_all(engine)
-    Session = sessionmaker(bind=engine)
-    session = Session()
+    eps_val, eps_unit = unpack(transport.get("epsilon"))
+    sig_val, sig_unit = unpack(transport.get("sigma"))
+    dm_val, dm_unit = unpack(transport.get("dipoleMoment"))
+    pol_val, pol_unit = unpack(transport.get("polarizability"))
 
-    base_dir = Path(__file__).resolve().parent / "original"
-    libs_dir = base_dir / "libraries"
-    groups_dir = base_dir / "groups"
+    td_row = TransportData(
+        id=TRANSPORT_DATA_COUNT,
+        parent_id=LIB_ENTRY_COUNT,
+        shapeIndex=transport.get("shapeIndex"),
+        epsilon=eps_val,
+        epsilon_unit=eps_unit,
+        sigma=sig_val,
+        sigma_unit=sig_unit,
+        dipoleMoment=dm_val,
+        dipoleMoment_unit=dm_unit,
+        polarizability=pol_val,
+        polarizability_unit=pol_unit,
+        rotrelaxcollnum=transport.get("rotrelaxcollnum"),
+    )
+    SESSION.add(td_row)
+    
+    TRANSPORT_DATA_COUNT += 1
+    LIB_ENTRY_COUNT += 1
 
-    for lib_file in libs_dir.glob("*.py"):
-        entries = parse_entry(lib_file)
-        for e in entries[0:-1]:
-            lib = TransportLibraries(
-                name=e.get("name"),
-                short_description=e.get("shortDesc"),
-                long_description=e.get("longDesc"),
-                label=e.get("label"),
-                molecule=e.get("molecule"),
-                shape_index=getattr(e.get("transport"), "shapeIndex", None),
-                epsilon=getattr(e.get("transport"), "epsilon", (None, None))[0],
-                epsilon_unit=getattr(e.get("transport"), "epsilon", (None, None))[1],
-                sigma=getattr(e.get("transport"), "sigma", (None, None))[0],
-                sigma_unit=getattr(e.get("transport"), "sigma", (None, None))[1],
-                dipole_moment=getattr(e.get("transport"), "dipoleMoment", (None, None))[0],
-                dipole_moment_unit=getattr(e.get("transport"), "dipoleMoment", (None, None))[1],
-                polarizability=getattr(e.get("transport"), "polarizability", (None, None))[0],
-                polarizability_unit=getattr(e.get("transport"), "polarizability", (None, None))[1],
-                rotrelaxcollnum=getattr(e.get("transport"), "rotrelaxcollnum", None),
-            )
-            session.add(lib)
-            LABEL_TO_DB_ID[e.get("label")] = ENTRY_COUNT
-            ENTRY_COUNT += 1
-        # process tree separately
-        tree = entries[-1]
-        tree_str = tree.get("tree", "")
-        pairs = sketchy_conversion(tree_str)
-        for pair in pairs:
-            row = TransportGroupsTree(
-                id=TREE_PAIRS_COUNT,
-                parent_id=LABEL_TO_DB_ID[pair[0]],
-                child_id=LABEL_TO_DB_ID[pair[1]],
-            )
-            session.add(row)
-            TREE_PAIRS_COUNT += 1
-    logging.info(f"Added {ENTRY_COUNT - 1} library entries")
+LIB_ENTRY_COUNT = 0
+TRANSPORT_DATA_COUNT = 0
 
-    grp_count = 0
-    for grp_file in groups_dir.glob("*.py"):
-        entries = parse_entry(grp_file)
-        for e in entries:
-            grp = TransportGroups(
-                name=e.get("name"),
-                short_description=e.get("shortDesc"),
-                long_description=e.get("longDesc"),
-                label=e.get("label"),
-                group=e.get("group"),
-                tc=e.get("transportGroup", {}).get("Tc"),
-                pc=e.get("transportGroup", {}).get("Pc"),
-                vc=e.get("transportGroup", {}).get("Vc"),
-                tb=e.get("transportGroup", {}).get("Tb"),
-                structure_index=e.get("transportGroup", {}).get("structureIndex"),
-            )
-            session.add(grp)
-            grp_count += 1
-    logging.info(f"Added {grp_count} group entries")
+library_dir = Path("./original/libraries")
+for library_file in library_dir.glob("*.py"):
+    CURRENT_NAME = library_file.stem
+    exec(
+        library_file.read_text(),
+        {
+            "entry": entry_library_spoof,
+            "TransportData": TransportDataSpoof,
+        },
+    )
 
-    session.commit()
-    logging.info("Database commit complete")
+try:
+    SESSION.commit()
+except ValueError as e:
+    SESSION.rollback()
+    print(f"Error: {e}")
 
-if __name__ == "__main__":
-    main()
+# Apply views
+SESSION.execute(transport_groups_view_sql)
+SESSION.execute(transport_libraries_view_sql)
+SESSION.execute(label_pairs_view_sql)
+
+SESSION.commit()
+SESSION.close()

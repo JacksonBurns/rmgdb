@@ -1,0 +1,271 @@
+label: R_ring
+children:
+- C_centered_ring
+- O_centered_ring
+- S_centered_ring
+- N_centered_ring
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * R ux
+transportGroup: null
+---
+label: C_centered_ring
+children:
+- CsringH2R2
+- CsringHR3
+- CsringR4
+- CdringR3
+- CdringHR2
+- Cddring
+- Ctring
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * C ux
+transportGroup: null
+---
+label: CsringH2R2
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+  5   H   u0 {1,S}
+transportGroup:
+  Tc: 0.01
+  Pc: -0.0025
+  Vc: 48.0
+  Tb: 27.15
+  structureIndex: 1
+---
+label: CsringHR3
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+  5   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0122
+  Pc: -0.0004
+  Vc: 38.0
+  Tb: 21.78
+  structureIndex: 1
+---
+label: CsringR4
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+  5   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0042
+  Pc: -0.0061
+  Vc: 27.0
+  Tb: 21.32
+  structureIndex: 1
+---
+label: CdringR3
+children:
+- Ketone_ring
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0143
+  Pc: -0.0008
+  Vc: 32.0
+  Tb: 31.01
+  structureIndex: 1
+---
+label: Ketone_ring
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   O   u0 {1,D}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0284
+  Pc: -0.0028
+  Vc: 55.0
+  Tb: 94.97
+  structureIndex: 1
+---
+label: CdringHR2
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0082
+  Pc: -0.0011
+  Vc: 41.0
+  Tb: 26.73
+  structureIndex: 1
+---
+label: Cddring
+children: []
+short_description: Made up value for R=
+long_description: |2
+
+  Made up value for R=C=R in a ring.
+  Without this existing, we crash.
+  Joback's thesis has no data for such species.
+  I'm copying R=CH-R in a ring.
+group: |2
+
+  1 * C   u0 {2,D} {3,D}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,D}
+transportGroup:
+  Tc: 0.0143
+  Pc: -0.0008
+  Vc: 32.0
+  Tb: 31.01
+  structureIndex: 1
+---
+label: Ctring
+children: []
+short_description: Made up value for C#
+long_description: |2
+
+  Made up value for triple bond in a ring.
+  Without this existing, we crash.
+  Joback's thesis has no data for such species.
+  I'm copying R=CH-R in a ring.
+group: |2
+
+  1 * C   u0 {2,T}
+  2   R!H u0 {1,T}
+transportGroup:
+  Tc: 0.0143
+  Pc: -0.0008
+  Vc: 32.0
+  Tb: 31.01
+  structureIndex: 1
+---
+label: O_centered_ring
+children:
+- Ether_ring
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * O ux
+transportGroup: null
+---
+label: Ether_ring
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0098
+  Pc: -0.0048
+  Vc: 13.0
+  Tb: 31.22
+  structureIndex: 1
+---
+label: S_centered_ring
+children:
+- Thioether_ring
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * S ux
+transportGroup: null
+---
+label: Thioether_ring
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * S   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0019
+  Pc: -0.0051
+  Vc: 38.0
+  Tb: 52.1
+  structureIndex: 1
+---
+label: N_centered_ring
+children:
+- NsringHR2
+- NdringR2
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * N ux
+transportGroup: null
+---
+label: NsringHR2
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.013
+  Pc: -0.0114
+  Vc: 29.0
+  Tb: 52.82
+  structureIndex: 1
+---
+label: NdringR2
+children: []
+short_description: ring_library value f
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,D} {3,S}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0085
+  Pc: -0.0076
+  Vc: 34.0
+  Tb: 57.55
+  structureIndex: 1

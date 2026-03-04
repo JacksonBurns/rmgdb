@@ -27598,7 +27598,7 @@ children:
 - Cs-halhalCt_140
 - Cs-halCOH_146
 - Cs-halCtH_162
-short_description: 'Carbon radical with '
+short_description: Carbon radical with one single bond
 long_description: "\n(3000, 3100, 2),\t#C-H stretch\n(415, 465, 1),\t\t#R-C-H swing\n\
   (780, 850, 1),\t\t#R-C-H rock\n(1435, 1475, 1),\t#R-C-H scissor\n(900, 1100, 1),\n"
 group: |2
@@ -27628,7 +27628,7 @@ statmech:
 ---
 label: Cumulene
 children: []
-short_description: Carbon with two doub
+short_description: Carbon with two double bonds to carbons
 long_description: "\n(540, 610, 2),\t#C-C-C scissor\n(1970, 2140, 1),#C-C-C asymmetric\n"
 group: |2
 
@@ -27656,7 +27656,7 @@ statmech:
 ---
 label: Nitrile
 children: []
-short_description: N triple bonded to a
+short_description: N triple bonded to a carbon and single bonded to another carbon
 long_description: |2
 
   (2230, 2260, 1), # C#N stretching, saturated aliphatic nitriles
@@ -27688,7 +27688,7 @@ statmech:
 ---
 label: Peroxy
 children: []
-short_description: Oxygen single bonded
+short_description: Oxygen single bonded to one carbon and one oxygen
 long_description: "\n(470, 515, 1),\t#C-O-O scissor\n(1100, 1170, 1),#O-O stretch\n\
   (900, 1100, 1)\n"
 group: |2
@@ -27715,7 +27715,8 @@ children:
 - O2s-halCd_80
 - O2s-halCO_102
 - O2s-halCt_144
-short_description: Oxygen with a single
+short_description: Oxygen with a single bond to hydrogen and another single bond to
+  carbon
 long_description: "\n(3580, 3650, 1),\t#O-H stretch\n(1210, 1345, 1),\t#R-O-H bend\n\
   (900, 1100, 1),\n"
 group: |2
@@ -27762,7 +27763,7 @@ statmech:
 ---
 label: CdCrsR
 children: []
-short_description: 'carbon radical with '
+short_description: carbon radical with one carbon double bond and one single bond
 long_description: "\n(1670, 1700, 1),\t#CdC stretch\n(300, 440, 1),\t\t#CdC-R bend\n"
 group: |2
 
@@ -27793,7 +27794,7 @@ statmech:
 ---
 label: OdCrsR
 children: []
-short_description: 'carbon radical with '
+short_description: carbon radical with one oxygen double bond and one single bond
 long_description: "\n(1850, 1860, 1),\t#OdC stretch\n(440, 470, 1),\t\t#OdC-R bend\n\
   (900, 1000, 1),\n"
 group: |2
@@ -27823,46 +27824,12 @@ statmech:
     upper: 3268.0
     degeneracy: 1.0
 ---
-label: RsCHrsR
-children:
-- Cs-halCsCt_68
-- Cs-halCsCs_73
-- Cs-halO2sCs_110
-- Cs-halCsCd_112
-- Cs-halCsCO_115
-- Cs-halO2sO2s_142
-- Cs-halO2sCO_148
-short_description: 'carbon radical with '
-long_description: "\n(3000, 3050, 1),\t#C-H stretch\n(390, 425, 1),\t\t#R-C-H bend\n\
-  (1340, 1360, 1),\t#R-C-H bend\n(335, 370, 1),\t\t#R-C-R scissor\n"
-group: |2
-
-  1 * C        u1 {2,S} {3,S} {4,S}
-  2   R!H!Val7 ux {1,S}
-  3   R!H!Val7 ux {1,S}
-  4   [H,Val7] u0 {1,S}
-statmech:
-  symmetry: 2.0
-  frequencies:
-  - lower: 353.0
-    upper: 437.0
-    degeneracy: 1.0
-  - lower: 368.0
-    upper: 578.0
-    degeneracy: 1.0
-  - lower: 616.0
-    upper: 798.0
-    degeneracy: 1.0
-  - lower: 1350.0
-    upper: 1522.0
-    degeneracy: 1.0
----
 label: RdCHr
 children:
 - Cd-halCd_113
 - Cd-halCdd_151
 - CO-halO2d_198
-short_description: 'carbon radical with '
+short_description: carbon radical with one single bond
 long_description: "\n(3115, 3125, 1),\t#C-H stretch\n(620, 680, 1),\t\t#CdC-H bend\n\
   (785, 800, 1),\t\t#CdC-H bend\n(1600, 1700, 1),\n"
 group: |2
@@ -27885,7 +27852,7 @@ statmech:
 ---
 label: RsCrsR2
 children: []
-short_description: 'carbon radical with '
+short_description: carbon radical with three single bonds
 long_description: "\n(360, 370, 2),\t#C-C-C scissor\n(300, 400, 1),\t#Umbrella\n"
 group: |2
 
@@ -27915,6 +27882,40 @@ statmech:
     upper: 3336.0
     degeneracy: 1.0
 ---
+label: RsCHrsR
+children:
+- Cs-halCsCt_68
+- Cs-halCsCs_73
+- Cs-halO2sCs_110
+- Cs-halCsCd_112
+- Cs-halCsCO_115
+- Cs-halO2sO2s_142
+- Cs-halO2sCO_148
+short_description: carbon radical with two single bonds
+long_description: "\n(3000, 3050, 1),\t#C-H stretch\n(390, 425, 1),\t\t#R-C-H bend\n\
+  (1340, 1360, 1),\t#R-C-H bend\n(335, 370, 1),\t\t#R-C-R scissor\n"
+group: |2
+
+  1 * C        u1 {2,S} {3,S} {4,S}
+  2   R!H!Val7 ux {1,S}
+  3   R!H!Val7 ux {1,S}
+  4   [H,Val7] u0 {1,S}
+statmech:
+  symmetry: 2.0
+  frequencies:
+  - lower: 353.0
+    upper: 437.0
+    degeneracy: 1.0
+  - lower: 368.0
+    upper: 578.0
+    degeneracy: 1.0
+  - lower: 616.0
+    upper: 798.0
+    degeneracy: 1.0
+  - lower: 1350.0
+    upper: 1522.0
+    degeneracy: 1.0
+---
 label: CdCHsR
 children:
 - Cd-halCdCt_44
@@ -27925,7 +27926,7 @@ children:
 - Cd-halCsCdd_141
 - Cd-halO2sCdd_153
 - Cd-halCdC2s_175
-short_description: carbon with a double
+short_description: carbon with a double bond to carbon and a single bond to R
 long_description: "\n(2995, 3025, 1),\t#C-H stretch\n(975, 1000, 1),\t\t#R-C-H bend\n\
   (1300, 1375, 1),\t#R-C-H bend\n(400, 500, 1),\t\t#CdC-R scissor\n(1630, 1680, 1),\t\
   #CdC stretch\n"
@@ -27959,7 +27960,7 @@ children:
 - CO-halO2dC2s_155
 - CO-halO2dCO_159
 - CO-halO2dCt_192
-short_description: carbon with double b
+short_description: carbon with double bond to oxygen and single bond to R
 long_description: "\n(2695, 2870, 1),\t#C-H stretch\n(700, 800, 1),\t\t#R-C-H bend\n\
   (1380, 1410, 1), \t#R-C-H bend\n(450, 500, 1),\t\t#OdC-R scissor\n(1750, 1800, 1),\t\
   #OdC stretch\n"
@@ -27990,7 +27991,7 @@ statmech:
 ---
 label: CsCsC3
 children: []
-short_description: carbon with four sin
+short_description: carbon with four single bonds to carbon
 long_description: "\n(350, 400, 2),\t#C-C-C scissor\n(1190, 1240, 2),#C-C-C bend\n\
   (400, 500, 1),\t#Umbrella\n"
 group: |2
@@ -28033,7 +28034,7 @@ statmech:
 ---
 label: Ketene
 children: []
-short_description: carbon with one carb
+short_description: carbon with one carbon double bond and one oxygen double bond
 long_description: "\n(2110, 2130, 1),\t#OdC stretch\n(495, 530, 1),\t\t#OdCdC bend\n\
   (650, 925, 1),\t\t#OdCdC bend\n"
 group: |2
@@ -28059,7 +28060,7 @@ statmech:
 ---
 label: CdCsR2
 children: []
-short_description: carbon with one carb
+short_description: carbon with one carbon double bond and two single bonds
 long_description: "\n(325, 375, 1),\t#R-C-R scissor\n(415, 465, 1),\t#CdC-R scissor\n\
   (420, 450, 1),\t#Umbrella\n(1700, 1750, 1),#CdC stretch\n"
 group: |2
@@ -28083,7 +28084,7 @@ statmech:
 ---
 label: Ketone
 children: []
-short_description: carbon with one oxyg
+short_description: carbon with one oxygen double bond and two single bonds
 long_description: "\n(365, 385, 1),\t#R-C-R scissor\n(505, 600, 1),\t#OdC-R scissor\n\
   (445, 480, 1),\t#Umbrella\n(1700, 1720, 1),#OdC stretch\n"
 group: |2
@@ -28107,7 +28108,7 @@ statmech:
 ---
 label: CtCsR
 children: []
-short_description: carbon with one trip
+short_description: carbon with one triplet bond and one single bond
 long_description: "\n(2100, 2250, 1),\t#CtC stretch\n(500, 550, 1),\t\t#CtC-C bend\n"
 group: |2
 
@@ -28141,7 +28142,7 @@ children:
 - Cs-halO2sO2sCs_62
 - Cs-halO2sCsCs_63
 - Cs-halCsCsCs_123
-short_description: carbon with three si
+short_description: carbon with three single bonds
 long_description: "\n(1380, 1390, 2),\t#R-C-H bend\n(370, 380, 2),\t\t#C-C-C scissor\n\
   (2800, 3000, 1),\t#C-H stretch\n(430, 440, 1),\t\t#Umbrella\n"
 group: |2
@@ -28175,7 +28176,7 @@ statmech:
 ---
 label: Ether
 children: []
-short_description: oxygen with two sing
+short_description: oxygen with two single carbon bonds
 long_description: "\n(350, 500, 1),\t#C-O-C scissor\n"
 group: |2
 
@@ -28240,7 +28241,7 @@ children:
 - Cs-halO2sCtH_169
 - Cs-halhalO2sCt_170
 - Cs-halhalCsC2s_181
-short_description: separated carbon wit
+short_description: separated carbon with two single bonds
 long_description: "\n(2750, 2850, 2),\t#C-H stretch\n(1425, 1450, 1),\t#H-C-H scissor\n\
   (1225, 1275, 1),\t#R-C-H symmetric\n(1270, 1340, 1),\t#R-C-H asymmetric\n(700, 800,\
   \ 1),\t\t#H-C-H side rock\n(300, 400, 1),\t\t#R-C-R scissor\n"

@@ -12,6 +12,12 @@ statmech:
     ideal_gas_translation:
       mass: 20.0062
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 0.809097
       linear_inertia_unit: amu*angstrom^2
@@ -34,6 +40,12 @@ statmech:
     ideal_gas_translation:
       mass: 79.9262
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 2.01444
       linear_inertia_unit: amu*angstrom^2
@@ -56,6 +68,12 @@ statmech:
     ideal_gas_translation:
       mass: 35.9767
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 1.61406
       linear_inertia_unit: amu*angstrom^2
@@ -78,6 +96,12 @@ statmech:
     ideal_gas_translation:
       mass: 37.9968
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 18.2987
       linear_inertia_unit: amu*angstrom^2
@@ -100,6 +124,12 @@ statmech:
     ideal_gas_translation:
       mass: 53.9673
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 33.221
       linear_inertia_unit: amu*angstrom^2
@@ -122,6 +152,12 @@ statmech:
     ideal_gas_translation:
       mass: 97.9167
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 47.8909
       linear_inertia_unit: amu*angstrom^2
@@ -144,6 +180,12 @@ statmech:
     ideal_gas_translation:
       mass: 157.837
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 211.833
       linear_inertia_unit: amu*angstrom^2
@@ -167,6 +209,12 @@ statmech:
     ideal_gas_translation:
       mass: 34.9933
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 15.6231
       linear_inertia_unit: amu*angstrom^2
@@ -189,6 +237,12 @@ statmech:
     ideal_gas_translation:
       mass: 113.887
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 113.734
       linear_inertia_unit: amu*angstrom^2
@@ -212,6 +266,12 @@ statmech:
     ideal_gas_translation:
       mass: 94.9133
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 40.0218
       linear_inertia_unit: amu*angstrom^2
@@ -235,6 +295,12 @@ statmech:
     ideal_gas_translation:
       mass: 50.9638
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 27.838
       linear_inertia_unit: amu*angstrom^2
@@ -257,6 +323,12 @@ statmech:
     ideal_gas_translation:
       mass: 69.9377
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 71.0956
       linear_inertia_unit: amu*angstrom^2
@@ -286,6 +358,10 @@ statmech:
       inertia_z: 19.2708
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 1005.07
@@ -313,6 +389,10 @@ statmech:
       inertia_z: 49.101
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 636.644
@@ -340,6 +420,10 @@ statmech:
       inertia_z: 34.7628
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 738.545
@@ -367,6 +451,10 @@ statmech:
       inertia_z: 54.1965
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 486.983
@@ -394,6 +482,10 @@ statmech:
       inertia_z: 134.687
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 307.891
@@ -421,6 +513,10 @@ statmech:
       inertia_z: 91.6564
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 377.172
@@ -448,6 +544,10 @@ statmech:
       inertia_z: 397.949
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 180.336
@@ -475,6 +575,10 @@ statmech:
       inertia_z: 153.883
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 294.487
@@ -503,6 +607,10 @@ statmech:
       inertia_z: 52.9589
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 449.023
@@ -530,6 +638,10 @@ statmech:
       inertia_z: 235.517
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 236.026
@@ -558,6 +670,10 @@ statmech:
       inertia_z: 46.5761
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 636.046
@@ -585,6 +701,10 @@ statmech:
       inertia_z: 398.112
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 192.051
@@ -613,6 +733,10 @@ statmech:
       inertia_z: 91.7083
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 341.955
@@ -640,6 +764,10 @@ statmech:
       inertia_z: 150.588
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 328.197
@@ -668,6 +796,10 @@ statmech:
       inertia_z: 48.3526
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 674.139
@@ -693,6 +825,12 @@ statmech:
     ideal_gas_translation:
       mass: 44.0062
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 51.6236
       linear_inertia_unit: amu*angstrom^2
@@ -723,6 +861,12 @@ statmech:
     ideal_gas_translation:
       mass: 103.926
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 126.194
       linear_inertia_unit: amu*angstrom^2
@@ -752,6 +896,12 @@ statmech:
     ideal_gas_translation:
       mass: 59.9767
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 88.9511
       linear_inertia_unit: amu*angstrom^2
@@ -787,6 +937,10 @@ statmech:
       inertia_z: 90.5605
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 445.967
@@ -812,6 +966,12 @@ statmech:
     ideal_gas_translation:
       mass: 61.9968
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 141.582
       linear_inertia_unit: amu*angstrom^2
@@ -849,6 +1009,10 @@ statmech:
       inertia_z: 52.5803
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 549.125
@@ -881,6 +1045,10 @@ statmech:
       inertia_z: 17.9803
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 576.418
@@ -906,6 +1074,12 @@ statmech:
     ideal_gas_translation:
       mass: 121.917
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 334.075
       linear_inertia_unit: amu*angstrom^2
@@ -935,6 +1109,12 @@ statmech:
     ideal_gas_translation:
       mass: 77.9673
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 227.155
       linear_inertia_unit: amu*angstrom^2
@@ -970,6 +1150,10 @@ statmech:
       inertia_z: 911.562
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 144.674
@@ -1002,6 +1186,10 @@ statmech:
       inertia_z: 46.6643
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 192.239
@@ -1034,6 +1222,10 @@ statmech:
       inertia_z: 118.676
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 314.669
@@ -1065,6 +1257,10 @@ statmech:
       inertia_z: 77.0895
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 98.6439
@@ -1097,6 +1293,10 @@ statmech:
       inertia_z: 33.9492
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 71.6564
@@ -1128,6 +1328,10 @@ statmech:
       inertia_z: 359.603
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 182.447
@@ -1159,6 +1363,10 @@ statmech:
       inertia_z: 85.8056
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 584.127
@@ -1191,6 +1399,10 @@ statmech:
       inertia_z: 94.6951
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 402.152
@@ -1216,6 +1428,12 @@ statmech:
     ideal_gas_translation:
       mass: 137.887
       mass_unit: amu
+    nonlinear_rotor:
+      inertia_x: .nan
+      inertia_y: .nan
+      inertia_z: .nan
+      nonlinear_inertia_unit: .nan
+      nonlinear_symmetry: .nan
     linear_rotor:
       linear_inertia: 547.148
       linear_inertia_unit: amu*angstrom^2
@@ -1252,6 +1470,10 @@ statmech:
       inertia_z: 139.198
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 330.149
@@ -1284,6 +1506,10 @@ statmech:
       inertia_z: 427.769
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 182.933
@@ -1316,6 +1542,10 @@ statmech:
       inertia_z: 163.314
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 300.015
@@ -1348,6 +1578,10 @@ statmech:
       inertia_z: 90.0934
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 504.804
@@ -1380,6 +1614,10 @@ statmech:
       inertia_z: 120.742
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 280.764
@@ -1411,6 +1649,10 @@ statmech:
       inertia_z: 205.888
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 340.955
@@ -1443,6 +1685,10 @@ statmech:
       inertia_z: 250.25
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 241.769
@@ -1474,6 +1720,10 @@ statmech:
       inertia_z: 139.859
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 405.507
@@ -1505,6 +1755,10 @@ statmech:
       inertia_z: 491.126
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 175.613
@@ -1537,6 +1791,10 @@ statmech:
       inertia_z: 300.294
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 468.552
@@ -1567,6 +1825,10 @@ statmech:
       inertia_z: 192.224
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 171.127
@@ -1598,6 +1860,10 @@ statmech:
       inertia_z: 212.765
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 297.21
@@ -1630,6 +1896,10 @@ statmech:
       inertia_z: 81.1626
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 509.533
@@ -1661,6 +1931,10 @@ statmech:
       inertia_z: 313.491
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 235.845
@@ -1693,6 +1967,10 @@ statmech:
       inertia_z: 218.527
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 302.62
@@ -1725,6 +2003,10 @@ statmech:
       inertia_z: 146.915
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 356.428
@@ -1757,6 +2039,10 @@ statmech:
       inertia_z: 324.248
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 222.338
@@ -1789,6 +2075,10 @@ statmech:
       inertia_z: 504.244
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 168.453
@@ -1821,6 +2111,10 @@ statmech:
       inertia_z: 220.264
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 275.493
@@ -1853,6 +2147,10 @@ statmech:
       inertia_z: 816.246
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 157.432
@@ -1885,6 +2183,10 @@ statmech:
       inertia_z: 301.692
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 269.097
@@ -1917,6 +2219,10 @@ statmech:
       inertia_z: 608.465
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 172.273
@@ -1949,6 +2255,10 @@ statmech:
       inertia_z: 426.635
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 220.011
@@ -1981,6 +2291,10 @@ statmech:
       inertia_z: 19.5168
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 1097.73
@@ -2016,6 +2330,10 @@ statmech:
       inertia_z: 53.5655
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 598.906
@@ -2051,6 +2369,10 @@ statmech:
       inertia_z: 38.5536
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 720.467
@@ -2086,6 +2408,10 @@ statmech:
       inertia_z: 54.4207
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 531.881
@@ -2121,6 +2447,10 @@ statmech:
       inertia_z: 98.8128
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 376.936
@@ -2156,6 +2486,10 @@ statmech:
       inertia_z: 145.709
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 306.175
@@ -2191,6 +2525,10 @@ statmech:
       inertia_z: 436.575
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 168.009
@@ -2226,6 +2564,10 @@ statmech:
       inertia_z: 169.055
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 278.667
@@ -2262,6 +2604,10 @@ statmech:
       inertia_z: 52.3875
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 558.515
@@ -2297,6 +2643,10 @@ statmech:
       inertia_z: 258.153
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 222.206
@@ -2333,6 +2683,10 @@ statmech:
       inertia_z: 143.34
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 297.668
@@ -2369,6 +2723,10 @@ statmech:
       inertia_z: 97.2096
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 378.783
@@ -2404,6 +2762,10 @@ statmech:
       inertia_z: 89.1073
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 506.193
@@ -2439,6 +2801,10 @@ statmech:
       inertia_z: 119.365
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 238.894
@@ -2475,6 +2841,10 @@ statmech:
       inertia_z: 53.7907
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 443.335
@@ -2510,6 +2880,10 @@ statmech:
       inertia_z: 260.072
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 155.466
@@ -2546,6 +2920,10 @@ statmech:
       inertia_z: 130.981
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 314.231
@@ -2582,6 +2960,10 @@ statmech:
       inertia_z: 92.4617
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 351.067
@@ -2617,6 +2999,10 @@ statmech:
       inertia_z: 182.996
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 182.759
@@ -2653,6 +3039,10 @@ statmech:
       inertia_z: 111.933
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 203.406
@@ -2689,6 +3079,10 @@ statmech:
       inertia_z: 52.0711
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 479.323
@@ -2724,6 +3118,10 @@ statmech:
       inertia_z: 146.25
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 358.282
@@ -2759,6 +3157,10 @@ statmech:
       inertia_z: 217.709
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 309.169
@@ -2795,6 +3197,10 @@ statmech:
       inertia_z: 125.657
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 289.633
@@ -2831,6 +3237,10 @@ statmech:
       inertia_z: 88.1758
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 343.177
@@ -2867,6 +3277,10 @@ statmech:
       inertia_z: 88.2639
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 480.226
@@ -2903,6 +3317,10 @@ statmech:
       inertia_z: 170.357
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 172.12
@@ -2938,6 +3356,10 @@ statmech:
       inertia_z: 219.819
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 268.486
@@ -2973,6 +3395,10 @@ statmech:
       inertia_z: 500.35
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 164.71
@@ -3008,6 +3434,10 @@ statmech:
       inertia_z: 323.414
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 216.567
@@ -3044,6 +3474,10 @@ statmech:
       inertia_z: 244.187
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 145.327
@@ -3080,6 +3514,10 @@ statmech:
       inertia_z: 625.802
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 84.2335
@@ -3115,6 +3553,10 @@ statmech:
       inertia_z: 817.488
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 150.035
@@ -3150,6 +3592,10 @@ statmech:
       inertia_z: 302.014
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 256.159
@@ -3186,6 +3632,10 @@ statmech:
       inertia_z: 265.097
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 133.43
@@ -3221,6 +3671,10 @@ statmech:
       inertia_z: 175.938
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 205.962
@@ -3256,6 +3710,10 @@ statmech:
       inertia_z: 88.467
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 12.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 429.709
@@ -3292,6 +3750,10 @@ statmech:
       inertia_z: 390.701
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 108.381
@@ -3327,6 +3789,10 @@ statmech:
       inertia_z: 427.66
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 210.351
@@ -3362,6 +3828,10 @@ statmech:
       inertia_z: 609.345
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 163.175
@@ -3398,6 +3868,10 @@ statmech:
       inertia_z: 140.244
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 236.026
@@ -3434,6 +3908,10 @@ statmech:
       inertia_z: 221.033
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 262.34
@@ -3470,6 +3948,10 @@ statmech:
       inertia_z: 179.163
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 204.684
@@ -3506,6 +3988,10 @@ statmech:
       inertia_z: 89.6186
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 420.994
@@ -3541,6 +4027,10 @@ statmech:
       inertia_z: 339.81
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 147.702
@@ -3576,6 +4066,10 @@ statmech:
       inertia_z: 244.611
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 298.974
@@ -3611,6 +4105,10 @@ statmech:
       inertia_z: 153.841
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 340.872
@@ -3646,6 +4144,10 @@ statmech:
       inertia_z: 245.477
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 170.606
@@ -3681,6 +4183,10 @@ statmech:
       inertia_z: 640.872
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 120.958
@@ -3716,6 +4222,10 @@ statmech:
       inertia_z: 328.524
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 150.251
@@ -3752,6 +4262,10 @@ statmech:
       inertia_z: 90.6062
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 268.861
@@ -3787,6 +4301,10 @@ statmech:
       inertia_z: 231.288
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 253.409
@@ -3823,6 +4341,10 @@ statmech:
       inertia_z: 241.523
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 173.856
@@ -3859,6 +4381,10 @@ statmech:
       inertia_z: 141.665
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 340.441
@@ -3895,6 +4421,10 @@ statmech:
       inertia_z: 203.867
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 295.703
@@ -3930,6 +4460,10 @@ statmech:
       inertia_z: 526.93
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 159.404
@@ -3966,6 +4500,10 @@ statmech:
       inertia_z: 327.587
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 147.362
@@ -4001,6 +4539,10 @@ statmech:
       inertia_z: 450.744
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 133.618
@@ -4036,6 +4578,10 @@ statmech:
       inertia_z: 348.259
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 208.045
@@ -4072,6 +4618,10 @@ statmech:
       inertia_z: 490.117
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 172.453
@@ -4108,6 +4658,10 @@ statmech:
       inertia_z: 214.243
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 284.862
@@ -4144,6 +4698,10 @@ statmech:
       inertia_z: 444.274
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 144.118
@@ -4180,6 +4738,10 @@ statmech:
       inertia_z: 153.084
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 269.09
@@ -4215,6 +4777,10 @@ statmech:
       inertia_z: 815.561
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 145.16
@@ -4251,6 +4817,10 @@ statmech:
       inertia_z: 312.356
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 228.074
@@ -4287,6 +4857,10 @@ statmech:
       inertia_z: 648.803
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 134.208
@@ -4322,6 +4896,10 @@ statmech:
       inertia_z: 300.04
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 238.693
@@ -4357,6 +4935,10 @@ statmech:
       inertia_z: 432.995
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 197.399
@@ -4392,6 +4974,10 @@ statmech:
       inertia_z: 612.997
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 156.48
@@ -4428,6 +5014,10 @@ statmech:
       inertia_z: 320.184
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 209.865
@@ -4463,6 +5053,10 @@ statmech:
       inertia_z: 803.132
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 12.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 123.298
@@ -4499,6 +5093,10 @@ statmech:
       inertia_z: 1225.16
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 78.3929
@@ -4535,6 +5133,10 @@ statmech:
       inertia_z: 478.13
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 128.152
@@ -4570,6 +5172,10 @@ statmech:
       inertia_z: 296.636
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 12.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 214.407
@@ -4605,6 +5211,10 @@ statmech:
       inertia_z: 444.993
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 187.135
@@ -4640,6 +5250,10 @@ statmech:
       inertia_z: 631.55
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 151.063
@@ -4676,6 +5290,10 @@ statmech:
       inertia_z: 610.228
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 105.526
@@ -4712,6 +5330,10 @@ statmech:
       inertia_z: 844.946
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 97.7689
@@ -4747,6 +5369,10 @@ statmech:
       inertia_z: 804.897
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 3.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 138.729
@@ -4783,6 +5409,10 @@ statmech:
       inertia_z: 309.836
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 194.892
@@ -4819,6 +5449,10 @@ statmech:
       inertia_z: 55.2033
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 482.184
@@ -4858,6 +5492,10 @@ statmech:
       inertia_z: 132.295
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 344.358
@@ -4897,6 +5535,10 @@ statmech:
       inertia_z: 93.7571
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 395.506
@@ -4936,6 +5578,10 @@ statmech:
       inertia_z: 238.835
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 167.495
@@ -4975,6 +5621,10 @@ statmech:
       inertia_z: 167.313
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 196.288
@@ -5014,6 +5664,10 @@ statmech:
       inertia_z: 567.58
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 105.901
@@ -5053,6 +5707,10 @@ statmech:
       inertia_z: 249.766
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 165.092
@@ -5092,6 +5750,10 @@ statmech:
       inertia_z: 93.9642
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 437.293
@@ -5131,6 +5793,10 @@ statmech:
       inertia_z: 363.182
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 135.986
@@ -5170,6 +5836,10 @@ statmech:
       inertia_z: 178.131
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 226.38
@@ -5209,6 +5879,10 @@ statmech:
       inertia_z: 147.17
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 369.762
@@ -5248,6 +5922,10 @@ statmech:
       inertia_z: 211.26
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 321.621
@@ -5287,6 +5965,10 @@ statmech:
       inertia_z: 489.746
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 181.877
@@ -5326,6 +6008,10 @@ statmech:
       inertia_z: 218.62
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 296.689
@@ -5365,6 +6051,10 @@ statmech:
       inertia_z: 268.841
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 195.191
@@ -5404,6 +6094,10 @@ statmech:
       inertia_z: 324.237
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 164.89
@@ -5443,6 +6137,10 @@ statmech:
       inertia_z: 316.235
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 239.603
@@ -5482,6 +6180,10 @@ statmech:
       inertia_z: 239.485
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 195.079
@@ -5521,6 +6223,10 @@ statmech:
       inertia_z: 397.629
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 167.175
@@ -5560,6 +6266,10 @@ statmech:
       inertia_z: 908.579
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 155.05
@@ -5599,6 +6309,10 @@ statmech:
       inertia_z: 581.664
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 162.96
@@ -5638,6 +6352,10 @@ statmech:
       inertia_z: 333.33
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 199.934
@@ -5677,6 +6395,10 @@ statmech:
       inertia_z: 438.937
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 170.495
@@ -5716,6 +6438,10 @@ statmech:
       inertia_z: 388.186
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 188.162
@@ -5755,6 +6481,10 @@ statmech:
       inertia_z: 641.89
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 161.751
@@ -5794,6 +6524,10 @@ statmech:
       inertia_z: 1178.2
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 109.228
@@ -5833,6 +6567,10 @@ statmech:
       inertia_z: 465.813
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 170.002
@@ -5872,6 +6610,10 @@ statmech:
       inertia_z: 247.638
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 4.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 198.559
@@ -5911,6 +6653,10 @@ statmech:
       inertia_z: 822.53
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 134.972
@@ -5950,6 +6696,10 @@ statmech:
       inertia_z: 662.618
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 163.675
@@ -5989,6 +6739,10 @@ statmech:
       inertia_z: 681.315
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 142.91
@@ -6028,6 +6782,10 @@ statmech:
       inertia_z: 1004.21
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 140.0
@@ -6067,6 +6825,10 @@ statmech:
       inertia_z: 472.436
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 157.314
@@ -6106,6 +6868,10 @@ statmech:
       inertia_z: 336.097
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 170.523
@@ -6145,6 +6911,10 @@ statmech:
       inertia_z: 772.538
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 140.681
@@ -6184,6 +6954,10 @@ statmech:
       inertia_z: 577.781
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 147.258
@@ -6223,6 +6997,10 @@ statmech:
       inertia_z: 427.613
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 155.779
@@ -6262,6 +7040,10 @@ statmech:
       inertia_z: 747.525
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 110.033
@@ -6301,6 +7083,10 @@ statmech:
       inertia_z: 937.971
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 104.957
@@ -6340,6 +7126,10 @@ statmech:
       inertia_z: 1273.76
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 90.7199
@@ -6379,6 +7169,10 @@ statmech:
       inertia_z: 548.431
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 121.444
@@ -6418,6 +7212,10 @@ statmech:
       inertia_z: 1710.08
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 4.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 55.9334
@@ -6457,6 +7255,10 @@ statmech:
       inertia_z: 663.523
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 4.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 98.1647
@@ -6496,6 +7298,10 @@ statmech:
       inertia_z: 1409.82
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 67.059
@@ -6535,6 +7341,10 @@ statmech:
       inertia_z: 1090.99
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 2.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 78.6498
@@ -6574,6 +7384,10 @@ statmech:
       inertia_z: 869.424
       nonlinear_inertia_unit: amu*angstrom^2
       nonlinear_symmetry: 1.0
+    linear_rotor:
+      linear_inertia: .nan
+      linear_inertia_unit: .nan
+      linear_symmetry: .nan
     harmonic_oscillator:
       harmonic_freq_unit: cm^-1
       harmonic_freq_1: 87.692
