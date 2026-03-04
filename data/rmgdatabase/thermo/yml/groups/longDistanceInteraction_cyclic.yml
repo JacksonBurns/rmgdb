@@ -1,0 +1,6037 @@
+label: R
+short_description: ROOT
+long_description: ''
+group: |2
+
+  1 *1 R ux
+children:
+- intVal7
+- intRVal7
+- Cs(Val7)3-Cd-Cd-Cs(Val7)3
+- int14_gauche
+- int15
+- aromatic-ortho
+- aromatic-meta
+- aromatic-para
+- intVal7
+- ketene
+- C
+- O
+- Si
+- S
+- Cl1s
+- Br1s
+- F1s
+- I1s
+- N
+- Li
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: aromatic-ortho
+short_description: Aromatics NNI correction for ortho position.
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2 *2 Cb u0 {1,B}
+children:
+- o_OH
+- o_CHO
+- o_vinyl
+- o_MeO
+- o_CH3
+- o_C2H5
+- o_Oj
+- o_OCH2j
+- o_Cj=O
+- o_C=Cj
+- o_Csj
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_OH
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O  u0 {1,S} {4,S}
+  4    H  u0 {3,S}
+children:
+- o_OH_OH
+- o_OH_MeO
+- o_OH_vinyl
+- o_OH_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_OH_OH
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O  u0 {1,S} {4,S}
+  4    H  u0 {3,S}
+  5    O  u0 {2,S} {6,S}
+  6    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.32
+    - -0.18
+    - 0.02
+    - 0.24
+    - 0.5
+    - 0.57
+    - 0.44
+  - cal/(mol*K)
+  H298:
+  - -0.36
+  - kcal/mol
+  S298:
+  - -0.67
+  - cal/(mol*K)
+---
+label: o_OH_MeO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O  u0 {1,S} {4,S}
+  4    H  u0 {3,S}
+  5    O  u0 {2,S} {6,S}
+  6    C  u0 {5,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.65
+    - -0.36
+    - 0.05
+    - 0.48
+    - 1.0
+    - 1.15
+    - 0.88
+  - cal/(mol*K)
+  H298:
+  - -0.72
+  - kcal/mol
+  S298:
+  - -1.34
+  - cal/(mol*K)
+---
+label: o_OH_vinyl
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O  u0 {1,S} {4,S}
+  4    H  u0 {3,S}
+  5    C  u0 {2,S} {6,D} {7,S}
+  6    C  u0 {5,D} {8,S} {9,S}
+  7    H  u0 {5,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.6
+    - 0.65
+    - 0.62
+    - 0.6
+    - 0.5
+    - 0.43
+    - 0.29
+  - cal/(mol*K)
+  H298:
+  - 0.62
+  - kcal/mol
+  S298:
+  - -0.79
+  - cal/(mol*K)
+---
+label: o_OH_CHO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    O  u0 {1,S} {4,S}
+  4    H  u0 {3,S}
+  5    C  u0 {2,S} {6,S} {7,D}
+  6    H  u0 {5,S}
+  7    O  u0 {5,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -2.49
+    - -2.15
+    - -1.77
+    - -1.43
+    - -0.81
+    - -0.33
+    - 0.43
+  - cal/(mol*K)
+  H298:
+  - -6.55
+  - kcal/mol
+  S298:
+  - -5.09
+  - cal/(mol*K)
+---
+label: o_CHO
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u0 {1,S} {4,S} {5,D}
+  4    H  u0 {3,S}
+  5    O  u0 {3,D}
+children:
+- o_CHO_CHO
+- o_CHO_vinyl
+- o_CHO_CH3
+- o_CHO_C2H5
+- o_CHO_MeO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_CHO_CHO
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    C  u0 {1,S} {4,S} {8,D}
+  4    H  u0 {3,S}
+  5    C  u0 {2,S} {6,S} {7,D}
+  6    H  u0 {5,S}
+  7    O  u0 {5,D}
+  8    O  u0 {3,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.2
+    - 0.2
+    - 0.19
+    - 0.17
+    - 0.05
+    - -0.1
+    - -0.3
+  - cal/(mol*K)
+  H298:
+  - 2.52
+  - kcal/mol
+  S298:
+  - 0.76
+  - cal/(mol*K)
+---
+label: o_CHO_vinyl
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {6,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     O  u0 {3,D}
+  6     C  u0 {2,S} {7,D} {8,S}
+  7     C  u0 {6,D} {9,S} {10,S}
+  8     H  u0 {6,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.31
+    - 0.38
+    - 0.5
+    - 0.6
+    - 0.57
+    - 0.43
+    - 0.07
+  - cal/(mol*K)
+  H298:
+  - 2.84
+  - kcal/mol
+  S298:
+  - -0.62
+  - cal/(mol*K)
+---
+label: o_CHO_CH3
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {6,S}
+  3    C  u0 {1,S} {4,S} {5,D}
+  4    H  u0 {3,S}
+  5    O  u0 {3,D}
+  6    C  u0 {2,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.96
+    - 0.72
+    - 0.48
+    - 0.26
+    - 0.0
+    - -0.14
+    - -0.22
+  - cal/(mol*K)
+  H298:
+  - 1.94
+  - kcal/mol
+  S298:
+  - -0.57
+  - cal/(mol*K)
+---
+label: o_CHO_C2H5
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {6,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     O  u0 {3,D}
+  6     C  u0 {2,S} {7,S} {8,S} {9,S}
+  7     H  u0 {6,S}
+  8     H  u0 {6,S}
+  9     C  u0 {6,S} {10,S} {11,S} {12,S}
+  10    H  u0 {9,S}
+  11    H  u0 {9,S}
+  12    H  u0 {9,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.96
+    - 0.72
+    - 0.48
+    - 0.26
+    - 0.0
+    - -0.14
+    - -0.22
+  - cal/(mol*K)
+  H298:
+  - 1.94
+  - kcal/mol
+  S298:
+  - -0.57
+  - cal/(mol*K)
+---
+label: o_CHO_MeO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {6,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     O  u0 {3,D}
+  6     O  u0 {2,S} {7,S}
+  7     C  u0 {6,S} {8,S} {9,S} {10,S}
+  8     H  u0 {7,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.62
+    - 0.07
+    - 0.62
+    - 0.93
+    - 0.98
+    - 0.79
+    - 0.31
+  - cal/(mol*K)
+  H298:
+  - 1.89
+  - kcal/mol
+  S298:
+  - -0.41
+  - cal/(mol*K)
+---
+label: o_vinyl
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u0 {1,S} {4,S} {5,D}
+  4    H  u0 {3,S}
+  5    C  u0 {3,D} {6,S} {7,S}
+  6    H  u0 {5,S}
+  7    H  u0 {5,S}
+children:
+- o_vinyl_vinyl
+- o_vinyl_CH3
+- o_vinyl_C2H5
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_vinyl_vinyl
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {6,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     C  u0 {3,D} {11,S} {12,S}
+  6     C  u0 {2,S} {7,D} {8,S}
+  7     C  u0 {6,D} {9,S} {10,S}
+  8     H  u0 {6,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+  11    H  u0 {5,S}
+  12    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.55
+    - 0.38
+    - 0.25
+    - 0.16
+    - 0.02
+    - -0.02
+    - -0.06
+  - cal/(mol*K)
+  H298:
+  - 0.97
+  - kcal/mol
+  S298:
+  - -0.27
+  - cal/(mol*K)
+---
+label: o_vinyl_CH3
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {8,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     C  u0 {3,D} {6,S} {7,S}
+  6     H  u0 {5,S}
+  7     H  u0 {5,S}
+  8     C  u0 {2,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    H  u0 {8,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 1.36
+    - 1.34
+    - 1.17
+    - 1.0
+    - 0.69
+    - 0.5
+    - 0.24
+  - cal/(mol*K)
+  H298:
+  - 1.1
+  - kcal/mol
+  S298:
+  - -1.36
+  - cal/(mol*K)
+---
+label: o_vinyl_C2H5
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {8,S}
+  3     C  u0 {1,S} {4,S} {5,D}
+  4     H  u0 {3,S}
+  5     C  u0 {3,D} {6,S} {7,S}
+  6     H  u0 {5,S}
+  7     H  u0 {5,S}
+  8     C  u0 {2,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    C  u0 {8,S} {12,S} {13,S} {14,S}
+  12    H  u0 {11,S}
+  13    H  u0 {11,S}
+  14    H  u0 {11,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 1.36
+    - 1.34
+    - 1.17
+    - 1.0
+    - 0.69
+    - 0.5
+    - 0.24
+  - cal/(mol*K)
+  H298:
+  - 1.1
+  - kcal/mol
+  S298:
+  - -1.36
+  - cal/(mol*K)
+---
+label: o_MeO
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O  u0 {1,S} {4,S}
+  4    C  u0 {3,S} {5,S} {6,S} {7,S}
+  5    H  u0 {4,S}
+  6    H  u0 {4,S}
+  7    H  u0 {4,S}
+children:
+- o_MeO_MeO
+- o_MeO_vinyl
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_MeO_MeO
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {8,S}
+  3     O  u0 {1,S} {4,S}
+  4     C  u0 {3,S} {5,S} {6,S} {7,S}
+  5     H  u0 {4,S}
+  6     H  u0 {4,S}
+  7     H  u0 {4,S}
+  8     O  u0 {2,S} {9,S}
+  9     C  u0 {8,S} {10,S} {11,S} {12,S}
+  10    H  u0 {9,S}
+  11    H  u0 {9,S}
+  12    H  u0 {9,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - -0.41
+    - -0.56
+    - -0.6
+    - -0.53
+    - -0.44
+    - -0.26
+  - cal/(mol*K)
+  H298:
+  - 1.76
+  - kcal/mol
+  S298:
+  - 0.93
+  - cal/(mol*K)
+---
+label: o_MeO_vinyl
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {5,S}
+  3     O  u0 {1,S} {4,S}
+  4     C  u0 {3,S} {10,S} {11,S} {12,S}
+  5     C  u0 {2,S} {6,D} {7,S}
+  6     C  u0 {5,D} {8,S} {9,S}
+  7     H  u0 {5,S}
+  8     H  u0 {6,S}
+  9     H  u0 {6,S}
+  10    H  u0 {4,S}
+  11    H  u0 {4,S}
+  12    H  u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.6
+    - 0.65
+    - 0.62
+    - 0.6
+    - 0.5
+    - 0.43
+    - 0.29
+  - cal/(mol*K)
+  H298:
+  - 0.62
+  - kcal/mol
+  S298:
+  - -0.79
+  - cal/(mol*K)
+---
+label: o_CH3
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u0 {1,S} {4,S} {5,S} {6,S}
+  4    H  u0 {3,S}
+  5    H  u0 {3,S}
+  6    H  u0 {3,S}
+children:
+- o_CH3_CH3
+- o_CH3_C2H5
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_CH3_CH3
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {7,S}
+  3     C  u0 {1,S} {4,S} {5,S} {6,S}
+  4     H  u0 {3,S}
+  5     H  u0 {3,S}
+  6     H  u0 {3,S}
+  7     C  u0 {2,S} {8,S} {9,S} {10,S}
+  8     H  u0 {7,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.39
+    - 0.35
+    - 0.31
+    - 0.3
+    - 0.27
+    - 0.24
+    - 0.18
+  - cal/(mol*K)
+  H298:
+  - 0.5
+  - kcal/mol
+  S298:
+  - -0.79
+  - cal/(mol*K)
+---
+label: o_CH3_C2H5
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {7,S}
+  3     C  u0 {1,S} {4,S} {5,S} {6,S}
+  4     H  u0 {3,S}
+  5     H  u0 {3,S}
+  6     H  u0 {3,S}
+  7     C  u0 {2,S} {8,S} {9,S} {10,S}
+  8     H  u0 {7,S}
+  9     H  u0 {7,S}
+  10    C  u0 {7,S} {11,S} {12,S} {13,S}
+  11    H  u0 {10,S}
+  12    H  u0 {10,S}
+  13    H  u0 {10,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.79
+    - 0.69
+    - 0.62
+    - 0.6
+    - 0.55
+    - 0.48
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - 1.0
+  - kcal/mol
+  S298:
+  - -1.58
+  - cal/(mol*K)
+---
+label: o_C2H5
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u0 {1,S} {4,S} {5,S} {6,S}
+  4    H  u0 {3,S}
+  5    H  u0 {3,S}
+  6    C  u0 {3,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children:
+- o_C2H5_C2H5
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_C2H5_C2H5
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {7,S}
+  3     C  u0 {1,S} {4,S} {5,S} {6,S}
+  4     H  u0 {3,S}
+  5     H  u0 {3,S}
+  6     C  u0 {3,S} {14,S} {15,S} {16,S}
+  7     C  u0 {2,S} {8,S} {9,S} {10,S}
+  8     H  u0 {7,S}
+  9     H  u0 {7,S}
+  10    C  u0 {7,S} {11,S} {12,S} {13,S}
+  11    H  u0 {10,S}
+  12    H  u0 {10,S}
+  13    H  u0 {10,S}
+  14    H  u0 {6,S}
+  15    H  u0 {6,S}
+  16    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.39
+    - 0.35
+    - 0.31
+    - 0.3
+    - 0.27
+    - 0.24
+    - 0.18
+  - cal/(mol*K)
+  H298:
+  - 0.5
+  - kcal/mol
+  S298:
+  - -0.79
+  - cal/(mol*K)
+---
+label: o_Oj
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O  u1 {1,S}
+children:
+- o_Oj_OH
+- o_Oj_OCH3
+- o_Oj_CHO
+- o_Oj_C=C
+- o_Oj_Cs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_Oj_OH
+short_description: NNI4. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {4,S}
+  3    O  u1 {1,S}
+  4    O  u0 {2,S} {5,S}
+  5    H  u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -2.06
+    - -1.84
+    - -1.58
+    - -1.27
+    - -0.74
+    - -0.31
+    - 0.38
+  - cal/(mol*K)
+  H298:
+  - -8.87
+  - kcal/mol
+  S298:
+  - -2.53
+  - cal/(mol*K)
+---
+label: o_Oj_OCH3
+short_description: NNI5. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {4,S}
+  3    O  u1 {1,S}
+  4    O  u0 {2,S} {5,S}
+  5    C  u0 {4,S} {6,S} {7,S} {8,S}
+  6    H  u0 {5,S}
+  7    H  u0 {5,S}
+  8    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.6
+    - -0.62
+    - -0.53
+    - -0.33
+    - -0.07
+    - 0.05
+    - 0.12
+  - cal/(mol*K)
+  H298:
+  - -1.53
+  - kcal/mol
+  S298:
+  - -0.1
+  - cal/(mol*K)
+---
+label: o_Oj_CHO
+short_description: NNI8. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {4,S}
+  3    O  u1 {1,S}
+  4    C  u0 {2,S} {5,S} {6,D}
+  5    H  u0 {4,S}
+  6    O  u0 {4,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.22
+    - -0.02
+    - 0.19
+    - 0.41
+    - 0.69
+    - 0.69
+    - 0.41
+  - cal/(mol*K)
+  H298:
+  - 1.36
+  - kcal/mol
+  S298:
+  - -0.1
+  - cal/(mol*K)
+---
+label: o_Oj_C=C
+short_description: NNI10. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {4,S}
+  3    O  u1 {1,S}
+  4    C  u0 {2,S} {5,S} {6,D}
+  5    H  u0 {4,S}
+  6    C  u0 {4,D} {7,S} {8,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.02
+    - 0.1
+    - 0.24
+    - 0.31
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - -1.53
+  - kcal/mol
+  S298:
+  - -0.88
+  - cal/(mol*K)
+---
+label: o_Oj_Cs
+short_description: NNI12. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {3,S}
+  2 *2 Cb     u0 {1,B} {4,S}
+  3    O      u1 {1,S}
+  4    C      u0 {2,S} {5,S} {6,S} {7,S}
+  5    H      u0 {4,S}
+  6    H      u0 {4,S}
+  7    [H,Cs] u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.14
+    - -0.12
+    - -0.1
+    - -0.05
+    - -0.05
+    - -0.02
+    - -0.05
+  - cal/(mol*K)
+  H298:
+  - -2.06
+  - kcal/mol
+  S298:
+  - 0.26
+  - cal/(mol*K)
+---
+label: o_OCH2j
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    O  u0 {1,S} {4,S}
+  4    C  u1 {3,S} {5,S} {6,S}
+  5    H  u0 {4,S}
+  6    H  u0 {4,S}
+children:
+- o_OCH2j_CHO
+- o_OCH2j_OCH3
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_OCH2j_CHO
+short_description: NNI2. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {7,S}
+  3    O  u0 {1,S} {4,S}
+  4    C  u1 {3,S} {5,S} {6,S}
+  5    H  u0 {4,S}
+  6    H  u0 {4,S}
+  7    C  u0 {2,S} {8,S} {9,D}
+  8    H  u0 {7,S}
+  9    O  u0 {7,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.53
+    - 1.2
+    - 1.43
+    - 1.39
+    - 1.0
+    - 0.62
+    - 0.12
+  - cal/(mol*K)
+  H298:
+  - 1.67
+  - kcal/mol
+  S298:
+  - -1.15
+  - cal/(mol*K)
+---
+label: o_OCH2j_OCH3
+short_description: NNI3. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {7,S}
+  3     O  u0 {1,S} {4,S}
+  4     C  u1 {3,S} {5,S} {6,S}
+  5     H  u0 {4,S}
+  6     H  u0 {4,S}
+  7     O  u0 {2,S} {8,S}
+  8     C  u0 {7,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    H  u0 {8,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.93
+    - 0.22
+    - -0.22
+    - -0.36
+    - -0.33
+    - -0.29
+    - -0.14
+  - cal/(mol*K)
+  H298:
+  - 2.75
+  - kcal/mol
+  S298:
+  - 0.29
+  - cal/(mol*K)
+---
+label: o_Cj=O
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u1 {1,S} {4,D}
+  4    O  u0 {3,D}
+children:
+- o_Cj=O_OH
+- o_Cj=O_OCH3
+- o_Cj=O_C=C
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_Cj=O_OH
+short_description: NNI14. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    C  u1 {1,S} {4,D}
+  4    O  u0 {3,D}
+  5    O  u0 {2,S} {6,S}
+  6    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -1.53
+    - -1.08
+    - -0.69
+    - -0.24
+    - 0.55
+    - 1.12
+    - 1.65
+  - cal/(mol*K)
+  H298:
+  - -4.02
+  - kcal/mol
+  S298:
+  - -4.57
+  - cal/(mol*K)
+---
+label: o_Cj=O_OCH3
+short_description: NNI16. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    C  u1 {1,S} {4,D}
+  4    O  u0 {3,D}
+  5    O  u0 {2,S} {6,S}
+  6    C  u0 {5,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.6
+    - 0.33
+    - 0.1
+    - 0.0
+    - -0.14
+    - -0.19
+    - -0.17
+  - cal/(mol*K)
+  H298:
+  - 1.77
+  - kcal/mol
+  S298:
+  - 0.57
+  - cal/(mol*K)
+---
+label: o_Cj=O_C=C
+short_description: NNI19. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {5,S}
+  3    C  u1 {1,S} {4,D}
+  4    O  u0 {3,D}
+  5    C  u0 {2,S} {6,D} {9,S}
+  6    C  u0 {5,D} {7,S} {8,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.76
+    - 0.84
+    - 0.76
+    - 0.62
+    - 0.36
+    - 0.14
+    - 0.02
+  - cal/(mol*K)
+  H298:
+  - 0.96
+  - kcal/mol
+  S298:
+  - -1.39
+  - cal/(mol*K)
+---
+label: o_C=Cj
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B}
+  3    C  u0 {1,S} {4,D} {5,S}
+  4    C  u1 {3,D} {6,S}
+  5    H  u0 {3,S}
+  6    H  u0 {4,S}
+children:
+- o_C=Cj_OH
+- o_C=Cj_CHO
+- o_C=Cj_C=C
+- o_C=Cj_Cs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_C=Cj_OH
+short_description: NNI20. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {7,S}
+  3    C  u0 {1,S} {4,D} {5,S}
+  4    C  u1 {3,D} {6,S}
+  5    H  u0 {3,S}
+  6    H  u0 {4,S}
+  7    O  u0 {2,S} {8,S}
+  8    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -1.31
+    - -0.69
+    - 0.14
+    - 1.1
+    - 2.41
+    - 2.87
+    - 2.25
+  - cal/(mol*K)
+  H298:
+  - -3.39
+  - kcal/mol
+  S298:
+  - -4.21
+  - cal/(mol*K)
+---
+label: o_C=Cj_CHO
+short_description: NNI21. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {3,S}
+  2 *2 Cb u0 {1,B} {7,S}
+  3    C  u0 {1,S} {4,D} {5,S}
+  4    C  u1 {3,D} {6,S}
+  5    H  u0 {3,S}
+  6    H  u0 {4,S}
+  7    C  u0 {2,S} {8,S} {9,D}
+  8    H  u0 {7,S}
+  9    O  u0 {7,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.53
+    - 0.81
+    - 0.86
+    - 0.79
+    - 0.57
+    - 0.43
+    - 0.24
+  - cal/(mol*K)
+  H298:
+  - 3.49
+  - kcal/mol
+  S298:
+  - -1.29
+  - cal/(mol*K)
+---
+label: o_C=Cj_C=C
+short_description: NNI22. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {3,S}
+  2  *2 Cb u0 {1,B} {7,S}
+  3     C  u0 {1,S} {4,D} {5,S}
+  4     C  u1 {3,D} {6,S}
+  5     H  u0 {3,S}
+  6     H  u0 {4,S}
+  7     C  u0 {2,S} {8,S} {9,D}
+  8     H  u0 {7,S}
+  9     C  u0 {7,D} {10,S} {11,S}
+  10    H  u0 {9,S}
+  11    H  u0 {9,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.48
+    - 0.6
+    - 0.53
+    - 0.43
+    - 0.26
+    - 0.17
+    - 0.07
+  - cal/(mol*K)
+  H298:
+  - 1.82
+  - kcal/mol
+  S298:
+  - -1.31
+  - cal/(mol*K)
+---
+label: o_C=Cj_Cs
+short_description: NNI23. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb     u0 {2,B} {3,S}
+  2  *2 Cb     u0 {1,B} {7,S}
+  3     C      u0 {1,S} {4,D} {5,S}
+  4     C      u1 {3,D} {6,S}
+  5     H      u0 {3,S}
+  6     H      u0 {4,S}
+  7     C      u0 {2,S} {8,S} {9,S} {10,S}
+  8     H      u0 {7,S}
+  9     H      u0 {7,S}
+  10    [H,Cs] u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.69
+    - 0.65
+    - 0.5
+    - 0.36
+    - 0.14
+    - 0.07
+    - -0.02
+  - cal/(mol*K)
+  H298:
+  - 1.0
+  - kcal/mol
+  S298:
+  - -0.91
+  - cal/(mol*K)
+---
+label: o_Csj
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {3,S}
+  2 *2 Cb     u0 {1,B}
+  3    C      u1 {1,S} {4,S} {5,S}
+  4    H      u0 {3,S}
+  5    [H,Cs] u0 {3,S}
+children:
+- o_Csj_C=C
+- o_Csj_CHO
+- o_Csj_Cs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: o_Csj_C=C
+short_description: NNI26. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb     u0 {2,B} {3,S}
+  2  *2 Cb     u0 {1,B} {6,S}
+  3     C      u1 {1,S} {4,S} {5,S}
+  4     H      u0 {3,S}
+  5     [H,Cs] u0 {3,S}
+  6     C      u0 {2,S} {7,S} {8,D}
+  7     H      u0 {6,S}
+  8     C      u0 {6,D} {9,S} {10,S}
+  9     H      u0 {8,S}
+  10    H      u0 {8,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.43
+    - 0.29
+    - 0.14
+    - 0.02
+    - -0.12
+    - -0.17
+    - -0.17
+  - cal/(mol*K)
+  H298:
+  - 1.6
+  - kcal/mol
+  S298:
+  - -0.12
+  - cal/(mol*K)
+---
+label: o_Csj_CHO
+short_description: NNI28. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {3,S}
+  2 *2 Cb     u0 {1,B} {6,S}
+  3    C      u1 {1,S} {4,S} {5,S}
+  4    H      u0 {3,S}
+  5    [H,Cs] u0 {3,S}
+  6    C      u0 {2,S} {7,S} {8,D}
+  7    H      u0 {6,S}
+  8    O      u0 {6,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.43
+    - 0.5
+    - 0.43
+    - 0.29
+    - 0.1
+    - -0.05
+    - -0.12
+  - cal/(mol*K)
+  H298:
+  - 1.31
+  - kcal/mol
+  S298:
+  - 0.45
+  - cal/(mol*K)
+---
+label: o_Csj_Cs
+short_description: NNI29. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {3,S}
+  2 *2 Cb     u0 {1,B} {6,S}
+  3    C      u1 {1,S} {4,S} {5,S}
+  4    H      u0 {3,S}
+  5    [H,Cs] u0 {3,S}
+  6    C      u0 {2,S} {7,S} {8,S} {9,S}
+  7    H      u0 {6,S}
+  8    H      u0 {6,S}
+  9    [H,Cs] u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.81
+    - 0.62
+    - 0.43
+    - 0.29
+    - 0.12
+    - 0.07
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.65
+  - kcal/mol
+  S298:
+  - -0.86
+  - cal/(mol*K)
+---
+label: aromatic-meta
+short_description: Aromatics NNI correction for meta position
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B}
+children:
+- m_CHO_CHO
+- m_Oj_OCH3
+- m_Oj_CHO
+- m_Cj=O_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: m_CHO_CHO
+short_description: Half value. Aromatics NNI correction.
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {4,S}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B} {7,S}
+  4    C  u0 {1,S} {5,D} {6,S}
+  5    O  u0 {4,D}
+  6    H  u0 {4,S}
+  7    C  u0 {3,S} {8,D} {9,S}
+  8    O  u0 {7,D}
+  9    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.2
+    - 0.12
+    - 0.06
+    - 0.01
+    - -0.05
+    - -0.08
+    - -0.1
+  - cal/(mol*K)
+  H298:
+  - 0.57
+  - kcal/mol
+  S298:
+  - 0.01
+  - cal/(mol*K)
+---
+label: m_Oj_OCH3
+short_description: NNI6. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {4,S}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B} {5,S}
+  4    O  u1 {1,S}
+  5    O  u0 {3,S} {6,S}
+  6    C  u0 {5,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.22
+    - 0.76
+    - 0.98
+    - 1.03
+    - 0.81
+    - 0.55
+    - 0.22
+  - cal/(mol*K)
+  H298:
+  - -1.65
+  - kcal/mol
+  S298:
+  - -1.0
+  - cal/(mol*K)
+---
+label: m_Oj_CHO
+short_description: NNI9. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {4,S}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B} {5,S}
+  4    O  u1 {1,S}
+  5    C  u0 {3,S} {6,D} {7,S}
+  6    O  u0 {5,D}
+  7    H  u0 {5,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.38
+    - -0.38
+    - -0.38
+    - -0.38
+    - 0.29
+    - 0.22
+    - 0.12
+  - cal/(mol*K)
+  H298:
+  - 1.12
+  - kcal/mol
+  S298:
+  - 0.86
+  - cal/(mol*K)
+---
+label: m_Cj=O_CHO
+short_description: NNI17. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {4,S}
+  2    Cb u0 {1,B} {3,B}
+  3 *2 Cb u0 {2,B} {6,S}
+  4    C  u1 {1,S} {5,D}
+  5    O  u0 {4,D}
+  6    C  u0 {3,S} {7,D} {8,S}
+  7    O  u0 {6,D}
+  8    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.07
+    - 0.17
+    - 0.17
+    - 0.12
+    - 0.0
+    - -0.07
+    - 0.02
+  - cal/(mol*K)
+  H298:
+  - 1.1
+  - kcal/mol
+  S298:
+  - 0.81
+  - cal/(mol*K)
+---
+label: aromatic-para
+short_description: Aromatics NNI correction for para position.
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+children:
+- p_OH
+- p_MeO
+- p_CHO
+- p_Oj
+- p_OCH2j
+- p_Cj=O
+- p_Csj
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_OH
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O  u0 {1,S} {6,S}
+  6    H  u0 {5,S}
+children:
+- p_OH_OH
+- p_OH_MeO
+- p_OH_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_OH_OH
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O  u0 {1,S} {6,S}
+  6    H  u0 {5,S}
+  7    O  u0 {4,S} {8,S}
+  8    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.2
+    - 0.05
+    - -0.1
+    - -0.2
+    - -0.27
+    - -0.27
+    - -0.2
+  - cal/(mol*K)
+  H298:
+  - 0.87
+  - kcal/mol
+  S298:
+  - 0.48
+  - cal/(mol*K)
+---
+label: p_OH_MeO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {7,S}
+  5     O  u0 {1,S} {6,S}
+  6     H  u0 {5,S}
+  7     O  u0 {4,S} {8,S}
+  8     C  u0 {7,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    H  u0 {8,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.41
+    - 0.1
+    - -0.19
+    - -0.41
+    - -0.55
+    - -0.55
+    - -0.41
+  - cal/(mol*K)
+  H298:
+  - 1.74
+  - kcal/mol
+  S298:
+  - 0.96
+  - cal/(mol*K)
+---
+label: p_OH_CHO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    O  u0 {1,S} {6,S}
+  6    H  u0 {5,S}
+  7    C  u0 {4,S} {8,D} {9,S}
+  8    O  u0 {7,D}
+  9    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.38
+    - -0.24
+    - -0.07
+    - 0.05
+    - 0.22
+    - 0.29
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - -1.1
+  - kcal/mol
+  S298:
+  - -0.19
+  - cal/(mol*K)
+---
+label: p_MeO
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O  u0 {1,S} {6,S}
+  6    C  u0 {5,S} {7,S} {8,S} {9,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+  9    H  u0 {6,S}
+children:
+- p_MeO_MeO
+- p_MeO_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_MeO_MeO
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {7,S}
+  5     O  u0 {1,S} {6,S}
+  6     C  u0 {5,S} {12,S} {13,S} {14,S}
+  7     O  u0 {4,S} {8,S}
+  8     C  u0 {7,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    H  u0 {8,S}
+  12    H  u0 {6,S}
+  13    H  u0 {6,S}
+  14    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.2
+    - 0.05
+    - -0.1
+    - -0.2
+    - -0.27
+    - -0.27
+    - -0.2
+  - cal/(mol*K)
+  H298:
+  - 0.87
+  - kcal/mol
+  S298:
+  - 0.48
+  - cal/(mol*K)
+---
+label: p_MeO_CHO
+short_description: This is NNI correction from Ince & Reyniers, AIChE 2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {7,S}
+  5     O  u0 {1,S} {6,S}
+  6     C  u0 {5,S} {10,S} {11,S} {12,S}
+  7     C  u0 {4,S} {8,D} {9,S}
+  8     O  u0 {7,D}
+  9     H  u0 {7,S}
+  10    H  u0 {6,S}
+  11    H  u0 {6,S}
+  12    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.38
+    - -0.24
+    - -0.07
+    - 0.05
+    - 0.22
+    - 0.29
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - -1.1
+  - kcal/mol
+  S298:
+  - -0.19
+  - cal/(mol*K)
+---
+label: p_CHO
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    C  u0 {1,S} {6,S} {7,D}
+  6    H  u0 {5,S}
+  7    O  u0 {5,D}
+children:
+- p_CHO_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_CHO_CHO
+short_description: Half value. This is NNI correction from Ince & Reyniers, AIChE
+  2015, DOI 10.1002/aic.15008
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {7,S}
+  5     C  u0 {1,S} {6,S} {10,D}
+  6     H  u0 {5,S}
+  7     C  u0 {4,S} {8,D} {9,S}
+  8     O  u0 {7,D}
+  9     H  u0 {7,S}
+  10    O  u0 {5,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.22
+    - 0.17
+    - 0.12
+    - 0.08
+    - 0.01
+    - -0.04
+    - -0.11
+  - cal/(mol*K)
+  H298:
+  - 1.18
+  - kcal/mol
+  S298:
+  - -0.1
+  - cal/(mol*K)
+---
+label: p_Oj
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O  u1 {1,S}
+children:
+- p_Oj_OH
+- p_Oj_OCH3
+- p_Oj_C=C
+- p_Oj_Cs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_Oj_OH
+short_description: NNI7. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {6,S}
+  5    O  u1 {1,S}
+  6    O  u0 {4,S} {7,S}
+  7    H  u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.67
+    - -0.6
+    - -0.45
+    - -0.29
+    - -0.02
+    - 0.17
+    - 0.38
+  - cal/(mol*K)
+  H298:
+  - -3.78
+  - kcal/mol
+  S298:
+  - -0.67
+  - cal/(mol*K)
+---
+label: p_Oj_OCH3
+short_description: NNI7. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {6,S}
+  5     O  u1 {1,S}
+  6     O  u0 {4,S} {7,S}
+  7     C  u0 {6,S} {8,S} {9,S} {10,S}
+  8     H  u0 {7,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.67
+    - -0.6
+    - -0.45
+    - -0.29
+    - -0.02
+    - 0.17
+    - 0.38
+  - cal/(mol*K)
+  H298:
+  - -3.78
+  - kcal/mol
+  S298:
+  - -0.67
+  - cal/(mol*K)
+---
+label: p_Oj_C=C
+short_description: NNI11. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {6,S}
+  5     O  u1 {1,S}
+  6     C  u0 {4,S} {7,D} {8,S}
+  7     C  u0 {6,D} {9,S} {10,S}
+  8     H  u0 {6,S}
+  9     H  u0 {7,S}
+  10    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.07
+    - 0.05
+    - 0.05
+    - 0.12
+    - 0.22
+    - 0.29
+    - 0.26
+  - cal/(mol*K)
+  H298:
+  - -3.08
+  - kcal/mol
+  S298:
+  - -0.72
+  - cal/(mol*K)
+---
+label: p_Oj_Cs
+short_description: NNI13. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {5,S}
+  2    Cb     u0 {1,B} {3,B}
+  3    Cb     u0 {2,B} {4,B}
+  4 *2 Cb     u0 {3,B} {6,S}
+  5    O      u1 {1,S}
+  6    C      u0 {4,S} {7,S} {8,S} {9,S}
+  7    H      u0 {6,S}
+  8    H      u0 {6,S}
+  9    [H,Cs] u0 {6,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.17
+    - -0.12
+    - -0.1
+    - -0.1
+    - -0.07
+    - -0.05
+    - -0.05
+  - cal/(mol*K)
+  H298:
+  - -1.39
+  - kcal/mol
+  S298:
+  - 0.07
+  - cal/(mol*K)
+---
+label: p_OCH2j
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    O  u0 {1,S} {6,S}
+  6    C  u1 {5,S} {7,S} {8,S}
+  7    H  u0 {6,S}
+  8    H  u0 {6,S}
+children:
+- p_OCH2j_OH
+- p_OCH2j_OCH3
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_OCH2j_OH
+short_description: NNI1. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {9,S}
+  5     O  u0 {1,S} {6,S}
+  6     C  u1 {5,S} {7,S} {8,S}
+  7     H  u0 {6,S}
+  8     H  u0 {6,S}
+  9     O  u0 {4,S} {10,S}
+  10    H  u0 {9,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.1
+    - -0.19
+    - -0.43
+    - -0.57
+    - -0.65
+    - -0.6
+    - -0.33
+  - cal/(mol*K)
+  H298:
+  - 1.43
+  - kcal/mol
+  S298:
+  - 0.91
+  - cal/(mol*K)
+---
+label: p_OCH2j_OCH3
+short_description: NNI1. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {9,S}
+  5     O  u0 {1,S} {6,S}
+  6     C  u1 {5,S} {7,S} {8,S}
+  7     H  u0 {6,S}
+  8     H  u0 {6,S}
+  9     O  u0 {4,S} {10,S}
+  10    C  u0 {9,S} {11,S} {12,S} {13,S}
+  11    H  u0 {10,S}
+  12    H  u0 {10,S}
+  13    H  u0 {10,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.1
+    - -0.19
+    - -0.43
+    - -0.57
+    - -0.65
+    - -0.6
+    - -0.33
+  - cal/(mol*K)
+  H298:
+  - 1.43
+  - kcal/mol
+  S298:
+  - 0.91
+  - cal/(mol*K)
+---
+label: p_Cj=O
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B}
+  5    C  u1 {1,S} {6,D}
+  6    O  u0 {5,D}
+children:
+- p_Cj=O_OH
+- p_Cj=O_OCH3
+- p_Cj=O_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_Cj=O_OH
+short_description: NNI15. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    C  u1 {1,S} {6,D}
+  6    O  u0 {5,D}
+  7    O  u0 {4,S} {8,S}
+  8    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.79
+    - -0.65
+    - -0.48
+    - -0.24
+    - 0.05
+    - 0.19
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - -2.06
+  - kcal/mol
+  S298:
+  - -0.88
+  - cal/(mol*K)
+---
+label: p_Cj=O_OCH3
+short_description: NNI15. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb u0 {2,B} {5,S}
+  2     Cb u0 {1,B} {3,B}
+  3     Cb u0 {2,B} {4,B}
+  4  *2 Cb u0 {3,B} {7,S}
+  5     C  u1 {1,S} {6,D}
+  6     O  u0 {5,D}
+  7     O  u0 {4,S} {8,S}
+  8     C  u0 {7,S} {9,S} {10,S} {11,S}
+  9     H  u0 {8,S}
+  10    H  u0 {8,S}
+  11    H  u0 {8,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.79
+    - -0.65
+    - -0.48
+    - -0.24
+    - 0.05
+    - 0.19
+    - 0.36
+  - cal/(mol*K)
+  H298:
+  - -2.06
+  - kcal/mol
+  S298:
+  - -0.88
+  - cal/(mol*K)
+---
+label: p_Cj=O_CHO
+short_description: NNI18. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1 *1 Cb u0 {2,B} {5,S}
+  2    Cb u0 {1,B} {3,B}
+  3    Cb u0 {2,B} {4,B}
+  4 *2 Cb u0 {3,B} {7,S}
+  5    C  u1 {1,S} {6,D}
+  6    O  u0 {5,D}
+  7    C  u0 {4,S} {8,D} {9,S}
+  8    O  u0 {7,D}
+  9    H  u0 {7,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.24
+    - -0.57
+    - -0.84
+    - -0.98
+    - -1.08
+    - -1.03
+    - -0.76
+  - cal/(mol*K)
+  H298:
+  - 1.29
+  - kcal/mol
+  S298:
+  - 3.25
+  - cal/(mol*K)
+---
+label: p_Csj
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cb     u0 {2,B} {5,S}
+  2    Cb     u0 {1,B} {3,B}
+  3    Cb     u0 {2,B} {4,B}
+  4 *2 Cb     u0 {3,B}
+  5    C      u1 {1,S} {6,S} {7,S}
+  6    H      u0 {5,S}
+  7    [H,Cs] u0 {5,S}
+children:
+- p_Csj_C=C
+- p_Csj_CHO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: p_Csj_C=C
+short_description: NNI25. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb     u0 {2,B} {5,S}
+  2     Cb     u0 {1,B} {3,B}
+  3     Cb     u0 {2,B} {4,B}
+  4  *2 Cb     u0 {3,B} {8,S}
+  5     C      u1 {1,S} {6,S} {7,S}
+  6     H      u0 {5,S}
+  7     [H,Cs] u0 {5,S}
+  8     C      u0 {4,S} {9,S} {10,D}
+  9     H      u0 {8,S}
+  10    C      u0 {8,D} {11,S} {12,S}
+  11    H      u0 {10,S}
+  12    H      u0 {10,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.22
+    - 0.26
+    - 0.29
+    - 0.33
+    - 0.38
+    - 0.38
+    - 0.31
+  - cal/(mol*K)
+  H298:
+  - -1.39
+  - kcal/mol
+  S298:
+  - -0.88
+  - cal/(mol*K)
+---
+label: p_Csj_CHO
+short_description: NNI27. This is NNI correction from Ince & Reyniers, AIChE 2016,
+  reviewing
+long_description: ''
+group: |2
+
+  1  *1 Cb     u0 {2,B} {5,S}
+  2     Cb     u0 {1,B} {3,B}
+  3     Cb     u0 {2,B} {4,B}
+  4  *2 Cb     u0 {3,B} {8,S}
+  5     C      u1 {1,S} {6,S} {7,S}
+  6     H      u0 {5,S}
+  7     [H,Cs] u0 {5,S}
+  8     C      u0 {4,S} {9,S} {10,D}
+  9     H      u0 {8,S}
+  10    O      u0 {8,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.29
+    - -0.22
+    - -0.14
+    - -0.1
+    - -0.07
+    - -0.02
+    - 0.07
+  - cal/(mol*K)
+  H298:
+  - -1.24
+  - kcal/mol
+  S298:
+  - 0.14
+  - cal/(mol*K)
+---
+label: intVal7
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 C    ux {2,[S,D]} {3,S}
+  2 *2 C    ux {1,[S,D]}
+  3    Val7 u0 {1,S}
+children:
+- Cs(Val7)3-Cs(Val7)3
+- Cs(Val7)3-Cs(Val7)2
+- Cs(Val7)3-C(Val7)
+- Cs(Val7)2-Cs(Val7)2
+- Cs(Val7)2-C(Val7)
+- C(Val7)-C(Val7)
+- Cds(Val7)=Cds(Val7)
+- Cds(Val7)2=Cds(Val7)
+- Cds(Val7)2=Cds(Val7)2
+- Cd(Val7)-CO
+- Cs(Val7)3-CO
+- Cs(Val7)2-CO
+- Cs(Val7)-CO
+- Cs(Val7)3-COs
+- Cs(Val7)2-CdOs
+- Cs(F)-CdOs
+- Cs(Cl)-CdOs
+- Cs(Br)-CdOs
+- Cd(Val7)2=CdOs
+- Cd(Val7)=CdOs
+- Cs(Val7)2-Cs(Val7)2
+- 3ring-Cs(Val7)2-Cs(Val7)2
+- Cs(Val7)2-C(Val7)
+- Cs(Val7)-Cs(Val7)
+- Cs(Val7)-Cds(Val7)
+- Cds(Val7)-Cds(Val7)
+- Cds(Val7)=Cds(Val7)
+- Cd(Val7)-CO
+- Cs(Val7)3-CO
+- Cs(Val7)2-CO
+- Cs(Val7)-CO
+- Cd(Val7)=CdOs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: Cs(Val7)2-Cs(Val7)2
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
+  2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+  3    Val7        u0 {1,S}
+  4    Val7        u0 {2,S}
+  5    Val7        u0 {1,S}
+  6    Val7        u0 {2,S}
+  7    [C,H,N,O,S] ux {1,S}
+  8    [C,H,N,O,S] ux {2,S}
+children:
+- Cs(Cl)2-Cs(Cl)2
+- Cs(F)2-Cs(F)2
+- Cs(Br)2-Cs(Br)2
+- Cs(Cl)2-Cs(Cl)2
+- Cs(F)2-Cs(F)2
+- Cs(Br)2-Cs(Br)2
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.041475
+    - -0.131714
+    - -0.161302
+    - -0.191793
+    - -0.233629
+    - -0.208333
+    - 0.00619743
+  - cal/(mol*K)
+  H298:
+  - 2.8807
+  - kcal/mol
+  S298:
+  - 0.427255
+  - cal/(mol*K)
+---
+label: Cs(Cl)2-Cs(Cl)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         7
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
+  2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+  3    Cl1s        u0 {1,S}
+  4    Cl1s        u0 {2,S}
+  5    Cl1s        u0 {1,S}
+  6    Cl1s        u0 {2,S}
+  7    [C,H,N,O,S] ux {1,S}
+  8    [C,H,N,O,S] ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0604356
+    - -0.196952
+    - -0.246734
+    - -0.244787
+    - -0.248332
+    - -0.21854
+    - -0.0162777
+  - cal/(mol*K)
+  H298:
+  - 2.78784
+  - kcal/mol
+  S298:
+  - 0.391358
+  - cal/(mol*K)
+---
+label: Cs(F)2-Cs(F)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         6
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
+  2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+  3    F1s         u0 {1,S}
+  4    F1s         u0 {2,S}
+  5    F1s         u0 {1,S}
+  6    F1s         u0 {2,S}
+  7    [C,H,N,O,S] ux {1,S}
+  8    [C,H,N,O,S] ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.16045
+    - -0.142085
+    - -0.0922643
+    - -0.0996005
+    - -0.131505
+    - -0.0926992
+    - 0.189776
+  - cal/(mol*K)
+  H298:
+  - 4.18515
+  - kcal/mol
+  S298:
+  - 0.363172
+  - cal/(mol*K)
+---
+label: Cs(Br)2-Cs(Br)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         7
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S} {7,S}
+  2 *2 Cs          ux {1,S} {4,S} {6,S} {8,S}
+  3    Br1s        u0 {1,S}
+  4    Br1s        u0 {2,S}
+  5    Br1s        u0 {1,S}
+  6    Br1s        u0 {2,S}
+  7    [C,H,N,O,S] ux {1,S}
+  8    [C,H,N,O,S] ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0964607
+    - -0.0561054
+    - -0.144907
+    - -0.230992
+    - -0.321051
+    - -0.313759
+    - -0.154906
+  - cal/(mol*K)
+  H298:
+  - 1.66911
+  - kcal/mol
+  S298:
+  - 0.527235
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Val7)2-Cs(Val7)2
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+  3    [C,N,O,S] ux {1,S} {2,S}
+  4    Val7        u0 {1,S}
+  5    Val7        u0 {2,S}
+  6    Val7        u0 {1,S}
+  7    Val7        u0 {2,S}
+children:
+- 3ring-Cs(Cl)2-Cs(Cl)2
+- 3ring-Cs(F)2-Cs(F)2
+- 3ring-Cs(Br)2-Cs(Br)2
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.213165
+    - -0.379222
+    - -0.37313
+    - -0.377491
+    - -0.39731
+    - -0.344927
+    - -0.0466521
+  - cal/(mol*K)
+  H298:
+  - 5.3081
+  - kcal/mol
+  S298:
+  - 0.662505
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Cl)2-Cs(Cl)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         10
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+  3    [C,N,O,S] ux {1,S} {2,S}
+  4    Cl1s        u0 {1,S}
+  5    Cl1s        u0 {2,S}
+  6    Cl1s        u0 {1,S}
+  7    Cl1s        u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.270952
+    - -0.470596
+    - -0.447481
+    - -0.440043
+    - -0.460947
+    - -0.394694
+    - -0.0153192
+  - cal/(mol*K)
+  H298:
+  - 4.10854
+  - kcal/mol
+  S298:
+  - 0.48576
+  - cal/(mol*K)
+---
+label: 3ring-Cs(F)2-Cs(F)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         12
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+  3    [C,N,O,S] ux {1,S} {2,S}
+  4    F1s         u0 {1,S}
+  5    F1s         u0 {2,S}
+  6    F1s         u0 {1,S}
+  7    F1s         u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.179391
+    - -0.284923
+    - -0.255856
+    - -0.212267
+    - -0.168419
+    - -0.100064
+    - 0.150286
+  - cal/(mol*K)
+  H298:
+  - 8.00226
+  - kcal/mol
+  S298:
+  - 0.448396
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Br)2-Cs(Br)2
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         7
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S} {7,S}
+  3    [C,N,O,S] ux {1,S} {2,S}
+  4    Br1s        u0 {1,S}
+  5    Br1s        u0 {2,S}
+  6    Br1s        u0 {1,S}
+  7    Br1s        u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.189152
+    - -0.382148
+    - -0.416053
+    - -0.480162
+    - -0.562563
+    - -0.540023
+    - -0.274923
+  - cal/(mol*K)
+  H298:
+  - 3.8135
+  - kcal/mol
+  S298:
+  - 1.05336
+  - cal/(mol*K)
+---
+label: Cs(Val7)2-C(Val7)
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S}
+  2 *2 [Cs,Cd]     ux {1,S} {5,S}
+  3    Val7        u0 {1,S}
+  4    Val7        u0 {1,S}
+  5    Val7        u0 {2,S}
+children:
+- Cs(Val7)2-Cs(Val7)
+- Cs(Val7)2-Cds(Val7)
+- 3ring-Cs(Val7)2-C(Val7)
+- Cs(Val7)2-Cs(Val7)
+- Cs(Val7)2-Cds(Val7)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Val7)2-C(Val7)
+short_description: ''
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 [Cs,Cd]     ux {1,S} {3,[S,D]} {6,S}
+  3    [C,N,O,S] ux {1,S} {2,[S,D]}
+  4    Val7        u0 {1,S}
+  5    Val7        u0 {1,S}
+  6    Val7        u0 {2,S}
+children:
+- 3ring-Cs(Val7)2-Cs(Val7)
+- 3ring-Cs(Val7)2-Cds(Val7)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Val7)2-Cs(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S}
+  3    [C,N,O,S]   ux {1,S} {2,S}
+  4    Val7        u0 {1,S}
+  5    Val7        u0 {2,S}
+  6    Val7        u0 {1,S}
+children:
+- 3ring-Cs(Cl)2-Cs(Cl)
+- 3ring-Cs(F)2-Cs(F)
+- 3ring-Cs(Br)2-Cs(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.284985
+    - -0.439344
+    - -0.429026
+    - -0.424502
+    - -0.418023
+    - -0.360429
+    - -0.106761
+  - cal/(mol*K)
+  H298:
+  - 4.43802
+  - kcal/mol
+  S298:
+  - 0.97775
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Cl)2-Cs(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         23
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S}
+  3    [C,N,O,S]   ux {1,S} {2,S}
+  4    Cl1s        u0 {1,S}
+  5    Cl1s        u0 {2,S}
+  6    Cl1s        u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.296851
+    - -0.467241
+    - -0.467526
+    - -0.467845
+    - -0.463482
+    - -0.385287
+    - -0.067649
+  - cal/(mol*K)
+  H298:
+  - 3.9882
+  - kcal/mol
+  S298:
+  - 0.779937
+  - cal/(mol*K)
+---
+label: 3ring-Cs(F)2-Cs(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         25
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S}
+  3    [C,N,O,S]   ux {1,S} {2,S}
+  4    F1s         u0 {1,S}
+  5    F1s         u0 {2,S}
+  6    F1s         u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.166035
+    - -0.279829
+    - -0.273319
+    - -0.233777
+    - -0.179284
+    - -0.137178
+    - 0.0500421
+  - cal/(mol*K)
+  H298:
+  - 5.88205
+  - kcal/mol
+  S298:
+  - 0.519444
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Br)2-Cs(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         18
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {6,S}
+  2 *2 Cs          ux {1,S} {3,S} {5,S}
+  3    [C,N,O,S]   ux {1,S} {2,S}
+  4    Br1s        u0 {1,S}
+  5    Br1s        u0 {2,S}
+  6    Br1s        u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.392068
+    - -0.570962
+    - -0.546233
+    - -0.571883
+    - -0.611303
+    - -0.558821
+    - -0.302676
+  - cal/(mol*K)
+  H298:
+  - 3.4438
+  - kcal/mol
+  S298:
+  - 1.63387
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Val7)2-Cds(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd        ux {1,S} {3,D} {6,S}
+  3    [C,N,O,S] ux {1,S} {2,D}
+  4    Val7      u0 {1,S}
+  5    Val7      u0 {1,S}
+  6    Val7      u0 {2,S}
+children:
+- 3ring-Cs(Cl)2-Cds(Cl)
+- 3ring-Cs(F)2-Cds(F)
+- 3ring-Cs(Br)2-Cds(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.318418
+    - -0.354565
+    - -0.35186
+    - -0.317813
+    - -0.256506
+    - -0.202419
+    - -0.0598305
+  - cal/(mol*K)
+  H298:
+  - 3.76982
+  - kcal/mol
+  S298:
+  - 0.951725
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Cl)2-Cds(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         5
+group: |2
+
+  1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd        ux {1,S} {3,D} {6,S}
+  3    [C,N,O,S] ux {1,S} {2,D}
+  4    Cl1s      u0 {1,S}
+  5    Cl1s      u0 {1,S}
+  6    Cl1s      u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.234914
+    - -0.236318
+    - -0.232562
+    - -0.248852
+    - -0.274493
+    - -0.245606
+    - -0.0370014
+  - cal/(mol*K)
+  H298:
+  - 1.53412
+  - kcal/mol
+  S298:
+  - 0.961768
+  - cal/(mol*K)
+---
+label: 3ring-Cs(F)2-Cds(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         6
+group: |2
+
+  1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd        ux {1,S} {3,D} {6,S}
+  3    [C,N,O,S] ux {1,S} {2,D}
+  4    F1s       u0 {1,S}
+  5    F1s       u0 {1,S}
+  6    F1s       u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.386038
+    - -0.357432
+    - -0.402926
+    - -0.366802
+    - -0.233396
+    - -0.146126
+    - 0.014982
+  - cal/(mol*K)
+  H298:
+  - 7.30782
+  - kcal/mol
+  S298:
+  - 0.857106
+  - cal/(mol*K)
+---
+label: 3ring-Cs(Br)2-Cds(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         6
+group: |2
+
+  1 *1 Cs        ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd        ux {1,S} {3,D} {6,S}
+  3    [C,N,O,S] ux {1,S} {2,D}
+  4    Br1s      u0 {1,S}
+  5    Br1s      u0 {1,S}
+  6    Br1s      u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.334302
+    - -0.469946
+    - -0.420092
+    - -0.337786
+    - -0.26163
+    - -0.215526
+    - -0.157472
+  - cal/(mol*K)
+  H298:
+  - 2.46751
+  - kcal/mol
+  S298:
+  - 1.0363
+  - cal/(mol*K)
+---
+label: Cs(Val7)2-Cs(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S}
+  2 *2 Cs          ux {1,S} {4,S}
+  3    Val7        u0 {1,S}
+  4    Val7        u0 {2,S}
+  5    Val7        u0 {1,S}
+children:
+- Cs(Cl)2-Cs(Cl)
+- Cs(F)2-Cs(F)
+- Cs(Br)2-Cs(Br)
+- Cs(Cl)2-Cs(Cl)
+- Cs(F)2-Cs(F)
+- Cs(Br)2-Cs(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.100336
+    - -0.168263
+    - -0.178979
+    - -0.2172
+    - -0.25244
+    - -0.20973
+    - -0.0310533
+  - cal/(mol*K)
+  H298:
+  - 1.51215
+  - kcal/mol
+  S298:
+  - 0.610029
+  - cal/(mol*K)
+---
+label: Cs(Cl)2-Cs(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         15
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S}
+  2 *2 Cs          ux {1,S} {4,S}
+  3    Cl1s        u0 {1,S}
+  4    Cl1s        u0 {2,S}
+  5    Cl1s        u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.125446
+    - -0.158463
+    - -0.169349
+    - -0.228102
+    - -0.274736
+    - -0.233989
+    - -0.0243899
+  - cal/(mol*K)
+  H298:
+  - 1.45716
+  - kcal/mol
+  S298:
+  - 0.422834
+  - cal/(mol*K)
+---
+label: Cs(F)2-Cs(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         16
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S}
+  2 *2 Cs          ux {1,S} {4,S}
+  3    F1s         u0 {1,S}
+  4    F1s         u0 {2,S}
+  5    F1s         u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.13951
+    - -0.110261
+    - -0.0704955
+    - -0.0931502
+    - -0.144017
+    - -0.0940878
+    - 0.129969
+  - cal/(mol*K)
+  H298:
+  - 2.61639
+  - kcal/mol
+  S298:
+  - 0.432569
+  - cal/(mol*K)
+---
+label: Cs(Br)2-Cs(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         15
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {5,S}
+  2 *2 Cs          ux {1,S} {4,S}
+  3    Br1s        u0 {1,S}
+  4    Br1s        u0 {2,S}
+  5    Br1s        u0 {1,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0360528
+    - -0.236064
+    - -0.297091
+    - -0.330348
+    - -0.338568
+    - -0.301112
+    - -0.198739
+  - cal/(mol*K)
+  H298:
+  - 0.462898
+  - kcal/mol
+  S298:
+  - 0.974684
+  - cal/(mol*K)
+---
+label: Cs(Val7)2-Cds(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd          ux {1,S} {6,S} {7,D}
+  3    Val7        u0 {1,S}
+  4    Val7        u0 {1,S}
+  5    [C,H,N,O,S] ux {1,S}
+  6    Val7        u0 {2,S}
+  7    [C,N,O,S]   ux {2,D}
+children:
+- Cs(Cl)2-Cds(Cl)
+- Cs(F)2-Cds(F)
+- Cs(Br)2-Cds(Br)
+- Cs(Cl)2-Cds(Cl)
+- Cs(F)2-Cds(F)
+- Cs(Br)2-Cds(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0235263
+    - 0.045163
+    - 0.0148047
+    - 0.00409321
+    - -0.0350716
+    - -0.049263
+    - 0.0328782
+  - cal/(mol*K)
+  H298:
+  - 0.653313
+  - kcal/mol
+  S298:
+  - 0.280982
+  - cal/(mol*K)
+---
+label: Cs(Cl)2-Cds(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         6
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd          ux {1,S} {6,S} {7,D}
+  3    Cl1s        u0 {1,S}
+  4    Cl1s        u0 {1,S}
+  5    [C,H,N,O,S] ux {1,S}
+  6    Cl1s        u0 {2,S}
+  7    [C,N,O,S]   ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.110683
+    - -0.0112073
+    - 0.0296284
+    - 0.000343126
+    - -0.111712
+    - -0.125798
+    - 0.188943
+  - cal/(mol*K)
+  H298:
+  - -0.571293
+  - kcal/mol
+  S298:
+  - 0.687245
+  - cal/(mol*K)
+---
+label: Cs(F)2-Cds(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         6
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd          ux {1,S} {6,S} {7,D}
+  3    F1s         u0 {1,S}
+  4    F1s         u0 {1,S}
+  5    [C,H,N,O,S] ux {1,S}
+  6    F1s         u0 {2,S}
+  7    [C,N,O,S]   ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.127556
+    - 0.0123544
+    - -0.0618796
+    - -0.0881295
+    - -0.0534642
+    - 0.0141777
+    - 0.0949325
+  - cal/(mol*K)
+  H298:
+  - 3.13203
+  - kcal/mol
+  S298:
+  - 0.318676
+  - cal/(mol*K)
+---
+label: Cs(Br)2-Cds(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         5
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 Cd          ux {1,S} {6,S} {7,D}
+  3    Br1s        u0 {1,S}
+  4    Br1s        u0 {1,S}
+  5    [C,H,N,O,S] ux {1,S}
+  6    Br1s        u0 {2,S}
+  7    [C,N,O,S]   ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.308818
+    - 0.134342
+    - 0.0766654
+    - 0.100066
+    - 0.0599615
+    - -0.0361687
+    - -0.185241
+  - cal/(mol*K)
+  H298:
+  - -0.600798
+  - kcal/mol
+  S298:
+  - -0.162974
+  - cal/(mol*K)
+---
+label: Cs(Val7)-Cs(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S}
+  2 *2 Cs   ux {1,S} {4,S}
+  3    Val7 u0 {1,S}
+  4    Val7 u0 {2,S}
+children:
+- Cs(Cl)-Cs(Cl)
+- Cs(F)-Cs(F)
+- Cs(Br)-Cs(Br)
+- Cs(Cl)-Cs(Cl)
+- Cs(F)-Cs(F)
+- Cs(Br)-Cs(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.210782
+    - -0.254467
+    - -0.234539
+    - -0.221601
+    - -0.225229
+    - -0.190617
+    - -0.00518765
+  - cal/(mol*K)
+  H298:
+  - 2.03579
+  - kcal/mol
+  S298:
+  - 1.02642
+  - cal/(mol*K)
+---
+label: Cs(Cl)-Cs(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         71
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S}
+  2 *2 Cs   ux {1,S} {4,S}
+  3    Cl1s u0 {1,S}
+  4    Cl1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.187014
+    - -0.237138
+    - -0.216954
+    - -0.205376
+    - -0.226112
+    - -0.202471
+    - -0.00984336
+  - cal/(mol*K)
+  H298:
+  - 1.76714
+  - kcal/mol
+  S298:
+  - 1.04433
+  - cal/(mol*K)
+---
+label: Cs(F)-Cs(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         75
+group: |2
+
+  1 *1 Cs  ux {2,S} {3,S}
+  2 *2 Cs  ux {1,S} {4,S}
+  3    F1s u0 {1,S}
+  4    F1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.15534
+    - -0.165218
+    - -0.132093
+    - -0.109874
+    - -0.112332
+    - -0.0873999
+    - 0.0798339
+  - cal/(mol*K)
+  H298:
+  - 2.96056
+  - kcal/mol
+  S298:
+  - 1.03116
+  - cal/(mol*K)
+---
+label: Cs(Br)-Cs(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         66
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S}
+  2 *2 Cs   ux {1,S} {4,S}
+  3    Br1s u0 {1,S}
+  4    Br1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.289993
+    - -0.361046
+    - -0.35457
+    - -0.349553
+    - -0.337243
+    - -0.281979
+    - -0.0855535
+  - cal/(mol*K)
+  H298:
+  - 1.37967
+  - kcal/mol
+  S298:
+  - 1.00376
+  - cal/(mol*K)
+---
+label: Cs(Val7)-Cds(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S}
+  2 *2 Cd   ux {1,S} {4,S}
+  3    Val7 u0 {1,S}
+  4    Val7 u0 {2,S}
+children:
+- Cs(Cl)-Cds(Cl)
+- Cs(F)-Cds(F)
+- Cs(Br)-Cds(Br)
+- Cs(Cl)-Cds(Cl)
+- Cs(F)-Cds(F)
+- Cs(Br)-Cds(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.377829
+    - -0.31936
+    - -0.228499
+    - -0.189183
+    - -0.200691
+    - -0.161847
+    - 0.0403436
+  - cal/(mol*K)
+  H298:
+  - 2.43666
+  - kcal/mol
+  S298:
+  - 1.5755
+  - cal/(mol*K)
+---
+label: Cs(Cl)-Cds(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         21
+group: |2
+
+  1 *1 Cs ux {2,S} {3,S}
+  2 *2 Cd ux {1,S} {4,S}
+  3    Cl u0 {1,S}
+  4    Cl u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.36921
+    - -0.293557
+    - -0.186585
+    - -0.158911
+    - -0.216433
+    - -0.181459
+    - 0.111175
+  - cal/(mol*K)
+  H298:
+  - 1.46703
+  - kcal/mol
+  S298:
+  - 1.89004
+  - cal/(mol*K)
+---
+label: Cs(F)-Cds(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         22
+group: |2
+
+  1 *1 Cs ux {2,S} {3,S}
+  2 *2 Cd ux {1,S} {4,S}
+  3    F  u0 {1,S}
+  4    F  u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.590067
+    - -0.436507
+    - -0.305133
+    - -0.250341
+    - -0.183823
+    - -0.124454
+    - 0.0433442
+  - cal/(mol*K)
+  H298:
+  - 3.49387
+  - kcal/mol
+  S298:
+  - 1.7011
+  - cal/(mol*K)
+---
+label: Cs(Br)-Cds(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         19
+group: |2
+
+  1 *1 Cs ux {2,S} {3,S}
+  2 *2 Cd ux {1,S} {4,S}
+  3    Br u0 {1,S}
+  4    Br u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.174211
+    - -0.228016
+    - -0.19378
+    - -0.158296
+    - -0.201817
+    - -0.179628
+    - -0.0334884
+  - cal/(mol*K)
+  H298:
+  - 2.34909
+  - kcal/mol
+  S298:
+  - 1.13537
+  - cal/(mol*K)
+---
+label: Cds(Val7)-Cds(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 Cd   ux {1,S} {4,S}
+  3    Val7 u0 {1,S}
+  4    Val7 u0 {2,S}
+children:
+- Cds(Cl)-Cds(Cl)
+- Cds(F)-Cds(F)
+- Cds(Br)-Cds(Br)
+- Cds(Cl)-Cds(Cl)
+- Cds(F)-Cds(F)
+- Cds(Br)-Cds(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0521848
+    - 0.0434248
+    - 0.0985422
+    - 0.0648942
+    - -0.0411751
+    - -0.0853693
+    - 0.0452771
+  - cal/(mol*K)
+  H298:
+  - -0.304357
+  - kcal/mol
+  S298:
+  - 0.014271
+  - cal/(mol*K)
+---
+label: Cds(Cl)-Cds(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         3
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 Cd   ux {1,S} {4,S}
+  3    Cl1s u0 {1,S}
+  4    Cl1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0444945
+    - 0.0209223
+    - 0.0828467
+    - 0.0447868
+    - -0.0648154
+    - -0.11066
+    - 0.0259138
+  - cal/(mol*K)
+  H298:
+  - -1.23802
+  - kcal/mol
+  S298:
+  - 0.115151
+  - cal/(mol*K)
+---
+label: Cds(F)-Cds(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         2
+group: |2
+
+  1 *1 Cd  ux {2,S} {3,S}
+  2 *2 Cd  ux {1,S} {4,S}
+  3    F1s u0 {1,S}
+  4    F1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.116609
+    - 0.0519914
+    - 0.036115
+    - -0.0184311
+    - -0.131531
+    - -0.167828
+    - -0.0117954
+  - cal/(mol*K)
+  H298:
+  - 1.63179
+  - kcal/mol
+  S298:
+  - 0.265871
+  - cal/(mol*K)
+---
+label: Cds(Br)-Cds(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         3
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 Cd   ux {1,S} {4,S}
+  3    Br1s u0 {1,S}
+  4    Br1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.00454919
+    - 0.0573606
+    - 0.176665
+    - 0.168327
+    - 0.0728212
+    - 0.0223801
+    - 0.121713
+  - cal/(mol*K)
+  H298:
+  - -1.30684
+  - kcal/mol
+  S298:
+  - -0.338209
+  - cal/(mol*K)
+---
+label: Cds(Val7)=Cds(Val7)
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cd   ux {2,D} {3,S}
+  2 *2 Cd   ux {1,D} {4,S}
+  3    Val7 u0 {1,S}
+  4    Val7 u0 {2,S}
+children:
+- Cds(Cl)=Cds(Cl)
+- Cds(F)=Cds(F)
+- Cds(Br)=Cds(Br)
+- Cds(Cl)=Cds(Cl)
+- Cds(F)=Cds(F)
+- Cds(Br)=Cds(Br)
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0464406
+    - -0.0933087
+    - -0.0882718
+    - -0.0746957
+    - -0.0828051
+    - -0.0776049
+    - 0.00935976
+  - cal/(mol*K)
+  H298:
+  - 2.43656
+  - kcal/mol
+  S298:
+  - 0.175868
+  - cal/(mol*K)
+---
+label: Cds(Cl)=Cds(Cl)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         27
+group: |2
+
+  1 *1 Cd   ux {2,D} {3,S}
+  2 *2 Cd   ux {1,D} {4,S}
+  3    Cl1s u0 {1,S}
+  4    Cl1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0310293
+    - -0.0551521
+    - -0.0349506
+    - -0.0327209
+    - -0.0675794
+    - -0.0671067
+    - 0.0391955
+  - cal/(mol*K)
+  H298:
+  - 1.45634
+  - kcal/mol
+  S298:
+  - 0.260454
+  - cal/(mol*K)
+---
+label: Cds(F)=Cds(F)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         25
+group: |2
+
+  1 *1 Cd  ux {2,D} {3,S}
+  2 *2 Cd  ux {1,D} {4,S}
+  3    F1s u0 {1,S}
+  4    F1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0298238
+    - -0.114143
+    - -0.137328
+    - -0.112467
+    - -0.105966
+    - -0.0974533
+    - 0.00575039
+  - cal/(mol*K)
+  H298:
+  - 5.20583
+  - kcal/mol
+  S298:
+  - 0.0262459
+  - cal/(mol*K)
+---
+label: Cds(Br)=Cds(Br)
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         25
+group: |2
+
+  1 *1 Cd   ux {2,D} {3,S}
+  2 *2 Cd   ux {1,D} {4,S}
+  3    Br1s u0 {1,S}
+  4    Br1s u0 {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0784687
+    - -0.110631
+    - -0.0925369
+    - -0.0788993
+    - -0.07487
+    - -0.0682546
+    - -0.0168666
+  - cal/(mol*K)
+  H298:
+  - 0.64752
+  - kcal/mol
+  S298:
+  - 0.240903
+  - cal/(mol*K)
+---
+label: Cd(Val7)-CO
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 CO   ux {1,S} {4,D}
+  3    Val7 u0 {1,S}
+  4    O2d  ux {2,D}
+children:
+- Cd(F)-CO
+- Cd(Cl)-CO
+- Cd(Br)-CO
+- Cd(F)-CO
+- Cd(Cl)-CO
+- Cd(Br)-CO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.204607
+    - -0.647876
+    - -0.689153
+    - -0.708696
+    - -0.720393
+    - -0.62961
+    - -0.137257
+  - cal/(mol*K)
+  H298:
+  - -0.900295
+  - kcal/mol
+  S298:
+  - 1.68793
+  - cal/(mol*K)
+---
+label: Cd(F)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         2
+group: |2
+
+  1 *1 Cd  ux {2,S} {3,S}
+  2 *2 CO  ux {1,S} {4,D}
+  3    F1s u0 {1,S}
+  4    O2d ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.0711591
+    - -0.586483
+    - -0.793018
+    - -0.8899
+    - -0.885747
+    - -0.744585
+    - -0.233672
+  - cal/(mol*K)
+  H298:
+  - -1.7178
+  - kcal/mol
+  S298:
+  - 2.32778
+  - cal/(mol*K)
+---
+label: Cd(Cl)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         2
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 CO   ux {1,S} {4,D}
+  3    Cl1s u0 {1,S}
+  4    O2d  ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.177336
+    - -0.71766
+    - -0.8306
+    - -0.828413
+    - -0.749411
+    - -0.624048
+    - -0.205877
+  - cal/(mol*K)
+  H298:
+  - -0.555017
+  - kcal/mol
+  S298:
+  - 1.72059
+  - cal/(mol*K)
+---
+label: Cd(Br)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         2
+group: |2
+
+  1 *1 Cd   ux {2,S} {3,S}
+  2 *2 CO   ux {1,S} {4,D}
+  3    Br1s u0 {1,S}
+  4    O2d  ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.365325
+    - -0.639484
+    - -0.44384
+    - -0.407774
+    - -0.526022
+    - -0.520197
+    - 0.0277766
+  - cal/(mol*K)
+  H298:
+  - -0.428067
+  - kcal/mol
+  S298:
+  - 1.01542
+  - cal/(mol*K)
+---
+label: Cs(Val7)3-CO
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO   ux {1,S} {6,D}
+  3    Val7 u0 {1,S}
+  4    Val7 u0 {1,S}
+  5    Val7 u0 {1,S}
+  6    O2d  ux {2,D}
+children:
+- Cs(F)3-CO
+- Cs(Cl)3-CO
+- Cs(Br)3-CO
+- Cs(F)3-CO
+- Cs(Cl)3-CO
+- Cs(Br)3-CO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: Cs(F)3-CO
+short_description: CsCOFFF
+long_description: |2
+
+  CsCOFFF group accounts for this interaction
+group: |2
+
+  1 *1 Cs  ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO  ux {1,S} {6,D}
+  3    F1s u0 {1,S}
+  4    F1s u0 {1,S}
+  5    F1s u0 {1,S}
+  6    O2d ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: Cs(Cl)3-CO
+short_description: CsClClClCO
+long_description: |2
+
+  CsClClClCO group accounts for this interaction
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO   ux {1,S} {6,D}
+  3    Cl1s u0 {1,S}
+  4    Cl1s u0 {1,S}
+  5    Cl1s u0 {1,S}
+  6    O2d  ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: Cs(Br)3-CO
+short_description: CsBrBrBrCO
+long_description: |2
+
+  CsBrBrBrCO group accounts for this interaction
+group: |2
+
+  1 *1 Cs   ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO   ux {1,S} {6,D}
+  3    Br1s u0 {1,S}
+  4    Br1s u0 {1,S}
+  5    Br1s u0 {1,S}
+  6    O2d  ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: Cs(Val7)2-CO
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Val7        u0 {1,S}
+  4    Val7        u0 {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children:
+- Cs(F)2-CO
+- Cs(Cl)2-CO
+- Cs(Br)2-CO
+- Cs(F)2-CO
+- Cs(Cl)2-CO
+- Cs(Br)2-CO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.926811
+    - 0.267797
+    - 0.015232
+    - -0.0998764
+    - -0.180617
+    - -0.218985
+    - 0.110552
+  - cal/(mol*K)
+  H298:
+  - 3.81506
+  - kcal/mol
+  S298:
+  - 1.5235
+  - cal/(mol*K)
+---
+label: Cs(F)2-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    F1s         u0 {1,S}
+  4    F1s         u0 {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 1.03319
+    - 0.295091
+    - 0.126585
+    - 0.00898979
+    - -0.283139
+    - -0.413817
+    - 0.0988257
+  - cal/(mol*K)
+  H298:
+  - 7.5286
+  - kcal/mol
+  S298:
+  - 2.20275
+  - cal/(mol*K)
+---
+label: Cs(Cl)2-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Cl1s        u0 {1,S}
+  4    Cl1s        u0 {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.956137
+    - 0.43572
+    - 0.056715
+    - -0.165037
+    - -0.215222
+    - -0.207231
+    - 0.0700284
+  - cal/(mol*K)
+  H298:
+  - 2.6194
+  - kcal/mol
+  S298:
+  - 1.30289
+  - cal/(mol*K)
+---
+label: Cs(Br)2-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Br1s        u0 {1,S}
+  4    Br1s        u0 {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.791105
+    - 0.0725798
+    - -0.137604
+    - -0.143582
+    - -0.0434897
+    - -0.0359075
+    - 0.162802
+  - cal/(mol*K)
+  H298:
+  - 1.29719
+  - kcal/mol
+  S298:
+  - 1.06487
+  - cal/(mol*K)
+---
+label: Cs(Val7)-CO
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Val7        u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children:
+- Cs(F)-CO
+- Cs(Cl)-CO
+- Cs(Br)-CO
+- Cs(F)-CO
+- Cs(Cl)-CO
+- Cs(Br)-CO
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.881268
+    - 0.287094
+    - 0.0281108
+    - -0.146237
+    - -0.223619
+    - -0.218464
+    - 0.179447
+  - cal/(mol*K)
+  H298:
+  - 2.81291
+  - kcal/mol
+  S298:
+  - 1.83386
+  - cal/(mol*K)
+---
+label: Cs(F)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    F1s         u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 1.04542
+    - 0.438465
+    - 0.141274
+    - -0.0803466
+    - -0.26832
+    - -0.282561
+    - 0.150643
+  - cal/(mol*K)
+  H298:
+  - 4.3193
+  - kcal/mol
+  S298:
+  - 2.07831
+  - cal/(mol*K)
+---
+label: Cs(Cl)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Cl1s        u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.907955
+    - 0.373877
+    - 0.0973013
+    - -0.151715
+    - -0.259263
+    - -0.250296
+    - 0.12894
+  - cal/(mol*K)
+  H298:
+  - 2.05692
+  - kcal/mol
+  S298:
+  - 1.96977
+  - cal/(mol*K)
+---
+label: Cs(Br)-CO
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         4
+group: |2
+
+  1 *1 Cs          ux {2,S} {3,S} {4,S} {5,S}
+  2 *2 CO          ux {1,S} {6,D}
+  3    Br1s        u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    [C,H,O,N,S] ux {1,S}
+  6    O2d         ux {2,D}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.690428
+    - 0.0489385
+    - -0.154243
+    - -0.206649
+    - -0.143274
+    - -0.122535
+    - 0.258757
+  - cal/(mol*K)
+  H298:
+  - 2.06252
+  - kcal/mol
+  S298:
+  - 1.45351
+  - cal/(mol*K)
+---
+label: Cd(Val7)=CdOs
+short_description: Average of children
+long_description: ''
+group: |2
+
+  1 *1 Cd          ux {2,D} {3,S} {4,S}
+  2 *2 Cd          ux {1,D} {5,S}
+  3    Val7        u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    O2s         ux {2,S}
+children:
+- Cd(F)=CdOs
+- Cd(Cl)=CdOs
+- Cd(Br)=CdOs
+- Cd(F)=CdOs
+- Cd(Cl)=CdOs
+- Cd(Br)=CdOs
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.395131
+    - -1.09762
+    - -1.313
+    - -1.21017
+    - -0.819763
+    - -0.493962
+    - -0.251683
+  - cal/(mol*K)
+  H298:
+  - 7.86289
+  - kcal/mol
+  S298:
+  - 1.36782
+  - cal/(mol*K)
+---
+label: Cd(F)=CdOs
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library | Number of Species
+  CHOF_G4 |         7
+group: |2
+
+  1 *1 Cd          ux {2,D} {3,S} {4,S}
+  2 *2 Cd          ux {1,D} {5,S}
+  3    F           u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    O2s         ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.327737
+    - -0.999998
+    - -1.2469
+    - -1.15162
+    - -0.79169
+    - -0.482397
+    - -0.239318
+  - cal/(mol*K)
+  H298:
+  - 9.103
+  - kcal/mol
+  S298:
+  - 1.17775
+  - cal/(mol*K)
+---
+label: Cd(Cl)=CdOs
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOCl_G4 |         7
+group: |2
+
+  1 *1 Cd          ux {2,D} {3,S} {4,S}
+  2 *2 Cd          ux {1,D} {5,S}
+  3    Cl          u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    O2s         ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.509746
+    - -1.48927
+    - -1.74531
+    - -1.54988
+    - -0.997751
+    - -0.555139
+    - -0.241881
+  - cal/(mol*K)
+  H298:
+  - 10.5359
+  - kcal/mol
+  S298:
+  - 1.4931
+  - cal/(mol*K)
+---
+label: Cd(Br)=CdOs
+short_description: Derived from RMG Thermo Libraries
+long_description: |2
+
+  Fitted using sklearn Ridge regression with alpha = 1e-06
+  Library  | Number of Species
+  CHOBr_G4 |         6
+group: |2
+
+  1 *1 Cd          ux {2,D} {3,S} {4,S}
+  2 *2 Cd          ux {1,D} {5,S}
+  3    Br          u0 {1,S}
+  4    [C,H,O,N,S] ux {1,S}
+  5    O2s         ux {2,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - -0.347909
+    - -0.803591
+    - -0.946777
+    - -0.929001
+    - -0.669847
+    - -0.444349
+    - -0.27385
+  - cal/(mol*K)
+  H298:
+  - 3.94978
+  - kcal/mol
+  S298:
+  - 1.43261
+  - cal/(mol*K)

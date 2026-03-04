@@ -1,0 +1,35 @@
+label: C2N2
+short_description: cyanogen
+long_description: ''
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 N u0 p1 c0 {3,T}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 13.629
+    - 14.857
+    - 15.65
+    - 16.297
+    - 17.431
+    - 18.25
+    - 19.914
+  - cal/(mol*K)
+  H298:
+  - 73.828
+  - kcal/mol
+  S298:
+  - 57.911
+  - cal/(mol*K)

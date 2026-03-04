@@ -1,0 +1,755 @@
+label: CCHF
+short_description: GA + ATcT 1.122p 70302-00-0*0 H298
+long_description: |2
+
+  H298 = 300.1 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 F u0 p3 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 53.9106
+    - 58.1472
+    - 61.299
+    - 63.8388
+    - 68.1495
+    - 71.6867
+    - 76.6116
+  - J/(mol*K)
+  H298:
+  - 300.1
+  - kJ/mol
+  S298:
+  - 246.826
+  - J/(mol*K)
+---
+label: CCF2
+short_description: GA + ATcT 1.122p 41895-33-4*0 H298
+long_description: |2
+
+  H298 = 130.6 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 F u0 p3 c0 {2,S}
+  4 F u0 p3 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 62.2121
+    - 66.8883
+    - 69.8504
+    - 71.9626
+    - 75.5195
+    - 78.4131
+    - 80.7894
+  - J/(mol*K)
+  H298:
+  - 130.6
+  - kJ/mol
+  S298:
+  - 259.54
+  - J/(mol*K)
+---
+label: CCBr2
+short_description: GA + ATcT 1.122p 261771-36-2*0 H298
+long_description: |2
+
+  H298 = 498.9 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 Br u0 p3 c0 {2,S}
+  4 Br u0 p3 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 72.2886
+    - 75.7863
+    - 76.9547
+    - 77.4615
+    - 79.7599
+    - 82.7872
+    - 82.4281
+  - J/(mol*K)
+  H298:
+  - 498.9
+  - kJ/mol
+  S298:
+  - 304.88
+  - J/(mol*K)
+---
+label: CCHBr
+short_description: GA + ATcT 1.122p 161957-27-3*0 H298
+long_description: |2
+
+  H298 = 460.1 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 Br u0 p3 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 57.9599
+    - 61.9054
+    - 64.5072
+    - 66.5253
+    - 70.3786
+    - 73.8408
+    - 77.4814
+  - J/(mol*K)
+  H298:
+  - 460.1
+  - kJ/mol
+  S298:
+  - 269.119
+  - J/(mol*K)
+---
+label: CCHCl
+short_description: GA + ATcT 1.122p 70277-82-6*0 H298
+long_description: |2
+
+  H298 = 429.8 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 Cl u0 p3 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 56.7425
+    - 60.9627
+    - 63.8772
+    - 66.1233
+    - 70.0187
+    - 73.3222
+    - 77.3704
+  - J/(mol*K)
+  H298:
+  - 429.8
+  - kJ/mol
+  S298:
+  - 257.32
+  - J/(mol*K)
+---
+label: CCCl2
+short_description: GA + ATcT 1.122p 70277-82-6*0 H298
+long_description: |2
+
+  H298 = 424.8 kJ/mol
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 Cl u0 p3 c0 {2,S}
+  4 Cl u0 p3 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 68.8108
+    - 73.1302
+    - 75.2712
+    - 76.546
+    - 79.2441
+    - 81.9894
+    - 82.7851
+  - J/(mol*K)
+  H298:
+  - 424.8
+  - kJ/mol
+  S298:
+  - 281.351
+  - J/(mol*K)
+---
+label: OOBr
+short_description: GA + ATcT 1.122p 67177-47-3*0 H298
+long_description: |2
+
+  H298 = 109.2 kJ/mol
+adjacency_list: |2
+
+  multiplicity 2
+  1 Br u0 p3 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 O  u1 p2 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 51.8844
+    - 52.5941
+    - 51.888
+    - 50.7367
+    - 49.4281
+    - 50.2226
+    - 52.5304
+  - J/(mol*K)
+  H298:
+  - 109.2
+  - kJ/mol
+  S298:
+  - 275.814
+  - J/(mol*K)
+---
+label: OOCl
+short_description: GA + ATcT 1.122p 17376-09-9*0 H298
+long_description: |2
+
+  H298 = 102.82 kJ/mol
+adjacency_list: |2
+
+  multiplicity 2
+  1 Cl u0 p3 c0 {2,S}
+  2 O  u0 p2 c0 {1,S} {3,S}
+  3 O  u1 p2 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 50.6312
+    - 51.4088
+    - 50.9024
+    - 49.9987
+    - 49.104
+    - 50.0514
+    - 52.3303
+  - J/(mol*K)
+  H298:
+  - 102.82
+  - kJ/mol
+  S298:
+  - 267.489
+  - J/(mol*K)
+---
+label: OOF
+short_description: GA + ATcT 1.122p 15499-23-7*0 H298
+long_description: |2
+
+  H298 = 25.10 kJ/mol
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 O u1 p2 c0 {2,S}
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 43.4949
+    - 45.0513
+    - 46.0077
+    - 46.7044
+    - 48.1531
+    - 50.0169
+    - 53.7856
+  - J/(mol*K)
+  H298:
+  - 25.1
+  - kJ/mol
+  S298:
+  - 255.854
+  - J/(mol*K)
+---
+label: CF2
+short_description: 78ROD71STUPRO + H298 from ATcT version 1.122p
+long_description: |2
+
+  78ROD71STUPRO
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  F[C]F
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from -186.62 to -193.44 kJ/mol for CF2 (2154-59-8*2) in ATcT version 1.122p
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p1 c0 {1,S} {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 2.28591
+    - 0.0107608
+    - -1.05382e-05
+    - 4.89881e-09
+    - -8.86384e-13
+    - -24340.7
+    - 13.1348
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 5.33121
+    - 0.00197748
+    - -9.60248e-07
+    - 2.10704e-10
+    - -1.5954e-14
+    - -25190.9
+    - -2.56367
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CF2
+short_description: 78ROD71STUPRO + H298 from ATcT version 1.122p
+long_description: |2
+
+  78ROD71STUPRO
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  F[C]F
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from -186.62 to -193.44 kJ/mol for CF2 (2154-59-8*2) in ATcT version 1.122p
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p1 c0 {1,S} {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 2.28591
+    - 0.0107608
+    - -1.05382e-05
+    - 4.89881e-09
+    - -8.86384e-13
+    - -24340.7
+    - 13.1348
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 5.33121
+    - 0.00197748
+    - -9.60248e-07
+    - 2.10704e-10
+    - -1.5954e-14
+    - -25190.9
+    - -2.56367
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CHF
+short_description: 84PRINIL71STU + H298 from ATcT version 1.122p
+long_description: |2
+
+  84PRINIL71STU
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  [CH]F
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from 163.19 to 148.66 kJ/mol for CHF (13453-52-6*2) in ATcT version 1.122p
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p1 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 3.34484
+    - 0.00235461
+    - 1.93983e-06
+    - -2.65251e-09
+    - 7.91169e-13
+    - 16766.1
+    - 7.05286
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 4.48366
+    - 0.00174964
+    - -5.0479e-07
+    - 1.08953e-10
+    - -9.87898e-15
+    - 16210.2
+    - 0.289222
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CHF
+short_description: 84PRINIL71STU + H298 from ATcT version 1.122p
+long_description: |2
+
+  84PRINIL71STU
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  [CH]F
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from 163.19 to 148.66 kJ/mol for CHF (13453-52-6*2) in ATcT version 1.122p
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p1 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 3.34484
+    - 0.00235461
+    - 1.93983e-06
+    - -2.65251e-09
+    - 7.91169e-13
+    - 16766.1
+    - 7.05286
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 4.48366
+    - 0.00174964
+    - -5.0479e-07
+    - 1.08953e-10
+    - -9.87898e-15
+    - 16210.2
+    - 0.289222
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CF
+short_description: 91GURVEY71STU + H298 from ATcT version 1.122p
+long_description: |2
+
+  91GURVEY71STU
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from 240.60 to 246.74 kJ/mol for CF (3889-75-6*0) in ATcT version 1.122p
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u1 p1 c0 {1,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 3.35384
+    - 0.000209097
+    - 3.20774e-06
+    - -3.66875e-09
+    - 1.19863e-12
+    - 28645.6
+    - 6.33463
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1100.0
+    - K
+  - coeffs:
+    - 3.66497
+    - 0.000973681
+    - -4.10982e-07
+    - 8.00629e-11
+    - -5.64981e-15
+    - 28462.1
+    - 4.28163
+    Tmin:
+    - 1100.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CF
+short_description: 91GURVEY71STU + H298 from ATcT version 1.122p
+long_description: |2
+
+  91GURVEY71STU
+  Low T polynomial Tmin changed from 300.0 to 298.0 K when importing to RMG.
+  Imported from Fluorine/thermo-hfo1234zee-burcat-c.txt.
+
+  Base enthalpy changed from 240.60 to 246.74 kJ/mol for CF (3889-75-6*0) in ATcT version 1.122p
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u1 p1 c0 {1,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 3.35384
+    - 0.000209097
+    - 3.20774e-06
+    - -3.66875e-09
+    - 1.19863e-12
+    - 28645.6
+    - 6.33463
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1100.0
+    - K
+  - coeffs:
+    - 3.66497
+    - 0.000973681
+    - -4.10982e-07
+    - 8.00629e-11
+    - -5.64981e-15
+    - 28462.1
+    - 4.28163
+    Tmin:
+    - 1100.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CF2(T)
+short_description: CF2 + H298 from ATcT version 1.122p
+long_description: |2
+
+  Thermo from CF2(S) + Base enthalpy set to 44.00 kJ/mol for CF2(T) (2154-59-8*1) in ATcT version 1.122p
+adjacency_list: |2
+
+  multiplicity 3
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u2 p0 c0 {1,S} {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 2.28591
+    - 0.0107608
+    - -1.05382e-05
+    - 4.89881e-09
+    - -8.86384e-13
+    - 4216.69
+    - 13.1348
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 5.33121
+    - 0.00197748
+    - -9.60248e-07
+    - 2.10704e-10
+    - -1.5954e-14
+    - 3366.49
+    - -2.56367
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: CF2(T)
+short_description: CF2 + H298 from ATcT version 1.122p
+long_description: |2
+
+  Thermo from CF2(S) + Base enthalpy set to 44.00 kJ/mol for CF2(T) (2154-59-8*1) in ATcT version 1.122p
+adjacency_list: |2
+
+  multiplicity 3
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u2 p0 c0 {1,S} {2,S}
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 2.28591
+    - 0.0107608
+    - -1.05382e-05
+    - 4.89881e-09
+    - -8.86384e-13
+    - 4216.69
+    - 13.1348
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1300.0
+    - K
+  - coeffs:
+    - 5.33121
+    - 0.00197748
+    - -9.60248e-07
+    - 2.10704e-10
+    - -1.5954e-14
+    - 3366.49
+    - -2.56367
+    Tmin:
+    - 1300.0
+    - K
+    Tmax:
+    - 3000.0
+    - K

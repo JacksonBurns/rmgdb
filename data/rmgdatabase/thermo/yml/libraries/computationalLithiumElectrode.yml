@@ -1,0 +1,213 @@
+label: vacant
+short_description: ''
+long_description: ''
+adjacency_list: |2
+
+  1 X u0 p0 c0
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1000.0
+    - K
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 1000.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: vacant
+short_description: ''
+long_description: ''
+adjacency_list: |2
+
+  1 X u0 p0 c0
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1000.0
+    - K
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 1000.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: electron
+short_description: ''
+long_description: ''
+adjacency_list: |2
+
+  1 e u0 p0 c-1
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1000.0
+    - K
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 1000.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: electron
+short_description: ''
+long_description: ''
+adjacency_list: |2
+
+  1 e u0 p0 c-1
+thermo:
+  type: NASA
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+  polynomials:
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 298.0
+    - K
+    Tmax:
+    - 1000.0
+    - K
+  - coeffs:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    Tmin:
+    - 1000.0
+    - K
+    Tmax:
+    - 3000.0
+    - K
+---
+label: Li_ion
+short_description: ''
+long_description: |2
+
+  Li+ + e- = Li(s) @ -3.04 V vs SHE
+  S, Cp300, Cp400 for Li(s) from NIST
+  https://webbook.nist.gov/cgi/cbook.cgi?ID=C7439932&Units=SI&Mask=2&Type=JANAFS&Table=on#JANAFS
+  Cp > 400K approximated as Cp400
+adjacency_list: |2
+
+  1 Li u0 p0 c+1
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 24.67
+    - 27.61
+    - 27.61
+    - 27.61
+    - 27.61
+    - 27.61
+    - 27.61
+  - J/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 29.12
+  - J/(mol*K)

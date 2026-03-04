@@ -1,0 +1,269 @@
+label: R
+short_description: dummy root
+long_description: ''
+group: |2
+
+  1 * R u0
+children:
+- intVal7
+- intRVal7
+- Cs(Val7)3-Cd-Cd-Cs(Val7)3
+- int14_gauche
+- int15
+- aromatic-ortho
+- aromatic-meta
+- aromatic-para
+- intVal7
+- ketene
+- C
+- O
+- Si
+- S
+- Cl1s
+- Br1s
+- F1s
+- I1s
+- N
+- Li
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: ketene
+short_description: All the corrections from this family are from Sumathi & Green,
+  J. Phys. Chem. A, 2002, 106, 7937-7949
+long_description: ''
+group: |2
+
+  1 * C u0 {2,D} {3,S} {4,S}
+  2   C u0 {1,D} {5,D}
+  3   R u0 {1,S}
+  4   R u0 {1,S}
+  5   O u0 {2,D}
+children:
+- ketene_2C-C
+- ketene_1C-C_1C-H
+- biketene
+- ketene_2C-H
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: ketene_2C-C
+short_description: This is correction NN2 from Sumathi & Green, J. Phys. Chem. A,
+  2002, 106, 7937-7949
+long_description: ''
+group: |2
+
+  1 * C       u0 {2,D} {3,S} {4,S}
+  2   C       u0 {1,D} {5,D}
+  3   [Cs,Cd] u0 {1,S} {6,S}
+  4   [Cs,Cd] u0 {1,S} {7,S}
+  5   O       u0 {2,D}
+  6   C       u0 {3,S}
+  7   C       u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - -1.6
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: ketene_1C-C_1C-H
+short_description: This is correction NN1 from Sumathi & Green, J. Phys. Chem. A,
+  2002, 106, 7937-7949
+long_description: ''
+group: |2
+
+  1 * C       u0 {2,D} {3,S} {4,S}
+  2   C       u0 {1,D} {5,D}
+  3   [Cs,Cd] u0 {1,S} {6,S}
+  4   C       u0 {1,S} {7,S} {8,S} {9,S}
+  5   O       u0 {2,D}
+  6   C       u0 {3,S}
+  7   H       u0 {4,S}
+  8   H       u0 {4,S}
+  9   H       u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - -0.5
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: biketene
+short_description: This is correction NN3 from Sumathi & Green, J. Phys. Chem. A,
+  2002, 106, 7937-7949
+long_description: ''
+group: |2
+
+  1    C   u0 {2,S} {3,S} {4,S} {5,S}
+  2    C   u0 {1,S} {6,D}
+  3  * C   u0 {1,S} {7,D} {10,S}
+  4    R!H u0 {1,S}
+  5    R!H u0 {1,S}
+  6    C   u0 {2,D} {8,D}
+  7    C   u0 {3,D} {9,D}
+  8    O   u0 {6,D}
+  9    O   u0 {7,D}
+  10   R   u0 {3,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - -0.9
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
+---
+label: ketene_2C-H
+short_description: This is correction NN0 from Sumathi & Green, J. Phys. Chem. A,
+  2002, 106, 7937-7949
+long_description: ''
+group: |2
+
+  1  * C u0 {2,D} {3,S} {4,S}
+  2    C u0 {1,D} {5,D}
+  3    C u0 {1,S} {6,S} {7,S} {8,S}
+  4    C u0 {1,S} {9,S} {10,S} {11,S}
+  5    O u0 {2,D}
+  6    H u0 {3,S}
+  7    H u0 {3,S}
+  8    H u0 {3,S}
+  9    H u0 {4,S}
+  10   H u0 {4,S}
+  11   H u0 {4,S}
+children: []
+thermo:
+  type: ThermoData
+  Tdata:
+  - - 300.0
+    - 400.0
+    - 500.0
+    - 600.0
+    - 800.0
+    - 1000.0
+    - 1500.0
+  - K
+  Cpdata:
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - cal/(mol*K)
+  H298:
+  - 0.0
+  - kcal/mol
+  S298:
+  - 0.0
+  - cal/(mol*K)
