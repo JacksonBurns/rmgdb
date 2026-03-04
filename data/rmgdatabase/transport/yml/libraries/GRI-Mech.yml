@@ -1,0 +1,2093 @@
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: AR
+adjacency_list: |2
+
+  1 Ar u0 p4 c0
+transport:
+  shapeIndex: 0
+  epsilon: 1134.93
+  epsilon_unit: J/mol
+  sigma: 3.33
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C(T)
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u2 p1 c0
+transport:
+  shapeIndex: 0
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.298
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u1 p0 c0 {2,T}
+  2 C u1 p0 c0 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 810.913
+  epsilon_unit: J/mol
+  sigma: 3.621
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: |2
+
+  Same value as C2O(S).
+label: C2O(T)
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u2 p0 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 O u0 p2 c0 {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: |2
+
+  Same Value as C2O(T).
+label: C2O(S)
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 O u0 p2 c0 {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u0 p0 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u1 p0 c0 {2,T}
+transport:
+  shapeIndex: 1
+  epsilon: 1737.73
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H2
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {4,S}
+  4 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1737.73
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H2OH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,D} {4,S}
+  2 C u0 p0 c0 {1,D} {3,S} {5,S}
+  3 O u0 p2 c0 {2,S} {6,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1868.27
+  epsilon_unit: J/mol
+  sigma: 4.162
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H3
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u0 p0 c0 {2,S}
+  2 C u1 p0 c0 {1,S} {3,D}
+  3 C u0 p0 c0 {2,D} {4,S} {5,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1737.73
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H4
+adjacency_list: |2
+
+  1 H u0 p0 c0 {3,S}
+  2 H u0 p0 c0 {3,S}
+  3 C u0 p0 c0 {1,S} {2,S} {4,D}
+  4 C u0 p0 c0 {3,D} {5,S} {6,S}
+  5 H u0 p0 c0 {4,S}
+  6 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2334.71
+  epsilon_unit: J/mol
+  sigma: 3.971
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H5
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 H u0 p0 c0 {4,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2097.75
+  epsilon_unit: J/mol
+  sigma: 4.302
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2H6
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6 H u0 p0 c0 {5,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2097.75
+  epsilon_unit: J/mol
+  sigma: 4.302
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C2N2
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 N u0 p1 c0 {3,T}
+transport:
+  shapeIndex: 1
+  epsilon: 2901.76
+  epsilon_unit: J/mol
+  sigma: 4.361
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C3H2
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u1 p0 c0 {2,D} {4,S}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 C u1 p0 c0 {2,D} {5,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1737.73
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C3H4
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,D} {6,S}
+  3 C u0 p0 c0 {1,S} {2,D} {7,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 1
+  epsilon: 2095.25
+  epsilon_unit: J/mol
+  sigma: 4.76
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C3H6
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,D} {4,S} {5,S}
+  2 C u0 p0 c0 {1,D} {3,S} {6,S}
+  3 C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.31
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C4H6
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,D} {5,S} {6,S}
+  2  C u0 p0 c0 {1,D} {3,S} {7,S}
+  3  C u0 p0 c0 {2,S} {4,D} {8,S}
+  4  C u0 p0 c0 {3,D} {9,S} {10,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: I*C3H7
+adjacency_list: |2
+
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2  C u1 p0 c0 {1,S} {3,S} {7,S}
+  3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4  H u0 p0 c0 {1,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.31
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N*C3H7
+adjacency_list: |2
+
+  multiplicity 2
+  1  C u1 p0 c0 {2,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+  3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4  H u0 p0 c0 {1,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.31
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C3H8
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  H u0 p0 c0 {1,S}
+  3  H u0 p0 c0 {1,S}
+  4  H u0 p0 c0 {1,S}
+  5  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6  H u0 p0 c0 {5,S}
+  7  H u0 p0 c0 {5,S}
+  8  C u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+  9  H u0 p0 c0 {8,S}
+  10 H u0 p0 c0 {8,S}
+  11 H u0 p0 c0 {8,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.31
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C4H
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,T}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 C u0 p0 c0 {3,T} {5,S}
+  5 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 1
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C4H2
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,T} {5,S}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 C u0 p0 c0 {3,T} {6,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 1
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C4H8
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,D} {5,S} {6,S}
+  2  C u0 p0 c0 {1,D} {3,S} {7,S}
+  3  C u0 p0 c0 {2,S} {4,S} {8,S} {9,S}
+  4  C u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.176
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: C4H9
+adjacency_list: |2
+
+  multiplicity 2
+  1  C u1 p0 c0 {2,S} {5,S} {6,S}
+  2  C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+  3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+  4  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.176
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: I*C4H9
+adjacency_list: |2
+
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2  C u1 p0 c0 {1,S} {3,S} {8,S}
+  3  C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
+  4  C u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.176
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH(D)
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p1 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u2 p0 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1197.29
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2(S)
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1197.29
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHCCH
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  2 C u0 p0 c0 {1,D} {3,S} {7,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 C u0 p0 c0 {3,T} {8,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHCCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  2 C u0 p0 c0 {1,D} {3,S} {7,S}
+  3 C u1 p0 c0 {2,S} {4,D}
+  4 C u0 p0 c0 {3,D} {8,S} {9,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {4,S}
+  9 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,D} {6,S}
+  3 C u0 p0 c0 {2,D} {7,S} {8,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2161.77
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHCHCH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  2 C u0 p0 c0 {1,D} {3,S} {7,S}
+  3 C u0 p0 c0 {2,S} {4,D} {8,S}
+  4 C u1 p0 c0 {3,D} {9,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHCHCH2
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,D} {5,S} {6,S}
+  2  C u0 p0 c0 {1,D} {3,S} {7,S}
+  3  C u0 p0 c0 {2,S} {4,D} {8,S}
+  4  C u0 p0 c0 {3,D} {9,S} {10,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CO
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,D}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,D} {5,D}
+  5 O u0 p2 c0 {4,D}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.12
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2O
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,D}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 O u0 p2 c0 {1,D}
+transport:
+  shapeIndex: 2
+  epsilon: 4140.62
+  epsilon_unit: J/mol
+  sigma: 3.59
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2OH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 O u0 p2 c0 {1,S} {5,S}
+  5 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3467.15
+  epsilon_unit: J/mol
+  sigma: 3.69
+  sigma_unit: angstroms
+  dipoleMoment: 1.7
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1197.29
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CC
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u1 p0 c0 {2,T}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2095.25
+  epsilon_unit: J/mol
+  sigma: 4.76
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CCCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {4,S}
+  4 C u1 p0 c0 {3,S} {8,S} {9,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {1,S}
+  8 H u0 p0 c0 {4,S}
+  9 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CCCH3
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {3,T}
+  3  C u0 p0 c0 {2,T} {4,S}
+  4  C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {4,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u1 p0 c0 {1,S} {3,D}
+  3 C u0 p0 c0 {2,D} {7,S} {8,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2161.77
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CHCH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,D} {7,S}
+  3 C u1 p0 c0 {2,D} {8,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2161.77
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CH2CCH
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u0 p0 c0 {2,S} {4,T}
+  4  C u0 p0 c0 {3,T} {10,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CHO
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 C u0 p0 c0 {1,S} {6,S} {7,D}
+  6 H u0 p0 c0 {5,S}
+  7 O u0 p2 c0 {5,D}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.12
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH2CHO
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,D} {6,S}
+  3 O u0 p2 c0 {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.12
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3CO
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u1 p0 c0 {1,S} {3,D}
+  3 O u0 p2 c0 {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.12
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3O
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 O u1 p2 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3467.15
+  epsilon_unit: J/mol
+  sigma: 3.69
+  sigma_unit: angstroms
+  dipoleMoment: 1.7
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH3OH
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 O u0 p2 c0 {1,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4005.93
+  epsilon_unit: J/mol
+  sigma: 3.626
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CH4
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1175.67
+  epsilon_unit: J/mol
+  sigma: 3.746
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 2.6
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 13.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CO
+adjacency_list: |2
+
+  1 C u0 p1 c-1 {2,T}
+  2 O u0 p1 c+1 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 815.652
+  epsilon_unit: J/mol
+  sigma: 3.65
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.95
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.8
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: CO2
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,D} {3,D}
+  2 O u0 p2 c0 {1,D}
+  3 O u0 p2 c0 {1,D}
+transport:
+  shapeIndex: 1
+  epsilon: 2028.74
+  epsilon_unit: J/mol
+  sigma: 3.763
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 2.65
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.1
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u1 p0 c0
+transport:
+  shapeIndex: 0
+  epsilon: 1205.6
+  epsilon_unit: J/mol
+  sigma: 2.05
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 315.951
+  epsilon_unit: J/mol
+  sigma: 2.92
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.79
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 280.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2CCCCH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 C u0 p0 c0 {2,D} {4,D}
+  4 C u1 p0 c0 {3,D} {7,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2CCCCH2
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,D} {5,S} {6,S}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 C u0 p0 c0 {2,D} {4,D}
+  4 C u0 p0 c0 {3,D} {7,S} {8,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2CCCH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {6,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2095.25
+  epsilon_unit: J/mol
+  sigma: 4.76
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2CN
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 N u1 p1 c0 {1,D}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 4730.95
+  epsilon_unit: J/mol
+  sigma: 3.63
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2NO
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 O u1 p2 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 970.302
+  epsilon_unit: J/mol
+  sigma: 3.492
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2O
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4759.22
+  epsilon_unit: J/mol
+  sigma: 2.605
+  sigma_unit: angstroms
+  dipoleMoment: 1.844
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: H2O2
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 O u0 p2 c0 {2,S} {4,S}
+  4 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 892.977
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 3.8
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HC2N2
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u0 p0 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {4,S}
+  4 N u0 p1 c0 {3,S} {5,D}
+  5 N u1 p1 c0 {4,D}
+transport:
+  shapeIndex: 1
+  epsilon: 2901.76
+  epsilon_unit: J/mol
+  sigma: 4.361
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCCHCCH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,D} {5,S}
+  2 C u0 p0 c0 {1,D} {3,S} {6,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 C u0 p0 c0 {3,T} {7,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2968.28
+  epsilon_unit: J/mol
+  sigma: 5.18
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,D} {4,S}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 O u0 p2 c0 {2,D}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1247.18
+  epsilon_unit: J/mol
+  sigma: 2.5
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCNN
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,T} {4,S}
+  2 N u0 p0 c+1 {1,T} {3,S}
+  3 N u1 p2 c-1 {2,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1247.18
+  epsilon_unit: J/mol
+  sigma: 2.5
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCCOH
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,T} {4,S}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 O u0 p2 c0 {2,S} {5,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.12
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCN
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 N u0 p1 c0 {2,T}
+transport:
+  shapeIndex: 1
+  epsilon: 4730.95
+  epsilon_unit: J/mol
+  sigma: 3.63
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,D} {3,S}
+  2 O u0 p2 c0 {1,D}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4140.62
+  epsilon_unit: J/mol
+  sigma: 3.59
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HCNO
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 N u0 p0 c+1 {2,T} {4,S}
+  4 O u0 p3 c-1 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HOCN
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 C u0 p0 c0 {2,S} {4,T}
+  4 N u0 p1 c0 {3,T}
+transport:
+  shapeIndex: 2
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HNCO
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 N u0 p1 c0 {1,S} {3,D}
+  3 C u0 p0 c0 {2,D} {4,D}
+  4 O u0 p2 c0 {3,D}
+transport:
+  shapeIndex: 2
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HNNO
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u0 p0 c0 {2,S}
+  2 N u0 p1 c0 {1,S} {3,D}
+  3 N u0 p1 c0 {2,D} {4,S}
+  4 O u1 p2 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HNO
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 N u0 p1 c0 {1,S} {3,D}
+  3 O u0 p2 c0 {2,D}
+transport:
+  shapeIndex: 2
+  epsilon: 970.302
+  epsilon_unit: J/mol
+  sigma: 3.492
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HNOH
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u0 p0 c0 {2,S}
+  2 N u1 p1 c0 {1,S} {3,S}
+  3 O u0 p2 c0 {2,S} {4,S}
+  4 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 970.302
+  epsilon_unit: J/mol
+  sigma: 3.492
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: HO2
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 O u0 p2 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 892.977
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N(Q)
+adjacency_list: |2
+
+  multiplicity 4
+  1 N u3 p1 c0
+transport:
+  shapeIndex: 0
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.298
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 N u0 p1 c0 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 810.913
+  epsilon_unit: J/mol
+  sigma: 3.621
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2H2
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,D} {3,S}
+  2 N u0 p1 c0 {1,D} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.798
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2H3
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 N u1 p1 c0 {1,S} {5,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1662.9
+  epsilon_unit: J/mol
+  sigma: 3.9
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2H4
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 N u0 p1 c0 {1,S} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1704.47
+  epsilon_unit: J/mol
+  sigma: 4.23
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 4.26
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: N2O
+adjacency_list: |2
+
+  1 N u0 p2 c-1 {2,D}
+  2 N u0 p0 c+1 {1,D} {3,D}
+  3 O u0 p2 c0 {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NCN
+adjacency_list: |2
+
+  multiplicity 3
+  1 N u1 p1 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 N u1 p1 c0 {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u0 p1 c0 {2,T}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 O u1 p2 c0 {2,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NH(T)
+adjacency_list: |2
+
+  multiplicity 3
+  1 N u2 p1 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.65
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u1 p1 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.65
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 2.26
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NH3
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3999.27
+  epsilon_unit: J/mol
+  sigma: 2.92
+  sigma_unit: angstroms
+  dipoleMoment: 1.47
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 10.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NNH
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u1 p1 c0 {2,D}
+  2 N u0 p1 c0 {1,D} {3,S}
+  3 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 593.655
+  epsilon_unit: J/mol
+  sigma: 3.798
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: 'NO'
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u1 p1 c0 {2,D}
+  2 O u0 p2 c0 {1,D}
+transport:
+  shapeIndex: 1
+  epsilon: 810.913
+  epsilon_unit: J/mol
+  sigma: 3.621
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NCNO
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 C u0 p0 c0 {1,T} {3,S}
+  3 N u0 p1 c0 {2,S} {4,D}
+  4 O u0 p2 c0 {3,D}
+transport:
+  shapeIndex: 2
+  epsilon: 1932.29
+  epsilon_unit: J/mol
+  sigma: 3.828
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: NO2
+adjacency_list: |2
+
+  multiplicity 2
+  1 N u1 p0 c+1 {2,S} {3,D}
+  2 O u0 p3 c-1 {1,S}
+  3 O u0 p2 c0 {1,D}
+transport:
+  shapeIndex: 2
+  epsilon: 1662.9
+  epsilon_unit: J/mol
+  sigma: 3.5
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: O(T)
+adjacency_list: |2
+
+  multiplicity 3
+  1 O u2 p2 c0
+transport:
+  shapeIndex: 0
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: O2
+adjacency_list: |2
+
+  multiplicity 3
+  1 O u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 892.977
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 1.6
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 3.8
+---
+short_description: GRI-Mech3.0 value fo
+long_description: ''
+label: OH
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.16
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: C*m
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0

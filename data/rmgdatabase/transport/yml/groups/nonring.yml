@@ -1,0 +1,726 @@
+label: R
+children:
+- C_centered
+- O_centered
+- S_centered
+- F
+- Cl
+- Br
+- N_centered
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * R ux
+transportGroup: null
+---
+label: C_centered
+children:
+- CsH3R
+- CsH2R2
+- CsHR3
+- CsR4
+- CdH2R
+- CdR3
+- CdHR2
+- CddR2
+- CtHR
+- CtR2
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * C ux
+transportGroup: null
+---
+label: CsH3R
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   H   u0 {1,S}
+  4   H   u0 {1,S}
+  5   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0141
+  Pc: 0.0012
+  Vc: 65.0
+  Tb: 23.58
+  structureIndex: 1
+---
+label: CsH2R2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+  5   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0189
+  Pc: 0.0
+  Vc: 56.0
+  Tb: 22.88
+  structureIndex: 1
+---
+label: CsHR3
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+  5   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0164
+  Pc: -0.002
+  Vc: 41.0
+  Tb: 21.74
+  structureIndex: 1
+---
+label: CsR4
+children:
+- CsF
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+  5   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0067
+  Pc: -0.0043
+  Vc: 27.0
+  Tb: 18.25
+  structureIndex: 1
+---
+label: CsF
+children:
+- CsF2
+short_description: nonring_library valu
+long_description: Tb from https://doi.org/10.1021/ie00008a029
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   F1s u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+  5   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0067
+  Pc: -0.0043
+  Vc: 27.0
+  Tb: 23.94
+  structureIndex: 1
+---
+label: CsF2
+children:
+- CsF3
+short_description: nonring_library valu
+long_description: Tb from https://doi.org/10.1021/ie00008a029
+group: |2
+
+  1 * C   u0 {2,S} {3,S} {4,S} {5,S}
+  2   F1s u0 {1,S}
+  3   F1s u0 {1,S}
+  4   R!H u0 {1,S}
+  5   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0067
+  Pc: -0.0043
+  Vc: 27.0
+  Tb: 20.17
+  structureIndex: 1
+---
+label: CsF3
+children: []
+short_description: nonring_library valu
+long_description: Tb from https://doi.org/10.1021/ie00008a029
+group: |2
+
+  1 * C    u0 {2,S} {3,S} {4,S} {5,S}
+  2   F1s u0 {1,S}
+  3   F1s u0 {1,S}
+  4   F1s u0 {1,S}
+  5   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0067
+  Pc: -0.0043
+  Vc: 27.0
+  Tb: 29.96
+  structureIndex: 1
+---
+label: CdH2R
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   R!H u0 {1,D}
+  3   H   u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0113
+  Pc: 0.0028
+  Vc: 56.0
+  Tb: 18.18
+  structureIndex: 1
+---
+label: CdR3
+children:
+- Ketone_Ccentered
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0117
+  Pc: -0.0011
+  Vc: 38.0
+  Tb: 24.14
+  structureIndex: 1
+---
+label: Ketone_Ccentered
+children:
+- Acid_Ccentered
+- Ester_Ccentered
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   O   u0 {1,D}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.038
+  Pc: -0.0031
+  Vc: 62.0
+  Tb: 76.75
+  structureIndex: 1
+---
+label: Acid_Ccentered
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   O   u0 {1,D}
+  3   O   u0 {1,S} {5,S}
+  4   R!H u0 {1,S}
+  5   H   u0 {3,S}
+transportGroup:
+  Tc: 0.0791
+  Pc: -0.0077
+  Vc: 89.0
+  Tb: 169.09
+  structureIndex: 1
+---
+label: Ester_Ccentered
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   O   u0 {1,D}
+  3   O   u0 {1,S} {5,S}
+  4   R!H u0 {1,S}
+  5   R!H u0 {3,S}
+transportGroup:
+  Tc: 0.0481
+  Pc: -0.0005
+  Vc: 82.0
+  Tb: 81.1
+  structureIndex: 1
+---
+label: CdHR2
+children:
+- Aldehyde_Ccentered
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0129
+  Pc: 0.0006
+  Vc: 46.0
+  Tb: 24.96
+  structureIndex: 1
+---
+label: Aldehyde_Ccentered
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,S} {4,S}
+  2   O   u0 {1,D}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0379
+  Pc: -0.003
+  Vc: 82.0
+  Tb: 72.24
+  structureIndex: 1
+---
+label: CddR2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,D} {3,D}
+  2   R!H u0 {1,D}
+  3   R!H u0 {1,D}
+transportGroup:
+  Tc: 0.0026
+  Pc: -0.0028
+  Vc: 36.0
+  Tb: 26.15
+  structureIndex: 0
+---
+label: CtHR
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,T} {3,S}
+  2   R!H u0 {1,T}
+  3   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0027
+  Pc: 0.0008
+  Vc: 46.0
+  Tb: 9.2
+  structureIndex: 0
+---
+label: CtR2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * C   u0 {2,T} {3,S}
+  2   R!H u0 {1,T}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.002
+  Pc: -0.0016
+  Vc: 37.0
+  Tb: 27.38
+  structureIndex: 0
+---
+label: O_centered
+children:
+- Alcohol
+- Ether
+- Od
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * O ux
+transportGroup: null
+---
+label: Alcohol
+children:
+- Phenol
+- Acid_Ocentered1
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0741
+  Pc: -0.0112
+  Vc: 28.0
+  Tb: 92.88
+  structureIndex: 1
+---
+label: Phenol
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O  u0 {2,S} {3,S}
+  2   Cb u0 {1,S}
+  3   H  u0 {1,S}
+transportGroup:
+  Tc: 0.024
+  Pc: -0.0184
+  Vc: -25.0
+  Tb: 76.34
+  structureIndex: 1
+---
+label: Acid_Ocentered1
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,S} {3,S}
+  2   H   u0 {1,S}
+  3   C   u0 {1,S} {4,D} {5,S}
+  4   O   u0 {3,D}
+  5   R!H u0 {3,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Ether
+children:
+- Ester_Ocentered1
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0168
+  Pc: -0.0015
+  Vc: 18.0
+  Tb: 22.42
+  structureIndex: 1
+---
+label: Ester_Ocentered1
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   C   u0 {1,S} {4,D} {5,S}
+  4   O   u0 {3,D}
+  5   R!H u0 {3,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Od
+children:
+- Ketone_Ocentered
+- Aldehyde_Ocentered
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,D}
+  2   R!H u0 {1,D}
+transportGroup:
+  Tc: 0.0143
+  Pc: -0.0101
+  Vc: 36.0
+  Tb: -10.5
+  structureIndex: 0
+---
+label: Ketone_Ocentered
+children:
+- Acid_Ocentered2
+- Ester_Ocentered2
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,D}
+  2   C   u0 {1,D} {3,S} {4,S}
+  3   R!H u0 {2,S}
+  4   R!H u0 {2,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Aldehyde_Ocentered
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,D}
+  2   C   u0 {1,D} {3,S} {4,S}
+  3   R!H u0 {2,S}
+  4   H   u0 {2,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Acid_Ocentered2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,D}
+  2   C   u0 {1,D} {3,S} {4,S}
+  3   R!H u0 {2,S}
+  4   O   u0 {2,S} {5,S}
+  5   H   u0 {4,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Ester_Ocentered2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * O   u0 {2,D}
+  2   C   u0 {1,D} {3,S} {4,S}
+  3   R!H u0 {2,S}
+  4   O   u0 {2,S} {5,S}
+  5   R!H u0 {4,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: S_centered
+children:
+- Thiol
+- Thioether
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * S ux
+transportGroup: null
+---
+label: Thiol
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * S   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0031
+  Pc: -0.0084
+  Vc: 63.0
+  Tb: 63.56
+  structureIndex: 1
+---
+label: Thioether
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * S   u0 {2,S} {3,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0119
+  Pc: -0.0049
+  Vc: 54.0
+  Tb: 68.78
+  structureIndex: 1
+---
+label: F
+children:
+- F-Cs
+short_description: Tb from https://doi.
+long_description: ''
+group: |2
+
+  1 * F1s  u0
+transportGroup:
+  Tc: 0.0111
+  Pc: 0.0057
+  Vc: 27.0
+  Tb: 6.31
+  structureIndex: 1
+---
+label: F-Cs
+children: []
+short_description: nonring_library valu
+long_description: Corrected for with carbon center groups
+group: |2
+
+  1 * F1s  u0 {2,S}
+  2   Cs   u0 {1,S} {3,S} {4,S} {5,S}
+  3   R!H  u0 {2,S}
+  4   R!H  u0 {2,S}
+  5   R!H  u0 {2,S}
+transportGroup:
+  Tc: 0.0
+  Pc: 0.0
+  Vc: 0.0
+  Tb: 0.0
+  structureIndex: 1
+---
+label: Cl
+children: []
+short_description: nonring_library valu
+long_description: Tb from https://doi.org/10.1021/ie00008a029
+group: |2
+
+  1 * Cl1s  u0
+transportGroup:
+  Tc: 0.0105
+  Pc: 0.0049
+  Vc: 58.0
+  Tb: 38.13
+  structureIndex: 1
+---
+label: Br
+children: []
+short_description: nonring_library valu
+long_description: Tb from https://doi.org/10.1021/ie00008a029
+group: |2
+
+  1 * Br1s  u0
+transportGroup:
+  Tc: 0.0133
+  Pc: -0.0057
+  Vc: 71.0
+  Tb: 66.86
+  structureIndex: 1
+---
+label: N_centered
+children:
+- NsH2R
+- NsHR2
+- NsR3
+- Nt-CtR
+short_description: 'Dummy node for head '
+long_description: ''
+group: |2
+
+  1 * N ux
+transportGroup: null
+---
+label: NsH2R
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S}
+  3   H   u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0243
+  Pc: -0.0109
+  Vc: 38.0
+  Tb: 73.23
+  structureIndex: 1
+---
+label: NsHR2
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   H   u0 {1,S}
+transportGroup:
+  Tc: 0.0295
+  Pc: -0.0077
+  Vc: 35.0
+  Tb: 50.17
+  structureIndex: 1
+---
+label: NsR3
+children:
+- NsOs2R
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,S} {3,S} {4,S}
+  2   R!H u0 {1,S}
+  3   R!H u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0169
+  Pc: -0.0074
+  Vc: 9.0
+  Tb: 11.74
+  structureIndex: 1
+---
+label: Nt-CtR
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * N3t u0 p1 {2,T}
+  2   Ct  u0 {1,T} {3,S}
+  3   R!H u0 {2,S}
+transportGroup:
+  Tc: 0.0496
+  Pc: 0.0101
+  Vc: 91.0
+  Tb: 125.66
+  structureIndex: 0
+---
+label: NsOs2R
+children: []
+short_description: nonring_library valu
+long_description: ''
+group: |2
+
+  1 * N   u0 {2,S} {3,S} {4,S}
+  2   O   u0 {1,S}
+  3   O   u0 {1,S}
+  4   R!H u0 {1,S}
+transportGroup:
+  Tc: 0.0437
+  Pc: -0.0064
+  Vc: 91.0
+  Tb: 152.54
+  structureIndex: 1

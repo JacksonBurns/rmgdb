@@ -1,0 +1,2400 @@
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: AR
+adjacency_list: |2
+
+  1 Ar u0 p4 c0
+transport:
+  shapeIndex: 0
+  epsilon: 1134.93
+  epsilon_unit: J/mol
+  sigma: 3.33
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C
+adjacency_list: |2
+
+  1 C u0 p2 c0
+transport:
+  shapeIndex: 0
+  epsilon: 593.653
+  epsilon_unit: J/mol
+  sigma: 3.298
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,T} {3,S}
+  2 C u1 p0 c0 {1,T}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1737.72
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.5
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H2
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,T} {3,S}
+  2 C u0 p0 c0 {1,T} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1737.72
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.5
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H3
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u1 p0 c0 {1,D} {5,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1737.72
+  epsilon_unit: J/mol
+  sigma: 4.1
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H4
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u0 p0 c0 {1,D} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2334.7
+  epsilon_unit: J/mol
+  sigma: 3.971
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H5
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u1 p0 c0 {1,S} {6,S} {7,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2097.74
+  epsilon_unit: J/mol
+  sigma: 4.302
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2H6
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2097.74
+  epsilon_unit: J/mol
+  sigma: 4.302
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.5
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C3H6
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,D} {7,S}
+  3 C u0 p0 c0 {2,D} {8,S} {9,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+  9 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.3
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C3H7
+adjacency_list: |2
+
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3  C u1 p0 c0 {1,S} {9,S} {10,S}
+  4  H u0 p0 c0 {1,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.3
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C3H8
+adjacency_list: |2
+
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  4  H u0 p0 c0 {1,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2218.3
+  epsilon_unit: J/mol
+  sigma: 4.982
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p1 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.158
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2
+adjacency_list: |2
+
+  multiplicity 3
+  1 C u2 p0 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1197.28
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2(S)
+adjacency_list: |2
+
+  1 C u0 p1 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1197.28
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CO
+adjacency_list: |2
+
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.11
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2O
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,D}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4140.61
+  epsilon_unit: J/mol
+  sigma: 3.59
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2OH
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {2,S} {5,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3467.14
+  epsilon_unit: J/mol
+  sigma: 3.69
+  sigma_unit: angstroms
+  dipoleMoment: 1.7
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1197.28
+  epsilon_unit: J/mol
+  sigma: 3.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3CCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {3,D} {7,S} {8,S}
+  3 C u1 p0 c0 {1,S} {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2161.76
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3CHO
+adjacency_list: |2
+
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u0 p0 c0 {1,D} {2,S} {7,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.11
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CHO
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {3,D}
+  2 C u1 p0 c0 {3,S} {4,S} {5,S}
+  3 C u0 p0 c0 {1,D} {2,S} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.11
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3CO
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {3,D}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u1 p0 c0 {1,D} {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.11
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3O
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3467.14
+  epsilon_unit: J/mol
+  sigma: 3.69
+  sigma_unit: angstroms
+  dipoleMoment: 1.7
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3OH
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4005.91
+  epsilon_unit: J/mol
+  sigma: 3.626
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH4
+adjacency_list: |2
+
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1175.67
+  epsilon_unit: J/mol
+  sigma: 3.746
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 2.6
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 13.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CO
+adjacency_list: |2
+
+  1 O u0 p1 c+1 {2,T}
+  2 C u0 p1 c-1 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 815.65
+  epsilon_unit: J/mol
+  sigma: 3.65
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 1.95
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.8
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CO2
+adjacency_list: |2
+
+  1 O u0 p2 c0 {3,D}
+  2 O u0 p2 c0 {3,D}
+  3 C u0 p0 c0 {1,D} {2,D}
+transport:
+  shapeIndex: 1
+  epsilon: 2028.73
+  epsilon_unit: J/mol
+  sigma: 3.763
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 2.65
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.1
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: H
+adjacency_list: |2
+
+  multiplicity 2
+  1 H u1 p0 c0
+transport:
+  shapeIndex: 0
+  epsilon: 1205.6
+  epsilon_unit: J/mol
+  sigma: 2.05
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: H2
+adjacency_list: |2
+
+  1 H u0 p0 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 315.95
+  epsilon_unit: J/mol
+  sigma: 2.92
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.79
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 280.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: H2O
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4759.2
+  epsilon_unit: J/mol
+  sigma: 2.605
+  sigma_unit: angstroms
+  dipoleMoment: 1.844
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: H2O2
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u0 p2 c0 {1,S} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 892.974
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 3.8
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: HCCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {3,D}
+  2 C u1 p0 c0 {3,D} {4,S}
+  3 C u0 p0 c0 {1,D} {2,D}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1247.17
+  epsilon_unit: J/mol
+  sigma: 2.5
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: HCCOH
+adjacency_list: |2
+
+  1 O u0 p2 c0 {2,S} {5,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 C u0 p0 c0 {2,T} {4,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3625.11
+  epsilon_unit: J/mol
+  sigma: 3.97
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 2.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: HCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {2,D}
+  2 C u1 p0 c0 {1,D} {3,S}
+  3 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 4140.61
+  epsilon_unit: J/mol
+  sigma: 3.59
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: HO2
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 O u1 p2 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 2
+  epsilon: 892.974
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: N2
+adjacency_list: |2
+
+  1 N u0 p1 c0 {2,T}
+  2 N u0 p1 c0 {1,T}
+transport:
+  shapeIndex: 1
+  epsilon: 810.911
+  epsilon_unit: J/mol
+  sigma: 3.621
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 1.76
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 4.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: O
+adjacency_list: |2
+
+  multiplicity 3
+  1 O u2 p2 c0
+transport:
+  shapeIndex: 0
+  epsilon: 665.158
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: O2
+adjacency_list: |2
+
+  multiplicity 3
+  1 O u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 892.974
+  epsilon_unit: J/mol
+  sigma: 3.458
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 1.6
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 3.8
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: OH
+adjacency_list: |2
+
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 665.158
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: F
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u1 p3 c0
+transport:
+  shapeIndex: 0
+  epsilon: 665.158
+  epsilon_unit: J/mol
+  sigma: 2.75
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: F2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 F u0 p3 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1045.13
+  epsilon_unit: J/mol
+  sigma: 3.301
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 1.6
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 3.8
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: HF
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 2743.78
+  epsilon_unit: J/mol
+  sigma: 3.148
+  sigma_unit: angstroms
+  dipoleMoment: 1.92
+  dipoleMoment_unit: De
+  polarizability: 2.46
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3F
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF4
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {5,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1114.14
+  epsilon_unit: J/mol
+  sigma: 4.662
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u1 p0 c0 {1,S} {2,S} {4,S}
+  4 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u1 p0 c0 {1,S} {2,S} {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1006.05
+  epsilon_unit: J/mol
+  sigma: 4.32
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF
+adjacency_list: |2
+
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p1 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2178.39
+  epsilon_unit: J/mol
+  sigma: 4.123
+  sigma_unit: angstroms
+  dipoleMoment: 1.8
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p1 c0 {1,S} {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 897.963
+  epsilon_unit: J/mol
+  sigma: 3.977
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u1 p1 c0 {1,S}
+transport:
+  shapeIndex: 1
+  epsilon: 783.223
+  epsilon_unit: J/mol
+  sigma: 3.635
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3O
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 O u1 p2 c0 {5,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFO
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 O u0 p2 c0 {3,D}
+  3 C u0 p0 c0 {1,S} {2,D} {4,S}
+  4 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2O
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 O u0 p2 c0 {4,D}
+  4 C u0 p0 c0 {1,S} {2,S} {3,D}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CFO
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 O u0 p2 c0 {3,D}
+  3 C u1 p0 c0 {1,S} {2,D}
+transport:
+  shapeIndex: 2
+  epsilon: 7150.45
+  epsilon_unit: J/mol
+  sigma: 4.0
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3-CH2F
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3-CHF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+  8 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CH2F
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4 C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3-CF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  6 H u0 p0 c0 {5,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2403.71
+  epsilon_unit: J/mol
+  sigma: 4.911
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CHF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {6,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2-CHF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  6 C u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2-CF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {6,S}
+  2 F u0 p3 c0 {6,S}
+  3 F u0 p3 c0 {7,S}
+  4 F u0 p3 c0 {7,S}
+  5 F u0 p3 c0 {7,S}
+  6 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  7 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  8 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.9
+  sigma_unit: angstroms
+  dipoleMoment: 1.5
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3-CF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {7,S}
+  2 F u0 p3 c0 {7,S}
+  3 F u0 p3 c0 {7,S}
+  4 F u0 p3 c0 {8,S}
+  5 F u0 p3 c0 {8,S}
+  6 F u0 p3 c0 {8,S}
+  7 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  8 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+transport:
+  shapeIndex: 2
+  epsilon: 1927.29
+  epsilon_unit: J/mol
+  sigma: 4.969
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3-CHF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 C u1 p0 c0 {1,S} {2,S} {7,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 C u1 p0 c0 {2,S} {6,S} {7,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH3-CF2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 C u1 p0 c0 {1,S} {2,S} {3,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CHF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4 C u1 p0 c0 {2,S} {3,S} {7,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2-CH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4 C u1 p0 c0 {3,S} {6,S} {7,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2F-CF2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 C u1 p0 c0 {2,S} {3,S} {4,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2-CHF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {5,S}
+  4 C u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+  5 C u1 p0 c0 {3,S} {4,S} {7,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.798
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHF2-CF2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  6 C u1 p0 c0 {3,S} {4,S} {5,S}
+  7 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 2.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3-CH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 C u1 p0 c0 {4,S} {6,S} {7,S}
+  6 H u0 p0 c0 {5,S}
+  7 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2403.71
+  epsilon_unit: J/mol
+  sigma: 4.911
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3-CHF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u1 p0 c0 {4,S} {5,S} {7,S}
+  7 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.85
+  sigma_unit: angstroms
+  dipoleMoment: 2.3
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3-CF2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {6,S}
+  2 F u0 p3 c0 {6,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {7,S}
+  5 F u0 p3 c0 {7,S}
+  6 C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7 C u1 p0 c0 {4,S} {5,S} {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2688.9
+  epsilon_unit: J/mol
+  sigma: 4.9
+  sigma_unit: angstroms
+  dipoleMoment: 1.5
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CHF
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u0 p0 c0 {1,S} {2,D} {6,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2263.2
+  epsilon_unit: J/mol
+  sigma: 4.322
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {4,D} {5,S} {6,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,D}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCHF[Z]
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,D} {5,S}
+  4 C u0 p0 c0 {2,S} {3,D} {6,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 C u0 p0 c0 {1,S} {5,D} {6,S}
+  5 C u0 p0 c0 {2,S} {3,S} {4,D}
+  6 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2CF2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {6,D}
+  6 C u0 p0 c0 {3,S} {4,S} {5,D}
+transport:
+  shapeIndex: 2
+  epsilon: 2113.54
+  epsilon_unit: J/mol
+  sigma: 4.647
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,D} {4,S} {5,S}
+  3 C u1 p0 c0 {1,S} {2,D}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2263.2
+  epsilon_unit: J/mol
+  sigma: 4.322
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCH[Z]
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {2,S}
+  2 C u0 p0 c0 {1,S} {3,D} {4,S}
+  3 C u1 p0 c0 {2,D} {5,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2263.2
+  epsilon_unit: J/mol
+  sigma: 4.322
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCF[Z]
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,D} {5,S}
+  4 C u1 p0 c0 {2,S} {3,D}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2CH
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {3,S}
+  3 C u0 p0 c0 {1,S} {2,S} {4,D}
+  4 C u1 p0 c0 {3,D} {5,S}
+  5 H u0 p0 c0 {4,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2CF
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {5,S}
+  4 C u0 p0 c0 {1,S} {2,S} {5,D}
+  5 C u1 p0 c0 {3,S} {4,D}
+transport:
+  shapeIndex: 2
+  epsilon: 2091.09
+  epsilon_unit: J/mol
+  sigma: 4.442
+  sigma_unit: angstroms
+  dipoleMoment: 1.4
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2HF
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 C u0 p0 c0 {3,T} {4,S}
+  3 C u0 p0 c0 {1,S} {2,T}
+  4 H u0 p0 c0 {2,S}
+transport:
+  shapeIndex: 1
+  epsilon: 1870.76
+  epsilon_unit: J/mol
+  sigma: 4.25
+  sigma_unit: angstroms
+  dipoleMoment: 1.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: C2F2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 F u0 p3 c0 {4,S}
+  3 C u0 p0 c0 {1,S} {4,T}
+  4 C u0 p0 c0 {2,S} {3,T}
+transport:
+  shapeIndex: 1
+  epsilon: 1995.47
+  epsilon_unit: J/mol
+  sigma: 4.4
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCO
+adjacency_list: |2
+
+  1 F u0 p3 c0 {3,S}
+  2 O u0 p2 c0 {4,D}
+  3 C u0 p0 c0 {1,S} {4,D} {5,S}
+  4 C u0 p0 c0 {2,D} {3,D}
+  5 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF2CO
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 O u0 p2 c0 {5,D}
+  4 C u0 p0 c0 {1,S} {2,S} {5,D}
+  5 C u0 p0 c0 {3,D} {4,D}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CFCO
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {3,S}
+  2 O u0 p2 c0 {4,D}
+  3 C u1 p0 c0 {1,S} {4,D}
+  4 C u0 p0 c0 {2,D} {3,D}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3CO
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 O u0 p2 c0 {6,D}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u1 p0 c0 {4,D} {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3CHO
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 O u0 p2 c0 {6,D}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {4,D} {5,S} {7,S}
+  7 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3COF
+adjacency_list: |2
+
+  1 F u0 p3 c0 {6,S}
+  2 F u0 p3 c0 {6,S}
+  3 F u0 p3 c0 {6,S}
+  4 F u0 p3 c0 {7,S}
+  5 O u0 p2 c0 {7,D}
+  6 C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7 C u0 p0 c0 {4,S} {5,D} {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2914.22
+  epsilon_unit: J/mol
+  sigma: 4.906
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3CHCH2
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 C u0 p0 c0 {4,S} {6,D} {7,S}
+  6 C u0 p0 c0 {5,D} {8,S} {9,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {6,S}
+  9 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2785.35
+  epsilon_unit: J/mol
+  sigma: 4.7
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3CCH2
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  5 C u0 p0 c0 {6,D} {7,S} {8,S}
+  6 C u1 p0 c0 {4,S} {5,D}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2768.72
+  epsilon_unit: J/mol
+  sigma: 4.7
+  sigma_unit: angstroms
+  dipoleMoment: 2.444
+  dipoleMoment_unit: De
+  polarizability: 6.006
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3CCH
+adjacency_list: |2
+
+  1 F u0 p3 c0 {4,S}
+  2 F u0 p3 c0 {4,S}
+  3 F u0 p3 c0 {4,S}
+  4 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 C u0 p0 c0 {4,S} {6,T}
+  6 C u0 p0 c0 {5,T} {7,S}
+  7 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2752.09
+  epsilon_unit: J/mol
+  sigma: 4.7
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CF3COCH3
+adjacency_list: |2
+
+  1  F u0 p3 c0 {6,S}
+  2  F u0 p3 c0 {6,S}
+  3  F u0 p3 c0 {6,S}
+  4  O u0 p2 c0 {7,D}
+  5  C u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+  6  C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7  C u0 p0 c0 {4,D} {5,S} {6,S}
+  8  H u0 p0 c0 {5,S}
+  9  H u0 p0 c0 {5,S}
+  10 H u0 p0 c0 {5,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3051.41
+  epsilon_unit: J/mol
+  sigma: 5.0
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CFCF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {4,S} {5,S} {7,D}
+  7 C u0 p0 c0 {6,D} {8,S} {9,S}
+  8 H u0 p0 c0 {7,S}
+  9 H u0 p0 c0 {7,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3084.67
+  epsilon_unit: J/mol
+  sigma: 4.9
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CFCCF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {7,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {5,S} {7,T}
+  7 C u0 p0 c0 {4,S} {6,T}
+transport:
+  shapeIndex: 2
+  epsilon: 3001.52
+  epsilon_unit: J/mol
+  sigma: 4.8
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH-CFCF3
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {4,S} {5,S} {7,D}
+  7 C u1 p0 c0 {6,D} {8,S}
+  8 H u0 p0 c0 {7,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3051.41
+  epsilon_unit: J/mol
+  sigma: 4.9
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCHCF3
+adjacency_list: |2
+
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {7,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {5,S} {7,D} {8,S}
+  7 C u0 p0 c0 {4,S} {6,D} {9,S}
+  8 H u0 p0 c0 {6,S}
+  9 H u0 p0 c0 {7,S}
+transport:
+  shapeIndex: 2
+  epsilon: 3084.67
+  epsilon_unit: J/mol
+  sigma: 4.9
+  sigma_unit: angstroms
+  dipoleMoment: 0.0
+  dipoleMoment_unit: De
+  polarizability: 0.0
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 0.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CFCHCF3
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {7,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6 C u0 p0 c0 {5,S} {7,D} {8,S}
+  7 C u1 p0 c0 {4,S} {6,D}
+  8 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2785.35
+  epsilon_unit: J/mol
+  sigma: 4.7
+  sigma_unit: angstroms
+  dipoleMoment: 2.722
+  dipoleMoment_unit: De
+  polarizability: 4.631
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CHFCCF3
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {5,S}
+  2 F u0 p3 c0 {5,S}
+  3 F u0 p3 c0 {5,S}
+  4 F u0 p3 c0 {6,S}
+  5 C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  6 C u0 p0 c0 {4,S} {7,D} {8,S}
+  7 C u1 p0 c0 {5,S} {6,D}
+  8 H u0 p0 c0 {6,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2785.35
+  epsilon_unit: J/mol
+  sigma: 4.7
+  sigma_unit: angstroms
+  dipoleMoment: 2.722
+  dipoleMoment_unit: De
+  polarizability: 4.631
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
+---
+short_description: From NIST CH2F2 mode
+long_description: ''
+label: CH2CFO
+adjacency_list: |2
+
+  multiplicity 2
+  1 F u0 p3 c0 {4,S}
+  2 O u0 p2 c0 {4,D}
+  3 C u1 p0 c0 {4,S} {5,S} {6,S}
+  4 C u0 p0 c0 {1,S} {2,D} {3,S}
+  5 H u0 p0 c0 {3,S}
+  6 H u0 p0 c0 {3,S}
+transport:
+  shapeIndex: 2
+  epsilon: 2595.78
+  epsilon_unit: J/mol
+  sigma: 4.583
+  sigma_unit: angstroms
+  dipoleMoment: 3.302
+  dipoleMoment_unit: De
+  polarizability: 3.442
+  polarizability_unit: angstroms^3
+  rotrelaxcollnum: 1.0
