@@ -1,0 +1,627 @@
+label: R
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * R u0
+children:
+- C
+- O
+- N
+- S
+- CO
+- Cs(OssH)Cs(OssH)
+- CbCsOssH
+- OssH
+- phenol
+- OxRing
+- N3sH2-benz
+- N3sHCd(O2d)N3sH
+- Cd(O2d)NH2
+- Cd(O2d)NHR
+- N3sCd(O2d)N3sH
+- CdsNdNsNs
+- SdOdOdN
+---
+label: CO
+short_description: ''
+long_description: ''
+group: |2
+
+  1 * CO u0
+children:
+- Lac
+- Oss(CdsOd)
+- Oss(CdsOd)Oss
+- OssH(CdsOd)
+- Cd(O2d)Cd=CdCd(O2d)
+- Lactam
+- Cd(O2d)N
+---
+label: Oss(CdsOd)
+short_description: Platts fragment 43 non-cyclic ester
+long_description: ''
+group: |2
+
+  1 * CO                         u0 {2,S} {3,S} {4,D}
+  2   O2s                         u0 {1,S} {5,S}
+  3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
+  4   O2d                         u0 {1,D}
+  5   R!H                        u0 {2,S}
+children: []
+solute:
+  S: -0.225
+  B: -0.206
+  E: -0.113
+  L: -0.39
+  A: 0.0
+---
+label: Lac
+short_description: Platts group 44 lactone
+long_description: ''
+group: OR{Lac3, Lac4, Lac5, Lac6}
+children:
+- Lac3
+- Lac4
+- Lac5
+- Lac6
+solute:
+  S: 0.36
+  B: -0.214
+  E: 0.0
+  L: 0.406
+  A: 0.0
+---
+label: Lac3
+short_description: lactone, 3 membered ring
+long_description: ''
+group: |2
+
+  1   O2d  u0 {2,D}
+  2 * CO  u0 {1,D} {3,S} {4,S}
+  3   O2s  u0 {2,S} {4,S}
+  4   R!H u0 {2,S} {3,S}
+children: []
+---
+label: Lac4
+short_description: lactone, 4 membered ring
+long_description: ''
+group: |2
+
+  1   O2d  u0 {2,D}
+  2 * CO  u0 {1,D} {3,S} {5,S}
+  3   O2s  u0 {2,S} {4,S}
+  4   R!H u0 {3,S} {5,S}
+  5   R!H u0 {2,S} {4,S}
+children: []
+---
+label: Lac5
+short_description: lactone, 5 membered ring
+long_description: ''
+group: |2
+
+  1   O2d  u0 {2,D}
+  2 * CO  u0 {1,D} {3,S} {6,S}
+  3   O2s  u0 {2,S} {4,S}
+  4   R!H u0 {3,S} {5,S}
+  5   R!H u0 {4,S} {6,S}
+  6   R!H u0 {2,S} {5,S}
+children: []
+---
+label: Lac6
+short_description: lactone, 6 membered ring
+long_description: ''
+group: |2
+
+  1   O2d  u0 {2,D}
+  2 * CO  u0 {1,D} {3,S} {7,S}
+  3   O2s  u0 {2,S} {4,S}
+  4   R!H u0 {3,S} {5,S}
+  5   R!H u0 {4,S} {6,S}
+  6   R!H u0 {5,S} {7,S}
+  7   R!H u0 {2,S} {6,S}
+children: []
+---
+label: Oss(CdsOd)Oss
+short_description: Platts fragment 46 carbonate
+long_description: ''
+group: |2
+
+  1 * CO  u0 {2,S} {3,S} {4,D}
+  2   O2s  u0 {1,S} {5,S}
+  3   O2s  u0 {1,S} {6,S}
+  4   O2d  u0 {1,D}
+  5   R!H u0 {2,S}
+  6   R!H u0 {3,S}
+children: []
+solute:
+  S: -0.19
+  B: -0.267
+  E: 0.0
+  L: 0.0
+  A: 0.0
+---
+label: OssH(CdsOd)
+short_description: Platts fragment 47 carboxylic acid
+long_description: ''
+group: |2
+
+  1 * CO                         u0 {2,S} {3,S} {4,D}
+  2   O2s                         u0 {1,S} {5,S}
+  3   [Cs,Cd,Cdd,Ct,Cb,Cbf,CO,H] u0 {1,S}
+  4   O2d                         u0 {1,D}
+  5   H                          u0 {2,S}
+children: []
+solute:
+  S: -0.412
+  B: -0.308
+  E: -0.192
+  L: -0.369
+  A: 0.243
+---
+label: Cd(O2d)Cd=CdCd(O2d)
+short_description: Platts fragment 55 quinone
+long_description: ''
+group: |2
+
+  1  * CO u0 {2,D} {3,S} {4,S}
+  2    O2d u0 {1,D}
+  3    Cd u0 {1,S} {5,S} {6,D}
+  4    R  u0 {1,S}
+  5    R  u0 {3,S}
+  6    Cd u0 {3,D} {7,S} {8,S}
+  7    R  u0 {6,S}
+  8    CO u0 {6,S} {9,S} {10,D}
+  9    R  u0 {8,S}
+  10   O2d u0 {8,D}
+children: []
+solute:
+  S: -0.2055
+  B: -0.0255
+  E: 0.0
+  L: 0.0
+  A: 0.0
+---
+label: Cd(O2d)N
+short_description: Platts group 49 noncyclic aliphatic amide
+long_description: ''
+group: |2
+
+  1 * CO        u0 {2,D} {3,S}
+  2   O2d        u0 {1,D}
+  3   [N3s,N3d] u0 {1,S}
+children:
+- NCd(O2d)N
+- OsCd(O2d)N
+- Cd(O2d)NCd(O2d)
+solute:
+  S: 0.175
+  B: -0.287
+  E: 0.0
+  L: 0.603
+  A: 0.0
+---
+label: Lactam
+short_description: Platts group 50 lactam
+long_description: ''
+group: OR{Lactam4, Lactam5, Lactam6, Lactam7}
+children:
+- Lactam4
+- Lactam5
+- Lactam6
+solute:
+  S: -0.1
+  B: -0.231
+  E: 0.061
+  L: 0.583
+  A: 0.0
+---
+label: Lactam4
+short_description: lactam, 4 membered ring
+long_description: ''
+group: |2
+
+  1   O2d u0 {2,D}
+  2 * CO u0 {1,D} {3,S} {5,S}
+  3   N  u0 {2,S} {4,S}
+  4   Cs u0 {3,S} {5,S}
+  5   Cs u0 {2,S} {4,S}
+children: []
+---
+label: Lactam5
+short_description: lactam, 5 membered ring
+long_description: ''
+group: |2
+
+  1   O2d u0 {2,D}
+  2 * CO u0 {1,D} {3,S} {6,S}
+  3   N  u0 {2,S} {4,S}
+  4   Cs u0 {3,S} {5,S}
+  5   Cs u0 {4,S} {6,S}
+  6   Cs u0 {2,S} {5,S}
+children: []
+---
+label: Lactam6
+short_description: lactam, 6 membered ring
+long_description: ''
+group: |2
+
+  1   O2d u0 {2,D}
+  2 * CO u0 {1,D} {3,S} {7,S}
+  3   N  u0 {2,S} {4,S}
+  4   Cs u0 {3,S} {5,S}
+  5   Cs u0 {4,S} {6,S}
+  6   Cs u0 {5,S} {7,S}
+  7   Cs u0 {2,S} {6,S}
+children: []
+---
+label: Lactam7
+short_description: lactam, 7 membered ring
+long_description: ''
+group: |2
+
+  1   O2d u0 {2,D}
+  2 * CO u0 {1,D} {3,S} {8,S}
+  3   N  u0 {2,S} {4,S}
+  4   Cs u0 {3,S} {5,S}
+  5   Cs u0 {4,S} {6,S}
+  6   Cs u0 {5,S} {7,S}
+  7   Cs u0 {6,S} {8,S}
+  8   Cs u0 {2,S} {7,S}
+children: []
+---
+label: NCd(O2d)N
+short_description: Platts group 52 urea
+long_description: ''
+group: |2
+
+  1 * CO  u0 {2,D} {3,S} {4,S}
+  2   O2d  u0 {1,D}
+  3   N3s u0 {1,S}
+  4   N3s u0 {1,S}
+children: []
+solute:
+  S: -0.553
+  B: -0.076
+  E: -0.11
+  L: 0.0
+  A: 0.0
+---
+label: OsCd(O2d)N
+short_description: Platts group 53 carbamate (fragment 16 for A)
+long_description: ''
+group: |2
+
+  1 * CO  u0 {2,D} {3,S} {4,S}
+  2   O2d  u0 {1,D}
+  3   O2s  u0 {1,S}
+  4   N3s u0 {1,S}
+children: []
+solute:
+  S: -0.588
+  B: -0.252
+  E: 0.0
+  L: 0.0
+  A: -0.105
+---
+label: Cd(O2d)NCd(O2d)
+short_description: Platts group 54 imide
+long_description: ''
+group: |2
+
+  1 * CO  u0 {2,D} {3,S}
+  2   O2d  u0 {1,D}
+  3   N3s u0 {1,S} {4,S}
+  4   CO  u0 {3,S} {5,D}
+  5   O2d  u0 {4,D}
+children: []
+solute:
+  S: -0.255
+  B: -0.074
+  E: 0.0
+  L: 0.0
+  A: 0.0
+---
+label: Cs(OssH)Cs(OssH)
+short_description: Platts fragment 68 1,2 diol
+long_description: ''
+group: |2
+
+  1  * Cs u0 {2,S} {3,S} {4,S} {5,S}
+  2    R  u0 {1,S}
+  3    R  u0 {1,S}
+  4    O2s u0 {1,S} {6,S}
+  5    Cs u0 {1,S} {7,S} {8,S} {9,S}
+  6    H  u0 {4,S}
+  7    R  u0 {5,S}
+  8    R  u0 {5,S}
+  9    O2s u0 {5,S} {10,S}
+  10   H  u0 {9,S}
+children: []
+solute:
+  S: 0.026
+  B: 0.0
+  E: -0.0215
+  L: 0.05
+  A: 0.0
+---
+label: CbCsOssH
+short_description: Platts fragment 79 benzyl alcohol
+long_description: ''
+group: |2
+
+  1 * Cb u0 {2,S}
+  2   Cs u0 {1,S} {3,S}
+  3   O2s u0 {2,S} {4,S}
+  4   H  u0 {3,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.131
+  E: 0.0
+  L: -0.145
+  A: 0.0
+---
+label: OssH
+short_description: -OH (connected to aliphatic) correction for A
+long_description: ''
+group: |2
+
+  1 * O2s                 u0 {2,S} {3,S}
+  2   H                  u0 {1,S}
+  3   [Cs,Cd,Ct,CO,O2s,H] u0 {1,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.345
+---
+label: phenol
+short_description: phenol correction for A
+long_description: ''
+group: |2
+
+  1 * O2s       u0 {2,S} {3,S}
+  2   H        u0 {1,S}
+  3   [Cb,Cbf] u0 {1,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.543
+---
+label: OxRing
+short_description: Correction for an Oss group in a ring
+long_description: ''
+group: OR{OxR3, OxR4, OxR5, OxR6, OxR7}
+children:
+- OxR3
+- OxR4
+- OxR5
+- OxR6
+- OxR7
+solute:
+  S: 0.0
+  B: 0.12
+  E: -0.001
+  L: -0.001
+  A: 0.0
+---
+label: OxR3
+short_description: O in a 3 membered ring
+long_description: ''
+group: |2
+
+  1 * O2s  u0 {2,S} {3,S}
+  2   R!H u0 {1,S} {3,[S,D,B]}
+  3   R!H u0 {1,S} {2,[S,D,B]}
+children: []
+---
+label: OxR4
+short_description: O in a 4 membered ring
+long_description: ''
+group: |2
+
+  1 * O2s  u0 {2,S} {4,S}
+  2   R!H u0 {1,S} {3,[S,D,B]}
+  3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  4   R!H u0 {1,S} {3,[S,D,B]}
+children: []
+---
+label: OxR5
+short_description: O in a 5 membered ring
+long_description: ''
+group: |2
+
+  1 * O2s  u0 {2,S} {5,S}
+  2   R!H u0 {1,S} {3,[S,D,B]}
+  3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+  5   R!H u0 {1,S} {4,[S,D,B]}
+children: []
+---
+label: OxR6
+short_description: O in a 6 membered ring
+long_description: ''
+group: |2
+
+  1 * O2s  u0 {2,S} {6,S}
+  2   R!H u0 {1,S} {3,[S,D,B]}
+  3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+  5   R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+  6   R!H u0 {1,S} {5,[S,D,B]}
+children: []
+---
+label: OxR7
+short_description: O in a 7 membered ring
+long_description: ''
+group: |2
+
+  1 * O2s  u0 {2,S} {7,S}
+  2   R!H u0 {1,S} {3,[S,D,B]}
+  3   R!H u0 {2,[S,D,B]} {4,[S,D,B]}
+  4   R!H u0 {3,[S,D,B]} {5,[S,D,B]}
+  5   R!H u0 {4,[S,D,B]} {6,[S,D,B]}
+  6   R!H u0 {5,[S,D,B]} {7,[S,D,B]}
+  7   R!H u0 {1,S} {6,[S,D,B]}
+children: []
+---
+label: SdOdOdN
+short_description: Platts group 51 sulfonamide -S(O)(O)N- (and fragment 13 for A)
+long_description: ''
+group: |2
+
+  1 * S6dd u0 {2,D} {3,D} {4,S}
+  2   O2d   u0 {1,D}
+  3   O2d   u0 {1,D}
+  4   N    u0 {1,S}
+children: []
+solute:
+  S: -0.569
+  B: -0.446
+  E: -0.111
+  L: 0.0
+  A: 0.356
+---
+label: N3sH2-benz
+short_description: aniline correction for A (fragment 4)
+long_description: ''
+group: |2
+
+  1 * N3s u0 {2,S} {3,S} {4,S}
+  2   H   u0 {1,S}
+  3   H   u0 {1,S}
+  4   Cb  u0 {1,S} {5,B} {9,B}
+  5   Cb  u0 {4,B} {6,B}
+  6   Cb  u0 {5,B} {7,B}
+  7   Cb  u0 {6,B} {8,B}
+  8   Cb  u0 {7,B} {9,B}
+  9   Cb  u0 {4,B} {8,B}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.247
+---
+label: Cd(O2d)NH2
+short_description: primary amide correction for A (fragment 10)
+long_description: ''
+group: |2
+
+  1 * N3s u0 {2,S} {3,S} {4,S}
+  2   H   u0 {1,S}
+  3   H   u0 {1,S}
+  4   CO  u0 {1,S} {5,D}
+  5   O2d  u0 {4,D}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.275
+---
+label: Cd(O2d)NHR
+short_description: secondary amide correction for A (fragment 11)
+long_description: ''
+group: |2
+
+  1 * N3s u0 {2,S} {3,S} {4,S}
+  2   H   u0 {1,S}
+  3   R!H u0 {1,S}
+  4   CO  u0 {1,S} {5,D}
+  5   O2d  u0 {4,D}
+children:
+- Cd(O2d)NH-arom
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.281
+---
+label: Cd(O2d)NH-arom
+short_description: aromatic amide correction for A (fragment 12)
+long_description: ''
+group: |2
+
+  1 * N3s      u0 {2,S} {3,S} {4,S}
+  2   H        u0 {1,S}
+  3   [Cb,N3b] u0 {1,S}
+  4   CO       u0 {1,S} {5,D}
+  5   O2d       u0 {4,D}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.091
+---
+label: N3sHCd(O2d)N3sH
+short_description: urea correction for A (fragment 14)
+long_description: ''
+group: |2
+
+  1 * N3s u0 {2,S} {3,S}
+  2   H   u0 {1,S}
+  3   CO  u0 {1,S} {4,D} {5,S}
+  4   O2d  u0 {3,D}
+  5   N3s u0 {3,S} {6,S}
+  6   H   u0 {5,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.0825
+---
+label: N3sCd(O2d)N3sH
+short_description: urea correction for A (fragment 15)
+long_description: ''
+group: |2
+
+  1 * N3s u0 {2,S} {3,S} {7,S}
+  2   R!H u0 {1,S}
+  3   CO  u0 {1,S} {4,D} {5,S}
+  4   O2d  u0 {3,D}
+  5   N3s u0 {3,S} {6,S}
+  6   H   u0 {5,S}
+  7   R!H u0 {1,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: -0.119
+---
+label: CdsNdNsNs
+short_description: guanidine correction for A (fragment 17)
+long_description: ''
+group: |2
+
+  1 * Cd  u0 {2,D} {3,S} {4,S}
+  2   N3d u0 {1,D} {5,S}
+  3   N3s u0 {1,S} {6,S} {7,S}
+  4   N3s u0 {1,S} {8,S} {9,S}
+  5   H   u0 {2,S}
+  6   H   u0 {3,S}
+  7   H   u0 {3,S}
+  8   H   u0 {4,S}
+  9   H   u0 {4,S}
+children: []
+solute:
+  S: 0.0
+  B: 0.0
+  E: 0.0
+  L: 0.0
+  A: 0.17
