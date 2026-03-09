@@ -2,23 +2,19 @@ label: H + CL <=> HCL
 degeneracy: 1.0
 kinetics:
   type: ThirdBody
+  efficiencies:
+    '[H][H]': 2.0
+    '[Cl][Cl]': 2.0
+    N#N: 2.0
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 2.0e+23
-      - cm^6/(mol^2*s)
-      n: -2.45
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies:
-    '[H][H]': 2
-    '[Cl][Cl]': 2
-    N#N: 2
+    A:
+    - 2.0e+23
+    - cm^6/(mol^2*s)
+    n: -2.45
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: CL + H2 <=> HCL + H
 degeneracy: 1.0
@@ -29,10 +25,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.72
   Ea:
-  - 3060
+  - 3060.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCL + O <=> CL + OH
@@ -40,14 +36,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 590000
+  - 590000.0
   - cm^3/(mol*s)
   n: 2.114
   Ea:
-  - 4024
+  - 4024.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCL + OH <=> CL + H2O
@@ -55,14 +51,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 410000
+  - 410000.0
   - cm^3/(mol*s)
   n: 2.12
   Ea:
-  - -1284
+  - -1284.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + H2O2 <=> HCL + HO2
@@ -72,12 +68,12 @@ kinetics:
   A:
   - 6600000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1950
+  - 1950.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + HO2 <=> HCL + O2
@@ -89,10 +85,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.63
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + HO2 <=> CLO + OH
@@ -102,12 +98,12 @@ kinetics:
   A:
   - 38000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1133
+  - 1133.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + O3 <=> CLO + O2
@@ -117,35 +113,31 @@ kinetics:
   A:
   - 15000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 417
+  - 417.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + CL <=> CL2
 degeneracy: 1.0
 kinetics:
   type: ThirdBody
+  efficiencies:
+    '[H][H]': 2.0
+    '[Cl][Cl]': 6.9
+    N#N: 2.0
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 2.3e+19
-      - cm^6/(mol^2*s)
-      n: -1.5
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies:
-    '[H][H]': 2
-    '[Cl][Cl]': 6.9
-    N#N: 2
+    A:
+    - 2.3e+19
+    - cm^6/(mol^2*s)
+    n: -1.5
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: CL2 + H <=> HCL + CL
 degeneracy: 1.0
@@ -154,12 +146,12 @@ kinetics:
   A:
   - 86000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1172
+  - 1172.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL2 + O <=> CL + CLO
@@ -169,12 +161,12 @@ kinetics:
   A:
   - 4500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 3279
+  - 3279.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL2 + OH <=> HOCL + CL
@@ -186,10 +178,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.35
   Ea:
-  - 1480
+  - 1480.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + OH <=> HOCL
@@ -198,18 +190,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.2e+19
-      - cm^6/(mol^2*s)
-      n: -1.43
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 1.2e+19
+    - cm^6/(mol^2*s)
+    n: -1.43
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: HOCL <=> CLO + H
 degeneracy: 1.0
@@ -220,10 +207,10 @@ kinetics:
   - s^-1
   n: -2.09
   Ea:
-  - 93690
+  - 93690.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOCL + H <=> CLO + H2
@@ -235,10 +222,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.96
   Ea:
-  - 421
+  - 421.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOCL + O <=> CLO + OH
@@ -246,14 +233,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 3300
+  - 3300.0
   - cm^3/(mol*s)
   n: 2.9
   Ea:
-  - 1592
+  - 1592.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOCL + OH <=> CLO + H2O
@@ -265,10 +252,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.61
   Ea:
-  - -2684
+  - -2684.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOCL + HO2 <=> CLO + H2O2
@@ -280,10 +267,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 5.35
   Ea:
-  - 6978
+  - 6978.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOCL + CL <=> HCL + CLO
@@ -295,10 +282,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 4.07
   Ea:
-  - -337
+  - -337.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + H <=> CL + OH
@@ -308,12 +295,12 @@ kinetics:
   A:
   - 38000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + H <=> HCL + O
@@ -323,12 +310,12 @@ kinetics:
   A:
   - 8400000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + O <=> CL + O2
@@ -338,12 +325,12 @@ kinetics:
   A:
   - 15000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -219
+  - -219.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + OH <=> HCL + O2
@@ -351,14 +338,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 350000
+  - 350000.0
   - cm^3/(mol*s)
   n: 1.67
   Ea:
-  - -3827
+  - -3827.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + HO2 <=> HOCL + O2
@@ -367,43 +354,41 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 7800
-      - cm^3/(mol*s)
-      n: 2.37
-      Ea:
-      - 5111
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 7800.0
+    - cm^3/(mol*s)
+    n: 2.37
+    Ea:
+    - 5111.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 840
-      - cm^3/(mol*s)
-      n: 2.26
-      Ea:
-      - -449
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 840.0
+    - cm^3/(mol*s)
+    n: 2.26
+    Ea:
+    - -449.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: CLO + HO2 <=> HCL + O3
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 4600
+  - 4600.0
   - cm^3/(mol*s)
   n: 2.05
   Ea:
-  - 1699
+  - 1699.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + HO2 <=> CLOO + OH
@@ -411,14 +396,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 460000
+  - 460000.0
   - cm^3/(mol*s)
   n: 1.8
   Ea:
-  - 2116
+  - 2116.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + CLO <=> CL2 + O2
@@ -430,10 +415,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.66
   Ea:
-  - 3759
+  - 3759.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLO + CLO <=> CL + CLOO
@@ -445,10 +430,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.77
   Ea:
-  - 4308
+  - 4308.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + O2 <=> CLOO
@@ -457,31 +442,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 100000000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 100000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 0.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 6.0e+28
-      - cm^6/(mol^2*s)
-      n: -5.34
-      Ea:
-      - 1341
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 6.0e+28
+    - cm^6/(mol^2*s)
+    n: -5.34
+    Ea:
+    - 1341.0
+    - cal/mol
 ---
 label: CLOO + H <=> CLO + OH
 degeneracy: 1.0
@@ -490,12 +466,12 @@ kinetics:
   A:
   - 34000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLOO + O <=> CLO + O2
@@ -505,12 +481,12 @@ kinetics:
   A:
   - 1500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1910
+  - 1910.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLOO + OH <=> HOCL + O2
@@ -520,12 +496,12 @@ kinetics:
   A:
   - 2000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLOO + CL <=> CL2 + O2
@@ -535,12 +511,12 @@ kinetics:
   A:
   - 130000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2O + CL <=> HCO + HCL
@@ -550,12 +526,12 @@ kinetics:
   A:
   - 49000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 68
+  - 68.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2O + CLO <=> HCO + HOCL
@@ -567,10 +543,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.79
   Ea:
-  - 5961
+  - 5961.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCO + CL <=> CO + HCL
@@ -580,12 +556,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCO + CL2 <=> CLCHO + CL
@@ -595,12 +571,12 @@ kinetics:
   A:
   - 3800000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 72
+  - 72.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCO + CLO <=> CO + HOCL
@@ -610,12 +586,12 @@ kinetics:
   A:
   - 32000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CO + CLO <=> CL + CO2
@@ -623,14 +599,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 240000
+  - 240000.0
   - cm^3/(mol*s)
   n: 2.02
   Ea:
-  - 10500
+  - 10500.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH4 + CL <=> CH3 + HCL
@@ -638,14 +614,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 340000
+  - 340000.0
   - cm^3/(mol*s)
   n: 2.49
   Ea:
-  - 1210
+  - 1210.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2 + HCL <=> CH3 + CL
@@ -655,44 +631,18 @@ kinetics:
   A:
   - 1700000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 866
+  - 866.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3 + CL <=> CH3CL
 degeneracy: 1.0
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 42000000000000.0
-      - cm^3/(mol*s)
-      n: 0.05
-      Ea:
-      - 37
-      - cal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 8.2e+32
-      - cm^6/(mol^2*s)
-      n: -4.67
-      Ea:
-      - 1680
-      - cal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.379
   T3:
   - 1.0e-30
@@ -700,7 +650,24 @@ kinetics:
   T1:
   - 1.0e+30
   - K
-  efficiencies: {}
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 42000000000000.0
+    - cm^3/(mol*s)
+    n: 0.05
+    Ea:
+    - 37.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 8.2e+32
+    - cm^6/(mol^2*s)
+    n: -4.67
+    Ea:
+    - 1680.0
+    - cal/mol
 ---
 label: CH3CL <=> CH2 + HCL
 degeneracy: 1.0
@@ -711,10 +678,10 @@ kinetics:
   - s^-1
   n: -5.15
   Ea:
-  - 109700
+  - 109700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + H <=> CH3CL
@@ -726,10 +693,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -4.47
   Ea:
-  - 3490
+  - 3490.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + H <=> CH3 + HCL
@@ -741,10 +708,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.73
   Ea:
-  - 7462
+  - 7462.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + H <=> CH2CL + H2
@@ -752,14 +719,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 280000
+  - 280000.0
   - cm^3/(mol*s)
   n: 2.59
   Ea:
-  - 7645
+  - 7645.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + O <=> CH2CL + OH
@@ -771,10 +738,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.31
   Ea:
-  - 11188
+  - 11188.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + OH <=> CH2CL + H2O
@@ -786,10 +753,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.89
   Ea:
-  - 2881
+  - 2881.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + HO2 <=> H2O2 + CH2CL
@@ -799,12 +766,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 21660
+  - 21660.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + O2 <=> HO2 + CH2CL
@@ -814,12 +781,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 54000
+  - 54000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH4 <=> CH3CL + CH3
@@ -831,10 +798,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 5.406
   Ea:
-  - 2466
+  - 2466.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + C2H3 <=> CH2CL + C2H4
@@ -842,14 +809,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 6
+  - 6.0
   - cm^3/(mol*s)
   n: 3.535
   Ea:
-  - 4034
+  - 4034.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + CL <=> HCL + CH2CL
@@ -861,10 +828,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.92
   Ea:
-  - 1580
+  - 1580.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CL2 <=> CH2CL2 + CL
@@ -876,10 +843,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.45
   Ea:
-  - 84
+  - 84.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CL + CLO <=> CH2CL + HOCL
@@ -889,12 +856,12 @@ kinetics:
   A:
   - 300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 10700
+  - 10700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + H <=> CH3 + CL
@@ -906,10 +873,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.22
   Ea:
-  - 310
+  - 310.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + H <=> CH2 + HCL
@@ -917,14 +884,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 95000
+  - 95000.0
   - cm^3/(mol*s)
   n: 1.91
   Ea:
-  - 2600
+  - 2600.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + O <=> CH2O + CL
@@ -936,10 +903,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.13
   Ea:
-  - 710
+  - 710.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + O <=> CH2CLO
@@ -951,10 +918,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -1.98
   Ea:
-  - 1100
+  - 1100.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + OH <=> CH2O + HCL
@@ -966,10 +933,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -2.72
   Ea:
-  - 3860
+  - 3860.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + OH <=> CH3O + CL
@@ -981,10 +948,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.29
   Ea:
-  - 3270
+  - 3270.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + O2 <=> CLCHO + OH
@@ -992,14 +959,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 49
+  - 49.0
   - cm^3/(mol*s)
   n: 2.723
   Ea:
-  - 9430
+  - 9430.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH3 <=> C2H5CL
@@ -1011,10 +978,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -8.49
   Ea:
-  - 10590
+  - 10590.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH3 <=> C2H4 + HCL
@@ -1024,12 +991,12 @@ kinetics:
   A:
   - 24000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -181
+  - -181.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH3 <=> C2H5 + CL
@@ -1041,10 +1008,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -2.07
   Ea:
-  - 10130
+  - 10130.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH2O <=> CH3CL + HCO
@@ -1054,12 +1021,12 @@ kinetics:
   A:
   - 200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6000
+  - 6000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CLO <=> CLCHO + HCL
@@ -1071,10 +1038,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -2.22
   Ea:
-  - 2360
+  - 2360.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL + CH2CL <=> C2H3CL + HCL
@@ -1086,10 +1053,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.85
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLO <=> HCO + HCL
@@ -1099,12 +1066,12 @@ kinetics:
   A:
   - 7700000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 9545
+  - 9545.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLO + O2 <=> CLCHO + HO2
@@ -1114,12 +1081,12 @@ kinetics:
   A:
   - 1200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1856
+  - 1856.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO <=> HCO + CL
@@ -1131,10 +1098,10 @@ kinetics:
   - s^-1
   n: -5.15
   Ea:
-  - 92920
+  - 92920.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO <=> CO + HCL
@@ -1146,10 +1113,10 @@ kinetics:
   - s^-1
   n: -5.19
   Ea:
-  - 92960
+  - 92960.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + H <=> CLCO + H2
@@ -1157,14 +1124,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 990000
+  - 990000.0
   - cm^3/(mol*s)
   n: 2.25
   Ea:
-  - 3861
+  - 3861.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + H <=> HCO + HCL
@@ -1176,10 +1143,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.12
   Ea:
-  - 6905
+  - 6905.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + H <=> CH2O + CL
@@ -1191,10 +1158,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.58
   Ea:
-  - 6360
+  - 6360.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + O <=> CLCO + OH
@@ -1206,10 +1173,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.57
   Ea:
-  - 2760
+  - 2760.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + OH <=> CLCO + H2O
@@ -1219,12 +1186,12 @@ kinetics:
   A:
   - 22000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 2822
+  - 2822.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + O2 <=> CLCO + HO2
@@ -1234,12 +1201,12 @@ kinetics:
   A:
   - 4500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 41800
+  - 41800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + CL <=> CLCO + HCL
@@ -1249,12 +1216,12 @@ kinetics:
   A:
   - 72000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1620
+  - 1620.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + CLO <=> CLCO + HOCL
@@ -1264,12 +1231,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 500
+  - 500.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + CH3 <=> CLCO + CH4
@@ -1279,12 +1246,12 @@ kinetics:
   A:
   - 25000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6000
+  - 6000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCHO + CH3 <=> HCO + CH3CL
@@ -1294,12 +1261,12 @@ kinetics:
   A:
   - 15000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 8800
+  - 8800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CL + CO <=> CLCO
@@ -1308,18 +1275,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.2e+24
-      - cm^6/(mol^2*s)
-      n: -3.8
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 1.2e+24
+    - cm^6/(mol^2*s)
+    n: -3.8
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: CLCO + H <=> CO + HCL
 degeneracy: 1.0
@@ -1328,12 +1290,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCO + O <=> CO + CLO
@@ -1343,12 +1305,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCO + O <=> CO2 + CL
@@ -1358,12 +1320,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCO + OH <=> CO + HOCL
@@ -1373,12 +1335,12 @@ kinetics:
   A:
   - 3300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCO + O2 <=> CO2 + CLO
@@ -1388,12 +1350,12 @@ kinetics:
   A:
   - 79000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 3300
+  - 3300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCO + CL <=> CO + CL2
@@ -1403,12 +1365,12 @@ kinetics:
   A:
   - 66000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1400
+  - 1400.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H6 + CL <=> C2H5 + HCL
@@ -1420,10 +1382,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.7
   Ea:
-  - -233
+  - -233.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5 + CL <=> C2H4 + HCL
@@ -1433,12 +1395,12 @@ kinetics:
   A:
   - 180000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3 + HCL <=> C2H4 + CL
@@ -1448,12 +1410,12 @@ kinetics:
   A:
   - 400000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -670
+  - -670.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHO + CL <=> CH3CO + HCL
@@ -1463,12 +1425,12 @@ kinetics:
   A:
   - 50000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CO + CL <=> CH2CO + HCL
@@ -1478,12 +1440,12 @@ kinetics:
   A:
   - 110000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 <=> CH2CL + CL
@@ -1492,31 +1454,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 1.3e+16
-      - s^-1
-      n: 0
-      Ea:
-      - 77500
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.3e+16
+    - s^-1
+    n: 0.0
+    Ea:
+    - 77500.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 4000000000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 56400
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 4000000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 56400.0
+    - cal/mol
 ---
 label: CH2CL2 + H <=> CH2CL + HCL
 degeneracy: 1.0
@@ -1527,10 +1480,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.79
   Ea:
-  - 5884
+  - 5884.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + H <=> CHCL2 + H2
@@ -1538,14 +1491,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 92000
+  - 92000.0
   - cm^3/(mol*s)
   n: 2.66
   Ea:
-  - 6091
+  - 6091.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + O <=> CHCL2 + OH
@@ -1557,10 +1510,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.99
   Ea:
-  - 5683
+  - 5683.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + OH <=> CHCL2 + H2O
@@ -1572,10 +1525,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.66
   Ea:
-  - 1033
+  - 1033.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + HO2 <=> CHCL2 + H2O2
@@ -1585,12 +1538,12 @@ kinetics:
   A:
   - 6700000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 18270
+  - 18270.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + O2 <=> CHCL2 + HO2
@@ -1600,12 +1553,12 @@ kinetics:
   A:
   - 14000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 49800
+  - 49800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + CL <=> CHCL2 + HCL
@@ -1617,10 +1570,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.58
   Ea:
-  - 715
+  - 715.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + CH3 <=> CH3CL + CH2CL
@@ -1630,12 +1583,12 @@ kinetics:
   A:
   - 140000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 4900
+  - 4900.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CL2 + CH3 <=> CHCL2 + CH4
@@ -1645,12 +1598,12 @@ kinetics:
   A:
   - 68000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 7200
+  - 7200.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CHCL2 + H <=> CH2CL + CL
@@ -1662,10 +1615,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.03
   Ea:
-  - 570
+  - 570.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CHCL2 + H <=> CH2CL2
@@ -1677,10 +1630,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -4.82
   Ea:
-  - 3810
+  - 3810.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CHCL2 + O <=> CO + HCL + CL
@@ -1690,12 +1643,12 @@ kinetics:
   A:
   - 77000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 407
+  - 407.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CHCL2 + CH3 <=> C2H3CL + HCL
@@ -1705,12 +1658,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -713
+  - -713.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL <=> C2H3CL + HCL
@@ -1720,12 +1673,12 @@ kinetics:
   A:
   - 42000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 56300
+  - 56300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL <=> CH2CLCH2 + CL
@@ -1735,12 +1688,12 @@ kinetics:
   A:
   - 6200000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 78000
+  - 78000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + H <=> CH2CLCH2 + HCL
@@ -1750,12 +1703,12 @@ kinetics:
   A:
   - 87000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 8525
+  - 8525.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + O <=> CLCH2CHCL + OH
@@ -1765,12 +1718,12 @@ kinetics:
   A:
   - 5000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 4968
+  - 4968.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + OH <=> CLCH2CHCL + H2O
@@ -1780,12 +1733,12 @@ kinetics:
   A:
   - 8200000000.0
   - cm^3/(mol*s)
-  n: 1
+  n: 1.0
   Ea:
-  - 1639
+  - 1639.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + O2 <=> CLCH2CHCL + HO2
@@ -1795,12 +1748,12 @@ kinetics:
   A:
   - 6800000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 45026
+  - 45026.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + CL <=> CLCH2CHCL + HCL
@@ -1810,12 +1763,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 2166
+  - 2166.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CLCH2CL + CH3 <=> CLCH2CHCL + CH4
@@ -1823,14 +1776,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 20000
+  - 20000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 8520
+  - 8520.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CLCH2CHCL <=> C2H3CL + CL
@@ -1840,12 +1793,12 @@ kinetics:
   A:
   - 65000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 19800
+  - 19800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL <=> C2H4 + HCL
@@ -1857,10 +1810,10 @@ kinetics:
   - s^-1
   n: 1.05
   Ea:
-  - 57700
+  - 57700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + H <=> C2H5 + HCL
@@ -1872,10 +1825,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.46
   Ea:
-  - 8110
+  - 8110.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + H <=> CH3CHCL + H2
@@ -1883,14 +1836,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 660000
+  - 660000.0
   - cm^3/(mol*s)
   n: 2.38
   Ea:
-  - 5410
+  - 5410.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + H <=> CH2CLCH2 + H2
@@ -1898,14 +1851,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13000
+  - 13000.0
   - cm^3/(mol*s)
   n: 2.9
   Ea:
-  - 6900
+  - 6900.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + O <=> CH3CHCL + OH
@@ -1915,12 +1868,12 @@ kinetics:
   A:
   - 36000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6617
+  - 6617.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + O <=> CH2CLCH2 + OH
@@ -1930,12 +1883,12 @@ kinetics:
   A:
   - 12000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6617
+  - 6617.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + OH <=> CH3CHCL + H2O
@@ -1943,14 +1896,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 52000
+  - 52000.0
   - cm^3/(mol*s)
   n: 2.6
   Ea:
-  - -219
+  - -219.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + OH <=> CH2CLCH2 + H2O
@@ -1958,14 +1911,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 17000
+  - 17000.0
   - cm^3/(mol*s)
   n: 2.6
   Ea:
-  - -219
+  - -219.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + CL <=> CH3CHCL + HCL
@@ -1975,12 +1928,12 @@ kinetics:
   A:
   - 17000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 904
+  - 904.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5CL + CL <=> CH2CLCH2 + HCL
@@ -1990,12 +1943,12 @@ kinetics:
   A:
   - 12000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 1568
+  - 1568.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + H <=> CH3CHCL
@@ -2007,10 +1960,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.86
   Ea:
-  - 149
+  - 149.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHCL + H <=> C2H3CL + H2
@@ -2020,12 +1973,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHCL + O <=> C2H3CL + OH
@@ -2035,12 +1988,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHCL + OH <=> C2H3CL + H2O
@@ -2050,12 +2003,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHCL + CL <=> C2H3CL + HCL
@@ -2065,12 +2018,12 @@ kinetics:
   A:
   - 7000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H4 + CL <=> CH2CLCH2
@@ -2082,10 +2035,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.31
   Ea:
-  - -1029
+  - -1029.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + H <=> CH2CLCH2
@@ -2095,12 +2048,12 @@ kinetics:
   A:
   - 15000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 5800
+  - 5800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL <=> C2H2 + HCL
@@ -2109,31 +2062,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 100000000000000.0
-      - s^-1
-      n: 0
-      Ea:
-      - 69400
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 100000000000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 69400.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 5.3e+16
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 48700
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 5.3e+16
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 48700.0
+    - cal/mol
 ---
 label: C2H3CL <=> C2H3 + CL
 degeneracy: 1.0
@@ -2144,10 +2088,10 @@ kinetics:
   - s^-1
   n: -7.13
   Ea:
-  - 96370
+  - 96370.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + H <=> C2H3 + HCL
@@ -2157,12 +2101,12 @@ kinetics:
   A:
   - 1200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 15000
+  - 15000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + H <=> C2H4 + CL
@@ -2174,10 +2118,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -0.02
   Ea:
-  - 5840
+  - 5840.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + O <=> CHCLCH + OH
@@ -2189,10 +2133,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.87
   Ea:
-  - 874
+  - 874.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + OH <=> CHCLCH + H2O
@@ -2202,12 +2146,12 @@ kinetics:
   A:
   - 35000000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 6300
+  - 6300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3CL + CL <=> CHCLCH + HCL
@@ -2217,12 +2161,12 @@ kinetics:
   A:
   - 120000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 13300
+  - 13300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2 + CL <=> CHCLCH
@@ -2231,31 +2175,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 4.8e+16
-      - cm^3/(mol*s)
-      n: -1.04
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 4.8e+16
+    - cm^3/(mol*s)
+    n: -1.04
+    Ea:
+    - 0.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 2.9e+23
-      - cm^6/(mol^2*s)
-      n: -2.09
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  efficiencies: {}
+    A:
+    - 2.9e+23
+    - cm^6/(mol^2*s)
+    n: -2.09
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: CHCLCH + O2 <=> CH2O + CLCO
 degeneracy: 1.0
@@ -2264,10 +2199,10 @@ kinetics:
   A:
   - 3000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -330
+  - -330.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K

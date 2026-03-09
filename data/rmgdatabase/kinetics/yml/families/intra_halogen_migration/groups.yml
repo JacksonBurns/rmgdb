@@ -1,0 +1,1672 @@
+label: Root
+group: |2
+
+  1 *2 R!H             u0 {2,S}
+  2 *3 [F1s,Cl1s,Br1s] u0 {1,S}
+  3 *1 R!H             u1
+short_description: ''
+long_description: ''
+children:
+- Root_3R->H
+- Root_N-3R->H
+- Root_1Br1sCl1sF1sH->Cl1s
+- Root_N-1Br1sCl1sF1sH->Cl1s
+- Root_4R!H->C
+- Root_N-4R!H->C
+- F
+- Cl
+- Br
+- Root_1R->H
+- Root_N-1R->H
+- Root_Ext-1R!H-R
+- Root_Ext-2R!H-R
+- Root_4R->H
+- Root_N-4R->H
+- Backbone0
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Backbone6
+- Root_Ext-2R-R
+- Root_2R->C
+- Root_N-2R->C
+- Root_1R!H->N
+- Root_N-1R!H->N
+- Root_Sp-3R!H-2R!H
+- Root_N-Sp-3R!H-2R!H
+- Root_Ext-2R!H-R
+- Root_1R!H-inRing
+- Root_N-1R!H-inRing
+- Root_1R->O
+- Root_N-1R->O
+- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
+- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone6
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Root_5R-inRing
+- Root_N-5R-inRing
+- Root_4CHNOS->H
+- Root_N-4CHNOS->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-1CbCbf-R
+- Root_5Ct-inRing
+- Root_N-5Ct-inRing
+- Root_4R->F
+- Root_N-4R->F
+- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_4R->N
+- Root_N-4R->N
+- Root_5CbCdCsHN->Cs
+- Root_N-5CbCdCsHN->Cs
+- Root_1COCSCdCdd->Cd
+- Root_N-1COCSCdCdd->Cd
+- Root_Ext-5R-R
+- Root_Ext-3R-R
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-3R-R
+- Root_3R->F
+- Root_N-3R->F
+- Root_3R!H->C
+- Root_N-3R!H->C
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_2ClFH->H
+- Root_N-2ClFH->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_2ClF->F
+- Root_N-2ClF->F
+- Root_4R!H->C
+- Root_N-4R!H->C
+- Root_1R->H
+- Root_N-1R->H
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_6R->C
+- Root_N-6R->C
+---
+label: F
+group: |2
+
+  1 *2 R!H u0 {2,S}
+  2 *3 F1s u0 {1,S}
+  3 *1 R!H u1
+short_description: ''
+long_description: ''
+children:
+- R2F
+- R3F
+- R4F
+- R5nF
+---
+label: R2F
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S}
+  2 *1 C   u1 {1,[S,D,T,B]}
+  3 *3 F1s u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- R2F_Ext-1R!H-R
+- R2F_Ext-2R!H-R
+---
+label: R2F_Ext-1R!H-R
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]}
+  3 *3 F1s u0 {1,S}
+  4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- R2F_Ext-1R!H-R_4R!H->C
+- R2F_Ext-1R!H-R_N-4R!H->C
+---
+label: R2F_Ext-1R!H-R_4R!H->C
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]}
+  3 *3 F1s u0 {1,S}
+  4    C   u0 r0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2F_Ext-1R!H-R_N-4R!H->C
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]}
+  3 *3 F1s u0 {1,S}
+  4    F   u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R
+---
+label: R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]} {5,S}
+  3 *3 F1s u0 {1,S}
+  4    F   u0 {1,S}
+  5    R!H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_5R!H->C
+- R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_N-5R!H->C
+---
+label: R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_5R!H->C
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]} {5,S}
+  3 *3 F1s u0 {1,S}
+  4    F   u0 r0 {1,S}
+  5    C   u0 r0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2F_Ext-1R!H-R_N-4R!H->C_Ext-2R!H-R_N-5R!H->C
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S} {4,S}
+  2 *1 C   u1 {1,[S,D,T,B]} {5,S}
+  3 *3 F1s u0 {1,S}
+  4    F   u0 r0 {1,S}
+  5    F   u0 r0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2F_Ext-2R!H-R
+group: |2
+
+  1 *2 C   u0 {2,[S,D,T,B]} {3,S}
+  2 *1 C   u1 {1,[S,D,T,B]} {4,[S,D,T,B,Q]}
+  3 *3 F1s u0 {1,S}
+  4    R!H ux {2,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R3F
+group: |2
+
+  1    R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2 *2 R!H u0 {1,[S,D,T,B]} {4,S}
+  3 *1 R!H u1 {1,[S,D,T,B]}
+  4 *3 F1s u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R4F
+group: |2
+
+  1    C   ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    C   ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 C   u0 {1,[S,D,T,B]} {5,S}
+  4 *1 C   u1 {2,[S,D,T,B]}
+  5 *3 F1s u0 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R4F_Ext-3R!H-R
+- R4F_Ext-4R!H-R
+---
+label: R4F_Ext-3R!H-R
+group: |2
+
+  1    C   u0 r0 {2,S} {3,S}
+  2    C   u0 r0 {1,S} {4,S}
+  3 *2 C   u0 r0 {1,S} {5,S} {6,[S,D,T,B,Q]}
+  4 *1 C   u1 r0 {2,S}
+  5 *3 F1s u0 r0 {3,S}
+  6    R!H ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R4F_Ext-4R!H-R
+group: |2
+
+  1    C   ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    C   ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 C   u0 {1,[S,D,T,B]} {5,S}
+  4 *1 C   u1 {2,[S,D,T,B]} {6,[S,D,T,B,Q]}
+  5 *3 F1s u0 {3,S}
+  6    R!H ux {4,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R5nF
+group: |2
+
+  1    R!H ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    R!H ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 R!H u0 {1,[S,D,T,B]} {5,S}
+  4    R!H ux {2,[S,D,T,B]}
+  5 *3 F1s u0 {3,S}
+  6 *1 R!H u1
+short_description: ''
+long_description: ''
+children: []
+---
+label: Cl
+group: |2
+
+  1 *2 R!H  u0 {2,S}
+  2 *3 Cl1s u0 {1,S}
+  3 *1 R!H  u1
+short_description: ''
+long_description: ''
+children:
+- R2Cl
+- R3Cl
+- R4Cl
+- R5nCl
+---
+label: R2Cl
+group: |2
+
+  1 *2 R!H  u0 {2,[S,D,T,B]} {3,S}
+  2 *1 R!H  u1 {1,[S,D,T,B]}
+  3 *3 Cl1s u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R3Cl
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2 *2 R!H  u0 {1,[S,D,T,B]} {4,S}
+  3 *1 R!H  u1 {1,[S,D,T,B]}
+  4 *3 Cl1s u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R4Cl
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 R!H  u0 {1,[S,D,T,B]} {5,S}
+  4 *1 R!H  u1 {2,[S,D,T,B]}
+  5 *3 Cl1s u0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R5nCl
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 R!H  u0 {1,[S,D,T,B]} {5,S}
+  4    R!H  ux {2,[S,D,T,B]}
+  5 *3 Cl1s u0 {3,S}
+  6 *1 R!H  u1
+short_description: ''
+long_description: ''
+children: []
+---
+label: Br
+group: |2
+
+  1 *2 R!H  u0 {2,S}
+  2 *3 Br1s u0 {1,S}
+  3 *1 R!H  u1
+short_description: ''
+long_description: ''
+children:
+- R3Br
+- R4Br
+- R5nBr
+---
+label: R3Br
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2 *2 R!H  u0 {1,[S,D,T,B]} {4,S}
+  3 *1 R!H  u1 {1,[S,D,T,B]}
+  4 *3 Br1s u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R4Br
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 R!H  u0 {1,[S,D,T,B]} {5,S}
+  4 *1 R!H  u1 {2,[S,D,T,B]}
+  5 *3 Br1s u0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R5nBr
+group: |2
+
+  1    R!H  ux {2,[S,D,T,B]} {3,[S,D,T,B]}
+  2    R!H  ux {1,[S,D,T,B]} {4,[S,D,T,B]}
+  3 *2 R!H  u0 {1,[S,D,T,B]} {5,S}
+  4    R!H  ux {2,[S,D,T,B]}
+  5 *3 Br1s u0 {3,S}
+  6 *1 R!H  u1
+short_description: ''
+long_description: ''
+children: []
+---
+label: H_mig_7_membered_ring_3_4
+group: |2
+
+  1    R!H             u0 {2,S} {7,S}
+  2    R!H             u0 {1,S} {3,S}
+  3 *2 R!H             u0 {2,S} {4,S} {9,S}
+  4    R!H             u0 {3,S} {5,S}
+  5    R!H             u0 {4,S} {6,S}
+  6    R!H             u0 {5,S} {7,S}
+  7    R!H             u0 {1,S} {6,S} {8,S}
+  8 *1 R!H             u1 {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1
+group: |2
+
+  1 *1 R!H             u1 {2,[S,D,T]}
+  2    Cb              u0 {1,[S,D,T]} {3,B} {4,B}
+  3    Cb              u0 {2,B} {6,B}
+  4    Cb              u0 {2,B} {7,B}
+  5    Cb              u0 {6,B} {7,B}
+  6    Cb              u0 {3,B} {5,B}
+  7 *2 Cb              u0 {4,B} {5,B} {8,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {7,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2
+group: |2
+
+  1    C               u0 {3,S} {4,D} {7,[S,D,T]}
+  2 *2 C               u0 {3,D} {5,S} {8,S}
+  3    C               u0 {1,S} {2,D}
+  4    C               u0 {1,D} {6,S}
+  5    C               u0 {2,S} {6,D}
+  6    C               u0 {4,S} {5,D}
+  7 *1 R!H             u1 {1,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3
+group: |2
+
+  1    C               u0 {3,D} {4,S} {7,[S,D,T]}
+  2 *2 C               u0 {3,S} {5,D} {8,S}
+  3    C               u0 {1,D} {2,S}
+  4    C               u0 {1,S} {6,D}
+  5    C               u0 {2,D} {6,S}
+  6    C               u0 {4,D} {5,S}
+  7 *1 R!H             u1 {1,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1
+group: |2
+
+  1    R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
+  2    Cb              u0 {1,[S,D,T]} {4,B} {5,B}
+  3 *1 R!H             u1 {1,[S,D,T]}
+  4    Cb              u0 {2,B} {7,B}
+  5    Cb              u0 {2,B} {8,B}
+  6    Cb              u0 {7,B} {8,B}
+  7 *2 Cb              u0 {4,B} {6,B} {9,S}
+  8    Cb              u0 {5,B} {6,B}
+  9 *3 [F1s,Cl1s,Br1s] u0 {7,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2
+group: |2
+
+  1    C               u0 {3,D} {4,S} {7,[S,D,T]}
+  2 *2 C               u0 {3,S} {5,D} {8,S}
+  3    C               u0 {1,D} {2,S}
+  4    C               u0 {1,S} {6,D}
+  5    C               u0 {2,D} {6,S}
+  6    C               u0 {4,D} {5,S}
+  7    R!H             u0 {1,[S,D,T]} {9,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  9 *1 R!H             u1 {7,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3
+group: |2
+
+  1    C               u0 {3,S} {4,D} {7,[S,D,T]}
+  2 *2 C               u0 {3,D} {5,S} {8,S}
+  3    C               u0 {1,S} {2,D}
+  4    C               u0 {1,D} {6,S}
+  5    C               u0 {2,S} {6,D}
+  6    C               u0 {4,S} {5,D}
+  7    R!H             u0 {1,[S,D,T]} {9,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  9 *1 R!H             u1 {7,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1
+group: |2
+
+  1     R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
+  2     Cb              u0 {1,[S,D,T]} {4,B} {5,B}
+  3     R!H             u0 {1,[S,D,T]} {10,[S,D,T]}
+  4     Cb              u0 {2,B} {7,B}
+  5     Cb              u0 {2,B} {8,B}
+  6     Cb              u0 {7,B} {8,B}
+  7  *2 Cb              u0 {4,B} {6,B} {9,S}
+  8     Cb              u0 {5,B} {6,B}
+  9  *3 [F1s,Cl1s,Br1s] u0 {7,S}
+  10 *1 R!H             u1 {3,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2
+group: |2
+
+  1     C               u0 {3,S} {4,D} {5,[S,D,T]}
+  2  *2 C               u0 {3,D} {6,S} {9,S}
+  3     C               u0 {1,S} {2,D}
+  4     C               u0 {1,D} {7,S}
+  5     R!H             u0 {1,[S,D,T]} {8,[S,D,T]}
+  6     C               u0 {2,S} {7,D}
+  7     C               u0 {4,S} {6,D}
+  8     R!H             u0 {5,[S,D,T]} {10,[S,D,T]}
+  9  *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  10 *1 R!H             u1 {8,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_m_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3
+group: |2
+
+  1     C               u0 {3,D} {4,S} {5,[S,D,T]}
+  2  *2 C               u0 {3,S} {6,D} {9,S}
+  3     C               u0 {1,D} {2,S}
+  4     C               u0 {1,S} {7,D}
+  5     R!H             u0 {1,[S,D,T]} {8,[S,D,T]}
+  6     C               u0 {2,D} {7,S}
+  7     C               u0 {4,D} {6,S}
+  8     R!H             u0 {5,[S,D,T]} {10,[S,D,T]}
+  9  *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  10 *1 R!H             u1 {8,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the meta-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: H_mig_from_p_position_of_cyc6_sidegroup_to_1_position_of_double_bonded_sidechain_dir_1
+group: |2
+
+  1    R!H             u0 {3,[S,D,T,B]} {4,[S,D,T,B]} {7,D}
+  2 *2 R!H             u0 {5,[S,D,T,B]} {6,[S,D,T,B]} {8,S}
+  3    R!H             u0 {1,[S,D,T,B]} {5,[S,D,T,B]}
+  4    R!H             u0 {1,[S,D,T,B]} {6,[S,D,T,B]}
+  5    R!H             u0 {2,[S,D,T,B]} {3,[S,D,T,B]}
+  6    R!H             u0 {2,[S,D,T,B]} {4,[S,D,T,B]}
+  7 *1 R!H             u1 {1,D}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical double-bonded to a 6-membered ring from abstracting an H the para position
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res1
+group: |2
+
+  1 *1 R!H             u1 {2,[S,D,T]}
+  2    Cb              u0 {1,[S,D,T]} {3,B} {4,B}
+  3    Cb              u0 {2,B} {6,B}
+  4    Cb              u0 {2,B} {7,B}
+  5 *2 Cb              u0 {6,B} {7,B} {8,S}
+  6    Cb              u0 {3,B} {5,B}
+  7    Cb              u0 {4,B} {5,B}
+  8 *3 [F1s,Cl1s,Br1s] u0 {5,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res2
+group: |2
+
+  1    C               u0 {3,D} {4,S} {7,[S,D,T]}
+  2 *2 C               u0 {5,D} {6,S} {8,S}
+  3    C               u0 {1,D} {5,S}
+  4    C               u0 {1,S} {6,D}
+  5    C               u0 {2,D} {3,S}
+  6    C               u0 {2,S} {4,D}
+  7 *1 R!H             u1 {1,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_1_position_of_sidechain_res3
+group: |2
+
+  1    C               u0 {3,S} {4,D} {7,[S,D,T]}
+  2 *2 C               u0 {5,S} {6,D} {8,S}
+  3    C               u0 {1,S} {5,D}
+  4    C               u0 {1,D} {6,S}
+  5    C               u0 {2,S} {3,D}
+  6    C               u0 {2,D} {4,S}
+  7 *1 R!H             u1 {1,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 1 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res1
+group: |2
+
+  1    R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
+  2    Cb              u0 {1,[S,D,T]} {4,B} {5,B}
+  3 *1 R!H             u1 {1,[S,D,T]}
+  4    Cb              u0 {2,B} {7,B}
+  5    Cb              u0 {2,B} {8,B}
+  6 *2 Cb              u0 {7,B} {8,B} {9,S}
+  7    Cb              u0 {4,B} {6,B}
+  8    Cb              u0 {5,B} {6,B}
+  9 *3 [F1s,Cl1s,Br1s] u0 {6,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res2
+group: |2
+
+  1    C               u0 {3,D} {4,S} {7,[S,D,T]}
+  2 *2 C               u0 {5,D} {6,S} {8,S}
+  3    C               u0 {1,D} {5,S}
+  4    C               u0 {1,S} {6,D}
+  5    C               u0 {2,D} {3,S}
+  6    C               u0 {2,S} {4,D}
+  7    R!H             u0 {1,[S,D,T]} {9,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  9 *1 R!H             u1 {7,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_2_position_of_sidechain_res3
+group: |2
+
+  1    C               u0 {3,S} {4,D} {7,[S,D,T]}
+  2 *2 C               u0 {5,S} {6,D} {8,S}
+  3    C               u0 {1,S} {5,D}
+  4    C               u0 {1,D} {6,S}
+  5    C               u0 {2,S} {3,D}
+  6    C               u0 {2,D} {4,S}
+  7    R!H             u0 {1,[S,D,T]} {9,[S,D,T]}
+  8 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  9 *1 R!H             u1 {7,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res1
+group: |2
+
+  1     R!H             u0 {2,[S,D,T]} {3,[S,D,T]}
+  2     Cb              u0 {1,[S,D,T]} {4,B} {5,B}
+  3     R!H             u0 {1,[S,D,T]} {10,[S,D,T]}
+  4     Cb              u0 {2,B} {7,B}
+  5     Cb              u0 {2,B} {8,B}
+  6  *2 Cb              u0 {7,B} {8,B} {9,S}
+  7     Cb              u0 {4,B} {6,B}
+  8     Cb              u0 {5,B} {6,B}
+  9  *3 [F1s,Cl1s,Br1s] u0 {6,S}
+  10 *1 R!H             u1 {3,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 1.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res2
+group: |2
+
+  1     C               u0 {3,S} {4,D} {7,[S,D,T]}
+  2  *2 C               u0 {5,S} {6,D} {9,S}
+  3     C               u0 {1,S} {5,D}
+  4     C               u0 {1,D} {6,S}
+  5     C               u0 {2,S} {3,D}
+  6     C               u0 {2,D} {4,S}
+  7     R!H             u0 {1,[S,D,T]} {8,[S,D,T]}
+  8     R!H             u0 {7,[S,D,T]} {10,[S,D,T]}
+  9  *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  10 *1 R!H             u1 {8,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 2.
+---
+label: H_mig_from_p_position_of_phenyl_sidegroup_to_3_position_of_sidechain_res3
+group: |2
+
+  1     C               u0 {3,D} {4,S} {7,[S,D,T]}
+  2  *2 C               u0 {5,D} {6,S} {9,S}
+  3     C               u0 {1,D} {5,S}
+  4     C               u0 {1,S} {6,D}
+  5     C               u0 {2,D} {3,S}
+  6     C               u0 {2,S} {4,D}
+  7     R!H             u0 {1,[S,D,T]} {8,[S,D,T]}
+  8     R!H             u0 {7,[S,D,T]} {10,[S,D,T]}
+  9  *3 [F1s,Cl1s,Br1s] u0 {2,S}
+  10 *1 R!H             u1 {8,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid a radical 2 atoms away from a phenyl side group from abstracting an H from the para-position
+  because the TS would be far too strained. Resonance form 3.
+---
+label: '[CH2]C1=CC(C)CC=C1_1'
+group: |2
+
+  1    C               u0 {2,S} {3,S} {8,S}
+  2 *2 C               u0 {1,S} {9,S}
+  3    C               u0 {1,S} {4,S}
+  4    C               u0 {3,S} {5,D}
+  5    C               u0 {4,D} {6,S}
+  6    C               u0 {5,S} {7,S} {8,D}
+  7 *1 C               u1 {6,S}
+  8    C               u0 {1,S} {6,D}
+  9 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: '[CH2]C1=CC(C)CC=C1_2'
+group: |2
+
+  1    C               u0 {2,S} {3,S} {8,S}
+  2    C               u0 {1,S}
+  3 *2 C               u0 {1,S} {4,S} {9,S}
+  4    C               u0 {3,S} {5,D}
+  5    C               u0 {4,D} {6,S}
+  6    C               u0 {5,S} {7,S} {8,D}
+  7 *1 C               u1 {6,S}
+  8    C               u0 {1,S} {6,D}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: '[CH2]C1=CC(C)CC=C1_3'
+group: |2
+
+  1    C               u0 {2,S} {3,S} {8,S}
+  2    C               u0 {1,S}
+  3 *2 C               u0 {1,S} {4,S} {9,S}
+  4    C               u0 {3,S} {5,D}
+  5    C               u0 {4,D} {6,S}
+  6    C               u0 {5,S} {7,S} {8,D}
+  7 *1 C               u1 {6,S}
+  8    C               u0 {1,S} {6,D}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: aromatic_ring_1_3_res1
+group: |2
+
+  1 *2 C               u0 p0 c0 {2,[D,B]} {6,[S,B]} {7,S}
+  2    C               u0 p0 c0 {1,[D,B]} {3,[S,B]}
+  3 *1 C               u1 p0 c0 {2,[S,B]} {4,[D,B]}
+  4    C               u0 p0 c0 {3,[D,B]} {5,[S,B]}
+  5    C               u0 p0 c0 {4,[S,B]} {6,[D,B]}
+  6    C               u0 p0 c0 {1,[S,B]} {5,[D,B]}
+  7 *3 [F1s,Cl1s,Br1s] u0 p0 c0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
+---
+label: aromatic_ring_1_3_res2
+group: |2
+
+  1 *2 C               u0 p0 c0 {2,S} {6,D} {7,S}
+  2    C               u0 p0 c0 {1,S} {3,D}
+  3 *1 C               u1 p0 c0 {2,D} {4,S}
+  4    C               u0 p0 c0 {3,S} {5,D}
+  5    C               u0 p0 c0 {4,D} {6,S}
+  6    C               u0 p0 c0 {1,D} {5,S}
+  7 *3 [F1s,Cl1s,Br1s] u0 p0 c0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbid H migration from ortho position on an aromatic ring to the para position or vice versa
+---
+label: bridged56_1243
+group: |2
+
+  1    C               u0 {3,S} {4,S} {6,S}
+  2    C               u0 {4,S} {5,S} {7,S}
+  3 *2 C               u0 {1,S} {5,S} {8,S}
+  4    C               u0 {1,S} {2,S}
+  5    C               u0 {2,S} {3,S}
+  6 *1 C               u1 {1,S} {7,S}
+  7    C               u0 {2,S} {6,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_1254
+group: |2
+
+  1    C               u0 {3,S} {4,S} {6,S}
+  2    C               u0 {4,S} {5,S} {7,S}
+  3 *2 C               u0 {1,S} {5,S} {8,S}
+  4    C               u0 {1,S} {2,S}
+  5    C               u0 {2,S} {3,S}
+  6    C               u0 {1,S} {7,S}
+  7 *1 C               u1 {2,S} {6,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_1257
+group: |2
+
+  1    C               u0 {3,S} {4,S} {5,S}
+  2    C               u0 {3,S} {6,S} {7,S}
+  3 *2 C               u0 {1,S} {2,S} {8,S}
+  4 *1 C               u1 {1,S} {7,S}
+  5    C               u0 {1,S} {6,S}
+  6    C               u0 {2,S} {5,S}
+  7    C               u0 {2,S} {4,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_1623
+group: |2
+
+  1    C               u0 {3,S} {4,S} {6,S}
+  2    C               u0 {4,S} {5,S} {7,S}
+  3 *2 C               u0 {1,S} {5,S} {8,S}
+  4    C               u0 {1,S} {2,S}
+  5    C               u0 {2,S} {3,S}
+  6 *1 C               u1 {1,S} {7,S}
+  7    C               u0 {2,S} {6,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_1627
+group: |2
+
+  1    C               u0 {3,S} {4,S} {5,S}
+  2    C               u0 {3,S} {6,S} {7,S}
+  3 *2 C               u0 {1,S} {2,S} {8,S}
+  4 *1 C               u1 {1,S} {7,S}
+  5    C               u0 {1,S} {6,S}
+  6    C               u0 {2,S} {5,S}
+  7    C               u0 {2,S} {4,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_1634
+group: |2
+
+  1    C               u0 {3,S} {4,S} {6,S}
+  2    C               u0 {4,S} {5,S} {7,S}
+  3 *2 C               u0 {1,S} {5,S} {8,S}
+  4    C               u0 {1,S} {2,S}
+  5    C               u0 {2,S} {3,S}
+  6    C               u0 {1,S} {7,S}
+  7 *1 C               u1 {2,S} {6,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: bridged56_7521
+group: |2
+
+  1    C               u0 {3,S} {4,S} {6,S}
+  2    C               u0 {4,S} {5,S} {7,S}
+  3 *2 C               u0 {1,S} {5,S} {8,S}
+  4 *1 C               u1 {1,S} {2,S}
+  5    C               u0 {2,S} {3,S}
+  6    C               u0 {1,S} {7,S}
+  7    C               u0 {2,S} {6,S}
+  8 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fulvene_H_mig_ring_edge_to_tail
+group: |2
+
+  1    C               u0 {3,D} {4,S} {6,S}
+  2 *2 C               u0 {3,S} {5,S} {7,S}
+  3    C               u0 {1,D} {2,S}
+  4    C               u0 {1,S} {5,D}
+  5    C               u0 {2,S} {4,D}
+  6 *1 C               u1 {1,S}
+  7 *3 [F1s,Cl1s,Br1s] u0 {2,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Prevents the fulvene + H radical with radical site on the tail from abstracting an H
+  from the far edge of the ring
+---
+label: fulvene_H_mig_tail_to_ring_edge
+group: |2
+
+  1 *2 C               u1 {2,S} {7,S}
+  2    C               u0 {1,S} {3,D} {4,S}
+  3    C               u0 {2,D} {5,S}
+  4    C               u0 {2,S} {6,D}
+  5 *1 C               u0 {3,S} {6,S}
+  6    C               u0 {4,D} {5,S}
+  7 *3 [F1s,Cl1s,Br1s] u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Prevents the fulvene + H radical with radical site on the ring-edge from abstracting an H
+  from the end of the tail
+---
+label: fused55_212
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4 *1 C               u1 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6    C               u0 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2123
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7 *1 C               u1 {2,S} {8,S}
+  8    C               u0 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2132
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4 *1 C               u1 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6    C               u0 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2134
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4    C               u0 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6 *1 C               u1 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2143
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7 *1 C               u1 {2,S} {8,S}
+  8    C               u0 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2154
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4    C               u0 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6 *1 C               u1 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2312
+group: |2
+
+  1    C               u0 {2,S} {5,S}
+  2    C               u0 {1,S} {3,S} {8,S}
+  3    C               u0 {2,S} {4,S} {6,S}
+  4 *1 C               u1 {3,S} {5,S}
+  5    C               u0 {1,S} {4,S}
+  6    C               u0 {3,S} {7,S}
+  7 *2 C               u0 {6,S} {8,S} {9,S}
+  8    C               u0 {2,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {7,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2332
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4 *1 C               u1 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6    C               u0 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2334
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4    C               u0 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6 *1 C               u1 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2343
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7 *1 C               u1 {2,S} {8,S}
+  8    C               u0 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_2354
+group: |2
+
+  1    C               u0 {2,S} {3,S} {4,S}
+  2    C               u0 {1,S} {5,S} {6,S}
+  3 *2 C               u0 {1,S} {7,S} {9,S}
+  4    C               u0 {1,S} {8,S}
+  5    C               u0 {2,S} {7,S}
+  6 *1 C               u1 {2,S} {8,S}
+  7    C               u0 {3,S} {5,S}
+  8    C               u0 {4,S} {6,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_3223
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7    C               u0 {2,S} {8,S}
+  8 *1 C               u1 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_3245
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7    C               u0 {2,S} {8,S}
+  8 *1 C               u1 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_3423
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7    C               u0 {2,S} {8,S}
+  8 *1 C               u1 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused55_3443
+group: |2
+
+  1    C               u0 {2,S} {5,S} {6,S}
+  2    C               u0 {1,S} {4,S} {7,S}
+  3 *2 C               u0 {4,S} {5,S} {9,S}
+  4    C               u0 {2,S} {3,S}
+  5    C               u0 {1,S} {3,S}
+  6    C               u0 {1,S} {8,S}
+  7    C               u0 {2,S} {8,S}
+  8 *1 C               u1 {6,S} {7,S}
+  9 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56D_1
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S} {9,S}
+  3     C               u0 {2,S} {4,S} {6,D}
+  4     C               u0 {3,S} {5,S}
+  5  *1 C               u1 {1,S} {4,S}
+  6     C               u0 {3,D} {7,S}
+  7  *2 C               u0 {6,S} {8,S} {10,S}
+  8     C               u0 {7,S} {9,S}
+  9     C               u0 {2,S} {8,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {7,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56D_2
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S} {9,S}
+  3     C               u0 {2,S} {4,S} {6,D}
+  4     C               u0 {3,S} {5,S}
+  5  *2 C               u0 {1,S} {4,S} {10,S}
+  6     C               u0 {3,D} {7,S}
+  7  *1 C               u1 {6,S} {8,S}
+  8     C               u0 {7,S} {9,S}
+  9     C               u0 {2,S} {8,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {5,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_212
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4  *1 C               u1 {1,S} {8,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8     C               u0 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2123
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7  *1 C               u1 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2132
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S} {9,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6  *2 C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8     C               u0 {7,S} {9,S}
+  9     C               u0 {2,S} {8,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {6,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2134
+group: |2
+
+  1     C               u0 {2,S} {4,S} {6,S}
+  2     C               u0 {1,S} {5,S} {7,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {1,S} {9,S}
+  7  *1 C               u1 {2,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2143
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7  *1 C               u1 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2145
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5  *1 C               u1 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8     C               u0 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2154
+group: |2
+
+  1     C               u0 {2,S} {4,S} {6,S}
+  2     C               u0 {1,S} {5,S} {7,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {1,S} {9,S}
+  7  *1 C               u1 {2,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2165
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5  *1 C               u1 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8     C               u0 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2312
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S} {9,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6  *2 C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8     C               u0 {7,S} {9,S}
+  9     C               u0 {2,S} {8,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {6,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2323
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7  *1 C               u1 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2343
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7  *1 C               u1 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2354
+group: |2
+
+  1     C               u0 {2,S} {4,S} {6,S}
+  2     C               u0 {1,S} {5,S} {7,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {1,S} {9,S}
+  7  *1 C               u1 {2,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_2365
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5  *1 C               u1 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8     C               u0 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_3212
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8  *1 C               u1 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_3223
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9  *1 C               u1 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_3243
+group: |2
+
+  1     C               u0 {2,S} {4,S} {7,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {4,S} {8,S} {10,S}
+  4     C               u0 {1,S} {3,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {1,S} {9,S}
+  8     C               u0 {3,S} {5,S}
+  9  *1 C               u1 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_3412
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8  *1 C               u1 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: fused56_3432
+group: |2
+
+  1     C               u0 {2,S} {3,S} {4,S}
+  2     C               u0 {1,S} {5,S} {6,S}
+  3  *2 C               u0 {1,S} {7,S} {10,S}
+  4     C               u0 {1,S} {8,S}
+  5     C               u0 {2,S} {8,S}
+  6     C               u0 {2,S} {9,S}
+  7     C               u0 {3,S} {9,S}
+  8  *1 C               u1 {4,S} {5,S}
+  9     C               u0 {6,S} {7,S}
+  10 *3 [F1s,Cl1s,Br1s] u0 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_2112
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7  *2 C               u0 {6,S} {8,S} {11,S}
+  8     C               u0 {7,S} {9,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {7,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_2123
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8  *2 C               u0 {7,S} {9,S} {11,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_2133
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8  *2 C               u0 {7,S} {9,S} {11,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_2333
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4  *1 C               u1 {3,S} {5,S}
+  5     C               u0 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8  *2 C               u0 {7,S} {9,S} {11,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_3223
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4     C               u0 {3,S} {5,S}
+  5  *1 C               u1 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8  *2 C               u0 {7,S} {9,S} {11,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: linked55_3323
+group: |2
+
+  1     C               u0 {2,S} {5,S}
+  2     C               u0 {1,S} {3,S}
+  3     C               u0 {2,S} {4,S} {6,S}
+  4     C               u0 {3,S} {5,S}
+  5  *1 C               u1 {1,S} {4,S}
+  6     C               u0 {3,S} {7,S} {10,S}
+  7     C               u0 {6,S} {8,S}
+  8  *2 C               u0 {7,S} {9,S} {11,S}
+  9     C               u0 {8,S} {10,S}
+  10    C               u0 {6,S} {9,S}
+  11 *3 [F1s,Cl1s,Br1s] u0 {8,S}
+forbidden: true
+short_description: ''
+long_description: ''

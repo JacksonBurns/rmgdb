@@ -1,0 +1,31 @@
+short_description: ''
+long_description: "\nAdsorption of a gas-phase triplet onto the surface. The unpaired\
+  \ electrons in the reactant form a double bond with the metal.\n\n *1         *1\n\
+  \     ---->  ||\n~*2~       ~*2~~\n\nThe rate, which should be in mol/m2/s,\nwill\
+  \ be given by k * (mol/m2) * (mol/m3)\nso k should be in (m3/mol/s). We will use\
+  \ sticking coefficients.\n"
+template:
+  reactants:
+  - Adsorbate
+  - VacantSite
+  products:
+  - Adsorbed
+  ownReverse: false
+recipe:
+  actions:
+  - - LOSE_RADICAL
+    - '*1'
+    - 2
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 1
+auto_generated: false

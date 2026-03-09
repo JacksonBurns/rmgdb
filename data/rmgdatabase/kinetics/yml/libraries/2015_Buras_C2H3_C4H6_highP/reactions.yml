@@ -3,14 +3,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 39130
+  - 39130.0
   - cm^3/(mol*s)
   n: 2.404
   Ea:
   - 0.42
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H9 <=> C6H8 + H
@@ -25,7 +25,7 @@ kinetics:
   - 40.664
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H9 <=> c6-C6H9
@@ -40,7 +40,7 @@ kinetics:
   - 20.246
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H9 <=> c5-C6H9
@@ -55,7 +55,7 @@ kinetics:
   - 19.298
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c5-C6H9 <=> H + c5-C6H8
@@ -70,7 +70,7 @@ kinetics:
   - 32.304
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c6-C6H9 <=> H + C6H8-c6-13
@@ -85,7 +85,7 @@ kinetics:
   - 33.132
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c6-C6H9 <=> H + C6H8-c6-14
@@ -100,7 +100,7 @@ kinetics:
   - 33.394
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c5-C6H9 <=> c5-C6H9-3
@@ -115,7 +115,7 @@ kinetics:
   - 24.541
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c5-C6H9 <=> c5-C6H9-2
@@ -130,7 +130,7 @@ kinetics:
   - 14.583
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c5-C6H9-2 <=> C5H6 + CH3
@@ -145,7 +145,7 @@ kinetics:
   - 38.962
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: c5-C6H9-3 <=> c5-C6H9-2
@@ -160,7 +160,7 @@ kinetics:
   - 24.481
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3 + C4H6 <=> C2H4 + nC4H5
@@ -175,7 +175,7 @@ kinetics:
   - 6.579
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H3 + C4H6 <=> C2H4 + iC4H5
@@ -190,5 +190,5 @@ kinetics:
   - 4.902
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

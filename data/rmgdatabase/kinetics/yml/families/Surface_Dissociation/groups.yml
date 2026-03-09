@@ -1,0 +1,307 @@
+label: Combined
+group: |2
+
+  1 *1 R!H u0 {2,S} {3,[S,D,T]}
+  2 *2 R   u0 {1,S}
+  3 *3 Xo  u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+---
+label: VacantSite
+group: |2
+
+  1 *4 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C
+group: |2
+
+  1 *1 C  u0 {2,S} {3,[S,D,T]}
+  2 *2 R  u0 {1,S}
+  3 *3 Xo u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*
+---
+label: O
+group: |2
+
+  1 *1 O  u0 {2,S} {3,S}
+  2 *2 R  u0 {1,S}
+  3 *3 Xo u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-H
+- O-C
+- O-N
+- O-H
+- O=N
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
+---
+label: C-H
+group: |2
+
+  1 *1 C   u0 {2,S} {3,[S,D,T]}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- CH
+- CH2
+- CH3
+- C-H_Bidentate
+- CH2R
+- CHR
+---
+label: C-O
+group: |2
+
+  1 *1 C   u0 {2,S} {3,[S,D,T]}
+  2 *2 O   u0 {1,S}
+  3 *3 Xo  u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- CH3OH
+- C-OH
+---
+label: O-H
+group: |2
+
+  1 *1 O   u0 {2,S} {3,S}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- H2O
+- H2O2
+- H2O
+---
+label: O-C
+group: |2
+
+  1 *1 O   u0 {2,S} {3,S}
+  2 *2 C   u0 {1,S}
+  3 *3 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-CH3
+- O-C=O
+---
+label: N
+group: |2
+
+  1 *1 N  u0 {2,S} {3,[S,D,T]}
+  2 *2 R  u0 {1,S}
+  3 *3 Xo u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- N=O
+- N3s
+- N3d
+- NH
+- NN
+- 'NO'
+- NN
+- N-C
+- N-H
+- N-H2
+- N-H
+- N-N
+- N=*
+- N#*
+---
+label: N-H2
+group: |2
+
+  1 *1 N  u0 p1 {2,S} {3,S} {4,S}
+  2 *2 H  u0    {1,S}
+  3 *3 Xo u0    {1,S}
+  4    H  u0    {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-H
+group: |2
+
+  1 *1 N  u0 p1 {2,S} {3,D}
+  2 *2 H  u0    {1,S}
+  3 *3 Xo u0    {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,T}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH2
+group: |2
+
+  1 *1 C   u0 {2,S} {3,D} {4,S}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,D}
+  4    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH3
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,S}
+  4    H   u0 {1,S}
+  5    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-OH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S}
+  2 *2 O   u0 {1,S} {4,S}
+  3 *3 Xo  u0 {1,S}
+  4    H   u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-C=O
+group: |2
+
+  1 *1 O   u0 {2,S} {3,S}
+  2 *2 C   u0 {1,S} {4,D}
+  3 *3 Xo  u0 {1,S}
+  4    O   u0 {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N
+group: |2
+
+  1 *1 O  u0 {2,S} {3,S}
+  2 *2 N  u0 {1,S}
+  3 *3 Xo u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-N=O
+- O-N=O
+---
+label: O-N=O
+group: |2
+
+  1 *1 O  u0 {2,S} {3,S}
+  2 *2 N  u0 {1,S} {4,D}
+  3 *3 Xo u0 {1,S}
+  4    O  u0 {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-N
+group: |2
+
+  1 *1 N  u0 {2,S} {3,D}
+  2 *2 N  u0 {1,S}
+  3 *3 Xo u0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- N2H4
+---
+label: C-H_Bidentate
+group: |2
+
+  1 *1 C   u0 {2,S} {3,[S,D]} {4,[S,D]}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,[S,D]}
+  4    R!H u0 {1,[S,D]} {5,[S,D,T]}
+  5    Xo  u0 {4,[S,D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C
+group: |2
+
+  1 *1 C   u0 {2,S} {3,[S,D,T]}
+  2 *2 C   u0 {1,S}
+  3 *3 Xo  u0 {1,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- C2H6
+---
+label: CH2R
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,S}
+  4    H   u0 {1,S}
+  5    R!H u0 px cx {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CHR
+group: |2
+
+  1 *1 C   u0 {2,S} {3,D} {4,S}
+  2 *2 H   u0 {1,S}
+  3 *3 Xo  u0 {1,D}
+  4    R!H u0 px cx {1,S}
+short_description: ''
+long_description: ''
+children: []

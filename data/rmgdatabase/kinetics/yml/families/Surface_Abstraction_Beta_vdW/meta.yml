@@ -1,0 +1,49 @@
+short_description: ''
+long_description: "\nSurface abstraction of one atom to another adsorbate. The bond\
+  \ fission occurs not at the binding atom, but in the beta position of the adsorbate,\
+  \ that is the bond between Atom *2 and *3 is broken. Atom *1 binds to the surface\
+  \ (*5). A vdW species is formed. The bond order between *4 and the surface decreases.\
+  \ An example for this reaction is: COOH* + O* = OH* + CO2*. The bond between *2\
+  \ and *3 must be single.\n\n\n *1-*2--*3  *4            *1=*2   *3-*4\n  |     \
+  \    ||      ---->   :      |\n~*5~ +    ~*6~~           ~*5~ +  ~*6~~\n\nThe rate,\
+  \ which should be in mol/m2/s, will be given by k * (mol/m2) * (mol/m2)\nso k should\
+  \ be in (m2/mol/s). \n"
+template:
+  reactants:
+  - Abstracting
+  - Donating
+  products:
+  - Adsorbate2
+  - Adsorbate3
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*5'
+  - - FORM_BOND
+    - '*1'
+    - 0
+    - '*5'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*3'
+  - - CHANGE_BOND
+    - '*4'
+    - -1
+    - '*6'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 2
+auto_generated: false

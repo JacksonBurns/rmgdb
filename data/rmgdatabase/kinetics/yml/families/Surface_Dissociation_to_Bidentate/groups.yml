@@ -1,0 +1,35 @@
+label: Combined
+group: |2+
+
+  1 *1 R!H u0 {2,[S,D,T]} {4,[S,D,T]}
+  2 *2 R!H u0 {1,[S,D,T]} {3,[S]}
+  3 *3 H   u0 {2,[S]}
+  4 *4 Xo  u0 {1,[S,D,T]}
+
+short_description: ''
+long_description: ''
+children:
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+---
+label: VacantSite1
+group: |2
+
+  1 *5 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite2
+group: |2
+
+  1 *6 Xv u0
+short_description: ''
+long_description: ''
+children: []

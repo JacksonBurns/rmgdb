@@ -1,0 +1,21 @@
+label: O2(S)
+adjacency_list: |-
+  1 *1 O u0 p2 c0 {2,D}
+  2 *2 O u0 p2 c0 {1,D}
+---
+label: SO(T)
+adjacency_list: |-
+  multiplicity 3
+  1 S u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}
+---
+label: SO(S)
+adjacency_list: |-
+  1 *1 S u0 p2 c0 {2,D}
+  2 *2 O u0 p2 c0 {1,D}
+---
+label: O2(T)
+adjacency_list: |-
+  multiplicity 3
+  1 O u1 p2 c0 {2,S}
+  2 O u1 p2 c0 {1,S}

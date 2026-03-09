@@ -1,0 +1,32 @@
+short_description: ''
+long_description: '
+
+  This reaction family is reserved for recombination of O_atom, S_atom, N_R_birad
+  (triplets only).
+
+  The forbidden groups at the bottom prevent it from reacting with other forms of
+  O, S, NH.
+
+  '
+template:
+  reactants:
+  - Y_rad
+  - Birad
+  products:
+  - YOS.
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - LOSE_RADICAL
+    - '*1'
+    - '1'
+  - - LOSE_RADICAL
+    - '*2'
+    - '1'
+reversible: true
+reverse_map: {}
+auto_generated: false

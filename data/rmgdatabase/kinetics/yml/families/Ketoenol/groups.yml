@@ -1,0 +1,2359 @@
+label: Root
+group: |2
+
+  1 *2 R!H   u0 {2,S} {3,D}
+  2 *3 [O,S] u0 {1,S} {4,S}
+  3 *1 R!H   u0 {1,D}
+  4 *4 H     u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R->H
+- Root_N-3R->H
+- Root_1Br1sCl1sF1sH->Cl1s
+- Root_N-1Br1sCl1sF1sH->Cl1s
+- Root_4R!H->C
+- Root_N-4R!H->C
+- F
+- Cl
+- Br
+- Root_1R->H
+- Root_N-1R->H
+- Root_Ext-1R!H-R
+- Root_Ext-2R!H-R
+- Root_4R->H
+- Root_N-4R->H
+- Backbone0
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Backbone6
+- Root_Ext-2R-R
+- Root_2R->C
+- Root_N-2R->C
+- Root_1R!H->N
+- Root_N-1R!H->N
+- Root_Sp-3R!H-2R!H
+- Root_N-Sp-3R!H-2R!H
+- Root_Ext-2R!H-R
+- Root_1R!H-inRing
+- Root_N-1R!H-inRing
+- Root_1R->O
+- Root_N-1R->O
+- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
+- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone6
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Root_5R-inRing
+- Root_N-5R-inRing
+- Root_4CHNOS->H
+- Root_N-4CHNOS->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-1CbCbf-R
+- Root_5Ct-inRing
+- Root_N-5Ct-inRing
+- Root_4R->F
+- Root_N-4R->F
+- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_4R->N
+- Root_N-4R->N
+- Root_5CbCdCsHN->Cs
+- Root_N-5CbCdCsHN->Cs
+- Root_1COCSCdCdd->Cd
+- Root_N-1COCSCdCdd->Cd
+- Root_Ext-5R-R
+- Root_Ext-3R-R
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-3R-R
+- Root_3R->F
+- Root_N-3R->F
+- Root_3R!H->C
+- Root_N-3R!H->C
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_2ClFH->H
+- Root_N-2ClFH->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_2ClF->F
+- Root_N-2ClF->F
+- Root_4R!H->C
+- Root_N-4R!H->C
+- Root_1R->H
+- Root_N-1R->H
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_6R->C
+- Root_N-6R->C
+---
+label: Root_3R!H->C
+group: |2
+
+  1 *2 R!H u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 {1,D}
+  4 *4 H   u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing
+- Root_3R!H->C_N-3C-inRing
+---
+label: Root_3R!H->C_3C-inRing
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D}
+  4 *4 H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R
+- Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_N-5R!H->C
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_6R!H->N
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_6R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {6,S}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S}
+  6    N u0 r1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r1 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H                      u0 {2,S}
+  5    C                      ux {1,[S,D,T,B,Q]}
+  6    [Si,S,P,C,F,I,Br,Cl,O] ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_6BrCClFIOPSSi->O
+- Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_N-6BrCClFIOPSSi->O
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_6BrCClFIOPSSi->O
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    C ux {1,[S,D,T,B,Q]}
+  6    O ux r1 {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_5R!H->C_Ext-3C-R_N-6R!H->N_N-6BrCClFIOPSSi->O
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    C ux {1,[S,D,T,B,Q]}
+  6    C ux r1 {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-1R!H-R_N-5R!H->C
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r1 {1,D}
+  4 *4 H                      u0 {2,S}
+  5    [Si,S,N,P,F,I,Br,Cl,O] u0 r0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    O u0 {3,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D} {5,S}
+  4 *4 H   u0 r0 {2,S}
+  5    O   u0 r1 {3,S} {6,S}
+  6    C   u0 r1 {5,S} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H                      u0 {2,S}
+  5    [Si,S,N,P,C,F,I,Br,Cl] ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_5BrCClFINPSSi->N
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_N-5BrCClFINPSSi->N
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r1 {1,D} {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  4 *4 H                      u0 {2,S}
+  5    [Si,S,N,P,C,F,I,Br,Cl] ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H                    ux {5,[S,D,T,B,Q]}
+  7    R!H                    ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,S} {7,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    N u0 {3,S} {6,S}
+  6    C u0 {5,S}
+  7    C ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N_Ext-6R!H-R
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_5BrCClFINPSSi->N_Ext-6R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D} {5,S} {7,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    N   u0 r1 {3,S} {6,S}
+  6    C   u0 {5,S} {8,[S,D,T,B,Q]}
+  7    C   ux r1 {3,[S,D,T,B,Q]}
+  8    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D} {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+  7    R!H ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_N-6R!H->C
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    C   ux {5,[S,D,T,B,Q]}
+  7    R!H u0 {3,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_7R!H->N
+- Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_N-7R!H->N
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_7R!H->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    C ux r0 {5,[S,D,T,B,Q]}
+  7    N u0 r1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_6R!H->C_N-7R!H->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    C ux r0 {5,[S,D,T,B,Q]}
+  7    C u0 r1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_Ext-5BrCClFINPSSi-R_Ext-3C-R_N-5BrCClFINPSSi->N_N-6R!H->C
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r1 {1,D} {5,S} {7,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r1 {3,S} {6,S}
+  6    O   u0 {5,S}
+  7    R!H ux r1 {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_5BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    N ux r1 {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_3C-inRing_Ext-3C-R_N-5R!H->O_N-5BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing
+group: |2
+
+  1 *2 R!H u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_1R!H->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N
+---
+label: Root_3R!H->C_N-3C-inRing_1R!H->N
+group: |2
+
+  1 *2 N u0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 r0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_7R!H->C
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H u0 {5,[S,D,T,B,Q]}
+  7    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,T}
+  6    C u0 {5,T}
+  7    C ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H_Ext-7R!H-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_Sp-6R!H#5R!H_Ext-7R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,T}
+  6    C   u0 {5,T}
+  7    C   ux {1,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
+  8    R!H ux {7,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,D]}
+  6    R!H u0 {5,[S,D]}
+  7    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_5R!H->C
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_N-5R!H->C
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_5R!H->C
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D]}
+  6    R!H u0 {5,[S,D]}
+  7    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_Ext-1C-R_N-Sp-6R!H#5R!H_N-5R!H->C
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    O   ux {3,[S,D,T,B,Q]} {6,[S,D]}
+  6    R!H u0 {5,[S,D]}
+  7    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    C u0 {3,S} {6,D}
+  6    O u0 {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O_Ext-3C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_6R!H->O_Ext-3C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,S} {7,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {3,S} {6,D}
+  6    O   u0 r0 {5,D}
+  7    R!H ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O
+group: |2
+
+  1 *2 C     u0 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 C     u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H     u0 {2,S}
+  5    R!H   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    [N,C] ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R
+group: |2
+
+  1 *2 C     u0 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 C     u0 r0 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H     u0 {2,S}
+  5    C     ux {3,[S,D,T,B,Q]} {6,T}
+  6    [N,C] ux {5,T}
+  7    C     u0 {3,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_6CN->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_N-6CN->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_6CN->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {3,[S,D,T,B,Q]} {6,T}
+  6    N ux r0 {5,T}
+  7    C u0 r0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Ext-3C-R_N-6CN->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,[S,D,T,B,Q]} {7,S}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {3,[S,D,T,B,Q]} {6,T}
+  6    C ux r0 {5,T}
+  7    C u0 r0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    R!H u0 {3,S} {6,S}
+  6    C   u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_5R!H->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_N-5R!H->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_5R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    N u0 {3,S} {6,S}
+  6    C u0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_Sp-6CN-5R!H_N-5R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 {3,S} {6,S}
+  6    C u0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H
+group: |2
+
+  1 *2 C     u0 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 C     u0 r0 {1,D} {5,S}
+  4 *4 H     u0 {2,S}
+  5    C     u0 {3,S} {6,T}
+  6    [N,C] u0 {5,T}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_6CN->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_N-6CN->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_6CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,T}
+  6    N u0 r0 {5,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-5R!H-R_N-6R!H->O_N-Sp-6CN-5R!H_N-6CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,T}
+  6    C u0 r0 {5,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]}
+  6    R!H ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R_Ext-1C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-3C-R_Ext-1C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {7,[S,D,T,B,Q]}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]}
+  6    R!H ux {3,[S,D,T,B,Q]}
+  7    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_7R!H->C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {6,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {3,[S,D,T,B,Q]}
+  6    C ux {1,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  7    C u0 r0 {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D} {6,S}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r0 {1,D} {5,S}
+  4 *4 H                      u0 {2,S}
+  5    C                      u0 {3,S}
+  6    C                      u0 {1,S} {7,[S,D,T,B,Q]}
+  7    [Si,S,N,P,F,I,Br,Cl,O] ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_7BrClFINOPSSi->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_N-7BrClFINOPSSi->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_7BrClFINOPSSi->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {6,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 {3,S}
+  6    C u0 r0 {1,S} {7,[S,D,T,B,Q]}
+  7    N ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-3C-R_Ext-1C-R_Ext-6R!H-R_N-7R!H->C_N-7BrClFINOPSSi->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {6,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 {3,S}
+  6    C u0 r0 {1,S} {7,[S,D,T,B,Q]}
+  7    O ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_6R!H->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_N-6R!H->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_6R!H->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {1,[S,D,T,B,Q]} {6,S}
+  6    N u0 r1 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_5C-inRing_Ext-5C-R_N-6R!H->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {1,[S,D,T,B,Q]} {6,S}
+  6    C u0 r1 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    C   ux r0 {1,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {1,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    O u0 {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r0 {1,[S,D,T,B,Q]} {6,[S,D,T,B,Q]} {7,S}
+  6    O u0 {5,[S,D,T,B,Q]}
+  7    C u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R_Ext-7R!H-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_6R!H->O_Ext-5C-R_Ext-7R!H-R
+group: |2
+
+  1 *2 C   u0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    C   ux r0 {1,[S,D,T,B,Q]} {6,[S,D,T,B,Q]} {7,S}
+  6    O   u0 r0 {5,[S,D,T,B,Q]}
+  7    C   u0 r0 {5,S} {8,[S,D,T,B,Q]}
+  8    R!H ux {7,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D} {5,S}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 C                      u0 r0 {1,D}
+  4 *4 H                      u0 {2,S}
+  5    C                      u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    [Si,S,N,P,C,F,I,Br,Cl] ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    N ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S} {6,S}
+  6    C ux {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C_Ext-6C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_Sp-6C-5C_Ext-6C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {1,S} {6,S}
+  6    C   ux {5,S} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S} {6,T}
+  6    C ux {5,T}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C_Ext-6C-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_5R!H->C_N-5C-inRing_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N_N-Sp-6C-5C_Ext-6C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {1,S} {6,T}
+  6    C   ux {5,T} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C
+group: |2
+
+  1 *2 C u0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 C u0 r0 {1,D}
+  4 *4 H u0 {2,S}
+  5    N u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C_Ext-5BrClFINOPSSi-R_Ext-5BrClFINOPSSi-R
+---
+label: Root_3R!H->C_N-3C-inRing_N-1R!H->N_Ext-1C-R_N-5R!H->C_Ext-5BrClFINOPSSi-R_Ext-5BrClFINOPSSi-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 C   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    N   u0 {1,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C
+group: |2
+
+  1 *2 C                      u0 {2,S} {3,D}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 [Si,S,N,P,F,I,Br,Cl,O] u0 {1,D}
+  4 *4 H                      u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing
+- Root_N-3R!H->C_N-1R!H-inRing
+---
+label: Root_N-3R!H->C_1R!H-inRing
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,D}
+  6    R!H ux {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,D}
+  6    C   ux {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,D}
+  6    C   ux {5,D} {7,[S,D,T,B,Q]}
+  7    N   ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    N u0 {3,S} {6,D}
+  6    C ux {5,D} {7,S}
+  7    N u0 {6,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N_Ext-6C-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_5R!H->N_Ext-6C-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    N   u0 r1 {3,S} {6,D}
+  6    C   ux r1 {5,D} {7,S} {8,[S,D,T,B,Q]}
+  7    N   u0 r1 {6,S}
+  8    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,D}
+  6    C u0 {5,D} {7,[S,D,T,B,Q]}
+  7    N ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,D} {8,S}
+  6    C   u0 {5,D} {7,[S,D,T,B,Q]}
+  7    N   ux {6,[S,D,T,B,Q]}
+  8    R!H u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_8R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_N-8R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_8R!H->C
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    C ux r1 {3,[S,D,T,B,Q]} {6,D} {8,S}
+  6    C u0 r1 {5,D} {7,[S,D,T,B,Q]}
+  7    N ux r1 {6,[S,D,T,B,Q]}
+  8    C u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_7R!H->N_N-5R!H->N_Ext-5C-R_N-8R!H->C
+group: |2
+
+  1 *2 C                      u0 r1 {2,S} {3,D}
+  2 *3 O                      u0 r0 {1,S} {4,S}
+  3 *1 N                      u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H                      u0 r0 {2,S}
+  5    C                      ux r1 {3,[S,D,T,B,Q]} {6,D} {8,S}
+  6    C                      u0 r1 {5,D} {7,[S,D,T,B,Q]}
+  7    N                      ux r1 {6,[S,D,T,B,Q]}
+  8    [Si,S,N,P,F,I,Br,Cl,O] u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,D}
+  6    C u0 {5,D} {7,[S,D,T,B,Q]}
+  7    O ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N_Ext-5R!H-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_6R!H->C_Ext-6C-R_N-7R!H->N_Ext-5R!H-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    C   ux r1 {3,[S,D,T,B,Q]} {6,D} {8,[S,D,T,B,Q]}
+  6    C   u0 r1 {5,D} {7,[S,D,T,B,Q]}
+  7    O   ux r1 {6,[S,D,T,B,Q]}
+  8    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,D}
+  6    N   ux {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_5R!H->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    N ux r1 {3,[S,D,T,B,Q]} {6,D}
+  6    N u0 r1 {5,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,D}
+  6    N ux {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_Ext-1R!H-R
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_Ext-1R!H-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D} {8,[S,D,T,B,Q]}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 r0 {2,S}
+  5    C   ux r1 {3,[S,D,T,B,Q]} {6,D}
+  6    N   u0 r1 {5,D} {7,S}
+  7    R!H u0 r1 {6,S}
+  8    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    C u0 {3,S} {6,D}
+  6    N u0 {5,D} {7,S}
+  7    N u0 {6,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    C   u0 {3,S} {6,D} {8,S}
+  6    N   u0 {5,D} {7,S}
+  7    N   u0 {6,S}
+  8    R!H u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_8R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_N-8R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_8R!H->C
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r1 {3,S} {6,D} {8,S}
+  6    N u0 r1 {5,D} {7,S}
+  7    N u0 r1 {6,S}
+  8    C u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_7R!H->N_Ext-5C-R_N-8R!H->C
+group: |2
+
+  1 *2 C                      u0 r1 {2,S} {3,D}
+  2 *3 O                      u0 r0 {1,S} {4,S}
+  3 *1 N                      u0 r1 {1,D} {5,S}
+  4 *4 H                      u0 r0 {2,S}
+  5    C                      u0 r1 {3,S} {6,D} {8,S}
+  6    N                      u0 r1 {5,D} {7,S}
+  7    N                      u0 r1 {6,S}
+  8    [Si,S,N,P,F,I,Br,Cl,O] u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,D}
+  6    N ux {5,D} {7,[S,D,T,B,Q]}
+  7    O ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N_Ext-5C-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_Sp-6R!H=5R!H_N-6R!H->C_N-5R!H->N_Ext-6NO-R_N-7R!H->N_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux r1 {3,[S,D,T,B,Q]} {6,D} {8,[S,D,T,B,Q]}
+  6    N   ux r1 {5,D} {7,[S,D,T,B,Q]}
+  7    O   ux r1 {6,[S,D,T,B,Q]}
+  8    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    R!H ux {5,[S,T,Q,B]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    R!H ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    C   ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_N-6R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    C   ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    C   ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_N-5R!H->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    N u0 {3,S} {6,[S,T,Q,B]}
+  6    C ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    C ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N_Ext-1R!H-R
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_5R!H->N_Ext-1R!H-R
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D} {8,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    N   u0 r1 {3,S} {6,[S,T,Q,B]}
+  6    C   ux r1 {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    C   ux {6,[S,D,T,B,Q]}
+  8    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_6R!H->C_N-5R!H->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    O ux r1 {3,[S,D,T,B,Q]} {6,S}
+  6    C u0 r1 {5,S} {7,D}
+  7    C u0 r1 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_7R!H->C_N-6R!H->C
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 r1 {1,D} {5,S}
+  4 *4 H     u0 {2,S}
+  5    R!H   u0 r1 {3,S} {6,[S,T,Q,B]}
+  6    [N,O] ux r1 {5,[S,T,Q,B]} {7,D}
+  7    C     ux r1 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H u0 {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    R!H ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N   ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_5R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_5R!H->C
+group: |2
+
+  1 *2 C   u0 r1 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 r1 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   u0 r1 {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    R!H ux r1 {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N   ux r1 {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H     u0 {2,S}
+  5    [N,O] u0 {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    R!H   ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N     ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D} {5,S}
+  4 *4 H     u0 {2,S}
+  5    [N,O] u0 {3,S} {6,[S,T,Q,B]}
+  6    C     ux {5,[S,T,Q,B]} {7,D}
+  7    N     ux {6,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_5NO->N
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_N-5NO->N
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_5NO->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    N u0 r1 {3,S} {6,[S,T,Q,B]}
+  6    C ux r1 {5,[S,T,Q,B]} {7,D}
+  7    N ux r1 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_6R!H->C_N-5NO->N
+group: |2
+
+  1 *2 C u0 r1 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 r1 {1,D} {5,S}
+  4 *4 H u0 {2,S}
+  5    O u0 r1 {3,S} {6,[S,T,Q,B]}
+  6    C ux r1 {5,[S,T,Q,B]} {7,D}
+  7    N ux r1 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H     u0 {2,S}
+  5    N     u0 {3,[S,D,T,B,Q]} {6,[S,T,Q,B]}
+  6    [N,O] ux {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N     ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_Sp-5NO-3BrClFINNOOPSSi
+- Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_N-Sp-5NO-3BrClFINNOOPSSi
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_Sp-5NO-3BrClFINNOOPSSi
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 r1 {1,D} {5,S}
+  4 *4 H     u0 {2,S}
+  5    N     u0 r1 {3,S} {6,[S,T,Q,B]}
+  6    [N,O] ux r1 {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N     ux r1 {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_1R!H-inRing_Ext-3BrClFINOPSSi-R_Ext-5R!H-R_Ext-5R!H-R_Ext-6R!H-R_Ext-6R!H-R_N-Sp-6R!H=5R!H_Ext-6R!H-R_N-7R!H->C_N-5R!H->C_N-6R!H->C_N-Sp-5NO-3BrClFINNOOPSSi
+group: |2
+
+  1 *2 C     u0 r1 {2,S} {3,D}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 r1 {1,D} {5,D}
+  4 *4 H     u0 {2,S}
+  5    N     u0 r1 {3,D} {6,[S,T,Q,B]}
+  6    [N,O] ux r1 {5,[S,T,Q,B]} {7,[S,D,T,B,Q]}
+  7    N     ux r1 {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 [Si,S,N,P,F,I,Br,Cl,O] u0 {1,D}
+  4 *4 H                      u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 S u0 {1,D}
+  4 *4 H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 S u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R_Ext-5R!H-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_3BrClFINOPSSi->S_Ext-1R!H-R_Ext-5R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 S   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_6R!H->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_N-6R!H->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    R!H ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H u0 {1,S}
+  6    C   ux {3,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    R!H u0 {1,S} {7,S}
+  6    C   ux {3,[S,D,T,B,Q]}
+  7    C   u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_5R!H->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_N-5R!H->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_5R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    N u0 {1,S} {7,S}
+  6    C ux {3,[S,D,T,B,Q]}
+  7    C u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_Ext-3N-R_Ext-5R!H-R_N-5R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {6,[S,D,T,B,Q]}
+  4 *4 H u0 r0 {2,S}
+  5    O u0 {1,S} {7,S}
+  6    C ux {3,[S,D,T,B,Q]}
+  7    C u0 r0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    O ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_5R!H->O_Ext-5O-R_Ext-6R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    O   ux {1,[S,D,T,B,Q]} {6,S}
+  6    C   u0 r0 {5,S} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O
+group: |2
+
+  1 *2 C     u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D}
+  4 *4 H     u0 {2,S}
+  5    [N,C] ux {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing
+group: |2
+
+  1 *2 C     u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D}
+  4 *4 H     u0 {2,S}
+  5    [N,C] ux r1 {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_5CN->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_5CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    N ux r1 {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {1,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C ux r1 {1,[S,D,T,B,Q]} {6,S}
+  6    O u0 {5,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O_Ext-6O-R_Ext-5C-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->O_Ext-6O-R_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,[S,D,T,B,Q]}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    C   ux r1 {1,[S,D,T,B,Q]} {6,S} {8,[S,D,T,B,Q]}
+  6    O   u0 r1 {5,S} {7,S}
+  7    C   u0 r1 {6,S}
+  8    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 N                      u0 {1,D}
+  4 *4 H                      u0 {2,S}
+  5    C                      u0 r1 {1,S} {6,[S,D,T,B,Q]}
+  6    [Si,S,N,P,C,F,I,Br,Cl] ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_6BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r1 {1,S} {6,[S,D,T,B,Q]}
+  6    N ux r1 {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->O_N-6BrCClFINPSSi->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r1 {1,S} {6,[S,D,T,B,Q]}
+  6    C ux r1 {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing
+group: |2
+
+  1 *2 C     u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O     u0 {1,S} {4,S}
+  3 *1 N     u0 {1,D}
+  4 *4 H     u0 {2,S}
+  5    [N,C] u0 r0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    N u0 r0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    N u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D}
+  4 *4 H   u0 {2,S}
+  5    N   u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C   ux {5,[S,D,T,B,Q]} {7,D}
+  7    R!H u0 {6,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_7R!H->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_N-7R!H->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_7R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D}
+  4 *4 H u0 r0 {2,S}
+  5    N u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]} {7,D}
+  7    N u0 r0 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_5CN->N_Ext-5N-R_Ext-6R!H-R_N-7R!H->N
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O                      u0 r0 {1,S} {4,S}
+  3 *1 N                      u0 r0 {1,D}
+  4 *4 H                      u0 r0 {2,S}
+  5    N                      u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C                      ux {5,[S,D,T,B,Q]} {7,D}
+  7    [Si,S,P,C,F,I,Br,Cl,O] u0 r0 {6,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C_Ext-6C-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_6R!H->C_Ext-6C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 N   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {1,S} {6,[S,D,T,B,Q]}
+  6    C   ux {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D}
+  4 *4 H u0 {2,S}
+  5    C u0 r0 {1,S} {6,D}
+  6    O ux {5,D}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C_Ext-5C-R
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-1R!H-R_N-5R!H->O_N-5CN-inRing_N-5CN->N_Ext-5C-R_N-6R!H->C_Ext-5C-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D} {5,S}
+  2 *3 O   u0 r0 {1,S} {4,S}
+  3 *1 N   u0 r0 {1,D}
+  4 *4 H   u0 r0 {2,S}
+  5    C   u0 r0 {1,S} {6,D} {7,[S,D,T,B,Q]}
+  6    O   ux {5,D}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_N-6R!H->C
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    C   ux {5,[S,D,T,B,Q]}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_5R!H-inRing
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_5R!H-inRing
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux r1 {3,[S,D,T,B,Q]} {6,S} {7,[S,D,T,B,Q]}
+  6    C   u0 {5,S}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    C   u0 r0 {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    C   ux {5,[S,D,T,B,Q]}
+  7    R!H ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_7R!H->C
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_N-7R!H->C
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_7R!H->C
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]}
+  7    C ux {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_6R!H->C_N-5R!H-inRing_N-7R!H->C
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  6    C ux r0 {5,[S,D,T,B,Q]}
+  7    O u0 r0 {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-5R!H-R_N-6R!H->C
+group: |2
+
+  1 *2 C     u0 r0 {2,S} {3,D}
+  2 *3 O     u0 r0 {1,S} {4,S}
+  3 *1 N     u0 r0 {1,D} {5,S}
+  4 *4 H     u0 r0 {2,S}
+  5    C     u0 {3,S} {6,S} {7,[S,D,T,B,Q]}
+  6    [N,O] ux {5,S}
+  7    R!H   u0 {5,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  7    R!H ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_N-7R!H->C
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  7    C   ux {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_N-Sp-7C-6R!H
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,S}
+  4 *4 H   u0 {2,S}
+  5    C   u0 {3,S} {6,[S,D,T,B,Q]}
+  6    R!H ux {5,[S,D,T,B,Q]} {7,S}
+  7    C   u0 {6,S}
+short_description: ''
+long_description: ''
+children:
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_6R!H->N
+- Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_N-6R!H->N
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_6R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,[S,D,T,B,Q]}
+  6    N ux {5,[S,D,T,B,Q]} {7,S}
+  7    C u0 r0 {6,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_Sp-7C-6R!H_N-6R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 r0 {1,S} {4,S}
+  3 *1 N u0 r0 {1,D} {5,S}
+  4 *4 H u0 r0 {2,S}
+  5    C u0 r0 {3,S} {6,[S,D,T,B,Q]}
+  6    C ux {5,[S,D,T,B,Q]} {7,S}
+  7    C u0 r0 {6,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_7R!H->C_N-Sp-7C-6R!H
+group: |2
+
+  1 *2 C   u0 r0 {2,S} {3,D}
+  2 *3 O   u0 {1,S} {4,S}
+  3 *1 N   u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H   u0 {2,S}
+  5    C   ux {3,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
+  6    R!H u0 r0 {5,[S,D,T,B,Q]} {7,T}
+  7    C   ux {6,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_Ext-6R!H-R_N-7R!H->C
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D}
+  2 *3 O                      u0 r0 {1,S} {4,S}
+  3 *1 N                      u0 r0 {1,D} {5,S}
+  4 *4 H                      u0 r0 {2,S}
+  5    C                      u0 r0 {3,S} {6,[S,D,T,B,Q]}
+  6    R!H                    ux {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
+  7    [Si,S,N,P,F,I,Br,Cl,O] u0 r0 {6,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_6R!H->N
+group: |2
+
+  1 *2 C u0 r0 {2,S} {3,D}
+  2 *3 O u0 {1,S} {4,S}
+  3 *1 N u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H u0 {2,S}
+  5    C ux {3,[S,D,T,B,Q]} {6,D}
+  6    N u0 r0 {5,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-3R!H->C_N-1R!H-inRing_N-3BrClFINOPSSi->S_Ext-3N-R_Ext-5R!H-R_N-6R!H->N
+group: |2
+
+  1 *2 C                      u0 r0 {2,S} {3,D}
+  2 *3 O                      u0 {1,S} {4,S}
+  3 *1 N                      u0 {1,D} {5,[S,D,T,B,Q]}
+  4 *4 H                      u0 {2,S}
+  5    C                      ux {3,[S,D,T,B,Q]} {6,D}
+  6    [Si,S,P,C,F,I,Br,Cl,O] u0 r0 {5,D}
+short_description: ''
+long_description: ''
+children: []

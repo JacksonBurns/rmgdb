@@ -12,10 +12,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -1.1
   Ea:
-  - 0
+  - 0.0
   - cal/mol
   T0:
-  - 295
+  - 295.0
   - K
 ---
 label: NO2 + SO2 <=> NO + SO3
@@ -32,18 +32,18 @@ kinetics:
   A:
   - 6310000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 53700
+  - 53700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 700
+  - 700.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: NO2 + S <=> SO + NO
@@ -59,18 +59,18 @@ kinetics:
   A:
   - 11400000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -980
+  - -980.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 292
+  - 292.0
   - K
   Tmax:
-  - 656
+  - 656.0
   - K
 ---
 label: S + NO <=> SNO
@@ -85,52 +85,31 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 130000000000000.0
-      - cm^3/(mol*s)
-      n: 0.24
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 800
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 2250000000000000.0
-      - cm^6/(mol^2*s)
-      n: 0
-      Ea:
-      - -1868
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 800
-      - K
   alpha: 0.22
   T3:
-  - 7445
+  - 7445.0
   - K
   T1:
   - 1.0e-30
   - K
-  efficiencies: {}
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 130000000000000.0
+    - cm^3/(mol*s)
+    n: 0.24
+    Ea:
+    - 0.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 2250000000000000.0
+    - cm^6/(mol^2*s)
+    n: 0.0
+    Ea:
+    - -1868.0
+    - cal/mol
 ---
 label: S + NO <=> SO + N
 degeneracy: 1.0
@@ -147,18 +126,18 @@ kinetics:
   A:
   - 108000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 40100
+  - 40100.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 2420
+  - 2420.0
   - K
   Tmax:
-  - 3870
+  - 3870.0
   - K
 ---
 label: S + NO <=> NS + O
@@ -176,16 +155,16 @@ kinetics:
   A:
   - 12000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 40100
+  - 40100.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 2420
+  - 2420.0
   - K
   Tmax:
-  - 3870
+  - 3870.0
   - K

@@ -1,0 +1,38 @@
+label: singlet
+group: |2
+
+  1 *1 [O2d,S2d] u0 p2 c0 {2,D}
+  2 *2 [O2d,S2d] u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- O2
+- S2
+- SO
+---
+label: O2
+group: |2
+
+  1 *1 O2d u0 p2 c0 {2,D}
+  2 *2 O2d u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: S2
+group: |2
+
+  1 *1 S2d u0 p2 c0 {2,D}
+  2 *2 S2d u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: SO
+group: |2
+
+  1 *1 S2d u0 p2 c0 {2,D}
+  2 *2 O2d u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []

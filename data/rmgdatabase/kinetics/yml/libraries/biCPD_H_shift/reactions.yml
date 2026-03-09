@@ -10,7 +10,7 @@ kinetics:
   - 22.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD_4 <=> biCPD_5
@@ -25,7 +25,7 @@ kinetics:
   - 25.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD_2 <=> biCPD_4
@@ -40,7 +40,7 @@ kinetics:
   - 19.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD_2 <=> biCPD_3
@@ -55,7 +55,7 @@ kinetics:
   - 24.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD_5 <=> biCPD_6
@@ -67,10 +67,10 @@ kinetics:
   - s^-1
   n: 1.76
   Ea:
-  - 25
+  - 25.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD_3 <=> biCPD_5
@@ -85,5 +85,5 @@ kinetics:
   - 20.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

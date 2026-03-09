@@ -1,0 +1,39 @@
+short_description: Intramolecular ring-closure by concerted addition of two alkene
+  end groups in a 6-membered conjugated backbone (C=C-C=C-C=C) to an unsaturated  cyclohexane
+  product
+long_description: ''
+template:
+  reactants:
+  - 1_3_5_unsaturated_hexane
+  products:
+  - unsaturated_cyclohexane
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*4'
+  - - CHANGE_BOND
+    - '*2'
+    - 1
+    - '*3'
+  - - CHANGE_BOND
+    - '*5'
+    - -1
+    - '*6'
+  - - CHANGE_BOND
+    - '*4'
+    - 1
+    - '*5'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*6'
+reversible: true
+reverse_map: {}
+auto_generated: false

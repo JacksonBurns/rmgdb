@@ -1,0 +1,65 @@
+label: criegee
+group: |2
+
+  1 *1 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 [C,H] u0 {1,S}
+  3    [C,H] u0 {1,S}
+  4 *3 O     u0 {1,S} {8,S}
+  5 *5 O     u0 {1,S} {6,S}
+  6 *6 O     u0 {5,S} {7,S}
+  7    R     u0 {6,S}
+  8 *4 H     u0 {4,S}
+short_description: ''
+long_description: ''
+children:
+- 6_membered_ring
+- 6_membered_ring
+---
+label: acid
+group: |2
+
+  1     R u0 {2,S}
+  2 *7  C u0 {1,S} {3,D} {4,S}
+  3 *8  O u0 {2,D}
+  4 *9  O u0 {2,S} {5,S}
+  5 *10 H u0 {4,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 6_membered_ring
+group: |2
+
+  1  *1 C     u0 {2,S} {3,S} {7,S} {8,S}
+  2  *2 [C,H] u0 {1,S} {4,[S,D,T,B]}
+  3     [C,H] u0 {1,S} {6,[S,D,T,B]}
+  4     R!H   u0 {2,[S,D,T,B]} {5,[S,D,T,B]}
+  5     R!H   u0 {4,[S,D,T,B]} {6,[S,D,T,B]}
+  6     R!H   u0 {3,[S,D,T,B]} {5,[S,D,T,B]}
+  7  *3 O     u0 {1,S} {11,S}
+  8  *5 O     u0 {1,S} {9,S}
+  9  *6 O     u0 {8,S} {10,S}
+  10    R     u0 {9,S}
+  11 *4 H     u0 {7,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: peracid_criegee
+group: |2
+
+  1  *1 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2  *2 [C,H] u0 {1,S}
+  3     [C,H] u0 {1,S}
+  4  *3 O     u0 {1,S} {10,S}
+  5  *5 O     u0 {1,S} {6,S}
+  6  *6 O     u0 {5,S} {7,S}
+  7     C     u0 {6,S} {8,D} {9,S}
+  8     O     u0 {7,D}
+  9     R     u0 {7,S}
+  10 *4 H     u0 {4,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  This structure should react via Baeyer-Villiger_step2

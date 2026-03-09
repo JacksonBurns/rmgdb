@@ -1,0 +1,54 @@
+short_description: ''
+long_description: '
+
+  This family describes reactions on a singlet PES of the sort:
+
+
+  RHRNH2 <=> R=R + NH3
+
+
+  where a terminal NH2 group and an H atom on an adjacent N are eliminated as NH3,
+  leaving a multiple bond.
+
+
+  atom labeling:
+
+  *1 - the eliminated N
+
+  *2 - next R in the chain
+
+  *3 - last R in the chain
+
+  *4 - the eliminated H from R *3
+
+  '
+template:
+  reactants:
+  - Root
+  products:
+  - RR
+  - NH3
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*4'
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - CHANGE_BOND
+    - '*2'
+    - 1
+    - '*3'
+reversible: true
+reverse_map: {}
+reactant_num: 1
+product_num: 2
+auto_generated: true

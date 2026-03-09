@@ -10,7 +10,7 @@ kinetics:
   - 34.586
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: II <=> III
@@ -25,7 +25,7 @@ kinetics:
   - 29.257
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: II <=> A
@@ -40,7 +40,7 @@ kinetics:
   - 38.474
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A <=> IV
@@ -55,7 +55,7 @@ kinetics:
   - 8.03
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: II <=> VIII
@@ -70,7 +70,7 @@ kinetics:
   - 39.151
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: IV <=> VI
@@ -85,7 +85,7 @@ kinetics:
   - 85.885
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: B <=> IX
@@ -100,7 +100,7 @@ kinetics:
   - 32.274
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: V <=> VI
@@ -115,7 +115,7 @@ kinetics:
   - 30.306
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: IX <=> VII
@@ -130,7 +130,7 @@ kinetics:
   - 0.205
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: VIII <=> IX
@@ -145,7 +145,7 @@ kinetics:
   - 51.959
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: VIII <=> X
@@ -160,7 +160,7 @@ kinetics:
   - 37.327
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: X <=> IX
@@ -175,7 +175,7 @@ kinetics:
   - 29.169
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: X <=> XI
@@ -190,7 +190,7 @@ kinetics:
   - 35.954
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: IV <=> B
@@ -205,5 +205,5 @@ kinetics:
   - 41.203
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

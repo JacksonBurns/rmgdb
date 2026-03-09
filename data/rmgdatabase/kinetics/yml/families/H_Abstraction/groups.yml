@@ -1,13 +1,19 @@
 label: X_H_or_Xrad_H_Xbirad_H_Xtrirad_H
 group: OR{Xtrirad_H, Xbirad_H, Xrad_H, X_H}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_rad_birad_trirad_quadrad
 group: OR{Y_rad, Y_1centerbirad, Y_1centertrirad, Y_1centerquadrad}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Xtrirad_H
 group: OR{C_quartet_H, C_doublet_H}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_quartet_H
@@ -15,6 +21,8 @@ group: |2
 
   1 *1 C u3 p0 {2,S}
   2 *2 H u0 p0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_doublet_H
@@ -22,10 +30,14 @@ group: |2
 
   1 *1 C u1 p1 {2,S}
   2 *2 H u0 p0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Xbirad_H
 group: OR{CH2_triplet_H, CH2_singlet_H, NH_triplet_H, NH_singlet_H}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH2_triplet_H
@@ -34,6 +46,8 @@ group: |2
   1 *1 Cs u2 {2,S} {3,S}
   2 *2 H  u0 {1,S}
   3    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH2_singlet_H
@@ -42,6 +56,8 @@ group: |2
   1 *1 C u0 p1 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH_triplet_H
@@ -49,6 +65,8 @@ group: |2
 
   1 *1 N u2 p1 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH_singlet_H
@@ -56,6 +74,8 @@ group: |2
 
   1 *1 N u0 p2 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Xrad_H
@@ -63,6 +83,8 @@ group: |2
 
   1 *1 R!H u1 {2,S}
   2 *2 H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad_H
@@ -70,6 +92,8 @@ group: |2
 
   1 *1 C u1 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH3_rad_H
@@ -79,6 +103,8 @@ group: |2
   2 *2 H  u0 {1,S}
   3    H  u0 {1,S}
   4    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cs/H2/OneDeN
@@ -88,6 +114,8 @@ group: |2
   2 *2 H          u0 {1,S}
   3    H          u0 {1,S}
   4    [N3d,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: OH_rad_H
@@ -95,6 +123,8 @@ group: |2
 
   1 *1 O u1 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Srad_H
@@ -102,6 +132,8 @@ group: |2
 
   1 *1 S u1 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad_H
@@ -109,6 +141,8 @@ group: |2
 
   1 *1 N3s u1 {2,S}
   2 *2 H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH2_rad_H
@@ -117,6 +151,8 @@ group: |2
   1 *1 N3s u1 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad_H_pri
@@ -125,6 +161,8 @@ group: |2
   1 *1 N3s     u1 {2,S} {3,S}
   2 *2 H       u0 {1,S}
   3    [C,N,O] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad_H/H/NonDeN
@@ -133,6 +171,8 @@ group: |2
   1 *1 N3s u1 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    N3s u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5sc_radH
@@ -140,6 +180,8 @@ group: |2
 
   1 *1 N5sc u1 {2,S}
   2 *2 H    u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: X_H
@@ -147,6 +189,8 @@ group: |2
 
   1 *1 R u0 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: H2
@@ -154,6 +198,8 @@ group: |2
 
   1 *1 H u0 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Ct_H
@@ -162,6 +208,8 @@ group: |2
   1 *1 Ct    u0 {2,S} {3,T}
   2 *2 H     u0 {1,S}
   3    [C,N] u0 {1,T}
+short_description: ''
+long_description: ''
 children:
 - acetylene
 - acetylene
@@ -172,6 +220,8 @@ group: |2
   1 *1 Ct u0 {2,S} {3,T}
   2 *2 H  u0 {1,S}
   3    Ct u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Ct/H/NonDeN
@@ -180,6 +230,8 @@ group: |2
   1 *1 Ct  u0 {2,S} {3,T}
   2 *2 H   u0 {1,S}
   3    N3t u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_H
@@ -188,6 +240,8 @@ group: |2
   1 *1 O u0 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    R u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_pri
@@ -196,6 +250,8 @@ group: |2
   1 *1 O u0 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_sec
@@ -204,6 +260,8 @@ group: |2
   1 *1 O   u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/NonDeC
@@ -212,6 +270,8 @@ group: |2
   1 *1 O  u0 {2,S} {3,S}
   2 *2 H  u0 {1,S}
   3    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/NonDeO
@@ -220,6 +280,8 @@ group: |2
   1 *1 O u0 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: H2O2
@@ -229,6 +291,8 @@ group: |2
   2    O u0 {1,S} {4,S}
   3 *2 H u0 {1,S}
   4    H u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: ROOH_pri
@@ -241,6 +305,8 @@ group: |2
   5    H  u0 {1,S}
   6    H  u0 {1,S}
   7 *2 H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: ROOH_sec
@@ -253,6 +319,8 @@ group: |2
   5    Cs u0 {1,S}
   6    H  u0 {1,S}
   7 *2 H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: ROOH_ter
@@ -265,6 +333,8 @@ group: |2
   5    Cs u0 {3,S}
   6    Cs u0 {3,S}
   7 *2 H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/NonDeN
@@ -273,6 +343,8 @@ group: |2
   1 *1 O   u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    N3s u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/OneDe
@@ -281,6 +353,8 @@ group: |2
   1 *1 O                         u0 {2,S} {3,S}
   2 *2 H                         u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS,N3d,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/OneDeC
@@ -289,6 +363,8 @@ group: |2
   1 *1 O                u0 {2,S} {3,S}
   2 *2 H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O/H/OneDeN
@@ -297,6 +373,8 @@ group: |2
   1 *1 O          u0 {2,S} {3,S}
   2 *2 H          u0 {1,S}
   3    [N3d,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: OSrad_O_H
@@ -305,6 +383,8 @@ group: |2
   1 *1 O     u0 {2,S} {3,S}
   2 *2 H     u0 {1,S}
   3    [O,S] u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Orad_O_H
@@ -313,6 +393,8 @@ group: |2
   1 *1 O u0 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    O u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Srad_O_H
@@ -321,6 +403,8 @@ group: |2
   1 *1 O u0 {2,S} {3,S}
   2 *2 H u0 {1,S}
   3    S u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_H
@@ -328,6 +412,8 @@ group: |2
 
   1 *1 S u0 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_pri
@@ -336,6 +422,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/single
@@ -344,6 +432,8 @@ group: |2
   1 *1 S   u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/NonDeC
@@ -352,6 +442,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/NonDeS
@@ -360,6 +452,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    S   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/NonDeN
@@ -368,6 +462,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    N   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/NonDeO
@@ -376,6 +472,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    O   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/OneDe
@@ -384,6 +482,8 @@ group: |2
   1 *1 S2s              u0 {2,S} {3,S}
   2 *2 H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/Ct
@@ -392,6 +492,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    Ct  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/Cb
@@ -400,6 +502,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    Cb  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CO
@@ -408,6 +512,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    CO  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/Cd
@@ -417,6 +523,8 @@ group: |2
   2    Cd  u0 {1,S} {4,D}
   3 *2 H   u0 {1,S}
   4    C   u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CS
@@ -426,6 +534,8 @@ group: |2
   2    CS  u0 {1,S} {4,D}
   3 *2 H   u0 {1,S}
   4    S   u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/Rad
@@ -434,6 +544,8 @@ group: |2
   1 *1 S   u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    R!H u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CRad
@@ -442,6 +554,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    Cs  u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/SRad
@@ -450,6 +564,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    S   u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/NRad
@@ -458,6 +574,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    N   u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/ORad
@@ -466,6 +584,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    O   u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/MulBondRad
@@ -474,6 +594,8 @@ group: |2
   1 *1 S2s        u0 {2,S} {3,S}
   2 *2 H          u0 {1,S}
   3    [Cd,CO,CS] u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CORad
@@ -482,6 +604,8 @@ group: |2
   1 *1 S2s u0 {2,S} {3,S}
   2 *2 H   u0 {1,S}
   3    CO  u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CdRad
@@ -491,6 +615,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    Cd  u1 {1,S} {4,D}
   4    C   u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/CSRad
@@ -500,6 +626,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    CS  u1 {1,S} {4,D}
   4    S   u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double
@@ -508,6 +636,8 @@ group: |2
   1 *1 S   u0 p[0,1] {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val4
@@ -516,6 +646,8 @@ group: |2
   1 *1 S   u0 p1 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val4C
@@ -524,6 +656,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,D}
   2 *2 H u0 {1,S}
   3    C ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val4N
@@ -532,6 +666,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,D}
   2 *2 H u0 {1,S}
   3    N ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val4S
@@ -540,6 +676,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,D}
   2 *2 H u0 {1,S}
   3    S ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val4O
@@ -548,6 +686,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,D}
   2 *2 H u0 {1,S}
   3    O ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val6
@@ -556,6 +696,8 @@ group: |2
   1 *1 S6d u0 p0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val6C
@@ -564,6 +706,8 @@ group: |2
   1 *1 S6d u0 p0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    C   ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val6N
@@ -572,6 +716,8 @@ group: |2
   1 *1 S6d u0 p0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    N   ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val6S
@@ -580,6 +726,8 @@ group: |2
   1 *1 S6d u0 p0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    S   ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/double_val6O
@@ -588,6 +736,8 @@ group: |2
   1 *1 S6d u0 p0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    O   u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/twoDoubles
@@ -597,6 +747,8 @@ group: |2
   2 *2 H    u0 {1,S}
   3    R!H  ux {1,D}
   4    R!H  ux {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/twoDoublesOO
@@ -606,6 +758,8 @@ group: |2
   2 *2 H    u0 {1,S}
   3    O    u0 {1,D}
   4    O    u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple
@@ -614,6 +768,8 @@ group: |2
   1 *1 S   u0 p[0,1] {2,S} {3,T}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val4
@@ -622,6 +778,8 @@ group: |2
   1 *1 S   u0 p1 {2,S} {3,T}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val4C
@@ -630,6 +788,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    C ux {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val4N
@@ -638,6 +798,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    N u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val4S
@@ -646,6 +808,8 @@ group: |2
   1 *1 S u0 p1 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    S ux p[0,1] {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val6
@@ -654,6 +818,8 @@ group: |2
   1 *1 S   u0 p0 {2,S} {3,T}
   2 *2 H   u0 {1,S}
   3    R!H ux {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val6C
@@ -662,6 +828,8 @@ group: |2
   1 *1 S u0 p0 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    C ux {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val6N
@@ -670,6 +838,8 @@ group: |2
   1 *1 S u0 p0 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    N u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S/H/triple_val6S
@@ -678,6 +848,8 @@ group: |2
   1 *1 S u0 p0 {2,S} {3,T}
   2 *2 H u0 {1,S}
   3    S ux p[0,1] {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_H
@@ -687,6 +859,8 @@ group: |2
   2    [C,N] u0 {1,D}
   3 *2 H     u0 {1,S}
   4    R     u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - Cd_pri
 - Cd_sec
@@ -701,6 +875,8 @@ group: |2
   3 *2 H      u0 {1,S}
   4    H      u0 {1,S}
   5    R      u0 {2,S}
+short_description: ''
+long_description: ''
 children:
 - ethene
 - ethene
@@ -713,6 +889,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    H  u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H2/NonDeN
@@ -723,6 +901,8 @@ group: |2
   3 *2 H   u0 {1,S}
   4    H   u0 {1,S}
   5    R   u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_sec
@@ -733,6 +913,8 @@ group: |2
   3 *2 H      u0 {1,S}
   4    R!H    u0 {1,S}
   5    R      u0 {2,S}
+short_description: ''
+long_description: ''
 children:
 - Cd/H/NonDeC
 - Cd/H/NonDeO
@@ -751,6 +933,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    Cs u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/NonDeO
@@ -761,6 +945,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    O  u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/NonDeS
@@ -771,6 +957,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    S  u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/NonDeN
@@ -781,6 +969,8 @@ group: |2
   3 *2 H          u0 {1,S}
   4    [N3s,N5sc] u0 {1,S}
   5    R          u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/OneDe
@@ -791,6 +981,8 @@ group: |2
   3 *2 H                                                u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS,N3d,N3t,N3b,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
   5    R                                                u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/Ct
@@ -801,6 +993,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    Ct u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/Cb
@@ -811,6 +1005,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    Cb u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/CO
@@ -821,6 +1017,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    CO u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/Cd
@@ -832,6 +1030,8 @@ group: |2
   4 *2 H  u0 {1,S}
   5    C  u0 {3,D}
   6    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/CS
@@ -842,6 +1042,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    CS u0 {1,S}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd/H/DeN
@@ -852,6 +1054,8 @@ group: |2
   3 *2 H                                 u0 {1,S}
   4    [N3d,N3t,N3b,N5dc,N5ddc,N5tc,N5b] u0 {1,S}
   5    R                                 u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_allenic
@@ -861,6 +1065,8 @@ group: |2
   2    Cdd u0 {1,D}
   3 *2 H   u0 {1,S}
   4    R   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cdd/H2
@@ -870,6 +1076,8 @@ group: |2
   2    Cdd u0 {1,D}
   3 *2 H   u0 {1,S}
   4    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cb_H
@@ -879,6 +1087,8 @@ group: |2
   2    [Cb,Cbf] u0 {1,B}
   3    [Cb,Cbf] u0 {1,B}
   4 *2 H        u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_H
@@ -888,6 +1098,8 @@ group: |2
   2    O u0 {1,D}
   3 *2 H u0 {1,S}
   4    R u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_pri
@@ -897,6 +1109,8 @@ group: |2
   2    O u0 {1,D}
   3 *2 H u0 {1,S}
   4    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_sec
@@ -906,6 +1120,8 @@ group: |2
   2    O   u0 {1,D}
   3 *2 H   u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO/H/NonDe
@@ -915,6 +1131,8 @@ group: |2
   2    O        u0 {1,D}
   3 *2 H        u0 {1,S}
   4    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO/H/Cs
@@ -924,6 +1142,8 @@ group: |2
   2    O  u0 {1,D}
   3 *2 H  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO/H/Cs\Cs|Cs
@@ -935,6 +1155,8 @@ group: |2
   4    O  u0 {1,D}
   5 *2 H  u0 {1,S}
   6    Cs u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO/H/OneDe
@@ -944,6 +1166,8 @@ group: |2
   2    O                u0 {1,D}
   3 *2 H                u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_H
@@ -953,6 +1177,8 @@ group: |2
   2    S u0 {1,D}
   3 *2 H u0 {1,S}
   4    R u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_pri
@@ -962,6 +1188,8 @@ group: |2
   2    S u0 {1,D}
   3 *2 H u0 {1,S}
   4    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_sec
@@ -971,6 +1199,8 @@ group: |2
   2    S   u0 {1,D}
   3 *2 H   u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/NonDeC
@@ -980,6 +1210,8 @@ group: |2
   2    S  u0 {1,D}
   3 *2 H  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/NonDeO
@@ -989,6 +1221,8 @@ group: |2
   2    S u0 {1,D}
   3 *2 H u0 {1,S}
   4    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/NonDeS
@@ -998,6 +1232,8 @@ group: |2
   2    S u0 {1,D}
   3 *2 H u0 {1,S}
   4    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/OneDe
@@ -1007,6 +1243,8 @@ group: |2
   2    S                u0 {1,D}
   3 *2 H                u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/Ct
@@ -1016,6 +1254,8 @@ group: |2
   2    S  u0 {1,D}
   3 *2 H  u0 {1,S}
   4    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/Cb
@@ -1025,6 +1265,8 @@ group: |2
   2    S  u0 {1,D}
   3 *2 H  u0 {1,S}
   4    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/CO
@@ -1034,6 +1276,8 @@ group: |2
   2    S  u0 {1,D}
   3 *2 H  u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/Cd
@@ -1044,6 +1288,8 @@ group: |2
   3    S  u0 {1,D}
   4 *2 H  u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS/H/CS
@@ -1054,6 +1300,8 @@ group: |2
   3 *2 H  u0 {1,S}
   4    CS u0 {1,S} {5,D}
   5    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cs_H
@@ -1064,6 +1312,8 @@ group: |2
   3    R u0 {1,S}
   4    R u0 {1,S}
   5    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_methane
 - C_pri
@@ -1082,6 +1332,8 @@ group: |2
   3    H u0 {1,S}
   4    H u0 {1,S}
   5    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_pri
@@ -1092,6 +1344,8 @@ group: |2
   3    H   u0 {1,S}
   4    H   u0 {1,S}
   5    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_pri/NonDeC
 - C_pri/NonDeO
@@ -1110,6 +1364,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H3
@@ -1123,6 +1379,8 @@ group: |2
   6    H  u0 {2,S}
   7    H  u0 {2,S}
   8    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\OneNonDe
@@ -1136,6 +1394,8 @@ group: |2
   6    [Cs,O,S] u0 {2,S}
   7    H        u0 {2,S}
   8    H        u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H2\Cs
@@ -1149,6 +1409,8 @@ group: |2
   6    Cs u0 {2,S}
   7    H  u0 {2,S}
   8    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H2\Cs|O
@@ -1163,6 +1425,8 @@ group: |2
   7    H     u0 {2,S}
   8    H     u0 {2,S}
   9    [O,S] u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H2\O
@@ -1176,6 +1440,8 @@ group: |2
   6    [O,S] u0 {2,S}
   7    H     u0 {2,S}
   8    H     u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\TwoNonDe
@@ -1189,6 +1455,8 @@ group: |2
   6    [Cs,O,S] u0 {2,S}
   7    [Cs,O,S] u0 {2,S}
   8    H        u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H\Cs\O
@@ -1202,6 +1470,8 @@ group: |2
   6    Cs    u0 {2,S}
   7    [O,S] u0 {2,S}
   8    H     u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\H\Cs\Cs|O
@@ -1216,6 +1486,8 @@ group: |2
   7    Cs    u0 {2,S}
   8    H     u0 {2,S}
   9    [O,S] u0 {6,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cs\TwoDe
@@ -1229,6 +1501,8 @@ group: |2
   6    [Cd,CO,Cb,Ct] u0 {2,S}
   7    [Cd,CO,Cb,Ct] u0 {2,S}
   8    H             u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: 1_methyl_CPD
@@ -1244,6 +1518,8 @@ group: |2
   8     H  u0 {1,S}
   9     H  u0 {1,S}
   10    H  u0 {6,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/O
@@ -1254,6 +1530,8 @@ group: |2
   3    H u0 {1,S}
   4    H u0 {1,S}
   5    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/S
@@ -1264,6 +1542,8 @@ group: |2
   3    H u0 {1,S}
   4    H u0 {1,S}
   5    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/OneDe
@@ -1274,6 +1554,8 @@ group: |2
   3    H                u0 {1,S}
   4    H                u0 {1,S}
   5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Ct
@@ -1284,6 +1566,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cb
@@ -1294,6 +1578,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/CO
@@ -1304,6 +1590,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/CS
@@ -1314,6 +1602,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    CS u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cd
@@ -1325,6 +1615,8 @@ group: |2
   4    H  u0 {1,S}
   5    H  u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: 2_methyl_CPD
@@ -1339,6 +1631,8 @@ group: |2
   7 *2 H  u0 {1,S}
   8    H  u0 {1,S}
   9    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: 3_methyl_CPD
@@ -1353,6 +1647,8 @@ group: |2
   7 *2 H  u0 {1,S}
   8    H  u0 {1,S}
   9    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cd\H_Cd\H2
@@ -1367,6 +1663,8 @@ group: |2
   7    H  u0 {2,S}
   8    H  u0 {3,S}
   9    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cd\H_Cd\H\Cs
@@ -1381,6 +1679,8 @@ group: |2
   7    H  u0 {2,S}
   8    Cs u0 {3,S}
   9    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H3/Cd\Cs_Cd\H2
@@ -1395,6 +1695,8 @@ group: |2
   7    Cs u0 {2,S}
   8    H  u0 {3,S}
   9    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cs/H3/NonDeN
@@ -1405,6 +1707,8 @@ group: |2
   3 *2 H   u0 {1,S}
   4    H   u0 {1,S}
   5    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cs/H3/OneDeN
@@ -1415,6 +1719,8 @@ group: |2
   3 *2 H          u0 {1,S}
   4    H          u0 {1,S}
   5    H          u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_sec
@@ -1425,6 +1731,8 @@ group: |2
   3    H   u0 {1,S}
   4    R!H u0 {1,S}
   5    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H2/NonDeC
 - C/H2/NonDeO
@@ -1445,6 +1753,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/Cs/Cs\O
@@ -1456,6 +1766,8 @@ group: |2
   4    H     u0 {1,S}
   5    Cs    u0 {1,S}
   6    [O,S] u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/Cs/Cs\Cs|O
@@ -1468,6 +1780,8 @@ group: |2
   5    H     u0 {1,S}
   6    Cs    u0 {1,S}
   7    [O,S] u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeC_5ring
@@ -1480,6 +1794,8 @@ group: |2
   5    Cs u0 {3,S} {4,S}
   6 *2 H  u0 {1,S}
   7    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeC_5ring_fused6_1
@@ -1494,6 +1810,8 @@ group: |2
   7    Cs u0 {3,S} {6,S}
   8 *2 H  u0 {1,S}
   9    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeC_5ring_fused6_2
@@ -1508,6 +1826,8 @@ group: |2
   7    Cs u0 {3,S} {6,S}
   8 *2 H  u0 {1,S}
   9    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeC_5ring_alpha6ring
@@ -1524,6 +1844,8 @@ group: |2
   9     C  u0 {7,S} {8,S}
   10 *2 H  u0 {1,S}
   11    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeC_5ring_beta6ring
@@ -1540,6 +1862,8 @@ group: |2
   9     C  u0 {7,S} {8,S}
   10 *2 H  u0 {1,S}
   11    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/Cs\H3/Cs\H3
@@ -1556,6 +1880,8 @@ group: |2
   9     H  u0 {3,S}
   10    H  u0 {3,S}
   11    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeO
@@ -1566,6 +1892,8 @@ group: |2
   3    H        u0 {1,S}
   4    O        u0 {1,S}
   5    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H2/CsO
 - C/H2/O2
@@ -1580,6 +1908,8 @@ group: |2
   3    H  u0 {1,S}
   4    O  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/Cs\Cs2/O
@@ -1600,6 +1930,8 @@ group: |2
   13    H  u0 {4,S}
   14    H  u0 {4,S}
   15    H  u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/O2
@@ -1610,6 +1942,8 @@ group: |2
   3    H u0 {1,S}
   4    O u0 {1,S}
   5    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeS
@@ -1620,6 +1954,8 @@ group: |2
   3    H        u0 {1,S}
   4    S        u0 {1,S}
   5    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H2/CsS
 - C/H2/S2
@@ -1634,6 +1970,8 @@ group: |2
   3    H  u0 {1,S}
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/NonDeN
@@ -1644,6 +1982,8 @@ group: |2
   3    H          u0 {1,S}
   4    N          u0 {1,S}
   5    [Cs,O,S,N] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/OneDe
@@ -1654,6 +1994,8 @@ group: |2
   3    H                u0 {1,S}
   4    [Cd,Ct,CO,CS,Cb] u0 {1,S}
   5    [Cs,O,S]         u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H2/OneDeC
 - C/H2/OneDeO
@@ -1670,6 +2012,8 @@ group: |2
   3    H                u0 {1,S}
   4    [Cd,Ct,CO,CS,Cb] u0 {1,S}
   5    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtCs
@@ -1680,6 +2024,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CbCs
@@ -1690,6 +2036,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/COCs
@@ -1700,6 +2048,8 @@ group: |2
   3    H  u0 {1,S}
   4    CO u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CO\H/Cs\H3
@@ -1715,6 +2065,8 @@ group: |2
   8     H  u0 {2,S}
   9     O  u0 {3,D}
   10    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCs
@@ -1726,6 +2078,8 @@ group: |2
   4    H  u0 {1,S}
   5    Cs u0 {1,S}
   6    Cd u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/Cd\H_Cd\H2/Cs\H3
@@ -1743,6 +2097,8 @@ group: |2
   10    H  u0 {3,S}
   11    H  u0 {4,S}
   12    H  u0 {4,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CSCs
@@ -1754,6 +2110,8 @@ group: |2
   4    H  u0 {1,S}
   5    Cs u0 {1,S}
   6    S  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/OneDeO
@@ -1764,6 +2122,8 @@ group: |2
   3    H                u0 {1,S}
   4    [Cd,Ct,CO,CS,Cb] u0 {1,S}
   5    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/OneDeS
@@ -1774,6 +2134,8 @@ group: |2
   3    H                u0 {1,S}
   4    [Cd,Ct,CO,CS,Cb] u0 {1,S}
   5    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CbS
@@ -1784,6 +2146,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
   5    S  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtS
@@ -1794,6 +2158,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    S  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdS
@@ -1805,6 +2171,8 @@ group: |2
   4    H  u0 {1,S}
   5    S  u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CSS
@@ -1816,6 +2184,8 @@ group: |2
   4    H  u0 {1,S}
   5    S  u0 {1,S}
   6    S  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/TwoDe
@@ -1826,6 +2196,8 @@ group: |2
   3    H                u0 {1,S}
   4    [Cd,Ct,CO,CS,Cb] u0 {1,S}
   5    [Cd,Ct,CO,CS,Cb] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtCt
@@ -1836,6 +2208,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtCb
@@ -1846,6 +2220,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtCO
@@ -1856,6 +2232,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CbCb
@@ -1866,6 +2244,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
   5    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CbCO
@@ -1876,6 +2256,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
   5    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/COCO
@@ -1886,6 +2268,8 @@ group: |2
   3    H  u0 {1,S}
   4    CO u0 {1,S}
   5    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCt
@@ -1897,6 +2281,8 @@ group: |2
   4    H  u0 {1,S}
   5    Ct u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CtCS
@@ -1908,6 +2294,8 @@ group: |2
   4    Ct u0 {1,S}
   5    CS u0 {1,S} {6,D}
   6    S  u0 {5,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCb
@@ -1919,6 +2307,8 @@ group: |2
   4    H  u0 {1,S}
   5    Cb u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CbCS
@@ -1930,6 +2320,8 @@ group: |2
   4    Cb u0 {1,S}
   5    CS u0 {1,S} {6,D}
   6    S  u0 {5,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCO
@@ -1941,6 +2333,8 @@ group: |2
   4    H  u0 {1,S}
   5    CO u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/COCS
@@ -1952,6 +2346,8 @@ group: |2
   4    CO u0 {1,S}
   5    CS u0 {1,S} {6,D}
   6    S  u0 {5,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCd
@@ -1964,6 +2360,8 @@ group: |2
   5    H  u0 {1,S}
   6    C  u0 {2,D}
   7    C  u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CdCS
@@ -1976,6 +2374,8 @@ group: |2
   5    CS u0 {1,S} {7,D}
   6    C  u0 {4,D}
   7    S  u0 {5,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H2/CSCS
@@ -1988,6 +2388,8 @@ group: |2
   5    CS u0 {1,S} {7,D}
   6    S  u0 {4,D}
   7    S  u0 {5,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_ter
@@ -1998,6 +2400,8 @@ group: |2
   3    R!H u0 {1,S}
   4    R!H u0 {1,S}
   5    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H/NonDeC
 - C/H/OneDe
@@ -2016,6 +2420,8 @@ group: |2
   3    [Cs,O,S,N] u0 {1,S}
   4    [Cs,O,S,N] u0 {1,S}
   5    [Cs,O,S,N] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs3
@@ -2026,6 +2432,8 @@ group: |2
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2/Cs\O
@@ -2046,6 +2454,8 @@ group: |2
   13    H     u0 {4,S}
   14    H     u0 {4,S}
   15    H     u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2/Cs\Cs|O
@@ -2068,6 +2478,8 @@ group: |2
   15    H     u0 {4,S}
   16    H     u0 {5,S}
   17    [O,S] u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs3_5ring
@@ -2080,6 +2492,8 @@ group: |2
   5    Cs u0 {3,S} {4,S}
   6 *2 H  u0 {1,S}
   7    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs3_5ring_fused6
@@ -2093,6 +2507,8 @@ group: |2
   6    Cs u0 {2,S} {4,S}
   7    Cs u0 {2,S} {5,S}
   8 *2 H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs3_5ring_adj5
@@ -2107,6 +2523,8 @@ group: |2
   7    Cs u0 {3,S} {5,S}
   8    Cs u0 {4,S} {6,S}
   9 *2 H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2N
@@ -2117,6 +2535,8 @@ group: |2
   3    N  u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/NDMustO
@@ -2127,6 +2547,8 @@ group: |2
   3    O      u0 {1,S}
   4    [Cs,O] u0 {1,S}
   5    [Cs,O] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2O
@@ -2137,6 +2559,8 @@ group: |2
   3    O  u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CsO2
@@ -2147,6 +2571,8 @@ group: |2
   3    O  u0 {1,S}
   4    O  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/O3
@@ -2157,6 +2583,8 @@ group: |2
   3    O u0 {1,S}
   4    O u0 {1,S}
   5    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/NDMustS
@@ -2167,6 +2595,8 @@ group: |2
   3    S      u0 {1,S}
   4    [Cs,S] u0 {1,S}
   5    [Cs,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2S
@@ -2177,6 +2607,8 @@ group: |2
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CsS2
@@ -2187,6 +2619,8 @@ group: |2
   3    S  u0 {1,S}
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/S3
@@ -2197,6 +2631,8 @@ group: |2
   3    S u0 {1,S}
   4    S u0 {1,S}
   5    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/NDMustOS
@@ -2207,6 +2643,8 @@ group: |2
   3    O        u0 {1,S}
   4    S        u0 {1,S}
   5    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CsOS
@@ -2217,6 +2655,8 @@ group: |2
   3    O  u0 {1,S}
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/OneDe
@@ -2227,6 +2667,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cs,O,S]         u0 {1,S}
   5    [Cs,O,S]         u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H/Cs2
 - C/H/ODMustO
@@ -2242,6 +2684,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    Cs               u0 {1,S}
   5    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2Ct
@@ -2252,6 +2696,8 @@ group: |2
   3    Ct u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2Cb
@@ -2262,6 +2708,8 @@ group: |2
   3    Cb u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2CO
@@ -2272,6 +2720,8 @@ group: |2
   3    CO u0 {1,S}
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2Cd
@@ -2283,6 +2733,8 @@ group: |2
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/Cs2CS
@@ -2294,6 +2746,8 @@ group: |2
   4    Cs u0 {1,S}
   5    Cs u0 {1,S}
   6    S  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CsO
@@ -2304,6 +2758,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    O                u0 {1,S}
   5    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CsS
@@ -2314,6 +2770,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    S                u0 {1,S}
   5    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CbCsS
@@ -2324,6 +2782,8 @@ group: |2
   3    Cb u0 {1,S}
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CtCsS
@@ -2334,6 +2794,8 @@ group: |2
   3    Ct u0 {1,S}
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCsS
@@ -2345,6 +2807,8 @@ group: |2
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CSCsS
@@ -2356,6 +2820,8 @@ group: |2
   4    S  u0 {1,S}
   5    Cs u0 {1,S}
   6    S  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/OO
@@ -2366,6 +2832,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    O                u0 {1,S}
   5    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/OS
@@ -2376,6 +2844,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    O                u0 {1,S}
   5    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/SS
@@ -2386,6 +2856,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    S                u0 {1,S}
   5    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/TwoDe
@@ -2396,6 +2868,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   5    [Cs,O,S]         u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C/H/Cs
 - C/H/TDMustO
@@ -2411,6 +2885,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   5    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CtCt
@@ -2421,6 +2897,8 @@ group: |2
   3    Ct u0 {1,S}
   4    Ct u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CtCb
@@ -2431,6 +2909,8 @@ group: |2
   3    Ct u0 {1,S}
   4    Cb u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CtCO
@@ -2441,6 +2921,8 @@ group: |2
   3    Ct u0 {1,S}
   4    CO u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CbCb
@@ -2451,6 +2933,8 @@ group: |2
   3    Cb u0 {1,S}
   4    Cb u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CbCO
@@ -2461,6 +2945,8 @@ group: |2
   3    Cb u0 {1,S}
   4    CO u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/COCO
@@ -2471,6 +2957,8 @@ group: |2
   3    CO u0 {1,S}
   4    CO u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCt
@@ -2482,6 +2970,8 @@ group: |2
   4    Ct u0 {1,S}
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CtCS
@@ -2493,6 +2983,8 @@ group: |2
   4    CS u0 {1,S} {6,D}
   5    Cs u0 {1,S}
   6    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCb
@@ -2504,6 +2996,8 @@ group: |2
   4    Cb u0 {1,S}
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CbCS
@@ -2514,6 +3008,8 @@ group: |2
   3    Cb u0 {1,S}
   4    CS u0 {1,S}
   5    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCO
@@ -2525,6 +3021,8 @@ group: |2
   4    CO u0 {1,S}
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/COCS
@@ -2536,6 +3034,8 @@ group: |2
   4    CS u0 {1,S} {6,D}
   5    Cs u0 {1,S}
   6    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCd
@@ -2548,6 +3048,8 @@ group: |2
   5    Cs u0 {1,S}
   6    C  u0 {2,D}
   7    C  u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CdCS
@@ -2560,6 +3062,8 @@ group: |2
   5    Cs u0 {1,S}
   6    C  u0 {3,D}
   7    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/CSCS
@@ -2572,6 +3076,8 @@ group: |2
   5    Cs u0 {1,S}
   6    S  u0 {3,D}
   7    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/TDMustO
@@ -2582,6 +3088,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   5    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/TDMustS
@@ -2592,6 +3100,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   5    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C/H/ThreeDe
@@ -2602,6 +3112,8 @@ group: |2
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3_H
@@ -2609,6 +3121,8 @@ group: |2
 
   1 *1 [N3s,N3d] u0 {2,S}
   2 *2 H         u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_H
@@ -2618,6 +3132,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    R   u0 {1,S}
   4    R   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH3
@@ -2627,6 +3143,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
   4    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_pri_H
@@ -2636,6 +3154,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/NonDe
@@ -2645,6 +3165,8 @@ group: |2
   2 *2 H            u0 {1,S}
   3    H            u0 {1,S}
   4    [N3s,Cs,O2s] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/NonDeC
@@ -2654,6 +3176,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
   4    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/NonDeO
@@ -2663,6 +3187,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
   4    O2s u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/NonDeN
@@ -2672,6 +3198,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    H   u0 {1,S}
   4    N3s u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/OneDe
@@ -2681,6 +3209,8 @@ group: |2
   2 *2 H                          u0 {1,S}
   3    H                          u0 {1,S}
   4    [Cd,Cdd,Ct,CO,CS,N3d,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s/H2/OneDeN
@@ -2690,6 +3220,8 @@ group: |2
   2 *2 H          u0 {1,S}
   3    H          u0 {1,S}
   4    [N3d,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_sec_H
@@ -2699,6 +3231,8 @@ group: |2
   2 *2 H   u0 {1,S}
   3    R!H u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d_H
@@ -2707,6 +3241,8 @@ group: |2
   1 *1 N3d u0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    R!H u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/NonDe
@@ -2715,6 +3251,8 @@ group: |2
   1 *1 N3d          u0 {2,S} {3,D}
   2 *2 H            u0 {1,S}
   3    [N3d,O2d,Cd] u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/NonDeC
@@ -2725,6 +3263,8 @@ group: |2
   3    R   u0 {1,S}
   4    R   u0 {1,S}
   5 *2 H   u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/NonDeO
@@ -2733,6 +3273,8 @@ group: |2
   1 *1 N3d u0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    O2d u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/NonDeN
@@ -2741,6 +3283,8 @@ group: |2
   1 *1 N3d u0 {2,S} {3,D}
   2 *2 H   u0 {1,S}
   3    N3d u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/OneDe
@@ -2750,6 +3294,8 @@ group: |2
   2    Cdd u0 {1,D} {4,D}
   3 *2 H   u0 {1,S}
   4    R!H u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d/H/CddO
@@ -2759,6 +3305,8 @@ group: |2
   2    Cdd u0 {1,D} {4,D}
   3 *2 H   u0 {1,S}
   4    O2d u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5_H
@@ -2766,6 +3314,8 @@ group: |2
 
   1 *1 [N5sc,N5dc,N5ddc,N5tc,N5b] u0 p0 c+1 {2,S}
   2 *2 H                          u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5dc_H
@@ -2773,6 +3323,8 @@ group: |2
 
   1 *1 N5dc u0 p0 c+1 {2,S}
   2 *2 H    u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5dc/H/NonDeOO
@@ -2782,6 +3334,8 @@ group: |2
   2 *2 H    u0 {1,S}
   3    O2s  u0 {1,S}
   4    O2d  u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: HCl
@@ -2789,38 +3343,52 @@ group: |2
 
   1 *1 Cl1s u0 {2,S}
   2 *2 H    u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_1centerquadrad
 group: OR{C_quintet, C_triplet}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_quintet
 group: |2
 
   1 *3 C u4 p0
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_triplet
 group: |2
 
   1 *3 C u2 p1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_1centertrirad
 group: OR{N_atom_quartet, N_atom_doublet, CH_quartet, CH_doublet}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N_atom_quartet
 group: |2
 
   1 *3 N u3 p1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N_atom_doublet
 group: |2
 
   1 *3 N u1 p2
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH_quartet
@@ -2828,6 +3396,8 @@ group: |2
 
   1 *3 C u3 p0 {2,S}
   2    H u0 p0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH_doublet
@@ -2835,12 +3405,16 @@ group: |2
 
   1 *3 C u1 p1 {2,S}
   2    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_1centerbirad
 group: |2
 
   1 *3 [Cs,Cd,CO,CS,O,S,N] u2
+short_description: ''
+long_description: ''
 children:
 - O_atom_triplet
 - CH2_triplet
@@ -2849,12 +3423,16 @@ label: O_atom_triplet
 group: |2
 
   1 *3 O u2
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_atom_triplet
 group: |2
 
   1 *3 S u2
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CH2_triplet
@@ -2863,6 +3441,8 @@ group: |2
   1 *3 Cs u2 {2,S} {3,S}
   2    H  u0 {1,S}
   3    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH_triplet
@@ -2870,12 +3450,16 @@ group: |2
 
   1 *3 N3s u2 {2,S}
   2    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_rad
 group: |2
 
   1 *3 R u1
+short_description: ''
+long_description: ''
 children:
 - H_rad
 - O_rad
@@ -2900,6 +3484,8 @@ label: H_rad
 group: |2
 
   1 *3 H u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Y_2centeradjbirad
@@ -2907,6 +3493,8 @@ group: |2
 
   1 *3 [Ct,O2s,S2s] u1 {2,[S,T]}
   2    [Ct,O2s,S2s] u1 {1,[S,T]}
+short_description: ''
+long_description: ''
 children:
 - S2b
 - O2b
@@ -2917,6 +3505,8 @@ group: |2
 
   1 *3 O2s u1 {2,S}
   2    O2s u1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S2b
@@ -2924,6 +3514,8 @@ group: |2
 
   1 *3 S2s u1 p2 {2,S}
   2    S2s u1 p2 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C2b
@@ -2931,6 +3523,8 @@ group: |2
 
   1 *3 Ct u1 {2,T}
   2    Ct u1 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Ct_rad
@@ -2938,6 +3532,8 @@ group: |2
 
   1 *3 C     u1 {2,T}
   2    [C,N] u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Ct_rad/Ct
@@ -2945,6 +3541,8 @@ group: |2
 
   1 *3 Ct u1 {2,T}
   2    Ct u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Ct_rad/N
@@ -2952,6 +3550,8 @@ group: |2
 
   1 *3 Ct         u1 {2,T}
   2    [N3t,N5tc] u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad
@@ -2959,6 +3559,8 @@ group: |2
 
   1 *3 O u1 {2,S}
   2    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - O_pri_rad
 - O_sec_rad
@@ -2972,6 +3574,8 @@ group: |2
 
   1 *3 O u1 {2,S}
   2    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_sec_rad
@@ -2979,6 +3583,8 @@ group: |2
 
   1 *3 O   u1 {2,S}
   2    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - O_rad/NonDeC
 - O_rad/NonDeO
@@ -2993,6 +3599,8 @@ group: |2
 
   1 *3 O  u1 {2,S}
   2    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cs\H2\Cs|H|Cs2
@@ -3012,6 +3620,8 @@ group: |2
   12    H  u0 {4,S}
   13    H  u0 {4,S}
   14    H  u0 {4,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/NonDeO
@@ -3019,6 +3629,8 @@ group: |2
 
   1 *3 O u1 {2,S}
   2    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: OOC
@@ -3027,6 +3639,8 @@ group: |2
   1    O u0 {2,S} {3,S}
   2 *3 O u1 {1,S}
   3    C u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/NonDeN
@@ -3034,6 +3648,8 @@ group: |2
 
   1 *3 O   u1 {2,S}
   2    N3s u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/OneDe
@@ -3041,6 +3657,8 @@ group: |2
 
   1 *3 O                             u1 {2,S}
   2    [Cd,Ct,Cb,CO,CS,N3d,N3t,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/OneDeC
@@ -3048,6 +3666,8 @@ group: |2
 
   1 *3 O                u1 {2,S}
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd
@@ -3056,6 +3676,8 @@ group: |2
   1    Cd       u0 {2,S} {3,D}
   2 *3 O        u1 {1,S}
   3    [Cd,Cdd] u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\H_Cd\H2
@@ -3067,6 +3689,8 @@ group: |2
   4    H  u0 {1,S}
   5    H  u0 {2,S}
   6    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\H_Cd\H\Cs
@@ -3078,6 +3702,8 @@ group: |2
   4    H  u0 {1,S}
   5    Cs u0 {2,S}
   6    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\H_Cd\Cs2
@@ -3089,6 +3715,8 @@ group: |2
   4    H  u0 {2,S}
   5    Cs u0 {3,S}
   6    Cs u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\Cs_Cd\H2
@@ -3100,6 +3728,8 @@ group: |2
   4    Cs u0 {1,S}
   5    H  u0 {2,S}
   6    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\Cs_Cd\H\Cs
@@ -3111,6 +3741,8 @@ group: |2
   4    Cs u0 {2,S}
   5    Cs u0 {3,S}
   6    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/Cd\Cs_Cd\Cs2
@@ -3122,6 +3754,8 @@ group: |2
   4    Cs u0 {2,S}
   5    Cs u0 {3,S}
   6    Cs u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O_rad/OneDeN
@@ -3129,6 +3763,8 @@ group: |2
 
   1 *3 O              u1 {2,S}
   2    [N3d,N3t,N5dc] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: InChI=1S/NO3/c2-1(3)4
@@ -3138,12 +3774,16 @@ group: |2
   2    N5dc u0 {1,S} {3,D} {4,S}
   3    O2d  u0 {2,D}
   4    O2s  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad
 group: |2
 
   1 *3 S u1
+short_description: ''
+long_description: ''
 children:
 - S_pri_rad
 - S_sec_rad
@@ -3155,6 +3795,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/single
@@ -3162,6 +3804,8 @@ group: |2
 
   1 *3 S   u1 {2,S}
   2    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/NonDeC
@@ -3169,6 +3813,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/NonDeS
@@ -3176,6 +3822,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    S   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/NonDeN
@@ -3183,6 +3831,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    N   u0 p1 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/NonDeO
@@ -3190,6 +3840,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    O   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/OneDe
@@ -3197,6 +3849,8 @@ group: |2
 
   1 *3 S2s              u1 {2,S}
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/Ct
@@ -3204,6 +3858,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    Ct  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/Cb
@@ -3211,6 +3867,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    Cb  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/CO
@@ -3218,6 +3876,8 @@ group: |2
 
   1 *3 S2s u1 {2,S}
   2    CO  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/Cd
@@ -3226,6 +3886,8 @@ group: |2
   1    Cd  u0 {2,S} {3,D}
   2 *3 S2s u1 {1,S}
   3    C   u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/CS
@@ -3234,6 +3896,8 @@ group: |2
   1 *3 S2s u1 {2,S}
   2    CS  u0 {1,S} {3,D}
   3    S   u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double
@@ -3241,6 +3905,8 @@ group: |2
 
   1 *3 S   u1 p[0,1] {2,D}
   2    R!H u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val4
@@ -3248,6 +3914,8 @@ group: |2
 
   1 *3 S   u1 p1 {2,D}
   2    R!H u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val4C
@@ -3255,6 +3923,8 @@ group: |2
 
   1 *3 S u1 p1 {2,D}
   2    C u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val4N
@@ -3262,6 +3932,8 @@ group: |2
 
   1 *3 S u1 p1 {2,D}
   2    N u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val4S
@@ -3269,6 +3941,8 @@ group: |2
 
   1 *3 S u1 p1 {2,D}
   2    S u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val4O
@@ -3276,6 +3950,8 @@ group: |2
 
   1 *3 S u1 p1 {2,D}
   2    O u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val6
@@ -3283,6 +3959,8 @@ group: |2
 
   1 *3 [S6d,S6dc] u1 p0 {2,D}
   2    R!H        u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val6C
@@ -3290,6 +3968,8 @@ group: |2
 
   1 *3 [S6d,S6dc] u1 p0 {2,D}
   2    C          u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val6N
@@ -3297,6 +3977,8 @@ group: |2
 
   1 *3 [S6d,S6dc] u1 p0 {2,D}
   2    N          u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val6S
@@ -3304,6 +3986,8 @@ group: |2
 
   1 *3 [S6d,S6dc] u1 p0 {2,D}
   2    S          u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/double_val6O
@@ -3311,6 +3995,8 @@ group: |2
 
   1 *3 [S6d,S6dc] u1 p0 {2,D}
   2    O          u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/twoDoubles
@@ -3319,6 +4005,8 @@ group: |2
   1 *3 [S6dd,S6dc] u1 p0 {2,D} {3,D}
   2    R!H         u0 {1,D}
   3    R!H         u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/twoDoublesOO
@@ -3327,6 +4015,8 @@ group: |2
   1 *3 [S6dd,S6dc] u1 p0 {2,D} {3,D}
   2    O           u0 {1,D}
   3    O           u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple
@@ -3334,6 +4024,8 @@ group: |2
 
   1 *3 S   u1 p[0,1] {2,T}
   2    R!H u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val4
@@ -3341,6 +4033,8 @@ group: |2
 
   1 *3 S   u1 p1 {2,T}
   2    R!H u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val4C
@@ -3348,6 +4042,8 @@ group: |2
 
   1 *3 S u1 p1 {2,T}
   2    C u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val4N
@@ -3355,6 +4051,8 @@ group: |2
 
   1 *3 S u1 p1 {2,T}
   2    N u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val4S
@@ -3362,6 +4060,8 @@ group: |2
 
   1 *3 S u1 p1 {2,T}
   2    S u0 p[0,1] {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val6
@@ -3369,6 +4069,8 @@ group: |2
 
   1 *3 S   u1 p0 {2,T}
   2    R!H u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val6C
@@ -3376,6 +4078,8 @@ group: |2
 
   1 *3 S u1 p0 {2,T}
   2    C u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val6N
@@ -3383,6 +4087,8 @@ group: |2
 
   1 *3 S u1 p0 {2,T}
   2    N u0 {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: S_rad/triple_val6S
@@ -3390,6 +4096,8 @@ group: |2
 
   1 *3 S u1 p0 {2,T}
   2    S u0 p[0,1] {1,T}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad
@@ -3398,6 +4106,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    C u0 {1,D}
   3    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - Cd_pri_rad
 - Cd_sec_rad
@@ -3411,6 +4121,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    H  u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\H2_pri_rad
@@ -3421,6 +4133,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\H\Cs_pri_rad
@@ -3431,6 +4145,8 @@ group: |2
   3    Cs u0 {1,S}
   4    H  u0 {1,S}
   5    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\H\Cs|H2|Cs_pri_rad
@@ -3444,6 +4160,8 @@ group: |2
   6    H  u0 {1,S}
   7    H  u0 {2,S}
   8    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\Cs2_pri_rad
@@ -3454,6 +4172,8 @@ group: |2
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
   5    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_sec_rad
@@ -3463,6 +4183,8 @@ group: |2
   2    Cd  u0 {1,D} {4,S}
   3    R!H u0 {1,S}
   4    R   u0 {2,S}
+short_description: ''
+long_description: ''
 children:
 - Cd_rad/NonDe
 - Cd_rad/OneDe
@@ -3476,6 +4198,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    Cs u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\H2_rad/Cs
@@ -3486,6 +4210,8 @@ group: |2
   3    H  u0 {1,S}
   4    H  u0 {1,S}
   5    Cs u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cd\H\Cs_rad/Cs
@@ -3499,6 +4225,8 @@ group: |2
   6    H  u0 {1,S}
   7    Cs u0 {2,S}
   8    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/NonDeO
@@ -3508,6 +4236,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    O  u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/NonDeS
@@ -3517,6 +4247,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    S  u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/NonDeN
@@ -3526,6 +4258,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    N  u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/OneDe
@@ -3535,6 +4269,8 @@ group: |2
   2    Cd               u0 {1,D} {4,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    R                u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/Ct
@@ -3544,6 +4280,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    Ct u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/Cb
@@ -3553,6 +4291,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    Cb u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/CO
@@ -3562,6 +4302,8 @@ group: |2
   2    Cd u0 {1,D} {4,S}
   3    CO u0 {1,S}
   4    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/Cd
@@ -3572,6 +4314,8 @@ group: |2
   3    Cd u0 {1,S} {4,D}
   4    C  u0 {3,D}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_rad/CS
@@ -3582,6 +4326,8 @@ group: |2
   3    CS u0 {1,S} {4,D}
   4    S  u0 {3,D}
   5    R  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_allenic_rad
@@ -3590,6 +4336,8 @@ group: |2
   1 *3 Cd  u1 {2,D} {3,S}
   2    Cdd u0 {1,D}
   3    R   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cd_Cdd_rad/H
@@ -3598,6 +4346,8 @@ group: |2
   1 *3 Cd  u1 {2,D} {3,S}
   2    Cdd u0 {1,D}
   3    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cb_rad
@@ -3606,6 +4356,8 @@ group: |2
   1 *3 Cb       u1 {2,B} {3,B}
   2    [Cb,Cbf] u0 {1,B}
   3    [Cb,Cbf] u0 {1,B}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_rad
@@ -3614,6 +4366,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    O u0 {1,D}
   3    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CO_pri_rad
 - CO_sec_rad
@@ -3628,6 +4382,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    O u0 {1,D}
   3    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_sec_rad
@@ -3636,6 +4392,8 @@ group: |2
   1 *3 C   u1 {2,D} {3,S}
   2    O   u0 {1,D}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CO_rad/NonDe
 - CO_rad/OneDe
@@ -3646,6 +4404,8 @@ group: |2
   1 *3 C        u1 {2,D} {3,S}
   2    O        u0 {1,D}
   3    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_rad/Cs
@@ -3654,6 +4414,8 @@ group: |2
   1 *3 C  u1 {2,D} {3,S}
   2    O  u0 {1,D}
   3    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CO_rad/OneDe
@@ -3662,6 +4424,8 @@ group: |2
   1 *3 C                u1 {2,D} {3,S}
   2    O                u0 {1,D}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad
@@ -3670,6 +4434,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    S u0 {1,D}
   3    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CS_pri_rad
 - CS_sec_rad
@@ -3682,6 +4448,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    S u0 {1,D}
   3    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_sec_rad
@@ -3690,6 +4458,8 @@ group: |2
   1 *3 C   u1 {2,D} {3,S}
   2    S   u0 {1,D}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/NonDe
@@ -3698,6 +4468,8 @@ group: |2
   1 *3 C        u1 {2,D} {3,S}
   2    S        u0 {1,D}
   3    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/Cs
@@ -3706,6 +4478,8 @@ group: |2
   1 *3 C  u1 {2,D} {3,S}
   2    S  u0 {1,D}
   3    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/O
@@ -3714,6 +4488,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    S u0 {1,D}
   3    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/S
@@ -3722,6 +4498,8 @@ group: |2
   1 *3 C u1 {2,D} {3,S}
   2    S u0 {1,D}
   3    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/OneDe
@@ -3730,6 +4508,8 @@ group: |2
   1 *3 C                u1 {2,D} {3,S}
   2    S                u0 {1,D}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/Ct
@@ -3738,6 +4518,8 @@ group: |2
   1 *3 C  u1 {2,D} {3,S}
   2    S  u0 {1,D}
   3    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/Cb
@@ -3746,6 +4528,8 @@ group: |2
   1 *3 C  u1 {2,D} {3,S}
   2    S  u0 {1,D}
   3    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/CO
@@ -3754,6 +4538,8 @@ group: |2
   1 *3 C  u1 {2,D} {3,S}
   2    S  u0 {1,D}
   3    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/Cd
@@ -3763,6 +4549,8 @@ group: |2
   2    Cd u0 {1,S} {4,D}
   3    S  u0 {1,D}
   4    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: CS_rad/CS
@@ -3772,6 +4560,8 @@ group: |2
   2    S  u0 {1,D}
   3    CS u0 {1,S} {4,D}
   4    S  u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cs_rad
@@ -3781,6 +4571,8 @@ group: |2
   2    R u0 {1,S}
   3    R u0 {1,S}
   4    R u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_methyl
 - C_pri_rad
@@ -3798,6 +4590,8 @@ group: |2
   2    H u0 {1,S}
   3    H u0 {1,S}
   4    H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_pri_rad
@@ -3807,6 +4601,8 @@ group: |2
   2    H   u0 {1,S}
   3    H   u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/H2/Cs
 - C_rad/H2/Cd
@@ -3832,6 +4628,8 @@ group: |2
   2    H  u0 {1,S}
   3    H  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CH2CH3
 - CH2CH2CH3
@@ -3848,6 +4646,8 @@ group: |2
   5    H  u0 {1,S}
   6    H  u0 {2,S}
   7    H  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cs\Cs2\O
@@ -3860,6 +4660,8 @@ group: |2
   5    C     u0 {1,S}
   6    H     u0 {2,S}
   7    H     u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cs\H\Cs\Cs|O
@@ -3873,6 +4675,8 @@ group: |2
   6    H     u0 {2,S}
   7    H     u0 {2,S}
   8    [O,S] u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cs\H\Cs|Cs\O
@@ -3886,6 +4690,8 @@ group: |2
   6    H     u0 {2,S}
   7    H     u0 {2,S}
   8    C     u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cs\H2\Cs|Cs|O
@@ -3900,6 +4706,8 @@ group: |2
   7    [O,S] u0 {3,S}
   8    H     u0 {2,S}
   9    H     u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cs\H2\Cs|Cs#O
@@ -3914,6 +4722,8 @@ group: |2
   7    H     u0 {2,S}
   8    H     u0 {2,S}
   9    [O,S] u0 {4,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Ct
@@ -3923,6 +4733,8 @@ group: |2
   2    H  u0 {1,S}
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cb
@@ -3932,6 +4744,8 @@ group: |2
   2    H  u0 {1,S}
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/CO
@@ -3941,6 +4755,8 @@ group: |2
   2    H  u0 {1,S}
   3    H  u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/CS
@@ -3950,6 +4766,8 @@ group: |2
   2    H  u0 {1,S}
   3    H  u0 {1,S}
   4    CS u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/O
@@ -3959,6 +4777,8 @@ group: |2
   2    H u0 {1,S}
   3    H u0 {1,S}
   4    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/S
@@ -3968,6 +4788,8 @@ group: |2
   2    H u0 {1,S}
   3    H u0 {1,S}
   4    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cd
@@ -3978,6 +4800,8 @@ group: |2
   3    H u0 {1,S}
   4    H u0 {1,S}
   5    C u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cd\H_Cd\H2
@@ -3989,6 +4813,8 @@ group: |2
   4    H u0 {1,S}
   5    H u0 {1,S}
   6    H u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/Cd\Cs_Cd\H2
@@ -4005,6 +4831,8 @@ group: |2
   9     H u0 {3,S}
   10    H u0 {4,S}
   11    H u0 {4,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H2/N
@@ -4014,6 +4842,8 @@ group: |2
   2    H u0 {1,S}
   3    H u0 {1,S}
   4    N u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_sec_rad
@@ -4023,6 +4853,8 @@ group: |2
   2    H   u0 {1,S}
   3    R!H u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/H/NonDeC
 - C_rad/H/NonDeO
@@ -4040,6 +4872,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CH(CH3)2
 - CH(CH3)2
@@ -4055,6 +4889,8 @@ group: |2
   6    Cs u0 {1,S} {7,S}
   7    Cs u0 {2,S} {6,S}
   8    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeC_5ring_fused6_2
@@ -4068,6 +4904,8 @@ group: |2
   6    Cs u0 {2,S} {7,S}
   7    Cs u0 {3,S} {6,S}
   8    H  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H3/Cs\H3
@@ -4083,6 +4921,8 @@ group: |2
   8     H  u0 {2,S}
   9     H  u0 {2,S}
   10    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeC_5ring_alpha6ring
@@ -4098,6 +4938,8 @@ group: |2
   8     C  u0 {5,S} {9,S}
   9     C  u0 {7,S} {8,S}
   10    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeC_5ring_beta6ring
@@ -4113,6 +4955,8 @@ group: |2
   8     C  u0 {6,S} {9,S}
   9     C  u0 {7,S} {8,S}
   10    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H2\CO/Cs
@@ -4125,6 +4969,8 @@ group: |2
   5    H       u0 {1,S}
   6    Cs      u0 {2,S}
   7    H       u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H2\Cs/Cs\H2\O
@@ -4144,6 +4990,8 @@ group: |2
   12    H     u0 {2,S}
   13    H     u0 {4,S}
   14    H     u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H\Cs\O/Cs
@@ -4163,6 +5011,8 @@ group: |2
   12    H         u0 {3,S}
   13    H         u0 {4,S}
   14    H         u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H2\Cs|O/Cs
@@ -4182,6 +5032,8 @@ group: |2
   12    H     u0 {3,S}
   13    H     u0 {4,S}
   14    H     u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeO
@@ -4191,6 +5043,8 @@ group: |2
   2    H        u0 {1,S}
   3    O        u0 {1,S}
   4    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/H/CsO
 - C_rad/H/O2
@@ -4204,6 +5058,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cs u0 {1,S}
   4    O  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H2\Cs/O
@@ -4216,6 +5072,8 @@ group: |2
   5    Cs u0 {1,S}
   6    H  u0 {2,S}
   7    O  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H2\Cs|H2|Cs/O
@@ -4235,6 +5093,8 @@ group: |2
   12    H  u0 {3,S}
   13    H  u0 {4,S}
   14    H  u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/Cs\H\Cs2/O
@@ -4248,6 +5108,8 @@ group: |2
   6    H  u0 {1,S}
   7    H  u0 {2,S}
   8    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/O2
@@ -4257,6 +5119,8 @@ group: |2
   2    H u0 {1,S}
   3    O u0 {1,S}
   4    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeS
@@ -4266,6 +5130,8 @@ group: |2
   2    H        u0 {1,S}
   3    S        u0 {1,S}
   4    [Cs,S,O] u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/H/CsS
 - C_rad/H/S2
@@ -4281,6 +5147,8 @@ group: |2
   2    H  u0 {1,S}
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/S2
@@ -4290,6 +5158,8 @@ group: |2
   2    H u0 {1,S}
   3    S u0 {1,S}
   4    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeCN
@@ -4299,6 +5169,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cs u0 {1,S}
   4    N  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeON
@@ -4308,6 +5180,8 @@ group: |2
   2    H u0 {1,S}
   3    O u0 {1,S}
   4    N u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/NonDeNN
@@ -4317,6 +5191,8 @@ group: |2
   2    H u0 {1,S}
   3    N u0 {1,S}
   4    N u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/OneDe
@@ -4326,6 +5202,8 @@ group: |2
   2    H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cs,O,S,N]       u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/H/OneDeC
 - C_rad/H/OneDeO
@@ -4341,6 +5219,8 @@ group: |2
   2    H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtCs
@@ -4350,6 +5230,8 @@ group: |2
   2    H  u0 {1,S}
   3    Ct u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CbCs
@@ -4359,6 +5241,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cb u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CO/Cs
@@ -4368,6 +5252,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cs u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CO\H/Cs\H3
@@ -4382,6 +5268,8 @@ group: |2
   7    H  u0 {2,S}
   8    O  u0 {3,D}
   9    H  u0 {3,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCs
@@ -4392,6 +5280,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CSCs
@@ -4401,6 +5291,8 @@ group: |2
   2    H  u0 {1,S}
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/OneDeO
@@ -4410,6 +5302,8 @@ group: |2
   2    H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/OneDeS
@@ -4419,6 +5313,8 @@ group: |2
   2    H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtS
@@ -4428,6 +5324,8 @@ group: |2
   2    H  u0 {1,S}
   3    Ct u0 {1,S}
   4    S  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CbS
@@ -4437,6 +5335,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cb u0 {1,S}
   4    S  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdS
@@ -4447,6 +5347,8 @@ group: |2
   3    H  u0 {1,S}
   4    S  u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CSS
@@ -4457,6 +5359,8 @@ group: |2
   3    H  u0 {1,S}
   4    S  u0 {1,S}
   5    S  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/OneDeN
@@ -4466,6 +5370,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cd u0 {1,S}
   4    N  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/TwoDe
@@ -4475,6 +5381,8 @@ group: |2
   2    H                u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtCt
@@ -4484,6 +5392,8 @@ group: |2
   2    H  u0 {1,S}
   3    Ct u0 {1,S}
   4    Ct u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtCb
@@ -4493,6 +5403,8 @@ group: |2
   2    H  u0 {1,S}
   3    Ct u0 {1,S}
   4    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtCO
@@ -4502,6 +5414,8 @@ group: |2
   2    H  u0 {1,S}
   3    Ct u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CbCb
@@ -4511,6 +5425,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cb u0 {1,S}
   4    Cb u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CbCO
@@ -4520,6 +5436,8 @@ group: |2
   2    H  u0 {1,S}
   3    Cb u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/COCO
@@ -4529,6 +5447,8 @@ group: |2
   2    H  u0 {1,S}
   3    CO u0 {1,S}
   4    CO u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCt
@@ -4539,6 +5459,8 @@ group: |2
   3    H  u0 {1,S}
   4    Ct u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CtCS
@@ -4549,6 +5471,8 @@ group: |2
   3    Ct u0 {1,S}
   4    CS u0 {1,S} {5,D}
   5    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCb
@@ -4559,6 +5483,8 @@ group: |2
   3    H  u0 {1,S}
   4    Cb u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CbCS
@@ -4569,6 +5495,8 @@ group: |2
   3    Cb u0 {1,S}
   4    CS u0 {1,S} {5,D}
   5    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCO
@@ -4579,6 +5507,8 @@ group: |2
   3    H  u0 {1,S}
   4    CO u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/COCS
@@ -4588,6 +5518,8 @@ group: |2
   2    H  u0 {1,S}
   3    CO u0 {1,S}
   4    CS u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCd
@@ -4599,6 +5531,8 @@ group: |2
   4    H  u0 {1,S}
   5    C  u0 {2,D}
   6    C  u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CdCS
@@ -4610,6 +5544,8 @@ group: |2
   4    CS u0 {1,S} {6,D}
   5    C  u0 {3,D}
   6    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/H/CSCS
@@ -4621,6 +5557,8 @@ group: |2
   4    CS u0 {1,S} {6,D}
   5    S  u0 {3,D}
   6    S  u0 {4,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_ter_rad
@@ -4630,6 +5568,8 @@ group: |2
   2    R!H u0 {1,S}
   3    R!H u0 {1,S}
   4    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/NonDeC
 - C_rad/OneDe
@@ -4647,6 +5587,8 @@ group: |2
   2    [Cs,O,S] u0 {1,S}
   3    [Cs,O,S] u0 {1,S}
   4    [Cs,O,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs3
@@ -4656,6 +5598,8 @@ group: |2
   2    Cs u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs2/Cs\O
@@ -4666,6 +5610,8 @@ group: |2
   3    Cs    u0 {1,S}
   4    Cs    u0 {1,S}
   5    [O,S] u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs3_5ring_fused6
@@ -4678,6 +5624,8 @@ group: |2
   5    Cs u0 {1,S} {7,S}
   6    Cs u0 {2,S} {4,S}
   7    Cs u0 {2,S} {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs3_5ring_adj5
@@ -4691,6 +5639,8 @@ group: |2
   6    Cs u0 {2,S} {8,S}
   7    Cs u0 {3,S} {5,S}
   8    Cs u0 {4,S} {6,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/NDMustO
@@ -4700,6 +5650,8 @@ group: |2
   2    O      u0 {1,S}
   3    [Cs,O] u0 {1,S}
   4    [Cs,O] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs2O
@@ -4709,6 +5661,8 @@ group: |2
   2    O  u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/OOH/Cs/Cs
@@ -4719,6 +5673,8 @@ group: |2
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
   5    O  u0 {2,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/O/Cs/Cs\Cs
@@ -4738,6 +5694,8 @@ group: |2
   12    H  u0 {3,S}
   13    H  u0 {3,S}
   14    H  u0 {5,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CsO2
@@ -4747,6 +5705,8 @@ group: |2
   2    O  u0 {1,S}
   3    O  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/O3
@@ -4756,6 +5716,8 @@ group: |2
   2    O u0 {1,S}
   3    O u0 {1,S}
   4    O u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/NDMustS
@@ -4765,6 +5727,8 @@ group: |2
   2    S      u0 {1,S}
   3    [Cs,S] u0 {1,S}
   4    [Cs,S] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/Cs2S
@@ -4774,6 +5738,8 @@ group: |2
   2    S  u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CsS2
@@ -4783,6 +5749,8 @@ group: |2
   2    S  u0 {1,S}
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/S3
@@ -4792,6 +5760,8 @@ group: |2
   2    S u0 {1,S}
   3    S u0 {1,S}
   4    S u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/OneDe
@@ -4801,6 +5771,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cs,O,S]         u0 {1,S}
   4    [Cs,O,S]         u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/OD_Cs2
 - C_rad/ODMustO
@@ -4814,6 +5786,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    Cs               u0 {1,S}
   4    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCs2
@@ -4823,6 +5797,8 @@ group: |2
   2    Ct u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CbCs2
@@ -4832,6 +5808,8 @@ group: |2
   2    Cb u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/COCs2
@@ -4841,6 +5819,8 @@ group: |2
   2    CO u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCs2
@@ -4851,6 +5831,8 @@ group: |2
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CSCs2
@@ -4860,6 +5842,8 @@ group: |2
   2    CS u0 {1,S}
   3    Cs u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CsO
@@ -4869,6 +5853,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    O                u0 {1,S}
   4    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CsS
@@ -4878,6 +5864,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    S                u0 {1,S}
   4    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCsS
@@ -4887,6 +5875,8 @@ group: |2
   2    Ct u0 {1,S}
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CbCsS
@@ -4896,6 +5886,8 @@ group: |2
   2    Cb u0 {1,S}
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCsS
@@ -4906,6 +5898,8 @@ group: |2
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CSCsS
@@ -4915,6 +5909,8 @@ group: |2
   2    CS u0 {1,S}
   3    S  u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/O2
@@ -4924,6 +5920,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    O                u0 {1,S}
   4    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/OS
@@ -4933,6 +5931,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    S                u0 {1,S}
   4    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/S2
@@ -4942,6 +5942,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    S                u0 {1,S}
   4    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/TwoDe
@@ -4951,6 +5953,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cs,O,S]         u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - C_rad/TD_Cs
 - C_rad/TDMustO
@@ -4964,6 +5968,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    Cs               u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCtCs
@@ -4973,6 +5979,8 @@ group: |2
   2    Ct u0 {1,S}
   3    Ct u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCbCs
@@ -4982,6 +5990,8 @@ group: |2
   2    Ct u0 {1,S}
   3    Cb u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCOCs
@@ -4991,6 +6001,8 @@ group: |2
   2    Ct u0 {1,S}
   3    CO u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CbCbCs
@@ -5000,6 +6012,8 @@ group: |2
   2    Cb u0 {1,S}
   3    Cb u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CbCOCs
@@ -5009,6 +6023,8 @@ group: |2
   2    Cb u0 {1,S}
   3    CO u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/COCOCs
@@ -5018,6 +6034,8 @@ group: |2
   2    CO u0 {1,S}
   3    CO u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCtCs
@@ -5028,6 +6046,8 @@ group: |2
   3    Ct u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CtCSCs
@@ -5037,6 +6057,8 @@ group: |2
   2    Ct u0 {1,S}
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCbCs
@@ -5047,6 +6069,8 @@ group: |2
   3    Cb u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CbCSCs
@@ -5056,6 +6080,8 @@ group: |2
   2    Cb u0 {1,S}
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCOCs
@@ -5066,6 +6092,8 @@ group: |2
   3    CO u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/COCSCs
@@ -5075,6 +6103,8 @@ group: |2
   2    CO u0 {1,S}
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCdCs
@@ -5086,6 +6116,8 @@ group: |2
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
   6    C  u0 {3,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CdCSCs
@@ -5096,6 +6128,8 @@ group: |2
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
   5    C  u0 {2,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/CSCSCs
@@ -5105,6 +6139,8 @@ group: |2
   2    CS u0 {1,S}
   3    CS u0 {1,S}
   4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/TDMustO
@@ -5114,6 +6150,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    O                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/TDMustS
@@ -5123,6 +6161,8 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    S                u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C_rad/ThreeDe
@@ -5132,12 +6172,16 @@ group: |2
   2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
   4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3_rad
 group: |2
 
   1 *3 [N3s,N3d] u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad
@@ -5146,6 +6190,8 @@ group: |2
   1 *3 N3s u1     {2,S} {3,S}
   2    R   u[0,1] {1,S}
   3    R   u0     {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: NH2_rad
@@ -5154,6 +6200,8 @@ group: |2
   1 *3 N3s u1 {2,S} {3,S}
   2    H   u0 {1,S}
   3    H   u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad_pri
@@ -5162,6 +6210,8 @@ group: |2
   1 *3 N3s u1 {2,S} {3,S}
   2    H   u0 {1,S}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3s_rad_sec
@@ -5170,6 +6220,8 @@ group: |2
   1 *3 N3s u1 {2,S} {3,S}
   2    R!H u0 {1,S}
   3    R!H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d_rad
@@ -5177,6 +6229,8 @@ group: |2
 
   1 *3 N3d u1 {2,D}
   2    R!H u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d_rad/OneDe
@@ -5184,6 +6238,8 @@ group: |2
 
   1 *3 N3d      u1 {2,D}
   2    [Cd,Cdd] u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d_rad/OneDeC
@@ -5191,6 +6247,8 @@ group: |2
 
   1 *3 N3d u1 {2,D}
   2    Cdd u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N3d_rad/OneDeCdd_O
@@ -5199,30 +6257,40 @@ group: |2
   1    Cdd u0 {2,D} {3,D}
   2 *3 N3d u1 {1,D}
   3    O2d u0 {1,D}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5_rad
 group: |2
 
   1 *3 [N5sc,N5dc,N5tc] u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: N5dc_rad
 group: |2
 
   1 *3 N5dc u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Cl_rad
 group: |2
 
   1 *3 Cl1s u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: I_rad
 group: |2
 
   1 *3 I1s u1
+short_description: ''
+long_description: ''
 children: []
 ---
 label: HI
@@ -5230,10 +6298,145 @@ group: |2
 
   1 *1 I1s u0 {2,S}
   2 *2 H u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: Li_rad
 group: |2
 
   1 *3 Li u1
+short_description: ''
+long_description: ''
 children: []
+---
+label: disprop1_OS_rad
+group: |2
+
+  1 *1 [C,N] u0 {2,S} {3,S}
+  2    [O,S] u1 {1,S}
+  3 *2 H     u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  This group forbids `H[C,N][O,S].`, where the radical site is O or S, but the non-rad site isn't O or S.
+---
+label: disprop1_base_case
+group: |2
+
+  1 *1 R     u0 {2,S} {3,S}
+  2    [C,N] u1 {1,S}
+  3 *2 H     u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Generally, we'd like to forbid `HR[R.]` from reacting here (`.` marks a radical), since this is a disprop reaction.
+  However, the following specific cases must not be forbidden here: `HO2`, `HSS`, `HOS`, `HSO`
+  (since they form the ground state triplets O2, S2, and SO).
+  This group forbids `HR[C,N].`, where the radical site isn't O or S
+---
+label: disprop1_hyperS_H
+group: |2
+
+  1 *1 S     u0 p[0,1] {2,S} {3,S}
+  2    [O,S] u1 {1,S}
+  3 *2 H     u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  This group forbids `H[S p0,1][O,S].`, where hypervalance S is allowed at the H site
+---
+label: disprop1_hyperS_rad
+group: |2
+
+  1 *1 [O,S] u0        {2,S} {3,S}
+  2    S     u1 p[0,1] {1,S}
+  3 *2 H     u0        {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  This group forbids `H[O,S][S p0,1].`, where hypervalance S is allowed at the rad site
+---
+label: disprop2
+group: |2
+
+  1    R u0 {2,S} {3,D}
+  2 *1 R u0 {1,S} {4,S}
+  3    R u0 {1,D} {5,S}
+  4 *2 H u0 {2,S}
+  5    R u1 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: disprop3
+group: |2
+
+  1    R u0 {2,S} {3,T}
+  2 *1 R u0 {1,S} {4,S}
+  3    R u0 {1,T} {5,S}
+  4 *2 H u0 {2,S}
+  5    R u1 {3,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: disprop4
+group: |2
+
+  1    R u0 {2,D} {3,S}
+  2    R u0 {1,D} {4,S}
+  3    R u0 {1,S} {5,D}
+  4 *1 R u0 {2,S} {6,S}
+  5    R u0 {3,D} {7,S}
+  6 *2 H u0 {4,S}
+  7    R u1 {5,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: disprop5
+group: |2
+
+  1    R u0 {2,D} {3,S}
+  2    R u0 {1,D} {4,S}
+  3    R u0 {1,S} {5,D}
+  4 *1 R u0 {2,S} {6,S}
+  5    R u0 {3,D} {7,S}
+  6 *2 H u0 {4,S}
+  7    R u1 {5,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: disprop6_mul_bonds
+group: |2
+
+  1 *1 R u0 {2,[D,T]} {3,S}
+  2    R u1 {1,[D,T]}
+  3 *2 H u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbidding cases such as:
+  R + [HC]=CH2 <=> RH + [CH]=[CH]
+  R + [C]#CH <=> RH + [C]#[C]
+  R + [N]=NH <=> RH + [N]=[N]
+---
+label: disprop7_birad
+group: |2
+
+  1 *1 R     u1 {2,S} {3,S}
+  2    [C,N] u1 {1,S}
+  3 *2 H     u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Forbidding cases such as:
+  R + [NH][NH] <=> RH + [N][NH]

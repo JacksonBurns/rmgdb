@@ -1,0 +1,38 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - CarbonateRing
+  - SurfaceSite1
+  - SurfaceSite2
+  products:
+  - CarbonateXX
+  - Unstaturate
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*5'
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*4'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - CHANGE_BOND
+    - '*4'
+    - 1
+    - '*5'
+reversible: true
+reverse_map: {}
+reactant_num: 3
+product_num: 2
+auto_generated: false

@@ -8,16 +8,22 @@ group: |2
   5  *5 R!H u0 px cx {6,[S,D]} {3,S}
   6  *6 R!H u0 px cx {5,[S,D]} {4,S} {7,S}
   7  *7 F   u0 p3 c0 {6,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: SurfaceSite1
 group: |2
 
   1  *8 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
 children: []
 ---
 label: SurfaceSite2
 group: |2
 
   1  *9 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
 children: []

@@ -10,7 +10,7 @@ kinetics:
   - 0.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD3ene + H <=> adductb
@@ -25,7 +25,7 @@ kinetics:
   - 0.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biCPD3ene + H <=> adductc
@@ -40,7 +40,7 @@ kinetics:
   - 0.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: adducta <=> adductb
@@ -55,7 +55,7 @@ kinetics:
   - 16.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: adductb <=> adductc
@@ -70,7 +70,7 @@ kinetics:
   - 27.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: adducta <=> prod1
@@ -85,7 +85,7 @@ kinetics:
   - 9.6
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod1 <=> prod2
@@ -102,7 +102,7 @@ kinetics:
   - 22.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod2 <=> prod5
@@ -117,7 +117,7 @@ kinetics:
   - 25.6
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod2 <=> prod3
@@ -132,7 +132,7 @@ kinetics:
   - 11.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod3 <=> prod4
@@ -147,7 +147,7 @@ kinetics:
   - 10.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod4 <=> naphthalene + H
@@ -162,7 +162,7 @@ kinetics:
   - 15.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod5 <=> prod4
@@ -177,5 +177,5 @@ kinetics:
   - 4.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

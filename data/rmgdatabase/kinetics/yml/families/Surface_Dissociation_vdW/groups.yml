@@ -1,0 +1,227 @@
+label: Combined
+group: |2
+
+  multiplicity [1]
+  1 *1 R!H u0 px c0 {2,[S,D]}
+  2 *2 R   u0 px c0 {1,[S,D]}
+  3 *3 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children:
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+---
+label: VacantSite
+group: |2
+
+  1 *4 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-H
+group: |2
+
+  multiplicity [1]
+  1 *1 R!H u0 px c0 {2,S}
+  2 *2 H   u0 p0 c0 {1,S}
+  3 *3 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-H
+group: |2
+
+  multiplicity [1]
+  1 *1 C  u0 px c0 {2,S}
+  2 *2 H  u0 p0 c0 {1,S}
+  3 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children:
+- CH
+- CH2
+- CH3
+- C-H_Bidentate
+- CH2R
+- CHR
+---
+label: O-H
+group: |2
+
+  multiplicity [1]
+  1 *1 O  u0 px c0 {2,S}
+  2 *2 H  u0 p0 c0 {1,S}
+  3 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children:
+- H2O
+- H2O2
+- H2O
+---
+label: N-H
+group: |2
+
+  multiplicity [1]
+  1 *1 N  u0 px c0 {2,S}
+  2 *2 H  u0 p0 c0 {1,S}
+  3 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: H2O
+group: |2
+
+  multiplicity [1]
+  1 *1 O  u0 p2 c0 {2,S} {3,S}
+  2 *2 H  u0 p0 c0 {1,S}
+  3    H  u0 p0 c0 {1,S}
+  4 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-OH
+group: |2
+
+  multiplicity [1]
+  1 *1 O   u0 p2 c0 {2,S} {4,S}
+  2 *2 C   u0 p0 c0 {1,S}
+  3 *3 Xv  u0 p0 c0
+  4    H   u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH4
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH2R
+group: |2
+
+  multiplicity [1]
+  1 *1 C   u0 px c0 {2,S} {3,S} {4,D}
+  2 *2 H   u0 p0 c0 {1,S}
+  3    H   u0 p0 c0 {1,S}
+  4    R!H u0 px cx {1,D}
+  5 *3 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH3R
+group: |2
+
+  multiplicity [1]
+  1    R!H u0 px cx {2,S}
+  2 *1 C   u0 px c0 {1,S} {3,S} {4,S} {5,S}
+  3 *2 H   u0 p0 c0 {2,S}
+  4    H   u0 p0 c0 {2,S}
+  5    H   u0 p0 c0 {2,S}
+  6 *3 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C
+group: |2
+
+  multiplicity [1]
+  1 *1 C  u0 p0 c0 {2,[S,D]}
+  2 *2 C  u0 p0 c0 {1,[S,D]}
+  3 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children:
+- C2H6
+---
+label: C-R
+group: |2
+
+  multiplicity [1]
+  1 *1 R!H u0 px c0 {2,[S,D]}
+  2 *2 C   u0 p0 c0 {1,[S,D]}
+  3 *3 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C2H6
+group: "\nmultiplicity [1]\n1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S} \n2    C u0 p0\
+  \ c0 {1,S} {6,S} {7,S} {8,S}\n3 *2 H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5  \
+  \  H u0 p0 c0 {1,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {2,S}\n8    H u0 p0\
+  \ c0 {2,S}\n9 *3 Xv u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: C2H4
+group: |2
+
+  multiplicity [1]
+  1 *1 C  u0 p0 c0 {2,D} {3,S} {4,S}
+  2    C  u0 p0 c0 {1,D} {5,S} {6,S}
+  3 *2 H  u0 p0 c0 {1,S}
+  4    H  u0 p0 c0 {1,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7 *3 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-O
+group: |2
+
+  1 *2 O u0 px cx {2,[S,D]}
+  2 *1 C u0 {1,[S,D]}
+  3 *3 Xv u0 p0 c0
+forbidden: true
+short_description: ''
+long_description: |2
+
+  O should not match to *2 with a less heavy atom
+---
+label: O-O
+group: |2
+
+  1 *1 O  u0 p2 {2,S}
+  2 *2 O  u0 p2 {1,S}
+  3 *3 Xv u0 p0 c0
+forbidden: true
+short_description: ''
+long_description: |2
+
+  No rule for O-O breaking available
+---
+label: H-C
+group: |2
+
+  1 *2 C u0 {2,S}
+  2 *1 H u0 {1,S}
+  3 *3 Xv u0 p0 c0
+forbidden: true
+short_description: ''
+long_description: |2
+
+  C should not match to *2 with a less heavy atom

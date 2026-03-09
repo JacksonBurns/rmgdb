@@ -42,13 +42,13 @@ kinetics:
   - 59.4863
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O'
@@ -98,13 +98,13 @@ kinetics:
   - 69.0722
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[C](OC)OC <=> [Li]OC(=O)OC + [CH3]'
@@ -162,23 +162,14 @@ kinetics:
   - 74.6365
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.3491379528127108
-      B: 1.0160698056746285
-      E: 0.42818292849726036
-      L: 5.830949166037544
-      A: 0.6662179817376498
-      comment: ''
 ---
 label: '[Li]OC1OCC1 <=> O=CCCO[Li]'
 degeneracy: 1.0
@@ -226,23 +217,14 @@ kinetics:
   - -0.0643594
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.6463081864477556
-      B: 1.3642592064572354
-      E: 2.83101426768693
-      L: 6.499926586799369
-      A: 1.3639449338060428
-      comment: ''
 ---
 label: O=CCCO[Li] <=> [Li]OC=C + C=O
 degeneracy: 1.0
@@ -289,23 +271,14 @@ kinetics:
   - 62.2385
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.7509029646949823
-      B: 2.006218503247397
-      E: 1.143393868363932
-      L: 8.571412669855551
-      A: 0.5404851704510933
-      comment: ''
 ---
 label: '[Li]N[CH2] <=> [Li] + N=C'
 degeneracy: 1.0
@@ -346,23 +319,14 @@ kinetics:
   - 57.8699
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -2.65419313965326
-      B: 1.2542197583042969
-      E: -0.21990942778263972
-      L: -9.14111680402368
-      A: 3.645314481406821
-      comment: ''
 ---
 label: '[Li]O[CH]O <=> O=[CH] + [Li]O'
 degeneracy: 1.0
@@ -403,23 +367,14 @@ kinetics:
   - 46.6821
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.7137053723954238
-      B: 2.3116450623393274
-      E: -0.028001584137479975
-      L: 6.399784910596449
-      A: 1.0368467911904864
-      comment: ''
 ---
 label: '[Li]OC1OCCC1 <=> O=CCCCO[Li]'
 degeneracy: 1.0
@@ -471,23 +426,14 @@ kinetics:
   - 90.256
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.8258378208381454
-      B: 2.5221250810295626
-      E: 1.614714374506913
-      L: 12.761980701907916
-      A: 0.608203513102231
-      comment: ''
 ---
 label: '[Li]OC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)O[Li]'
 degeneracy: 1.0
@@ -505,13 +451,13 @@ kinetics:
   - 7.6717
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 1000
+  - 1000.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 3.36722, dn = +|- 0.167182, dEa = +|-
     0.694638 kJ/mol
@@ -554,23 +500,14 @@ kinetics:
   - 91.4067
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -0.4735938637413528
-      B: 2.67486764340657
-      E: -5.09678040094995
-      L: -4.876934525239067
-      A: 3.9944267641274602
-      comment: ''
 ---
 label: '[Li]OC + C[CH2] <=> [Li] + COCC'
 degeneracy: 1.0
@@ -612,13 +549,13 @@ kinetics:
   - 65.2952
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]NC + [CH3] <=> [Li] + CNC'
@@ -665,23 +602,14 @@ kinetics:
   - 19.1236
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 5.9720845035693655
-      B: -11.11835148496454
-      E: 1.2672065293713617
-      L: 34.51723438776737
-      A: -10.461680798130194
-      comment: ''
 ---
 label: '[Li]N(C)C + [H] <=> [Li] + CNC'
 degeneracy: 1.0
@@ -728,23 +656,14 @@ kinetics:
   - -78.8037
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.996332219215656
-      B: 1.029302623121347
-      E: 1.007550487792502
-      L: 7.3685642232941575
-      A: 0.4814345945968402
-      comment: ''
 ---
 label: '[Li]NC + C[CH2] <=> [Li] + CNCC'
 degeneracy: 1.0
@@ -794,23 +713,14 @@ kinetics:
   - 29.2672
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.9175438008860265
-      B: 1.1395826064596657
-      E: 0.4944811262263229
-      L: 5.415263196320309
-      A: 0.6943364764189893
-      comment: ''
 ---
 label: '[Li]NCC + [CH3] <=> [Li] + CNCC'
 degeneracy: 1.0
@@ -860,23 +770,14 @@ kinetics:
   - 25.4344
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.877486735996646
-      B: 0.6916407047808263
-      E: 0.748415650862252
-      L: 5.385263016210897
-      A: 0.5210754074032086
-      comment: ''
 ---
 label: '[Li]N(C)CC + [H] <=> [Li] + CNCC'
 degeneracy: 1.0
@@ -928,23 +829,14 @@ kinetics:
   - -71.4349
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.1131935806214712
-      B: 1.1556454917670655
-      E: 1.2169728270193971
-      L: 7.839572648134702
-      A: 0.31656236651087616
-      comment: ''
 ---
 label: '[Li]O + [H] <=> [Li] + O'
 degeneracy: 1.0
@@ -984,23 +876,14 @@ kinetics:
   - -21.6525
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.6576610150461983
-      B: 2.4435784684265482
-      E: 0.404796645816695
-      L: 7.698368077501874
-      A: 0.9750486732350473
-      comment: ''
 ---
 label: '[Li]N + [H] <=> [Li] + N'
 degeneracy: 1.0
@@ -1041,23 +924,14 @@ kinetics:
   - -57.4909
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.9471505265788214
-      B: 1.7274624400621788
-      E: 0.6115119617819315
-      L: 6.871072605917964
-      A: 0.6704069036466952
-      comment: ''
 ---
 label: '[Li]OC + [H] <=> [Li] + CO'
 degeneracy: 1.0
@@ -1101,23 +975,14 @@ kinetics:
   - -24.6724
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.4067121409688057
-      B: 1.4628968939845368
-      E: 0.9656443938025181
-      L: 7.661570379273675
-      A: 0.443175955652443
-      comment: ''
 ---
 label: '[Li]O + [CH3] <=> [Li] + CO'
 degeneracy: 1.0
@@ -1160,23 +1025,14 @@ kinetics:
   - 85.5904
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.4173362998736376
-      B: 2.357499252462657
-      E: 0.5167298959343533
-      L: 7.9017680525604375
-      A: 1.0064038665607862
-      comment: ''
 ---
 label: '[Li]NC + [H] <=> [Li] + CN'
 degeneracy: 1.0
@@ -1220,23 +1076,14 @@ kinetics:
   - -71.5589
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -5.4761368991675985
-      B: -6.829449919467144
-      E: 14.43663245128814
-      L: 28.957970295010895
-      A: 0.4259943743771139
-      comment: ''
 ---
 label: '[Li]O + C[CH2] <=> [Li] + CCO'
 degeneracy: 1.0
@@ -1281,23 +1128,14 @@ kinetics:
   - 84.1068
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.9913576154323054
-      B: 3.1755887609180435
-      E: -0.2623364392566645
-      L: 7.244831699370673
-      A: 0.5572363451823703
-      comment: ''
 ---
 label: '[Li]OCC + [H] <=> [Li] + CCO'
 degeneracy: 1.0
@@ -1343,23 +1181,14 @@ kinetics:
   - -23.16
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -8.623486006056842
-      B: 14.917486429580572
-      E: -5.719694357458241
-      L: 40.120001635540106
-      A: -6.502228345652631
-      comment: ''
 ---
 label: '[Li]N + C[CH2] <=> [Li] + CCN'
 degeneracy: 1.0
@@ -1406,23 +1235,14 @@ kinetics:
   - 34.4127
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.6195332200790409
-      B: 2.120893670736446
-      E: 10.142480436000628
-      L: -0.8781474558081529
-      A: 3.410407959634951
-      comment: ''
 ---
 label: '[Li]OC + [CH3] <=> [Li] + COC'
 degeneracy: 1.0
@@ -1467,23 +1287,14 @@ kinetics:
   - 80.834
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.223920620501668
-      B: 0.8264175269682525
-      E: 0.40415741933873844
-      L: 5.605210034978575
-      A: 0.4397271958947774
-      comment: ''
 ---
 label: '[Li]OCC + [CH3] <=> [Li] + COCC'
 degeneracy: 1.0
@@ -1532,23 +1343,14 @@ kinetics:
   - 82.2788
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.091886494292463
-      B: 0.5254418313743373
-      E: 1.2963729646265112
-      L: 5.721969023897385
-      A: 0.6575614317431779
-      comment: ''
 ---
 label: '[Li]N + [CH3] <=> [Li] + CN'
 degeneracy: 1.0
@@ -1592,23 +1394,14 @@ kinetics:
   - 34.8806
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.8306578175990244
-      B: 1.956506108230911
-      E: 0.011774617070094268
-      L: 6.100850860272114
-      A: 1.0441801517777485
-      comment: ''
 ---
 label: '[Li]NCC + [H] <=> [Li] + CCN'
 degeneracy: 1.0
@@ -1656,23 +1449,14 @@ kinetics:
   - -67.2986
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.9852422925798727
-      B: 1.2991389460904967
-      E: 1.413033851489418
-      L: 7.445245509701895
-      A: 0.5371087291175491
-      comment: ''
 ---
 label: '[CH3] + [Li][H] <=> [Li] + C'
 degeneracy: 1.0
@@ -1713,23 +1497,14 @@ kinetics:
   - 12.1363
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 3.39470212956669
-      B: 1.6022203760198037
-      E: 1.4946262264125265
-      L: 10.49010693814182
-      A: 0.4943151788298517
-      comment: ''
 ---
 label: '[CH3] + [Li]F <=> [Li] + CF'
 degeneracy: 1.0
@@ -1770,23 +1545,14 @@ kinetics:
   - 140.779
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.8681935378213759
-      B: 2.373498032935028
-      E: 0.32859248603303737
-      L: 5.004153890392606
-      A: 0.8849787213003473
-      comment: ''
 ---
 label: '[CH3] + [Li]Cl <=> [Li] + CCl'
 degeneracy: 1.0
@@ -1827,23 +1593,14 @@ kinetics:
   - 119.96
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.40096476096442
-      B: 0.7611537028291462
-      E: 0.36695032193123533
-      L: 5.182274882516309
-      A: 0.578711830957878
-      comment: ''
 ---
 label: '[Li]O + C=C <=> [Li] + OC[CH2]'
 degeneracy: 1.0
@@ -1887,23 +1644,14 @@ kinetics:
   - 366.661
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.8538812901233412
-      B: 2.675568430768142
-      E: -6.952996746174581
-      L: 1.5707766756804364
-      A: -0.4046889575036062
-      comment: ''
 ---
 label: '[Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O'
 degeneracy: 1.0
@@ -1950,23 +1698,14 @@ kinetics:
   - 80.6393
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.697605152955986
-      B: 2.4862812293190593
-      E: -4.1974148204255775
-      L: 2.872587466227873
-      A: 0.9296666032597313
-      comment: ''
 ---
 label: '[Li]OC(=O)OC <=> [Li]OC + O=C=O'
 degeneracy: 1.0
@@ -2003,13 +1742,13 @@ kinetics:
   - 88.7875
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OCO <=> [Li]O + C=O'
@@ -2052,23 +1791,14 @@ kinetics:
   - 30.5741
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -0.3926746359480871
-      B: 2.430874130082185
-      E: 1.0969664301003625
-      L: 5.26139300991494
-      A: 1.5271891998852951
-      comment: ''
 ---
 label: '[Li]OCF <=> [Li]F + C=O'
 degeneracy: 1.0
@@ -2110,23 +1840,14 @@ kinetics:
   - 1.77399
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.2544775378071295
-      B: 3.8435703486608483
-      E: 0.6208281974105191
-      L: 9.542895814948176
-      A: 0.874941113523824
-      comment: ''
 ---
 label: '[Li]OCCl <=> [Li]Cl + C=O'
 degeneracy: 1.0
@@ -2167,23 +1888,14 @@ kinetics:
   - 0.072948
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.49973283735009
-      B: -1.363801515776159
-      E: 11.671483182052631
-      L: 9.85481016575309
-      A: 1.7632374622781073
-      comment: ''
 ---
 label: O=S(=O)(C)CC[CH2] + [Li] <=> C=C + [Li]OS(=O)(=C)C
 degeneracy: 1.0
@@ -2224,20 +1936,20 @@ long_description: |2
 kinetics:
   type: Arrhenius
   A:
-  - 312580
+  - 312580.0
   - cm^3/(mol*s)
   n: 2.72776
   Ea:
   - 68.0852
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC'
@@ -2256,13 +1968,13 @@ kinetics:
   - 2.37772
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 1000
+  - 1000.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 2.80611, dn = +|- 0.142081, dEa = +|-
     0.590342 kJ/mol
@@ -2307,23 +2019,14 @@ kinetics:
   - -44.9325
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -6.237601960913579
-      B: 9.474105452618263
-      E: 1.6329134231750524
-      L: 15.17499274807221
-      A: 3.5783211118513525
-      comment: ''
 ---
 label: '[Li]OC[CH2] <=> [Li][O] + C=C'
 degeneracy: 1.0
@@ -2366,23 +2069,14 @@ kinetics:
   - 124.537
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -0.7587541172343483
-      B: 4.554524422792835
-      E: 0.35143960938889907
-      L: 9.719910916870246
-      A: 2.0308080570391414
-      comment: ''
 ---
 label: '[Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O] + C=C'
 degeneracy: 1.0
@@ -2429,23 +2123,14 @@ kinetics:
   - 102.084
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.874468711820343
-      B: 1.5429946013135403
-      E: 3.7953459556664635
-      L: 10.74627656346647
-      A: 0.9238437970987374
-      comment: ''
 ---
 label: '[Li]OC[CH2] <=> [Li] + O1CC1'
 degeneracy: 1.0
@@ -2488,23 +2173,14 @@ kinetics:
   - 127.392
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.9429002183123382
-      B: 0.4142522035781646
-      E: 0.9271382422782674
-      L: 0.5080999191526422
-      A: 1.2701035125702795
-      comment: ''
 ---
 label: '[Li]NCCC[CH2] <=> [Li] + N1CCCC1'
 degeneracy: 1.0
@@ -2557,23 +2233,14 @@ kinetics:
   - 37.9728
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 0.7063184659079954
-      B: 0.6546888841685338
-      E: 1.4167685288377097
-      L: 7.086460323740072
-      A: 0.6763993010322846
-      comment: ''
 ---
 label: '[Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1'
 degeneracy: 1.0
@@ -2619,23 +2286,14 @@ kinetics:
   - 23.9219
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: -2.018725993417632
-      B: 4.93569039446143
-      E: -4.315782362402726
-      L: -1.68464261284562
-      A: 3.5698295734222367
-      comment: ''
 ---
 label: '[Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1'
 degeneracy: 1.0
@@ -2688,30 +2346,21 @@ long_description: |2
 kinetics:
   type: Arrhenius
   A:
-  - 685907
+  - 685907.0
   - s^-1
   n: 0.809304
   Ea:
   - 91.8794
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.8745309700808286
-      B: 0.6489379258617733
-      E: 0.27349172242979114
-      L: 6.280608540134562
-      A: 0.35178208431790287
-      comment: ''
 ---
 label: '[Li]OCCC[CH2] <=> [Li] + O1CCCC1'
 degeneracy: 1.0
@@ -2764,23 +2413,14 @@ kinetics:
   - 99.5874
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.975919765798433
-      B: 0.5933221434562257
-      E: 0.10249027371088437
-      L: 4.734916369654065
-      A: 0.4382337255257122
-      comment: ''
 ---
 label: '[Li]CC <=> C=C + [Li][H]'
 degeneracy: 1.0
@@ -2823,23 +2463,14 @@ kinetics:
   - 9.42179
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.7309852404322288
-      B: 2.3232904077453425
-      E: 0.8831500260776306
-      L: 9.72969334125182
-      A: 0.8794516433866466
-      comment: ''
 ---
 label: '[Li]NC <=> N=C + [Li][H]'
 degeneracy: 1.0
@@ -2881,23 +2512,14 @@ kinetics:
   - 4.40595
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 1.708205772421329
-      B: 2.5356143801240445
-      E: 0.23679859997568953
-      L: 9.472880397262012
-      A: 1.0783864304846873
-      comment: ''
 ---
 label: '[Li]O[CH]OC <=> O=[CH] + [Li]OC'
 degeneracy: 1.0
@@ -2934,13 +2556,13 @@ kinetics:
   - 65.3953
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OC1OCCCC1 <=> O=CCCCCO[Li]'
@@ -2998,20 +2620,11 @@ kinetics:
   - 98.9886
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.959149780060317
-      B: 2.5380295864101
-      E: 2.0257428425399984
-      L: 13.738628302899908
-      A: 0.411629130549155
-      comment: ''

@@ -1,0 +1,35 @@
+short_description: ''
+long_description: '
+
+  Sulfur was added to this family, and is treated the same as oxygen.
+
+  Ideally we would like to branch this into a new family "intra_SH_migration"
+
+  once relevant kinetic data is available
+
+  '
+template:
+  reactants:
+  - RnOOH
+  products:
+  - HORO.
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*3'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*3'
+  - - GAIN_RADICAL
+    - '*2'
+    - '1'
+  - - LOSE_RADICAL
+    - '*1'
+    - '1'
+reversible: true
+reverse_map: {}
+auto_generated: false

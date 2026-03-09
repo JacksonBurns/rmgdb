@@ -1,0 +1,183 @@
+label: Adsorbate
+group: |2
+
+  multiplicity [1]
+  1 *2 R!H u0 px cx {2,D}
+  2 *3 R!H u0 px cx {1,D}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: VacantSite1
+group: |2
+
+  1 *1 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite2
+group: |2
+
+  1 *4 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: OC
+group: |2
+
+  multiplicity [1]
+  1 *2 O  u0 p2 c0 {2,D}
+  2 *3 C  u0 p0 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- CO2
+- CO2
+---
+label: CO2
+group: |2
+
+  multiplicity [1]
+  1    O  u0 p2 c0 {3,D}
+  2 *2 O  u0 p2 c0 {3,D}
+  3 *3 C  u0 p0 c0 {1,D} {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 'ON'
+group: |2
+
+  multiplicity [1]
+  1 *3 N  u0 px cx {2,D}
+  2 *2 O  u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- ONR
+- ONR
+---
+label: ONR
+group: |2
+
+  multiplicity [1]
+  1 *3 N  u0 p1 c0 {2,D} {3,S}
+  2 *2 O  u0 p2 c0 {1,D}
+  3    R  u0 px c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CC
+group: "\n multiplicity [1]\n 1 *2 C  u0 p0 c0 {2,D}\n 2 *3 C  u0 p0 c0 {1,D} \n "
+short_description: ''
+long_description: ''
+children:
+- C-C
+- C=C
+- C#C
+---
+label: NN
+group: |2
+
+  multiplicity [1]
+  1 *2 N  u0 p1 c0 {2,D}
+  2 *3 N  u0 p1 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- N2H2
+- N-N
+- N=N
+- N#N
+---
+label: NC
+group: |2
+
+  multiplicity [1]
+  1 *2 N  u0 p1 c0 {2,D}
+  2 *3 C  u0 p0 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CO
+group: |2
+
+  1 *2 C  ux {2,D}
+  2 *3 O  ux {1,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any CO should not match *2 and *3 respectively because of duplicate reactions
+---
+label: 'NO'
+group: |2
+
+  1 *2 N  ux {2,D}
+  2 *3 O  ux {1,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any NO should not match *2 and *3 respectively because of duplicate reactions
+---
+label: CN
+group: |2
+
+  1 *2 C  ux {2,D}
+  2 *3 N  ux {1,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any CN should not match *2 and *3 respectively because of duplicate reactions
+---
+label: OO
+group: |2
+
+  1 *3 O  u0 p2 c0 {2,D}
+  2 *2 O  u0 p2 c0 {1,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The ground electronic state of gas phase O2 is triplet by default

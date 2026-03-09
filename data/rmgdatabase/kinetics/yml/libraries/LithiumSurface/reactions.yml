@@ -9,13 +9,13 @@ kinetics:
   - 70.1461
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 1.11209, dn = +|- 0.0134516, dEa = +|-
     0.0934388 kJ/mol
@@ -31,13 +31,13 @@ kinetics:
   - -11.0304
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 1.05314, dn = +|- 0.00655564, dEa =
     +|- 0.0455374 kJ/mol
@@ -53,13 +53,13 @@ kinetics:
   - -11.0304
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 1.05314, dn = +|- 0.00655564, dEa =
     +|- 0.0455374 kJ/mol
@@ -75,13 +75,13 @@ kinetics:
   - 95.3188
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 1.2104, dn = +|- 0.0241775, dEa = +|-
     0.167944 kJ/mol
@@ -97,13 +97,13 @@ kinetics:
   - 170.986
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 1.03899, dn = +|- 0.00484281, dEa =
     +|- 0.0336396 kJ/mol

@@ -1,0 +1,13 @@
+label: 'NO'
+adjacency_list: |-
+  1 *1 N u1 p1 c0 {2,D}
+  2    O u0 p2 c0 {1,D}
+---
+label: Pt
+adjacency_list: 1 *2 X u0 p0 c0
+---
+label: NO_X
+adjacency_list: |-
+  1    O u0 p2 c0 {2,D}
+  2 *1 N u0 p1 c0 {1,D} {3,S}
+  3 *2 X u0 p0 c0 {2,S}

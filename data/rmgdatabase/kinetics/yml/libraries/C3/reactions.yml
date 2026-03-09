@@ -3,14 +3,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 42
+  - 42.0
   - cm^3/(mol*s)
   n: 3.27
   Ea:
-  - 11
+  - 11.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_1 <=> prod_2
@@ -25,7 +25,7 @@ kinetics:
   - 27.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_2 <=> prod_3 + H
@@ -37,10 +37,10 @@ kinetics:
   - s^-1
   n: 1.27
   Ea:
-  - 31
+  - 31.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4a + iC4H7 <=> prod_6
@@ -50,12 +50,12 @@ kinetics:
   A:
   - 18.6
   - cm^3/(mol*s)
-  n: 3
+  n: 3.0
   Ea:
   - 9.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_6 <=> prod_4
@@ -70,7 +70,7 @@ kinetics:
   - 27.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_4 <=> prod_5 + H
@@ -85,7 +85,7 @@ kinetics:
   - 29.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4p + aC3H5 <=> prod_7
@@ -93,14 +93,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 267000
+  - 267000.0
   - cm^3/(mol*s)
   n: 2.15
   Ea:
   - 12.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_7 <=> prod_8
@@ -115,7 +115,7 @@ kinetics:
   - 9.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_8 <=> prod_9 + H
@@ -125,12 +125,12 @@ kinetics:
   A:
   - 79900000000.0
   - s^-1
-  n: 1
+  n: 1.0
   Ea:
   - 32.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4p + iC4H7 <=> prod_10
@@ -138,14 +138,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 121
+  - 121.0
   - cm^3/(mol*s)
   n: 2.9
   Ea:
   - 10.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_10 <=> prod_11
@@ -160,7 +160,7 @@ kinetics:
   - 9.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_11 <=> prod_12 + H
@@ -172,10 +172,10 @@ kinetics:
   - s^-1
   n: 1.4
   Ea:
-  - 32
+  - 32.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4a + BD2YL <=> prod_13
@@ -183,14 +183,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 128
+  - 128.0
   - cm^3/(mol*s)
   n: 3.05
   Ea:
   - 7.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_13 <=> prod_14
@@ -205,7 +205,7 @@ kinetics:
   - 21.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_14 <=> prod_15 + H
@@ -220,7 +220,7 @@ kinetics:
   - 44.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4p + BD2YL <=> prod_16
@@ -228,14 +228,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 1900
+  - 1900.0
   - cm^3/(mol*s)
   n: 2.92
   Ea:
   - 8.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_16 <=> prod_17
@@ -250,7 +250,7 @@ kinetics:
   - 6.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_17 <=> prod_18 + H
@@ -265,7 +265,7 @@ kinetics:
   - 45.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: aC3H5 + C3H4a <=> prod_19
@@ -273,14 +273,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 3960
+  - 3960.0
   - cm^3/(mol*s)
   n: 2.65
   Ea:
   - 11.6
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_19 <=> prod_2
@@ -295,7 +295,7 @@ kinetics:
   - 10.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H4a + iC4H7 <=> prod_20
@@ -303,14 +303,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 37
+  - 37.0
   - cm^3/(mol*s)
   n: 2.89
   Ea:
   - 9.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_20 <=> prod_4
@@ -325,7 +325,7 @@ kinetics:
   - 10.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: aC3H5 + C2H2 <=> prod_21
@@ -333,14 +333,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 238000
+  - 238000.0
   - cm^3/(mol*s)
   n: 2.26
   Ea:
   - 12.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_21 <=> prod_22
@@ -355,7 +355,7 @@ kinetics:
   - 9.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_22 <=> CPD + H
@@ -370,7 +370,7 @@ kinetics:
   - 31.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3 + C2H2 <=> prod_23
@@ -385,7 +385,7 @@ kinetics:
   - 10.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_23 <=> prod_24
@@ -400,7 +400,7 @@ kinetics:
   - 12.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_24 <=> CPDyl
@@ -415,7 +415,7 @@ kinetics:
   - 26.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3 + C3H4p <=> prod_25
@@ -423,14 +423,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 7040
+  - 7040.0
   - cm^3/(mol*s)
   n: 2.87
   Ea:
   - 9.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_25 <=> prod_26
@@ -445,7 +445,7 @@ kinetics:
   - 12.6
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_26 <=> meCPDyl
@@ -460,7 +460,7 @@ kinetics:
   - 27.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3 + C3H4p <=> prod_27
@@ -468,14 +468,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 285
+  - 285.0
   - cm^3/(mol*s)
   n: 2.93
   Ea:
   - 11.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_27 <=> prod_28
@@ -490,7 +490,7 @@ kinetics:
   - 11.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_28 <=> meCPDyl
@@ -505,7 +505,7 @@ kinetics:
   - 28.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3 + C3H4a <=> prod_29
@@ -513,14 +513,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 850
+  - 850.0
   - cm^3/(mol*s)
   n: 2.81
   Ea:
   - 8.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_29 <=> prod_30
@@ -532,10 +532,10 @@ kinetics:
   - s^-1
   n: 0.15
   Ea:
-  - 14
+  - 14.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: prod_30 <=> prod_33
@@ -550,5 +550,5 @@ kinetics:
   - 39.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

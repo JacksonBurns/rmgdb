@@ -1,0 +1,30 @@
+short_description: 2+2 cycloaddition between alkene subunits on a 1,3-butadiene backbone
+  to form cyclobutene subunit
+long_description: ''
+template:
+  reactants:
+  - 1,3-butadiene_backbone
+  products:
+  - unsaturated_four_ring
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*4'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*3'
+  - - CHANGE_BOND
+    - '*2'
+    - 1
+    - '*4'
+reversible: true
+reverse_map: {}
+auto_generated: false

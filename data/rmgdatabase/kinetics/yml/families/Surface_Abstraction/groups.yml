@@ -1,0 +1,495 @@
+label: Abstracting
+group: |2
+
+  1 *1 R!H ux px cx {2,[D,T,Q]}
+  2 *2 Xo  u0 p0 c0 {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- C
+- O
+- C
+- N
+- O
+- OH
+- O
+---
+label: Donating
+group: |2
+
+  1 *4 R   ux px cx {2,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*R-H'
+group: |2
+
+  1 *4 H   u0 p0 c0 {2,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- '*C-H'
+- '*N-H'
+- '*OH'
+---
+label: '*R-O'
+group: |2
+
+  1 *4 O   u0 p2 c0 {2,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- '*R-OH'
+---
+label: '*R-OH'
+group: |2
+
+  1 *4 O   u0 p2 c0 {2,S} {4,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+  4    H   u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- '*C-OH'
+- '*N-OH'
+- '*O-OH'
+---
+label: '*R-C'
+group: |2
+
+  1 *4 C   ux px cx {2,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- '*C-C'
+- '*-O-C'
+- '*N-C'
+---
+label: C
+group: |2
+
+  1 *1 C  ux px cx {2,[D,T,Q]}
+  2 *2 Xo u0 p0 c0 {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*
+---
+label: N
+group: |2
+
+  1 *1 N  ux px cx {2,[D,T]}
+  2 *2 Xo u0 p0 c0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- N=O
+- N3s
+- N3d
+- NH
+- NN
+- 'NO'
+- NN
+- N-C
+- N-H
+- N-H2
+- N-H
+- N-N
+- N=*
+- N#*
+---
+label: O
+group: |2
+
+  1 *1 O  u0 p2 c0 {2,D}
+  2 *2 Xo u0 p0 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- O-H
+- O-C
+- O-N
+- O-H
+- O=N
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
+---
+label: '*R-N'
+group: |2
+
+  1 *4 N   ux px cx {2,S}
+  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- '*C-N'
+- '*N-N'
+- '*-O-N'
+---
+label: '*C-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
+  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- '*-C-H'
+- '*=C-H'
+- '*#C-H'
+---
+label: '*N-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 N  u0 p1 c0 {1,S} {3,[S,D]}
+  3 *5 Xo u0 p0 c0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- '*-N-H'
+- '*=N-H'
+---
+label: '*OH'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 O  u0 p2 c0 {1,S} {3,S}
+  3 *5 Xo u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-N-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 N  u0 p1 c0 {1,S} {3,S} {4,S}
+  3 *5 Xo u0 p0 c0 {2,S}
+  4    R  ux px c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=N-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 N  u0 p1 c0 {1,S} {3,D}
+  3 *5 Xo u0 p0 c0 {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-C-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,S} {4,[S,D]}
+  3 *5 Xo u0 p0 c0 {2,S}
+  4    R  u0 px c0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- '*-CH-H'
+- '*-CH2-H'
+---
+label: '*=C-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}
+  3 *5 Xo u0 p0 c0 {2,D}
+  4    R  u0 px c0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- '*=CH-H'
+---
+label: '*#C-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,T}
+  3 *5 Xo u0 p0 c0 {2,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*C-OH'
+group: |2
+
+  1 *4 O   u0 p2 c0 {2,S} {4,S}
+  2 *3 C   u0 p0 c0 {1,S} {3,[S,D,T]}
+  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+  4    H   u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- '*-C-OH'
+- '*=C-OH'
+- '*#C-OH'
+---
+label: '*=N-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 N  u0 p1 c0 {1,S} {3,D}
+  3 *5 Xo u0 p0 c0 {2,D}
+  4    H  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*O-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 O  u0 p2 c0 {1,S} {3,S}
+  3 *5 Xo u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-C-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,S} {5,[S,D]}
+  3 *5 Xo u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {1,S}
+  5    R  u0 p0 c0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=C-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,D} {5,S}
+  3 *5 Xo u0 p0 c0 {2,D}
+  4    H  u0 p0 c0 {1,S}
+  5    R  ux px c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*#C-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,T}
+  3 *5 Xo u0 p0 c0 {2,T}
+  4    H  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=*
+group: |2
+
+  1 *1 C  u0 p0 c0 {2,D}
+  2 *2 Xo u0 p0 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C#*
+group: |2
+
+  1 *1 C  u0 p0 c0 {2,T}
+  2 *2 Xo u0 p0 c0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C$*
+group: |2
+
+  1 *1 C  u0 p0 c0 {2,Q}
+  2 *2 Xo u0 p0 c0 {1,Q}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N=*
+group: |2
+
+  1 *1 N  u0 px cx {2,D} {3,[S,D]}
+  2 *2 Xo u0 p0 c0 {1,D}
+  3    R  ux px cx {1,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- R-N=*
+---
+label: N#*
+group: |2
+
+  1 *1 N  u0 px cx {2,T}
+  2 *2 Xo u0 p0 c0 {1,T}
+short_description: ''
+long_description: ''
+children:
+- :N#*
+---
+label: R-N=*
+group: |2
+
+  1 *1 N  u0 p1 c0 {2,D} {3,S}
+  2 *2 Xo u0 p0 c0 {1,D}
+  3    R  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: :N#*
+group: |2
+
+  1 *1 N   u0 p1 c0 {2,T}
+  2 *2 Xo  u0 p0 c0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*N-OH'
+group: |2
+
+  1 *4 O  u0 p2 c0 {2,S} {4,S}
+  2 *3 N  ux px cx {1,S} {3,[S,D]}
+  3 *5 Xo u0 p0 c0 {2,[S,D]}
+  4    H  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- '*=N-OH'
+---
+label: '*C-C'
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
+  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-O-C'
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,S}
+  2 *3 O  u0 p2 c0 {1,S} {3,S}
+  3 *5 Xo u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*N-C'
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,S}
+  2 *3 N  u0 px cx {1,S} {3,[S,D]}
+  3 *5 Xo u0 p0 c0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*C-N'
+group: |2
+
+  1 *4 N  ux px cx {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
+  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-O-N'
+group: |2
+
+  1 *4 N  ux px cx {2,S}
+  2 *3 O  u0 p2 c0 {1,S} {3,S}
+  3 *5 Xo u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*N-N'
+group: |2
+
+  1 *4 N  ux px cx {2,S}
+  2 *3 N  ux px cx {1,S} {3,[S,D,T]}
+  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-CH-H'
+group: |2
+
+  1 *4 H   u0 p0 c0 {2,S}
+  2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *5 Xo  u0 p0 c0 {2,S}
+  4    R   u0 px c0 {2,S}
+  5    H   u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=CH-H'
+group: |2
+
+  1 *4 H  u0 p0 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}
+  3 *5 Xo u0 p0 c0 {2,D}
+  4    H  u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*-CH2-H'
+group: |2
+
+  1 *4 H   u0 p0 c0 {2,S}
+  2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *5 Xo  u0 p0 c0 {2,S}
+  4    H   u0 px c0 {2,S}
+  5    H   u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []

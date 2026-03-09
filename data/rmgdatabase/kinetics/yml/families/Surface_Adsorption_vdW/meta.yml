@@ -1,0 +1,23 @@
+short_description: ''
+long_description: "\nPhysisorption of a gas-phase species onto the surface.\n\n *1\
+  \         *1\n     ---->   :\n~*2~       ~*2~~\n\nThe rate, which should be in mol/m2/s,\n\
+  will be given by k * (mol/m2) * (mol/m3)\nso k should be in (m3/mol/s). We will\
+  \ use sticking coefficients.\n"
+template:
+  reactants:
+  - Adsorbate
+  - VacantSite
+  products:
+  - Adsorbed
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*1'
+    - 0
+    - '*2'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 1
+auto_generated: false

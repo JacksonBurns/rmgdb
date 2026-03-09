@@ -1,0 +1,167 @@
+label: RHOO_rad
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,S}
+  2 *2 O   u0 {1,S} {3,S}
+  3 *3 O   u1 {2,S}
+  4 *4 H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: ROO_rad
+group: |2
+
+  1    R u0 {2,S}
+  2 *5 O u0 {1,S} {3,S}
+  3 *6 O u1 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH_methyl_OO_rad
+group: |2
+
+  1 *1 C u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 O u0 {1,S} {3,S}
+  3 *3 O u1 {2,S}
+  4 *4 H u0 {1,S}
+  5    H u0 {1,S}
+  6    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH_pri_OO_rad
+group: |2
+
+  1 *1 C   u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 O   u0 {1,S} {3,S}
+  3 *3 O   u1 {2,S}
+  4 *4 H   u0 {1,S}
+  5    H   u0 {1,S}
+  6    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH_sec_OO_rad
+group: |2
+
+  1 *1 C   u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 O   u0 {1,S} {3,S}
+  3 *3 O   u1 {2,S}
+  4 *4 H   u0 {1,S}
+  5    R!H u0 {1,S}
+  6    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: HOO_rad
+group: |2
+
+  1    H u0 {2,S}
+  2 *5 O u0 {1,S} {3,S}
+  3 *6 O u1 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C_methyl_OO_rad
+group: |2
+
+  1    C u0 {2,S} {4,S} {5,S} {6,S}
+  2 *5 O u0 {1,S} {3,S}
+  3 *6 O u1 {2,S}
+  4    H u0 {1,S}
+  5    H u0 {1,S}
+  6    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C_pri_OO_rad
+group: |2
+
+  1    C   u0 {2,S} {4,S} {5,S} {6,S}
+  2 *5 O   u0 {1,S} {3,S}
+  3 *6 O   u1 {2,S}
+  4    H   u0 {1,S}
+  5    H   u0 {1,S}
+  6    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C_sec_OO_rad
+group: |2
+
+  1    C   u0 {2,S} {4,S} {5,S} {6,S}
+  2 *5 O   u0 {1,S} {3,S}
+  3 *6 O   u1 {2,S}
+  4    H   u0 {1,S}
+  5    R!H u0 {1,S}
+  6    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C_ter_OO_rad
+group: |2
+
+  1    C   u0 {2,S} {4,S} {5,S} {6,S}
+  2 *5 O   u0 {1,S} {3,S}
+  3 *6 O   u1 {2,S}
+  4    R!H u0 {1,S}
+  5    R!H u0 {1,S}
+  6    R!H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O=COO_rad
+group: |2
+
+  1    C u0 {2,S} {4,D}
+  2 *5 O u0 {1,S} {3,S}
+  3 *6 O u1 {2,S}
+  4    O u0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CbdtH_pri_OO_rad
+group: "\n1 *1 C   u0 {2,S} {4,S} {5,S} {6,S}\n2 *2 O   u0 {1,S} {3,S}\n3 *3 O   u1\
+  \ {2,S}\n4 *4 H   u0 {1,S}\n5    H   u0 {1,S}\n6    [Cd,Ct,Cb] u0 {1,S} \n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: CbdtH_sec_OO_rad
+group: "\n1 *1 C   u0 {2,S} {4,S} {5,S} {6,S}\n2 *2 O   u0 {1,S} {3,S}\n3 *3 O   u1\
+  \ {2,S}\n4 *4 H   u0 {1,S}\n5    R!H u0 {1,S}\n6    [Cd,Ct,Cb] u0 {1,S} \n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Cbdt_pri_OO_rad
+group: "\n1    C   u0 {2,S} {4,S} {5,S} {6,S}\n2 *5 O   u0 {1,S} {3,S}\n3 *6 O   u1\
+  \ {2,S}\n4    H   u0 {1,S}\n5    H   u0 {1,S}\n6    [Cd,Ct,Cb] u0 {1,S} \n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Cbdt_sec_OO_rad
+group: "\n1    C   u0 {2,S} {4,S} {5,S} {6,S}\n2 *5 O   u0 {1,S} {3,S}\n3 *6 O   u1\
+  \ {2,S}\n4    H   u0 {1,S}\n5    R!H u0 {1,S}\n6    [Cd,Ct,Cb] u0 {1,S} \n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Cbdt_ter_OO_rad
+group: "\n1    C   u0 {2,S} {4,S} {5,S} {6,S}\n2 *5 O   u0 {1,S} {3,S}\n3 *6 O   u1\
+  \ {2,S}\n4    R!H u0 {1,S}\n5    R!H u0 {1,S}\n6    [Cd,Ct,Cb] u0 {1,S} \n"
+short_description: ''
+long_description: ''
+children: []

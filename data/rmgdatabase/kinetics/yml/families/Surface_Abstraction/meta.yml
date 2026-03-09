@@ -1,0 +1,38 @@
+short_description: ''
+long_description: "\nTwo adsorbates react. One has a multiple bond to the surface,\
+  \ the other has a\nsingle-bond to the surface and some functional group.\nThe functional\
+  \ group is transferred from the single\nto the multiple-bonded species.\n *1   *4-*3\
+  \             *1-*4  *3\n ||       |      ---->   |     ||\n~*2~~ + ~*5~~      \
+  \    ~*2~ + ~*5~~\nThe rate, which should be in mol/m2/s,\nwill be given by k *\
+  \ (mol/m2) * (mol/m2)\nso k should be in (m2/mol/s)\n"
+template:
+  reactants:
+  - Abstracting
+  - Donating
+  products:
+  - Abstracting
+  - Donating
+  ownReverse: true
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*4'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - 1
+    - '*5'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 2
+auto_generated: false

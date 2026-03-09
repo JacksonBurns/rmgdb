@@ -8,12 +8,12 @@ kinetics:
   A:
   - 3010000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH + DMS  <=> DMSOH
@@ -31,7 +31,7 @@ kinetics:
   - 14.7
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH + DMS  <=> H2O + DMSrad
@@ -44,12 +44,12 @@ kinetics:
   A:
   - 6800000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.11
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2 + DMSO2H <=> DMSO2 + OOH
@@ -67,7 +67,7 @@ kinetics:
   - 9.81
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH + DMSO  <=> DMSO2H
@@ -80,12 +80,12 @@ kinetics:
   A:
   - 7230000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 3
+  - 3.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2 + DMSO2H  <=> DMSO4H
@@ -98,12 +98,12 @@ kinetics:
   A:
   - 1140000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO2H <=> CH3 + CS(=O)OH
@@ -121,7 +121,7 @@ kinetics:
   - 25.3
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO2 <=> CS(=O)Orad + CH3
@@ -141,12 +141,12 @@ kinetics:
   A:
   - 214000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 253
+  - 253.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSCOOrad + CSCOOrad  <=> CSCOrad + CSCOrad + O2
@@ -160,12 +160,12 @@ kinetics:
   A:
   - 3312000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSCOOrad + CSCOOrad  <=> CSCOH + MTF + O2
@@ -179,12 +179,12 @@ kinetics:
   A:
   - 34300000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - -6.236
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: MTF + CH3 <=> MTFrad + CH4
@@ -197,12 +197,12 @@ kinetics:
   A:
   - 79490000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 37.66
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: MTF + OH <=> MTFrad + H2O
@@ -215,12 +215,12 @@ kinetics:
   A:
   - 96900000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSrad + O2 <=> CSOOrad
@@ -238,7 +238,7 @@ kinetics:
   - 24.69
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSrad + O2 <=> CH2=S + OOH
@@ -256,7 +256,7 @@ kinetics:
   - 34.73
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSrad + O2 <=> CSOrad + O
@@ -274,7 +274,7 @@ kinetics:
   - 70.71
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSrad + O2 <=> CH3 + SO2
@@ -292,7 +292,7 @@ kinetics:
   - 51.5
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: SO2 + CH3 <=> CS(=O)Orad
@@ -305,12 +305,12 @@ kinetics:
   A:
   - 1547000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 5.4
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOOC=O <=> H2O + CO2
@@ -322,12 +322,12 @@ kinetics:
   A:
   - 214000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 118.9
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSCOOrad + OOH <=> CSCOOH + O2
@@ -345,7 +345,7 @@ kinetics:
   - -19.36
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMS + OOH <=> DMSO + OH
@@ -363,7 +363,7 @@ kinetics:
   - 51.58
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO + OOH <=> DMSO2 + OH
@@ -381,7 +381,7 @@ kinetics:
   - 36.24
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO + HOOH <=> DMSO2 + H2O
@@ -399,7 +399,7 @@ kinetics:
   - 99.84
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO + O2 <=> DMSO2 + O
@@ -414,10 +414,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.61
   Ea:
-  - 234
+  - 234.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSOHOO <=> DMSO2 + OH
@@ -435,7 +435,7 @@ kinetics:
   - 63.73
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO3H2 <=> DMSO2 + H2O
@@ -453,7 +453,7 @@ kinetics:
   - 5.07
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSOHOOH <=> DMSO3H2
@@ -471,7 +471,7 @@ kinetics:
   - 148.9
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSOHOO <=> DMSO3H
@@ -489,7 +489,7 @@ kinetics:
   - 180.6
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DMSO4H <=> DMSO2 + OOH
@@ -507,7 +507,7 @@ kinetics:
   - 46.33
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CSOOrad <=> CS(=O)Orad
@@ -525,5 +525,5 @@ kinetics:
   - 64.05
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K

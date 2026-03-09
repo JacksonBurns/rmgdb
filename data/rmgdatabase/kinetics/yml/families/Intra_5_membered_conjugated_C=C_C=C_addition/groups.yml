@@ -1,0 +1,109 @@
+label: C=C=C-C=C
+group: |2
+
+  1 *4 Cd  u0 {2,S} {4,D}
+  2 *3 Cd  u0 {1,S} {5,D}
+  3 *1 C   u0 {4,D}
+  4 *5 Cdd u0 {1,D} {3,D}
+  5 *2 C   u0 {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=C=C_End
+group: |2
+
+  1 *1 C u0
+short_description: ''
+long_description: ''
+children:
+- C=C=CdH2
+- C=C=CdHC
+- C=C=Cd(C)C
+- C=C=CddC
+---
+label: C-C=C_End
+group: |2
+
+  1 *2 C u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=C=CdH2
+group: |2
+
+  1 *1 Cd u0 {2,S} {3,S}
+  2    H  u0 {1,S}
+  3    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=C=CdHC
+group: |2
+
+  1 *1 Cd u0 {2,S} {3,S}
+  2    H  u0 {1,S}
+  3    C  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=C=Cd(C)C
+group: |2
+
+  1 *1 Cd u0 {2,S} {3,S}
+  2    C  u0 {1,S}
+  3    C  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=C=CddC
+group: |2
+
+  1 *1 Cdd u0 {2,D}
+  2    C   u0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C=CdH2
+group: |2
+
+  1 *2 Cd u0 {2,S} {3,S}
+  2    H  u0 {1,S}
+  3    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C=CdHC
+group: |2
+
+  1 *2 Cd u0 {2,S} {3,S}
+  2    H  u0 {1,S}
+  3    C  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C=Cd(C)C
+group: |2
+
+  1 *2 Cd u0 {2,S} {3,S}
+  2    C  u0 {1,S}
+  3    C  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C=CddC
+group: |2
+
+  1 *2 Cdd u0 {2,D}
+  2    C   u0 {1,D}
+short_description: ''
+long_description: ''
+children: []

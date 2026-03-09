@@ -14,7 +14,7 @@ kinetics:
   - 15.4228
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Hexylbenzene <=> Toluene + 1-Pentene
@@ -32,7 +32,7 @@ kinetics:
   - 309.226
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Hexylbenzene + H <=> HexylbenzenePlusHSub
@@ -51,7 +51,7 @@ kinetics:
   - 25.4744
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + H <=> ToluenePlusHOrtho
@@ -70,7 +70,7 @@ kinetics:
   - 18.8871
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + H <=> ToluenePlusHMeta
@@ -89,7 +89,7 @@ kinetics:
   - 22.7647
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + H <=> ToluenePlusHPara
@@ -108,7 +108,7 @@ kinetics:
   - 22.5731
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + H <=> ToluenePlusHSub
@@ -127,7 +127,7 @@ kinetics:
   - 26.7856
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + CH3 <=> ToluenePlusCH3Ortho
@@ -146,7 +146,7 @@ kinetics:
   - 37.9756
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + CH3 <=> ToluenePlusCH3Meta
@@ -165,7 +165,7 @@ kinetics:
   - 41.1979
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + CH3 <=> ToluenePlusCH3Para
@@ -184,7 +184,7 @@ kinetics:
   - 41.6199
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + CH3 <=> ToluenePlusCH3Sub
@@ -203,7 +203,7 @@ kinetics:
   - 43.8158
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: rad4 <=> EthyltetralinRad
@@ -222,7 +222,7 @@ kinetics:
   - 27.5998
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: rad3 <=> PropylindaneRad
@@ -234,14 +234,14 @@ long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/20
 kinetics:
   type: Arrhenius
   A:
-  - 14489047644
+  - 14489047644.0
   - s^-1
   n: 1.22276
   Ea:
   - 57.6245
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthyltetralinRad <=> Ethyltetralin + H
@@ -260,7 +260,7 @@ kinetics:
   - 121.108
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: PropylindaneRad <=> Propylindane + H
@@ -279,7 +279,7 @@ kinetics:
   - 108.102
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Benzyl <=> ToluenePlusBenzylOrtho
@@ -298,7 +298,7 @@ kinetics:
   - 47.3967
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Benzyl <=> ToluenePlusBenzylMeta
@@ -317,7 +317,7 @@ kinetics:
   - 52.4195
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Benzyl <=> ToluenePlusBenzylPara
@@ -336,7 +336,7 @@ kinetics:
   - 51.957
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Benzyl <=> ToluenePlusBenzylSub
@@ -355,7 +355,7 @@ kinetics:
   - 49.7678
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylOrtho
@@ -374,7 +374,7 @@ kinetics:
   - 47.5686
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylMeta
@@ -393,7 +393,7 @@ kinetics:
   - 47.2354
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylPara
@@ -412,7 +412,7 @@ kinetics:
   - 47.5562
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylSub
@@ -431,7 +431,7 @@ kinetics:
   - 50.8048
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthylDihydronaphthaleneRadNear <=> EthylDihydronaphthaleneNear + H
@@ -450,7 +450,7 @@ kinetics:
   - 183.348
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthylnaphthaleneRadFar <=> Ethylnaphthalene + H
@@ -469,7 +469,7 @@ kinetics:
   - 137.28
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthylnaphthaleneRadFar2 <=> Ethylnaphthalene + H
@@ -488,7 +488,7 @@ kinetics:
   - 120.415
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthylnaphthaleneRadNear <=> Ethylnaphthalene + H
@@ -507,7 +507,7 @@ kinetics:
   - 137.408
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: EthylnaphthaleneRadNear2 <=> Ethylnaphthalene + H
@@ -526,7 +526,7 @@ kinetics:
   - 119.092
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: PropylindeneRadFar <=> PropylindeneFar + H
@@ -545,7 +545,7 @@ kinetics:
   - 174.095
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: rad2 <=> PM2Rad
@@ -564,13 +564,13 @@ kinetics:
   - 55.0202
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: PM2Rad <=> 2-Phenyl-1-hexylRad
@@ -591,13 +591,13 @@ kinetics:
   - 19.8224
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: rad3 <=> PM3Rad
@@ -609,20 +609,20 @@ long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/a
 kinetics:
   type: Arrhenius
   A:
-  - 966131
+  - 966131.0
   - s^-1
   n: 1.86605
   Ea:
   - 70.406
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: PM3Rad <=> 3-Phenyl-1-hexylRad
@@ -641,13 +641,13 @@ kinetics:
   - 42.4869
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: rad4 <=> PM4Rad
@@ -666,13 +666,13 @@ kinetics:
   - 31.9171
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: PM4Rad <=> 4-phenyl-1-hexylRad
@@ -691,13 +691,13 @@ kinetics:
   - 76.0115
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: rad5 <=> PM5Rad
@@ -716,13 +716,13 @@ kinetics:
   - 26.0501
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: PM5Rad <=> 5-Phenyl-1-hexylRad
@@ -741,13 +741,13 @@ kinetics:
   - 90.7394
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 500
+  - 500.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: phenylrad + ethylbenzene <=> ethylbiphenylRad
@@ -766,13 +766,13 @@ kinetics:
   - 8.15269
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
   - 303.03
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
 ---
 label: ethylrad + biphenyl <=> ethylbiphenylRad
@@ -791,13 +791,13 @@ kinetics:
   - 44.9425
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
   - 303.03
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
 ---
 label: Benzene + CH3 <=> ToluenePlusHSub
@@ -809,20 +809,20 @@ long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/20
 kinetics:
   type: Arrhenius
   A:
-  - 126531
+  - 126531.0
   - cm^3/(mol*s)
   n: 2.32659
   Ea:
   - 42.0038
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
   - 303.03
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K
 ---
 label: rad5 <=> methylbenozocyclohepteneRad
@@ -841,11 +841,11 @@ kinetics:
   - 42.1994
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
   - 303.03
   - K
   Tmax:
-  - 2500
+  - 2500.0
   - K

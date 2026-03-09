@@ -1,0 +1,68 @@
+label: Donating
+group: |2
+
+  1 *1 R!H u0 px cx {2,[S,D]} {4,S}
+  2 *2 R!H u0 px cx {1,[S,D]} {3,S}
+  3 *3 R   u0 {2,S}
+  4 *5 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Abstracting
+group: "\n1 *6 Xo  u0 {2,S}\n2 *4 R!H u0 px cx {1,S}\t\n"
+short_description: ''
+long_description: ''
+children:
+- C
+- O
+- C
+- N
+- O
+- OH
+- O
+---
+label: R-C-H
+group: |2
+
+  1 *1 R!H u0 px cx {2,[S,D]} {4,S}
+  2 *2 C   u0 px cx {1,[S,D]} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-O-H
+group: |2
+
+  1 *1 R!H u0 px cx {2,S} {4,S}
+  2 *2 O   u0 px cx {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: OH
+group: |2
+
+  1 *4 O   u0 p2 c0 {2,S} {3,S}
+  2    H   u0 {1,S}
+  3 *6 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-CH3
+group: |2
+
+  1 *1 R!H u0 px cx {2,S} {4,S}
+  2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,S}
+  5    H   u0 {2,S}
+  6    H   u0 {2,S}
+short_description: ''
+long_description: ''
+children: []

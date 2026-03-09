@@ -1,0 +1,83 @@
+label: NNHNH2
+group: |2
+
+  1 *1 N u0 p1     c0 {2,S} {5,S} {6,S}
+  2 *2 N u0 px     cx {1,S} {4,S} {3,[S,D]}
+  3 *3 N u0 p[1,2] cx {2,[S,D]}
+  4 *4 H u0 p0     c0 {2,S}
+  5    H u0 p0     c0 {1,S}
+  6    H u0 p0     c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- non_charged
+- charged
+---
+label: non_charged
+group: |2
+
+  1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
+  2 *2 N u0 p1 c0 {1,S} {4,S} {3,S}
+  3 *3 N u0 p1 c0 {2,S}
+  4 *4 H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- non_charged4
+---
+label: non_charged4
+group: |2
+
+  1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
+  2 *2 N u0 p1 c0 {1,S} {4,S} {3,S}
+  3 *3 N u0 p1 c0 {2,S} {7,S}
+  4 *4 H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+  7    N ux px cx {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: charged
+group: |2
+
+  1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
+  2 *2 N u0 p0 c+1 {1,S} {4,S} {3,[S,D]}
+  3 *3 N u0 p2 c-1 {2,[S,D]}
+  4 *4 H u0 p0 c0  {2,S}
+  5    H u0 p0 c0  {1,S}
+  6    H u0 p0 c0  {1,S}
+short_description: ''
+long_description: ''
+children:
+- chargedS
+- chargedD
+---
+label: chargedS
+group: |2
+
+  1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
+  2 *2 N u0 p0 c+1 {1,S} {4,S} {3,S}
+  3 *3 N u0 p2 c-1 {2,S}
+  4 *4 H u0 p0 c0  {2,S}
+  5    H u0 p0 c0  {1,S}
+  6    H u0 p0 c0  {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: chargedD
+group: |2
+
+  1 *1 N u0 p1 c0  {2,S} {5,S} {6,S}
+  2 *2 N u0 p0 c+1 {1,S} {4,S} {3,D}
+  3 *3 N u0 p2 c-1 {2,D}
+  4 *4 H u0 p0 c0  {2,S}
+  5    H u0 p0 c0  {1,S}
+  6    H u0 p0 c0  {1,S}
+short_description: ''
+long_description: ''
+children: []

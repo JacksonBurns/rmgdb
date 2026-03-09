@@ -1,0 +1,36 @@
+short_description: ''
+long_description: '
+
+  If a birad, the reacting site *3 must be a triplet instead of singlet for this reaction
+  family.
+
+  '
+template:
+  reactants:
+  - Root
+  products:
+  - YJ
+  ownReverse: false
+recipe:
+  actions:
+  - - LOSE_RADICAL
+    - '*3'
+    - 1
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*3'
+  - - GAIN_RADICAL
+    - '*2'
+    - 1
+reversible: true
+reverse_map:
+  '*2': '*3'
+  '*3': '*2'
+reactant_num: 2
+product_num: 1
+auto_generated: true

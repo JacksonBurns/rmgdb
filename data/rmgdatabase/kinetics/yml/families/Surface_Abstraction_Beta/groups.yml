@@ -1,0 +1,144 @@
+label: Donating
+group: |2
+
+  1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 px c0 {1,S} {3,S}
+  3 *3 R   u0 {2,S}
+  4 *5 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Abstracting
+group: "\n1 *6 Xo  u0 {2,[D,T,Q]}\n2 *4 R!H u0 px c0 {1,[D,T,Q]}\t\n"
+short_description: ''
+long_description: ''
+children:
+- C
+- O
+- C
+- N
+- O
+- OH
+- O
+---
+label: R-C-H
+group: |2
+
+  1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+  2 *2 C u0 px c0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-O-H
+group: |2
+
+  1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+  2 *2 O   u0 p2 c0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O
+group: |2
+
+  1 *4 O   u0 p2 c0 {2,D}
+  2 *6 Xo  u0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- O-H
+- O-C
+- O-N
+- O-H
+- O=N
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
+---
+label: C=*
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,D}
+  2 *6 Xo u0 p0 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C#*
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,T}
+  2 *6 Xo u0 p0 c0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C$*
+group: |2
+
+  1 *4 C  u0 p0 c0 {2,Q}
+  2 *6 Xo u0 p0 c0 {1,Q}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-R-H
+group: |2
+
+  1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 px c0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- R-C-H
+---
+label: R-CH3
+group: |2
+
+  1 *1 R!H u0 px c0 {2,S} {4,[D,T]}
+  2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+  3 *3 H   u0 {2,S}
+  4 *5 Xo  u0 {1,[D,T]}
+  5    H   u0 {2,S}
+  6    H   u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C
+group: |2
+
+  1 *4 C  u0 px c0 {2,[D,T,Q]}
+  2 *6 Xo u0 p0 c0 {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*

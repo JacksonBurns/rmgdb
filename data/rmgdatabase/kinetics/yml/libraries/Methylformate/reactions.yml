@@ -10,7 +10,7 @@ kinetics:
   - 68.628
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Mfmt <=> CH2O + CH2O
@@ -25,7 +25,7 @@ kinetics:
   - 75.979
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Mfmt <=> CO2 + CH4
@@ -40,7 +40,7 @@ kinetics:
   - 83.612
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Mofml <=> CO2 + CH3j
@@ -55,7 +55,7 @@ kinetics:
   - 14.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CO + CH3Oj <=> Mofml
@@ -70,7 +70,7 @@ kinetics:
   - 5.81
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HCjO + CH2O <=> Fmoml
@@ -78,14 +78,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 5030
+  - 5030.0
   - cm^3/(mol*s)
   n: 2.48
   Ea:
   - 9.32
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Hj + Mfmt <=> H2 + Mofml
@@ -93,14 +93,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 228000
+  - 228000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 6.56
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Hj + Mfmt <=> H2 + Fmoml
@@ -108,14 +108,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 116000
+  - 116000.0
   - cm^3/(mol*s)
   n: 2.55
   Ea:
   - 7.62
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3j + Mfmt <=> CH4 + Mofml
@@ -130,7 +130,7 @@ kinetics:
   - 6.81
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3j + Mfmt <=> CH4 + Fmoml
@@ -145,7 +145,7 @@ kinetics:
   - 8.02
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3Oj + HCjO <=> Mfmt
@@ -155,12 +155,12 @@ kinetics:
   A:
   - 18000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3j + OjCHO <=> Mfmt
@@ -170,10 +170,10 @@ kinetics:
   A:
   - 18000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

@@ -1,0 +1,22 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - Root
+  products:
+  - Y_Y
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*'
+    - 1
+    - '*'
+  - - LOSE_RADICAL
+    - '*'
+    - '1'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 1
+auto_generated: true

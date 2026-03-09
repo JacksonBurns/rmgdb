@@ -1,0 +1,473 @@
+label: Adsorbate
+group: |2
+
+  multiplicity [1]
+  1 *1 R u0 px cx {2,S}
+  2 *2 R u0 px cx {1,S}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: VacantSite1
+group: |2
+
+  1 *3 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite2
+group: |2
+
+  1 *4 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: H2
+group: |2
+
+  multiplicity [1]
+  1 *1 H u0 p0 c0 {2,S}
+  2 *2 H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O
+group: |2
+
+  multiplicity [1]
+  1 *1 O u0 p2 c0 {2,S}
+  2 *2 R u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-H
+- O-C
+- O-N
+- O-H
+- O=N
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
+---
+label: O-H
+group: |2
+
+  multiplicity [1]
+  1 *1 O u0 p2 c0 {2,S}
+  2 *2 H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- H2O
+- H2O2
+- H2O
+---
+label: H2O
+group: |2
+
+  multiplicity [1]
+  1 *1 O u0 p2 c0 {2,S} {3,S}
+  2 *2 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N
+group: |2
+
+  multiplicity [1]
+  1 *1 O u0 p2 c0 {2,S}
+  2 *2 N u0 p1 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-N=O
+- O-N=O
+---
+label: O-C
+group: |2
+
+  multiplicity [1]
+  1 *1 O u0 p2 c0 {2,S}
+  2 *2 C u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-CH3
+- O-C=O
+---
+label: N
+group: |2
+
+  multiplicity [1]
+  1 *1 N u0 px cx {2,S}
+  2 *2 R u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- N=O
+- N3s
+- N3d
+- NH
+- NN
+- 'NO'
+- NN
+- N-C
+- N-H
+- N-H2
+- N-H
+- N-N
+- N=*
+- N#*
+---
+label: N-C
+group: |2
+
+  multiplicity [1]
+  1 *1 N u0 p2 c0 {2,S}
+  2 *2 C u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-H
+group: |2
+
+  multiplicity [1]
+  1 *1 N u0 p2 c0 {2,S}
+  2 *2 H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-H
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,S}
+  2 *2 H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CH
+- CH2
+- CH3
+- C-H_Bidentate
+- CH2R
+- CHR
+---
+label: C
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,S}
+  2 *2 R u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*
+---
+label: CH4
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C2H6
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2    C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3 *2 H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {2,S}
+  8    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C3H8
+group: |2
+
+  multiplicity [1]
+  1  *1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2     C u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+  3     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  4  *2 H u0 p0 c0 {1,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH3OH
+group: |2+
+
+  multiplicity [1]
+  1    O u0 p2 c0 {2,S} {6,S}
+  2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *2 H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {1,S}
+
+short_description: ''
+long_description: ''
+children: []
+---
+label: C2H4
+group: |2
+
+  multiplicity [1]
+  1 *1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2    C u0 p0 c0 {1,D} {5,S} {6,S}
+  3 *2 H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: adjacentradical1
+group: |2
+
+  1 *1 R u0 {2,[S,D,T]}
+  2    R u1 {1,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be adjacent to a radical.
+  e.g. this is not allowed:
+
+  CH2.-CH3    -->   CH2.-CH2   +   H
+                         |         |
+       X X               X         X
+---
+label: adjacentradical2
+group: |2
+
+  1 *2 R u0 {2,[S,D,T]}
+  2    R u1 {1,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Neither adsorbing atom should be adjacent to a radical
+  e.g. this is not allowed:
+
+  CH2.-CH3    -->   CH2.-CH2   +   H
+                         |         |
+       X X               X         X
+---
+label: disigma1
+group: |2
+
+  1 *1 R u0 {2,[S,D,T]}
+  2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+  3    X u0 {2,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be adjacent to an atom that is already adsorbed.
+  e.g. this is not allowed:
+
+  H  O=C-O   <-->  O=CH-O
+  |    | |              |
+  X    X X         X X  X
+---
+label: disigma2
+group: |2
+
+  1 *2 R u0 {2,[S,D,T]}
+  2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+  3    X u0 {2,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be adjacent to an atom that is already adsorbed.
+  e.g. this is not allowed:
+
+  H  O=C-O   <-->  O=CH-O
+  |    | |              |
+  X    X X         X X  X
+---
+label: disigma3
+group: |2
+
+  1 *1 R u0 {2,[S,D,T]}
+  2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+  3    R u0 {2,[S,D,T]} {4,[S,D,T]}
+  4    X u0 {3,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
+---
+label: disigma4
+group: |2
+
+  1 *2 R u0 {2,[S,D,T]}
+  2    R u0 {1,[S,D,T]} {3,[S,D,T]}
+  3    R u0 {2,[S,D,T]} {4,[S,D,T]}
+  4    X u0 {3,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be next-nearest neighbor to an atom that is already adsorbed.
+---
+label: N-O
+group: |2
+
+  1 *2 O u0 {2,S}
+  2 *1 N u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  O should not match to *2 with a less heavy atom
+---
+label: C-O
+group: |2
+
+  1 *2 O u0 {2,S}
+  2 *1 C u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  O should not match to *2 with a less heavy atom
+---
+label: H-O
+group: |2
+
+  1 *2 O u0 {2,S}
+  2 *1 H u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  O should not match to *2 with a less heavy atom
+---
+label: C-N
+group: |2
+
+  1 *2 N u0 {2,S}
+  2 *1 C u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  N should not match to *2 with a less heavy atom
+---
+label: H-N
+group: |2
+
+  1 *2 N u0 {2,S}
+  2 *1 H u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  N should not match to *2 with a less heavy atom
+---
+label: H-C
+group: |2
+
+  1 *2 C u0 {2,S}
+  2 *1 H u0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  C should not match to *2 with a less heavy atom
+---
+label: chargedBond
+group: |2
+
+  1 *1 R!H ux c[+1,-1] {2,[S,D,T]}
+  2 *2 R!H ux c[+1,-1] {1,[S,D,T]}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing molecule should not have a charge on the surface.

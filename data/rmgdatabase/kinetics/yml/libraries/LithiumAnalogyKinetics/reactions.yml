@@ -13,23 +13,14 @@ kinetics:
   - 59.4863
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
-  solute:
-    type: SoluteData
-    data:
-      S: 2.140536907525525
-      B: 1.0466026029403899
-      E: -0.4141994326786929
-      L: 4.770587031445122
-      A: 0.9093778018261982
-      comment: ''
 ---
 label: '[Li]OC(=O)OC[CH2] + [Li]OC(=O)OC[CH2] <=> C=C + [Li]OC(=O)OCCOC(=O)O[Li]'
 degeneracy: 1.0
@@ -46,13 +37,13 @@ kinetics:
   - 2.37772
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 1000
+  - 1000.0
   - K
   comment: Fitted to 50 data points; dA = *|/ 2.80611, dn = +|- 0.142081, dEa = +|-
     0.590342 kJ/mol
@@ -69,26 +60,17 @@ kinetics:
   - s^-1
   n: -4.72524
   w0:
-  - 741100
+  - 741100.0
   - J/mol
   E0:
   - 9911.42
   - J/mol
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 1500
+  - 1500.0
   - K
-  uncertainty:
-    type: RateUncertainty
-    data:
-      mu: 0.2101947124094859
-      var: 22.757813031131217
-      Tref: 1000.0
-      N: 3
-      data_mean: 0.0
-      correlation: Root_Ext-3R-R_5R!H->C
   comment: |-
     BM rule fitted to 3 training reactions at node Root_Ext-3R-R_5R!H->C
             Total Standard Deviation in ln(k): 10.091746105650293

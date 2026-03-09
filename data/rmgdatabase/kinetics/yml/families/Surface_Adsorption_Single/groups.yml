@@ -1,0 +1,270 @@
+label: Adsorbate
+group: |2
+
+  multiplicity [2]
+  1 *1 [H,C,N,O,S,F,Cl,Br] u1
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: VacantSite
+group: |2
+
+  1 *2 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: H
+group: |2
+
+  multiplicity [2]
+  1 *1 H u1 p0 c0
+short_description: ''
+long_description: ''
+children:
+- H2
+- CH4
+- NH3
+---
+label: C
+group: |2
+
+  multiplicity [2]
+  1 *1 C u1
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*
+---
+label: C-H
+group: |2
+
+  multiplicity [2]
+  1 *1 C u1 p1 cx {2,S}
+  2    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CH
+- CH2
+- CH3
+- C-H_Bidentate
+- CH2R
+- CHR
+---
+label: CH=O
+group: |2
+
+  multiplicity [2]
+  1    O u0 p2 cx {2,D}
+  2 *1 C u1 p0 cx {1,D} {3,S}
+  3    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH2-H
+group: |2
+
+  multiplicity [2]
+  1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N
+group: |2
+
+  multiplicity [2]
+  1 *1 N u1
+short_description: ''
+long_description: ''
+children:
+- N=O
+- N3s
+- N3d
+- NH
+- NN
+- 'NO'
+- NN
+- N-C
+- N-H
+- N-H2
+- N-H
+- N-N
+- N=*
+- N#*
+---
+label: N=O
+group: |2
+
+  multiplicity [2]
+  1 *1 N u1 p1 c0 {2,D}
+  2    O u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- HNO
+---
+label: O
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1
+short_description: ''
+long_description: ''
+children:
+- O-H
+- O-C
+- O-N
+- O-H
+- O=N
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
+---
+label: O-H
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1 p2 c0 {2,S}
+  2    H u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- H2O
+- H2O2
+- H2O
+---
+label: O-C
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1 p2 cx {2,S}
+  2    C u0 p0 cx {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-CH3
+- O-C=O
+---
+label: O-CH3
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1 p2 c0 {2,S}
+  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1 p2 cx {2,S}
+  2    N u0 p1 cx {1,S}
+short_description: ''
+long_description: ''
+children:
+- O-N=O
+- O-N=O
+---
+label: O-N=O
+group: |2
+
+  multiplicity [2]
+  1 *1 O u1 p2 cx {3,S}
+  2    O u0 p2 cx {3,D}
+  3    N u0 p1 cx {1,S} {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: adjacentradical
+group: |2
+
+  1 *1 R u1 {2,S}
+  2    R u1 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not be adjacent to a radical.
+  e.g. this is not allowed:
+
+  .O-O.    -->   .O-O
+                    |
+     X              X
+---
+label: chargedSpecies
+group: |2
+
+  1 *1 R u1 c[+1,-1]
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing atom should not have a charge

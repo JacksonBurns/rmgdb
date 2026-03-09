@@ -1,0 +1,23 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - Y_12birad
+  products:
+  - Y_multiple_bond
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - LOSE_RADICAL
+    - '*1'
+    - '1'
+  - - LOSE_RADICAL
+    - '*2'
+    - '1'
+reversible: false
+reverse_map: {}
+auto_generated: false

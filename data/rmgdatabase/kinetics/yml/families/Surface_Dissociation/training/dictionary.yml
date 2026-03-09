@@ -1,0 +1,260 @@
+label: CH2X_3
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,S} {4,D}
+  2    H u0 p0 {1,S}
+  3    H u0 p0 {1,S}
+  4 *3 X u0 p0 {1,D}
+---
+label: Ni_4
+adjacency_list: 1 *4 X u0 p0 c0
+---
+label: CH3X_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H u0 p0 {1,S}
+  3    H u0 p0 {1,S}
+  4    H u0 p0 {1,S}
+  5 *3 X u0 p0 {1,S}
+---
+label: HX_5
+adjacency_list: |-
+  1 *2 H u0 p0 {2,S}
+  2 *4 X u0 p0 {1,S}
+---
+label: CHX_3
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,T}
+  2    H u0 p0 {1,S}
+  3 *3 X u0 p0 {1,T}
+---
+label: CH2X_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,S} {4,D}
+  2 *2 H u0 p0 {1,S}
+  3    H u0 p0 {1,S}
+  4 *3 X u0 p0 {1,D}
+---
+label: HOX_1
+adjacency_list: |-
+  1 *1 O u0 p2 {2,S} {3,S}
+  2 *2 H u0 p0 {1,S}
+  3 *3 X u0 p0 {1,S}
+---
+label: OX_3
+adjacency_list: |-
+  1 *1 X u0 p0 c0 {2,D}
+  2 *3 O u0 p2 c0 {1,D}
+---
+label: HOCXO_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,D} {3,S} {5,S}
+  2    O u0 p2 {1,D}
+  3 *2 O u0 p2 {1,S} {4,S}
+  4    H u0 p0 {3,S}
+  5 *3 X u0 p0 {1,S}
+---
+label: OCX_3
+adjacency_list: |-
+  1 *1 C u0 p0 {2,D} {3,D}
+  2    O u0 p2 {1,D}
+  3 *3 X u0 p0 {1,D}
+---
+label: HOX_5
+adjacency_list: |-
+  1 *2 O u0 p2 {2,S} {3,S}
+  2    H u0 p0 {1,S}
+  3 *4 X u0 p0 {1,S}
+---
+label: CXHO_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,D} {3,S} {4,S}
+  2    O u0 p2 {1,D}
+  3 *2 H u0 p0 {1,S}
+  4 *3 X u0 p0 {1,S}
+---
+label: CHX_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,T}
+  2 *2 H u0 p0 {1,S}
+  3 *3 X u0 p0 {1,T}
+---
+label: CX_3
+adjacency_list: |-
+  1 *1 C u0 p0 {2,Q}
+  2 *3 X u0 p0 {1,Q}
+---
+label: HCO*
+adjacency_list: |-
+  1    O u0 p2 c0 {2,D}
+  2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3    H u0 p0 c0 {2,S}
+  4 *4 X u0 p0 c0 {2,S}
+---
+label: HCOO*
+adjacency_list: |-
+  1 *1 O u0 p2 c0 {3,S} {5,S}
+  2    O u0 p2 c0 {3,D}
+  3 *2 C u0 p0 c0 {1,S} {2,D} {4,S}
+  4    H u0 p0 c0 {3,S}
+  5 *3 X u0 p0 c0 {1,S}
+---
+label: HCOH*
+adjacency_list: |-
+  1    O u0 p2 c0 {2,S} {4,S}
+  2 *1 C u0 p0 c0 {1,S} {3,S} {5,D}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {1,S}
+  5 *3 X u0 p0 c0 {2,D}
+---
+label: CH2OH*
+adjacency_list: |-
+  1    O u0 p2 c0 {2,S} {5,S}
+  2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3 *2 H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+  6 *3 X u0 p0 c0 {2,S}
+---
+label: CH2OH*_2
+adjacency_list: |-
+  1    O u0 p2 c0 {2,S} {5,S}
+  2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+  6 *4 X u0 p0 c0 {2,S}
+---
+label: CH3O2*
+adjacency_list: |-
+  1    O u0 p2 c0 {3,S} {6,S}
+  2 *1 O u0 p2 c0 {3,S} {7,S}
+  3 *2 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    H u0 p0 c0 {3,S}
+  5    H u0 p0 c0 {3,S}
+  6    H u0 p0 c0 {1,S}
+  7 *3 X u0 p0 c0 {2,S}
+---
+label: NH2_X
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 *2 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4 *3 X u0 p0 c0 {1,S}
+---
+label: NHX_1
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,D} {3,S}
+  2 *3 X u0 p0 c0 {1,D}
+  3    H u0 p0 c0 {1,S}
+---
+label: NHX_2
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,D} {3,S}
+  2 *3 X u0 p0 c0 {1,D}
+  3 *2 H u0 p0 c0 {1,S}
+---
+label: NX
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,T}
+  2 *3 X u0 p0 c0 {1,T}
+---
+label: HCCH2_2X
+adjacency_list: |-
+  1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H u0 {1,S}
+  3    H u0 {1,S}
+  4 *3 X u0 {1,S}
+  5    C u0 {1,S} {6,S} {7,D}
+  6    H u0 {5,S}
+  7    X u0 {5,D}
+---
+label: HCCH_2X
+adjacency_list: |-
+  1 *1 C u0 {2,S} {3,D} {4,S}
+  2    H u0 {1,S}
+  3 *3 X u0 {1,D}
+  4    C u0 {1,S} {5,S} {6,D}
+  5    H u0 {4,S}
+  6    X u0 {4,D}
+---
+label: H2CCH2_2X
+adjacency_list: |-
+  1 *1 C u0 {2,S} {3,S} {4,S} {5,S}
+  2 *2 H u0 {1,S}
+  3    H u0 {1,S}
+  4 *3 X u0 {1,S}
+  5    C u0 {1,S} {6,S} {7,S} {8,S}
+  6    H u0 {5,S}
+  7    H u0 {5,S}
+  8    X u0 {5,S}
+---
+label: H2CCH_2X
+adjacency_list: |-
+  1 *1 C u0 {2,S} {3,D} {4,S}
+  2    H u0 {1,S}
+  3 *3 X u0 {1,D}
+  4    C u0 {1,S} {5,S} {6,S} {7,S}
+  5    H u0 {4,S}
+  6    H u0 {4,S}
+  7    X u0 {4,S}
+---
+label: H2CO_2X
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}\n2 *2 H u0 p0 {1,S}\n3    H\
+  \ u0 p0 {1,S}\n4    O u0 p2 {1,S} {6,S}  \n5 *3 X u0 p0 {1,S}\n6    X u0 p0 {4,S}"
+---
+label: HCO_2X
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,D}\n2    H u0 p0 {1,S}\n3    O u0 p2\
+  \ {1,S} {5,S}  \n4 *3 X u0 p0 {1,D}\n5    X u0 p0 {3,S}"
+---
+label: XCXCH2_1
+adjacency_list: |-
+  1    C u0 p0 {2,S} {5,T}
+  2 *1 C u0 p0 {1,S} {3,S} {4,S} {6,S}
+  3 *2 H u0 p0 {2,S}
+  4    H u0 p0 {2,S}
+  5    X u0 p0 {1,T}
+  6 *3 X u0 p0 {2,S}
+---
+label: XCXCH_3
+adjacency_list: |-
+  1    C u0 p0 {2,S} {4,T}
+  2 *1 C u0 p0 {1,S} {3,S} {5,D}
+  3    H u0 p0 {2,S}
+  4    X u0 p0 {1,T}
+  5 *3 X u0 p0 {2,D}
+---
+label: XCHXCH2_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,S} {6,D}
+  2    C u0 p0 {1,S} {4,S} {5,S} {7,S}
+  3 *2 H u0 p0 {1,S}
+  4    H u0 p0 {2,S}
+  5    H u0 p0 {2,S}
+  6 *3 X u0 p0 {1,D}
+  7    X u0 p0 {2,S}
+---
+label: XCXCH2_3
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {5,T}
+  2    C u0 p0 {1,S} {3,S} {4,S} {6,S}
+  3    H u0 p0 {2,S}
+  4    H u0 p0 {2,S}
+  5 *3 X u0 p0 {1,T}
+  6    X u0 p0 {2,S}
+---
+label: XCHXCH_1
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {3,S} {5,D}
+  2    C u0 p0 {1,S} {4,S} {6,D}
+  3 *2 H u0 p0 {1,S}
+  4    H u0 p0 {2,S}
+  5 *3 X u0 p0 {1,D}
+  6    X u0 p0 {2,D}
+---
+label: XCXCH_4
+adjacency_list: |-
+  1 *1 C u0 p0 {2,S} {4,T}
+  2    C u0 p0 {1,S} {3,S} {5,D}
+  3    H u0 p0 {2,S}
+  4 *3 X u0 p0 {1,T}
+  5    X u0 p0 {2,D}

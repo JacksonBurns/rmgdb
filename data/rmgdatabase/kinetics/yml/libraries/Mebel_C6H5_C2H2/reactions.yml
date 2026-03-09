@@ -4,59 +4,43 @@ kinetics:
   type: PDepArrhenius
   pressures:
   - - 0.0395
-    - 1
-    - 10
-    - 100
+    - 1.0
+    - 10.0
+    - 100.0
   - atm
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 2.75e+69
-      - cm^3/(mol*s)
-      n: -17.46
-      Ea:
-      - 28430
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 2.75e+69
+    - cm^3/(mol*s)
+    n: -17.46
+    Ea:
+    - 28430.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.91e+61
-      - cm^3/(mol*s)
-      n: -14.55
-      Ea:
-      - 28610
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.91e+61
+    - cm^3/(mol*s)
+    n: -14.55
+    Ea:
+    - 28610.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.22e+50
-      - cm^3/(mol*s)
-      n: -11.01
-      Ea:
-      - 24920
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.22e+50
+    - cm^3/(mol*s)
+    n: -11.01
+    Ea:
+    - 24920.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.11e+43
-      - cm^3/(mol*s)
-      n: -8.7
-      Ea:
-      - 24030
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.11e+43
+    - cm^3/(mol*s)
+    n: -8.7
+    Ea:
+    - 24030.0
+    - cal/mol
 ---
 label: C6H5 + C2H2 <=> C6H4C2H3
 degeneracy: 1.0
@@ -64,59 +48,43 @@ kinetics:
   type: PDepArrhenius
   pressures:
   - - 0.0395
-    - 1
-    - 10
-    - 100
+    - 1.0
+    - 10.0
+    - 100.0
   - atm
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 1.09e+75
-      - cm^3/(mol*s)
-      n: -19.12
-      Ea:
-      - 32380
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.09e+75
+    - cm^3/(mol*s)
+    n: -19.12
+    Ea:
+    - 32380.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.36e+75
-      - cm^3/(mol*s)
-      n: -18.42
-      Ea:
-      - 40880
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.36e+75
+    - cm^3/(mol*s)
+    n: -18.42
+    Ea:
+    - 40880.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 4.95e+69
-      - cm^3/(mol*s)
-      n: -16.33
-      Ea:
-      - 45900
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 4.95e+69
+    - cm^3/(mol*s)
+    n: -16.33
+    Ea:
+    - 45900.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.13e+48
-      - cm^3/(mol*s)
-      n: -9.83
-      Ea:
-      - 39300
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.13e+48
+    - cm^3/(mol*s)
+    n: -9.83
+    Ea:
+    - 39300.0
+    - cal/mol
 ---
 label: C6H5 + C2H2 <=> C6H5C2H + H
 degeneracy: 1.0
@@ -124,56 +92,40 @@ kinetics:
   type: PDepArrhenius
   pressures:
   - - 0.0395
-    - 1
-    - 10
-    - 100
+    - 1.0
+    - 10.0
+    - 100.0
   - atm
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 8.56e+17
-      - cm^3/(mol*s)
-      n: -1.33
-      Ea:
-      - 12690
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 8.56e+17
+    - cm^3/(mol*s)
+    n: -1.33
+    Ea:
+    - 12690.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.1e+31
-      - cm^3/(mol*s)
-      n: -4.83
-      Ea:
-      - 26620
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.1e+31
+    - cm^3/(mol*s)
+    n: -4.83
+    Ea:
+    - 26620.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 3.38e+33
-      - cm^3/(mol*s)
-      n: -5.39
-      Ea:
-      - 32690
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 3.38e+33
+    - cm^3/(mol*s)
+    n: -5.39
+    Ea:
+    - 32690.0
+    - cal/mol
   - type: Arrhenius
-    data:
-      A:
-      - 1.13e+33
-      - cm^3/(mol*s)
-      n: -5.11
-      Ea:
-      - 37820
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.13e+33
+    - cm^3/(mol*s)
+    n: -5.11
+    Ea:
+    - 37820.0
+    - cal/mol

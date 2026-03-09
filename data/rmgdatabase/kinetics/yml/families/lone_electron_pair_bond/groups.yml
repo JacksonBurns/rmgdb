@@ -1,0 +1,18 @@
+label: N3sRRR
+group: |2
+
+  1 *1 N3s u0 p1 {2,S} {3,S} {4,S}
+  2    R   u0 {1,S}
+  3    R   u0 {1,S}
+  4    R   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O_atom_singlet
+group: |2
+
+  1 *2 O u0 p3 c0
+short_description: ''
+long_description: ''
+children: []

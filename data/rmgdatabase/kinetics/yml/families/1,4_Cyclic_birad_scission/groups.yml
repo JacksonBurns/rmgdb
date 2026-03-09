@@ -1,0 +1,61 @@
+label: RJJ
+group: OR{R5JJ, R6JJ, R7JJ}
+short_description: ''
+long_description: ''
+children:
+- R5JJ
+- R6JJ
+- R7JJ
+---
+label: R5JJ
+group: |2
+
+  1 *1 R!H u1 c0 {2,[S,D]} {5,S}
+  2 *2 R!H u0 {1,[S,D]} {3,S}
+  3 *3 R!H u0 {2,S} {4,[S,D]}
+  4 *4 R!H u1 c0 {3,[S,D]} {5,S}
+  5    R!H u0 {1,S} {4,S}
+short_description: ''
+long_description: ''
+children:
+- R5JJ_Cd
+---
+label: R5JJ_Cd
+group: |2
+
+  1 *1 R!H u1 c0 {2,[S,D]} {5,S}
+  2 *2 R!H u0 {1,[S,D]} {3,S}
+  3 *3 R!H u0 {2,S} {4,[S,D]}
+  4 *4 R!H u1 c0 {3,[S,D]} {5,S}
+  5    R!H u0 {1,S} {4,S} {6,S}
+  6    Cd  u0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R6JJ
+group: |2
+
+  1 *1 R!H u1 c0 {2,[S,D]} {5,S}
+  2 *2 R!H u0 {1,[S,D]} {3,S}
+  3 *3 R!H u0 {2,S} {4,[S,D]}
+  4 *4 R!H u1 c0 {3,[S,D]} {6,S}
+  5    R!H u0 {1,S} {6,S}
+  6    R!H u0 {4,S} {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R7JJ
+group: |2
+
+  1 *1 R!H u1 c0 {2,[S,D]} {5,S}
+  2 *2 R!H u0 {1,[S,D]} {3,S}
+  3 *3 R!H u0 {2,S} {4,[S,D]}
+  4 *4 R!H u1 c0 {3,[S,D]} {7,S}
+  5    R!H u0 {1,S} {6,S}
+  6    R!H u0 {5,S} {7,S}
+  7    R!H u0 {4,S} {6,S}
+short_description: ''
+long_description: ''
+children: []

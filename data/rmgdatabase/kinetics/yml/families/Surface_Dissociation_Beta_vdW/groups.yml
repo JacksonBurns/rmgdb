@@ -5,6 +5,8 @@ group: |2
   2 *2 R!H u0 px cx {1,S} {3,S}
   3 *3 R   u0 {2,S}
   4 *4 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - R-H
 - CR-H
@@ -19,6 +21,8 @@ label: VacantSite
 group: |2
 
   1 *5 Xv u0
+short_description: ''
+long_description: ''
 children: []
 ---
 label: R-H
@@ -28,6 +32,8 @@ group: |2
   2 *2 R!H u0 {1,S} {3,S}
   3 *3 H   u0 {2,S}
   4 *4 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: C-H
@@ -37,6 +43,8 @@ group: |2
   2 *2 C   u0 {1,S} {3,S}
   3 *3 H   u0 {2,S}
   4 *4 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - CH
 - CH2
@@ -54,6 +62,8 @@ group: |2
   4    H   u0 p0 c0 {2,S}
   5    H   u0 p0 c0 {2,S}
   6 *4 Xo  u0 p0 c0 {1,S}
+short_description: ''
+long_description: ''
 children: []
 ---
 label: O-H
@@ -63,7 +73,21 @@ group: |2
   2 *2 O   u0 px {1,S} {3,S}
   3 *3 H   u0 {2,S}
   4 *4 Xo  u0 {1,S}
+short_description: ''
+long_description: ''
 children:
 - H2O
 - H2O2
 - H2O
+---
+label: Bidentate
+group: |2
+
+  1 *1 R!H u0 px cx {2,S} {4,S}
+  2 *2 R!H u0 px cx {1,S} {3,S}
+  3 *3 R   u0 {2,S}
+  4 *4 Xo  u0 {1,S}
+  5    Xo  u0
+forbidden: true
+short_description: ''
+long_description: ''

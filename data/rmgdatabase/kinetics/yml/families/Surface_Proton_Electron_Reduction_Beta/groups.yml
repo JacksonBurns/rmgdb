@@ -1,0 +1,104 @@
+label: Adsorbate
+group: |2
+
+  1 *1 R!H u0 {2,[D,T]}
+  2 *2 R!H u0 {1,[D,T]} {3,[S,D]}
+  3 *3 X u0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: Proton
+group: |2
+
+  1 *4 H+ u0 p0 c+1
+short_description: ''
+long_description: ''
+children: []
+---
+label: CRX
+group: |2
+
+  1 *1 C u0 {2,[D,T]}
+  2 *2 R!H u0 {1,[D,T]} {3,[S,D]}
+  3 *3 X u0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- CCX
+- COX
+- CNX
+- O=C=OX
+---
+label: NRX
+group: |2
+
+  1 *1 N u0 {2,[D,T]}
+  2 *2 R!H u0 {1,[D,T]} {3,[S,D]}
+  3 *3 X u0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- NCX
+- NOX
+- NNX
+- HN=N-X
+---
+label: ORX
+group: |2
+
+  1 *1 O u0 {2,D}
+  2 *2 R!H u0 {1,D} {3,[S,D]}
+  3 *3 X u0 {2,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- OCX
+- OOX
+- ONX
+---
+label: HN=N-X
+group: |2
+
+  1 *1 N u0 {2,D} {4,S}
+  2 *2 N u0 {1,D} {3,S}
+  3 *3 X u0 {2,S}
+  4    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []

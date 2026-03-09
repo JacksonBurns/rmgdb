@@ -1,0 +1,110 @@
+label: 1_5_unsaturated_hexane
+group: |2
+
+  1 *3 C u0 {2,S} {3,[S,D]}
+  2 *4 C u0 {1,S} {4,[S,D]}
+  3 *2 C u0 {1,[S,D]} {5,[D,T]}
+  4 *5 C u0 {2,[S,D]} {6,[D,T]}
+  5 *1 C u0 {3,[D,T]}
+  6 *6 C u0 {4,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- 1_5_hexadiyne
+- 1_2_4_5_hexatetraene
+- 1_5_hexadiene
+- hex_1_yne_5_ene
+- 1_2_5_hexatriene
+- hex_1_ene_5_yne
+- 1_4_5_hexatriene
+---
+label: 1_5_hexadiyne
+group: |2
+
+  1 *3 C  u0 {2,S} {3,S}
+  2 *4 C  u0 {1,S} {4,S}
+  3 *2 Ct u0 {1,S} {5,T}
+  4 *5 Ct u0 {2,S} {6,T}
+  5 *1 Ct u0 {3,T}
+  6 *6 Ct u0 {4,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 1_2_4_5_hexatetraene
+group: |2
+
+  1 *3 Cd  u0 {2,S} {3,D}
+  2 *4 Cd  u0 {1,S} {4,D}
+  3 *2 Cdd u0 {1,D} {5,D}
+  4 *5 Cdd u0 {2,D} {6,D}
+  5 *1 C   u0 {3,D}
+  6 *6 C   u0 {4,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 1_5_hexadiene
+group: |2
+
+  1 *3 C  u0 {2,S} {3,S}
+  2 *4 C  u0 {1,S} {4,S}
+  3 *2 Cd u0 {1,S} {5,D}
+  4 *5 Cd u0 {2,S} {6,D}
+  5 *1 C  u0 {3,D}
+  6 *6 C  u0 {4,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: hex_1_yne_5_ene
+group: |2
+
+  1 *3 C  u0 {2,S} {3,S}
+  2 *4 C  u0 {1,S} {4,S}
+  3 *2 Ct u0 {1,S} {5,T}
+  4 *5 Cd u0 {2,S} {6,D}
+  5 *1 Ct u0 {3,T}
+  6 *6 Cd u0 {4,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 1_2_5_hexatriene
+group: |2
+
+  1 *3 Cd  u0 {2,S} {3,D}
+  2 *4 C   u0 {1,S} {4,S}
+  3 *2 Cdd u0 {1,D} {5,D}
+  4 *5 C   u0 {2,S} {6,D}
+  5 *1 C   u0 {3,D}
+  6 *6 C   u0 {4,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: hex_1_ene_5_yne
+group: |2
+
+  1 *3 C  u0 {2,S} {3,S}
+  2 *4 C  u0 {1,S} {4,S}
+  3 *2 Cd u0 {1,S} {5,D}
+  4 *5 Ct u0 {2,S} {6,T}
+  5 *1 Cd u0 {3,D}
+  6 *6 Ct u0 {4,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 1_4_5_hexatriene
+group: |2
+
+  1 *3 C   u0 {2,S} {3,S}
+  2 *4 Cd  u0 {1,S} {4,D}
+  3 *2 Cd  u0 {1,S} {5,D}
+  4 *5 Cdd u0 {2,D} {6,D}
+  5 *1 C   u0 {3,D}
+  6 *6 C   u0 {4,D}
+short_description: ''
+long_description: ''
+children: []

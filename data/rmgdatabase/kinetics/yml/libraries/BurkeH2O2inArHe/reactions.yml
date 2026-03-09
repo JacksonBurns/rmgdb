@@ -6,12 +6,12 @@ kinetics:
   A:
   - 104000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 15286
+  - 15286.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O + H2 <=> H + OH
@@ -22,29 +22,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 3818000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 7948
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 3818000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 7948.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 879200000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 19170
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 879200000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 19170.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: H2 + OH <=> H2O + H
 degeneracy: 1.0
@@ -56,10 +54,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.51
   Ea:
-  - 3430
+  - 3430.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH + OH <=> O + H2O
@@ -68,14 +66,14 @@ short_description: Baulch et al., J. Phys. Chem. Ref. Data, 21:411 (1992)
 kinetics:
   type: Arrhenius
   A:
-  - 33400
+  - 33400.0
   - cm^3/(mol*s)
   n: 2.42
   Ea:
-  - -1930
+  - -1930.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2 <=> H + H
@@ -83,26 +81,22 @@ degeneracy: 1.0
 short_description: Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 kinetics:
   type: ThirdBody
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 4.577e+19
-      - cm^3/(mol*s)
-      n: -1.4
-      Ea:
-      - 104380
-      - cal/mol
-      T0:
-      - 1
-      - K
   efficiencies:
     '[H][H]': 2.5
-    O: 12
+    O: 12.0
     '[C-]#[O+]': 1.9
     O=C=O: 3.8
-    '[Ar]': 0
-    '[He]': 0
+    '[Ar]': 0.0
+    '[He]': 0.0
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 4.577e+19
+    - cm^3/(mol*s)
+    n: -1.4
+    Ea:
+    - 104380.0
+    - cal/mol
 ---
 label: H2 + Ar <=> H + H + Ar
 degeneracy: 1.0
@@ -114,10 +108,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -1.1
   Ea:
-  - 104380
+  - 104380.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2 + He <=> H + H + He
@@ -130,10 +124,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -1.1
   Ea:
-  - 104380
+  - 104380.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O + O <=> O2
@@ -141,26 +135,22 @@ degeneracy: 1.0
 short_description: Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 kinetics:
   type: ThirdBody
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 6165000000000000.0
-      - cm^6/(mol^2*s)
-      n: -0.5
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
   efficiencies:
     '[H][H]': 2.5
-    O: 12
+    O: 12.0
     '[C-]#[O+]': 1.9
     O=C=O: 3.8
-    '[Ar]': 0
-    '[He]': 0
+    '[Ar]': 0.0
+    '[He]': 0.0
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 6165000000000000.0
+    - cm^6/(mol^2*s)
+    n: -0.5
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: O + O + Ar <=> O2 + Ar
 degeneracy: 1.0
@@ -170,12 +160,12 @@ kinetics:
   A:
   - 18860000000000.0
   - cm^6/(mol^2*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -1788
+  - -1788.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O + O + He <=> O2 + He
@@ -186,12 +176,12 @@ kinetics:
   A:
   - 18860000000000.0
   - cm^6/(mol^2*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -1788
+  - -1788.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O + H <=> OH
@@ -199,26 +189,22 @@ degeneracy: 1.0
 short_description: Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 kinetics:
   type: ThirdBody
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 4.714e+18
-      - cm^6/(mol^2*s)
-      n: -1
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
   efficiencies:
     '[H][H]': 2.5
-    O: 12
+    O: 12.0
     '[C-]#[O+]': 1.9
     O=C=O: 3.8
     '[Ar]': 0.75
     '[He]': 0.75
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 4.714e+18
+    - cm^6/(mol^2*s)
+    n: -1.0
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: H2O <=> H + OH
 degeneracy: 1.0
@@ -230,27 +216,23 @@ long_description: |2
   Efficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
 kinetics:
   type: ThirdBody
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 6.064e+27
-      - cm^3/(mol*s)
-      n: -3.322
-      Ea:
-      - 120790
-      - cal/mol
-      T0:
-      - 1
-      - K
   efficiencies:
-    '[H][H]': 3
-    O: 0
+    '[H][H]': 3.0
+    O: 0.0
     '[C-]#[O+]': 1.9
     O=C=O: 3.8
     '[O][O]': 1.5
     '[He]': 1.1
-    N#N: 2
+    N#N: 2.0
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 6.064e+27
+    - cm^3/(mol*s)
+    n: -3.322
+    Ea:
+    - 120790.0
+    - cal/mol
 ---
 label: H2O + H2O <=> H + OH + H2O
 degeneracy: 1.0
@@ -262,10 +244,10 @@ kinetics:
   - cm^3/(mol*s)
   n: -2.44
   Ea:
-  - 120180
+  - 120180.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H + O2 <=> HO2
@@ -278,32 +260,6 @@ long_description: |2
   Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 4650840000000.0
-      - cm^3/(mol*s)
-      n: 0.44
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 9.042e+19
-      - cm^6/(mol^2*s)
-      n: -1.5
-      Ea:
-      - 492.2
-      - cal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.5
   T3:
   - 1.0e-30
@@ -311,12 +267,30 @@ kinetics:
   T1:
   - 1.0e+30
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 4650840000000.0
+    - cm^3/(mol*s)
+    n: 0.44
+    Ea:
+    - 0.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 9.042e+19
+    - cm^6/(mol^2*s)
+    n: -1.5
+    Ea:
+    - 492.2
+    - cal/mol
   efficiencies:
-    '[H][H]': 3
+    '[H][H]': 3.0
     '[O][O]': 1.1
     '[C-]#[O+]': 2.7
     O=C=O: 5.4
-    O: 21
+    O: 21.0
     '[He]': 1.2
     N#N: 1.5
 ---
@@ -334,10 +308,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.09
   Ea:
-  - -1451
+  - -1451.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2 + H <=> OH + OH
@@ -348,12 +322,12 @@ kinetics:
   A:
   - 70790000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 295
+  - 295.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2 + O <=> O2 + OH
@@ -368,12 +342,12 @@ kinetics:
   A:
   - 28500000000.0
   - cm^3/(mol*s)
-  n: 1
+  n: 1.0
   Ea:
   - -723.93
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2 + OH <=> H2O + O2
@@ -384,12 +358,12 @@ kinetics:
   A:
   - 28900000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - -497
+  - -497.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2 + HO2 <=> H2O2 + O2
@@ -400,29 +374,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 420000000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 11982
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 420000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 11982.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 130000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - -1629.3
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 130000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - -1629.3
+    - cal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: H2O2 <=> OH + OH
 degeneracy: 1.0
@@ -433,32 +405,6 @@ long_description: |2
   Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 2000000000000.0
-      - s^-1
-      n: 0.9
-      Ea:
-      - 48749
-      - cal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 2.49e+24
-      - cm^3/(mol*s)
-      n: -2.3
-      Ea:
-      - 48749
-      - cal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.43
   T3:
   - 1.0e-30
@@ -466,6 +412,24 @@ kinetics:
   T1:
   - 1.0e+30
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 2000000000000.0
+    - s^-1
+    n: 0.9
+    Ea:
+    - 48749.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 2.49e+24
+    - cm^3/(mol*s)
+    n: -2.3
+    Ea:
+    - 48749.0
+    - cal/mol
   efficiencies:
     '[H][H]': 3.7
     O: 7.5
@@ -484,12 +448,12 @@ kinetics:
   A:
   - 24100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 3970
+  - 3970.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2O2 + H <=> HO2 + H2
@@ -500,12 +464,12 @@ kinetics:
   A:
   - 48200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 7950
+  - 7950.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2O2 + O <=> OH + HO2
@@ -516,12 +480,12 @@ kinetics:
   A:
   - 9550000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 3970
+  - 3970.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2O2 + OH <=> HO2 + H2O
@@ -532,29 +496,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 1740000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 318
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1740000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 318.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 75900000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 7270
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 75900000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 7270.0
+    - cal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: HO2 + H <=> H2O + O
 degeneracy: 1.0
@@ -573,7 +535,7 @@ kinetics:
   - -160.1
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2 + H <=> H2O2
@@ -591,17 +553,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 600000000000000.0
-      - cm^6/(mol^2*s)
-      n: 1.25
-      Ea:
-      - -270
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 600000000000000.0
+    - cm^6/(mol^2*s)
+    n: 1.25
+    Ea:
+    - -270.0
+    - cal/mol
 ---
 label: OH + OH <=> H2 + O2
 degeneracy: 1.0
@@ -618,7 +576,7 @@ kinetics:
   - 50500.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2O + O <=> H2 + O2
@@ -636,7 +594,7 @@ kinetics:
   - 68700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2O2 + O <=> H2O + O2
@@ -657,7 +615,7 @@ kinetics:
   - 3970.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH + O <=> HO2
@@ -672,14 +630,10 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1000000000000000.0
-      - cm^6/(mol^2*s)
-      n: 0.0
-      Ea:
-      - 0.0
-      - cal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1000000000000000.0
+    - cm^6/(mol^2*s)
+    n: 0.0
+    Ea:
+    - 0.0
+    - cal/mol

@@ -10,7 +10,7 @@ kinetics:
   - -0.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R2 + H <=> C5H5CH3-5
@@ -25,7 +25,7 @@ kinetics:
   - 0.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R2 + H <=> C5H5CH3-1
@@ -40,7 +40,7 @@ kinetics:
   - 0.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R1 + H <=> C5H5CH3-1
@@ -55,7 +55,7 @@ kinetics:
   - -0.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R2 + H <=> C5H5CH3-2
@@ -67,10 +67,10 @@ kinetics:
   - cm^3/(molecule*s)
   n: 0.1
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R3 + H <=> C5H5CH3-2
@@ -85,7 +85,7 @@ kinetics:
   - -0.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: R4 + H <=> C5H5CH3-5
@@ -100,7 +100,7 @@ kinetics:
   - -0.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5CH3-5 <=> C5H5CH3-1
@@ -115,7 +115,7 @@ kinetics:
   - 24.8
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5CH3-1 <=> C5H5CH3-2
@@ -130,7 +130,7 @@ kinetics:
   - 25.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: fulvene + H2 <=> C5H5CH3-5
@@ -145,7 +145,7 @@ kinetics:
   - 81.1
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: fulvene + H2 <=> C5H5CH3-1
@@ -157,10 +157,10 @@ kinetics:
   - cm^3/(molecule*s)
   n: 1.4
   Ea:
-  - 71
+  - 71.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: fulvene + H2 <=> C5H5CH3-2
@@ -175,5 +175,5 @@ kinetics:
   - 55.5
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

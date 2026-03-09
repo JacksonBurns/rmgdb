@@ -1,0 +1,42 @@
+short_description: ''
+long_description: "\n20211127: The 1,3_sigmatropic_rearrangement family was too generalized\
+  \ and did a poor job of estimating ketoenol \nreactions that matched the root node.\
+  \ Thus, this family was broken up into two families:\n1) ketoenol tautomerization\
+  \ reactions\n2) 1,3 sigmatropic rearrangement (this file)\n\n20211010: The ketoenol\
+  \ family was generalized to accept R!H rather than previously only accepting O or\
+  \ S.\nThe family name was also updated to 1,3_sigmatropic_rearrangement to reflect\
+  \ the newly extended reaction template.\n\n\n20180202: Sulfur was added to this\
+  \ family and is treated the same as oxygen.\nhttps://github.com/ReactionMechanismGenerator/RMG-database/commit/9e9d300b3a0fce1bbb9aa138b2990b264fb1e37b\n\
+  Ideally we would like to branch this into a new family \"R=RSR <=> RRR=S\"\nonce\
+  \ relevant kinetic data is available\n"
+template:
+  reactants:
+  - Root
+  products:
+  - Root
+  ownReverse: true
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - CHANGE_BOND
+    - '*2'
+    - 1
+    - '*3'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - FORM_BOND
+    - '*4'
+    - 1
+    - '*1'
+reversible: true
+reverse_map:
+  '*1': '*3'
+  '*3': '*1'
+reactant_num: 1
+product_num: 1
+auto_generated: true

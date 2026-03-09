@@ -1,0 +1,165 @@
+label: Root
+group: |2
+
+  1 *1 Li+ u0 p0 c+1
+  2 *2 R   u1
+short_description: ''
+long_description: ''
+children:
+- Root_3R->H
+- Root_N-3R->H
+- Root_1Br1sCl1sF1sH->Cl1s
+- Root_N-1Br1sCl1sF1sH->Cl1s
+- Root_4R!H->C
+- Root_N-4R!H->C
+- F
+- Cl
+- Br
+- Root_1R->H
+- Root_N-1R->H
+- Root_Ext-1R!H-R
+- Root_Ext-2R!H-R
+- Root_4R->H
+- Root_N-4R->H
+- Backbone0
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Backbone6
+- Root_Ext-2R-R
+- Root_2R->C
+- Root_N-2R->C
+- Root_1R!H->N
+- Root_N-1R!H->N
+- Root_Sp-3R!H-2R!H
+- Root_N-Sp-3R!H-2R!H
+- Root_Ext-2R!H-R
+- Root_1R!H-inRing
+- Root_N-1R!H-inRing
+- Root_1R->O
+- Root_N-1R->O
+- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
+- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone6
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
+- Root_5R-inRing
+- Root_N-5R-inRing
+- Root_4CHNOS->H
+- Root_N-4CHNOS->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-1CbCbf-R
+- Root_5Ct-inRing
+- Root_N-5Ct-inRing
+- Root_4R->F
+- Root_N-4R->F
+- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_4R->N
+- Root_N-4R->N
+- Root_5CbCdCsHN->Cs
+- Root_N-5CbCdCsHN->Cs
+- Root_1COCSCdCdd->Cd
+- Root_N-1COCSCdCdd->Cd
+- Root_Ext-5R-R
+- Root_Ext-3R-R
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_Ext-3R-R
+- Root_3R->F
+- Root_N-3R->F
+- Root_3R!H->C
+- Root_N-3R!H->C
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_2ClFH->H
+- Root_N-2ClFH->H
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_2ClF->F
+- Root_N-2ClF->F
+- Root_4R!H->C
+- Root_N-4R!H->C
+- Root_1R->H
+- Root_N-1R->H
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_6R->C
+- Root_N-6R->C
+---
+label: Root_2R->C
+group: |2
+
+  1 *1 Li+ u0 p0 c+1
+  2 *2 C   u1
+short_description: ''
+long_description: ''
+children:
+- Root_2R->C_Ext-2C-R
+---
+label: Root_2R->C_Ext-2C-R
+group: |2
+
+  1 *1 Li+ u0 p0 c+1
+  2 *2 C   u1 {3,[S,D,T,B,Q]}
+  3    R!H ux {2,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-2R->C
+group: |2
+
+  1 *1 Li+                         u0 p0 c+1
+  2 *2 [S,F,I,O,Br,Si,P,Li,H,Cl,N] u1
+short_description: ''
+long_description: ''
+children:
+- Root_N-2R->C_Ext-2BrClFHILiNOPSSi-R
+- Root_N-2R->C_2BrClFHILiNOPSSi->S
+- Root_N-2R->C_N-2BrClFHILiNOPSSi->S
+---
+label: Root_N-2R->C_Ext-2BrClFHILiNOPSSi-R
+group: |2
+
+  1 *1 Li+                         u0 p0 c+1
+  2 *2 [S,F,I,O,Br,Si,P,Li,H,Cl,N] u1 {3,[S,D,T,B,Q]}
+  3    R!H                         ux {2,[S,D,T,B,Q]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-2R->C_2BrClFHILiNOPSSi->S
+group: |2
+
+  1 *1 Li+ u0 p0 c+1
+  2 *2 S   u1
+short_description: ''
+long_description: ''
+children: []
+---
+label: Root_N-2R->C_N-2BrClFHILiNOPSSi->S
+group: |2
+
+  1 *1 Li+ u0 p0 c+1
+  2 *2 N   u1
+short_description: ''
+long_description: ''
+children: []

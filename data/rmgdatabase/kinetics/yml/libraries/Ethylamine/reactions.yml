@@ -6,12 +6,12 @@ kinetics:
   A:
   - 16000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 8174
+  - 8174.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + H <=> CH3CHNH2 + H2
@@ -22,12 +22,12 @@ kinetics:
   A:
   - 11600000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 3585
+  - 3585.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + H <=> CH3CH2NH + H2
@@ -38,12 +38,12 @@ kinetics:
   A:
   - 5470000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6907
+  - 6907.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + CH3 <=> CH2CH2NH2 + CH4
@@ -54,12 +54,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 12620
+  - 12620.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + CH3 <=> CH3CHNH2 + CH4
@@ -70,12 +70,12 @@ kinetics:
   A:
   - 12300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 7911
+  - 7911.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + CH3 <=> CH3CH2NH + CH4
@@ -86,12 +86,12 @@ kinetics:
   A:
   - 2230000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 9441
+  - 9441.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + NH2 <=> CH2CH2NH2 + NH3
@@ -102,12 +102,12 @@ kinetics:
   A:
   - 9210000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 9393
+  - 9393.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + NH2 <=> CH3CHNH2 + NH3
@@ -118,12 +118,12 @@ kinetics:
   A:
   - 8010000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 4493
+  - 4493.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + NH2 <=> CH3CH2NH + NH3
@@ -134,12 +134,12 @@ kinetics:
   A:
   - 2140000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 5927
+  - 5927.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + OH <=> CH2CH2NH2 + H2O
@@ -152,10 +152,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.97
   Ea:
-  - -1040
+  - -1040.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + OH <=> CH3CHNH2 + H2O
@@ -168,10 +168,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.24
   Ea:
-  - -3040
+  - -3040.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC + OH <=> CH3CH2NH + H2O
@@ -184,10 +184,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.36
   Ea:
-  - -2860
+  - -2860.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: N2H4 + H <=> N2H3 + H2
@@ -200,10 +200,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.69
   Ea:
-  - 4000
+  - 4000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: N2H4 + CH3 <=> N2H3 + CH4
@@ -216,10 +216,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.6
   Ea:
-  - 3500
+  - 3500.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: N2H4 + NH2 <=> N2H3 + NH3
@@ -232,10 +232,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.83
   Ea:
-  - 700
+  - 700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHNH + H <=> CH2CHNH + H2
@@ -248,10 +248,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.76
   Ea:
-  - 4400
+  - 4400.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHNH + H <=> CH3CHN + H2
@@ -264,10 +264,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.96
   Ea:
-  - 2400
+  - 2400.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CHNH2 + H <=> CH2CH2NH2
@@ -280,10 +280,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.77
   Ea:
-  - 3729
+  - 3729.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H4 + NH2 <=> CH2CH2NH2
@@ -296,10 +296,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.76
   Ea:
-  - 1658
+  - 1658.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHNH2 <=> CH2CHNH2 + H
@@ -312,10 +312,10 @@ kinetics:
   - s^-1
   n: 1.49
   Ea:
-  - 35100
+  - 35100.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2NH + H <=> CH2NH2
@@ -331,7 +331,7 @@ kinetics:
   - 2.295
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CHNH <=> CH2CNH + H
@@ -344,10 +344,10 @@ kinetics:
   - s^-1
   n: 2.26
   Ea:
-  - 50300
+  - 50300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHN <=> CH3 + HCN
@@ -360,10 +360,10 @@ kinetics:
   - s^-1
   n: 1.1
   Ea:
-  - 26200
+  - 26200.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3CHN <=> CH3CN + H
@@ -376,10 +376,10 @@ kinetics:
   - s^-1
   n: 1.44
   Ea:
-  - 27000
+  - 27000.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CH2NH2 <=> CH3CHNH2
@@ -392,10 +392,10 @@ kinetics:
   - s^-1
   n: 2.33
   Ea:
-  - 31800
+  - 31800.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH2CHNH <=> CH3CHN
@@ -408,10 +408,10 @@ kinetics:
   - s^-1
   n: 2.16
   Ea:
-  - 37400
+  - 37400.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: NCC <=> C2H4 + NH3
@@ -424,8 +424,8 @@ kinetics:
   - s^-1
   n: 2.65
   Ea:
-  - 65100
+  - 65100.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K

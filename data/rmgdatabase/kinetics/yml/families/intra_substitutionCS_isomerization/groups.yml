@@ -1,0 +1,759 @@
+label: XSYJ
+group: OR{XSR3J, XSR4J, XSR5J, XSR6J, XSR7J}
+short_description: ''
+long_description: ''
+children:
+- XSR3J
+- XSR4J
+- XSR5J
+- XSR6J
+- XSR7J
+- XSR3J
+- XSR4J
+- XSR5J
+- XSR6J
+- XSR7J
+---
+label: C
+group: |2
+
+  1 *1 C u0
+short_description: ''
+long_description: ''
+children:
+- C-H
+- CH=O
+- CH2-H
+- CH2
+- CO
+- C2O
+- C=*
+- C#*
+- C$*
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
+- C=*
+- C#*
+- C$*
+---
+label: YJ
+group: |2
+
+  1 *3 R!H u1
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR3J
+group: |2
+
+  1 *2 S2s u0 p2 c0 {2,[S,D]} {3,S}
+  2 *3 R!H u1 {1,[S,D]}
+  3 *1 C   u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- XSR3J_S
+- XSR3J_D
+- XSR3J_S
+- XSR3J_D
+---
+label: XSR3J_S
+group: |2
+
+  1 *2 S2s u0 p2 c0 {2,S} {3,S}
+  2 *3 R!H u1 {1,S}
+  3 *1 C   u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- XSR3J_S_Cs
+- XSR3J_S_Ss
+---
+label: XSR4J
+group: |2
+
+  1 *4 R!H u0 {2,[S,D]} {3,[S,D]}
+  2 *2 S2s u0 p2 c0 {1,[S,D]} {4,S}
+  3 *3 R!H u1 {1,[S,D]}
+  4 *1 C   u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- XSR4J_SS
+- XSR4J_SD
+- XSR4J_DS
+- XSR4J_DD
+- XSR4J_SS
+- XSR4J_SD
+- XSR4J_DS
+- XSR4J_DD
+---
+label: XSR4J_SS
+group: |2
+
+  1 *4 R!H u0 {2,S} {3,S}
+  2 *2 S2s u0 p2 c0 {1,S} {4,S}
+  3 *3 R!H u1 {1,S}
+  4 *1 C   u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- XSR4J_SS_Cs
+---
+label: XSR4J_SS_Cs
+group: |2
+
+  1 *4 Cs  u0 {2,S} {3,S}
+  2 *2 S2s u0 p2 c0 {1,S} {4,S}
+  3 *3 R!H u1 {1,S}
+  4 *1 C   u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR4J_SS_Ss
+group: |2
+
+  1 *4 S2s u0 {2,S} {3,S}
+  2 *2 S2s u0 p2 c0 {1,S} {4,S}
+  3 *3 R!H u1 {1,S}
+  4 *1 C   u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR4J_SD
+group: |2
+
+  1 *3 R!H u1 {2,D}
+  2 *4 R!H u0 {1,D} {3,S}
+  3 *2 S2s u0 p2 c0 {2,S} {4,S}
+  4 *1 C   u0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR5J
+group: |2
+
+  1 *5 R!H u0 {2,[S,D]} {3,[S,D]}
+  2 *4 R!H u0 {1,[S,D]} {4,[S,D]}
+  3 *2 S2s u0 p2 c0 {1,[S,D]} {5,S}
+  4 *3 R!H u1 {2,[S,D]}
+  5 *1 C   u0 {3,S}
+short_description: ''
+long_description: ''
+children:
+- XSR5J_SSS
+- XSR5J_SSD
+- XSR5J_SDS
+- XSR5J_DSS
+- XSR5J_DDS
+- XSR5J_DSD
+- XSR5J_SDD
+- XSR5J_DDD
+- XSR5J_SSS
+- XSR5J_SSD
+- XSR5J_SDS
+- XSR5J_DSS
+- XSR5J_DDS
+- XSR5J_DSD
+- XSR5J_SDD
+- XSR5J_DDD
+---
+label: XSR5J_SSS
+group: |2
+
+  1 *3 R!H u1 {2,S}
+  2 *4 R!H u0 {1,S} {3,S}
+  3 *5 R!H u0 {2,S} {4,S}
+  4 *2 S2s u0 p2 c0 {3,S} {5,S}
+  5 *1 C   u0 {4,S}
+short_description: ''
+long_description: ''
+children:
+- XSR5J_SSS_CsRCs
+---
+label: XSR5J_SSD
+group: |2
+
+  1 *3 R!H u1 {2,D}
+  2 *4 R!H u0 {1,D} {3,S}
+  3 *5 R!H u0 {2,S} {4,S}
+  4 *2 S2s u0 p2 c0 {3,S} {5,S}
+  5 *1 C   u0 {4,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR5J_SDS
+group: |2
+
+  1 *3 R!H u1 {2,S}
+  2 *4 R!H u0 {1,S} {3,D}
+  3 *5 R!H u0 {2,D} {4,S}
+  4 *2 S2s u0 p2 c0 {3,S} {5,S}
+  5 *1 C   u0 {4,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR5J_SDD
+group: |2
+
+  1 *3 R!H u1 {2,D}
+  2 *4 R!H u0 {1,D} {3,D}
+  3 *5 R!H u0 {2,D} {4,S}
+  4 *2 S2s u0 p2 c0 {3,S} {5,S}
+  5 *1 C   u0 {4,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: XSR6J
+group: |2
+
+  1 *5 R!H u0 {2,[S,D]} {3,[S,D]}
+  2 *6 R!H u0 {1,[S,D]} {4,[S,D]}
+  3 *4 R!H u0 {1,[S,D]} {5,[S,D]}
+  4 *2 S2s u0 p2 c0 {2,[S,D]} {6,S}
+  5 *3 R!H u1 {3,[S,D]}
+  6 *1 C   u0 {4,S}
+short_description: ''
+long_description: ''
+children:
+- XSR6J_SSSS
+---
+label: XSR7J
+group: |2
+
+  1 *6 R!H u0 {2,[S,D]} {3,[S,D]}
+  2 *5 R!H u0 {1,[S,D]} {4,[S,D]}
+  3 *7 R!H u0 {1,[S,D]} {5,[S,D]}
+  4 *4 R!H u0 {2,[S,D]} {6,[S,D]}
+  5 *2 S2s u0 p2 c0 {3,[S,D]} {7,S}
+  6 *3 R!H u1 {4,[S,D]}
+  7 *1 C   u0 {5,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Ct
+group: |2
+
+  1 *1 Ct u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: Cds
+group: |2
+
+  1 *1 Cd u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-RRR
+group: |2
+
+  1 *1 C u0 {2,S} {3,S} {4,S}
+  2    R u0 {1,S}
+  3    R u0 {1,S}
+  4    R u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-OneDe
+group: |2
+
+  1 *1 C                u0 {2,S} {3,S} {4,S}
+  2    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  3    R                u0 {1,S}
+  4    R                u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdCsCs
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cd u0 {1,S}
+  3    Cs u0 {1,S}
+  4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdSsCs
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Cd  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdSsSs
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Cd  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    S2s u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtCsCs
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Ct u0 {1,S}
+  3    Cs u0 {1,S}
+  4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtSsCs
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Ct  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtSsSs
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Ct  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    S2s u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtSsH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Ct  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtCsH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Ct u0 {1,S}
+  3    Cs u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdSsH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    Cd  u0 {1,S}
+  3    S2s u0 {1,S}
+  4    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdCsH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cd u0 {1,S}
+  3    Cs u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CtHH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Ct u0 {1,S}
+  3    H  u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CdHH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cd u0 {1,S}
+  3    H  u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-NonDe
+group: |2
+
+  1 *1 C              u0 {2,S} {3,S} {4,S}
+  2    [H,Cs,O2s,S2s] u0 {1,S}
+  3    [H,Cs,O2s,S2s] u0 {1,S}
+  4    [H,Cs,O2s,S2s] u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-OneS
+group: |2
+
+  1 *1 C          u0 {2,S} {3,S} {4,S}
+  2    S2s        u0 {1,S}
+  3    [H,Cs,O2s] u0 {1,S}
+  4    [H,Cs,O2s] u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-SsCsCs
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    S2s u0 {1,S}
+  3    Cs  u0 {1,S}
+  4    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-SsCsH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    S2s u0 {1,S}
+  3    Cs  u0 {1,S}
+  4    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-SsHH
+group: |2
+
+  1 *1 C   u0 {2,S} {3,S} {4,S}
+  2    S2s u0 {1,S}
+  3    H   u0 {1,S}
+  4    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CsCsCs
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cs u0 {1,S}
+  3    Cs u0 {1,S}
+  4    Cs u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CsCsH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cs u0 {1,S}
+  3    Cs u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-CsHH
+group: |2
+
+  1 *1 C  u0 {2,S} {3,S} {4,S}
+  2    Cs u0 {1,S}
+  3    H  u0 {1,S}
+  4    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-HHH
+group: |2
+
+  1 *1 C u0 {2,S} {3,S} {4,S}
+  2    H u0 {1,S}
+  3    H u0 {1,S}
+  4    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CJ
+group: |2
+
+  1 *3 C u1
+short_description: ''
+long_description: ''
+children:
+- CsJ
+- CdsJ
+- CtJ
+- CbJ
+- C=SJ
+- CO_rad
+- CdsJ
+- CsJ
+- CdsJ
+- CsJ
+---
+label: CdsJ
+group: |2
+
+  1 *3 Cd  u1 {2,D}
+  2    R!H u0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- CdsJ-H
+- CdsJ-Cs
+- CdsJ-Cd
+- CdsJ-Ct
+- CdsJ-Cb
+- CdsJ-CO
+- CdsJ-C=S
+- CdsJ-O2s
+- CdsJ-S2s
+---
+label: CsJ
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    R  u0 {1,S}
+  3    R  u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CsJ-HHH
+- CsJ-CsHH
+- CsJ-CsCsH
+- CsJ-CsCsCs
+- CsJ-OsHH
+- CsJ-OsCsH
+- CsJ-OsCsCs
+- CsJ-OsOsH
+- CsJ-OsOsCs
+- CsJ-OsOsOs
+- CsJ-SsHH
+- CsJ-SsCsH
+- CsJ-SsCsCs
+- CsJ-SsSsH
+- CsJ-SsSsCs
+- CsJ-SsSsSs
+- CsJ-OneDe
+- CsJ-TwoDe
+- CsJ-ThreeDe
+- CsJ-Cd
+- CsJ-S2s
+- CsJ-Cs
+- CsJ-HH
+- CsJ-Cd
+- CsJ-S2s
+- CsJ-Cs
+- CsJ-HH
+---
+label: CsJ-Cd
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cd u0 {1,S}
+  3    R  u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CsJ-CdCs
+- CsJ-CdSs
+- CsJ-CdH
+- CsJ-CdCs
+- CsJ-CdSs
+- CsJ-CdH
+---
+label: CsJ-CdCs
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cd u0 {1,S}
+  3    Cs u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-CdSs
+group: |2
+
+  1 *3 Cs  u1 {2,S} {3,S}
+  2    Cd  u0 {1,S}
+  3    S2s u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-CdH
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cd u0 {1,S}
+  3    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-S2s
+group: |2
+
+  1 *3 Cs  u1 {2,S} {3,S}
+  2    S2s u0 {1,S}
+  3    R   u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CsJ-SsCs
+- CsJ-SsSs
+- CsJ-SsH
+- CsJ-SsOneDe
+- CsJ-SsSsSs
+- CsJ-SsCsSs
+- CsJ-SsCsCs
+- CsJ-SsCsH
+- CsJ-SsSsH
+- CsJ-SsHH
+- CsJ-SsCs
+- CsJ-SsSs
+- CsJ-SsH
+---
+label: CsJ-SsCs
+group: |2
+
+  1 *3 Cs  u1 {2,S} {3,S}
+  2    S2s u0 {1,S}
+  3    Cs  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-SsSs
+group: |2
+
+  1 *3 Cs  u1 {2,S} {3,S}
+  2    S2s u0 {1,S}
+  3    S2s u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-SsH
+group: |2
+
+  1 *3 Cs  u1 {2,S} {3,S}
+  2    S2s u0 {1,S}
+  3    H   u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-Cs
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cs u0 {1,S}
+  3    R  u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CsJ-CsCs
+- CsJ-CsH
+- CsJ-CsCs
+- CsJ-CsH
+---
+label: CsJ-CsCs
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cs u0 {1,S}
+  3    Cs u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-CsH
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    Cs u0 {1,S}
+  3    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CsJ-HH
+group: |2
+
+  1 *3 Cs u1 {2,S} {3,S}
+  2    H  u0 {1,S}
+  3    H  u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: SsJ
+group: |2
+
+  1 *3 S2s u1
+short_description: ''
+long_description: ''
+children:
+- SsJ-H
+- SsJ-Cs
+- SsJ-S2s
+- SsJ-OneDe
+---
+label: RR_13
+group: |2
+
+  1 *1 R u0 {2,[S,D]}
+  2 *3 R u1 {1,[S,D]}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: RR_birad
+group: |2
+
+  1 *3 R u1 {2,[S,D]}
+  2    R u1 {1,[S,D]}
+forbidden: true
+short_description: ''
+long_description: ''

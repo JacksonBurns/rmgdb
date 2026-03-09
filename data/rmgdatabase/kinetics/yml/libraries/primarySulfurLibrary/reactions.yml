@@ -13,23 +13,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 140000000000000.0
-      - cm^6/(mol^2*s)
-      n: -0.09
-      Ea:
-      - -331
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 100
-      - K
-      Tmax:
-      - 6000
-      - K
+    A:
+    - 140000000000000.0
+    - cm^6/(mol^2*s)
+    n: -0.09
+    Ea:
+    - -331.0
+    - cal/mol
 ---
 label: SO + O <=> SO2
 degeneracy: 1.0
@@ -48,23 +38,19 @@ long_description: |2
       kinetics = Arrhenius(A=(2.84e+16, 'cm^3/(mol*s)'), n=0, Ea=(109674, 'cal/mol'), T0=(1, 'K')),
 kinetics:
   type: ThirdBody
+  efficiencies:
+    O=S=O: 10.0
+    O: 10.0
+    N#N: 1.5
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.75e+17
-      - cm^6/(mol^2*s)
-      n: -2.17
-      Ea:
-      - 0
-      - cal/mol
-      T0:
-      - 298
-      - K
-  efficiencies:
-    O=S=O: 10
-    O: 10
-    N#N: 1.5
+    A:
+    - 1.75e+17
+    - cm^6/(mol^2*s)
+    n: -2.17
+    Ea:
+    - 0.0
+    - cal/mol
 ---
 label: S + O2 <=> SO + O
 degeneracy: 2.0
@@ -98,22 +84,18 @@ kinetics:
   A:
   - 543000.0
   - cm^3/(mol*s)
-  - +|-
-  - 16300.0
   n: 2.11
   Ea:
-  - -1451
+  - -1451.0
   - cal/mol
-  - +|-
-  - 238
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 3460
+  - 3460.0
   - K
 ---
 label: SO <=> S + O
@@ -128,23 +110,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 398000000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 107000
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 3000
-      - K
-      Tmax:
-      - 5000
-      - K
+    A:
+    - 398000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 107000.0
+    - cal/mol
 ---
 label: SO2 + O <=> SO3
 degeneracy: 1.0
@@ -169,44 +141,36 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 370000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 1689
-      - cal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 2.4e+27
-      - cm^6/(mol^2*s)
-      n: -3.6
-      Ea:
-      - 5186
-      - cal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.442
   T3:
-  - 316
+  - 316.0
   - K
   T1:
-  - 7442
+  - 7442.0
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 370000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 1689.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 2.4e+27
+    - cm^6/(mol^2*s)
+    n: -3.6
+    Ea:
+    - 5186.0
+    - cal/mol
   efficiencies:
-    O=S=O: 10
-    O: 10
+    O=S=O: 10.0
+    O: 10.0
     O=C=O: 2.5
-    N#N: 0
+    N#N: 0.0
 ---
 label: SO2 + O (+N2) <=> SO3 (+N2)
 degeneracy: 1.0
@@ -217,40 +181,31 @@ long_description: |2
   Complementary to the reaction above for N2 as the main bath gas
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 370000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 1689
-      - cal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 2.9e+27
-      - cm^6/(mol^2*s)
-      n: -3.58
-      Ea:
-      - 5206
-      - cal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.43
   T3:
-  - 371
+  - 371.0
   - K
   T1:
-  - 7442
+  - 7442.0
   - K
-  efficiencies: {}
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 370000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 1689.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 2.9e+27
+    - cm^6/(mol^2*s)
+    n: -3.58
+    Ea:
+    - 5206.0
+    - cal/mol
 ---
 label: SO2 + H <=> HOSO
 degeneracy: 2.0
@@ -266,54 +221,34 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 2590000000000.0
-      - cm^3/(mol*s)
-      n: 1.63
-      Ea:
-      - 7339
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 1700
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 1.14e+22
-      - cm^6/(mol^2*s)
-      n: -6.14
-      Ea:
-      - 11075
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 1700
-      - K
   alpha: 0.283
   T3:
-  - 272
+  - 272.0
   - K
   T1:
-  - 3995
+  - 3995.0
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 2590000000000.0
+    - cm^3/(mol*s)
+    n: 1.63
+    Ea:
+    - 7339.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.14e+22
+    - cm^6/(mol^2*s)
+    n: -6.14
+    Ea:
+    - 11075.0
+    - cal/mol
   efficiencies:
-    O=S=O: 10
-    O: 10
+    O=S=O: 10.0
+    O: 10.0
     O=C=O: 2.5
 ---
 label: SO2 + H <=> HSO2
@@ -329,54 +264,34 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 4610000000000.0
-      - cm^3/(mol*s)
-      n: 1.59
-      Ea:
-      - 2472
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 1000
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 1.97e+18
-      - cm^6/(mol^2*s)
-      n: -5.19
-      Ea:
-      - 4513
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 1000
-      - K
   alpha: 0.39
   T3:
-  - 167
+  - 167.0
   - K
   T1:
-  - 2191
+  - 2191.0
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 4610000000000.0
+    - cm^3/(mol*s)
+    n: 1.59
+    Ea:
+    - 2472.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.97e+18
+    - cm^6/(mol^2*s)
+    n: -5.19
+    Ea:
+    - 4513.0
+    - cal/mol
   efficiencies:
-    O=S=O: 10
-    O: 10
+    O=S=O: 10.0
+    O: 10.0
     O=C=O: 2.5
 ---
 label: SO2 + H <=> SO + OH
@@ -401,16 +316,16 @@ kinetics:
   - cm^3/(mol*s)
   n: -2.22
   Ea:
-  - 30736
+  - 30736.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SO3 + H <=> SO2 + OH
@@ -428,16 +343,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.22
   Ea:
-  - 3320
+  - 3320.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 700
+  - 700.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SO3 + O <=> SO2 + O2
@@ -457,10 +372,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.57
   Ea:
-  - 29210
+  - 29210.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: SO3 + OH <=> SO2 + HO2
@@ -480,16 +395,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.46
   Ea:
-  - 27225
+  - 27225.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 800
+  - 800.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SO + HO2 <=> SO2 + OH
@@ -507,10 +422,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.42
   Ea:
-  - 7660
+  - 7660.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HSO + O2 <=> HSO2 + O
@@ -528,10 +443,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 5.1
   Ea:
-  - 11312
+  - 11312.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOSO + O2 <=> SO2 + HO2
@@ -549,10 +464,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.36
   Ea:
-  - -10130
+  - -10130.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HSO2 + O2 <=> SO2 + HO2
@@ -570,10 +485,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.2
   Ea:
-  - -235
+  - -235.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HOSO <=> HSO2
@@ -590,42 +505,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 1030000000.0
-      - s^-1
-      n: 1.03
-      Ea:
-      - 49980
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 1030000000.0
+    - s^-1
+    n: 1.03
+    Ea:
+    - 49980.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.72e+35
-      - cm^3/(mol*s)
-      n: -5.64
-      Ea:
-      - 55423
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 1.72e+35
+    - cm^3/(mol*s)
+    n: -5.64
+    Ea:
+    - 55423.0
+    - cal/mol
 ---
 label: HSOO <=> SH + O2
 degeneracy: 1.0
@@ -642,42 +537,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 4.41e+18
-      - s^-1
-      n: -1.07
-      Ea:
-      - 7750
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 4.41e+18
+    - s^-1
+    n: -1.07
+    Ea:
+    - 7750.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.56e+23
-      - cm^3/(mol*s)
-      n: -2.82
-      Ea:
-      - -7450
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 1.56e+23
+    - cm^3/(mol*s)
+    n: -2.82
+    Ea:
+    - -7450.0
+    - cal/mol
 ---
 label: SH + O2 <=> SO + OH
 degeneracy: 2.0
@@ -695,16 +570,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.052
   Ea:
-  - 16396
+  - 16396.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SH + O2 <=> HSO + O
@@ -722,16 +597,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.816
   Ea:
-  - 20005
+  - 20005.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HOSO <=> SO + OH
@@ -751,54 +626,34 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 9.94e+21
-      - s^-1
-      n: -2.54
-      Ea:
-      - 75891
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 2000
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 1.16e+46
-      - cm^3/(mol*s)
-      n: -9.02
-      Ea:
-      - 52953
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 2000
-      - K
   alpha: 0.95
   T3:
-  - 2989
+  - 2989.0
   - K
   T1:
   - 1.1
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 9.94e+21
+    - s^-1
+    n: -2.54
+    Ea:
+    - 75891.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.16e+46
+    - cm^3/(mol*s)
+    n: -9.02
+    Ea:
+    - 52953.0
+    - cal/mol
   efficiencies:
-    O=S=O: 10
-    O: 10
+    O=S=O: 10.0
+    O: 10.0
     O=C=O: 2.5
 ---
 label: HSOO <=> HSO + O
@@ -816,42 +671,22 @@ kinetics:
   type: Lindemann
   arrheniusHigh:
     type: Arrhenius
-    data:
-      A:
-      - 2.01e+19
-      - s^-1
-      n: -1.07
-      Ea:
-      - 28377
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 2.01e+19
+    - s^-1
+    n: -1.07
+    Ea:
+    - 28377.0
+    - cal/mol
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 9.27e+34
-      - cm^3/(mol*s)
-      n: -5.87
-      Ea:
-      - 30960
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 200
-      - K
-      Tmax:
-      - 2000
-      - K
+    A:
+    - 9.27e+34
+    - cm^3/(mol*s)
+    n: -5.87
+    Ea:
+    - 30960.0
+    - cal/mol
 ---
 label: HSO2 <=> HSO + O
 degeneracy: 2.0
@@ -898,12 +733,12 @@ kinetics:
   A:
   - 20200000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 88
+  - 88.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: SO2 + CO <=> SO + CO2
@@ -920,12 +755,12 @@ kinetics:
   A:
   - 2700000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 48300
+  - 48300.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: SO + O2 <=> SO2 + O
@@ -944,16 +779,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.4
   Ea:
-  - 3712
+  - 3712.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 250
+  - 250.0
   - K
   Tmax:
-  - 3500
+  - 3500.0
   - K
 ---
 label: SO2 + S <=> SO + SO
@@ -970,18 +805,18 @@ kinetics:
   A:
   - 5890000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 9034
+  - 9034.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1120
+  - 1120.0
   - K
   Tmax:
-  - 1540
+  - 1540.0
   - K
 ---
 label: H2S + O <=> HSO + H
@@ -1009,10 +844,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.1
   Ea:
-  - 5099
+  - 5099.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2S + O <=> SH + OH
@@ -1028,20 +863,18 @@ kinetics:
   A:
   - 74700000.0
   - cm^3/(mol*s)
-  - +|-
-  - 4480000.0
   n: 1.746
   Ea:
-  - 2895
+  - 2895.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 200
+  - 200.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HOS + H <=> SO + H2
@@ -1058,16 +891,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.94
   Ea:
-  - 1590
+  - 1590.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 298
+  - 298.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SO3 + H2O + H2O <=> H2SO4 + H2O
@@ -1085,20 +918,18 @@ kinetics:
   A:
   - 14100000.0
   - cm^6/(mol^2*s)
-  - +|-
-  - 2820000.0
-  n: 0
+  n: 0.0
   Ea:
-  - -13500
+  - -13500.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 283
+  - 283.0
   - K
   Tmax:
-  - 370
+  - 370.0
   - K
 ---
 label: SO2 + OH <=> HOSO2
@@ -1123,22 +954,18 @@ kinetics:
   A:
   - 1260000.0
   - cm^3/(mol*s)
-  - '*|/'
-  - 1.12511
   n: 1.98
   Ea:
-  - 153
+  - 153.0
   - cal/mol
-  - +|-
-  - 14.4
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 200
+  - 200.0
   - K
   Tmax:
-  - 1025
+  - 1025.0
   - K
 ---
 label: COS + O <=> SO + CO
@@ -1156,18 +983,18 @@ kinetics:
   A:
   - 24300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 4830
+  - 4830.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1120
+  - 1120.0
   - K
   Tmax:
-  - 1540
+  - 1540.0
   - K
 ---
 label: COS + O <=> S + CO2
@@ -1185,18 +1012,18 @@ kinetics:
   A:
   - 17300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6900
+  - 6900.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1120
+  - 1120.0
   - K
   Tmax:
-  - 1540
+  - 1540.0
   - K
 ---
 label: COS + H <=> CO + SH
@@ -1212,18 +1039,18 @@ kinetics:
   A:
   - 240000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6786
+  - 6786.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1170
+  - 1170.0
   - K
   Tmax:
-  - 1830
+  - 1830.0
   - K
 ---
 label: CS2 + H <=> CS + SH
@@ -1239,18 +1066,18 @@ kinetics:
   A:
   - 1400000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 18380
+  - 18380.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1170
+  - 1170.0
   - K
   Tmax:
-  - 1830
+  - 1830.0
   - K
 ---
 label: COS <=> CO + S
@@ -1267,23 +1094,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 245000000000000.0
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 61400
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 1140
-      - K
-      Tmax:
-      - 3230
-      - K
+    A:
+    - 245000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 61400.0
+    - cal/mol
 ---
 label: COS + S <=> CO + S2
 degeneracy: 1.0
@@ -1299,18 +1116,18 @@ kinetics:
   A:
   - 23500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6764
+  - 6764.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 1140
+  - 1140.0
   - K
   Tmax:
-  - 3230
+  - 3230.0
   - K
 ---
 label: COS <=> CO + Sa
@@ -1326,23 +1143,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 4.8e+22
-      - cm^3/(mol*s)
-      n: 0
-      Ea:
-      - 71800
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 1830
-      - K
-      Tmax:
-      - 3020
-      - K
+    A:
+    - 4.8e+22
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 71800.0
+    - cal/mol
 ---
 label: H2S + H <=> SH + H2
 degeneracy: 2.0
@@ -1361,16 +1168,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.94
   Ea:
-  - 904
+  - 904.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 190
+  - 190.0
   - K
   Tmax:
-  - 2237
+  - 2237.0
   - K
 ---
 label: H2S + S <=> SH + SH
@@ -1399,16 +1206,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.297
   Ea:
-  - 9011
+  - 9011.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: S + H2 <=> SH + H
@@ -1425,18 +1232,18 @@ kinetics:
   A:
   - 158000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 19700
+  - 19700.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 2740
+  - 2740.0
   - K
   Tmax:
-  - 3570
+  - 3570.0
   - K
 ---
 label: S + CH4 <=> SH + CH3
@@ -1454,12 +1261,12 @@ kinetics:
   A:
   - 204000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 19910
+  - 19910.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S + C2H6 <=> SH + C2H5
@@ -1478,12 +1285,12 @@ kinetics:
   A:
   - 123000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 14750
+  - 14750.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2S <=> H2 + S
@@ -1499,23 +1306,13 @@ kinetics:
   type: ThirdBody
   arrheniusLow:
     type: Arrhenius
-    data:
-      A:
-      - 1.6e+24
-      - cm^3/(mol*s)
-      n: -2.613
-      Ea:
-      - 89173
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 900
-      - K
-      Tmax:
-      - 3600
-      - K
+    A:
+    - 1.6e+24
+    - cm^3/(mol*s)
+    n: -2.613
+    Ea:
+    - 89173.0
+    - cal/mol
 ---
 label: S2 + H <=> HSS
 degeneracy: 2.0
@@ -1528,30 +1325,20 @@ long_description: |2
   Validated in T range: 873-1423 K
 kinetics:
   type: ThirdBody
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 1.15e+25
-      - cm^6/(mol^2*s)
-      n: -2.84
-      Ea:
-      - 1665
-      - cal/mol
-      T0:
-      - 1
-      - K
-      Tmin:
-      - 873
-      - K
-      Tmax:
-      - 1423
-      - K
   efficiencies:
-    N#N: 1
+    N#N: 1.0
     S: 1.1
     '[Ar]': 0.88
     '[He]': 1.39
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.15e+25
+    - cm^6/(mol^2*s)
+    n: -2.84
+    Ea:
+    - 1665.0
+    - cal/mol
 ---
 label: SH + HSS <=> H2S + S2
 degeneracy: 1.0
@@ -1569,16 +1356,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.05
   Ea:
-  - -1105
+  - -1105.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSS + H <=> S2 + H2
@@ -1603,16 +1390,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.653
   Ea:
-  - -1105
+  - -1105.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSS + H <=> H2S + S
@@ -1637,18 +1424,18 @@ kinetics:
   A:
   - 44100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 6326
+  - 6326.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: S + HSS <=> S2 + SH
@@ -1668,16 +1455,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.2
   Ea:
-  - -600
+  - -600.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSS + HSS <=> HSSH + S2
@@ -1697,16 +1484,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 3.37
   Ea:
-  - -1672
+  - -1672.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSSH + H <=> HSS + H2
@@ -1726,16 +1513,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.933
   Ea:
-  - -1408
+  - -1408.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSSH + H <=> H2S + SH
@@ -1754,16 +1541,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.724
   Ea:
-  - 467
+  - 467.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSSH + SH <=> H2S + HSS
@@ -1783,16 +1570,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.98
   Ea:
-  - -1480
+  - -1480.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: HSSH + S <=> HSS + SH
@@ -1812,16 +1599,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.31
   Ea:
-  - 1204
+  - 1204.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 873
+  - 873.0
   - K
   Tmax:
-  - 1423
+  - 1423.0
   - K
 ---
 label: CH3SH + H <=> CH3S + H2
@@ -1841,16 +1628,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.729
   Ea:
-  - 986
+  - 986.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 200
+  - 200.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: CH3SH + H <=> CH2SH + H2
@@ -1869,16 +1656,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.925
   Ea:
-  - 4747
+  - 4747.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 250
+  - 250.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: CH3SH + H <=> CH3 + H2S
@@ -1897,16 +1684,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.766
   Ea:
-  - 3225
+  - 3225.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 200
+  - 200.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: CH3SH + H <=> CH4 + SH
@@ -1925,16 +1712,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.983
   Ea:
-  - 16536
+  - 16536.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 400
+  - 400.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: S + C2H2 <=> HCCS + H
@@ -1946,44 +1733,6 @@ long_description: |2
   T range: 300-1000 K
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 12600000000000.0
-      - cm^3/(mol*s)
-      n: 0.0
-      Ea:
-      - 2677
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 1000
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 3.6e+29
-      - cm^6/(mol^2*s)
-      n: -3.55
-      Ea:
-      - 3955
-      - cal/mol
-      T0:
-      - 300
-      - K
-      Tmin:
-      - 300
-      - K
-      Tmax:
-      - 1000
-      - K
   alpha: 0.6
   T3:
   - 1.0e-30
@@ -1991,7 +1740,24 @@ kinetics:
   T1:
   - 1.0e+30
   - K
-  efficiencies: {}
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 12600000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 2677.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 3.6e+29
+    - cm^6/(mol^2*s)
+    n: -3.55
+    Ea:
+    - 3955.0
+    - cal/mol
 ---
 label: S + CS2 <=> CS + S2
 degeneracy: 2.0
@@ -2007,16 +1773,16 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.0
   Ea:
-  - 8843
+  - 8843.0
   - cal/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 690
+  - 690.0
   - K
   Tmax:
-  - 1040
+  - 1040.0
   - K
 ---
 label: HOSO2 + O2 <=> SO3 + HO2
@@ -2034,20 +1800,18 @@ kinetics:
   A:
   - 1.848e-06
   - cm^3/(mol*s)
-  - '*|/'
-  - 5.17556
   n: 5.4
   Ea:
   - 94.02
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HOSO2 + O2 <=> SO3 + HO2
@@ -2063,44 +1827,19 @@ long_description: |2
 duplicate: true
 kinetics:
   type: Chebyshev
-  coeffs:
-  - - 12.2121
-    - -0.0588331
-    - -0.0369469
-    - -0.0170237
-  - - -0.966321
-    - 0.0601562
-    - 0.0379397
-    - 0.0176167
-  - - -0.198689
-    - 0.00650242
-    - 0.00363656
-    - 0.00127762
-  - - 0.0023904
-    - -0.00384118
-    - -0.00232335
-    - -0.000985026
-  - - 0.0234029
-    - -0.00579278
-    - -0.0033169
-    - -0.0012383
-  - - 0.0162687
-    - 3.28822e-06
-    - -5.07497e-05
-    - -7.44263e-05
-  kunits: cm^3/(mol*s)
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
   Pmin:
   - 0.01
   - bar
   Pmax:
-  - 100
+  - 100.0
   - bar
+  coeffs: []
 ---
 label: H2S + OH <=> H2O + SH
 degeneracy: 2.0
@@ -2119,22 +1858,18 @@ kinetics:
   A:
   - 3820000.0
   - cm^3/(mol*s)
-  - '*|/'
-  - 1.5773
   n: 2.04583
   Ea:
-  - -1039
+  - -1039.0
   - cal/mol
-  - +|-
-  - 65
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 200
+  - 200.0
   - K
   Tmax:
-  - 2400
+  - 2400.0
   - K
 ---
 label: HSSH <=> SH + SH
@@ -2173,16 +1908,16 @@ kinetics:
   - s^-1
   n: -0.957
   Ea:
-  - 267
+  - 267.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HSSH <=> HSS + H
@@ -2200,16 +1935,16 @@ kinetics:
   - s^-1
   n: -0.076
   Ea:
-  - 310
+  - 310.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HSSH <=> H2SS
@@ -2227,10 +1962,10 @@ kinetics:
   - s^-1
   n: 0.213
   Ea:
-  - 193
+  - 193.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2SS <=> HSS + H
@@ -2248,10 +1983,10 @@ kinetics:
   - s^-1
   n: -0.026
   Ea:
-  - 191
+  - 191.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2SS <=> H2S + S
@@ -2269,10 +2004,10 @@ kinetics:
   - s^-1
   n: 0.468
   Ea:
-  - 127
+  - 127.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2SS <=> S2 + H2
@@ -2290,10 +2025,10 @@ kinetics:
   - s^-1
   n: 1.125
   Ea:
-  - 158
+  - 158.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H2S + S <=> HSSH
@@ -2306,40 +2041,31 @@ long_description: |2
 elementary_high_p: true
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 63800000.0
-      - cm^3/(mol*s)
-      n: 1.28
-      Ea:
-      - -2
-      - kJ/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 2.4e+21
-      - cm^6/(mol^2*s)
-      n: -1.612
-      Ea:
-      - 7
-      - kJ/mol
-      T0:
-      - 1
-      - K
   alpha: 0.5
   T3:
-  - 726
+  - 726.0
   - K
   T1:
-  - 726
+  - 726.0
   - K
-  efficiencies: {}
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 63800000.0
+    - cm^3/(mol*s)
+    n: 1.28
+    Ea:
+    - -2.0
+    - kJ/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 2.4e+21
+    - cm^6/(mol^2*s)
+    n: -1.612
+    Ea:
+    - 7.0
+    - kJ/mol
 ---
 label: HSO <=> H + SO
 degeneracy: 1.0
@@ -2356,16 +2082,16 @@ kinetics:
   - s^-1
   n: 0.0
   Ea:
-  - 244
+  - 244.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HOS <=> H + SO
@@ -2383,16 +2109,16 @@ kinetics:
   - s^-1
   n: 1.051
   Ea:
-  - 231
+  - 231.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HSO <=> HOS
@@ -2410,16 +2136,16 @@ kinetics:
   - s^-1
   n: 0.547
   Ea:
-  - 192
+  - 192.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HSO <=> SH + O
@@ -2437,16 +2163,16 @@ kinetics:
   - s^-1
   n: 0.286
   Ea:
-  - 410
+  - 410.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: HOS <=> OH + S
@@ -2464,16 +2190,16 @@ kinetics:
   - s^-1
   n: -0.013
   Ea:
-  - 315
+  - 315.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K
 ---
 label: SH + O <=> OH + S
@@ -2490,14 +2216,14 @@ kinetics:
   - cm^3/(mol*s)
   n: 2.103
   Ea:
-  - 15
+  - 15.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 2000
+  - 2000.0
   - K

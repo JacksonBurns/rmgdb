@@ -1,0 +1,82 @@
+label: Adsorbate
+group: |2
+
+  1 *1 R u0 {2,S}
+  2 *2 X u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: Proton
+group: |2
+
+  1 *3 H+ u0 p0 c+1
+short_description: ''
+long_description: ''
+children: []
+---
+label: CX
+group: |2
+
+  1 *1 C u0 {2,S}
+  2 *2 X u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- CTX
+- C=X
+---
+label: OX
+group: |2
+
+  1 *1 O u0 {2,S}
+  2 *2 X u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: NX
+group: |2
+
+  1 *1 N u0 {2,S}
+  2 *2 X u0 {1,S}
+short_description: ''
+long_description: ''
+children:
+- NTX
+- N=X

@@ -1,0 +1,37 @@
+label: O*
+adjacency_list: |-
+  1 *2 O u0 p2 c0 {2,D}
+  2 *1 X u0 p0 c0 {1,D}
+---
+label: CO*
+adjacency_list: |-
+  1    O u0 p2 c0 {2,D}
+  2 *3 C u0 p0 c0 {1,D} {3,D}
+  3 *4 X u0 p0 c0 {2,D}
+---
+label: CO2*
+adjacency_list: |-
+  1    O u0 p2 c0 {3,D}
+  2 *2 O u0 p2 c0 {3,D}
+  3 *3 C u0 p0 c0 {1,D} {2,D}
+  4 *1 X u0 p0 c0
+---
+label: X_4
+adjacency_list: 1 *4 X u0 p0 c0
+---
+label: HCOOH*
+adjacency_list: |-
+  1    O u0 p2 c0 {3,S} {5,S}
+  2 *2 O u0 p2 c0 {3,D}
+  3 *3 C u0 p0 c0 {1,S} {2,D} {4,S}
+  4    H u0 p0 c0 {3,S}
+  5    H u0 p0 c0 {1,S}
+  6 *1 X u0 p0 c0
+---
+label: HCOH*
+adjacency_list: |-
+  1    O u0 p2 c0 {2,S} {4,S}
+  2 *3 C u0 p0 c0 {1,S} {3,S} {5,D}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {1,S}
+  5 *4 X u0 p0 c0 {2,D}

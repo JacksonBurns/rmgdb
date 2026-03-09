@@ -13,23 +13,17 @@ kinetics:
   - cm^3/(molecule*s)
   n: -1.87
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 950
+  - 950.0
   - K
   Tmax:
-  - 1200
+  - 1200.0
   - K
-  Pmin:
-  - 187000.0
-  - Pa
-  Pmax:
-  - 247000.0
-  - Pa
 ---
 label: I + I <=> I2
 degeneracy: 1.0
@@ -41,18 +35,18 @@ kinetics:
   A:
   - 5.51e-34
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
   - -4.78
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 290
+  - 290.0
   - K
   Tmax:
-  - 1250
+  - 1250.0
   - K
 ---
 label: CH3 + I <=> CH3I
@@ -68,12 +62,12 @@ kinetics:
   A:
   - 1.17e-11
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H5 + I <=> C3H5I
@@ -89,12 +83,12 @@ kinetics:
   A:
   - 1.6e-10
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H5 + I <=> C6H5I
@@ -105,12 +99,12 @@ kinetics:
   A:
   - 1.7e-11
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H5CH2 + I <=> C6H5CH2I
@@ -127,12 +121,12 @@ kinetics:
   A:
   - 5.8e-11
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H5CH2CHCH3 + I <=> C6H5CH2CHCH3I
@@ -148,10 +142,10 @@ kinetics:
   A:
   - 5.8e-11
   - cm^3/(molecule*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K

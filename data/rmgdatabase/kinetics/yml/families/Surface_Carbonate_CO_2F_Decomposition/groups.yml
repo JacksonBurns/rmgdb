@@ -1,0 +1,30 @@
+label: CarbonateRing
+group: |2
+
+  1 *1 O u0 p2 {2,D}
+  2 *2 C u0 p0 {1,D} {3,S} {4,S}
+  3 *3 O u0 p2 {2,S} {5,S}
+  4 *4 O u0 p2 {2,S} {6,S}
+  5 *5 R!H u0 px cx {6,[S,D]} {3,S} {7,S}
+  6 *6 R!H u0 px cx {5,[S,D]} {4,S} {8,S}
+  7 *7 F   u0 p3 c0 {5,S}
+  8 *8 F   u0 p3 c0 {6,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: SurfaceSite1
+group: |2
+
+  1  *9 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: SurfaceSite2
+group: |2
+
+  1  *10 Xv  u0 p0 c0
+short_description: ''
+long_description: ''
+children: []

@@ -5,12 +5,12 @@ kinetics:
   A:
   - 1995000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)4 <=> CH3 + CH2OSi(OC2H5)3
@@ -20,12 +20,12 @@ kinetics:
   A:
   - 3.981e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)3OH <=> C2H4 + Si(OC2H5)2(OH)2
@@ -35,12 +35,12 @@ kinetics:
   A:
   - 1585000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)3OH <=> C2H5OH + O_Si(OC2H5)2
@@ -50,12 +50,12 @@ kinetics:
   A:
   - 501200000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 45.105
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)3OH <=> CH3 + CH2OSi(OC2H5)2OH
@@ -65,12 +65,12 @@ kinetics:
   A:
   - 3.162e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)2(OH)2 <=> C2H4 + Si(OC2H5)(OH)3
@@ -80,12 +80,12 @@ kinetics:
   A:
   - 1000000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)2(OH)2 <=> H2O + O_Si(OC2H5)2
@@ -95,12 +95,12 @@ kinetics:
   A:
   - 501200000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 39.74
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)2(OH)2 <=> C2H5OH + O_Si(OC2H5)OH
@@ -110,12 +110,12 @@ kinetics:
   A:
   - 631000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 45.105
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)2(OH)2 <=> CH3 + CH2OSi(OC2H5)(OH)2
@@ -125,12 +125,12 @@ kinetics:
   A:
   - 1.995e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)(OH)3 <=> C2H4 + Si(OH)4
@@ -140,12 +140,12 @@ kinetics:
   A:
   - 631000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)(OH)3 <=> H2O + O_Si(OC2H5)OH
@@ -155,12 +155,12 @@ kinetics:
   A:
   - 501200000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 39.74
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)(OH)3 <=> C2H5OH + O_Si(OH)2
@@ -170,12 +170,12 @@ kinetics:
   A:
   - 501200000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 45.105
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: Si(OC2H5)(OH)3 <=> CH3 + CH2OSi(OH)3
@@ -185,12 +185,12 @@ kinetics:
   A:
   - 1.0e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O_Si(OC2H5)2 <=> C2H4 + O_Si(OC2H5)OH
@@ -200,29 +200,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 10000000000000.0
-      - s^-1
-      n: 0
-      Ea:
-      - 52.059
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 10000000000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 52.059
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 1000000000000000.0
-      - s^-1
-      n: 0
-      Ea:
-      - 68.552
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1000000000000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 68.552
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: O_Si(OC2H5)2 <=> CH3 + CH2OSiO(OC2H5)
 degeneracy: 1.0
@@ -231,12 +229,12 @@ kinetics:
   A:
   - 1.995e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O_Si(OC2H5)OH <=> C2H4 + O_Si(OH)2
@@ -246,29 +244,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 5012000000000.0
-      - s^-1
-      n: 0
-      Ea:
-      - 52.059
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 5012000000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 52.059
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 501200000000000.0
-      - s^-1
-      n: 0
-      Ea:
-      - 68.552
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 501200000000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 68.552
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: O_Si(OC2H5)OH <=> C2H5OH + SiO2
 degeneracy: 1.0
@@ -277,12 +273,12 @@ kinetics:
   A:
   - 158500000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 47.092
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O_Si(OC2H5)OH <=> CH3 + CH2OSiO(OH)
@@ -292,12 +288,12 @@ kinetics:
   A:
   - 1.0e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3OSi(OC2H5)2(OC2H3) <=> C2H4 + CH3OSi(OC2H5)(OC2H3)OH
@@ -307,12 +303,12 @@ kinetics:
   A:
   - 1000000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3OSi(OC2H5)2(OC2H3) <=> CH3 + CH2OSi(OC2H5)(OC2H3)(OCH3)
@@ -322,12 +318,12 @@ kinetics:
   A:
   - 1.995e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3OSi(OC2H5)(OC2H3)OH <=> C2H4 + CH3OSi(OC2H3)(OH)2
@@ -337,12 +333,12 @@ kinetics:
   A:
   - 501200000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 68.552
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3OSi(OC2H5)(OC2H3)OH <=> CH3 + CH2OSi(OCH3)(OC2H3)OH
@@ -352,12 +348,12 @@ kinetics:
   A:
   - 1.0e+17
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 86.037
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3OSi(OC2H5)(OC2H3)OH <=> C2H5OH + CH3OSi(O)OC2H3
@@ -367,12 +363,12 @@ kinetics:
   A:
   - 158500000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 45.105
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5OH <=> C2H4 + H2O
@@ -382,12 +378,12 @@ kinetics:
   A:
   - 63100000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 66.167
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H5OH <=> CH3 + CH2OH
@@ -397,10 +393,10 @@ kinetics:
   A:
   - 1.0e+16
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 83.057
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

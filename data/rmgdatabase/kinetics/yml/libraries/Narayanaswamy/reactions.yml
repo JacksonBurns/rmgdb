@@ -10,7 +10,7 @@ kinetics:
   - -3.611
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C6H6(91) <=> H(2) + A1(62)
@@ -22,10 +22,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 0.5
   Ea:
-  - 2
+  - 2.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + N-C4H5(60) <=> H(2) + C6H6(91)
@@ -40,7 +40,7 @@ kinetics:
   - 9.142
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + I-C4H5(61) <=> H(2) + C6H6(91)
@@ -55,7 +55,7 @@ kinetics:
   - 20.337
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H6(91) <=> A1(62)
@@ -70,7 +70,7 @@ kinetics:
   - 97.003
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C6H6(91) <=> H(2) + A1-(92)
@@ -85,7 +85,7 @@ kinetics:
   - 142.576
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + N-C4H3(45) <=> A1-(92)
@@ -100,7 +100,7 @@ kinetics:
   - 31.3
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + N-C4H5(60) <=> H(2) + A1(62)
@@ -110,12 +110,12 @@ kinetics:
   A:
   - 1.38e+16
   - cm^3/(mol*s)
-  n: -1
+  n: -1.0
   Ea:
   - 8.901
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + I-C4H5(61) <=> H(2) + A1(62)
@@ -130,7 +130,7 @@ kinetics:
   - 24.959
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A-C3H5(47) + C3H3(41) => H(2) + H(2) + C6H6(91)
@@ -146,7 +146,7 @@ kinetics:
   - 23.853
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3(41) + C3H3(41) <=> C6H6(91)
@@ -161,7 +161,7 @@ kinetics:
   - 16.96
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3(41) + C3H3(41) <=> A1(62)
@@ -176,7 +176,7 @@ kinetics:
   - 17.015
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C3H3(41) + C3H3(41) <=> H(2) + A1-(92)
@@ -186,12 +186,12 @@ kinetics:
   A:
   - 5.77e+37
   - cm^3/(mol*s)
-  n: -7
+  n: -7.0
   Ea:
   - 31.506
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C2H2(21) <=> A1C2H2(93)
@@ -206,7 +206,7 @@ kinetics:
   - 3.162
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C2H3(29) <=> A1C2H3(94)
@@ -216,12 +216,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1(62) + C2H3(29) <=> H(2) + A1C2H3(94)
@@ -236,7 +236,7 @@ kinetics:
   - 5.533
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C2H4(30) <=> A1(62) + C2H3(29)
@@ -251,7 +251,7 @@ kinetics:
   - 4.472
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H(95) <=> H(2) + A1C2H*(96)
@@ -266,7 +266,7 @@ kinetics:
   - 148.086
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1C2H(95) <=> H2(6) + A1C2H*(96)
@@ -281,7 +281,7 @@ kinetics:
   - 17.579
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H(95) <=> A1C2H*(96) + H2O(7)
@@ -289,14 +289,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 7800
+  - 7800.0
   - cm^3/(mol*s)
   n: 2.68
   Ea:
   - 0.734
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H2(93) <=> C8H7(97)
@@ -311,7 +311,7 @@ kinetics:
   - 27.567
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H2(93) <=> H(2) + A1C2H(95)
@@ -326,7 +326,7 @@ kinetics:
   - 38.673
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1C2H2(93) <=> H2(6) + A1C2H(95)
@@ -341,7 +341,7 @@ kinetics:
   - 10.631
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H2(93) <=> A1C2H(95) + H2O(7)
@@ -351,12 +351,12 @@ kinetics:
   A:
   - 2500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H3(94) <=> H(2) + C8H7(97)
@@ -371,7 +371,7 @@ kinetics:
   - 148.086
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1C2H3(94) <=> H2(6) + C8H7(97)
@@ -386,7 +386,7 @@ kinetics:
   - 16.917
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H3(94) <=> C8H7(97) + H2O(7)
@@ -394,14 +394,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 134
+  - 134.0
   - cm^3/(mol*s)
   n: 3.33
   Ea:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H3(94) <=> H(2) + A1C2H2(93)
@@ -416,7 +416,7 @@ kinetics:
   - 111.255
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1C2H3(94) <=> H2(6) + A1C2H2(93)
@@ -424,14 +424,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 63500
+  - 63500.0
   - cm^3/(mol*s)
   n: 2.75
   Ea:
   - 11.649
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H3(94) <=> A1C2H2(93) + H2O(7)
@@ -446,7 +446,7 @@ kinetics:
   - -0.86
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H*(96) + C2H2(21) <=> A2-(98)
@@ -454,14 +454,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13400
+  - 13400.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 1.283
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H7(97) + C2H2(21) <=> H(2) + A2(99)
@@ -469,14 +469,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 3020
+  - 3020.0
   - cm^3/(mol*s)
   n: 2.55
   Ea:
   - 3.181
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H2(93) + C2H2(21) <=> H(2) + A2(99)
@@ -491,7 +491,7 @@ kinetics:
   - 4.438
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H(95) + C2H3(29) <=> H(2) + A2(99)
@@ -506,7 +506,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H*(96) + C2H4(30) <=> H(2) + A2(99)
@@ -521,7 +521,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C4H4(49) <=> H(2) + A2(99)
@@ -529,14 +529,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 12600
+  - 12600.0
   - cm^3/(mol*s)
   n: 2.61
   Ea:
   - 1.434
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2(99) <=> H(2) + A2-(98)
@@ -551,7 +551,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2(99) <=> H2(6) + A2-(98)
@@ -566,7 +566,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2(99) <=> A2-(98) + H2O(7)
@@ -574,14 +574,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 963
+  - 963.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2(99) <=> H(2) + A2*(100)
@@ -596,7 +596,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2(99) <=> H2(6) + A2*(100)
@@ -611,7 +611,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2(99) <=> A2*(100) + H2O(7)
@@ -619,14 +619,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 963
+  - 963.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + C2H2(21) <=> C12H9(101)
@@ -641,7 +641,7 @@ kinetics:
   - 1.931
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2*(100) + C2H2(21) <=> C12H9(102)
@@ -656,7 +656,7 @@ kinetics:
   - 3.162
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + C2H3(29) <=> H(2) + C12H9(101)
@@ -666,12 +666,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2*(100) + C2H3(29) <=> H(2) + C12H9(102)
@@ -681,12 +681,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2(99) + C2H3(29) <=> H2(6) + C12H9(101)
@@ -701,7 +701,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2(99) + C2H3(29) <=> H2(6) + C12H9(102)
@@ -716,7 +716,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + C2H4(30) <=> H2(6) + C12H9(101)
@@ -731,7 +731,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2*(100) + C2H4(30) <=> H2(6) + C12H9(102)
@@ -746,7 +746,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H9(101) <=> H(2) + C12H8(103)
@@ -761,7 +761,7 @@ kinetics:
   - 38.673
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C12H9(101) <=> H2(6) + C12H8(103)
@@ -776,7 +776,7 @@ kinetics:
   - 10.631
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C12H9(101) <=> C12H8(103) + H2O(7)
@@ -786,12 +786,12 @@ kinetics:
   A:
   - 2500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H9(102) <=> H(2) + C12H8(104)
@@ -806,7 +806,7 @@ kinetics:
   - 38.673
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C12H9(102) <=> H2(6) + C12H8(104)
@@ -821,7 +821,7 @@ kinetics:
   - 10.631
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C12H9(102) <=> C12H8(104) + H2O(7)
@@ -831,12 +831,12 @@ kinetics:
   A:
   - 2500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H8(103) <=> H(2) + C12H7(105)
@@ -851,7 +851,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C12H8(103) <=> H2(6) + C12H7(105)
@@ -866,7 +866,7 @@ kinetics:
   - 16.821
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C12H8(103) <=> H2O(7) + C12H7(105)
@@ -881,7 +881,7 @@ kinetics:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H8(104) <=> H(2) + C12H7(106)
@@ -896,7 +896,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C12H8(104) <=> H2(6) + C12H7(106)
@@ -911,7 +911,7 @@ kinetics:
   - 16.821
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C12H8(104) <=> H2O(7) + C12H7(106)
@@ -926,7 +926,7 @@ kinetics:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H9(101) <=> H(2) + A2R5(107)
@@ -941,7 +941,7 @@ kinetics:
   - 17.027
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C12H8(103) <=> H(2) + A2R5(107)
@@ -951,12 +951,12 @@ kinetics:
   A:
   - 3520000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 13.36
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2R5(107) <=> H(2) + A2R5-(108)
@@ -971,7 +971,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2R5(107) <=> H2(6) + A2R5-(108)
@@ -986,7 +986,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2R5(107) <=> H2O(7) + A2R5-(108)
@@ -994,14 +994,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 963
+  - 963.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A2R5-(108) <=> C14H9(109)
@@ -1016,7 +1016,7 @@ kinetics:
   - 3.162
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2R5-(108) + C2H3(29) <=> H(2) + C14H9(109)
@@ -1026,12 +1026,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2R5(107) + C2H3(29) <=> H2(6) + C14H9(109)
@@ -1046,7 +1046,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2R5-(108) + C2H4(30) <=> H2(6) + C14H9(109)
@@ -1061,7 +1061,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C14H8(110) <=> H(2) + C14H7(111)
@@ -1076,7 +1076,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C14H8(110) <=> H2(6) + C14H7(111)
@@ -1091,7 +1091,7 @@ kinetics:
   - 16.821
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C14H8(110) <=> H2O(7) + C14H7(111)
@@ -1106,7 +1106,7 @@ kinetics:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C14H9(109) <=> H(2) + C14H8(110)
@@ -1121,7 +1121,7 @@ kinetics:
   - 38.673
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C14H9(109) <=> H2(6) + C14H8(110)
@@ -1136,7 +1136,7 @@ kinetics:
   - 10.631
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C14H9(109) <=> H2O(7) + C14H8(110)
@@ -1146,12 +1146,12 @@ kinetics:
   A:
   - 2500000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + A1(62) <=> H(2) + P2(112)
@@ -1161,12 +1161,12 @@ kinetics:
   A:
   - 955000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.168
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + A1-(92) <=> P2(112)
@@ -1176,12 +1176,12 @@ kinetics:
   A:
   - 13900000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 0.112
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: P2(112) <=> H(2) + P2-(113)
@@ -1196,7 +1196,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + P2(112) <=> H2(6) + P2-(113)
@@ -1211,7 +1211,7 @@ kinetics:
   - 16.353
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + P2(112) <=> H2O(7) + P2-(113)
@@ -1219,14 +1219,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 269
+  - 269.0
   - cm^3/(mol*s)
   n: 3.33
   Ea:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + C12H7(105) <=> A3-(114)
@@ -1234,14 +1234,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13400
+  - 13400.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 1.283
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + C12H7(106) <=> A3-(114)
@@ -1249,14 +1249,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13400
+  - 13400.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 1.283
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H9(101) + C2H2(21) <=> H(2) + A3(115)
@@ -1271,7 +1271,7 @@ kinetics:
   - 4.438
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H9(102) + C2H2(21) <=> H(2) + A3(115)
@@ -1286,7 +1286,7 @@ kinetics:
   - 4.438
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + P2-(113) <=> H(2) + A3(115)
@@ -1301,7 +1301,7 @@ kinetics:
   - 3.162
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H7(105) + C2H3(29) <=> A3(115)
@@ -1311,12 +1311,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H7(106) + C2H3(29) <=> A3(115)
@@ -1326,12 +1326,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H8(103) + C2H3(29) <=> H(2) + A3(115)
@@ -1346,7 +1346,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H8(104) + C2H3(29) <=> H(2) + A3(115)
@@ -1361,7 +1361,7 @@ kinetics:
   - 15.758
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H7(105) + C2H4(30) <=> H(2) + A3(115)
@@ -1376,7 +1376,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C12H7(106) + C2H4(30) <=> H(2) + A3(115)
@@ -1391,7 +1391,7 @@ kinetics:
   - 23.865
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + C4H4(49) <=> H(2) + A3(115)
@@ -1399,14 +1399,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 12600
+  - 12600.0
   - cm^3/(mol*s)
   n: 2.61
   Ea:
   - 1.434
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2*(100) + C4H4(49) <=> H(2) + A3(115)
@@ -1414,14 +1414,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 12600
+  - 12600.0
   - cm^3/(mol*s)
   n: 2.61
   Ea:
   - 1.434
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + A1C2H(95) <=> H(2) + A3(115)
@@ -1431,12 +1431,12 @@ kinetics:
   A:
   - 318000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.168
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H*(96) + A1(62) <=> H(2) + A3(115)
@@ -1446,12 +1446,12 @@ kinetics:
   A:
   - 239000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.168
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + A1C2H*(96) <=> A3(115)
@@ -1461,12 +1461,12 @@ kinetics:
   A:
   - 13900000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 0.112
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A3(115) <=> H(2) + A3-(114)
@@ -1481,7 +1481,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A3(115) <=> H2(6) + A3-(114)
@@ -1496,7 +1496,7 @@ kinetics:
   - 16.353
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3(115) <=> H2O(7) + A3-(114)
@@ -1504,14 +1504,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 134
+  - 134.0
   - cm^3/(mol*s)
   n: 3.33
   Ea:
   - 1.456
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A3(115) <=> H(2) + A3*(116)
@@ -1526,7 +1526,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A3(115) <=> H2(6) + A3*(116)
@@ -1541,7 +1541,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3(115) <=> H2O(7) + A3*(116)
@@ -1549,14 +1549,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 963
+  - 963.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A3-(114) <=> C2H2(21) + A2R5-(108)
@@ -1571,7 +1571,7 @@ kinetics:
   - 70.399
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + C14H7(111) <=> A3R5-(117)
@@ -1579,14 +1579,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13400
+  - 13400.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 1.283
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + C14H9(109) <=> H(2) + A3R5(118)
@@ -1601,7 +1601,7 @@ kinetics:
   - 4.438
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A3*(116) <=> H(2) + A3R5(118)
@@ -1616,7 +1616,7 @@ kinetics:
   - 1.931
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A3*(116) + C2H3(29) <=> H2(6) + A3R5(118)
@@ -1626,12 +1626,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C4H4(49) + A2R5-(108) <=> H(2) + A3R5(118)
@@ -1639,14 +1639,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 12600
+  - 12600.0
   - cm^3/(mol*s)
   n: 2.61
   Ea:
   - 1.434
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A3R5(118) <=> H(2) + A3R5-(117)
@@ -1661,7 +1661,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A3R5(118) <=> H2(6) + A3R5-(117)
@@ -1676,7 +1676,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3R5(118) <=> H2O(7) + A3R5-(117)
@@ -1684,14 +1684,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 963
+  - 963.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A3-(114) <=> H(2) + A4(119)
@@ -1706,7 +1706,7 @@ kinetics:
   - 1.931
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A4(119) <=> H(2) + A4-(120)
@@ -1721,7 +1721,7 @@ kinetics:
   - 148.076
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A4(119) <=> H2(6) + A4-(120)
@@ -1736,7 +1736,7 @@ kinetics:
   - 17.096
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A4(119) <=> H2O(7) + A4-(120)
@@ -1744,14 +1744,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 1930
+  - 1930.0
   - cm^3/(mol*s)
   n: 3.02
   Ea:
   - 4.374
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A4-(120) <=> H(2) + A4R5(121)
@@ -1766,7 +1766,7 @@ kinetics:
   - 1.931
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A3R5-(117) <=> H(2) + A4R5(121)
@@ -1781,7 +1781,7 @@ kinetics:
   - 1.931
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2(99) + A1-(92) => H(2) + H2(6) + FLTN(122)
@@ -1792,12 +1792,12 @@ kinetics:
   A:
   - 637000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.168
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + A1(62) => H(2) + H2(6) + FLTN(122)
@@ -1808,12 +1808,12 @@ kinetics:
   A:
   - 955000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.168
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2-(98) + A1-(92) => H2(6) + FLTN(122)
@@ -1824,12 +1824,12 @@ kinetics:
   A:
   - 13900000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 0.112
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H6(123) <=> H(2) + C5H5(124)
@@ -1844,7 +1844,7 @@ kinetics:
   - 116.372
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C5H6(123) <=> H2(6) + C5H5(124)
@@ -1854,12 +1854,12 @@ kinetics:
   A:
   - 28000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.259
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C5H6(123) => C2H2(21) + S-C3H5(44)
@@ -1873,12 +1873,12 @@ kinetics:
   A:
   - 330000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 12.345
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H6(123) <=> OH(5) + C5H5(124)
@@ -1886,14 +1886,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 47700
+  - 47700.0
   - cm^3/(mol*s)
   n: 2.71
   Ea:
   - 1.107
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C5H6(123) <=> H2O(7) + C5H5(124)
@@ -1903,12 +1903,12 @@ kinetics:
   A:
   - 3080000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C5H6(123) <=> HO2(9) + C5H5(124)
@@ -1918,12 +1918,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 37.151
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C5H6(123) <=> H2O2(10) + C5H5(124)
@@ -1931,14 +1931,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 11000
+  - 11000.0
   - cm^3/(mol*s)
   n: 2.6
   Ea:
   - 12.899
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C5H6(123) <=> CH4(1) + C5H5(124)
@@ -1948,12 +1948,12 @@ kinetics:
   A:
   - 0.18
   - cm^3/(mol*s)
-  n: 4
+  n: 4.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H6(123) + C2H3(29) <=> C5H5(124) + C2H4(30)
@@ -1963,12 +1963,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: N-C4H5(60) + C5H6(123) <=> C4H6(59) + C5H5(124)
@@ -1978,12 +1978,12 @@ kinetics:
   A:
   - 6000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H6(123) <=> H(2) + C5H5O(125)
@@ -1998,7 +1998,7 @@ kinetics:
   - 1.14
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H6(123) => CO(11) + C2H2(21) + C2H4(30)
@@ -2014,7 +2014,7 @@ kinetics:
   - 0.887
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C5H6(123) => HCO(12) + C4H6(59)
@@ -2030,7 +2030,7 @@ kinetics:
   - 7.06
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C5H6(123) => HCO(12) + C2H2(21) + C2H4(30)
@@ -2046,7 +2046,7 @@ kinetics:
   - 7.06
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + C3H3(41) <=> C5H5(124)
@@ -2061,7 +2061,7 @@ kinetics:
   - 42.065
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C5H5(124) => H(2) + H(2) + C6H6(91)
@@ -2080,7 +2080,7 @@ kinetics:
   - 24.773
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H5(124) <=> H(2) + C5H4O(126)
@@ -2090,12 +2090,12 @@ kinetics:
   A:
   - 70000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C5H5(124) <=> OH(5) + C5H4O(126)
@@ -2110,7 +2110,7 @@ kinetics:
   - 17.667
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C5H5(124) <=> OH(5) + C5H5O(127)
@@ -2120,12 +2120,12 @@ kinetics:
   A:
   - 31000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C5H5(124) => H(2) + C5H5O(127)
@@ -2136,12 +2136,12 @@ kinetics:
   A:
   - 10200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5O(127) <=> H(2) + C5H4O(126)
@@ -2151,12 +2151,12 @@ kinetics:
   A:
   - 20000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
-  - 30
+  - 30.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5O(125) => CO(11) + N-C4H5(60)
@@ -2167,12 +2167,12 @@ kinetics:
   A:
   - 1000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 35.999
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C5H5O(127) => H2(6) + C5H4O(126)
@@ -2183,12 +2183,12 @@ kinetics:
   A:
   - 6670000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H5O(127) => OH(5) + C5H4O(126)
@@ -2199,12 +2199,12 @@ kinetics:
   A:
   - 3330000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C5H5O(127) => H2O(7) + C5H4O(126)
@@ -2215,12 +2215,12 @@ kinetics:
   A:
   - 1670000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C5H5O(127) => HO2(9) + C5H4O(126)
@@ -2236,7 +2236,7 @@ kinetics:
   - -3.53
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C5H5O(125) => H2(6) + C5H4O(126)
@@ -2247,12 +2247,12 @@ kinetics:
   A:
   - 1330000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C5H5O(125) => HO2(9) + C5H4O(126)
@@ -2268,7 +2268,7 @@ kinetics:
   - -2.034
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H4O(126) => CO(11) + C2H2(21) + C2H2(21)
@@ -2279,12 +2279,12 @@ kinetics:
   A:
   - 3.37e+44
   - s^-1
-  n: -8
+  n: -8.0
   Ea:
   - 108.676
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C5H4O(126) <=> C5H5O(125)
@@ -2299,7 +2299,7 @@ kinetics:
   - 1.355
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C5H4O(126) <=> CO2(8) + C4H4(49)
@@ -2309,12 +2309,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 2
+  - 2.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C3H3(41) <=> C9H8(128)
@@ -2327,12 +2327,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C9H8(128) <=> H(2) + C9H7(129)
@@ -2347,7 +2347,7 @@ kinetics:
   - 116.372
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C9H8(128) <=> H2(6) + C9H7(129)
@@ -2357,12 +2357,12 @@ kinetics:
   A:
   - 28000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 2.259
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C2H2(21) + A1CH2(130) <=> H(2) + C9H8(128)
@@ -2370,14 +2370,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 31600
+  - 31600.0
   - cm^3/(mol*s)
   n: 2.48
   Ea:
   - 11.061
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C9H8(128) <=> OH(5) + C9H7(129)
@@ -2385,14 +2385,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 47700
+  - 47700.0
   - cm^3/(mol*s)
   n: 2.71
   Ea:
   - 1.107
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C9H8(128) <=> H2O(7) + C9H7(129)
@@ -2402,12 +2402,12 @@ kinetics:
   A:
   - 3080000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C9H8(128) <=> HO2(9) + C9H7(129)
@@ -2417,12 +2417,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 37.151
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C9H8(128) <=> H2O2(10) + C9H7(129)
@@ -2430,14 +2430,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 11000
+  - 11000.0
   - cm^3/(mol*s)
   n: 2.6
   Ea:
   - 12.899
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C9H8(128) <=> CH4(1) + C9H7(129)
@@ -2447,12 +2447,12 @@ kinetics:
   A:
   - 0.18
   - cm^3/(mol*s)
-  n: 4
+  n: 4.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C9H8(128) => H(2) + H(2) + C9H6O(131)
@@ -2468,7 +2468,7 @@ kinetics:
   - 1.14
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C9H8(128) => HCO(12) + C6H4(132) + C2H4(30)
@@ -2484,7 +2484,7 @@ kinetics:
   - 7.06
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5(124) + C9H7(129) => H(2) + H(2) + A3(115)
@@ -2500,7 +2500,7 @@ kinetics:
   - 35.206
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C9H7(129) => H(2) + H(2) + A2(99)
@@ -2516,7 +2516,7 @@ kinetics:
   - 24.773
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C9H7(129) <=> H(2) + C9H6O(131)
@@ -2526,12 +2526,12 @@ kinetics:
   A:
   - 28000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C9H7(129) <=> OH(5) + C9H6O(131)
@@ -2546,7 +2546,7 @@ kinetics:
   - 17.667
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C9H7(129) => H2O(7) + C9H6O(131)
@@ -2557,12 +2557,12 @@ kinetics:
   A:
   - 12400000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C9H7(129) => H(2) + H(2) + C9H6O(131)
@@ -2573,12 +2573,12 @@ kinetics:
   A:
   - 4080000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C9H7(129) + C3H3(41) => H(2) + H(2) + A2R5(107)
@@ -2594,7 +2594,7 @@ kinetics:
   - 23.853
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C9H6O(131) => CO(11) + C2H2(21) + C6H4(132)
@@ -2605,12 +2605,12 @@ kinetics:
   A:
   - 3.37e+44
   - s^-1
-  n: -8
+  n: -8.0
   Ea:
   - 108.676
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C9H6O(131) => C8H7(97) + CO(11)
@@ -2626,7 +2626,7 @@ kinetics:
   - 1.355
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1CH3(133) <=> CH3(16) + A1(62)
@@ -2641,7 +2641,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1CH3(133) <=> H(2) + A1CH2(130)
@@ -2656,7 +2656,7 @@ kinetics:
   - 89.207
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1CH3(133) <=> A1-(92) + CH3(16)
@@ -2671,7 +2671,7 @@ kinetics:
   - 104.209
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1CH2(130) <=> A1-(92) + CH3(16)
@@ -2686,7 +2686,7 @@ kinetics:
   - 68.329
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1CH3(133) <=> HO2(9) + A1CH2(130)
@@ -2704,7 +2704,7 @@ kinetics:
   - 46.044
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1CH3(133) <=> H2(6) + A1CH2(130)
@@ -2719,7 +2719,7 @@ kinetics:
   - 3.384
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CH3(133) <=> H2O(7) + A1CH2(130)
@@ -2727,14 +2727,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 177000
+  - 177000.0
   - cm^3/(mol*s)
   n: 2.39
   Ea:
   - -0.602
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CH3(133) <=> CH3(16) + A1OH(134)
@@ -2742,14 +2742,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 783
+  - 783.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CH3(133) <=> H(2) + C7H8O(135)
@@ -2764,7 +2764,7 @@ kinetics:
   - 4.72
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CH3(133) <=> OH(5) + A1CH2(130)
@@ -2779,7 +2779,7 @@ kinetics:
   - 2.545
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CH3(133) <=> C7H8O(135)
@@ -2794,7 +2794,7 @@ kinetics:
   - 4.402
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CH3(133) <=> H(2) + C7H7O(136)
@@ -2809,7 +2809,7 @@ kinetics:
   - 3.975
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A1CH3(133) <=> CH4(1) + A1CH2(130)
@@ -2819,12 +2819,12 @@ kinetics:
   A:
   - 422000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 22.256
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + A1CH3(133) <=> H2O2(10) + A1CH2(130)
@@ -2832,14 +2832,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 93300
+  - 93300.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 14.685
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + A1CH3(133) <=> A1(62) + A1CH2(130)
@@ -2849,12 +2849,12 @@ kinetics:
   A:
   - 79400000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 11.95
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CH2(130) <=> C7H7O(137)
@@ -2864,12 +2864,12 @@ kinetics:
   A:
   - 228000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CH2(130) <=> C7H8O(138)
@@ -2879,12 +2879,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + A1CH2(130) <=> OH(5) + C7H7O(137)
@@ -2899,7 +2899,7 @@ kinetics:
   - -2.249
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1CH2(130) + C3H3(41) => H(2) + H(2) + A2(99)
@@ -2915,7 +2915,7 @@ kinetics:
   - 23.853
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1CH2(130) <=> OH(5) + A1CHO(139)
@@ -2930,7 +2930,7 @@ kinetics:
   - 11.322
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1CH2(130) <=> CH2O(17) + A1O(140)
@@ -2945,55 +2945,47 @@ kinetics:
   - 16.582
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C7H7O(137) <=> C7H8O(138)
 degeneracy: 1.0
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 2430000000000.0
-      - cm^3/(mol*s)
-      n: 0.52
-      Ea:
-      - 0.05
-      - kcal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 4.66e+41
-      - cm^6/(mol^2*s)
-      n: -7.44
-      Ea:
-      - 14.08
-      - kcal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.7
   T3:
-  - 100
+  - 100.0
   - K
   T1:
-  - 90000
+  - 90000.0
   - K
   T2:
-  - 10000
+  - 10000.0
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 2430000000000.0
+    - cm^3/(mol*s)
+    n: 0.52
+    Ea:
+    - 0.05
+    - kcal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 4.66e+41
+    - cm^6/(mol^2*s)
+    n: -7.44
+    Ea:
+    - 14.08
+    - kcal/mol
   efficiencies:
-    C: 2
+    C: 2.0
     O=C=O: 3.6
-    CC: 3
-    O: 12
-    '[H][H]': 2
+    CC: 3.0
+    O: 12.0
+    '[H][H]': 2.0
     '[Ar]': 0.7
 ---
 label: H(2) + C7H8O(138) <=> H2(6) + C7H7O(137)
@@ -3008,7 +3000,7 @@ kinetics:
   - 4.871
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C7H8O(138) <=> OH(5) + C7H7O(137)
@@ -3016,14 +3008,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 130000
+  - 130000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
-  - 5
+  - 5.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C7H8O(138) <=> H2O(7) + C7H7O(137)
@@ -3033,12 +3025,12 @@ kinetics:
   A:
   - 6300000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
   - 1.501
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C7H8O(138) <=> CH4(1) + C7H7O(137)
@@ -3053,7 +3045,7 @@ kinetics:
   - 9.94
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + CH2O(17) <=> HCO(12) + A1(62)
@@ -3061,14 +3053,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 85500
+  - 85500.0
   - cm^3/(mol*s)
   n: 2.19
   Ea:
   - 0.038
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C7H7O(137) <=> H(2) + A1CHO(139)
@@ -3083,7 +3075,7 @@ kinetics:
   - 22.249
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C7H7O(137) <=> A1-(92) + CH2O(17)
@@ -3098,7 +3090,7 @@ kinetics:
   - 36.85
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C7H7O(137) <=> HCO(12) + A1(62)
@@ -3113,7 +3105,7 @@ kinetics:
   - 28.81
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C7H7O(137) <=> H2(6) + A1CHO(139)
@@ -3123,12 +3115,12 @@ kinetics:
   A:
   - 13300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C7H7O(137) <=> OH(5) + A1CHO(139)
@@ -3138,12 +3130,12 @@ kinetics:
   A:
   - 6670000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C7H7O(137) <=> H2O(7) + A1CHO(139)
@@ -3153,12 +3145,12 @@ kinetics:
   A:
   - 3330000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C7H7O(137) <=> HO2(9) + A1CHO(139)
@@ -3173,7 +3165,7 @@ kinetics:
   - -3.53
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1CHO(139) => H(2) + A1-(92) + CO(11)
@@ -3184,12 +3176,12 @@ kinetics:
   A:
   - 2.1e+16
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 81.74
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1CHO(139) => H2(6) + A1-(92) + CO(11)
@@ -3205,7 +3197,7 @@ kinetics:
   - 2.404
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CHO(139) => OH(5) + A1-(92) + CO(11)
@@ -3216,12 +3208,12 @@ kinetics:
   A:
   - 5840000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 1.809
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CHO(139) => A1-(92) + H2O(7) + CO(11)
@@ -3237,7 +3229,7 @@ kinetics:
   - -1.573
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1CHO(139) => A1-(92) + HO2(9) + CO(11)
@@ -3246,14 +3238,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 120000
+  - 120000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 37.555
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + A1CHO(139) => A1-(92) + H2O2(10) + CO(11)
@@ -3262,14 +3254,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 40900
+  - 40900.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 10.203
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A1CHO(139) => CH4(1) + A1-(92) + CO(11)
@@ -3285,7 +3277,7 @@ kinetics:
   - 1.63
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C7H8O(135) <=> H(2) + C7H7O(136)
@@ -3300,7 +3292,7 @@ kinetics:
   - 124.79
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C7H8O(135) <=> H2(6) + C7H7O(136)
@@ -3310,12 +3302,12 @@ kinetics:
   A:
   - 115000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 12.397
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C7H8O(135) <=> OH(5) + C7H7O(136)
@@ -3325,12 +3317,12 @@ kinetics:
   A:
   - 28100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 7.352
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C7H8O(135) <=> H2O(7) + C7H7O(136)
@@ -3340,12 +3332,12 @@ kinetics:
   A:
   - 2950000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
   - -1.312
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C7H7O(136) => H(2) + C6H6(91) + CO(11)
@@ -3356,12 +3348,12 @@ kinetics:
   A:
   - 29000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 36.425
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1CH3(133) <=> H(2) + C7H7(141)
@@ -3376,7 +3368,7 @@ kinetics:
   - 148.086
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1CH3(133) <=> H2(6) + C7H7(141)
@@ -3391,7 +3383,7 @@ kinetics:
   - 16.353
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1CH3(133) <=> OH(5) + C7H7(141)
@@ -3401,12 +3393,12 @@ kinetics:
   A:
   - 26000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 14.699
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1CH3(133) <=> H2O(7) + C7H7(141)
@@ -3414,14 +3406,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 13600
+  - 13600.0
   - cm^3/(mol*s)
   n: 2.69
   Ea:
   - 0.619
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A1CH3(133) <=> CH4(1) + C7H7(141)
@@ -3436,7 +3428,7 @@ kinetics:
   - 13.638
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C7H7(141) <=> C7H7O(136)
@@ -3446,12 +3438,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C7H7(141) <=> H(2) + C7H7O(136)
@@ -3461,12 +3453,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C7H7(141) <=> OH(5) + C7H7O(136)
@@ -3476,12 +3468,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C7H7(141) <=> O(4) + C7H7O(136)
@@ -3496,7 +3488,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C7H7(141) => H(2) + C6H6(91) + CO2(8)
@@ -3512,7 +3504,7 @@ kinetics:
   - -1.649
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H9(142) <=> C8H10(143)
@@ -3522,12 +3514,12 @@ kinetics:
   A:
   - 36100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A1CH2(130) <=> C8H10(143)
@@ -3537,12 +3529,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + C2H5(31) <=> C8H10(143)
@@ -3552,12 +3544,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H10(143) <=> A1(62) + C2H5(31)
@@ -3572,7 +3564,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H10(143) <=> A1OH(134) + C2H5(31)
@@ -3580,14 +3572,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 783
+  - 783.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H10(143) <=> H2(6) + C8H9(142)
@@ -3602,7 +3594,7 @@ kinetics:
   - 6.212
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H10(143) <=> OH(5) + C8H9(142)
@@ -3617,7 +3609,7 @@ kinetics:
   - 2.545
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H10(143) <=> H2O(7) + C8H9(142)
@@ -3632,7 +3624,7 @@ kinetics:
   - 0.366
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H10(143) <=> H2O2(10) + C8H9(142)
@@ -3640,14 +3632,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 8030
+  - 8030.0
   - cm^3/(mol*s)
   n: 2.6
   Ea:
   - 13.91
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C8H10(143) <=> CH4(1) + C8H9(142)
@@ -3662,7 +3654,7 @@ kinetics:
   - 7.153
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H9(142) <=> A1-(92) + C2H4(30)
@@ -3677,7 +3669,7 @@ kinetics:
   - 38.705
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H9(142) <=> H(2) + A1C2H3(94)
@@ -3692,7 +3684,7 @@ kinetics:
   - 32.106
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H9(142) <=> H2(6) + A1C2H3(94)
@@ -3702,12 +3694,12 @@ kinetics:
   A:
   - 1670000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H9(142) <=> A1C2H3(94) + H2O(7)
@@ -3717,12 +3709,12 @@ kinetics:
   A:
   - 24100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C8H9(142) <=> CH4(1) + A1C2H3(94)
@@ -3732,12 +3724,12 @@ kinetics:
   A:
   - 3310000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - -0.77
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H9(142) <=> A1C2H3(94) + HO2(9)
@@ -3752,7 +3744,7 @@ kinetics:
   - 3.418
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H9(142) <=> CH2O(17) + A1CH2(130)
@@ -3767,7 +3759,7 @@ kinetics:
   - -0.394
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H9(142) <=> CH3(16) + A1CHO(139)
@@ -3782,7 +3774,7 @@ kinetics:
   - -0.394
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H9(142) => OH(5) + CH2O(17) + A1CH2(130)
@@ -3793,12 +3785,12 @@ kinetics:
   A:
   - 7000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - -0.999
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H9(142) <=> S(144)
@@ -3808,29 +3800,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 4.82e+36
-      - cm^3/(mol*s)
-      n: -8.23
-      Ea:
-      - 5.167
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 4.82e+36
+    - cm^3/(mol*s)
+    n: -8.23
+    Ea:
+    - 5.167
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 4.82e+36
-      - cm^3/(mol*s)
-      n: -8.23
-      Ea:
-      - 5.167
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 4.82e+36
+    - cm^3/(mol*s)
+    n: -8.23
+    Ea:
+    - 5.167
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: O2(3) + C8H9(142) => OH(5) + HCO(12) + A1CH2(130)
 degeneracy: 1.0
@@ -3838,14 +3828,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 38800
+  - 38800.0
   - cm^3/(mol*s)
   n: 1.84
   Ea:
   - -0.578
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(144) <=> O2(3) + C8H9(142)
@@ -3855,29 +3845,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 1.21e+45
-      - s^-1
-      n: -10.15
-      Ea:
-      - 40.815
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.21e+45
+    - s^-1
+    n: -10.15
+    Ea:
+    - 40.815
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 1.21e+45
-      - s^-1
-      n: -10.15
-      Ea:
-      - 40.815
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 1.21e+45
+    - s^-1
+    n: -10.15
+    Ea:
+    - 40.815
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: S(144) => A1C2H3(94) + HO2(9)
 degeneracy: 1.0
@@ -3892,7 +3880,7 @@ kinetics:
   - 32.608
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(144) => OH(5) + HCO(12) + A1CH2(130)
@@ -3908,7 +3896,7 @@ kinetics:
   - 27.015
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(144) => S(145)
@@ -3924,7 +3912,7 @@ kinetics:
   - 16.097
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + S(145) => OH(5) + S(146)
@@ -3935,12 +3923,12 @@ kinetics:
   A:
   - 100000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H3(94) => A1(62) + H2C2(35)
@@ -3951,12 +3939,12 @@ kinetics:
   A:
   - 240000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 78.131
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1C2H3(94) <=> HCO(12) + A1CH2(130)
@@ -3971,7 +3959,7 @@ kinetics:
   - 0.657
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1C2H3(94) + CH3(16) <=> CH4(1) + A1C2H2(93)
@@ -3979,14 +3967,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 114000
+  - 114000.0
   - cm^3/(mol*s)
-  n: 2
+  n: 2.0
   Ea:
   - 9.199
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H3(94) <=> CH3(16) + A1CHO(139)
@@ -4001,7 +3989,7 @@ kinetics:
   - 7.06
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H3(94) <=> CH2O(17) + A1CH2(130)
@@ -4016,7 +4004,7 @@ kinetics:
   - 7.06
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H3(94) <=> A1OH(134) + C2H3(29)
@@ -4024,14 +4012,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 783
+  - 783.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1C2H3(94) <=> OH(5) + C8H7(97)
@@ -4041,12 +4029,12 @@ kinetics:
   A:
   - 13300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 14.699
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1C2H2(93) <=> CO(11) + A1CH2(130)
@@ -4061,7 +4049,7 @@ kinetics:
   - -0.428
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1C2H2(93) <=> A1C2H(95) + HO2(9)
@@ -4069,14 +4057,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 670000
+  - 670000.0
   - cm^3/(mol*s)
   n: 1.61
   Ea:
   - -0.385
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1C2H2(93) => O(4) + CO(11) + A1CH2(130)
@@ -4092,7 +4080,7 @@ kinetics:
   - 0.012
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1C2H2(93) <=> HCO(12) + A1CHO(139)
@@ -4107,7 +4095,7 @@ kinetics:
   - 1.016
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1C2H(95) <=> HCCO(18) + A1(62)
@@ -4117,12 +4105,12 @@ kinetics:
   A:
   - 10000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H10(147) <=> H(2) + C8H9(148)
@@ -4137,7 +4125,7 @@ kinetics:
   - 94.787
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H10(147) <=> CH3(16) + C7H7(141)
@@ -4152,7 +4140,7 @@ kinetics:
   - 110.165
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H10(147) <=> H2(6) + C8H9(148)
@@ -4167,7 +4155,7 @@ kinetics:
   - 3.384
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H10(147) <=> OH(5) + C8H9(148)
@@ -4182,7 +4170,7 @@ kinetics:
   - 2.545
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H10(147) <=> H2O(7) + C8H9(148)
@@ -4190,14 +4178,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 354000
+  - 354000.0
   - cm^3/(mol*s)
   n: 2.39
   Ea:
   - -0.602
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H10(147) <=> HO2(9) + C8H9(148)
@@ -4212,7 +4200,7 @@ kinetics:
   - 46.044
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H10(147) <=> H2O2(10) + C8H9(148)
@@ -4220,14 +4208,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 187000
+  - 187000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 14.685
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C8H10(147) <=> CH4(1) + C8H9(148)
@@ -4237,12 +4225,12 @@ kinetics:
   A:
   - 844000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 22.256
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H10(147) <=> CH3(16) + A1CH3(133)
@@ -4257,7 +4245,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H10(147) <=> CH3(16) + C7H8O(135)
@@ -4265,14 +4253,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 1570
+  - 1570.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H9(148) => H(2) + C2H2(21) + A1(62)
@@ -4283,12 +4271,12 @@ kinetics:
   A:
   - 820000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 80.676
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H9(148) <=> CH3(16) + C7H7(141)
@@ -4303,7 +4291,7 @@ kinetics:
   - 68.329
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H9(148) <=> H(2) + C8H8O(149)
@@ -4318,7 +4306,7 @@ kinetics:
   - 1.592
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H9(148) <=> CH2O(17) + C7H7(141)
@@ -4333,7 +4321,7 @@ kinetics:
   - 16.193
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H9(148) <=> HCO(12) + A1CH3(133)
@@ -4348,7 +4336,7 @@ kinetics:
   - 8.152
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H9(148) => H2(6) + C8H8O(149)
@@ -4359,12 +4347,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H9(148) <=> OH(5) + C8H8O(149)
@@ -4372,14 +4360,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 138
+  - 138.0
   - cm^3/(mol*s)
   n: 2.42
   Ea:
   - 7.44
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H9(148) <=> CH2O(17) + C7H7O(136)
@@ -4387,14 +4375,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 6570
+  - 6570.0
   - cm^3/(mol*s)
   n: 1.87
   Ea:
   - 5.002
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H9(148) => H(2) + OH(5) + C8H8O(149)
@@ -4410,7 +4398,7 @@ kinetics:
   - -0.657
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H9(148) => OH(5) + CH2O(17) + C7H7(141)
@@ -4426,7 +4414,7 @@ kinetics:
   - 13.944
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H9(148) => OH(5) + HCO(12) + A1CH3(133)
@@ -4442,7 +4430,7 @@ kinetics:
   - 5.903
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H9(148) + C3H3(41) => H(2) + H(2) + A2CH3(150)
@@ -4458,7 +4446,7 @@ kinetics:
   - 23.853
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H8O(149) <=> H(2) + C8H7O(151)
@@ -4473,7 +4461,7 @@ kinetics:
   - 94.787
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H8O(149) => A1-(92) + CO(11) + CH3(16)
@@ -4489,7 +4477,7 @@ kinetics:
   - 110.165
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C8H8O(149) => H(2) + CO(11) + C7H7(141)
@@ -4500,12 +4488,12 @@ kinetics:
   A:
   - 2.1e+16
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 81.74
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H8O(149) <=> H2(6) + C8H7O(151)
@@ -4520,7 +4508,7 @@ kinetics:
   - 3.384
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H8O(149) <=> OH(5) + C8H7O(151)
@@ -4535,7 +4523,7 @@ kinetics:
   - 2.545
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H8O(149) <=> H2O(7) + C8H7O(151)
@@ -4543,14 +4531,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 177000
+  - 177000.0
   - cm^3/(mol*s)
   n: 2.39
   Ea:
   - -0.602
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H8O(149) <=> HO2(9) + C8H7O(151)
@@ -4565,7 +4553,7 @@ kinetics:
   - 46.044
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H8O(149) <=> H2O2(10) + C8H7O(151)
@@ -4573,14 +4561,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 93300
+  - 93300.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 14.685
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C8H8O(149) <=> CH4(1) + C8H7O(151)
@@ -4590,12 +4578,12 @@ kinetics:
   A:
   - 422000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 22.256
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H8O(149) => H2(6) + CO(11) + C7H7(141)
@@ -4611,7 +4599,7 @@ kinetics:
   - 2.404
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H8O(149) => OH(5) + CO(11) + C7H7(141)
@@ -4622,12 +4610,12 @@ kinetics:
   A:
   - 5840000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 1.809
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H8O(149) => H2O(7) + CO(11) + C7H7(141)
@@ -4643,7 +4631,7 @@ kinetics:
   - -1.573
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H8O(149) => HO2(9) + CO(11) + C7H7(141)
@@ -4652,14 +4640,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 120000
+  - 120000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 37.555
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H8O(149) => H2O2(10) + CO(11) + C7H7(141)
@@ -4668,14 +4656,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 40900
+  - 40900.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 10.203
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + C8H8O(149) => CH4(1) + CO(11) + C7H7(141)
@@ -4691,7 +4679,7 @@ kinetics:
   - 1.63
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H8O(149) <=> HCO(12) + A1CH3(133)
@@ -4706,7 +4694,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + C8H8O(149) <=> CH3(16) + A1CHO(139)
@@ -4721,7 +4709,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H8O(149) <=> HCO(12) + C7H8O(135)
@@ -4729,14 +4717,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 783
+  - 783.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H7O(151) <=> H(2) + S(152)
@@ -4751,7 +4739,7 @@ kinetics:
   - 1.592
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H7O(151) => A1-(92) + CO(11) + CH2O(17)
@@ -4767,7 +4755,7 @@ kinetics:
   - 16.193
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + C8H7O(151) <=> HCO(12) + A1CHO(139)
@@ -4782,7 +4770,7 @@ kinetics:
   - 8.152
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + C8H7O(151) => H2(6) + S(152)
@@ -4793,12 +4781,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + C8H7O(151) <=> OH(5) + S(152)
@@ -4806,14 +4794,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 138
+  - 138.0
   - cm^3/(mol*s)
   n: 2.42
   Ea:
   - 7.643
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + C8H7O(151) => H(2) + OH(5) + S(152)
@@ -4829,7 +4817,7 @@ kinetics:
   - -2.249
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + S(152) => H(2) + CO(11) + A1CHO(139)
@@ -4845,7 +4833,7 @@ kinetics:
   - 2.404
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + S(152) => O(4) + CO(11) + A1CHO(139)
@@ -4856,12 +4844,12 @@ kinetics:
   A:
   - 11700000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 1.809
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + S(152) => OH(5) + CO(11) + A1CHO(139)
@@ -4877,7 +4865,7 @@ kinetics:
   - -1.573
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + S(152) => O2(3) + CO(11) + A1CHO(139)
@@ -4886,14 +4874,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 240000
+  - 240000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 37.555
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + S(152) => HO2(9) + CO(11) + A1CHO(139)
@@ -4902,14 +4890,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 81800
+  - 81800.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 10.203
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + S(152) => CO(11) + CH3(16) + A1CHO(139)
@@ -4925,7 +4913,7 @@ kinetics:
   - 1.63
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + S(152) <=> HCO(12) + A1CHO(139)
@@ -4940,7 +4928,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2CH3(150) <=> A2(99) + CH3(16)
@@ -4955,7 +4943,7 @@ kinetics:
   - 4.163
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2CH3(150) <=> CH3(16) + A2OH(153)
@@ -4963,14 +4951,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 783
+  - 783.0
   - cm^3/(mol*s)
   n: 2.88
   Ea:
   - 3.222
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CH3(150) <=> H(2) + A2CH2(154)
@@ -4985,7 +4973,7 @@ kinetics:
   - 94.787
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CH3(150) <=> A2-(98) + CH3(16)
@@ -5000,7 +4988,7 @@ kinetics:
   - 114.252
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2CH2(154) <=> A2-(98) + CH3(16)
@@ -5015,7 +5003,7 @@ kinetics:
   - 68.329
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CH2(154) <=> C2H2(21) + C9H7(129)
@@ -5025,12 +5013,12 @@ kinetics:
   A:
   - 820000000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 80.676
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2CH3(150) <=> H2(6) + A2CH2(154)
@@ -5045,7 +5033,7 @@ kinetics:
   - 3.384
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2CH3(150) <=> OH(5) + A2CH2(154)
@@ -5060,7 +5048,7 @@ kinetics:
   - 2.545
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2CH3(150) <=> H2O(7) + A2CH2(154)
@@ -5068,14 +5056,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 177000
+  - 177000.0
   - cm^3/(mol*s)
   n: 2.39
   Ea:
   - -0.602
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2CH3(150) <=> HO2(9) + A2CH2(154)
@@ -5090,7 +5078,7 @@ kinetics:
   - 46.044
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A2CH3(150) <=> CH4(1) + A2CH2(154)
@@ -5100,12 +5088,12 @@ kinetics:
   A:
   - 422000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 22.256
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + A2CH3(150) <=> H2O2(10) + A2CH2(154)
@@ -5113,14 +5101,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 93300
+  - 93300.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 14.685
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2CH3(150) => CO(11) + CH3(16) + C9H7(129)
@@ -5131,12 +5119,12 @@ kinetics:
   A:
   - 14700000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 4.532
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2CH2(154) <=> S(155)
@@ -5146,12 +5134,12 @@ kinetics:
   A:
   - 228000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2CH2(154) => S(155) + H(2)
@@ -5162,12 +5150,12 @@ kinetics:
   A:
   - 20000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: HO2(9) + A2CH2(154) <=> S(155) + OH(5)
@@ -5182,7 +5170,7 @@ kinetics:
   - -2.249
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CH2(154) + C3H3(41) => H(2) + H(2) + A3(115)
@@ -5198,7 +5186,7 @@ kinetics:
   - 23.853
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2CH2(154) <=> A2CHO(156) + OH(5)
@@ -5213,7 +5201,7 @@ kinetics:
   - 11.322
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2CH2(154) <=> A2O(157) + CH2O(17)
@@ -5228,7 +5216,7 @@ kinetics:
   - 16.91
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) <=> A2CHO(156) + H(2)
@@ -5243,7 +5231,7 @@ kinetics:
   - 22.249
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) <=> A2-(98) + CH2O(17)
@@ -5258,7 +5246,7 @@ kinetics:
   - 36.85
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) + H(2) <=> A2CHO(156) + H2(6)
@@ -5268,12 +5256,12 @@ kinetics:
   A:
   - 13300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) + O(4) <=> A2CHO(156) + OH(5)
@@ -5283,12 +5271,12 @@ kinetics:
   A:
   - 6670000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) + OH(5) <=> A2CHO(156) + H2O(7)
@@ -5298,12 +5286,12 @@ kinetics:
   A:
   - 3330000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(155) + O2(3) <=> A2CHO(156) + HO2(9)
@@ -5318,7 +5306,7 @@ kinetics:
   - -3.53
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) => H(2) + A2-(98) + CO(11)
@@ -5329,12 +5317,12 @@ kinetics:
   A:
   - 2.1e+16
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 81.74
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + H(2) => H2(6) + A2-(98) + CO(11)
@@ -5350,7 +5338,7 @@ kinetics:
   - 2.404
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + O(4) => OH(5) + A2-(98) + CO(11)
@@ -5361,12 +5349,12 @@ kinetics:
   A:
   - 5840000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 1.809
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + OH(5) => A2-(98) + H2O(7) + CO(11)
@@ -5382,7 +5370,7 @@ kinetics:
   - -1.573
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + O2(3) => A2-(98) + HO2(9) + CO(11)
@@ -5391,14 +5379,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 120000
+  - 120000.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 37.555
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + HO2(9) => A2-(98) + H2O2(10) + CO(11)
@@ -5407,14 +5395,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 40900
+  - 40900.0
   - cm^3/(mol*s)
   n: 2.5
   Ea:
   - 10.203
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2CHO(156) + CH3(16) => CH4(1) + A2-(98) + CO(11)
@@ -5430,7 +5418,7 @@ kinetics:
   - 1.63
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1(62) <=> H(2) + A1-(92)
@@ -5445,55 +5433,47 @@ kinetics:
   - 148.086
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) <=> H(2) + C6H4(132)
 degeneracy: 1.0
 kinetics:
   type: Troe
-  arrheniusHigh:
-    type: Arrhenius
-    data:
-      A:
-      - 4300000000000.0
-      - s^-1
-      n: 0.62
-      Ea:
-      - 77.302
-      - kcal/mol
-      T0:
-      - 1
-      - K
-  arrheniusLow:
-    type: Arrhenius
-    data:
-      A:
-      - 1.0e+84
-      - cm^3/(mol*s)
-      n: -18.87
-      Ea:
-      - 90.1
-      - kcal/mol
-      T0:
-      - 1
-      - K
   alpha: 0.902
   T3:
-  - 696
+  - 696.0
   - K
   T1:
-  - 358
+  - 358.0
   - K
   T2:
-  - 3860
+  - 3860.0
   - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 4300000000000.0
+    - s^-1
+    n: 0.62
+    Ea:
+    - 77.302
+    - kcal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.0e+84
+    - cm^3/(mol*s)
+    n: -18.87
+    Ea:
+    - 90.1
+    - kcal/mol
   efficiencies:
-    C: 2
+    C: 2.0
     O=C=O: 3.6
-    CC: 3
-    O: 12
-    '[H][H]': 2
+    CC: 3.0
+    O: 12.0
+    '[H][H]': 2.0
     '[Ar]': 0.7
 ---
 label: C2H2(21) + C4H2(52) <=> C6H4(132)
@@ -5508,7 +5488,7 @@ kinetics:
   - 67.921
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1(62) <=> H2(6) + A1-(92)
@@ -5523,7 +5503,7 @@ kinetics:
   - 16.353
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1(62) <=> A1-(92) + H2O(7)
@@ -5531,14 +5511,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 23400
+  - 23400.0
   - cm^3/(mol*s)
   n: 2.68
   Ea:
   - 0.734
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1(62) <=> H(2) + A1OH(134)
@@ -5546,14 +5526,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 132
+  - 132.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1(62) <=> A1-(92) + HO2(9)
@@ -5563,12 +5543,12 @@ kinetics:
   A:
   - 434000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 64.293
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1(62) <=> H(2) + A1O(140)
@@ -5577,29 +5557,27 @@ kinetics:
   type: MultiArrhenius
   arrhenius:
   - type: Arrhenius
-    data:
-      A:
-      - 274000000.0
-      - cm^3/(mol*s)
-      n: 1.55
-      Ea:
-      - 3.09
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 274000000.0
+    - cm^3/(mol*s)
+    n: 1.55
+    Ea:
+    - 3.09
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
   - type: Arrhenius
-    data:
-      A:
-      - 19900000.0
-      - cm^3/(mol*s)
-      n: 1.8
-      Ea:
-      - 3.975
-      - kcal/mol
-      T0:
-      - 1
-      - K
+    A:
+    - 19900000.0
+    - cm^3/(mol*s)
+    n: 1.8
+    Ea:
+    - 3.975
+    - kcal/mol
+    T0:
+    - 1.0
+    - K
 ---
 label: O(4) + A1(62) <=> A1OH(134)
 degeneracy: 1.0
@@ -5613,7 +5591,7 @@ kinetics:
   - 4.402
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1(62) <=> CO(11) + C5H6(123)
@@ -5628,7 +5606,7 @@ kinetics:
   - 15.292
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1(62) <=> OH(5) + A1-(92)
@@ -5638,12 +5616,12 @@ kinetics:
   A:
   - 40000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 14.699
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1-(92) <=> O(4) + A1O(140)
@@ -5658,7 +5636,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1-(92) <=> S(158) + H(2)
@@ -5668,12 +5646,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 8.982
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1-(92) <=> A1O(140)
@@ -5683,12 +5661,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1-(92) <=> H(2) + A1O(140)
@@ -5698,12 +5676,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1-(92) + HO2(9) <=> OH(5) + A1O(140)
@@ -5713,12 +5691,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH4(1) + A1-(92) <=> CH3(16) + A1(62)
@@ -5733,7 +5711,7 @@ kinetics:
   - 5.258
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1OH(134) <=> CO(11) + C5H6(123)
@@ -5748,7 +5726,7 @@ kinetics:
   - 74.118
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1OH(134) <=> H(2) + A1O(140)
@@ -5763,7 +5741,7 @@ kinetics:
   - 124.79
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A1OH(134) <=> H2(6) + A1O(140)
@@ -5778,7 +5756,7 @@ kinetics:
   - 7.232
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A1OH(134) <=> H2O(7) + A1O(140)
@@ -5793,7 +5771,7 @@ kinetics:
   - -1.142
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A1OH(134) <=> CH4(1) + A1O(140)
@@ -5808,7 +5786,7 @@ kinetics:
   - 4.828
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1OH(134) <=> HO2(9) + A1O(140)
@@ -5818,12 +5796,12 @@ kinetics:
   A:
   - 73200000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 41.401
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A1O(140) <=> CO(11) + C5H5(124)
@@ -5833,12 +5811,12 @@ kinetics:
   A:
   - 29000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 36.425
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A1O(140) <=> S(158) + H(2)
@@ -5853,7 +5831,7 @@ kinetics:
   - -0.394
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A1O(140) <=> S(158) + OH(5)
@@ -5868,7 +5846,7 @@ kinetics:
   - 17.667
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(158) <=> CO(11) + C5H4O(126)
@@ -5878,12 +5856,12 @@ kinetics:
   A:
   - 740000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 59.001
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: S(158) + H(2) <=> CO(11) + C5H5O(125)
@@ -5898,7 +5876,7 @@ kinetics:
   - 3.867
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2(99) <=> A2O(157) + H(2)
@@ -5908,12 +5886,12 @@ kinetics:
   A:
   - 18300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 4.529
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2(99) <=> A2OH(153)
@@ -5923,12 +5901,12 @@ kinetics:
   A:
   - 18300000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 4.529
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2(99) <=> H(2) + A2OH(153)
@@ -5936,14 +5914,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 220
+  - 220.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2-(98) <=> A2O(157) + O(4)
@@ -5958,7 +5936,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2*(100) <=> A2O(157) + O(4)
@@ -5973,7 +5951,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2-(98) => H(2) + CO(11) + C9H6O(131)
@@ -5984,12 +5962,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 8.982
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2*(100) => H(2) + CO(11) + C9H6O(131)
@@ -6000,12 +5978,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
   - 8.982
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2-(98) <=> A2O(157)
@@ -6015,12 +5993,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O(4) + A2*(100) <=> A2O(157)
@@ -6030,12 +6008,12 @@ kinetics:
   A:
   - 100000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2-(98) <=> A2O(157) + H(2)
@@ -6045,12 +6023,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2*(100) <=> A2O(157) + H(2)
@@ -6060,12 +6038,12 @@ kinetics:
   A:
   - 30000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2OH(153) <=> CO(11) + C9H8(128)
@@ -6080,7 +6058,7 @@ kinetics:
   - 74.118
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2OH(153) <=> A2O(157) + H(2)
@@ -6095,7 +6073,7 @@ kinetics:
   - 124.79
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: H(2) + A2OH(153) <=> A2O(157) + H2(6)
@@ -6110,7 +6088,7 @@ kinetics:
   - 7.232
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2OH(153) <=> A2O(157) + H2O(7)
@@ -6125,7 +6103,7 @@ kinetics:
   - -1.142
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: CH3(16) + A2OH(153) <=> CH4(1) + A2O(157)
@@ -6140,7 +6118,7 @@ kinetics:
   - 4.828
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2O(157) <=> CO(11) + C9H7(129)
@@ -6150,12 +6128,12 @@ kinetics:
   A:
   - 29000000000.0
   - s^-1
-  n: 0
+  n: 0.0
   Ea:
   - 36.425
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2O(157) + O(4) => H(2) + CO(11) + C9H6O(131)
@@ -6166,12 +6144,12 @@ kinetics:
   A:
   - 168000000000000.0
   - cm^3/(mol*s)
-  n: 0
+  n: 0.0
   Ea:
-  - 0
+  - 0.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: A2O(157) + O2(3) => OH(5) + CO(11) + C9H6O(131)
@@ -6187,7 +6165,7 @@ kinetics:
   - 17.667
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A3-(114) => C12H9(102) + CO(11) + CO(11)
@@ -6203,7 +6181,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A3*(116) => C12H9(101) + CO(11) + CO(11)
@@ -6219,7 +6197,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A4-(120) => CO(11) + CO(11) + A3-(114)
@@ -6235,7 +6213,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A2R5-(108) => A2-(98) + CO(11) + CO(11)
@@ -6251,7 +6229,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: O2(3) + A3R5-(117) => CO(11) + CO(11) + A3-(114)
@@ -6267,7 +6245,7 @@ kinetics:
   - 7.189
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3(115) => C12H8(103) + CO(11) + CH3(16)
@@ -6276,14 +6254,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 110
+  - 110.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3(115) => C12H8(104) + CO(11) + CH3(16)
@@ -6292,14 +6270,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 110
+  - 110.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A4(119) => HCCO(18) + A3(115)
@@ -6308,14 +6286,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 220
+  - 220.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A2R5(107) => A2(99) + HCCO(18)
@@ -6324,14 +6302,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 176
+  - 176.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A3R5(118) => HCCO(18) + A3(115)
@@ -6340,14 +6318,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 220
+  - 220.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + A4R5(121) => HCCO(18) + A4(119)
@@ -6356,14 +6334,14 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 220
+  - 220.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: OH(5) + FLTN(122) => HCCO(18) + A3(115)
@@ -6372,12 +6350,12 @@ reversible: false
 kinetics:
   type: Arrhenius
   A:
-  - 220
+  - 220.0
   - cm^3/(mol*s)
   n: 3.25
   Ea:
   - 5.59
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

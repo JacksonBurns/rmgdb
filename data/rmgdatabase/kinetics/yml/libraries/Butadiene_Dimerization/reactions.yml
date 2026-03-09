@@ -14,7 +14,7 @@ kinetics:
   - 187.676
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DVCB <=> COD
@@ -33,7 +33,7 @@ kinetics:
   - 102.12
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: BD + BD <=> VCH
@@ -45,14 +45,14 @@ long_description: |2
 kinetics:
   type: Arrhenius
   A:
-  - 17635
+  - 17635.0
   - cm^3/(mol*s)
   n: 1.8055
   Ea:
   - 81.8512
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DVT <=> BD + BD
@@ -71,7 +71,7 @@ kinetics:
   - 52.0893
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DVT <=> VCH
@@ -90,7 +90,7 @@ kinetics:
   - 12.5388
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DVT <=> COD
@@ -109,7 +109,7 @@ kinetics:
   - 25.7391
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: DVT <=> DVCB
@@ -128,5 +128,5 @@ kinetics:
   - 16.1686
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K

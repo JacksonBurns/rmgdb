@@ -1,0 +1,130 @@
+label: AdsorbateVdW
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv  u0 p0 c0
+  2 *2 R!H u0 px cx {3,D}
+  3 *3 R!H u0 px cx {2,D}
+short_description: ''
+long_description: ''
+children:
+- OC
+- 'ON'
+- NC
+---
+label: VacantSite
+group: |2
+
+  1 *4 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: OC
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *3 C  u0 p0 c0 {3,D}
+  3 *2 O  u0 p2 c0 {2,D}
+short_description: ''
+long_description: ''
+children:
+- CO2
+- CO2
+---
+label: CO2
+group: |2
+
+  multiplicity [1]
+  1    O  u0 p2 c0 {3,D}
+  2 *2 O  u0 p2 c0 {3,D}
+  3 *3 C  u0 p0 c0 {1,D} {2,D}
+  4 *1 Xv u0 p0 c0
+short_description: ''
+long_description: ''
+children: []
+---
+label: NC
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 N  u0 p1 c0 {3,D}
+  3 *3 C  u0 p0 c0 {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: 'ON'
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *3 N  u0 px cx {3,D}
+  3 *2 O  u0 p2 c0 {2,D}
+short_description: ''
+long_description: ''
+children:
+- ONR
+- ONR
+---
+label: ONR
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *3 N  u0 p1 c0 {3,D} {4,S}
+  3 *2 O  u0 p2 c0 {2,D}
+  4    R  u0 px c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CO
+group: |2
+
+  1 *1 Xv u0
+  2 *3 O  ux {3,D}
+  3 *2 C  ux {2,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any CO should not match *2 and *3 respectively because of duplicate reactions
+---
+label: 'NO'
+group: |2
+
+  1 *1 Xv u0
+  2 *3 O  ux {3,D}
+  3 *2 N  ux {2,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any NO should not match *2 and *3 respectively because of duplicate reactions
+---
+label: CN
+group: |2
+
+  1 *1 Xv u0
+  2 *3 N  ux {3,D}
+  3 *2 C  ux {2,D}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  Any CN should not match *2 and *3 respectively because of duplicate reactions
+---
+label: chargedBond
+group: |2
+
+  1 *2 R!H ux c[+1,-1] {2,[S,D,T]}
+  2 *3 R!H ux c[+1,-1] {1,[S,D,T]}
+  3 *1 Xv  u0 p0 c0
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The adsorbing molecule should not have a charge on the surface.

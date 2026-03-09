@@ -1,0 +1,487 @@
+label: Y_12birad
+group: OR{CsCs, NOS}
+short_description: ''
+long_description: ''
+children:
+- CsCs
+- NOS
+---
+label: CsCs
+group: OR{Y_12_00, Y_12_10, Y_12_20, Y_12_30, Y_12_40, Y_12_01, Y_12_02, Y_12_03,
+  Y_12_04, Y_12_11, Y_12_12, Y_12_21, Y_12_22, Y_12_13, Y_12_31}
+short_description: ''
+long_description: ''
+children:
+- Y_12_00
+- Y_12_10
+- Y_12_20
+- Y_12_30
+- Y_12_40
+- Y_12_01
+- Y_12_02
+- Y_12_03
+- Y_12_04
+- Y_12_11
+- Y_12_12
+- Y_12_21
+- Y_12_22
+- Y_12_13
+- Y_12_31
+---
+label: Y_12_00
+group: |2
+
+  1 *1 Cs u1 {2,S} {3,S} {4,S}
+  2 *2 Cs u1 {1,S} {5,S} {6,S}
+  3    H  u0 {1,S}
+  4    H  u0 {1,S}
+  5    H  u0 {2,S}
+  6    H  u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_10
+group: |2
+
+  1 *1 Cs       u1 {2,S} {3,S} {4,S}
+  2 *2 Cs       u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s] u0 {1,S}
+  4    H        u0 {1,S}
+  5    H        u0 {2,S}
+  6    H        u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_20
+group: OR{Y_12_20a, Y_12_20b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_20a
+- Y_12_20b
+---
+label: Y_12_20a
+group: |2
+
+  1 *1 Cs           u1 {2,S} {3,S} {4,S}
+  2 *2 Cs           u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s] u0 c0 {1,S}
+  4    [Cs,O2s,S2s] u0 c0 {1,S}
+  5    H            u0 {2,S}
+  6    H            u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_20b
+group: |2
+
+  1 *1 Cs           u1 {2,S} {3,S} {4,S}
+  2 *2 Cs           u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s] u0 c0 {1,S}
+  4    H            u0 {1,S}
+  5    [Cs,O2s,S2s] u0 c0 {2,S}
+  6    H            u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_30
+group: |2
+
+  1 *1 Cs           u1 {2,S} {3,S} {4,S}
+  2 *2 Cs           u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s] u0 c0 {1,S}
+  4    [Cs,O2s,S2s] u0 c0 {1,S}
+  5    [Cs,O2s,S2s] u0 c0 {2,S}
+  6    H            u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_40
+group: |2
+
+  1 *1 Cs           u1 {2,S} {3,S} {4,S}
+  2 *2 Cs           u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s] u0 c0 {1,S}
+  4    [Cs,O2s,S2s] u0 c0 {1,S}
+  5    [Cs,O2s,S2s] u0 c0 {2,S}
+  6    [Cs,O2s,S2s] u0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_01
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    H                u0 {1,S}
+  5    H                u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_02
+group: OR{Y_12_02a, Y_12_02b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_02a
+- Y_12_02b
+---
+label: Y_12_02a
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    H                u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_02b
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    H                u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_03
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_04
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_11
+group: OR{Y_12_11a, Y_12_11b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_11a
+- Y_12_11b
+---
+label: Y_12_11a
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cs,O2s,S2s]     u0 c0 {1,S}
+  5    H                u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_11b
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    H                u0 {1,S}
+  5    [Cs,O2s,S2s]     u0 c0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_12
+group: OR{Y_12_12a, Y_12_12b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_12a
+- Y_12_12b
+---
+label: Y_12_12a
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cs,O2s,S2s]     u0 c0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_12b
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cs,O2s,S2s]     u0 c0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_21
+group: OR{Y_12_21a, Y_12_21b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_21a
+- Y_12_21b
+---
+label: Y_12_21a
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s]     u0 c0 {1,S}
+  4    [Cs,O2s,S2s]     u0 c0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_21b
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s]     u0 c0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cs,O2s,S2s]     u0 c0 {2,S}
+  6    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_22
+group: OR{Y_12_22a, Y_12_22b}
+short_description: ''
+long_description: ''
+children:
+- Y_12_22a
+- Y_12_22b
+---
+label: Y_12_22a
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cs,O2s,S2s]     u0 c0 {2,S}
+  6    [Cs,O2s,S2s]     u0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_22b
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cs,O2s,S2s]     u0 c0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    [Cs,O2s,S2s]     u0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_13
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  6    [Cs,O2s,S2s]     u0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: Y_12_31
+group: |2
+
+  1 *1 Cs               u1 {2,S} {3,S} {4,S}
+  2 *2 Cs               u1 {1,S} {5,S} {6,S}
+  3    [Cs,O2s,S2s]     u0 c0 {1,S}
+  4    [Cs,O2s,S2s]     u0 c0 {1,S}
+  5    [Cs,O2s,S2s]     u0 c0 {2,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: NOS
+group: |2
+
+  1 *1 [N,O,S]   u1 c0 {2,[S,D]}
+  2 *2 [N,O,S,C] u1 c0 {1,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- N
+- S
+---
+label: N
+group: |2
+
+  1 *1 N u1 c0 {2,[S,D]}
+  2 *2 N u1 c0 {1,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- N=O
+- N3s
+- N3d
+- NH
+- NN
+- 'NO'
+- NN
+- N-C
+- N-H
+- N-H2
+- N-H
+- N-N
+- N=*
+- N#*
+---
+label: N3s
+group: |2
+
+  1 *1 N3s u1 p1 c0 {2,S}
+  2 *2 N3s u1 p1 c0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N3d
+group: |2
+
+  1 *1 N3d u1 p1 c0 {2,D}
+  2 *2 N3d u1 p1 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: S
+group: |2
+
+  1 *1 S     u1 c0 {2,[S,D]}
+  2 *2 [S,O] u1 c0 {1,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- SX2
+- SX3
+---
+label: SX2
+group: |2
+
+  1 *1 S4d                        u1 p1 c0 {2,S} {3,D}
+  2 *2 [S2s,O2s]                  u1 p2 c0 {1,S}
+  3    [O2d,S2d,N3d,Cd,CO,CS,Cdd] u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- SO2
+---
+label: SO2
+group: |2
+
+  1 *1 S4d u1 p1 c0 {2,S} {3,D}
+  2 *2 O2s u1 p2 c0 {1,S}
+  3    O2d u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: SX3
+group: |2
+
+  1 *1 S6dd                       u1 p0 c0 {2,S} {3,D} {4,D}
+  2 *2 [S2s,O2s]                  u1 p2 c0 {1,S}
+  3    [O2d,S2d,N3d,Cd,CO,CS,Cdd] u0 p2 c0 {1,D}
+  4    [O2d,S2d,N3d,Cd,CO,CS,Cdd] u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- SO3
+---
+label: SO3
+group: |2
+
+  1 *1 S6dd u1 p0 c0 {2,S} {3,D} {4,D}
+  2 *2 O2s  u1 p2 c0 {1,S}
+  3    O2d  u0 p2 c0 {1,D}
+  4    O2d  u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O2
+group: |2
+
+  1 *1 O2s u1 p2 c0 {2,S}
+  2 *2 O2s u1 p2 c0 {1,S}
+forbidden: true
+short_description: ''
+long_description: |2
+
+  The ground state of these three isoelectrinic structures (O2, S2, SO) is the triplet form,
+  hence they behave differently than this family
+---
+label: S2
+group: |2
+
+  1 *1 S2s u1 p2 c0 {2,S}
+  2 *2 S2s u1 p2 c0 {1,S}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: SO
+group: |2
+
+  1 *1 S2s u1 p2 c0 {2,S}
+  2 *2 O2s u1 p2 c0 {1,S}
+forbidden: true
+short_description: ''
+long_description: ''

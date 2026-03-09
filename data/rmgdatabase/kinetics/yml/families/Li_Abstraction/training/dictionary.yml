@@ -1,0 +1,38 @@
+label: FLi
+adjacency_list: |-
+  1 *2 F  u0 p3 c0 {2,S}
+  2 *3 Li u0 p0 c0 {1,S}
+---
+label: CH3
+adjacency_list: |-
+  multiplicity 2
+  1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+---
+label: CH3F
+adjacency_list: |-
+  1 *2 F u0 p3 c0 {2,S}
+  2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+---
+label: Li
+adjacency_list: |-
+  multiplicity 2
+  1 *3 Li u1 p0 c0
+---
+label: ClLi
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *3 Li u0 p0 c0 {1,S}
+---
+label: CH3Cl
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}

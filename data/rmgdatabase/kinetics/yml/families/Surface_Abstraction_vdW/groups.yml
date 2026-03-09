@@ -1,0 +1,417 @@
+label: AdsorbateVdW
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 R  u0 px cx {3,S}
+  3 *3 R  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children:
+- OC
+- 'ON'
+- NC
+---
+label: Adsorbate1
+group: |2
+
+  1 *5 X   u0 p0 c0 {2,[D,T,Q]}
+  2 *4 R!H ux px cx {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- '*C'
+---
+label: O-R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 cx {3,S}
+  3 *3 R  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 C  u0 px cx {3,S}
+  3 *3 R  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=O'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 O u0 p2 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*C'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,[D,T,Q]}
+  2 *4 C ux px cx {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- '*nC4'
+- '*nC6'
+- '*nC8'
+---
+label: H-H
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 H  u0 p0 c0 {3,S}
+  3 *3 H  u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 N  u0 px cx {3,S}
+  3 *3 R  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*N'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,[D,T]}
+  2 *4 N ux px cx {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=C'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 C ux px cx {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*#C'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,T}
+  2 *4 C u0 p0 c0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*$C'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,Q}
+  2 *4 C u0 p0 c0 {1,Q}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*#CH'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,T}
+  2 *4 C u0 p0 c0 {1,T} {3,S}
+  3    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=C=R'
+group: |2
+
+  1 *5 X   u0 p0 c0 {2,D}
+  2 *4 C   u0 p0 c0 {1,D} {3,D}
+  3    R!H ux px cx {2,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=C-2R'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3    R ux px cx {2,S}
+  4    R ux px cx {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=N'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 N u0 p1 c0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*#N'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,T}
+  2 *4 N u0 p1 c0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=NH'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 N u0 p1 c0 {1,D} {3,S}
+  3    H u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=NO'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 N u0 p1 c0 {1,D} {3,S}
+  3    O u0 p2 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: '*=NOH'
+group: |2
+
+  1 *5 X u0 p0 c0 {2,D}
+  2 *4 N u0 p1 c0 {1,D} {3,S}
+  3    O u0 p2 c0 {2,S} {4,S}
+  4    H u0 p0 c0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-O
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 O  u0 p2 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: HO-OH
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S} {5,S}
+  3 *3 O  u0 p2 c0 {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 N  u0 p1 c0 {2,S} {4,[S,D]}
+  4    R  u0 px cx {3,[S,D]}
+short_description: ''
+long_description: ''
+children:
+- O-N=O
+- O-N=O
+---
+label: O-C
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 C  u0 p0 c0 {2,S} {4,[S,D,T]}
+  4    R  u0 px cx {3,[S,D,T]}
+short_description: ''
+long_description: ''
+children:
+- O-CH3
+- O-C=O
+---
+label: O-C-3R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4    R  u0 px cx {3,S}
+  5    R  u0 px cx {3,S}
+  6    R  u0 px cx {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-C=R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv  u0 p0 c0
+  2 *2 O   u0 p2 c0 {3,S}
+  3 *3 C   u0 p0 c0 {2,S} {4,D} {5,S}
+  4    R!H u0 px cx {3,D}
+  5    R   u0 px cx {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-C#R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv  u0 p0 c0
+  2 *2 O   u0 p2 c0 {3,S}
+  3 *3 C   u0 p0 c0 {2,S} {4,T}
+  4    R!H u0 px cx {3,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N-2R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
+  4    R  u0 px cx {3,S}
+  5    R  u0 px cx {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-NHH
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 O  u0 p2 c0 {3,S}
+  3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O-N=R
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv  u0 p0 c0
+  2 *2 O   u0 p2 c0 {3,S}
+  3 *3 N   u0 p1 c0 {2,S} {4,D}
+  4    R!H u0 px cx {3,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-C
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 C  u0 px cx {3,S}
+  3 *3 C  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children:
+- C2H6
+---
+label: C-O
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 C  u0 px cx {3,S}
+  3 *3 O  u0 p2 cx {2,S}
+short_description: ''
+long_description: ''
+children:
+- CH3OH
+- C-OH
+---
+label: C-N
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 C  u0 px cx {3,S}
+  3 *3 N  u0 p1 c0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- CH3NH2
+---
+label: C-OH
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 C  u0 px cx {3,S}
+  3 *3 O  u0 p2 c0 {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-N
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 N  u0 px cx {3,S}
+  3 *3 N  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children:
+- N2H4
+---
+label: N-O
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 N  u0 px cx {3,S}
+  3 *3 O  u0 p2 c0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- H3NO
+---
+label: N-C
+group: |2
+
+  multiplicity [1]
+  1 *1 Xv u0 p0 c0
+  2 *2 N  u0 px cx {3,S}
+  3 *3 C  u0 px cx {2,S}
+short_description: ''
+long_description: ''
+children: []

@@ -1,0 +1,33 @@
+short_description: ''
+long_description: '
+
+  This family makes the transition from the excited O2 singlet state to the ground
+  triplet state.
+
+  It also covers S2 and SO which are isoelectronic with O2 and behave similarly.
+
+  This family consists of these three transitions only, and cannot be generalized
+  for structures other than O2, S2, or SO.
+
+  '
+template:
+  reactants:
+  - singlet
+  products:
+  - triplet
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - GAIN_RADICAL
+    - '*1'
+    - '1'
+  - - GAIN_RADICAL
+    - '*2'
+    - '1'
+reversible: false
+reverse_map: {}
+auto_generated: false

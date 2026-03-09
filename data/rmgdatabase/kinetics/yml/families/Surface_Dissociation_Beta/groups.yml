@@ -1,0 +1,111 @@
+label: Combined
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 {1,S} {3,S}
+  3 *3 R   u0 {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+---
+label: VacantSite
+group: |2
+
+  1 *5 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: C-H
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 C   u0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- CH
+- CH2
+- CH3
+- C-H_Bidentate
+- CH2R
+- CHR
+---
+label: O-H
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 O   u0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- H2O
+- H2O2
+- H2O
+---
+label: R-H
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 {1,S} {3,S}
+  3 *3 H   u0 {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CH3
+group: |2
+
+  1 *1 R!H u0 px cx {2,S} {6,[D,T]}
+  2 *2 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *3 H   u0 p0 c0 {2,S}
+  4    H   u0 p0 c0 {2,S}
+  5    H   u0 p0 c0 {2,S}
+  6 *4 Xo  u0 p0 c0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children: []
+---
+label: CR-H
+group: "\n1 *1 R!H u0 {2,S} {4,D}\n2 *2 C   u0 {1,S} {3,S} {5,S}\n3 *3 H   u0 {2,S}\n\
+  4 *4 Xo  u0 {1,D}\n5    R!H u0 {2,S}  \n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-C
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 {1,S} {3,S}
+  3 *3 C   u0 px cx {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: Bidentate
+group: |2
+
+  1 *1 R!H u0 {2,S} {4,[D,T]}
+  2 *2 R!H u0 {1,S} {3,S}
+  3 *3 R   u0 {2,S}
+  4 *4 Xo  u0 {1,[D,T]}
+  5    Xo  u0
+forbidden: true
+short_description: ''
+long_description: ''

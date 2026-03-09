@@ -10,7 +10,7 @@ kinetics:
   - -0.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: FULVENE + H <=> C5H5CH2-1
@@ -22,10 +22,10 @@ kinetics:
   - cm^3/(mol*s)
   n: 1.76
   Ea:
-  - 2
+  - 2.0
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: FULVENE + H <=> C5H5CH2-3
@@ -40,7 +40,7 @@ kinetics:
   - 0.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: FULVENE + H <=> C5H5CH2-2
@@ -55,7 +55,7 @@ kinetics:
   - 0.9
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H4CH3 <=> C5H5CH2-1
@@ -70,7 +70,7 @@ kinetics:
   - 40.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5CH2-1 <=> C5H5CH2-2
@@ -85,7 +85,7 @@ kinetics:
   - 13.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5CH2-3 <=> C5H5CH2-2
@@ -93,14 +93,14 @@ degeneracy: 1.0
 kinetics:
   type: Arrhenius
   A:
-  - 9220
+  - 9220.0
   - s^-1
   n: 2.81
   Ea:
   - 30.2
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: C5H5CH2-1 <=> biring1
@@ -115,7 +115,7 @@ kinetics:
   - 4.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: biring1 <=> cyC6H7
@@ -130,7 +130,7 @@ kinetics:
   - 16.7
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K
 ---
 label: cyC6H7 <=> benzene + H
@@ -145,5 +145,5 @@ kinetics:
   - 27.4
   - kcal/mol
   T0:
-  - 1
+  - 1.0
   - K

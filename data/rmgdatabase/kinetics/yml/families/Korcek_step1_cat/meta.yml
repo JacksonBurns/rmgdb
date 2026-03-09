@@ -1,0 +1,47 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - RCH(OOH)CH2C(O)R'
+  - R''C(O)OH
+  products:
+  - cyclic_peroxide
+  - RC(O)OH
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - BREAK_BOND
+    - '*7'
+    - 1
+    - '*8'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*4'
+  - - CHANGE_BOND
+    - '*5'
+    - -1
+    - '*6'
+  - - CHANGE_BOND
+    - '*5'
+    - 1
+    - '*7'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*4'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*6'
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*8'
+reversible: true
+reverse_map: {}
+auto_generated: false

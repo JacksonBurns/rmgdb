@@ -1,0 +1,45 @@
+short_description: ''
+long_description: "\nA vdW double bonded species dissociatively adsorbing to the surface\
+  \ with double\nbonds.\n\n*2=*3                      *2          *3\n  :     +  \
+  \        ---->   ||    +     ||\n~*1~        ~*4~          ~*1~        ~*4~\n\n\
+  The rate, which should be in mol/m2/s,\nwill be given by k * (mol/m2) * (mol/m2)\n\
+  so k should be in (m2/mol/s).\n\n"
+template:
+  reactants:
+  - AdsorbateVdW
+  - VacantSite
+  products:
+  - Adsorbate1
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*2'
+    - -1
+    - '*3'
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*3'
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - CHANGE_BOND
+    - '*3'
+    - 1
+    - '*4'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 2
+auto_generated: false

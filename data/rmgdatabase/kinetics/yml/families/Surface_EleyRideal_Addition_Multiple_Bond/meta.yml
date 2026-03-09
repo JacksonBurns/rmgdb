@@ -1,0 +1,40 @@
+short_description: ''
+long_description: "\nEeley Rideal reaction with a gas phase double, triple, or quadruple\
+  \ bonded species with a species (most likely hydrogen) directly bonded to the surface.\n\
+  \n *2    *4=*3         *3-*4-*2\n  |          ---->    |\n~*1~ +              ~*1~\n\
+  \nThe rate, which should be in mol/m2/s,\nwill be given by k * (mol/m2) * (mol/m3)\n\
+  so k should be in (m3/mol/s).\n\nThis is from Theoretical Investigation of the Mechanisms\
+  \ for Olefinic Hydrogenation on\nPt(110) and Pt(111) Surfaces\nVincent Maurice &\
+  \ Christian Minot, J. Phys. Chem. 1990, 94, 8579-8588\n\nand inspired by Ethylene\
+  \ Dimerization and Oligomerization to 1-Butene and Higher Olefins with Chromium-Promoted\
+  \ Cobalt on Carbon Catalyst by Xu et al. Doi:10.1021/acscatal.7b03205\n\n"
+template:
+  reactants:
+  - Adsorbate1
+  - Gas
+  products:
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*4'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*3'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*4'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 1
+auto_generated: false

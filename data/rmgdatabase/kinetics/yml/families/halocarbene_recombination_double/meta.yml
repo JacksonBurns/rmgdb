@@ -1,0 +1,30 @@
+short_description: ''
+long_description: "\n\n    R            Y\n    |     +      |   <->   R2*1C=*2CRY\n\
+  R-*1C:       R-*2C:\n\nY = F,Cl,Br,I\n"
+template:
+  reactants:
+  - carbene
+  products:
+  - R=R
+  ownReverse: false
+recipe:
+  actions:
+  - - LOSE_PAIR
+    - '*1'
+    - '1'
+  - - LOSE_PAIR
+    - '*2'
+    - '1'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 1
+auto_generated: false

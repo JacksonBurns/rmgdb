@@ -1,0 +1,174 @@
+label: Adsorbate
+group: |2
+
+  1 *1 R!H u0 {2,[D,T,Q]}
+  2 *2 X u0 {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: Proton
+group: |2
+
+  1 *3 H+ u0 p0 c+1
+short_description: ''
+long_description: ''
+children: []
+---
+label: CX
+group: |2
+
+  1 *1 C u0 {2,[D,T,Q]}
+  2 *2 X u0 {1,[D,T,Q]}
+short_description: ''
+long_description: ''
+children:
+- CTX
+- C=X
+---
+label: CTX
+group: |2
+
+  1 *1 C u0 {2,T}
+  2 *2 X u0 {1,T}
+short_description: ''
+long_description: ''
+children:
+- HCX
+---
+label: HCX
+group: |2
+
+  1 *1 C u0 {2,T} {3,S}
+  2 *2 X u0 {1,T}
+  3    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: C=X
+group: |2
+
+  1 *1 C u0 {2,D}
+  2 *2 X u0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- O=C=X
+- H2C=X
+---
+label: H2C=X
+group: |2
+
+  1 *1 C u0 {2,D} {3,S} {4,S}
+  2 *2 X u0 {1,D}
+  3    H u0 {1,S}
+  4    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: O=C=X
+group: |2
+
+  1 *1 C u0 {2,D} {3,D}
+  2 *2 X u0 {1,D}
+  3    O2d u0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: OX
+group: |2
+
+  1 *1 O u0 {2,D}
+  2 *2 X u0 {1,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: NX
+group: |2
+
+  1 *1 N u0 {2,[D,T]}
+  2 *2 X u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- NTX
+- N=X
+---
+label: NTX
+group: |2
+
+  1 *1 N u0 {2,T}
+  2 *2 X u0 {1,T}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N=X
+group: |2
+
+  1 *1 N u0 {2,D}
+  2 *2 X u0 {1,D}
+short_description: ''
+long_description: ''
+children:
+- HN=X
+- N-N=X
+---
+label: HN=X
+group: |2
+
+  1 *1 N u0 {2,D} {3,S}
+  2 *2 X u0 {1,D}
+  3    H u0 {1,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-N=X
+group: |2
+
+  1 *1 N u0 {2,D} {3,S}
+  2 *2 X u0 {1,D}
+  3    N u0 {1,S}
+short_description: ''
+long_description: ''
+children: []

@@ -1,0 +1,787 @@
+label: R2OO
+group: |2
+
+  1 *2 [C,Si,N,S]   u0 {2,S} {3,S}
+  2 *1 [C,Si,O,S,N] u0 {1,S} {5,S}
+  3 *3 [O,S]        u0 {1,S} {4,S}
+  4 *4 [O,S]        u1 {3,S}
+  5 *5 H            u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_0H
+- R2OO_O
+- R2OO_2H
+- R2OO_HNd
+- R2OO_HDe
+- R2OO_NdNd
+- R2OO_NdDe
+- R2OO_DeDe
+---
+label: R2OO_0H
+group: |2
+
+  1 *2 C     u0 {2,S} {3,S}
+  2 *1 Cd    u0 {1,S} {5,S}
+  3 *3 [O,S] u0 {1,S} {4,S}
+  4 *4 [O,S] u1 {3,S}
+  5 *5 H     u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_0H_2H
+---
+label: R2OO_0H_2H
+group: |2
+
+  1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 Cd    u0 {1,S} {7,S}
+  3 *3 [O,S] u0 {1,S} {6,S}
+  4    H     u0 {1,S}
+  5    H     u0 {1,S}
+  6 *4 [O,S] u1 {3,S}
+  7 *5 H     u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_O
+group: |2
+
+  1 *2 C     u0 {2,S} {3,S}
+  2 *1 [O,S] u0 {1,S} {5,S}
+  3 *3 [O,S] u0 {1,S} {4,S}
+  4 *4 [O,S] u1 {3,S}
+  5 *5 H     u0 {2,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_O_HNd
+---
+label: R2OO_O_HNd
+group: |2
+
+  1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 [O,S] u0 {1,S} {7,S}
+  3 *3 [O,S] u0 {1,S} {6,S}
+  4    H     u0 {1,S}
+  5    C     u0 {1,S}
+  6 *4 [O,S] u1 {3,S}
+  7 *5 H     u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H
+group: |2
+
+  1 *1 C     u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C     u0 {1,S} {3,S}
+  3 *3 [O,S] u0 {2,S} {7,S}
+  4 *5 H     u0 {1,S}
+  5    H     u0 {1,S}
+  6    H     u0 {1,S}
+  7 *4 [O,S] u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_2H_2H
+- R2OO_2H_HNd
+- R2OO_2H_HDe
+- R2OO_2H_NdNd
+- R2OO_2H_NdDe
+- R2OO_2H_DeDe
+---
+label: R2OO_2H_2H
+group: |2
+
+  1 *2 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C     u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S] u0 {1,S} {9,S}
+  4    H     u0 {1,S}
+  5    H     u0 {1,S}
+  6 *5 H     u0 {2,S}
+  7    H     u0 {2,S}
+  8    H     u0 {2,S}
+  9 *4 [O,S] u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H_HNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    H        u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    H        u0 {2,S}
+  8    H        u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H_HDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    H                u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    H                u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_2H_HCd
+---
+label: R2OO_2H_HCd
+group: |2
+
+  1  *2 C     u0 {2,S} {3,S} {4,S} {5,S}
+  2  *1 C     u0 {1,S} {6,S} {7,S} {8,S}
+  3  *3 [O,S] u0 {1,S} {9,S}
+  4     Cd    u0 {1,S} {10,D}
+  5     H     u0 {1,S}
+  6  *5 H     u0 {2,S}
+  7     H     u0 {2,S}
+  8     H     u0 {2,S}
+  9  *4 [O,S] u1 {3,S}
+  10    Cd    u0 {4,D}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H_NdNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    [Cs,O,S] u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    H        u0 {2,S}
+  8    H        u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H_NdDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cs,O,S]         u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    H                u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_2H_DeDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    H                u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd
+group: |2
+
+  1 *1 C        u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C        u0 {1,S} {3,S}
+  3 *3 [O,S]    u0 {2,S} {7,S}
+  4 *5 H        u0 {1,S}
+  5    H        u0 {1,S}
+  6    [Cs,O,S] u0 {1,S}
+  7 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_HNd_2H
+- R2OO_HNd_HNd
+- R2OO_HNd_HDe
+- R2OO_HNd_NdNd
+- R2OO_HNd_NdDe
+- R2OO_HNd_DeDe
+---
+label: R2OO_HNd_2H
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    H        u0 {1,S}
+  5    H        u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    H        u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd_HNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    H        u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    H        u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd_HDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    H                u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd_NdNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    [Cs,O,S] u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    H        u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd_NdDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cs,O,S]         u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HNd_DeDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    H                u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe
+group: |2
+
+  1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C                u0 {1,S} {3,S}
+  3 *3 [O,S]            u0 {2,S} {7,S}
+  4 *5 H                u0 {1,S}
+  5    H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_HDe_2H
+- R2OO_HDe_HNd
+- R2OO_HDe_HDe
+- R2OO_HDe_NdNd
+- R2OO_HDe_NdDe
+- R2OO_HDe_DeDe
+---
+label: R2OO_HDe_2H
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe_HNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe_HDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe_NdNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe_NdDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_HDe_DeDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    H                u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd
+group: |2
+
+  1 *1 C        u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C        u0 {1,S} {3,S}
+  3 *3 [O,S]    u0 {2,S} {7,S}
+  4 *5 H        u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6    [Cs,O,S] u0 {1,S}
+  7 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_NdNd_2H
+- R2OO_NdNd_HNd
+- R2OO_NdNd_HDe
+- R2OO_NdNd_NdNd
+- R2OO_NdNd_NdDe
+- R2OO_NdNd_DeDe
+---
+label: R2OO_NdNd_2H
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    H        u0 {1,S}
+  5    H        u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    [Cs,O,S] u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd_HNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    H        u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    [Cs,O,S] u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd_HDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    H                u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    [Cs,O,S]         u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd_NdNd
+group: |2
+
+  1 *2 C        u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C        u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]    u0 {1,S} {9,S}
+  4    [Cs,O,S] u0 {1,S}
+  5    [Cs,O,S] u0 {1,S}
+  6 *5 H        u0 {2,S}
+  7    [Cs,O,S] u0 {2,S}
+  8    [Cs,O,S] u0 {2,S}
+  9 *4 [O,S]    u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd_NdDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cs,O,S]         u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    [Cs,O,S]         u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdNd_DeDe
+group: |2
+
+  1 *2 C                u0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C                u0 {1,S} {6,S} {7,S} {8,S}
+  3 *3 [O,S]            u0 {1,S} {9,S}
+  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6 *5 H                u0 {2,S}
+  7    [Cs,O,S]         u0 {2,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe
+group: |2
+
+  1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C                u0 {1,S} {3,S}
+  3 *3 [O,S]            u0 {2,S} {7,S}
+  4 *5 H                u0 {1,S}
+  5    [Cs,O,S]         u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_NdDe_2H
+- R2OO_NdDe_HNd
+- R2OO_NdDe_HDe
+- R2OO_NdDe_NdNd
+- R2OO_NdDe_NdDe
+- R2OO_NdDe_DeDe
+---
+label: R2OO_NdDe_2H
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe_HNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe_HDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe_NdNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe_NdDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_NdDe_DeDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cs,O,S]         u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe
+group: |2
+
+  1 *1 C                u0 {2,S} {4,S} {5,S} {6,S}
+  2 *2 C                u0 {1,S} {3,S}
+  3 *3 [O,S]            u0 {2,S} {7,S}
+  4 *5 H                u0 {1,S}
+  5    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7 *4 [O,S]            u1 {3,S}
+short_description: ''
+long_description: ''
+children:
+- R2OO_DeDe_2H
+- R2OO_DeDe_HNd
+- R2OO_DeDe_HDe
+- R2OO_DeDe_NdNd
+- R2OO_DeDe_NdDe
+- R2OO_DeDe_DeDe
+---
+label: R2OO_DeDe_2H
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    H                u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe_HNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe_HDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    H                u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe_NdNd
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cs,O,S]         u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe_NdDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cs,O,S]         u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []
+---
+label: R2OO_DeDe_DeDe
+group: |2
+
+  1 *1 C                u0 {2,S} {5,S} {6,S} {7,S}
+  2 *2 C                u0 {1,S} {3,S} {8,S} {9,S}
+  3 *3 [O,S]            u0 {2,S} {4,S}
+  4 *4 [O,S]            u1 {3,S}
+  5 *5 H                u0 {1,S}
+  6    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  7    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+  8    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+  9    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+short_description: ''
+long_description: ''
+children: []

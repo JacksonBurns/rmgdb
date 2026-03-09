@@ -1,0 +1,82 @@
+label: Adsorbate
+group: |2
+
+  1 *1 R!H u0 {2,[D,T]}
+  2 *2 R!H u0 {1,[D,T]}
+short_description: ''
+long_description: ''
+children:
+- H
+- C
+- N
+- O
+- CRX
+- ORX
+- NRX
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- H2
+- O
+- N
+- C-H
+- CRX
+- ORX
+- NRX
+- CC
+- NN
+- NC
+- OC
+- 'ON'
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+---
+label: VacantSite1
+group: |2
+
+  1 *3 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite2
+group: |2
+
+  1 *4 Xv u0
+short_description: ''
+long_description: ''
+children: []
+---
+label: chargedSurface1
+group: |2
+
+  1 *1 R!H u0 c-1 {2,T}
+  2 *2 R!H u0 c+1 {1,T}
+forbidden: true
+short_description: ''
+long_description: "\nThe adsorbing molecule should not have a charge on the surface.\
+  \ \nI've written it specifically for the case of CO adsorption for now.\n\ne.g.\
+  \ this is not allowed:\n\n-C#O+    -->  -C=O+\n               | |\n X X        \
+  \   X X\n"
+---
+label: chargedSurface2
+group: |2
+
+  1 *1 R!H u0 c+1 {2,T}
+  2 *2 R!H u0 c-1 {1,T}
+forbidden: true
+short_description: ''
+long_description: "\nThe adsorbing molecule should not have a charge on the surface.\
+  \ \nI've written it specifically for the case of CO adsorption for now.\ne.g. this\
+  \ is not allowed:\n\n-C#O+    -->  -C=O+\n               | |\n X X           X X\n"

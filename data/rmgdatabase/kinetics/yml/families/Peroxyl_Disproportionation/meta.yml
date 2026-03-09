@@ -1,0 +1,35 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - Root
+  products:
+  - RO_rad
+  - RO_rad
+  - O2
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*4'
+  - - GAIN_RADICAL
+    - '*1'
+    - '1'
+  - - GAIN_RADICAL
+    - '*3'
+    - '1'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 3
+auto_generated: true

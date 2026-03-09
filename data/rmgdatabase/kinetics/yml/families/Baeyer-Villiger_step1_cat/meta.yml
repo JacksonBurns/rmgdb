@@ -1,0 +1,48 @@
+short_description: ''
+long_description: ''
+template:
+  reactants:
+  - ketone
+  - hydroperoxide
+  - acid
+  products:
+  - criegee
+  - acid2
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*4'
+  - - BREAK_BOND
+    - '*7'
+    - 1
+    - '*8'
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*2'
+  - - CHANGE_BOND
+    - '*5'
+    - -1
+    - '*6'
+  - - CHANGE_BOND
+    - '*5'
+    - 1
+    - '*7'
+  - - FORM_BOND
+    - '*1'
+    - 1
+    - '*3'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*8'
+  - - FORM_BOND
+    - '*4'
+    - 1
+    - '*6'
+reversible: true
+reverse_map: {}
+auto_generated: false

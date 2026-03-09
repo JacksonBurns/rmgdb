@@ -35,13 +35,13 @@ kinetics:
   - 2.45304
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OC1OCC1 <=> O=CCCO[Li]'
@@ -83,13 +83,13 @@ kinetics:
   - 38.4756
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[C]1OCCO1 <=> O=[C]OCCO[Li]'
@@ -129,13 +129,13 @@ kinetics:
   - 1.80157
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: O=C1OCCO1 + [Li]OC(=O)OC[CH2] <=> [Li]OC[=O]OCCO[C]1OCCO1
@@ -190,13 +190,13 @@ kinetics:
   - 92.7056
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OC(=O)OCC[Li] + O=C1OCCO1 <=> [Li]OC[=O]OCCC1[O[Li]]OCCO1'
@@ -251,13 +251,13 @@ kinetics:
   - -82.2275
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: COCCOC + [Li] <=> [Li]OCCOC + [CH3]
@@ -306,13 +306,13 @@ kinetics:
   - 51.0438
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: O=C1OCC[F]O1 + [Li] <=> O=C1OC[CH]O1 + [Li]F
@@ -352,13 +352,13 @@ kinetics:
   - 28.3364
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: C=C + [Li] <=> [Li]C[CH2]
@@ -394,13 +394,13 @@ kinetics:
   - 37.7145
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[O] + CCC <=> [Li]OO + C[CH]C'
@@ -445,13 +445,13 @@ kinetics:
   - 115.231
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[O] + CC <=> [Li]OO + C[CH2]'
@@ -492,13 +492,13 @@ kinetics:
   - 125.28
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[O] + CC[C]C <=> [Li]OO + C[C][C]C'
@@ -547,13 +547,13 @@ kinetics:
   - 104.632
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]O[C]1OCCO1 + [Li] <=> C=C + [Li]OC(=O)O[Li]'
@@ -587,20 +587,20 @@ long_description: |2
 kinetics:
   type: Arrhenius
   A:
-  - 265439
+  - 265439.0
   - cm^3/(mol*s)
   n: 1.96819
   Ea:
   - -156.013
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: '[Li]OC(=O)OCC[Li] <=> C=C + [Li]OC(=O)O[Li]'
@@ -644,13 +644,13 @@ kinetics:
   - -32.9662
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: O=CCOC[Li] <=> O=C + [Li]OC=C
@@ -692,13 +692,13 @@ kinetics:
   - 48.5744
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K
 ---
 label: N=CCNC[Li] <=> N=C + [Li]NC=C
@@ -743,11 +743,11 @@ kinetics:
   - 18.0231
   - kJ/mol
   T0:
-  - 1
+  - 1.0
   - K
   Tmin:
-  - 300
+  - 300.0
   - K
   Tmax:
-  - 3000
+  - 3000.0
   - K

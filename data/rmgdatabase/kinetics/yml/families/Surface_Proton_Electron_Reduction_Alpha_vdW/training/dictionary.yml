@@ -1,0 +1,50 @@
+label: H
+adjacency_list: 1 *3 H u0 p0 c+1
+---
+label: e
+adjacency_list: 1 * e u0 p0 c-1
+---
+label: CH3X
+adjacency_list: |-
+  1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5 *2 X u0 p0 c0 {1,S}
+---
+label: CH4X
+adjacency_list: |-
+  1 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *3 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6 *2 X u0 p0 c0
+---
+label: HOX
+adjacency_list: |-
+  1 *1 O u0 p2 c0 {2,S} {3,S}
+  2    H u0 p0 c0 {1,S}
+  3 *2 X u0 p0 c0 {1,S}
+---
+label: H2OX
+adjacency_list: |-
+  1 *1 O u0 p2 c0 {2,S} {3,S}
+  2 *3 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4 *2 X u0 p0 c0
+---
+label: NH2X
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4 *2 X u0 p0 c0 {1,S}
+---
+label: NH3X
+adjacency_list: |-
+  1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 *3 H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5 *2 X u0 p0 c0
