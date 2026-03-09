@@ -1,0 +1,175 @@
+label: C2H4 + O <=> CH3 + HCO
+degeneracy: 1.0
+long_description: Reaction 1a
+kinetics:
+  type: Arrhenius
+  A:
+  - 33190000000000.0
+  - cm^3/(mol*s)
+  n: -1.717
+  Ea:
+  - 2893
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> CH3CO + H
+degeneracy: 1.0
+long_description: Reaction 1b
+kinetics:
+  type: Arrhenius
+  A:
+  - 548500000000.0
+  - cm^3/(mol*s)
+  n: -0.4843
+  Ea:
+  - 1958
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> CH2CHO + H
+degeneracy: 1.0
+long_description: Reaction 1c
+kinetics:
+  type: Arrhenius
+  A:
+  - 2022000000000.0
+  - cm^3/(mol*s)
+  n: 0.9475
+  Ea:
+  - 1724
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> C2H3 + OH
+degeneracy: 1.0
+long_description: Reaction 1d
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> CH2 + CH2O
+degeneracy: 1.0
+long_description: Reaction 1e
+kinetics:
+  type: Arrhenius
+  A:
+  - 486800000000.0
+  - cm^3/(mol*s)
+  n: 1.991
+  Ea:
+  - 2860
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> CH2CO + H2
+degeneracy: 1.0
+long_description: Reaction 1f
+kinetics:
+  type: Arrhenius
+  A:
+  - 3315000000000.0
+  - cm^3/(mol*s)
+  n: -1.831
+  Ea:
+  - 3180
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> CH4 + CO
+degeneracy: 1.0
+long_description: Reaction 1g
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: C2H4 + O <=> C2H2 + H2O
+degeneracy: 1.0
+long_description: Reaction 1h
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - cal/mol
+  T0:
+  - 298
+  - K
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2500
+  - K

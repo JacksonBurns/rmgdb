@@ -1,0 +1,89 @@
+label: biCPD_1 <=> biCPD_2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 211000000.0
+  - s^-1
+  n: 1.6
+  Ea:
+  - 22.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD_4 <=> biCPD_5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 61400000.0
+  - s^-1
+  n: 1.81
+  Ea:
+  - 25.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD_2 <=> biCPD_4
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 121000000.0
+  - s^-1
+  n: 1.55
+  Ea:
+  - 19.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD_2 <=> biCPD_3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 81900000.0
+  - s^-1
+  n: 1.72
+  Ea:
+  - 24.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD_5 <=> biCPD_6
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 32200000.0
+  - s^-1
+  n: 1.76
+  Ea:
+  - 25
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD_3 <=> biCPD_5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 128000000.0
+  - s^-1
+  n: 1.55
+  Ea:
+  - 20.1
+  - kcal/mol
+  T0:
+  - 1
+  - K

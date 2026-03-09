@@ -1,0 +1,1112 @@
+label: product13
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {5,S} {7,D}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u0 p0 c0 {2,S} {6,D} {12,S}
+  4  C u0 p0 c0 {5,D} {6,S} {13,S}
+  5  C u0 p0 c0 {1,S} {4,D} {10,S}
+  6  C u0 p0 c0 {3,D} {4,S} {11,S}
+  7  C u0 p0 c0 {1,D} {14,S} {15,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {7,S}
+  15 H u0 p0 c0 {7,S}
+---
+label: product12
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u1 p0 c0 {2,S} {5,S} {13,S}
+  4  C u0 p0 c0 {1,S} {6,D} {12,S}
+  5  C u0 p0 c0 {3,S} {6,S} {7,D}
+  6  C u0 p0 c0 {4,D} {5,S} {14,S}
+  7  C u0 p0 c0 {5,D} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {1,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product11
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {5,D}
+  2  C u0 p0 c0 {1,S} {4,D} {8,S}
+  3  C u0 p0 c0 {1,S} {6,D} {9,S}
+  4  C u0 p0 c0 {2,D} {7,S} {12,S}
+  5  C u0 p0 c0 {1,D} {10,S} {11,S}
+  6  C u0 p0 c0 {3,D} {13,S} {14,S}
+  7  C u1 p0 c0 {4,S} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product10
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+  3  C u1 p0 c0 {1,S} {5,S} {6,S}
+  4  C u0 p0 c0 {2,S} {5,D} {13,S}
+  5  C u0 p0 c0 {3,S} {4,D} {12,S}
+  6  C u0 p0 c0 {3,S} {11,D} {14,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 C u0 p0 c0 {6,D} {15,S} {16,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {11,S}
+  16 H u0 p0 c0 {11,S}
+---
+label: product17
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {3,S} {5,S} {7,S} {8,S}
+  2  C u0 p0 c0 {4,S} {5,S} {6,S} {9,S}
+  3  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
+  4  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
+  5  C u1 p0 c0 {1,S} {2,S} {14,S}
+  6  C u0 p0 c0 {2,S} {7,D} {15,S}
+  7  C u0 p0 c0 {1,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product16
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,D} {4,S} {9,S}
+  2  C u0 p0 c0 {1,D} {3,S} {8,S}
+  3  C u0 p0 c0 {2,S} {5,D} {10,S}
+  4  C u0 p0 c0 {1,S} {6,D} {11,S}
+  5  C u0 p0 c0 {3,D} {7,S} {12,S}
+  6  C u0 p0 c0 {4,D} {13,S} {14,S}
+  7  C u1 p0 c0 {5,S} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product15
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+  2  C u0 p0 c0 {1,S} {4,D} {10,S}
+  3  C u0 p0 c0 {1,S} {5,D} {11,S}
+  4  C u0 p0 c0 {2,D} {7,S} {12,S}
+  5  C u0 p0 c0 {3,D} {6,S} {13,S}
+  6  C u0 p0 c0 {5,S} {7,D} {14,S}
+  7  C u0 p0 c0 {4,S} {6,D} {15,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+---
+label: product14
+adjacency_list: |-
+  1  C u0 p0 c0 {4,S} {5,S} {8,S} {9,S}
+  2  C u0 p0 c0 {4,D} {6,S} {12,S}
+  3  C u0 p0 c0 {5,D} {6,S} {13,S}
+  4  C u0 p0 c0 {1,S} {2,D} {10,S}
+  5  C u0 p0 c0 {1,S} {3,D} {11,S}
+  6  C u0 p0 c0 {2,S} {3,S} {7,D}
+  7  C u0 p0 c0 {6,D} {14,S} {15,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {7,S}
+  15 H u0 p0 c0 {7,S}
+---
+label: product35
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {6,S} {10,S}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u0 p0 c0 {2,S} {5,S} {7,D}
+  4  C u0 p0 c0 {1,S} {5,D} {11,S}
+  5  C u0 p0 c0 {3,S} {4,D} {12,S}
+  6  C u1 p0 c0 {1,S} {13,S} {14,S}
+  7  C u0 p0 c0 {3,D} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product34
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+  3  C u1 p0 c0 {1,S} {2,S} {10,S}
+  4  C u0 p0 c0 {1,S} {6,D} {11,S}
+  5  C u0 p0 c0 {2,S} {7,D} {12,S}
+  6  C u0 p0 c0 {4,D} {7,S} {13,S}
+  7  C u0 p0 c0 {5,D} {6,S} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: product19
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {6,S} {8,S}
+  3  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+  4  C u1 p0 c0 {1,S} {7,S} {11,S}
+  5  C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+  6  C u0 p0 c0 {2,S} {7,D} {12,S}
+  7  C u0 p0 c0 {4,S} {6,D} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {5,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product18
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+  3  C u0 p0 c0 {1,S} {6,D} {8,S}
+  4  C u0 p0 c0 {1,S} {7,D} {9,S}
+  5  C u1 p0 c0 {1,S} {15,S} {16,S}
+  6  C u0 p0 c0 {3,D} {7,S} {13,S}
+  7  C u0 p0 c0 {4,D} {6,S} {14,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+  15 H u0 p0 c0 {5,S}
+  16 H u0 p0 c0 {5,S}
+---
+label: CPD
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {4,D} {8,S}
+  3  C u0 p0 c0 {1,S} {5,D} {9,S}
+  4  C u0 p0 c0 {2,D} {5,S} {10,S}
+  5  C u0 p0 c0 {3,D} {4,S} {11,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+---
+label: product33
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,D} {7,S} {8,S}
+  2  C u0 p0 c0 {1,D} {3,S} {9,S}
+  3  C u0 p0 c0 {2,S} {4,D} {10,S}
+  4  C u0 p0 c0 {3,D} {5,S} {11,S}
+  5  C u1 p0 c0 {4,S} {6,S} {12,S}
+  6  C u0 p0 c0 {5,S} {7,D} {13,S}
+  7  C u0 p0 c0 {1,S} {6,D} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: product32
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {5,S} {7,D}
+  3  C u1 p0 c0 {1,S} {6,S} {12,S}
+  4  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  5  C u0 p0 c0 {2,S} {6,D} {13,S}
+  6  C u0 p0 c0 {3,S} {5,D} {14,S}
+  7  C u0 p0 c0 {2,D} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product57
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {9,S}
+  3  C u0 p0 c0 {1,S} {2,S} {5,S} {10,S}
+  4  C u0 p0 c0 {1,S} {2,S} {6,S} {11,S}
+  5  C u1 p0 c0 {3,S} {7,S} {12,S}
+  6  C u0 p0 c0 {4,S} {7,D} {13,S}
+  7  C u0 p0 c0 {5,S} {6,D} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: CH3
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+---
+label: addD
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+  2  C u0 p0 c0 {3,S} {5,S} {10,S} {11,S}
+  3  C u1 p0 c0 {1,S} {2,S} {9,S}
+  4  C u0 p0 c0 {1,S} {5,D} {12,S}
+  5  C u0 p0 c0 {2,S} {4,D} {13,S}
+  6  C u0 p0 c0 {1,S} {8,D} {14,S}
+  7  H u0 p0 c0 {1,S}
+  8  C u0 p0 c0 {6,D} {15,S} {16,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {8,S}
+  16 H u0 p0 c0 {8,S}
+---
+label: addC
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+  3  C u0 p0 c0 {1,S} {5,D} {11,S}
+  4  C u1 p0 c0 {2,S} {5,S} {12,S}
+  5  C u0 p0 c0 {3,D} {4,S} {13,S}
+  6  C u0 p0 c0 {1,S} {10,D} {14,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 C u0 p0 c0 {6,D} {15,S} {16,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {10,S}
+  16 H u0 p0 c0 {10,S}
+---
+label: addB
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {7,S} {9,S} {10,S}
+  3  C u0 p0 c0 {1,S} {5,D} {11,S}
+  4  C u0 p0 c0 {1,S} {6,D} {12,S}
+  5  C u0 p0 c0 {3,D} {6,S} {13,S}
+  6  C u0 p0 c0 {4,D} {5,S} {14,S}
+  7  C u1 p0 c0 {2,S} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: addA
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u1 p0 c0 {1,S} {7,S} {11,S}
+  3  C u0 p0 c0 {1,S} {5,D} {9,S}
+  4  C u0 p0 c0 {1,S} {6,D} {10,S}
+  5  C u0 p0 c0 {3,D} {6,S} {15,S}
+  6  C u0 p0 c0 {4,D} {5,S} {16,S}
+  7  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {7,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {7,S}
+  15 H u0 p0 c0 {5,S}
+  16 H u0 p0 c0 {6,S}
+---
+label: vinylCPD
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+  2  C u0 p0 c0 {1,S} {5,D} {9,S}
+  3  C u0 p0 c0 {1,S} {6,D} {10,S}
+  4  C u0 p0 c0 {1,S} {8,D} {13,S}
+  5  C u0 p0 c0 {2,D} {6,S} {11,S}
+  6  C u0 p0 c0 {3,D} {5,S} {12,S}
+  7  H u0 p0 c0 {1,S}
+  8  C u0 p0 c0 {4,D} {14,S} {15,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {8,S}
+  15 H u0 p0 c0 {8,S}
+---
+label: product39
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+  3  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+  4  C u0 p0 c0 {2,S} {6,S} {11,S} {12,S}
+  5  C u0 p0 c0 {1,S} {6,D} {13,S}
+  6  C u0 p0 c0 {4,S} {5,D} {14,S}
+  7  C u1 p0 c0 {1,S} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: vinylCPDyl
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,D} {3,S} {6,S}
+  2  C u0 p0 c0 {1,D} {4,S} {8,S}
+  3  C u1 p0 c0 {1,S} {5,S} {9,S}
+  4  C u0 p0 c0 {2,S} {5,D} {10,S}
+  5  C u0 p0 c0 {3,S} {4,D} {11,S}
+  6  C u0 p0 c0 {1,S} {7,D} {12,S}
+  7  C u0 p0 c0 {6,D} {13,S} {14,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: product38
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+  2  C u0 p0 c0 {1,S} {5,S} {9,S} {10,S}
+  3  C u0 p0 c0 {1,S} {4,S} {7,D}
+  4  C u0 p0 c0 {3,S} {5,D} {12,S}
+  5  C u0 p0 c0 {2,S} {4,D} {11,S}
+  6  C u1 p0 c0 {1,S} {13,S} {14,S}
+  7  C u0 p0 c0 {3,D} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product46
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  3  C u0 p0 c0 {1,S} {2,S} {5,D}
+  4  C u1 p0 c0 {1,S} {7,S} {11,S}
+  5  C u0 p0 c0 {3,D} {6,S} {12,S}
+  6  C u0 p0 c0 {5,S} {7,D} {14,S}
+  7  C u0 p0 c0 {4,S} {6,D} {13,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {6,S}
+---
+label: ethylCPD
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  2  C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+  3  C u0 p0 c0 {4,D} {7,S} {13,S}
+  4  C u0 p0 c0 {3,D} {5,S} {14,S}
+  5  C u0 p0 c0 {4,S} {6,D} {15,S}
+  6  C u0 p0 c0 {5,D} {7,S} {16,S}
+  7  C u0 p0 c0 {1,S} {3,S} {6,S} {17,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {5,S}
+  16 H u0 p0 c0 {6,S}
+  17 H u0 p0 c0 {7,S}
+---
+label: FULVENE
+adjacency_list: |-
+  1  C u0 p0 c0 {2,S} {5,S} {6,D}
+  2  C u0 p0 c0 {1,S} {3,D} {7,S}
+  3  C u0 p0 c0 {2,D} {4,S} {9,S}
+  4  C u0 p0 c0 {3,S} {5,D} {10,S}
+  5  C u0 p0 c0 {1,S} {4,D} {8,S}
+  6  C u0 p0 c0 {1,D} {11,S} {12,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {5,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {6,S}
+---
+label: ethyne
+adjacency_list: |-
+  1 C u0 p0 c0 {2,T} {3,S}
+  2 C u0 p0 c0 {1,T} {4,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {2,S}
+---
+label: product7
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+  2  C u1 p0 c0 {1,S} {3,S} {4,S}
+  3  C u0 p0 c0 {2,S} {6,D} {10,S}
+  4  C u0 p0 c0 {2,S} {7,D} {11,S}
+  5  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+  6  C u0 p0 c0 {3,D} {7,S} {15,S}
+  7  C u0 p0 c0 {4,D} {6,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product6
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
+  2  C u0 p0 c0 {3,S} {5,S} {6,S} {9,S}
+  3  C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+  4  C u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+  5  C u1 p0 c0 {2,S} {4,S} {14,S}
+  6  C u0 p0 c0 {2,S} {7,D} {16,S}
+  7  C u0 p0 c0 {1,S} {6,D} {15,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {6,S}
+---
+label: product5
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  3  C u0 p0 c0 {2,S} {6,D} {12,S}
+  4  C u0 p0 c0 {1,S} {5,D} {11,S}
+  5  C u0 p0 c0 {4,D} {6,S} {14,S}
+  6  C u0 p0 c0 {3,D} {5,S} {13,S}
+  7  C u1 p0 c0 {1,S} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product4
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+  2  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
+  3  C u1 p0 c0 {1,S} {6,S} {12,S}
+  4  C u0 p0 c0 {2,S} {5,D} {13,S}
+  5  C u0 p0 c0 {4,D} {7,S} {14,S}
+  6  C u0 p0 c0 {3,S} {7,D} {15,S}
+  7  C u0 p0 c0 {5,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product3
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+  2  C u0 p0 c0 {1,S} {4,S} {5,S} {9,S}
+  3  C u0 p0 c0 {1,S} {4,S} {10,S} {11,S}
+  4  C u0 p0 c0 {2,S} {3,S} {12,S} {13,S}
+  5  C u1 p0 c0 {2,S} {7,S} {14,S}
+  6  C u0 p0 c0 {1,S} {7,D} {15,S}
+  7  C u0 p0 c0 {5,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product2
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u1 p0 c0 {1,S} {6,S} {9,S}
+  3  C u0 p0 c0 {1,S} {5,D} {10,S}
+  4  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+  5  C u0 p0 c0 {3,D} {7,S} {14,S}
+  6  C u0 p0 c0 {2,S} {7,D} {15,S}
+  7  C u0 p0 c0 {5,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product1
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {9,S}
+  2  C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
+  3  C u0 p0 c0 {1,S} {2,S} {4,S} {8,S}
+  4  C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
+  5  C u1 p0 c0 {2,S} {7,S} {11,S}
+  6  C u0 p0 c0 {1,S} {7,D} {12,S}
+  7  C u0 p0 c0 {5,S} {6,D} {16,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {4,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product41
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {8,S}
+  2  C u0 p0 c0 {1,S} {4,D} {9,S}
+  3  C u0 p0 c0 {1,S} {5,D} {10,S}
+  4  C u0 p0 c0 {2,D} {5,S} {11,S}
+  5  C u0 p0 c0 {3,D} {4,S} {12,S}
+  6  C u1 p0 c0 {1,S} {7,D}
+  7  C u0 p0 c0 {6,D} {13,S} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: ethyl
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+  7 H u0 p0 c0 {2,S}
+---
+label: product37
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {4,S} {5,S} {9,S} {10,S}
+  2  C u0 p0 c0 {5,S} {6,S} {12,S} {13,S}
+  3  C u0 p0 c0 {4,S} {6,D} {14,S}
+  4  C u0 p0 c0 {1,S} {3,S} {7,D}
+  5  C u1 p0 c0 {1,S} {2,S} {8,S}
+  6  C u0 p0 c0 {2,S} {3,D} {11,S}
+  7  C u0 p0 c0 {4,D} {15,S} {16,S}
+  8  H u0 p0 c0 {5,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {2,S}
+  14 H u0 p0 c0 {3,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product9
+adjacency_list: |-
+  multiplicity 2
+  1  C u1 p0 c0 {2,S} {3,S} {12,S}
+  2  C u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+  3  C u0 p0 c0 {1,S} {5,S} {10,S} {11,S}
+  4  C u0 p0 c0 {2,S} {6,D} {13,S}
+  5  C u0 p0 c0 {3,S} {7,D} {14,S}
+  6  C u0 p0 c0 {4,D} {7,S} {15,S}
+  7  C u0 p0 c0 {5,D} {6,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {1,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: TOLUENE
+adjacency_list: |-
+  1  C u0 p0 c0 {2,D} {3,S} {4,S}
+  2  C u0 p0 c0 {1,D} {6,S} {10,S}
+  3  C u0 p0 c0 {1,S} {7,D} {11,S}
+  4  C u0 p0 c0 {1,S} {12,S} {13,S} {14,S}
+  5  C u0 p0 c0 {6,D} {7,S} {15,S}
+  6  C u0 p0 c0 {2,S} {5,D} {8,S}
+  7  C u0 p0 c0 {3,D} {5,S} {9,S}
+  8  H u0 p0 c0 {6,S}
+  9  H u0 p0 c0 {7,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {5,S}
+---
+label: product36
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {7,S}
+  2  C u0 p0 c0 {1,S} {3,S} {5,S} {8,S}
+  3  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
+  4  C u0 p0 c0 {1,S} {6,S} {11,S} {12,S}
+  5  C u1 p0 c0 {2,S} {6,S} {14,S}
+  6  C u0 p0 c0 {4,S} {5,S} {13,D}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 C u0 p0 c0 {6,D} {15,S} {16,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {13,S}
+  16 H u0 p0 c0 {13,S}
+---
+label: product29
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,S} {6,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  3  C u0 p0 c0 {2,S} {4,S} {13,S} {14,S}
+  4  C u0 p0 c0 {3,S} {6,S} {7,D}
+  5  C u0 p0 c0 {1,S} {7,S} {11,S} {12,S}
+  6  C u1 p0 c0 {1,S} {4,S} {15,S}
+  7  C u0 p0 c0 {4,D} {5,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {3,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product26
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {8,S} {9,S}
+  2  C u0 p0 c0 {1,S} {4,S} {6,S} {7,S}
+  3  C u0 p0 c0 {1,S} {4,S} {5,D}
+  4  C u1 p0 c0 {2,S} {3,S} {11,S}
+  5  C u0 p0 c0 {3,D} {10,S} {13,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 C u0 p0 c0 {5,S} {12,D} {14,S}
+  11 H u0 p0 c0 {4,S}
+  12 C u0 p0 c0 {10,D} {15,S} {16,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {10,S}
+  15 H u0 p0 c0 {12,S}
+  16 H u0 p0 c0 {12,S}
+---
+label: H
+adjacency_list: |-
+  multiplicity 2
+  1 H u1 p0 c0
+---
+label: product24
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {10,S} {11,S}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u0 p0 c0 {2,S} {5,S} {7,D}
+  4  C u0 p0 c0 {1,S} {6,D} {13,S}
+  5  C u1 p0 c0 {3,S} {6,S} {12,S}
+  6  C u0 p0 c0 {4,D} {5,S} {14,S}
+  7  C u0 p0 c0 {3,D} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {1,S}
+  11 H u0 p0 c0 {1,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product25
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+  2  C u0 p0 c0 {1,S} {4,S} {9,S} {10,S}
+  3  C u1 p0 c0 {1,S} {4,S} {6,S}
+  4  C u0 p0 c0 {2,S} {3,S} {11,S} {12,S}
+  5  C u0 p0 c0 {1,S} {7,S} {13,S} {14,S}
+  6  C u0 p0 c0 {3,S} {7,D} {15,S}
+  7  C u0 p0 c0 {5,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product22
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {3,D} {4,S} {5,S}
+  2  C u0 p0 c0 {3,S} {6,S} {8,S} {9,S}
+  3  C u0 p0 c0 {1,D} {2,S} {10,S}
+  4  C u0 p0 c0 {1,S} {7,S} {12,S} {13,S}
+  5  C u0 p0 c0 {1,S} {6,D} {14,S}
+  6  C u0 p0 c0 {2,S} {5,D} {11,S}
+  7  C u1 p0 c0 {4,S} {15,S} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product23
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {4,S} {6,S} {8,S}
+  2  C u0 p0 c0 {1,S} {5,S} {11,S} {12,S}
+  3  C u1 p0 c0 {4,S} {5,S} {7,S}
+  4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
+  5  C u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
+  6  C u0 p0 c0 {1,S} {7,D} {15,S}
+  7  C u0 p0 c0 {3,S} {6,D} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {2,S}
+  12 H u0 p0 c0 {2,S}
+  13 H u0 p0 c0 {5,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product20
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,D} {6,S}
+  2  C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3  C u1 p0 c0 {2,S} {7,S} {15,S}
+  4  C u0 p0 c0 {5,S} {7,D} {16,S}
+  5  C u0 p0 c0 {1,D} {4,S} {10,S}
+  6  C u0 p0 c0 {1,S} {11,S} {12,S} {13,S}
+  7  C u0 p0 c0 {3,S} {4,D} {14,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+  15 H u0 p0 c0 {3,S}
+  16 H u0 p0 c0 {4,S}
+---
+label: product21
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,D}
+  3  C u0 p0 c0 {2,S} {7,S} {11,S} {12,S}
+  4  C u0 p0 c0 {2,D} {6,S} {13,S}
+  5  C u0 p0 c0 {1,S} {6,D} {10,S}
+  6  C u0 p0 c0 {4,S} {5,D} {14,S}
+  7  C u1 p0 c0 {3,S} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {5,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {3,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {6,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: CPDyl
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,D} {5,S} {6,S}
+  2  C u0 p0 c0 {1,D} {3,S} {7,S}
+  3  C u0 p0 c0 {2,S} {4,D} {8,S}
+  4  C u0 p0 c0 {3,D} {5,S} {9,S}
+  5  C u1 p0 c0 {1,S} {4,S} {10,S}
+  6  H u0 p0 c0 {1,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {4,S}
+  10 H u0 p0 c0 {5,S}
+---
+label: BENZYL
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,D} {3,S} {7,S}
+  2  C u0 p0 c0 {1,D} {5,S} {10,S}
+  3  C u0 p0 c0 {1,S} {6,D} {11,S}
+  4  C u0 p0 c0 {5,D} {6,S} {12,S}
+  5  C u0 p0 c0 {2,S} {4,D} {8,S}
+  6  C u0 p0 c0 {3,D} {4,S} {9,S}
+  7  C u1 p0 c0 {1,S} {13,S} {14,S}
+  8  H u0 p0 c0 {5,S}
+  9  H u0 p0 c0 {6,S}
+  10 H u0 p0 c0 {2,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {7,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: C2H4
+adjacency_list: |-
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u0 p0 c0 {1,D} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+---
+label: C2H3
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,D} {5,S}
+  2 C u0 p0 c0 {1,D} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {2,S}
+  5 H u0 p0 c0 {1,S}
+---
+label: BENZENE
+adjacency_list: |-
+  1  C u0 p0 c0 {2,D} {6,S} {7,S}
+  2  C u0 p0 c0 {1,D} {3,S} {8,S}
+  3  C u0 p0 c0 {2,S} {4,D} {9,S}
+  4  C u0 p0 c0 {3,D} {5,S} {10,S}
+  5  C u0 p0 c0 {4,S} {6,D} {11,S}
+  6  C u0 p0 c0 {1,S} {5,D} {12,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+---
+label: product44
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
+  2  C u0 p0 c0 {1,S} {4,D} {8,S}
+  3  C u0 p0 c0 {1,S} {5,D} {9,S}
+  4  C u0 p0 c0 {2,D} {5,S} {11,S}
+  5  C u0 p0 c0 {3,D} {4,S} {12,S}
+  6  C u0 p0 c0 {1,S} {10,D} {13,S}
+  7  H u0 p0 c0 {1,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {3,S}
+  10 C u1 p0 c0 {6,D} {14,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {10,S}
+---
+label: product56
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  2  C u0 p0 c0 {1,S} {3,S} {5,S} {9,S}
+  3  C u0 p0 c0 {1,S} {2,S} {6,S} {10,S}
+  4  C u0 p0 c0 {1,S} {5,S} {7,S} {11,S}
+  5  C u1 p0 c0 {2,S} {4,S} {12,S}
+  6  C u0 p0 c0 {3,S} {7,D} {13,S}
+  7  C u0 p0 c0 {4,S} {6,D} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: product45
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {3,S} {5,S} {8,S}
+  2  C u0 p0 c0 {1,S} {4,S} {6,S} {9,S}
+  3  C u0 p0 c0 {1,S} {4,D} {10,S}
+  4  C u0 p0 c0 {2,S} {3,D} {11,S}
+  5  C u0 p0 c0 {1,S} {7,D} {12,S}
+  6  C u1 p0 c0 {2,S} {7,S} {13,S}
+  7  C u0 p0 c0 {5,D} {6,S} {14,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {4,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {6,S}
+  14 H u0 p0 c0 {7,S}
+---
+label: FA
+adjacency_list: |-
+  1  C u0 p0 c0 {2,D} {3,D}
+  2  C u0 p0 c0 {1,D} {8,S} {9,S}
+  3  C u0 p0 c0 {1,D} {4,S} {7,S}
+  4  C u0 p0 c0 {3,S} {5,D} {10,S}
+  5  C u0 p0 c0 {4,D} {6,S} {11,S}
+  6  C u0 p0 c0 {5,S} {7,D} {12,S}
+  7  C u0 p0 c0 {3,S} {6,D} {13,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {2,S}
+  10 H u0 p0 c0 {4,S}
+  11 H u0 p0 c0 {5,S}
+  12 H u0 p0 c0 {6,S}
+  13 H u0 p0 c0 {7,S}
+---
+label: product31
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {3,S} {4,S} {6,S} {8,S}
+  2  C u0 p0 c0 {4,S} {5,S} {7,D}
+  3  C u0 p0 c0 {1,S} {5,D} {13,S}
+  4  C u1 p0 c0 {1,S} {2,S} {12,S}
+  5  C u0 p0 c0 {2,S} {3,D} {14,S}
+  6  C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  7  C u0 p0 c0 {2,D} {15,S} {16,S}
+  8  H u0 p0 c0 {1,S}
+  9  H u0 p0 c0 {6,S}
+  10 H u0 p0 c0 {6,S}
+  11 H u0 p0 c0 {6,S}
+  12 H u0 p0 c0 {4,S}
+  13 H u0 p0 c0 {3,S}
+  14 H u0 p0 c0 {5,S}
+  15 H u0 p0 c0 {7,S}
+  16 H u0 p0 c0 {7,S}
+---
+label: product8
+adjacency_list: |-
+  multiplicity 2
+  1  C u0 p0 c0 {2,S} {5,S} {6,S} {9,S}
+  2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+  3  C u0 p0 c0 {2,S} {5,S} {10,S} {11,S}
+  4  C u0 p0 c0 {2,S} {7,S} {13,S} {14,S}
+  5  C u1 p0 c0 {1,S} {3,S} {12,S}
+  6  C u0 p0 c0 {1,S} {7,D} {15,S}
+  7  C u0 p0 c0 {4,S} {6,D} {16,S}
+  8  H u0 p0 c0 {2,S}
+  9  H u0 p0 c0 {1,S}
+  10 H u0 p0 c0 {3,S}
+  11 H u0 p0 c0 {3,S}
+  12 H u0 p0 c0 {5,S}
+  13 H u0 p0 c0 {4,S}
+  14 H u0 p0 c0 {4,S}
+  15 H u0 p0 c0 {6,S}
+  16 H u0 p0 c0 {7,S}

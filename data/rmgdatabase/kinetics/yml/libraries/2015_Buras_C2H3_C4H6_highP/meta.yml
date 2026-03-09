@@ -1,0 +1,14 @@
+short_description: TST rates from CCSD(T)-F12a/cc-pVTZ-F12//M08 calculations on Vinyl
+  + 1,3-Butadiene PES
+long_description: '
+
+  Taken from:
+
+
+  Buras, Z. J.; Dames, E. E.; Merchant, S. S.; Liu, G.; Elsamra, R. M. I.; Green,
+  W. H.,
+
+  Kinetics and Products of Vinyl + 1,3-Butadiene, a Potential Route to Benzene. J.
+  Phys. Chem. A 2015, 119, 7325-7338.
+
+  '

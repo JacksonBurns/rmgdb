@@ -1,0 +1,32 @@
+short_description: 'level of theory: G3(MP2,CC)//B3LYP/6-311G(d,p)'
+long_description: '
+
+  Kinetics from:
+
+  Formation Mechanism of Naphthalene and Indene: From the Interstellar Medium to Combustion
+  Flames
+
+  A. M. Mebel*, A. Landera, R. I. Kaiser*
+
+  Department of Chemistry and Biochemistry, Florida International UniVersity, Miami,
+  FL 33199
+
+  Chemical Science and Engineering Devision, Argonne National Laboratory, Argonne,
+  IL 60439
+
+  Department of Chemistry, University of Hawaii at Manoa, Honolulu, HI 96822
+
+
+  Include all the rates in supporting information except for the rates without specific
+  products (reactant->all)
+
+  Species P2(cis-) an P3(trans-) are lumped in this library, only P3 appear in final
+  kinetics
+
+  All the rates at each pressure are the sum of MultiArrhenius expressions
+
+  Duplicated rates (backward rate if there is the forward rate) are deleted after
+  we checked the backward rates are similar to those rates calculated from thermo
+  by using plot kinetics tool in RMG website
+
+  '

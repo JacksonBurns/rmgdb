@@ -1,0 +1,6757 @@
+label: H2CCCH + C2H3 <=> C5H5 + H
+degeneracy: 1.0
+long_description: |2
+
+  468
+kinetics:
+  type: Arrhenius
+  A:
+  - 9.6e+40
+  - cm^3/(mol*s)
+  n: -7.8
+  Ea:
+  - 119812
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '468'
+---
+label: H2CCCH + C2H2 <=> C5H5
+degeneracy: 1.0
+long_description: |2
+
+  469
+allow_max_rate_violation: true
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.87e+55
+  - cm^3/(mol*s)
+  n: -12.5
+  Ea:
+  - 17493.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '469'
+---
+label: C5H5 + O2 <=> CH2CO + C2H2 + HCO
+degeneracy: 1.0
+long_description: |2
+
+  470
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.5e+19
+  - cm^3/(mol*s)
+  n: -2.48
+  Ea:
+  - 45563.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '470'
+---
+label: C5H6 + O2 <=> C5H5 + HO2
+degeneracy: 1.0
+long_description: |2
+
+  471
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 104762
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '471'
+---
+label: C5H5 + O <=> i-C4H5 + CO
+degeneracy: 1.0
+long_description: |2
+
+  472
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '472'
+---
+label: C5H6 + H <=> C5H5 + H2
+degeneracy: 1.0
+long_description: |2
+
+  473
+kinetics:
+  type: Arrhenius
+  A:
+  - 28000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 9453.55
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '473'
+---
+label: C5H5 + H <=> C5H6
+degeneracy: 1.0
+long_description: |2
+
+  474
+  C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
+  475
+kinetics:
+  type: Arrhenius
+  A:
+  - 260000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    474
+    C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
+    475
+---
+label: C5H5 + OH <=> CH2O + C2H2 + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  476
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 324264
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '476'
+---
+label: C5H6 + OH <=> C5H5 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  477
+kinetics:
+  type: Arrhenius
+  A:
+  - 3430000000.0
+  - cm^3/(mol*s)
+  n: 1.18
+  Ea:
+  - -1870.76
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '477'
+---
+label: C5H6 + HO2 <=> C5H5 + H2O2
+degeneracy: 1.0
+long_description: |2
+
+  478
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 48781
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '478'
+---
+label: C5H6 + C2H3 <=> C5H5 + C2H4
+degeneracy: 1.0
+long_description: |2
+
+  479
+kinetics:
+  type: Arrhenius
+  A:
+  - 6000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '479'
+---
+label: C6H5O <=> C5H5 + CO
+degeneracy: 1.0
+long_description: |2
+
+  480
+kinetics:
+  type: Arrhenius
+  A:
+  - 740000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 183750
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '480'
+---
+label: C6H5O + O <=> C5H5 + CO2
+degeneracy: 1.0
+long_description: |2
+
+  481
+kinetics:
+  type: Arrhenius
+  A:
+  - 56000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '481'
+---
+label: C6H5O + H <=> C5H6 + CO
+degeneracy: 1.0
+long_description: |2
+
+  482
+kinetics:
+  type: Arrhenius
+  A:
+  - 30000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '482'
+---
+label: C6H5O + H <=> C6H5OH
+degeneracy: 1.0
+long_description: |2
+
+  483
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '483'
+---
+label: C6H5OH <=> C5H6 + CO
+degeneracy: 1.0
+long_description: |2
+
+  484
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 254423
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '484'
+---
+label: C6H5OH + O <=> C6H5O + OH
+degeneracy: 1.0
+long_description: |2
+
+  485
+kinetics:
+  type: Arrhenius
+  A:
+  - 28000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 29932.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '485'
+---
+label: C6H5OH + H <=> C6H5O + H2
+degeneracy: 1.0
+long_description: |2
+
+  486
+kinetics:
+  type: Arrhenius
+  A:
+  - 15800000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 24943.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '486'
+---
+label: C6H5OH + OH <=> C6H5O + H2O
+degeneracy: 1.0
+long_description: |2
+
+  487
+kinetics:
+  type: Arrhenius
+  A:
+  - 60000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '487'
+---
+label: C6H5OH + C2H3 <=> C6H5O + C2H4
+degeneracy: 1.0
+long_description: |2
+
+  488
+kinetics:
+  type: Arrhenius
+  A:
+  - 6000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '488'
+---
+label: H2CCCH + H2CCCH <=> A1
+degeneracy: 1.0
+long_description: |2
+
+  489
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.0e+36
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '489'
+---
+label: H2CCCH + H2CCCH <=> A1- + H
+degeneracy: 1.0
+long_description: |2
+
+  490
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+35
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '490'
+---
+label: H2CCCCH + C2H3 <=> A1
+degeneracy: 1.0
+long_description: |2
+
+  491
+kinetics:
+  type: Arrhenius
+  A:
+  - 30000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '491'
+---
+label: H2CCCCH + C2H3 <=> A1- + H
+degeneracy: 1.0
+long_description: |2
+
+  492
+kinetics:
+  type: Arrhenius
+  A:
+  - 6000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '492'
+---
+label: H2CCCH + C3H4 <=> A1 + H
+degeneracy: 1.0
+long_description: |2
+
+  493
+kinetics:
+  type: Arrhenius
+  A:
+  - 1400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41572.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '493'
+---
+label: C2H3 + C4H4 <=> A1 + H
+degeneracy: 1.0
+long_description: |2
+
+  494
+kinetics:
+  type: Arrhenius
+  A:
+  - 1900000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 10393.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '494'
+---
+label: H2CCCCH + C2H2 <=> A1-
+degeneracy: 1.0
+long_description: |2
+
+  495
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61942.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '495'
+---
+label: C4H4 + C2H2 <=> A1- + H
+degeneracy: 1.0
+long_description: |2
+
+  496
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 124717
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '496'
+---
+label: i-C4H5 + C2H2 <=> A1 + H
+degeneracy: 1.0
+long_description: |2
+
+  497
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 22449.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '497'
+---
+label: i-C4H5 + C2H3 <=> A1 + H2
+degeneracy: 1.0
+long_description: |2
+
+  498
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.8e-13
+  - cm^3/(mol*s)
+  n: 7.07
+  Ea:
+  - -14966
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '498'
+---
+label: i-C4H5 + C2H <=> A1
+degeneracy: 1.0
+long_description: |2
+
+  499
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '499'
+---
+label: i-C4H5 + C2H <=> A1- + H
+degeneracy: 1.0
+long_description: |2
+
+  500
+kinetics:
+  type: Arrhenius
+  A:
+  - 6000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '500'
+---
+label: C5H6 + C2H3 <=> A1 + CH3
+degeneracy: 1.0
+long_description: |2
+
+  501
+  C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
+  502
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.12e+67
+  - cm^3/(mol*s)
+  n: -16.08
+  Ea:
+  - 177265
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    501
+    C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
+    502
+---
+label: A1 <=> A1- + H
+degeneracy: 1.0
+long_description: |2
+
+  503
+kinetics:
+  type: Arrhenius
+  A:
+  - 900000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 449480
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '503'
+---
+label: A1 <=> C4H4 + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  504
+kinetics:
+  type: Arrhenius
+  A:
+  - 900000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 449480
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '504'
+---
+label: A1 + O2 <=> A1- + HO2
+degeneracy: 1.0
+long_description: |2
+
+  505
+kinetics:
+  type: Arrhenius
+  A:
+  - 60000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 261906
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '505'
+---
+label: A1 + O <=> A1- + OH
+degeneracy: 1.0
+long_description: |2
+
+  506
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '506'
+---
+label: A1 + O <=> C6H5OH
+degeneracy: 1.0
+long_description: |2
+
+  507
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18957
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '507'
+---
+label: A1 + O <=> C6H5O + H
+degeneracy: 1.0
+long_description: |2
+
+  508
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18957
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '508'
+---
+label: A1 + H <=> A1- + H2
+degeneracy: 1.0
+long_description: |2
+
+  509
+kinetics:
+  type: Arrhenius
+  A:
+  - 251000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 67014.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '509'
+---
+label: A1 + OH <=> C6H5OH + H
+degeneracy: 1.0
+long_description: |2
+
+  510
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 43900.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '510'
+---
+label: A1 + OH <=> A1- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  511
+kinetics:
+  type: Arrhenius
+  A:
+  - 14500000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18790.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '511'
+---
+label: A1 + CH3 <=> A1- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  512
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '512'
+---
+label: A1 + C2H <=> A1- + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  513
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '513'
+---
+label: A1 + C4H <=> A1- + C4H2
+degeneracy: 1.0
+long_description: |2
+
+  514
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '514'
+---
+label: A1 + C6H <=> A1- + C6H2
+degeneracy: 1.0
+long_description: |2
+
+  515
+kinetics:
+  type: Arrhenius
+  A:
+  - 30000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '515'
+---
+label: A1 + C8H <=> A1- + C8H2
+degeneracy: 1.0
+long_description: |2
+
+  516
+kinetics:
+  type: Arrhenius
+  A:
+  - 30000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '516'
+---
+label: A1- + O2 <=> C6H5O + O
+degeneracy: 1.0
+long_description: |2
+
+  517
+kinetics:
+  type: Arrhenius
+  A:
+  - 2600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 25359.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '517'
+---
+label: A1- + O <=> C5H5 + CO
+degeneracy: 1.0
+long_description: |2
+
+  518
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '518'
+---
+label: A1- + OH <=> C6H5O + H
+degeneracy: 1.0
+long_description: |2
+
+  519
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '519'
+---
+label: A1- + C6H5OH <=> C6H5O + A1
+degeneracy: 1.0
+long_description: |2
+
+  520
+kinetics:
+  type: Arrhenius
+  A:
+  - 4910000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18291.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '520'
+---
+label: i-C4H5 + C3H4 <=> C7H8 + H
+degeneracy: 1.0
+long_description: |2
+
+  521
+kinetics:
+  type: Arrhenius
+  A:
+  - 200000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 15381.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '521'
+---
+label: i-C4H5 + H2CCCH <=> C7H7 + H
+degeneracy: 1.0
+long_description: |2
+
+  522
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.5e+35
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '522'
+---
+label: A1 + CH2 <=> C7H8
+degeneracy: 1.0
+long_description: |2
+
+  523
+kinetics:
+  type: Arrhenius
+  A:
+  - 17000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '523'
+---
+label: A1 + CH2(S) <=> C7H8
+degeneracy: 1.0
+long_description: |2
+
+  524
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '524'
+---
+label: C7H8 <=> A1- + CH3
+degeneracy: 1.0
+long_description: |2
+
+  525
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.4e+16
+  - s^-1
+  n: 0
+  Ea:
+  - 414892
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '525'
+---
+label: i-C4H5 + H2CCCH <=> C7H8
+degeneracy: 1.0
+long_description: |2
+
+  526
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.0e+36
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '526'
+---
+label: C7H8 + O2 <=> C7H7 + HO2
+degeneracy: 1.0
+long_description: |2
+
+  527
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 172110
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '527'
+---
+label: C7H8 + O <=> C7H7 + OH
+degeneracy: 1.0
+long_description: |2
+
+  528
+kinetics:
+  type: Arrhenius
+  A:
+  - 630000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '528'
+---
+label: C7H8 + H <=> A1 + CH3
+degeneracy: 1.0
+long_description: |2
+
+  529
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 21201.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '529'
+---
+label: C7H8 + H <=> C7H7 + H2
+degeneracy: 1.0
+long_description: |2
+
+  530
+kinetics:
+  type: Arrhenius
+  A:
+  - 60000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 34089.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '530'
+---
+label: C7H8 + OH <=> C7H7 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  531
+kinetics:
+  type: Arrhenius
+  A:
+  - 5180000000.0
+  - cm^3/(mol*s)
+  n: 1
+  Ea:
+  - 3658.37
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '531'
+---
+label: C7H8 + HO2 <=> C7H7 + H2O2
+degeneracy: 1.0
+long_description: |2
+
+  532
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62192.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '532'
+---
+label: C7H8 + CH3 <=> C7H7 + CH4
+degeneracy: 1.0
+long_description: |2
+
+  533
+kinetics:
+  type: Arrhenius
+  A:
+  - 3160000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 46477.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '533'
+---
+label: C7H8 + C2H3 <=> C7H7 + C2H4
+degeneracy: 1.0
+long_description: |2
+
+  534
+kinetics:
+  type: Arrhenius
+  A:
+  - 4000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 33923
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '534'
+---
+label: C7H8 + H2CCCH <=> C7H7 + C3H4
+degeneracy: 1.0
+long_description: |2
+
+  535
+kinetics:
+  type: Arrhenius
+  A:
+  - 1600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 63023.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '535'
+---
+label: C7H8 + C3H5 <=> C7H7 + C3H6
+degeneracy: 1.0
+long_description: |2
+
+  536
+kinetics:
+  type: Arrhenius
+  A:
+  - 5000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62192.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '536'
+---
+label: C7H8 + C5H5 <=> C7H7 + C5H6
+degeneracy: 1.0
+long_description: |2
+
+  537
+kinetics:
+  type: Arrhenius
+  A:
+  - 1600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 46394.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '537'
+---
+label: C7H8 + A1- <=> C7H7 + A1
+degeneracy: 1.0
+long_description: |2
+
+  538
+kinetics:
+  type: Arrhenius
+  A:
+  - 79400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 46527.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '538'
+---
+label: A1- + CH3 <=> C7H7 + H
+degeneracy: 1.0
+long_description: |2
+
+  539
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '539'
+---
+label: C7H7 <=> C4H4 + H2CCCH
+degeneracy: 1.0
+long_description: |2
+
+  540
+kinetics:
+  type: Arrhenius
+  A:
+  - 200000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 351702
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '540'
+---
+label: C7H7 + O <=> A1 + HCO
+degeneracy: 1.0
+long_description: |2
+
+  541
+  C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
+  542
+kinetics:
+  type: Arrhenius
+  A:
+  - 35000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    541
+    C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
+    542
+---
+label: C7H7 + O <=> A1- + CH2O
+degeneracy: 1.0
+long_description: |2
+
+  543
+kinetics:
+  type: Arrhenius
+  A:
+  - 35000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '543'
+---
+label: C7H7 + H <=> C7H8
+degeneracy: 1.0
+long_description: |2
+
+  544
+kinetics:
+  type: Arrhenius
+  A:
+  - 260000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '544'
+---
+label: C7H7 + HO2 <=> A1 + HCO + OH
+degeneracy: 1.0
+long_description: |2
+
+  545
+kinetics:
+  type: Arrhenius
+  A:
+  - 35000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '545'
+---
+label: C7H7 + HO2 <=> A1- + CH2O + OH
+degeneracy: 1.0
+long_description: |2
+
+  546
+kinetics:
+  type: Arrhenius
+  A:
+  - 117000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '546'
+---
+label: C7H7 + H + OH <=> A1 + CH2OH
+degeneracy: 1.0
+long_description: |2
+
+  547
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^6/(mol^2*s)
+  n: 0
+  Ea:
+  - 21551.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '547'
+---
+label: i-C4H5 + C4H2 <=> A1C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  548
+kinetics:
+  type: Arrhenius
+  A:
+  - 316000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 7483.02
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '548'
+---
+label: A1C2H- + H <=> A1C2H
+degeneracy: 1.0
+long_description: |2
+
+  549
+kinetics:
+  type: Troe
+  arrheniusHigh:
+    type: Arrhenius
+    data:
+      A:
+      - 100000000000000.0
+      - cm^3/(mol*s)
+      n: 0
+      Ea:
+      - 0
+      - J/mol
+      T0:
+      - 1
+      - K
+  arrheniusLow:
+    type: Arrhenius
+    data:
+      A:
+      - 6.6e+75
+      - cm^6/(mol^2*s)
+      n: -16.3
+      Ea:
+      - 58201.3
+      - J/mol
+      T0:
+      - 1
+      - K
+  alpha: 1
+  T3:
+  - 0.1
+  - K
+  T1:
+  - 584.9
+  - K
+  T2:
+  - 6113
+  - K
+  efficiencies:
+    C: 2
+    O=C=O: 2
+    CC: 3
+    O: 6
+    '[H][H]': 2
+    '[C-]#[O+]': 1.5
+  comment: '549'
+---
+label: H2CCCCH + C4H2 <=> A1C2H-
+degeneracy: 1.0
+long_description: |2
+
+  550
+kinetics:
+  type: Arrhenius
+  A:
+  - 9.6e+70
+  - cm^3/(mol*s)
+  n: -17.77
+  Ea:
+  - 130205
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '550'
+---
+label: A1- + C4H2 <=> A1C2H + C2H
+degeneracy: 1.0
+long_description: |2
+
+  551
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 91459.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '551'
+---
+label: A1- + C2H3 <=> A1C2H + H2
+degeneracy: 1.0
+long_description: |2
+
+  552
+kinetics:
+  type: Arrhenius
+  A:
+  - 7900000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 26606.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '552'
+---
+label: A1- + C4H4 <=> A1C2H + C2H3
+degeneracy: 1.0
+long_description: |2
+
+  553
+kinetics:
+  type: Arrhenius
+  A:
+  - 320000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 5656.83
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '553'
+---
+label: A1 + C2H <=> A1C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  554
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '554'
+---
+label: A1- + C2H <=> A1C2H
+degeneracy: 1.0
+long_description: |2
+
+  555
+kinetics:
+  type: Arrhenius
+  A:
+  - 524000000000000.0
+  - cm^3/(mol*s)
+  n: -0.5
+  Ea:
+  - 2494.34
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '555'
+---
+label: A1C2H + O <=> A1C2H- + OH
+degeneracy: 1.0
+long_description: |2
+
+  556
+kinetics:
+  type: Arrhenius
+  A:
+  - 11000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 34089.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '556'
+---
+label: A1C2H + O <=> A1- + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  557
+kinetics:
+  type: Arrhenius
+  A:
+  - 21000000.0
+  - cm^3/(mol*s)
+  n: 2
+  Ea:
+  - 7898.75
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '557'
+---
+label: A1C2H + O <=> C6H5O + C2H
+degeneracy: 1.0
+long_description: |2
+
+  558
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18790.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '558'
+---
+label: A1C2H + H <=> A1C2H- + H2
+degeneracy: 1.0
+long_description: |2
+
+  559
+kinetics:
+  type: Arrhenius
+  A:
+  - 27000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40591.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '559'
+---
+label: A1C2H + H <=> A1- + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  560
+kinetics:
+  type: Arrhenius
+  A:
+  - 200000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40591.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '560'
+---
+label: A1C2H + H <=> n-C8H7
+degeneracy: 1.0
+long_description: |2
+
+  561
+duplicate: true
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+43
+  - cm^3/(mol*s)
+  n: -9.22
+  Ea:
+  - 63289.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '561'
+---
+label: A1C2H + OH <=> A1C2H- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  562
+kinetics:
+  type: Arrhenius
+  A:
+  - 21000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 19123.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '562'
+---
+label: A1C2H + OH <=> A1- + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  563
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.000218
+  - cm^3/(mol*s)
+  n: 4.5
+  Ea:
+  - -4157.24
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '563'
+---
+label: A1C2H + OH <=> A1 + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  564
+kinetics:
+  type: Arrhenius
+  A:
+  - 2440
+  - cm^3/(mol*s)
+  n: 3.02
+  Ea:
+  - 46344.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '564'
+---
+label: A1C2H + C2H <=> A1C2H- + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  565
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '565'
+---
+label: C4H4 + C4H4 <=> A1C2H3
+degeneracy: 1.0
+long_description: |2
+
+  566
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.8e+20
+  - cm^3/(mol*s)
+  n: -1.9
+  Ea:
+  - 168202
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '566'
+---
+label: i-C4H5 + C4H4 <=> A1C2H3 + H
+degeneracy: 1.0
+long_description: |2
+
+  567
+kinetics:
+  type: Arrhenius
+  A:
+  - 316000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 2494.34
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '567'
+---
+label: C5H5 + H2CCCH <=> A1C2H3* + H
+degeneracy: 1.0
+long_description: |2
+
+  568
+  Rxn 568 commented out because reverse rate coefficient is above Z
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+35
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    568
+    Rxn 568 commented out because reverse rate coefficient is above Z
+---
+label: A1 + C2H3 <=> A1C2H3 + H
+degeneracy: 1.0
+long_description: |2
+
+  569
+kinetics:
+  type: Arrhenius
+  A:
+  - 790000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 26606.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '569'
+---
+label: A1- + C2H3 <=> A1C2H3
+degeneracy: 1.0
+long_description: |2
+
+  570
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.06e+26
+  - cm^3/(mol*s)
+  n: -4
+  Ea:
+  - 22033.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '570'
+---
+label: A1- + C2H4 <=> A1C2H3 + H
+degeneracy: 1.0
+long_description: |2
+
+  571
+kinetics:
+  type: Arrhenius
+  A:
+  - 2510000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 25733.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '571'
+---
+label: A1- + C4H4 <=> A1C2H3 + C2H
+degeneracy: 1.0
+long_description: |2
+
+  572
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 83144.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '572'
+---
+label: A1- + C4H6 <=> A1C2H3 + C2H3
+degeneracy: 1.0
+long_description: |2
+
+  573
+kinetics:
+  type: Arrhenius
+  A:
+  - 320000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 7961.44
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '573'
+---
+label: C7H7 + CH2 <=> A1C2H3 + H
+degeneracy: 1.0
+long_description: |2
+
+  574
+kinetics:
+  type: Arrhenius
+  A:
+  - 240000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '574'
+---
+label: A1C2H3 + H <=> n-C8H7 + H2
+degeneracy: 1.0
+long_description: |2
+
+  575
+kinetics:
+  type: Arrhenius
+  A:
+  - 6650000.0
+  - cm^3/(mol*s)
+  n: 2.53
+  Ea:
+  - 50884.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '575'
+---
+label: A1C2H3 + H <=> A1C2H3* + H2
+degeneracy: 1.0
+long_description: |2
+
+  576
+kinetics:
+  type: Arrhenius
+  A:
+  - 303
+  - cm^3/(mol*s)
+  n: 3.3
+  Ea:
+  - 23862.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '576'
+---
+label: A1C2H3 + O <=> A1- + CH2HCO
+degeneracy: 1.0
+long_description: |2
+
+  577
+kinetics:
+  type: Arrhenius
+  A:
+  - 300000000.0
+  - cm^3/(mol*s)
+  n: 1.45
+  Ea:
+  - 3741.51
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '577'
+---
+label: A1C2H3 + O <=> A1- + CH3 + CO
+degeneracy: 1.0
+long_description: |2
+
+  578
+kinetics:
+  type: Arrhenius
+  A:
+  - 19200000.0
+  - cm^3/(mol*s)
+  n: 1.83
+  Ea:
+  - 914.592
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '578'
+---
+label: A1C2H3 + O <=> C2H3 + C6H5O
+degeneracy: 1.0
+long_description: |2
+
+  579
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18832.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '579'
+---
+label: A1C2H3 + O <=> n-C8H7 + OH
+degeneracy: 1.0
+long_description: |2
+
+  580
+kinetics:
+  type: Arrhenius
+  A:
+  - 7550000.0
+  - cm^3/(mol*s)
+  n: 1.91
+  Ea:
+  - 15631.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '580'
+---
+label: A1C2H3 + OH <=> n-C8H7 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  581
+kinetics:
+  type: Arrhenius
+  A:
+  - 3100000.0
+  - cm^3/(mol*s)
+  n: 2
+  Ea:
+  - 14259.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '581'
+---
+label: A1C2H3 + OH => C6H5O + C2H4
+degeneracy: 1.0
+long_description: |2
+
+  582
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 44066.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '582'
+---
+label: A1C2H3 + OH <=> A1C2H3* + H2O
+degeneracy: 1.0
+long_description: |2
+
+  583
+kinetics:
+  type: Arrhenius
+  A:
+  - 163000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6092.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '583'
+---
+label: A1C2H3 + OH <=> C7H7 + CH2O
+degeneracy: 1.0
+long_description: |2
+
+  584
+kinetics:
+  type: Arrhenius
+  A:
+  - 1400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '584'
+---
+label: A1C2H3 + O2 <=> C6H5O + CH2HCO
+degeneracy: 1.0
+long_description: |2
+
+  585
+kinetics:
+  type: Arrhenius
+  A:
+  - 188000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 31251.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '585'
+---
+label: A1C2H3* + O2 <=> C6H5O + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  586
+kinetics:
+  type: Arrhenius
+  A:
+  - 1880000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 31251.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '586'
+---
+label: A1C2H3* + H <=> A1C2H3
+degeneracy: 1.0
+long_description: |2
+
+  587
+kinetics:
+  type: Troe
+  arrheniusHigh:
+    type: Arrhenius
+    data:
+      A:
+      - 100000000000000.0
+      - cm^3/(mol*s)
+      n: 0
+      Ea:
+      - 0
+      - J/mol
+      T0:
+      - 1
+      - K
+  arrheniusLow:
+    type: Arrhenius
+    data:
+      A:
+      - 6.6e+75
+      - cm^6/(mol^2*s)
+      n: -16.3
+      Ea:
+      - 58201.3
+      - J/mol
+      T0:
+      - 1
+      - K
+  alpha: 1
+  T3:
+  - 0.1
+  - K
+  T1:
+  - 584.9
+  - K
+  T2:
+  - 6113
+  - K
+  efficiencies:
+    C: 2
+    O=C=O: 2
+    CC: 3
+    O: 6
+    '[H][H]': 2
+    '[C-]#[O+]': 1.5
+  comment: '587'
+---
+label: C5H5 + H2CCCH <=> n-C8H7 + H
+degeneracy: 1.0
+long_description: |2
+
+  588
+  Rxn 588 commented out because k>Z for T<1400 K
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.5e+35
+  - cm^3/(mol*s)
+  n: -7.18
+  Ea:
+  - 35203.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    588
+    Rxn 588 commented out because k>Z for T<1400 K
+---
+label: A1 + C2H <=> n-C8H7
+degeneracy: 1.0
+long_description: |2
+
+  589
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+38
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '589'
+---
+label: A1- + C2H2 <=> n-C8H7
+degeneracy: 1.0
+long_description: |2
+
+  590
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 48872.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '590'
+---
+label: A1- + C2H3 <=> n-C8H7 + H
+degeneracy: 1.0
+long_description: |2
+
+  591
+kinetics:
+  type: Arrhenius
+  A:
+  - 9.4
+  - cm^3/(mol*s)
+  n: 4.14
+  Ea:
+  - 96589.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '591'
+---
+label: n-C8H7 <=> A1C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  592
+duplicate: true
+kinetics:
+  type: ThirdBody
+  arrheniusLow:
+    type: Arrhenius
+    data:
+      A:
+      - 2.0e+17
+      - cm^3/(mol*s)
+      n: 0
+      Ea:
+      - 166289
+      - J/mol
+      T0:
+      - 1
+      - K
+  efficiencies: {}
+  comment: '592'
+---
+label: n-C8H7 + H <=> A1C2H3
+degeneracy: 1.0
+long_description: |2
+
+  593
+kinetics:
+  type: Arrhenius
+  A:
+  - 5400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 10060.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '593'
+---
+label: n-C8H7 + H <=> A1C2H + H2
+degeneracy: 1.0
+long_description: |2
+
+  594
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '594'
+---
+label: n-C8H7 + OH <=> A1C2H + H2O
+degeneracy: 1.0
+long_description: |2
+
+  595
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '595'
+---
+label: C5H5 + C4H4 <=> INDENE + H
+degeneracy: 1.0
+long_description: |2
+
+  596
+kinetics:
+  type: Arrhenius
+  A:
+  - 600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41821.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '596'
+---
+label: A1- + H2CCCH <=> INDENE
+degeneracy: 1.0
+long_description: |2
+
+  597
+kinetics:
+  type: Arrhenius
+  A:
+  - 386000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 56954.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '597'
+---
+label: C4H6 + A1- <=> INDENE + CH3
+degeneracy: 1.0
+long_description: |2
+
+  598
+kinetics:
+  type: Arrhenius
+  A:
+  - 14200000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 1164.03
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '598'
+---
+label: i-C4H5 + A1 <=> INDENE + CH3
+degeneracy: 1.0
+long_description: |2
+
+  599
+kinetics:
+  type: Arrhenius
+  A:
+  - 14200000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 1164.03
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '599'
+---
+label: A1- + C3H4 <=> INDENE + H
+degeneracy: 1.0
+long_description: |2
+
+  600
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.0e+16
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 138020
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '600'
+---
+label: INDENE <=> INDENYL + H
+degeneracy: 1.0
+long_description: |2
+
+  601
+kinetics:
+  type: Arrhenius
+  A:
+  - 1100000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 322602
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '601'
+---
+label: INDENE + O <=> INDENYL + OH
+degeneracy: 1.0
+long_description: |2
+
+  602
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '602'
+---
+label: INDENE + O <=> C7H7 + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  603
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 16628.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '603'
+---
+label: INDENE + H <=> INDENYL + H2
+degeneracy: 1.0
+long_description: |2
+
+  604
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '604'
+---
+label: C7H7 + C2H2 <=> INDENE + H
+degeneracy: 1.0
+long_description: |2
+
+  605
+kinetics:
+  type: Arrhenius
+  A:
+  - 600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41821.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '605'
+---
+label: INDENE + H <=> A1C2H + CH3
+degeneracy: 1.0
+long_description: |2
+
+  606
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 191233
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '606'
+---
+label: INDENE + H <=> A1 + H2CCCH
+degeneracy: 1.0
+long_description: |2
+
+  607
+kinetics:
+  type: Arrhenius
+  A:
+  - 200000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 203705
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '607'
+---
+label: INDENE + OH <=> C7H7 + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  608
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41572.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '608'
+---
+label: INDENE + OH <=> INDENYL + H2O
+degeneracy: 1.0
+long_description: |2
+
+  609
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '609'
+---
+label: INDENE + CH3 <=> INDENYL + CH4
+degeneracy: 1.0
+long_description: |2
+
+  610
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 58201.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '610'
+---
+label: INDENE + H2CCCH <=> INDENYL + C3H4
+degeneracy: 1.0
+long_description: |2
+
+  611
+kinetics:
+  type: Arrhenius
+  A:
+  - 78000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 23032.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '611'
+---
+label: INDENE + A1- <=> INDENYL + A1
+degeneracy: 1.0
+long_description: |2
+
+  612
+kinetics:
+  type: Arrhenius
+  A:
+  - 500000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 24943.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '612'
+---
+label: INDENE + C7H7 <=> INDENYL + C7H8
+degeneracy: 1.0
+long_description: |2
+
+  613
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 29100.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '613'
+---
+label: C5H5 + C4H2 <=> INDENYL
+degeneracy: 1.0
+long_description: |2
+
+  614
+kinetics:
+  type: Arrhenius
+  A:
+  - 1200000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41821.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '614'
+---
+label: INDENYL => C2H2 + C4H2 + H2CCCH
+degeneracy: 1.0
+long_description: |2
+
+  615
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 311793
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '615'
+---
+label: INDENYL + O <=> n-C8H7 + CO
+degeneracy: 1.0
+long_description: |2
+
+  616
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '616'
+---
+label: INDENYL + O <=> A1C2H3* + CO
+degeneracy: 1.0
+long_description: |2
+
+  617
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '617'
+---
+label: INDENYL + HO2 => n-C8H7 + CO + OH
+degeneracy: 1.0
+long_description: |2
+
+  618
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '618'
+---
+label: INDENYL + HO2 => A1C2H + CO + H2O
+degeneracy: 1.0
+long_description: |2
+
+  619
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '619'
+---
+label: INDENYL + HO2 => A1C2H3* + CO + OH
+degeneracy: 1.0
+long_description: |2
+
+  620
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '620'
+---
+label: A1- + A1 <=> P2 + H
+degeneracy: 1.0
+long_description: |2
+
+  621
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+23
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 61942.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '621'
+---
+label: INDENYL + H2CCCH => P2
+degeneracy: 1.0
+long_description: |2
+
+  622
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 58201.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '622'
+---
+label: INDENE + H2CCCH => P2 + H
+degeneracy: 1.0
+long_description: |2
+
+  623
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 155000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 215445
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '623'
+---
+label: A1- + A1- <=> P2
+degeneracy: 1.0
+long_description: |2
+
+  624
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.0e+19
+  - cm^3/(mol*s)
+  n: -2.05
+  Ea:
+  - 12056
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '624'
+---
+label: A1- + A1- <=> P2- + H
+degeneracy: 1.0
+long_description: |2
+
+  625
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.23
+  - cm^3/(mol*s)
+  n: 4.62
+  Ea:
+  - 120560
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '625'
+---
+label: P2 <=> P2- + H
+degeneracy: 1.0
+long_description: |2
+
+  626
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+19
+  - s^-1
+  n: -2.72
+  Ea:
+  - 476419
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '626'
+---
+label: P2 <=> INDENE + C3H2
+degeneracy: 1.0
+long_description: |2
+
+  627
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 457296
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '627'
+---
+label: P2- + O2 <=> A2 + HCO + CO
+degeneracy: 1.0
+long_description: |2
+
+  628
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '628'
+---
+label: P2 + H <=> P2- + H2
+degeneracy: 1.0
+long_description: |2
+
+  629
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '629'
+---
+label: P2 + OH <=> P2- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  630
+kinetics:
+  type: Arrhenius
+  A:
+  - 160000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6402.14
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '630'
+---
+label: i-C4H5 + A1 => A2 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  631
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 12500
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '631'
+---
+label: C4H6 + A1- => A2 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  632
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 500000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 12500
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '632'
+---
+label: A1- + H2CCCCH <=> A2
+degeneracy: 1.0
+long_description: |2
+
+  633
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.18e+23
+  - cm^3/(mol*s)
+  n: -3.2
+  Ea:
+  - 17709.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '633'
+---
+label: A1- + H2CCCCH <=> A2- + H
+degeneracy: 1.0
+long_description: |2
+
+  634
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.0e-10
+  - cm^3/(mol*s)
+  n: 7.1
+  Ea:
+  - 6536.75
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '634'
+---
+label: A1- + C4H4 <=> A2 + H
+degeneracy: 1.0
+long_description: |2
+
+  635
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '635'
+---
+label: C7H7 + H2CCCH => A2 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  636
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 582.013
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '636'
+---
+label: A1C2H- + C2H2 <=> A2-
+degeneracy: 1.0
+long_description: |2
+
+  637
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 42403.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '637'
+---
+label: A1C2H3* + C2H2 <=> A2 + H
+degeneracy: 1.0
+long_description: |2
+
+  638
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 27437.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '638'
+---
+label: n-C8H7 + C2H2 <=> A2 + H
+degeneracy: 1.0
+long_description: |2
+
+  639
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 22449.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '639'
+---
+label: INDENYL + CH3 <=> A2 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  640
+  Rxn 640 commented out because k>Z for T>2000 K
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+18
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 303478
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    640
+    Rxn 640 commented out because k>Z for T>2000 K
+---
+label: INDENE + CH2 => A2 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  641
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '641'
+---
+label: INDENE + CH2(S) <=> A2 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  642
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '642'
+---
+label: A2 + O <=> CH2CO + A1C2H
+degeneracy: 1.0
+long_description: |2
+
+  643
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 18832.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '643'
+---
+label: A2 + O => INDENYL + CO + H
+degeneracy: 1.0
+long_description: |2
+
+  644
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 360000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 183692
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '644'
+---
+label: A2 + O <=> n-C8H7 + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  645
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '645'
+---
+label: A2 + O <=> A1C2H3* + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  646
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '646'
+---
+label: A2 + O <=> A2- + OH
+degeneracy: 1.0
+long_description: |2
+
+  647
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '647'
+---
+label: A2 + H <=> A2- + H2
+degeneracy: 1.0
+long_description: |2
+
+  648
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '648'
+---
+label: A2 + OH <=> A2- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  649
+kinetics:
+  type: Arrhenius
+  A:
+  - 21000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 19123.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '649'
+---
+label: A2 + OH => A1C2H + CH2CO + H
+degeneracy: 1.0
+long_description: |2
+
+  650
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 44066.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '650'
+---
+label: A2 + CH3 <=> A2- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  651
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '651'
+---
+label: A2 + C2H <=> A2- + C2H2
+degeneracy: 1.0
+long_description: |2
+
+  652
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '652'
+---
+label: A2 + C2H <=> A2C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  653
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '653'
+---
+label: A2- + O2 => A1C2H + HCO + CO
+degeneracy: 1.0
+long_description: |2
+
+  654
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '654'
+---
+label: A2- + O => INDENYL + CO
+degeneracy: 1.0
+long_description: |2
+
+  655
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '655'
+---
+label: A2- + H <=> A2
+degeneracy: 1.0
+long_description: |2
+
+  656
+kinetics:
+  type: Arrhenius
+  A:
+  - 78000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '656'
+---
+label: A2- + HO2 => INDENYL + CO + OH
+degeneracy: 1.0
+long_description: |2
+
+  657
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '657'
+---
+label: A2- + C2H2 <=> A2C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  658
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.3e+24
+  - cm^3/(mol*s)
+  n: -3.06
+  Ea:
+  - 93953.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '658'
+---
+label: A2C2H + H <=> A2C2H* + H2
+degeneracy: 1.0
+long_description: |2
+
+  659
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '659'
+---
+label: A2C2H + OH <=> A2- + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  660
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.000218
+  - cm^3/(mol*s)
+  n: 4.5
+  Ea:
+  - -4157.24
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '660'
+---
+label: A2C2H + OH <=> A2C2H* + H2O
+degeneracy: 1.0
+long_description: |2
+
+  661
+kinetics:
+  type: Arrhenius
+  A:
+  - 21000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 19123.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '661'
+---
+label: INDENYL + H2CCCH => A2C2H + H + H
+degeneracy: 1.0
+long_description: |2
+
+  662
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '662'
+---
+label: A2 + CH2 <=> A2CH3
+degeneracy: 1.0
+long_description: |2
+
+  663
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '663'
+---
+label: A2 + CH2(S) <=> A2CH3
+degeneracy: 1.0
+long_description: |2
+
+  664
+kinetics:
+  type: Arrhenius
+  A:
+  - 44000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 36334.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '664'
+---
+label: A2CH3 <=> A2- + CH3
+degeneracy: 1.0
+long_description: |2
+
+  665
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.0e+16
+  - s^-1
+  n: 0
+  Ea:
+  - 405746
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '665'
+---
+label: A2CH3 <=> A2CH2 + H
+degeneracy: 1.0
+long_description: |2
+
+  666
+kinetics:
+  type: Arrhenius
+  A:
+  - 2810000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 371657
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '666'
+---
+label: A2CH3 + O2 <=> A2CH2 + HO2
+degeneracy: 1.0
+long_description: |2
+
+  667
+kinetics:
+  type: Arrhenius
+  A:
+  - 300000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 173008
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '667'
+---
+label: A2CH3 + O <=> A2CH2 + OH
+degeneracy: 1.0
+long_description: |2
+
+  668
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 5379.46
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '668'
+---
+label: A2CH3 + H <=> A2CH2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  669
+kinetics:
+  type: Arrhenius
+  A:
+  - 398
+  - cm^3/(mol*s)
+  n: 3.44
+  Ea:
+  - 12970.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '669'
+---
+label: A2CH3 + H <=> A2 + CH3
+degeneracy: 1.0
+long_description: |2
+
+  670
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 21201.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '670'
+---
+label: A2CH3 + OH <=> A2CH2 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  671
+kinetics:
+  type: Arrhenius
+  A:
+  - 519000000.0
+  - cm^3/(mol*s)
+  n: 1
+  Ea:
+  - 3658.37
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '671'
+---
+label: A2CH3 + HO2 <=> A2CH2 + H2O2
+degeneracy: 1.0
+long_description: |2
+
+  672
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 58201.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '672'
+---
+label: A2CH3 + CH3 <=> A2CH2 + CH4
+degeneracy: 1.0
+long_description: |2
+
+  673
+kinetics:
+  type: Arrhenius
+  A:
+  - 1580000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 45729.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '673'
+---
+label: A2CH2 + O <=> A2- + CH2O
+degeneracy: 1.0
+long_description: |2
+
+  674
+kinetics:
+  type: Arrhenius
+  A:
+  - 165000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '674'
+---
+label: A2CH2 + HO2 <=> A2- + CH2O + OH
+degeneracy: 1.0
+long_description: |2
+
+  675
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '675'
+---
+label: A2CH2 + CH2 <=> A2C2H + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  676
+kinetics:
+  type: Arrhenius
+  A:
+  - 240000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '676'
+---
+label: A2CH2 + H2CCCH <=> A3 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  677
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 58201.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '677'
+---
+label: A1C2H- + C4H4 <=> A2R5 + H
+degeneracy: 1.0
+long_description: |2
+
+  678
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 27437.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '678'
+---
+label: A1C2H3* + C4H2 <=> A2R5 + H
+degeneracy: 1.0
+long_description: |2
+
+  679
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 22449.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '679'
+---
+label: n-C8H7 + C4H2 <=> A2R5 + H
+degeneracy: 1.0
+long_description: |2
+
+  680
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 22449.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '680'
+---
+label: INDENYL + H2CCCH => A2R5 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  681
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 83000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40643.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '681'
+---
+label: INDENE + H2CCCH => A2R5 + H + H2
+degeneracy: 1.0
+long_description: |2
+
+  682
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 155000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 215445
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '682'
+---
+label: INDENYL + H2CCCH <=> A2R5 + H2
+degeneracy: 1.0
+long_description: |2
+
+  683
+kinetics:
+  type: Arrhenius
+  A:
+  - 9500000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '683'
+---
+label: A2- + C2H2 <=> A2R5 + H
+degeneracy: 1.0
+long_description: |2
+
+  684
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.9e+31
+  - cm^3/(mol*s)
+  n: -5.26
+  Ea:
+  - 87302
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '684'
+---
+label: A2C2H* + H <=> A2R5
+degeneracy: 1.0
+long_description: |2
+
+  685
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '685'
+---
+label: A2C2H + H <=> A2R5 + H
+degeneracy: 1.0
+long_description: |2
+
+  686
+kinetics:
+  type: Arrhenius
+  A:
+  - 4.6e+37
+  - cm^3/(mol*s)
+  n: -7.03
+  Ea:
+  - 96032.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '686'
+---
+label: A2R5- + H <=> A2R5
+degeneracy: 1.0
+long_description: |2
+
+  687
+kinetics:
+  type: Troe
+  arrheniusHigh:
+    type: Arrhenius
+    data:
+      A:
+      - 100000000000000.0
+      - cm^3/(mol*s)
+      n: 0
+      Ea:
+      - 0
+      - J/mol
+      T0:
+      - 1
+      - K
+  arrheniusLow:
+    type: Arrhenius
+    data:
+      A:
+      - 6.6e+75
+      - cm^6/(mol^2*s)
+      n: -16.3
+      Ea:
+      - 29.1007
+      - J/mol
+      T0:
+      - 1
+      - K
+  alpha: 1
+  T3:
+  - 0.1
+  - K
+  T1:
+  - 585
+  - K
+  T2:
+  - 6113
+  - K
+  efficiencies:
+    C: 3
+    O=C=O: 1.5
+    CC: 3
+    O: 6.5
+    '[O][O]': 0.4
+    '[C-]#[O+]': 0.75
+    '[Ar]': 0.2
+  comment: '687'
+---
+label: A2R5 <=> A1C2H + C4H2
+degeneracy: 1.0
+long_description: |2
+
+  688
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.0e+16
+  - s^-1
+  n: 0
+  Ea:
+  - 482239
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '688'
+---
+label: A2R5 + O <=> A2R5- + OH
+degeneracy: 1.0
+long_description: |2
+
+  689
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '689'
+---
+label: A2R5 + O => A2- + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  690
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '690'
+---
+label: A2R5 + H <=> A2R5- + H2
+degeneracy: 1.0
+long_description: |2
+
+  691
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '691'
+---
+label: A2R5 + OH <=> A2R5- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  692
+kinetics:
+  type: Arrhenius
+  A:
+  - 160000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6027.99
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '692'
+---
+label: A2R5 + OH <=> A2- + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  693
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41572.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '693'
+---
+label: A1C2H + A1- <=> A3 + H
+degeneracy: 1.0
+long_description: |2
+
+  694
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+23
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '694'
+---
+label: A1C2H- + A1 <=> A3 + H
+degeneracy: 1.0
+long_description: |2
+
+  695
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+23
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '695'
+---
+label: A2- + C4H4 <=> A3 + H
+degeneracy: 1.0
+long_description: |2
+
+  696
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '696'
+---
+label: A2- + C4H2 <=> A3-
+degeneracy: 1.0
+long_description: |2
+
+  697
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '697'
+---
+label: P2- + C2H2 <=> A3 + H
+degeneracy: 1.0
+long_description: |2
+
+  698
+kinetics:
+  type: Arrhenius
+  A:
+  - 4640000.0
+  - cm^3/(mol*s)
+  n: 1.97
+  Ea:
+  - 30181.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '698'
+---
+label: A2C2H* + C2H2 <=> A3-
+degeneracy: 1.0
+long_description: |2
+
+  699
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+62
+  - cm^3/(mol*s)
+  n: -14.56
+  Ea:
+  - 137605
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '699'
+---
+label: A2R5- + C2H2 <=> A3-
+degeneracy: 1.0
+long_description: |2
+
+  700
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '700'
+---
+label: A2R5 + C2H2 => A3
+degeneracy: 1.0
+long_description: |2
+
+  701
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 27650
+  - cm^3/(mol*s)
+  n: 2.45
+  Ea:
+  - 121682
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '701'
+---
+label: A2 + C4H2 => A3
+degeneracy: 1.0
+long_description: |2
+
+  702
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 27650
+  - cm^3/(mol*s)
+  n: 2.45
+  Ea:
+  - 121682
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '702'
+---
+label: A3 + O <=> A2C2H + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  703
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 22989.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '703'
+---
+label: A3 + O <=> A3- + OH
+degeneracy: 1.0
+long_description: |2
+
+  704
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '704'
+---
+label: A3 + O => HCCO + P2-
+degeneracy: 1.0
+long_description: |2
+
+  705
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '705'
+---
+label: A3 + H <=> A3- + H2
+degeneracy: 1.0
+long_description: |2
+
+  706
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '706'
+---
+label: A3 + OH <=> A3- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  707
+  Rxn 707 commented out because k>Z for T>2000 K
+kinetics:
+  type: Arrhenius
+  A:
+  - 170000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6260.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    707
+    Rxn 707 commented out because k>Z for T>2000 K
+---
+label: A3 + OH => A2C2H + CH2CO + H
+degeneracy: 1.0
+long_description: |2
+
+  708
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 41572.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '708'
+---
+label: A3 + OH <=> CH2CO + P2-
+degeneracy: 1.0
+long_description: |2
+
+  709
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 133032
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '709'
+---
+label: A3 + CH3 <=> A3- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  710
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '710'
+---
+label: A3 + C2H <=> A3C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  711
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '711'
+---
+label: A3C2H + H <=> A3C2H* + H2
+degeneracy: 1.0
+long_description: |2
+
+  712
+kinetics:
+  type: Arrhenius
+  A:
+  - 303
+  - cm^3/(mol*s)
+  n: 3.3
+  Ea:
+  - 23862.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '712'
+---
+label: A3C2H + OH <=> A3- + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  713
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.000218
+  - cm^3/(mol*s)
+  n: 4.5
+  Ea:
+  - -4157.24
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '713'
+---
+label: A3- + O2 => CO + HCO + A2R5
+degeneracy: 1.0
+long_description: |2
+
+  714
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '714'
+---
+label: A3- + H <=> A3
+degeneracy: 1.0
+long_description: |2
+
+  715
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '715'
+---
+label: A3- + C2H2 <=> A3C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  716
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.2e+26
+  - cm^3/(mol*s)
+  n: -3.44
+  Ea:
+  - 125549
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '716'
+---
+label: A3 + CH2 <=> A3CH3
+degeneracy: 1.0
+long_description: |2
+
+  717
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 29898.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '717'
+---
+label: A3 + CH2(S) <=> A3CH3
+degeneracy: 1.0
+long_description: |2
+
+  718
+kinetics:
+  type: Arrhenius
+  A:
+  - 42000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 29898.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '718'
+---
+label: A3CH2 + H <=> A3- + CH3
+degeneracy: 1.0
+long_description: |2
+
+  719
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.0e+16
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 405746
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '719'
+---
+label: A3CH3 <=> A3CH2 + H
+degeneracy: 1.0
+long_description: |2
+
+  720
+kinetics:
+  type: Arrhenius
+  A:
+  - 2810000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 371657
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '720'
+---
+label: A3CH3 + O2 <=> A3CH2 + HO2
+degeneracy: 1.0
+long_description: |2
+
+  721
+kinetics:
+  type: Arrhenius
+  A:
+  - 300000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 173008
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '721'
+---
+label: A3CH3 + O <=> A3CH2 + OH
+degeneracy: 1.0
+long_description: |2
+
+  722
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 5342.05
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '722'
+---
+label: A3CH2 + O <=> A3- + CH2O
+degeneracy: 1.0
+long_description: |2
+
+  723
+kinetics:
+  type: Arrhenius
+  A:
+  - 165000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '723'
+---
+label: A3CH3 + H <=> A3CH2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  724
+kinetics:
+  type: Arrhenius
+  A:
+  - 120000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 34920.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '724'
+---
+label: A3CH3 + H <=> A3 + CH3
+degeneracy: 1.0
+long_description: |2
+
+  725
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 21201.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '725'
+---
+label: A3CH3 + OH <=> A3CH2 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  726
+kinetics:
+  type: Arrhenius
+  A:
+  - 12600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 10601
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '726'
+---
+label: A3CH3 + HO2 <=> A3CH2 + H2O2
+degeneracy: 1.0
+long_description: |2
+
+  727
+kinetics:
+  type: Arrhenius
+  A:
+  - 400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 58201.3
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '727'
+---
+label: A3CH3 + CH3 <=> A3CH2 + CH4
+degeneracy: 1.0
+long_description: |2
+
+  728
+kinetics:
+  type: Arrhenius
+  A:
+  - 1580000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 45729.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '728'
+---
+label: A3CH2 + HO2 => A3- + CH2O + OH
+degeneracy: 1.0
+long_description: |2
+
+  729
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 80000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '729'
+---
+label: A3CH2 + CH2 <=> A4 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  730
+kinetics:
+  type: Arrhenius
+  A:
+  - 240000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '730'
+---
+label: C4H2 + A2R5 => A4
+degeneracy: 1.0
+long_description: |2
+
+  731
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 500
+  - cm^3/(mol*s)
+  n: 2.2313
+  Ea:
+  - -4732.35
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '731'
+---
+label: A1C2H + A1C2H- <=> A4 + H
+degeneracy: 1.0
+long_description: |2
+
+  732
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '732'
+---
+label: n-C8H7 + A1C2H => A4 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  733
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '733'
+---
+label: A1C2H3* + A1C2H => A4 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  734
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '734'
+---
+label: INDENYL + C7H7 => A4 + H2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  735
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 4.3e+37
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '735'
+---
+label: INDENYL + INDENYL => A4 + C2H2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  736
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 4.3e+36
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '736'
+---
+label: A2 + C6H <=> A4-
+degeneracy: 1.0
+long_description: |2
+
+  737
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '737'
+---
+label: A2 + A1- <=> A4 + H + H2
+degeneracy: 1.0
+long_description: |2
+
+  738
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 20786.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '738'
+---
+label: A2- + A1 <=> A4 + H + H2
+degeneracy: 1.0
+long_description: |2
+
+  739
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 20786.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '739'
+---
+label: A2- + A1- => A4 + H2
+degeneracy: 1.0
+long_description: |2
+
+  740
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 4.3e+37
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '740'
+---
+label: A2- + C6H2 <=> A4-
+degeneracy: 1.0
+long_description: |2
+
+  741
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '741'
+---
+label: A2C2H* + C4H4 <=> A4 + H
+degeneracy: 1.0
+long_description: |2
+
+  742
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '742'
+---
+label: A2R5- + C4H2 => A4-
+degeneracy: 1.0
+long_description: |2
+
+  743
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '743'
+---
+label: A2R5- + H2CCCCH <=> A4
+degeneracy: 1.0
+long_description: |2
+
+  744
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.4e+23
+  - cm^3/(mol*s)
+  n: -3.2
+  Ea:
+  - 17709.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '744'
+---
+label: A3- + C2H2 <=> A4 + H
+degeneracy: 1.0
+long_description: |2
+
+  745
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.6e+24
+  - cm^3/(mol*s)
+  n: -3.36
+  Ea:
+  - 73998.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '745'
+---
+label: A3C2H + H <=> A4 + H
+degeneracy: 1.0
+long_description: |2
+
+  746
+kinetics:
+  type: Arrhenius
+  A:
+  - 9.0e+38
+  - cm^3/(mol*s)
+  n: -7.39
+  Ea:
+  - 86470.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '746'
+---
+label: A4 + O <=> A3- + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  747
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '747'
+---
+label: A4 + H <=> A4- + H2
+degeneracy: 1.0
+long_description: |2
+
+  748
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '748'
+---
+label: A4 + OH <=> A4- + H2O
+degeneracy: 1.0
+long_description: |2
+
+  749
+kinetics:
+  type: Arrhenius
+  A:
+  - 170000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6092.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '749'
+---
+label: A4 + OH <=> A3- + CH2CO
+degeneracy: 1.0
+long_description: |2
+
+  750
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '750'
+---
+label: A4 + CH3 <=> A4- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  751
+kinetics:
+  type: Arrhenius
+  A:
+  - 303
+  - cm^3/(mol*s)
+  n: 3.3
+  Ea:
+  - 23862.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '751'
+---
+label: A4- + O2 <=> CO + CO + A3-
+degeneracy: 1.0
+long_description: |2
+
+  752
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '752'
+---
+label: A4- + H <=> A4
+degeneracy: 1.0
+long_description: |2
+
+  753
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '753'
+---
+label: A4- + C2H2 <=> A4C2H + H
+degeneracy: 1.0
+long_description: |2
+
+  754
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.2e+26
+  - cm^3/(mol*s)
+  n: -3.44
+  Ea:
+  - 125549
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '754'
+---
+label: A4C2H + H <=> A4C2H* + H2
+degeneracy: 1.0
+long_description: |2
+
+  755
+kinetics:
+  type: Arrhenius
+  A:
+  - 250000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 66515.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '755'
+---
+label: A4C2H + H <=> BGHIF + H
+degeneracy: 1.0
+long_description: |2
+
+  756
+kinetics:
+  type: Arrhenius
+  A:
+  - 4.6e+37
+  - cm^3/(mol*s)
+  n: -7.03
+  Ea:
+  - 96032.2
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '756'
+---
+label: A4C2H* + H <=> BGHIF
+degeneracy: 1.0
+long_description: |2
+
+  757
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '757'
+---
+label: P2 + C6H <=> C18H11
+degeneracy: 1.0
+long_description: |2
+
+  758
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '758'
+---
+label: P2- + C6H2 <=> BGHIF + H
+degeneracy: 1.0
+long_description: |2
+
+  759
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '759'
+---
+label: P2- + C6H2 <=> C18H11
+degeneracy: 1.0
+long_description: |2
+
+  760
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '760'
+---
+label: A3- + C4H4 <=> C18H12 + H
+degeneracy: 1.0
+long_description: |2
+
+  761
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '761'
+---
+label: A3C2H* + C2H2 <=> BGHIF + H
+degeneracy: 1.0
+long_description: |2
+
+  762
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e+16
+  - cm^3/(mol*s)
+  n: -1.33
+  Ea:
+  - 27437.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '762'
+---
+label: A2R5 + C6H2 => BGHIF
+degeneracy: 1.0
+long_description: |2
+
+  763
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 241.3
+  - cm^3/(mol*s)
+  n: 2.2313
+  Ea:
+  - -4730.93
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '763'
+---
+label: A1C2H- + A2 => BGHIF + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  764
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.1e+25
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '764'
+---
+label: A1C2H + A2- => BGHIF + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  765
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.1e+25
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '765'
+---
+label: INDENE + INDENYL => C18H12 + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  766
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '766'
+---
+label: INDENYL + INDENYL => BGHIF + H2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  767
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 8.3e+38
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '767'
+---
+label: A2 + C8H2 => BGHIF
+degeneracy: 1.0
+long_description: |2
+
+  768
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 241.3
+  - cm^3/(mol*s)
+  n: 2.2313
+  Ea:
+  - -4731.77
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '768'
+---
+label: A2C2H + A1- <=> C18H12 + H
+degeneracy: 1.0
+long_description: |2
+
+  769
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '769'
+---
+label: A2C2H* + A1 <=> C18H12 + H
+degeneracy: 1.0
+long_description: |2
+
+  770
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '770'
+---
+label: A2R5- + A1 => BGHIF + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  771
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+25
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '771'
+---
+label: A3C2H* + C4H4 <=> BAPYR + H
+degeneracy: 1.0
+long_description: |2
+
+  772
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '772'
+---
+label: A4- + C4H4 <=> BAPYR + H
+degeneracy: 1.0
+long_description: |2
+
+  773
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.3e+33
+  - cm^3/(mol*s)
+  n: -5.7
+  Ea:
+  - 106010
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '773'
+---
+label: A4C2H* + C2H2 <=> BAPYR*S
+degeneracy: 1.0
+long_description: |2
+
+  774
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.0e+37
+  - cm^3/(mol*s)
+  n: -8.02
+  Ea:
+  - 68178.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '774'
+---
+label: BAPYR*S + H <=> BAPYR
+degeneracy: 1.0
+long_description: |2
+
+  775
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '775'
+---
+label: P2 + A1C2H- => BAPYR + H2 + H
+degeneracy: 1.0
+long_description: |2
+
+  776
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+24
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '776'
+---
+label: P2- + A1C2H3* => BAPYR + H2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  777
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 8.3e+38
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '777'
+---
+label: P2- + n-C8H7 => BAPYR + H2 + H2
+degeneracy: 1.0
+long_description: |2
+
+  778
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 8.3e+38
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '778'
+---
+label: A2R5- + A1C2H- <=> BAPYR
+degeneracy: 1.0
+long_description: |2
+
+  779
+kinetics:
+  type: Arrhenius
+  A:
+  - 8.3e+38
+  - cm^3/(mol*s)
+  n: -6.3
+  Ea:
+  - 187325
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '779'
+---
+label: A2R5 + A1C2H- <=> BAPYR + H
+degeneracy: 1.0
+long_description: |2
+
+  780
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.1e+25
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '780'
+---
+label: A2R5- + A1C2H <=> BAPYR + H
+degeneracy: 1.0
+long_description: |2
+
+  781
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.1e+25
+  - cm^3/(mol*s)
+  n: -2.92
+  Ea:
+  - 66598.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '781'
+---
+label: C18H11 + O2 => HCO + CO + A4
+degeneracy: 1.0
+long_description: |2
+
+  782
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '782'
+---
+label: C18H11 + H <=> BGHIF + H2
+degeneracy: 1.0
+long_description: |2
+
+  783
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '783'
+---
+label: C18H11 + C2H => BAPYR
+degeneracy: 1.0
+long_description: |2
+
+  784
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 524000000000000.0
+  - cm^3/(mol*s)
+  n: -0.5
+  Ea:
+  - 2910.07
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '784'
+---
+label: C18H11 + C2H2 <=> BAPYR + H
+degeneracy: 1.0
+long_description: |2
+
+  785
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.1e+24
+  - cm^3/(mol*s)
+  n: -3.36
+  Ea:
+  - 73998.8
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '785'
+---
+label: C18H12 + O <=> C18H11 + OH
+degeneracy: 1.0
+long_description: |2
+
+  786
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '786'
+---
+label: C18H12 + H <=> C18H11 + H2
+degeneracy: 1.0
+long_description: |2
+
+  787
+kinetics:
+  type: Arrhenius
+  A:
+  - 303
+  - cm^3/(mol*s)
+  n: 3.3
+  Ea:
+  - 23862.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '787'
+---
+label: C18H12 + OH <=> C18H11 + H2O
+degeneracy: 1.0
+long_description: |2
+
+  788
+kinetics:
+  type: Arrhenius
+  A:
+  - 170000000.0
+  - cm^3/(mol*s)
+  n: 1.42
+  Ea:
+  - 6092.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '788'
+---
+label: BGHIF + O <=> HCCO + A4-
+degeneracy: 1.0
+long_description: |2
+
+  789
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 61527.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '789'
+---
+label: BGHIF + OH <=> CH2CO + A4-
+degeneracy: 1.0
+long_description: |2
+
+  790
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 44066.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '790'
+---
+label: BAPYR*S + O2 => HCO + CO + BGHIF
+degeneracy: 1.0
+long_description: |2
+
+  791
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 30763.5
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '791'
+---
+label: C4H2 + A4 => BAPYR
+degeneracy: 1.0
+long_description: |2
+
+  792
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 600
+  - cm^3/(mol*s)
+  n: 2.2313
+  Ea:
+  - -4732.35
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '792'
+---
+label: BAPYR + O <=> HCCO + C18H11
+degeneracy: 1.0
+long_description: |2
+
+  793
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 174604
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '793'
+---
+label: BAPYR + OH => CH2CO + C18H11
+degeneracy: 1.0
+long_description: |2
+
+  794
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 44066.7
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '794'
+---
+label: C5H5 + C5H5 <=> A2 + H + H
+degeneracy: 1.0
+kinetics:
+  type: MultiArrhenius
+  arrhenius:
+  - type: Arrhenius
+    data:
+      A:
+      - 3.0e+16
+      - cm^3/(mol*s)
+      n: 0
+      Ea:
+      - 196429
+      - J/mol
+      T0:
+      - 1
+      - K
+      comment: |-
+        795
+        796
+        797
+        798
+        799
+        800
+        801
+        802
+        803
+        804
+        805
+        806
+        807
+        808
+        809
+        810
+  - type: Arrhenius
+    data:
+      A:
+      - 453000
+      - cm^3/(mol*s)
+      n: 1.83
+      Ea:
+      - 150001
+      - J/mol
+      T0:
+      - 1
+      - K
+      comment: '811'
+---
+label: C5H5 + H2CCCH <=> A1C2H3
+degeneracy: 1.0
+long_description: |2
+
+  812
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 34704.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '812'
+---
+label: C5H5 + H2CCCCH <=> INDENE
+degeneracy: 1.0
+long_description: |2
+
+  813
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 34704.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '813'
+---
+label: C5H5 + C5H5 <=> INDENYL + CH3
+degeneracy: 1.0
+long_description: |2
+
+  814
+kinetics:
+  type: Arrhenius
+  A:
+  - 2500000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40000.9
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '814'
+---
+label: C5H6 + CH3 <=> C5H5 + CH4
+degeneracy: 1.0
+long_description: |2
+
+  815
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.1
+  - cm^3/(mol*s)
+  n: 4
+  Ea:
+  - 0
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '815'
+---
+label: n-C8H7 + A1C2H- => A4 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  816
+  C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
+  817
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: |-
+    816
+    C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
+    817
+---
+label: INDENYL + C5H5 => A3 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  818
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '818'
+---
+label: INDENYL + INDENYL => C18H12 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  819
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '819'
+---
+label: A1C2H3* + A1C2H- <=> A4 + H + H
+degeneracy: 1.0
+long_description: |2
+
+  820
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '820'
+---
+label: A2C2H* + n-C8H7 <=> BAPYR + H + H
+degeneracy: 1.0
+long_description: |2
+
+  821
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '821'
+---
+label: A2C2H* + A1C2H3* <=> BAPYR + H + H
+degeneracy: 1.0
+long_description: |2
+
+  822
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '822'
+---
+label: A2R5- + A1- => BGHIF + H + H
+degeneracy: 1.0
+long_description: |2
+
+  823
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '823'
+---
+label: P2- + A1C2H- => BAPYR + H + H
+degeneracy: 1.0
+long_description: |2
+
+  824
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.0e+17
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 196429
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '824'
+---
+label: A1C2H3 + CH3 <=> A1C2H3* + CH4
+degeneracy: 1.0
+long_description: |2
+
+  825
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '825'
+---
+label: A2R5 + CH3 <=> A2R5- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  826
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '826'
+---
+label: P2 + CH3 <=> P2- + CH4
+degeneracy: 1.0
+long_description: |2
+
+  827
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 62608
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '827'
+---
+label: A1 + O <=> C5H6 + CO
+degeneracy: 1.0
+long_description: |2
+
+  828
+kinetics:
+  type: Arrhenius
+  A:
+  - 5.8e+16
+  - cm^3/(mol*s)
+  n: -0.77
+  Ea:
+  - 63564.1
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '828'
+---
+label: A2R5 + OH => A2 + HCCO
+degeneracy: 1.0
+long_description: |2
+
+  829
+reversible: false
+kinetics:
+  type: Arrhenius
+  A:
+  - 176
+  - cm^3/(mol*s)
+  n: 3.25
+  Ea:
+  - 23240.6
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '829'
+---
+label: A1C2H3* + CH3 <=> INDENE + H2
+degeneracy: 1.0
+long_description: |2
+
+  830
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+18
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 303478
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '830'
+---
+label: C7H7 + CH3 <=> A1C2H3 + H2
+degeneracy: 1.0
+long_description: |2
+
+  831
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.06e+26
+  - cm^3/(mol*s)
+  n: -4
+  Ea:
+  - 22033.4
+  - J/mol
+  T0:
+  - 1
+  - K
+  comment: '831'

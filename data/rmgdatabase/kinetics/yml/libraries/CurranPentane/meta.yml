@@ -1,0 +1,16 @@
+short_description: Ignition of pentane isomers
+long_description: '
+
+  An ignition delay time and chemical kinetic modeling study of the pentane isomers
+
+  John Bugler, Brandon Marks, Olivier Mathieu, Rachel Archuleta, Alejandro Camou,
+  Claire Gregoire, Karl A. Heufer, Eric L. Petersen, Henry J. Curran
+
+  Combustion and Flame, 2016, 163, 138-156
+
+  doi: 10.1016/j.combustflame.2015.09.014
+
+
+  Adjusted the A factors of 9 reactions to meet the TST and colllision limits
+
+  '

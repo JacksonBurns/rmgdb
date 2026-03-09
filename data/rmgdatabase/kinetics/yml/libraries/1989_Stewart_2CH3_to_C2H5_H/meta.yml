@@ -1,0 +1,17 @@
+short_description: Chemically Activated Methyl Recombination to Ethyl + H from 1989
+  Stewart Calculations
+long_description: '
+
+  Chebyshev fit to the T,P-dependent k for 2CH3 = C2H5 + H from:
+
+  P.H. Stewart, et al.,
+
+  "Pressure and Temperature Dependence of Reactions Proceeding Via A Bound Complex.
+  2. Application to 2CH3 -> C2H5 + H",
+
+  Combustion and Flame 75: 25-31 (1989)
+
+  The k computed by Stewart that we fit was for a "strong collider" because "weak
+  collider" correction they provide is only valid to 900 K
+
+  '

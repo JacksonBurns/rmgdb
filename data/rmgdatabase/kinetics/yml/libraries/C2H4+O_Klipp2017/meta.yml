@@ -1,0 +1,24 @@
+short_description: C2H4 + O surface with product branching
+long_description: "\nThe reaction of atomic oxygen with ethylene is a fundamental\
+  \ oxidation step in combustion.\n\nDecomposition of the initial adduct via spin-allowed\
+  \ reaction channels on the triplet surface competes\nwith intersystem crossing (ISC)\
+  \ and a set of spin-forbidden reaction channels on the ground-state singlet\nsurface.\
+  \ This library describes product branching ratios based on the following publication:\n\
+  \nX. Li, A.W. Jasper, J. Z\xE1dor, J.A. Miller, S.J. Klippenstein,\nTheoretical\
+  \ kinetics of O + C2H4,\nProceedings of the Combustion Institute 36 (2017) 219\u2013\
+  227\nhttp://dx.doi.org/10.1016/j.proci.2016.06.053\n\nSeveral different methods\
+  \ were used:\nCCSDT(Q)/cc-pVDZ//CCSD(T)/cc-pVTZ\nFor barrierless reactions on the\
+  \ spin allowed surface CASPT2(2e,2o)/cc-pVTZ was used.\nFor reaction with barriers\
+  \ on the spin allowed surface CCSD(T)/CBS//B2PLYPD3/cc-pVTZ was used.\nThe total\
+  \ ISC rate was calculated using Landau\u2013Zener statistical theory\nnon-statistical\
+  \ \u201Cprompt\u201D branching in the dynamics immediately following ISC was predicted\
+  \ using\ndirect classical trajectories and the CASPT2(2e,2o)/cc-pVDZ surface.\n\n\
+  Pressure dependence in the product branching fractions and the potential formation\
+  \ of stabilized products were\nconsidered, but results show that rates are pressure-independent\
+  \ (with < 10% variations in the branching fractions)\nup to 20 bar at 300 K and\
+  \ up to 200 bar at 1000 K.\n\nChannels which account for less than 1% of the products\
+  \ are given in this library a low rate: 1e7 cm^3/(mol*s)\n(since reactions 1a, 1b,\
+  \ 1c, 1e, 1f are all in the 1e10-1e13 cm^3/(mol*s) range at the 300-2500 K range)\n\
+  \nThe manuscript mentioned an additional reaction e' which wasn't included in this\
+  \ library, C2H4 + O <=> CH2(S) + CH2O,\nsince its rate wasn't discussed.\n\nLibrary\
+  \ written by alongd\n"

@@ -1,0 +1,2608 @@
+label: O
+adjacency_list: |-
+  multiplicity 3
+  1 *3 O u2 p2 c0
+---
+label: CH2Cl2O2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    O  u0 p2 c0 {5,S} {6,S}
+  4    O  u0 p2 c0 {5,S} {7,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {4,S}
+---
+label: CH2ClO2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    O  u0 p2 c0 {4,S} {5,S}
+  3    O  u0 p2 c0 {4,S} {6,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: ClO
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *3 O  u1 p2 c0 {1,S}
+---
+label: HO
+adjacency_list: |-
+  multiplicity 2
+  1 *3 O u1 p2 c0 {2,S}
+  2    H u0 p0 c0 {1,S}
+---
+label: C3H5Cl3
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {4,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     Cl u0 p3 c0 {6,S}
+  4  *1 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  6     C  u0 p0 c0 {2,S} {3,S} {4,S} {11,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {6,S}
+---
+label: C3H5Cl2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {3,S}
+  3     C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+  4     C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+  5  *1 C  u1 p0 c0 {3,S} {4,S} {10,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {5,S}
+---
+label: ClHO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *3 O  u0 p2 c0 {1,S} {3,S}
+  3    H  u0 p0 c0 {2,S}
+---
+label: C2H3ClO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u0 p2 c0 {1,S} {3,S}
+  3    C  u0 p0 c0 {2,S} {4,D} {5,S}
+  4    C  u0 p0 c0 {3,D} {6,S} {7,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+---
+label: C2H3O
+adjacency_list: |-
+  multiplicity 2
+  1 *1 O u1 p2 c0 {3,S}
+  2    C u0 p0 c0 {3,D} {4,S} {5,S}
+  3    C u0 p0 c0 {1,S} {2,D} {6,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {3,S}
+---
+label: C3H5Cl3-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {4,S}
+  2     Cl u0 p3 c0 {4,S}
+  3     Cl u0 p3 c0 {6,S}
+  4  *1 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+  5     C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+  6     C  u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
+  7     H  u0 p0 c0 {5,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {6,S}
+---
+label: C3H5Cl2-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+  5  *1 C  u1 p0 c0 {2,S} {3,S} {4,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: C3H7Cl
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {2,S}
+  2  *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3     C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+---
+label: C3H7
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2     C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  3  *1 C u1 p0 c0 {1,S} {2,S} {10,S}
+  4     H u0 p0 c0 {1,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {3,S}
+---
+label: CH3
+adjacency_list: |-
+  multiplicity 2
+  1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+---
+label: CH2Cl2O
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,S} {6,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5    H  u0 p0 c0 {4,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: CH2ClO
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {5,S}
+  3 *1 C  u1 p0 c0 {1,S} {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: CH3Cl
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *3 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: H
+adjacency_list: |-
+  multiplicity 2
+  1 *3 H u1 p0 c0
+---
+label: C2H4ClO
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    O  u0 p2 c0 {4,S} {8,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {2,S}
+---
+label: C2H4O
+adjacency_list: |-
+  multiplicity 3
+  1    O u0 p2 c0 {3,S} {7,S}
+  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *1 C u2 p0 c0 {1,S} {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {1,S}
+---
+label: ClH
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *3 H  u0 p0 c0 {1,S}
+---
+label: C3H3Cl5
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     Cl u0 p3 c0 {8,S}
+  4     Cl u0 p3 c0 {8,S}
+  5     Cl u0 p3 c0 {8,S}
+  6  *1 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  7     C  u0 p0 c0 {6,S} {9,S} {10,S} {11,S}
+  8     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  9     H  u0 p0 c0 {7,S}
+  10    H  u0 p0 c0 {7,S}
+  11    H  u0 p0 c0 {7,S}
+---
+label: C3H3Cl4
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     Cl u0 p3 c0 {6,S}
+  4     Cl u0 p3 c0 {7,S}
+  5     C  u0 p0 c0 {7,S} {8,S} {9,S} {10,S}
+  6     C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7  *1 C  u1 p0 c0 {4,S} {5,S} {6,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+---
+label: CH3ClO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u0 p2 c0 {1,S} {3,S}
+  3    C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: CH3O
+adjacency_list: |-
+  multiplicity 2
+  1 *1 O u1 p2 c0 {2,S}
+  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+---
+label: C2HClO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u0 p2 c0 {1,S} {3,S}
+  3    C  u0 p0 c0 {2,S} {4,T}
+  4    C  u0 p0 c0 {3,T} {5,S}
+  5    H  u0 p0 c0 {4,S}
+---
+label: C2HO
+adjacency_list: |-
+  multiplicity 2
+  1 *1 O u1 p2 c0 {3,S}
+  2    C u0 p0 c0 {3,T} {4,S}
+  3    C u0 p0 c0 {1,S} {2,T}
+  4    H u0 p0 c0 {2,S}
+---
+label: C3H6Cl2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {11,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: C3H6Cl
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4  *1 C  u1 p0 c0 {1,S} {2,S} {10,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: Cl2O
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3 *1 O  u0 p2 c0 {1,S} {2,S}
+---
+label: ClO-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {2,S}
+  2 *1 O  u1 p2 c0 {1,S}
+---
+label: C2H4Cl
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *1 C  u1 p0 c0 {1,S} {2,S} {7,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C2H4
+adjacency_list: |-
+  multiplicity 3
+  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C u2 p0 c0 {1,S} {6,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {2,S}
+---
+label: C3H3Cl2
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,S} {5,D} {6,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    C  u0 p0 c0 {3,D} {7,S} {8,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {5,S}
+  8    H  u0 p0 c0 {5,S}
+---
+label: C3H3Cl
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {4,S}
+  2    C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3    C  u0 p0 c0 {2,D} {6,S} {7,S}
+  4 *1 C  u2 p0 c0 {1,S} {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C3HCl2
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,D}
+  4    C  u0 p0 c0 {3,D} {5,D}
+  5    C  u1 p0 c0 {4,D} {6,S}
+  6    H  u0 p0 c0 {5,S}
+---
+label: C3HCl
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {4,S}
+  2    C  u0 p0 c0 {3,D} {4,D}
+  3    C  u1 p0 c0 {2,D} {5,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,D}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C2H4Cl2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: CH2ClO2-2
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    O  u0 p2 c0 {4,S} {5,S}
+  3    O  u0 p2 c0 {4,S} {6,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: CH2O2
+adjacency_list: |-
+  multiplicity 3
+  1    O u0 p2 c0 {3,S} {4,S}
+  2    O u0 p2 c0 {3,S} {5,S}
+  3 *1 C u2 p0 c0 {1,S} {2,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {2,S}
+---
+label: CH2Cl
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 C  u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+---
+label: CH2
+adjacency_list: |-
+  multiplicity 3
+  1 *1 C u2 p0 c0 {2,S} {3,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+---
+label: CH3ClO-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {6,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {2,S}
+---
+label: CH3O-2
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {2,S} {5,S}
+  2 *1 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+---
+label: C3H7Cl-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4  *1 C  u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+---
+label: C3H7-2
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3  *1 C u1 p0 c0 {1,S} {9,S} {10,S}
+  4     H u0 p0 c0 {1,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+---
+label: C4H9Cl
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {5,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4     C  u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+  5  *1 C  u0 p0 c0 {1,S} {2,S} {13,S} {14,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {5,S}
+---
+label: C4H9
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3     C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  4  *1 C u1 p0 c0 {1,S} {12,S} {13,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {4,S}
+  13    H u0 p0 c0 {4,S}
+---
+label: CCl3
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {4,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: CCl2
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3 *1 C  u2 p0 c0 {1,S} {2,S}
+---
+label: C3H3Cl-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {4,D} {5,S} {6,S}
+  3 *1 C  u0 p0 c0 {1,S} {4,D} {7,S}
+  4    C  u0 p0 c0 {2,D} {3,D}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C3H3
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,D} {4,S} {5,S}
+  2    C u0 p0 c0 {1,D} {3,D}
+  3 *1 C u1 p0 c0 {2,D} {6,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {3,S}
+---
+label: C2H3Cl2
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C2H3Cl
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *1 C  u2 p0 c0 {1,S} {2,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+---
+label: C3H4Cl4
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     Cl u0 p3 c0 {7,S}
+  4     Cl u0 p3 c0 {7,S}
+  5  *1 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  6     C  u0 p0 c0 {5,S} {8,S} {9,S} {10,S}
+  7     C  u0 p0 c0 {3,S} {4,S} {5,S} {11,S}
+  8     H  u0 p0 c0 {6,S}
+  9     H  u0 p0 c0 {6,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {7,S}
+---
+label: C3H4Cl3
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     Cl u0 p3 c0 {4,S}
+  3     Cl u0 p3 c0 {6,S}
+  4     C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  5     C  u0 p0 c0 {6,S} {8,S} {9,S} {10,S}
+  6  *1 C  u1 p0 c0 {3,S} {4,S} {5,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+---
+label: C2H2Cl
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3 *1 C  u1 p0 c0 {1,S} {2,D}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: C2H2
+adjacency_list: |-
+  multiplicity 3
+  1    C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 *1 C u2 p0 c0 {1,D}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+---
+label: CH3Cl-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: CH3-2
+adjacency_list: |-
+  multiplicity 2
+  1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+---
+label: C2H3Cl-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,D} {6,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: C2H3
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 *1 C u1 p0 c0 {1,D} {5,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {2,S}
+---
+label: C3H6Cl2-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {5,S}
+  3  *1 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4     C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  5     C  u0 p0 c0 {2,S} {3,S} {10,S} {11,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: C3H6Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {2,S}
+  2     C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {4,S} {7,S} {8,S} {9,S}
+  4  *1 C  u1 p0 c0 {2,S} {3,S} {10,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: C3H6Cl2-3
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {3,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4     C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6     H  u0 p0 c0 {4,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: C3H6Cl-3
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+---
+label: C3H4Cl4-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {7,S}
+  3     Cl u0 p3 c0 {7,S}
+  4     Cl u0 p3 c0 {7,S}
+  5  *1 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6     C  u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+  7     C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {6,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {6,S}
+---
+label: C3H4Cl3-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     Cl u0 p3 c0 {5,S}
+  4     C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+  5     C  u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
+  6  *1 C  u1 p0 c0 {4,S} {5,S} {10,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {6,S}
+---
+label: C2HCl
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,T} {4,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,T}
+  4    H  u0 p0 c0 {2,S}
+---
+label: C2H
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,T} {3,S}
+  2 *1 C u1 p0 c0 {1,T}
+  3    H u0 p0 c0 {1,S}
+---
+label: C3H5Cl3-3
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     Cl u0 p3 c0 {6,S}
+  4     C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  6  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: C3H5Cl2-3
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5  *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: C2H5Cl
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {3,S}
+---
+label: C2H5
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *1 C u1 p0 c0 {1,S} {6,S} {7,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {2,S}
+---
+label: C3H5Cl
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,D}
+  4    C  u0 p0 c0 {3,D} {8,S} {9,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {2,S}
+  8    H  u0 p0 c0 {4,S}
+  9    H  u0 p0 c0 {4,S}
+---
+label: C3H5
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2    C u0 p0 c0 {3,D} {7,S} {8,S}
+  3 *1 C u1 p0 c0 {1,S} {2,D}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+  7    H u0 p0 c0 {2,S}
+  8    H u0 p0 c0 {2,S}
+---
+label: CHCl2O
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,S} {5,S}
+  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: CHClO
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {4,S}
+  3 *1 C  u2 p0 c0 {1,S} {2,S}
+  4    H  u0 p0 c0 {2,S}
+---
+label: CHCl3O
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    O  u0 p2 c0 {5,S} {6,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  6    H  u0 p0 c0 {4,S}
+---
+label: CH2ClO-2
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {5,S}
+  3 *1 C  u1 p0 c0 {1,S} {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: CH2O
+adjacency_list: |-
+  multiplicity 3
+  1    O u0 p2 c0 {2,S} {3,S}
+  2 *1 C u2 p0 c0 {1,S} {4,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {2,S}
+---
+label: C2H5ClO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {9,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+  9    H  u0 p0 c0 {2,S}
+---
+label: C2H5O
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {3,S} {8,S}
+  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *1 C u1 p0 c0 {1,S} {2,S} {7,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {3,S}
+  8    H u0 p0 c0 {1,S}
+---
+label: C3H6Cl-4
+adjacency_list: |-
+  multiplicity 2
+  1  *2 Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+---
+label: C3H6
+adjacency_list: |-
+  multiplicity 3
+  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2    C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  3 *1 C u2 p0 c0 {1,S} {2,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+  7    H u0 p0 c0 {2,S}
+  8    H u0 p0 c0 {2,S}
+  9    H u0 p0 c0 {2,S}
+---
+label: C2H3Cl3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: C2H2Cl4
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {6,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  6    C  u0 p0 c0 {3,S} {4,S} {5,S} {8,S}
+  7    H  u0 p0 c0 {5,S}
+  8    H  u0 p0 c0 {6,S}
+---
+label: ClH-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 H  u0 p0 c0 {1,S}
+---
+label: C2H2Cl3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
+  5 *3 C  u1 p0 c0 {3,S} {4,S} {7,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {5,S}
+---
+label: Cl2
+adjacency_list: |-
+  1 *1 Cl u0 p3 c0 {2,S}
+  2 *2 Cl u0 p3 c0 {1,S}
+---
+label: CFO
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {3,S}
+  2    O u0 p2 c0 {3,D}
+  3 *3 C u1 p0 c0 {1,S} {2,D}
+---
+label: CClFO
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,D}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,D}
+---
+label: Cl
+adjacency_list: |-
+  multiplicity 2
+  1 *3 Cl u1 p3 c0
+---
+label: ClO-3
+adjacency_list: |-
+  multiplicity 2
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u1 p2 c0 {1,S}
+---
+label: C2H2Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,D} {4,S} {5,S}
+  3 *3 C  u1 p0 c0 {1,S} {2,D}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+---
+label: C2H2Cl2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {4,S}
+  2 *2 Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,D} {5,S} {6,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,D}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+---
+label: CH2Cl2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C2H4Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *3 C  u1 p0 c0 {1,S} {2,S} {7,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: CH2Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {2,S}
+  2 *3 C  u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+---
+label: C4H6Cl2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     C  u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
+  4     C  u0 p0 c0 {5,S} {10,S} {11,S} {12,S}
+  5     C  u0 p0 c0 {3,S} {4,S} {6,D}
+  6  *1 C  u0 p0 c0 {1,S} {2,S} {5,D}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+---
+label: C4H6Cl
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  3     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  4     C  u0 p0 c0 {2,S} {3,S} {5,D}
+  5  *3 C  u1 p0 c0 {1,S} {4,D}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {2,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {3,S}
+---
+label: C2H2ClF
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {3,S}
+  3    C  u0 p0 c0 {2,S} {4,D} {5,S}
+  4 *1 C  u0 p0 c0 {1,S} {3,D} {6,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+---
+label: C2H2F
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {2,S}
+  2    C u0 p0 c0 {1,S} {3,D} {4,S}
+  3 *3 C u1 p0 c0 {2,D} {5,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {3,S}
+---
+label: CH2ClF
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    F  u0 p3 c0 {3,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C2H4F
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {3,S}
+  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *3 C u1 p0 c0 {1,S} {2,S} {7,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {3,S}
+---
+label: C2H4ClF
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    F  u0 p3 c0 {3,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: CH2F
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {2,S}
+  2 *3 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+---
+label: C6H12Cl
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {7,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+  3     C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4     C  u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+  5     C  u0 p0 c0 {2,S} {14,S} {15,S} {16,S}
+  6     C  u0 p0 c0 {7,S} {17,S} {18,S} {19,S}
+  7  *3 C  u1 p0 c0 {1,S} {2,S} {6,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+  14    H  u0 p0 c0 {5,S}
+  15    H  u0 p0 c0 {5,S}
+  16    H  u0 p0 c0 {5,S}
+  17    H  u0 p0 c0 {6,S}
+  18    H  u0 p0 c0 {6,S}
+  19    H  u0 p0 c0 {6,S}
+---
+label: C6H12Cl2
+adjacency_list: |-
+  1     Cl u0 p3 c0 {4,S}
+  2  *2 Cl u0 p3 c0 {4,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
+  6     C  u0 p0 c0 {3,S} {15,S} {16,S} {17,S}
+  7     C  u0 p0 c0 {3,S} {18,S} {19,S} {20,S}
+  8     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  9     H  u0 p0 c0 {8,S}
+  10    H  u0 p0 c0 {8,S}
+  11    H  u0 p0 c0 {8,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {5,S}
+  15    H  u0 p0 c0 {6,S}
+  16    H  u0 p0 c0 {6,S}
+  17    H  u0 p0 c0 {6,S}
+  18    H  u0 p0 c0 {7,S}
+  19    H  u0 p0 c0 {7,S}
+  20    H  u0 p0 c0 {7,S}
+---
+label: CCl3F
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    F  u0 p3 c0 {5,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+---
+label: CCl2F
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    F  u0 p3 c0 {4,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: ClF
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 F  u0 p3 c0 {1,S}
+---
+label: CCl3-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {4,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: CCl4
+adjacency_list: |-
+  1    Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4 *2 Cl u0 p3 c0 {5,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+---
+label: F
+adjacency_list: |-
+  multiplicity 2
+  1 *3 F u1 p3 c0
+---
+label: ClHO-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u0 p2 c0 {1,S} {3,S}
+  3    H  u0 p0 c0 {2,S}
+---
+label: CClF2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {4,S}
+  3    F  u0 p3 c0 {4,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: CCl2F2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {5,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    F  u0 p3 c0 {5,S}
+  4    F  u0 p3 c0 {5,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+---
+label: CClF3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    F  u0 p3 c0 {5,S}
+  3    F  u0 p3 c0 {5,S}
+  4    F  u0 p3 c0 {5,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+---
+label: CF3
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {4,S}
+  2    F u0 p3 c0 {4,S}
+  3    F u0 p3 c0 {4,S}
+  4 *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: C3H5Cl2-4
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5  *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: CHClF
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    F  u0 p3 c0 {3,S}
+  3 *3 C  u1 p0 c0 {1,S} {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+---
+label: CHCl2F
+adjacency_list: |-
+  1    Cl u0 p3 c0 {4,S}
+  2 *2 Cl u0 p3 c0 {4,S}
+  3    F  u0 p3 c0 {4,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5    H  u0 p0 c0 {4,S}
+---
+label: C5H10Cl
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {6,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4     C  u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+  5     C  u0 p0 c0 {6,S} {14,S} {15,S} {16,S}
+  6  *3 C  u1 p0 c0 {1,S} {2,S} {5,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+  14    H  u0 p0 c0 {5,S}
+  15    H  u0 p0 c0 {5,S}
+  16    H  u0 p0 c0 {5,S}
+---
+label: C5H10Cl2
+adjacency_list: |-
+  1     Cl u0 p3 c0 {4,S}
+  2  *2 Cl u0 p3 c0 {4,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
+  4  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  5     C  u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
+  6     C  u0 p0 c0 {3,S} {15,S} {16,S} {17,S}
+  7     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {7,S}
+  10    H  u0 p0 c0 {7,S}
+  11    H  u0 p0 c0 {7,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {5,S}
+  15    H  u0 p0 c0 {6,S}
+  16    H  u0 p0 c0 {6,S}
+  17    H  u0 p0 c0 {6,S}
+---
+label: C2H4Cl2O
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,S} {9,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5    C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  6    H  u0 p0 c0 {5,S}
+  7    H  u0 p0 c0 {5,S}
+  8    H  u0 p0 c0 {5,S}
+  9    H  u0 p0 c0 {3,S}
+---
+label: C2H4ClO-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    O  u0 p2 c0 {4,S} {8,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {2,S}
+---
+label: BrCl
+adjacency_list: |-
+  1 *1 Br u0 p3 c0 {2,S}
+  2 *2 Cl u0 p3 c0 {1,S}
+---
+label: Br
+adjacency_list: |-
+  multiplicity 2
+  1 *3 Br u1 p3 c0
+---
+label: C2H2Cl2-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {4,S}
+  3 *1 C  u0 p0 c0 {1,S} {4,D} {5,S}
+  4    C  u0 p0 c0 {2,S} {3,D} {6,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+---
+label: C2H2Cl-3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {2,S}
+  2    C  u0 p0 c0 {1,S} {3,D} {4,S}
+  3 *3 C  u1 p0 c0 {2,D} {5,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: ClHO2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,S} {4,S}
+  3 *1 O  u0 p2 c0 {1,S} {2,S}
+  4    H  u0 p0 c0 {2,S}
+---
+label: HO2
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {2,S} {3,S}
+  2 *3 O u1 p2 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+---
+label: C5H11
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
+  2     C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  3     C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+  4     C u0 p0 c0 {5,S} {13,S} {14,S} {15,S}
+  5  *3 C u1 p0 c0 {1,S} {4,S} {16,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {3,S}
+  13    H u0 p0 c0 {4,S}
+  14    H u0 p0 c0 {4,S}
+  15    H u0 p0 c0 {4,S}
+  16    H u0 p0 c0 {5,S}
+---
+label: C5H11Cl
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {6,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  5     C  u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+  6     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {6,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+  14    H  u0 p0 c0 {4,S}
+  15    H  u0 p0 c0 {5,S}
+  16    H  u0 p0 c0 {5,S}
+  17    H  u0 p0 c0 {5,S}
+---
+label: C2Cl2F4
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {7,S}
+  2    Cl u0 p3 c0 {8,S}
+  3    F  u0 p3 c0 {7,S}
+  4    F  u0 p3 c0 {7,S}
+  5    F  u0 p3 c0 {8,S}
+  6    F  u0 p3 c0 {8,S}
+  7 *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
+  8    C  u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+---
+label: C2ClF4
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {6,S}
+  2    F  u0 p3 c0 {6,S}
+  3    F  u0 p3 c0 {6,S}
+  4    F  u0 p3 c0 {7,S}
+  5    F  u0 p3 c0 {7,S}
+  6    C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7 *3 C  u1 p0 c0 {4,S} {5,S} {6,S}
+---
+label: C4H9-2
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2     C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  3     C u0 p0 c0 {4,S} {10,S} {11,S} {12,S}
+  4  *3 C u1 p0 c0 {1,S} {3,S} {13,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {3,S}
+  13    H u0 p0 c0 {4,S}
+---
+label: C4H9Cl-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {2,S}
+  2  *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5     C  u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {5,S}
+---
+label: C6H13
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {4,S} {6,S}
+  2     C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
+  3     C u0 p0 c0 {1,S} {10,S} {11,S} {12,S}
+  4     C u0 p0 c0 {1,S} {13,S} {14,S} {15,S}
+  5     C u0 p0 c0 {6,S} {16,S} {17,S} {18,S}
+  6  *3 C u1 p0 c0 {1,S} {5,S} {19,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {3,S}
+  13    H u0 p0 c0 {4,S}
+  14    H u0 p0 c0 {4,S}
+  15    H u0 p0 c0 {4,S}
+  16    H u0 p0 c0 {5,S}
+  17    H u0 p0 c0 {5,S}
+  18    H u0 p0 c0 {5,S}
+  19    H u0 p0 c0 {6,S}
+---
+label: C6H13Cl
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  5     C  u0 p0 c0 {2,S} {15,S} {16,S} {17,S}
+  6     C  u0 p0 c0 {2,S} {18,S} {19,S} {20,S}
+  7     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {7,S}
+  10    H  u0 p0 c0 {7,S}
+  11    H  u0 p0 c0 {7,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+  14    H  u0 p0 c0 {4,S}
+  15    H  u0 p0 c0 {5,S}
+  16    H  u0 p0 c0 {5,S}
+  17    H  u0 p0 c0 {5,S}
+  18    H  u0 p0 c0 {6,S}
+  19    H  u0 p0 c0 {6,S}
+  20    H  u0 p0 c0 {6,S}
+---
+label: CCl2O
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,D}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,D}
+---
+label: CClO
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,D}
+  3 *3 C  u1 p0 c0 {1,S} {2,D}
+---
+label: C2H3Cl3-2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {4,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 *1 C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {5,S}
+---
+label: C2H3Cl2-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4 *3 C  u1 p0 c0 {2,S} {3,S} {7,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {4,S}
+---
+label: CHCl3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {4,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5    H  u0 p0 c0 {4,S}
+---
+label: CHCl2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3 *3 C  u1 p0 c0 {1,S} {2,S} {4,S}
+  4    H  u0 p0 c0 {3,S}
+---
+label: C2Cl3F3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {8,S}
+  2    Cl u0 p3 c0 {8,S}
+  3    Cl u0 p3 c0 {8,S}
+  4    F  u0 p3 c0 {7,S}
+  5    F  u0 p3 c0 {7,S}
+  6    F  u0 p3 c0 {7,S}
+  7    C  u0 p0 c0 {4,S} {5,S} {6,S} {8,S}
+  8 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+---
+label: C2Cl2F3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {7,S}
+  2    Cl u0 p3 c0 {7,S}
+  3    F  u0 p3 c0 {6,S}
+  4    F  u0 p3 c0 {6,S}
+  5    F  u0 p3 c0 {6,S}
+  6    C  u0 p0 c0 {3,S} {4,S} {5,S} {7,S}
+  7 *3 C  u1 p0 c0 {1,S} {2,S} {6,S}
+---
+label: C3H4Cl2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  4    C  u0 p0 c0 {3,S} {5,D} {9,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {4,D}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {3,S}
+  9    H  u0 p0 c0 {4,S}
+---
+label: C3H4Cl
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  3    C  u0 p0 c0 {2,S} {4,D} {8,S}
+  4 *3 C  u1 p0 c0 {1,S} {3,D}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {2,S}
+  8    H  u0 p0 c0 {3,S}
+---
+label: C2Cl5
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {6,S}
+  2    Cl u0 p3 c0 {6,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {7,S}
+  5    Cl u0 p3 c0 {7,S}
+  6    C  u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
+  7 *3 C  u1 p0 c0 {4,S} {5,S} {6,S}
+---
+label: C2Cl6
+adjacency_list: |-
+  1    Cl u0 p3 c0 {7,S}
+  2    Cl u0 p3 c0 {7,S}
+  3 *2 Cl u0 p3 c0 {7,S}
+  4    Cl u0 p3 c0 {8,S}
+  5    Cl u0 p3 c0 {8,S}
+  6    Cl u0 p3 c0 {8,S}
+  7 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
+  8    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+---
+label: C2H3Cl-3
+adjacency_list: |-
+  multiplicity 3
+  1    Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *3 C  u2 p0 c0 {1,S} {2,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+---
+label: C2H3-2
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 *3 C u1 p0 c0 {1,D} {5,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {2,S}
+---
+label: C2H5-2
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
+  3    H u0 p0 c0 {1,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {2,S}
+---
+label: C3H6F
+adjacency_list: |-
+  multiplicity 2
+  1     F u0 p3 c0 {4,S}
+  2     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H u0 p0 c0 {2,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {3,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+---
+label: C3H6ClF
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     F  u0 p3 c0 {3,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4     C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6     H  u0 p0 c0 {4,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: CBrClF2
+adjacency_list: |-
+  1    Br u0 p3 c0 {5,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    F  u0 p3 c0 {5,S}
+  4    F  u0 p3 c0 {5,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+---
+label: CBrF2
+adjacency_list: |-
+  multiplicity 2
+  1    Br u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {4,S}
+  3    F  u0 p3 c0 {4,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+---
+label: C3H7-3
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2     C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  3  *3 C u1 p0 c0 {1,S} {2,S} {10,S}
+  4     H u0 p0 c0 {1,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {3,S}
+---
+label: C2H3Cl2-3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C4H8Cl2
+adjacency_list: |-
+  1     Cl u0 p3 c0 {3,S}
+  2  *2 Cl u0 p3 c0 {6,S}
+  3     C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4     C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  5     C  u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+  6  *1 C  u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {6,S}
+  14    H  u0 p0 c0 {6,S}
+---
+label: C4H8Cl
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {2,S}
+  2     C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3     C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5  *3 C  u1 p0 c0 {2,S} {12,S} {13,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+---
+label: C2H5ClO-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 O  u0 p2 c0 {1,S} {3,S}
+  3    C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4    C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+  9    H  u0 p0 c0 {4,S}
+---
+label: C2H5O-2
+adjacency_list: |-
+  multiplicity 2
+  1 *3 O u1 p2 c0 {2,S}
+  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3    C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {3,S}
+  7    H u0 p0 c0 {3,S}
+  8    H u0 p0 c0 {3,S}
+---
+label: C4H7Cl2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5     C  u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  6  *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+---
+label: C4H7Cl3
+adjacency_list: |-
+  1     Cl u0 p3 c0 {7,S}
+  2     Cl u0 p3 c0 {7,S}
+  3  *2 Cl u0 p3 c0 {7,S}
+  4     C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  6     C  u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
+  7  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {6,S}
+  13    H  u0 p0 c0 {6,S}
+  14    H  u0 p0 c0 {6,S}
+---
+label: CH2-2
+adjacency_list: |-
+  multiplicity 3
+  1 *3 C u2 p0 c0 {2,S} {3,S}
+  2    H u0 p0 c0 {1,S}
+  3    H u0 p0 c0 {1,S}
+---
+label: C3H7ClO
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     O  u0 p2 c0 {3,S} {12,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4     C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6     H  u0 p0 c0 {4,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {2,S}
+---
+label: C3H7O
+adjacency_list: |-
+  multiplicity 2
+  1     O u0 p2 c0 {4,S} {11,S}
+  2     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H u0 p0 c0 {2,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {3,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {1,S}
+---
+label: C4H8Cl2-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {6,S}
+  2     Cl u0 p3 c0 {6,S}
+  3     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4     C  u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  5     C  u0 p0 c0 {3,S} {11,S} {12,S} {13,S}
+  6  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {14,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {6,S}
+---
+label: C4H8Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4     C  u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
+  5  *3 C  u1 p0 c0 {1,S} {2,S} {13,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {5,S}
+---
+label: C4H9-3
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  2     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  3     C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+  4  *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {1,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {2,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {3,S}
+  13    H u0 p0 c0 {3,S}
+---
+label: C4H9Cl-3
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {2,S}
+  2  *1 C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3     C  u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
+  4     C  u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
+  5     C  u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
+  6     H  u0 p0 c0 {3,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {5,S}
+  14    H  u0 p0 c0 {5,S}
+---
+label: C3H6Cl-5
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {3,S}
+  2     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {1,S} {4,S} {8,S} {9,S}
+  4  *3 C  u1 p0 c0 {2,S} {3,S} {10,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: CHClO-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    O  u0 p2 c0 {3,D}
+  3 *1 C  u0 p0 c0 {1,S} {2,D} {4,S}
+  4    H  u0 p0 c0 {3,S}
+---
+label: CHO
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {2,D}
+  2 *3 C u1 p0 c0 {1,D} {3,S}
+  3    H u0 p0 c0 {2,S}
+---
+label: C3H6Cl-6
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+---
+label: CH2Br
+adjacency_list: |-
+  multiplicity 2
+  1    Br u0 p3 c0 {2,S}
+  2 *3 C  u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H  u0 p0 c0 {2,S}
+  4    H  u0 p0 c0 {2,S}
+---
+label: CH2BrCl
+adjacency_list: |-
+  1    Br u0 p3 c0 {3,S}
+  2 *2 Cl u0 p3 c0 {3,S}
+  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4    H  u0 p0 c0 {3,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C2HCl3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4 *1 C  u0 p0 c0 {1,S} {5,D} {6,S}
+  5    C  u0 p0 c0 {2,S} {3,S} {4,D}
+  6    H  u0 p0 c0 {4,S}
+---
+label: C2HCl2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3    C  u0 p0 c0 {1,S} {2,S} {4,D}
+  4 *3 C  u1 p0 c0 {3,D} {5,S}
+  5    H  u0 p0 c0 {4,S}
+---
+label: C2H-2
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,T} {3,S}
+  2 *3 C u1 p0 c0 {1,T}
+  3    H u0 p0 c0 {1,S}
+---
+label: C2HCl5
+adjacency_list: |-
+  1    Cl u0 p3 c0 {6,S}
+  2    Cl u0 p3 c0 {6,S}
+  3 *2 Cl u0 p3 c0 {7,S}
+  4    Cl u0 p3 c0 {7,S}
+  5    Cl u0 p3 c0 {7,S}
+  6    C  u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
+  7 *1 C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  8    H  u0 p0 c0 {6,S}
+---
+label: C2HCl4
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {6,S}
+  5    C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
+  6 *3 C  u1 p0 c0 {3,S} {4,S} {5,S}
+  7    H  u0 p0 c0 {5,S}
+---
+label: C2Cl4
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {6,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {6,D}
+  6    C  u0 p0 c0 {3,S} {4,S} {5,D}
+---
+label: C2Cl3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {1,S} {2,S} {5,D}
+  5 *3 C  u1 p0 c0 {3,S} {4,D}
+---
+label: C6H12Cl2-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {4,S}
+  3  *1 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4     C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6     C  u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
+  7     C  u0 p0 c0 {4,S} {15,S} {16,S} {17,S}
+  8     C  u0 p0 c0 {4,S} {18,S} {19,S} {20,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {6,S}
+  13    H  u0 p0 c0 {6,S}
+  14    H  u0 p0 c0 {6,S}
+  15    H  u0 p0 c0 {7,S}
+  16    H  u0 p0 c0 {7,S}
+  17    H  u0 p0 c0 {7,S}
+  18    H  u0 p0 c0 {8,S}
+  19    H  u0 p0 c0 {8,S}
+  20    H  u0 p0 c0 {8,S}
+---
+label: C6H12Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {2,S}
+  2     C  u0 p0 c0 {1,S} {3,S} {4,S} {7,S}
+  3     C  u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4     C  u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
+  5     C  u0 p0 c0 {7,S} {14,S} {15,S} {16,S}
+  6     C  u0 p0 c0 {7,S} {17,S} {18,S} {19,S}
+  7  *3 C  u1 p0 c0 {2,S} {5,S} {6,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+  14    H  u0 p0 c0 {5,S}
+  15    H  u0 p0 c0 {5,S}
+  16    H  u0 p0 c0 {5,S}
+  17    H  u0 p0 c0 {6,S}
+  18    H  u0 p0 c0 {6,S}
+  19    H  u0 p0 c0 {6,S}
+---
+label: C4H6Cl4
+adjacency_list: |-
+  1     Cl u0 p3 c0 {5,S}
+  2  *2 Cl u0 p3 c0 {8,S}
+  3     Cl u0 p3 c0 {8,S}
+  4     Cl u0 p3 c0 {8,S}
+  5     C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6     C  u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+  7     C  u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
+  8  *1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  9     H  u0 p0 c0 {6,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {7,S}
+  13    H  u0 p0 c0 {7,S}
+  14    H  u0 p0 c0 {7,S}
+---
+label: C4H6Cl3
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     Cl u0 p3 c0 {7,S}
+  3     Cl u0 p3 c0 {7,S}
+  4     C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  6     C  u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+  7  *3 C  u1 p0 c0 {2,S} {3,S} {4,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {6,S}
+  13    H  u0 p0 c0 {6,S}
+---
+label: CHF2
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {3,S}
+  2    F u0 p3 c0 {3,S}
+  3 *3 C u1 p0 c0 {1,S} {2,S} {4,S}
+  4    H u0 p0 c0 {3,S}
+---
+label: CHClF2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {4,S}
+  3    F  u0 p3 c0 {4,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5    H  u0 p0 c0 {4,S}
+---
+label: C3H5-2
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2    C u0 p0 c0 {3,D} {7,S} {8,S}
+  3 *3 C u1 p0 c0 {1,S} {2,D}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+  7    H u0 p0 c0 {2,S}
+  8    H u0 p0 c0 {2,S}
+---
+label: C3H6-2
+adjacency_list: |-
+  multiplicity 3
+  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  2    C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  3 *3 C u2 p0 c0 {1,S} {2,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {1,S}
+  6    H u0 p0 c0 {1,S}
+  7    H u0 p0 c0 {2,S}
+  8    H u0 p0 c0 {2,S}
+  9    H u0 p0 c0 {2,S}
+---
+label: C2H3Cl3-3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4 *1 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5    C  u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {5,S}
+---
+label: C2H3Cl2-4
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {3,S}
+  3    C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4 *3 C  u1 p0 c0 {3,S} {6,S} {7,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+---
+label: C2H2Cl4-2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {5,S}
+  2 *2 Cl u0 p3 c0 {6,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {6,S}
+  5    C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6 *1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  7    H  u0 p0 c0 {5,S}
+  8    H  u0 p0 c0 {5,S}
+---
+label: C2H2Cl3-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 *3 C  u1 p0 c0 {2,S} {3,S} {4,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+---
+label: C2H4ClF-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {3,S}
+  3    C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  4 *1 C  u0 p0 c0 {1,S} {3,S} {7,S} {8,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: C2H4F-2
+adjacency_list: |-
+  multiplicity 2
+  1    F u0 p3 c0 {2,S}
+  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *3 C u1 p0 c0 {2,S} {6,S} {7,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {3,S}
+  7    H u0 p0 c0 {3,S}
+---
+label: C4H7Cl
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {5,S}
+  2     C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  3     C  u0 p0 c0 {4,S} {9,S} {10,S} {11,S}
+  4     C  u0 p0 c0 {2,S} {3,S} {5,D}
+  5  *1 C  u0 p0 c0 {1,S} {4,D} {12,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {2,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {3,S}
+  12    H  u0 p0 c0 {5,S}
+---
+label: C4H7
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  2     C u0 p0 c0 {3,S} {8,S} {9,S} {10,S}
+  3     C u0 p0 c0 {1,S} {2,S} {4,D}
+  4  *3 C u1 p0 c0 {3,D} {11,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {1,S}
+  7     H u0 p0 c0 {1,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {2,S}
+  10    H u0 p0 c0 {2,S}
+  11    H u0 p0 c0 {4,S}
+---
+label: C3H6Cl-7
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3     C  u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
+  4  *3 C  u1 p0 c0 {1,S} {2,S} {10,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+---
+label: C2H3ClF
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    F  u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C2H3Cl2F
+adjacency_list: |-
+  1    Cl u0 p3 c0 {5,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    F  u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+  6    H  u0 p0 c0 {4,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: CH3O-3
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {2,S} {5,S}
+  2 *3 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3    H u0 p0 c0 {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {1,S}
+---
+label: C2H4Cl2-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {4,S}
+  3 *1 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4    C  u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {4,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: C2H4Cl-3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {2,S}
+  2    C  u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
+  3 *3 C  u1 p0 c0 {2,S} {6,S} {7,S}
+  4    H  u0 p0 c0 {2,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C4H6Cl3F
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {8,S}
+  2     Cl u0 p3 c0 {8,S}
+  3     Cl u0 p3 c0 {8,S}
+  4     F  u0 p3 c0 {5,S}
+  5     C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  6     C  u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+  7     C  u0 p0 c0 {5,S} {12,S} {13,S} {14,S}
+  8  *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  9     H  u0 p0 c0 {6,S}
+  10    H  u0 p0 c0 {6,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {7,S}
+  13    H  u0 p0 c0 {7,S}
+  14    H  u0 p0 c0 {7,S}
+---
+label: C4H6Cl2F
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {7,S}
+  2     Cl u0 p3 c0 {7,S}
+  3     F  u0 p3 c0 {4,S}
+  4     C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  5     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  6     C  u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+  7  *3 C  u1 p0 c0 {1,S} {2,S} {4,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {6,S}
+  13    H  u0 p0 c0 {6,S}
+---
+label: C3H4Cl2-2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {4,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    C  u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
+  4    C  u0 p0 c0 {1,S} {3,S} {5,D}
+  5 *1 C  u0 p0 c0 {2,S} {4,D} {9,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {3,S}
+  9    H  u0 p0 c0 {5,S}
+---
+label: C3H4Cl-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    C  u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
+  3    C  u0 p0 c0 {1,S} {2,S} {4,D}
+  4 *3 C  u1 p0 c0 {3,D} {8,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {2,S}
+  8    H  u0 p0 c0 {4,S}
+---
+label: C3H5Cl-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {2,S}
+  2 *1 C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
+  3    C  u0 p0 c0 {2,S} {4,D} {7,S}
+  4    C  u0 p0 c0 {3,D} {8,S} {9,S}
+  5    H  u0 p0 c0 {2,S}
+  6    H  u0 p0 c0 {2,S}
+  7    H  u0 p0 c0 {3,S}
+  8    H  u0 p0 c0 {4,S}
+  9    H  u0 p0 c0 {4,S}
+---
+label: C3H5-3
+adjacency_list: |-
+  multiplicity 2
+  1    C u0 p0 c0 {2,S} {3,D} {4,S}
+  2 *3 C u1 p0 c0 {1,S} {5,S} {6,S}
+  3    C u0 p0 c0 {1,D} {7,S} {8,S}
+  4    H u0 p0 c0 {1,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+  7    H u0 p0 c0 {3,S}
+  8    H u0 p0 c0 {3,S}
+---
+label: CHCl2O-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    O  u0 p2 c0 {4,S} {5,S}
+  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C3H6BrCl
+adjacency_list: |-
+  1     Br u0 p3 c0 {3,S}
+  2  *2 Cl u0 p3 c0 {3,S}
+  3  *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
+  4     C  u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
+  5     C  u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
+  6     H  u0 p0 c0 {4,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+---
+label: C3H6Br
+adjacency_list: |-
+  multiplicity 2
+  1     Br u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  3     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  4  *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+  5     H  u0 p0 c0 {2,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+---
+label: C4H9-4
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3     C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
+  4  *3 C u1 p0 c0 {1,S} {12,S} {13,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}
+  11    H u0 p0 c0 {3,S}
+  12    H u0 p0 c0 {4,S}
+  13    H u0 p0 c0 {4,S}
+---
+label: C4H8Cl2-3
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {3,S}
+  2     Cl u0 p3 c0 {6,S}
+  3  *1 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
+  4     C  u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
+  5     C  u0 p0 c0 {3,S} {10,S} {11,S} {12,S}
+  6     C  u0 p0 c0 {2,S} {3,S} {13,S} {14,S}
+  7     H  u0 p0 c0 {4,S}
+  8     H  u0 p0 c0 {4,S}
+  9     H  u0 p0 c0 {4,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {5,S}
+  12    H  u0 p0 c0 {5,S}
+  13    H  u0 p0 c0 {6,S}
+  14    H  u0 p0 c0 {6,S}
+---
+label: C4H8Cl-3
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {4,S}
+  2     C  u0 p0 c0 {5,S} {6,S} {7,S} {8,S}
+  3     C  u0 p0 c0 {5,S} {9,S} {10,S} {11,S}
+  4     C  u0 p0 c0 {1,S} {5,S} {12,S} {13,S}
+  5  *3 C  u1 p0 c0 {2,S} {3,S} {4,S}
+  6     H  u0 p0 c0 {2,S}
+  7     H  u0 p0 c0 {2,S}
+  8     H  u0 p0 c0 {2,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {3,S}
+  11    H  u0 p0 c0 {3,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {4,S}
+---
+label: C2H2Cl4-3
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {5,S}
+  2    Cl u0 p3 c0 {6,S}
+  3    Cl u0 p3 c0 {6,S}
+  4    Cl u0 p3 c0 {6,S}
+  5 *1 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  6    C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  7    H  u0 p0 c0 {5,S}
+  8    H  u0 p0 c0 {5,S}
+---
+label: C2H2Cl3-3
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {4,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    Cl u0 p3 c0 {4,S}
+  4    C  u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
+  5 *3 C  u1 p0 c0 {4,S} {6,S} {7,S}
+  6    H  u0 p0 c0 {5,S}
+  7    H  u0 p0 c0 {5,S}
+---
+label: C4H7Cl3-2
+adjacency_list: |-
+  1  *2 Cl u0 p3 c0 {4,S}
+  2     Cl u0 p3 c0 {7,S}
+  3     Cl u0 p3 c0 {7,S}
+  4  *1 C  u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5     C  u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
+  6     C  u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
+  7     C  u0 p0 c0 {2,S} {3,S} {4,S} {14,S}
+  8     H  u0 p0 c0 {5,S}
+  9     H  u0 p0 c0 {5,S}
+  10    H  u0 p0 c0 {5,S}
+  11    H  u0 p0 c0 {6,S}
+  12    H  u0 p0 c0 {6,S}
+  13    H  u0 p0 c0 {6,S}
+  14    H  u0 p0 c0 {7,S}
+---
+label: C4H7Cl2-2
+adjacency_list: |-
+  multiplicity 2
+  1     Cl u0 p3 c0 {5,S}
+  2     Cl u0 p3 c0 {5,S}
+  3     C  u0 p0 c0 {6,S} {7,S} {8,S} {9,S}
+  4     C  u0 p0 c0 {6,S} {10,S} {11,S} {12,S}
+  5     C  u0 p0 c0 {1,S} {2,S} {6,S} {13,S}
+  6  *3 C  u1 p0 c0 {3,S} {4,S} {5,S}
+  7     H  u0 p0 c0 {3,S}
+  8     H  u0 p0 c0 {3,S}
+  9     H  u0 p0 c0 {3,S}
+  10    H  u0 p0 c0 {4,S}
+  11    H  u0 p0 c0 {4,S}
+  12    H  u0 p0 c0 {4,S}
+  13    H  u0 p0 c0 {5,S}
+---
+label: C2HCl3-2
+adjacency_list: |-
+  1    Cl u0 p3 c0 {4,S}
+  2 *2 Cl u0 p3 c0 {5,S}
+  3    Cl u0 p3 c0 {5,S}
+  4    C  u0 p0 c0 {1,S} {5,D} {6,S}
+  5 *1 C  u0 p0 c0 {2,S} {3,S} {4,D}
+  6    H  u0 p0 c0 {4,S}
+---
+label: C2HCl2-2
+adjacency_list: |-
+  multiplicity 2
+  1    Cl u0 p3 c0 {3,S}
+  2    Cl u0 p3 c0 {4,S}
+  3    C  u0 p0 c0 {1,S} {4,D} {5,S}
+  4 *3 C  u1 p0 c0 {2,S} {3,D}
+  5    H  u0 p0 c0 {3,S}
+---
+label: C2H3ClO-2
+adjacency_list: |-
+  1 *2 Cl u0 p3 c0 {4,S}
+  2    O  u0 p2 c0 {4,D}
+  3    C  u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+  4 *1 C  u0 p0 c0 {1,S} {2,D} {3,S}
+  5    H  u0 p0 c0 {3,S}
+  6    H  u0 p0 c0 {3,S}
+  7    H  u0 p0 c0 {3,S}
+---
+label: C2H3O-2
+adjacency_list: |-
+  multiplicity 2
+  1    O u0 p2 c0 {3,D}
+  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
+  3 *3 C u1 p0 c0 {1,D} {2,S}
+  4    H u0 p0 c0 {2,S}
+  5    H u0 p0 c0 {2,S}
+  6    H u0 p0 c0 {2,S}
+---
+label: C3H7-4
+adjacency_list: |-
+  multiplicity 2
+  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
+  3  *3 C u1 p0 c0 {1,S} {9,S} {10,S}
+  4     H u0 p0 c0 {1,S}
+  5     H u0 p0 c0 {1,S}
+  6     H u0 p0 c0 {2,S}
+  7     H u0 p0 c0 {2,S}
+  8     H u0 p0 c0 {2,S}
+  9     H u0 p0 c0 {3,S}
+  10    H u0 p0 c0 {3,S}

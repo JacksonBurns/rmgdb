@@ -1,0 +1,1125 @@
+label: vinylCPD + H <=> addA
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 336000000.0
+  - cm^3/(mol*s)
+  n: 1.56
+  Ea:
+  - 0.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: vinylCPD + H <=> addB
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 301000000.0
+  - cm^3/(mol*s)
+  n: 1.6
+  Ea:
+  - 2.4
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: vinylCPD + H <=> addC
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3300000000.0
+  - cm^3/(mol*s)
+  n: 1.48
+  Ea:
+  - 0.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: vinylCPD + H <=> addD
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 941000000.0
+  - cm^3/(mol*s)
+  n: 1.57
+  Ea:
+  - 1.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addA <=> addB
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 5970000.0
+  - s^-1
+  n: 1.8
+  Ea:
+  - 37.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addC <=> addD
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 28100000.0
+  - s^-1
+  n: 1.72
+  Ea:
+  - 44.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addB <=> product7
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 9370000.0
+  - s^-1
+  n: 1.6
+  Ea:
+  - 25.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addA <=> product7
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2880000000.0
+  - s^-1
+  n: 1
+  Ea:
+  - 21.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addD <=> product10
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 136000000.0
+  - s^-1
+  n: 1.39
+  Ea:
+  - 24.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product4 <=> product9
+degeneracy: 1.0
+long_description: |2
+
+  / htrans6 too strained 0 rate
+  / htrans7 too strained 0 rate
+kinetics:
+  type: Arrhenius
+  A:
+  - 5110000000.0
+  - s^-1
+  n: 1.34
+  Ea:
+  - 47.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addA <=> product1
+degeneracy: 1.0
+long_description: |2
+
+  / ts1 to ts20
+kinetics:
+  type: Arrhenius
+  A:
+  - 469000000000.0
+  - s^-1
+  n: 0.24
+  Ea:
+  - 4.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product1 <=> product2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 521000000000.0
+  - s^-1
+  n: 0.46
+  Ea:
+  - 16.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addB <=> product3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 252000000000.0
+  - s^-1
+  n: 0.16
+  Ea:
+  - 10
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product3 <=> product4
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 156000000000.0
+  - s^-1
+  n: 0.55
+  Ea:
+  - 26.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addB <=> CPDyl + C2H4
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 187000000000.0
+  - s^-1
+  n: 0.68
+  Ea:
+  - 13.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addC <=> product16
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 27700000000.0
+  - s^-1
+  n: 0.87
+  Ea:
+  - 35
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product16 <=> product5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 39500000000.0
+  - s^-1
+  n: 0.53
+  Ea:
+  - 31.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addC <=> product6
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 11700000000.0
+  - s^-1
+  n: 0.34
+  Ea:
+  - 31.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product6 <=> product5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 137000000000.0
+  - s^-1
+  n: 0.73
+  Ea:
+  - 25.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product7 <=> FULVENE + CH3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 106000000000.0
+  - s^-1
+  n: 1.15
+  Ea:
+  - 39.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addD <=> CPD + C2H3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1500000000000.0
+  - s^-1
+  n: 0.81
+  Ea:
+  - 33.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product2 <=> BENZENE + CH3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 207000000000.0
+  - s^-1
+  n: 0.83
+  Ea:
+  - 22.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product2 <=> TOLUENE + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1030000000.0
+  - s^-1
+  n: 1.36
+  Ea:
+  - 26.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product2 <=> product5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2030000.0
+  - s^-1
+  n: 1.96
+  Ea:
+  - 50.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product5 <=> product13 + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1010000000.0
+  - s^-1
+  n: 1.23
+  Ea:
+  - 28.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addD <=> product8
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 18000000000.0
+  - s^-1
+  n: 0.51
+  Ea:
+  - 30.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product8 <=> product9
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 101000000000.0
+  - s^-1
+  n: 0.59
+  Ea:
+  - 21.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product10 <=> product11
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 25600000000.0
+  - s^-1
+  n: 1.17
+  Ea:
+  - 48.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product11 <=> product12
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 112000000000.0
+  - s^-1
+  n: 0.26
+  Ea:
+  - 22.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product12 <=> product14 + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 44700000000.0
+  - s^-1
+  n: 1.17
+  Ea:
+  - 41.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product4 <=> product16
+degeneracy: 1.0
+long_description: |2
+
+  / prod4 bscis CC & CH
+kinetics:
+  type: Arrhenius
+  A:
+  - 20300000000.0
+  - s^-1
+  n: 1.1
+  Ea:
+  - 37
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product4 <=> product15 + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 35800000000.0
+  - s^-1
+  n: 1.38
+  Ea:
+  - 48.4
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addC <=> CPD + C2H3
+degeneracy: 1.0
+long_description: |2
+
+  / ts21 to ts45
+kinetics:
+  type: Arrhenius
+  A:
+  - 1890000000000.0
+  - s^-1
+  n: 0.87
+  Ea:
+  - 45
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addB <=> product17
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 198000000000.0
+  - s^-1
+  n: 0.06
+  Ea:
+  - 19.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product17 <=> product6
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 367000
+  - s^-1
+  n: 2.24
+  Ea:
+  - 34.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product7 <=> product18
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3530000.0
+  - s^-1
+  n: 1.73
+  Ea:
+  - 58.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: FULVENE + CH3 <=> product18
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 263
+  - cm^3/(mol*s)
+  n: 2.89
+  Ea:
+  - 6.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product18 <=> product19
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1290000000000.0
+  - s^-1
+  n: 0.15
+  Ea:
+  - 2.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product19 <=> product20
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2580000000000.0
+  - s^-1
+  n: 0.31
+  Ea:
+  - 16
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: addB <=> product21
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 43900000.0
+  - s^-1
+  n: 1.58
+  Ea:
+  - 21.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product21 <=> product23
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 141000000000.0
+  - s^-1
+  n: 0.2
+  Ea:
+  - 46.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product20 <=> TOLUENE + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 10600000000.0
+  - s^-1
+  n: 1.26
+  Ea:
+  - 28.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product23 <=> product24
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 118000000000.0
+  - s^-1
+  n: 0.82
+  Ea:
+  - 22.4
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product24 <=> product13 + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 44700000000.0
+  - s^-1
+  n: 1.17
+  Ea:
+  - 41.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product21 <=> product22
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 50600000.0
+  - s^-1
+  n: 1.74
+  Ea:
+  - 24.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product22 <=> product25
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 139000000000.0
+  - s^-1
+  n: 0.26
+  Ea:
+  - 26.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product25 <=> product26
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 19500000000.0
+  - s^-1
+  n: 1.05
+  Ea:
+  - 39.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product26 <=> product11
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 48100000000.0
+  - s^-1
+  n: 0.91
+  Ea:
+  - 32
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product22 <=> product29
+degeneracy: 1.0
+long_description: "\n/ same as product 11 = product 12\n/product27 = product28\t\t\
+  \t1.39E+11\t0.30\t24.0  0.0 0.0 0.0\n/ same as product 12 = product14 + H\n/product28\
+  \ = product14 + H\t\t3.03E+10\t1.22\t40.9  0.0 0.0 0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 81100000000.0
+  - s^-1
+  n: 0.18
+  Ea:
+  - 66.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product29 <=> product23
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 19000000000.0
+  - s^-1
+  n: 0.87
+  Ea:
+  - 34.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: FULVENE + CH3 <=> product32
+degeneracy: 1.0
+long_description: "\n/ rev of product 23 = product24\n/product30 = product24\t\t\t\
+  1.19E+11\t0.82\t22.4  0.0 0.0 0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 2790
+  - cm^3/(mol*s)
+  n: 2.91
+  Ea:
+  - 1.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: FULVENE + CH3 <=> product31
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2470
+  - cm^3/(mol*s)
+  n: 2.88
+  Ea:
+  - 2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product31 <=> product32
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 6590000000.0
+  - s^-1
+  n: 0.99
+  Ea:
+  - 43.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product33 <=> product34
+degeneracy: 1.0
+long_description: |2
+
+  / no ts for ts45
+  / ts46 to ts61
+kinetics:
+  type: Arrhenius
+  A:
+  - 15600000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 43.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product31 <=> product35
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 285000
+  - s^-1
+  n: 2.15
+  Ea:
+  - 43.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product35 <=> product36
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 65100000000.0
+  - s^-1
+  n: 0.25
+  Ea:
+  - 4.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product36 <=> product37
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1400000000000.0
+  - s^-1
+  n: 0.39
+  Ea:
+  - 16
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product32 <=> product38
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 671000
+  - s^-1
+  n: 2.07
+  Ea:
+  - 48.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product38 <=> product39
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 63200000000.0
+  - s^-1
+  n: 0.35
+  Ea:
+  - 10.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product39 <=> product37
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2950000000000.0
+  - s^-1
+  n: 0.12
+  Ea:
+  - 3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product37 <=> product13 + H
+degeneracy: 1.0
+long_description: |2
+
+  / ts 53 currently estimated
+kinetics:
+  type: Arrhenius
+  A:
+  - 30300000000.0
+  - s^-1
+  n: 1.22
+  Ea:
+  - 40.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product34 <=> product46
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 141000000.0
+  - s^-1
+  n: 1.52
+  Ea:
+  - 38.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: CPDyl + ethyne <=> product44
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 25500
+  - cm^3/(mol*s)
+  n: 2.27
+  Ea:
+  - 10.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product44 <=> vinylCPDyl
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1080000.0
+  - s^-1
+  n: 1.99
+  Ea:
+  - 25.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product44 <=> product45
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 332000000000.0
+  - s^-1
+  n: 0.3
+  Ea:
+  - 8.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product45 <=> product33
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 384000000000.0
+  - s^-1
+  n: 0.66
+  Ea:
+  - 23.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product46 <=> BENZYL
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 285000000000.0
+  - s^-1
+  n: 0.49
+  Ea:
+  - 3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product44 <=> product41
+degeneracy: 1.0
+long_description: |2
+
+  / Estimate for H shift
+kinetics:
+  type: Arrhenius
+  A:
+  - 1080000.0
+  - s^-1
+  n: 1.99
+  Ea:
+  - 25.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: vinylCPDyl <=> product41
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1080000.0
+  - s^-1
+  n: 1.99
+  Ea:
+  - 25.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product45 <=> product56
+degeneracy: 1.0
+long_description: |2
+
+  / Closing down 1,3 addition /1E4 of RMG estimate
+kinetics:
+  type: Arrhenius
+  A:
+  - 572000000.0
+  - s^-1
+  n: 0.21
+  Ea:
+  - 17
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: product34 <=> product57
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 572000000.0
+  - s^-1
+  n: 0.21
+  Ea:
+  - 17
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: FA + H <=> vinylCPDyl
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2100000000.0
+  - cm^3/(mol*s)
+  n: 1.43
+  Ea:
+  - 4.13
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: ethyl + CPDyl <=> ethylCPD
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 8340000000000000.0
+  - cm^3/(mol*s)
+  n: -0.7
+  Ea:
+  - -0.5
+  - kcal/mol
+  T0:
+  - 1
+  - K

@@ -1,0 +1,98 @@
+short_description: ''
+long_description: '
+
+  JetSurF - A Jet Surrogate Fuel Model
+
+  JetSurF is a detailed chemical reaction model for the combustion of jet-fuel surrogate.
+
+
+  H. Wang, E. Dames, B. Sirjean, D. A. Sheen, R. Tango, A. Violi, J. Y. W. Lai, F.
+  N. Egolfopoulos,
+
+  D. F. Davidson, R. K. Hanson, C. T. Bowman, C. K. Law, W. Tsang, N. P. Cernansky,
+  D. L. Miller, R. P. Lindstedt,
+
+  A high-temperature chemical kinetic model of n-alkane (up to n-dodecane), cyclohexane,
+  and methyl-, ethyl-,
+
+  n-propyl and n-butyl-cyclohexane oxidation at high temperatures, JetSurF version
+  2.0,
+
+  September 19, 2010 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF2.0/index.html).
+
+
+
+  Miscellaneous comments by alongd:
+
+
+  The following reactions involve excited OH, which currently cannot be represented
+  in RMG (excited CH WAS included).
+
+  In order to compare RMG''s predictions with experimental results of excited OH,
+
+  it is advised to append the following reactions to the final Chemkin file.
+
+  See https://github.com/ReactionMechanismGenerator/RMG-database/issues/174 for more
+  info.
+
+  H+O+M = OH* +M                3.10E+14  0.0  10000.0
+
+  OH*+Ar = OH+Ar                2.17E+10  0.5   2060.0
+
+  OH* +H2O = OH+H2O             5.92E+12  0.5   -861.0
+
+  OH* +CO2 = OH+CO2             2.75E+12  0.5   -968.0
+
+  OH* +CO = OH+CO               3.23E+12  0.5   -787.0
+
+  OH* +H2 = OH+H2               2.95E+12  0.5   -444.0
+
+  OH* +O2 = OH+O2               2.10E+12  0.5   -482.0
+
+  OH* +OH = OH+OH               1.50E+12  0.5      0.0
+
+  OH* +H = OH+H                 1.50E+12  0.5      0.0
+
+  OH* +O = OH+O                 1.50E+12  0.5      0.0
+
+  OH* +CH4 = OH+CH4             3.36E+12  0.5   -635.0
+
+  OH* = OH                      1.40E+6   0.0      0.0
+
+
+  The species C2H3-2-1C4H7 and C2H5-2-C4H513 were defined as distinct in JetSurF2.0,
+
+  however they were found to have a identical adjLists as CH2-3-1C5H8. There were
+  all merged and renamed CH2-3-1C5H8.
+
+
+  The following species structures could not be determined and only a best guess was
+  given here:
+
+  - SOOcC6O         [O]OC1CCCCC1[O]             Structure identified by name, although
+  thermo significantly mismatches GAV
+
+  - C2H5cC6H10OO    CCC1CCC(CC1)O[O]            Not enough info to determine structure
+
+  - CH3cC6H10OO     CC1CCC(CC1)O[O]             Not enough info to determine structure
+
+  - C4H9cC6H10OO    CCCCC1CCC(CC1)O[O]          Not enough info to determine structure
+
+  - C3H7cC6H10OO    CCCC1CCC(CC1)O[O]           Not enough info to determine functional
+  groups position (ortho/para/meta)
+
+  - C3H7cC6H9OOH    C1C(CCC)[CH]CC(OO)C1        Not enough info to determine structure
+
+  - CH3cC6H9O3      C1(C)CC([O])CC(O[O])C1      Not enough info to determine structure
+
+  - C2H5cC6H9O3     C1(CC)CC([O])CC(O[O])C1     Not enough info to determine structure
+
+  - C3H7cC6H9O3     C1(CCC)CC([O])CC(O[O])C1    Not enough info to determine structure
+
+  - C4H9cC6H9O3     C1(CCCC)CC([O])CC(O[O])C1   Not enough info to determine structure
+
+
+  Reactions with more than 3 products (or reactants) were commented-out, since RMG
+  cannot process them.
+
+  '

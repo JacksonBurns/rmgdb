@@ -1,0 +1,431 @@
+label: NCC + H <=> CH2CH2NH2 + H2
+degeneracy: 1.0
+short_description: 'Table 2, R1: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 16000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 8174
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + H <=> CH3CHNH2 + H2
+degeneracy: 1.0
+short_description: 'Table 2, R2: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 11600000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 3585
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + H <=> CH3CH2NH + H2
+degeneracy: 1.0
+short_description: 'Table 2, R3: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 5470000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 6907
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + CH3 <=> CH2CH2NH2 + CH4
+degeneracy: 1.0
+short_description: 'Table 2, R4: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 6000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 12620
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + CH3 <=> CH3CHNH2 + CH4
+degeneracy: 1.0
+short_description: 'Table 2, R5: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 12300000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 7911
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + CH3 <=> CH3CH2NH + CH4
+degeneracy: 1.0
+short_description: 'Table 2, R6: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 2230000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 9441
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + NH2 <=> CH2CH2NH2 + NH3
+degeneracy: 1.0
+short_description: 'Table 2, R7: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 9210000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 9393
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + NH2 <=> CH3CHNH2 + NH3
+degeneracy: 1.0
+short_description: 'Table 2, R8: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 8010000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 4493
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + NH2 <=> CH3CH2NH + NH3
+degeneracy: 1.0
+short_description: 'Table 2, R9: EA H abstraction; MA'
+kinetics:
+  type: Arrhenius
+  A:
+  - 2140000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 5927
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + OH <=> CH2CH2NH2 + H2O
+degeneracy: 1.0
+short_description: 'Table 2, R10: EA H abstraction; SL'
+kinetics:
+  type: Arrhenius
+  A:
+  - 794.0
+  - cm^3/(mol*s)
+  n: 2.97
+  Ea:
+  - -1040
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + OH <=> CH3CHNH2 + H2O
+degeneracy: 1.0
+short_description: 'Table 2, R11: EA H abstraction; SL'
+kinetics:
+  type: Arrhenius
+  A:
+  - 328000.0
+  - cm^3/(mol*s)
+  n: 2.24
+  Ea:
+  - -3040
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC + OH <=> CH3CH2NH + H2O
+degeneracy: 1.0
+short_description: 'Table 2, R12: EA H abstraction; SL'
+kinetics:
+  type: Arrhenius
+  A:
+  - 112000.0
+  - cm^3/(mol*s)
+  n: 2.36
+  Ea:
+  - -2860
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: N2H4 + H <=> N2H3 + H2
+degeneracy: 1.0
+short_description: 'Table 2, R13: H abstraction; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 148000000.0
+  - cm^3/(mol*s)
+  n: 1.69
+  Ea:
+  - 4000
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: N2H4 + CH3 <=> N2H3 + CH4
+degeneracy: 1.0
+short_description: 'Table 2, R14: H abstraction; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 17.7
+  - cm^3/(mol*s)
+  n: 3.6
+  Ea:
+  - 3500
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: N2H4 + NH2 <=> N2H3 + NH3
+degeneracy: 1.0
+short_description: 'Table 2, R15: H abstraction; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 2590.0
+  - cm^3/(mol*s)
+  n: 2.83
+  Ea:
+  - 700
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH3CHNH + H <=> CH2CHNH + H2
+degeneracy: 1.0
+short_description: 'Table 2, R16: H abstraction; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 39800.0
+  - cm^3/(mol*s)
+  n: 2.76
+  Ea:
+  - 4400
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH3CHNH + H <=> CH3CHN + H2
+degeneracy: 1.0
+short_description: 'Table 2, R17: H abstraction; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 11900000.0
+  - cm^3/(mol*s)
+  n: 1.96
+  Ea:
+  - 2400
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH2CHNH2 + H <=> CH2CH2NH2
+degeneracy: 1.0
+short_description: 'Table 2, R18: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 31400000.0
+  - cm^3/(mol*s)
+  n: 1.77
+  Ea:
+  - 3729
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4 + NH2 <=> CH2CH2NH2
+degeneracy: 1.0
+short_description: 'Table 2, R19: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 1230.0
+  - cm^3/(mol*s)
+  n: 2.76
+  Ea:
+  - 1658
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH3CHNH2 <=> CH2CHNH2 + H
+degeneracy: 1.0
+short_description: 'Table 2, R20: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 1140000000.0
+  - s^-1
+  n: 1.49
+  Ea:
+  - 35100
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH2NH + H <=> CH2NH2
+degeneracy: 1.0
+short_description: 'Table 2, R21: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 148000000.0
+  - cm^3/(mol*s)
+  n: 1.67
+  Ea:
+  - 2.295
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH2CHNH <=> CH2CNH + H
+degeneracy: 1.0
+short_description: 'Table 2, R22: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 21800000.0
+  - s^-1
+  n: 2.26
+  Ea:
+  - 50300
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH3CHN <=> CH3 + HCN
+degeneracy: 1.0
+short_description: 'Table 2, R23: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 75200000000.0
+  - s^-1
+  n: 1.1
+  Ea:
+  - 26200
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH3CHN <=> CH3CN + H
+degeneracy: 1.0
+short_description: 'Table 2, R24: beta scission; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 1490000000.0
+  - s^-1
+  n: 1.44
+  Ea:
+  - 27000
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH2CH2NH2 <=> CH3CHNH2
+degeneracy: 1.0
+short_description: 'Table 2, R25: intra H transfer; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 31200.0
+  - s^-1
+  n: 2.33
+  Ea:
+  - 31800
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CH2CHNH <=> CH3CHN
+degeneracy: 1.0
+short_description: 'Table 2, R26: intra H transfer; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 920000.0
+  - s^-1
+  n: 2.16
+  Ea:
+  - 37400
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: NCC <=> C2H4 + NH3
+degeneracy: 1.0
+short_description: 'Table 2, R27: 1,2-elimination; BB'
+kinetics:
+  type: Arrhenius
+  A:
+  - 49000.0
+  - s^-1
+  n: 2.65
+  Ea:
+  - 65100
+  - cal/mol
+  T0:
+  - 1
+  - K

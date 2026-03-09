@@ -1,0 +1,851 @@
+label: butyl + styrene <=> rad1
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, April 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Kinetics\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 236.006
+  - cm^3/(mol*s)
+  n: 2.7878
+  Ea:
+  - 15.4228
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Hexylbenzene <=> Toluene + 1-Pentene
+degeneracy: 1.0
+short_description: Calculation performed by Max Liu, CBS-QB3 level of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Kinetics\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 16290700.0
+  - s^-1
+  n: 1.6863
+  Ea:
+  - 309.226
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Hexylbenzene + H <=> HexylbenzenePlusHSub
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 87623700.0
+  - cm^3/(mol*s)
+  n: 1.70829
+  Ea:
+  - 25.4744
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + H <=> ToluenePlusHOrtho
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 1024420000.0
+  - cm^3/(mol*s)
+  n: 1.43982
+  Ea:
+  - 18.8871
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + H <=> ToluenePlusHMeta
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 1079290000.0
+  - cm^3/(mol*s)
+  n: 1.42903
+  Ea:
+  - 22.7647
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + H <=> ToluenePlusHPara
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 1123300000.0
+  - cm^3/(mol*s)
+  n: 1.42368
+  Ea:
+  - 22.5731
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + H <=> ToluenePlusHSub
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 220433000.0
+  - cm^3/(mol*s)
+  n: 1.56916
+  Ea:
+  - 26.7856
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + CH3 <=> ToluenePlusCH3Ortho
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 3383.86
+  - cm^3/(mol*s)
+  n: 2.311
+  Ea:
+  - 37.9756
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + CH3 <=> ToluenePlusCH3Meta
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 3356.39
+  - cm^3/(mol*s)
+  n: 2.32609
+  Ea:
+  - 41.1979
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + CH3 <=> ToluenePlusCH3Para
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 3945.69
+  - cm^3/(mol*s)
+  n: 2.31104
+  Ea:
+  - 41.6199
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + CH3 <=> ToluenePlusCH3Sub
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, December 2017, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Aromatic\
+  \ Pi Radicals\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 144.44
+  - cm^3/(mol*s)
+  n: 2.6469
+  Ea:
+  - 43.8158
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: rad4 <=> EthyltetralinRad
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add_Exocyclic\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 29023.5
+  - s^-1
+  n: 1.19861
+  Ea:
+  - 27.5998
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: rad3 <=> PropylindaneRad
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/intra_R_Add_Exocyclic\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 14489047644
+  - s^-1
+  n: 1.22276
+  Ea:
+  - 57.6245
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthyltetralinRad <=> Ethyltetralin + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 25916700000.0
+  - s^-1
+  n: 0.899322
+  Ea:
+  - 121.108
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: PropylindaneRad <=> Propylindane + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, March 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 14456400000.0
+  - s^-1
+  n: 0.96702
+  Ea:
+  - 108.102
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Benzyl <=> ToluenePlusBenzylOrtho
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 75.2016
+  - cm^3/(mol*s)
+  n: 2.87538
+  Ea:
+  - 47.3967
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Benzyl <=> ToluenePlusBenzylMeta
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 333.522
+  - cm^3/(mol*s)
+  n: 2.81143
+  Ea:
+  - 52.4195
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Benzyl <=> ToluenePlusBenzylPara
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 203.185
+  - cm^3/(mol*s)
+  n: 2.7789
+  Ea:
+  - 51.957
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Benzyl <=> ToluenePlusBenzylSub
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0143
+  - cm^3/(mol*s)
+  n: 3.28044
+  Ea:
+  - 49.7678
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylOrtho
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 9.9686
+  - cm^3/(mol*s)
+  n: 3.05153
+  Ea:
+  - 47.5686
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylMeta
+degeneracy: 2.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.36177
+  - cm^3/(mol*s)
+  n: 3.21235
+  Ea:
+  - 47.2354
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylPara
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.8336
+  - cm^3/(mol*s)
+  n: 3.1834
+  Ea:
+  - 47.5562
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: Toluene + Ethylbenzyl <=> ToluenePlusEBenzylSub
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2018/AdditionToRing\n\
+  \    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 0.0289968
+  - cm^3/(mol*s)
+  n: 3.67504
+  Ea:
+  - 50.8048
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthylDihydronaphthaleneRadNear <=> EthylDihydronaphthaleneNear + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 36895500000.0
+  - s^-1
+  n: 1.08869
+  Ea:
+  - 183.348
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthylnaphthaleneRadFar <=> Ethylnaphthalene + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 122400000000.0
+  - s^-1
+  n: 0.872685
+  Ea:
+  - 137.28
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthylnaphthaleneRadFar2 <=> Ethylnaphthalene + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 34455500000.0
+  - s^-1
+  n: 0.95781
+  Ea:
+  - 120.415
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthylnaphthaleneRadNear <=> Ethylnaphthalene + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 8365610000.0
+  - s^-1
+  n: 1.10493
+  Ea:
+  - 137.408
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: EthylnaphthaleneRadNear2 <=> Ethylnaphthalene + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 7058250000.0
+  - s^-1
+  n: 1.15256
+  Ea:
+  - 119.092
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: PropylindeneRadFar <=> PropylindeneFar + H
+degeneracy: 1.0
+short_description: Calculation performed by Lawrence Lai, July 2018, CBS-QB3 level
+  of theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2017/Polycyclic\
+  \ Betascission/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 9750350000.0
+  - s^-1
+  n: 1.25622
+  Ea:
+  - 174.095
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: rad2 <=> PM2Rad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \tLocation of calculations Pharos/home/laitcl/Gaussian/2019/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 14613900.0
+  - s^-1
+  n: 1.30419
+  Ea:
+  - 55.0202
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: PM2Rad <=> 2-Phenyl-1-hexylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \tLocation of calculations Pharos/home/laitcl/Gaussian/2019/\n\tThis rate violates\
+  \ the TST limit by a factor of 2 at 1000K. Likely caused by thermo. \n    "
+allow_max_rate_violation: true
+kinetics:
+  type: Arrhenius
+  A:
+  - 41705000000000.0
+  - s^-1
+  n: 0.383545
+  Ea:
+  - 19.8224
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: rad3 <=> PM3Rad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 966131
+  - s^-1
+  n: 1.86605
+  Ea:
+  - 70.406
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: PM3Rad <=> 3-Phenyl-1-hexylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 7033600000000.0
+  - s^-1
+  n: 0.135082
+  Ea:
+  - 42.4869
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: rad4 <=> PM4Rad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \tLocation of calculations Pharos/home/laitcl/Gaussian/2019/\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 905.58
+  - s^-1
+  n: 2.15236
+  Ea:
+  - 31.9171
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: PM4Rad <=> 4-phenyl-1-hexylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 4202700000000.0
+  - s^-1
+  n: 0.53843
+  Ea:
+  - 76.0115
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: rad5 <=> PM5Rad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 284.136
+  - s^-1
+  n: 1.70342
+  Ea:
+  - 26.0501
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: PM5Rad <=> 5-Phenyl-1-hexylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Details published in https://pubs.acs.org/doi/10.1021/acs.jpca.8b09749\n\
+  \    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 3863260000000.0
+  - s^-1
+  n: 0.527375
+  Ea:
+  - 90.7394
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 500
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: phenylrad + ethylbenzene <=> ethylbiphenylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\
+  \t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.05685
+  - cm^3/(mol*s)
+  n: 3.09388
+  Ea:
+  - 8.15269
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 303.03
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: ethylrad + biphenyl <=> ethylbiphenylRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\
+  \t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 103.514
+  - cm^3/(mol*s)
+  n: 2.90893
+  Ea:
+  - 44.9425
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 303.03
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: Benzene + CH3 <=> ToluenePlusHSub
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\
+  \t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 126531
+  - cm^3/(mol*s)
+  n: 2.32659
+  Ea:
+  - 42.0038
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 303.03
+  - K
+  Tmax:
+  - 2500
+  - K
+---
+label: rad5 <=> methylbenozocyclohepteneRad
+degeneracy: 1.0
+short_description: Calculation performed by Sarah Khanniche, 2018, CBS-QB3 level of
+  theory
+long_description: "\n    Location of calculations Pharos/home/laitcl/Gaussian/2019/\n\
+  \t"
+kinetics:
+  type: Arrhenius
+  A:
+  - 17725.7
+  - s^-1
+  n: 1.16281
+  Ea:
+  - 42.1994
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 303.03
+  - K
+  Tmax:
+  - 2500
+  - K

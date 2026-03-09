@@ -1,0 +1,84 @@
+short_description: primarySulfurLibrary
+long_description: "\nThis library includes important sulfur-related reactions.\nPrepared\
+  \ by Alon Grinberg Dana\n\nThis library consists of the following subsets:\n* SOx\n\
+  * COS\n* HxSy\n* CxHySz\n* C-S\n* HOSO2 + O2 surface\n\nUsing this library as is\
+  \ requires that N2 will be present in the RMG input file (even as a nonreactive\
+  \ species) since N2\nis defined as a specific third body collider in the `SO2 +\
+  \ O (+N2) <=> SO3 (+N2)` reaction.\n\nReference legend:\n[Baulch1992a] D.L. Baulch,\
+  \ C.J. Cobos, R.A. Cox, C. Esser, P. Frank, Th. Just, J.A. Kerr, M.J. Philling,\
+  \ J. Troe, R.W. Walker, J. Warnatz, \"Evaluated Kinetic Data for Combustion Modelling\"\
+  , Journal of Physical and Chemical Reference Data, 1992, 21(3), 411, doi: 10.1063/1.555908\n\
+  [Calvert1973] F.B. Wampler, K. Otsuka, J.G. Calvert, E.K. Damon, Int. J. Chem. Kin.,\
+  \ 1973, 5(4), 669-690, doi: 10.1002/kin.550050417\n[Dupre1993] K. Tsuchiya, H. Matsui,\
+  \ M. Oya, G. Dupre, in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II\
+  \ (Proceedings Marseille France), 1993, 71-76, doi: 10.1007/978-3-642-78832-1\n\
+  [Garland1998] N.L. Garland, Chem. Phys. Lett., 1998, 290(4-6), 385-390, doi: 10.1016/S0009-2614(98)00553-3\n\
+  [GlarBozz] (RMG's Sulfur/GlarborgBozzelli library) P. Glarborg, D. Kubel, K. Dam-Johansen,\
+  \ H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996, 28, 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K\n\
+  [Haynes2013] Chenlai (Ryan) Zhou, Karina Sendt, Brian S. Haynes, Proceedings of\
+  \ the Combustion Institute 2013, 34(1), 625-632, doi: 10.1016/j.proci.2012.05.083\n\
+  [Lin2003a] C-W. Lu, Y-J. Wu, Y-P. Lee, R.S. Zhu, M.C. Lin, J. Phys. Chem. A, 2003,\
+  \ 107(50), 11020-11029, doi: 10.1021/jp036025c\n[Lin2004] C-W. Lu, Y-J. Wu, Y-P.\
+  \ Lee, R.S. Zhu, M.C. Lin, J. Chem. Phys., 2004, 121(17), 8271-8278, doi: 10.1063/1.1792611\n\
+  [Marshall1995] A. Goumri, D. Laakso, J\u2010D.R. Rocha, C.E. Smith, P. Marshall,\
+  \ J. Chem. Phys., 1995, 102, 161-169, doi: 10.1063/1.469387\n[Marshall1999a] A.\
+  \ Goumri, J-D.R. Rocha, D. Laakso, C.E. Smith, P. Marshall, J. Phys. Chem. A, 1999,\
+  \ 103(51), 11328-11335 doi: 10.1021/jp9924070\n[Marshall1999b] J. Peng, X. Hu, P.\
+  \ Marshall, J. Phys. Chem. A, 1999, 103, 5307-5311, doi: 10.1021/jp984242l\n[Marshall2004]\
+  \ A. Goumri, D.D. Shao, P. Marshall, J. Chem. Phys., 2004, 121, 9999, doi: 10.1063/1.1806419\n\
+  [Marshall2005] J. Naidoo, A. Goumri, P. Marshall, Proceedings of the Combustion\
+  \ Institute, 2005, 30(1), 1219-1225, doi: 10.1016/j.proci.2004.08.214\n[Marshall2006]\
+  \ A. Yilmaz, L. Hindiyarti, A.D. Jensen, P. Glarbotg, P. Marshall, J. Phys. Chem.\
+  \ A, 2006, 110 (21), 6654-6659, doi: 10.1021/jp0557215\n[Marshall2007a] L. Hindiyarti,\
+  \ P. Glarborg, P. Marshall, J. Phys. Chem. A, 2007, 111(19), 3984-3991, doi: 10.1021/jp067499p\n\
+  [Marshall2007b] C.L. Rasmussen, P. Glarborg, P. Marshall, Proceedings of the Combustion\
+  \ Institute, 2007, 31, 339-347, doi: 10.1016/j.proci.2006.07.249\n[Marshall2011a]\
+  \ Y. Gao, P. Marshall, J. Chem. Phys., 2011, 135, 144306, doi: 10.1063/1.3644773\n\
+  [Marshall2011b] Y. Gao, C.R. Zhou, K. Sendt, B.S. Haynes, P. Marshall, Proc. Comb.\
+  \ Inst., 2011, 33, 459-465, doi: 10.1016/j.proci.2010.05.020\n[Marshall2012] K.M.\
+  \ Thompson, Y. Gao, P. Marshall, Int. J. Chem. Kin., 2012, 44(1), 90-99, doi: 10.1002/kin.20612\n\
+  [Marshall2015a] S. Ayling, Y. Gao, P. Marshall, Proceedings of the Combustion Institute,\
+  \ 2015, 35(1), 215-222, doi: 10.1016/j.proci.2014.05.079\n[Marshall2015b] K.E. Kerr,\
+  \ I.M. Alecu, K.M. Thompson, Y. Gao, P. Marshall, J. Phys. CHem. A, 2015, 119, 7352-7360,\
+  \ doi: 10.1021/jp512966a\n[Matsui1994] M. Oya, H. Shiina, K. Tsuchiya, H. Matsui,\
+  \ Bulletin of the Chemical Society of Japan, 1994, 67(8), 2311-2313, doi: 10.1246/bcsj.67.2311\n\
+  [Matsui1996a] H. Shiina, M. Oya, K. Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem.,\
+  \ 1996, 100(6), 2136-2140, doi: 10.1021/jp952472j\n[Matsui1996b] K. Tsuchiya, K.\
+  \ Yamashita, A. Miyoshi, H. Matsui, J. Phys. Chem., 1996, 100(43), 17202-17206,\
+  \ doi: 10.1021/jp961252i\n[Matsui1997] K. Tsuchiya, K. Kamiya, H. Matsui, Int. J.\
+  \ Chem. Kin., 1997, 29(1), 57-66, doi: 10.1002/(SICI)1097-4601(1997)29:1<57::AID-KIN7>3.0.CO;2-K\n\
+  [Matsui1998] H. Shiina, A. Miyoshi, H. Matsui, J. Phys. Chem. A, 1998, 102(20),\
+  \ 3556-3559, doi: 10.1021/jp980650d\n[Molina1997] J.T. Jayne, U. Poschl, Y-m. Chen,\
+  \ D. Dai, L.T. Molina, D.R. Worsnop, C.E. Kolb, M.J. Molina, J. Phys. Chem. A, 1997,\
+  \ 101(51), 10000-10011, doi: 10.1021/jp972549z\n[Mukarami1980] T. Higashihara, K.\
+  \ Saito, I. Murakami, Bulletin of the Chemical Society of Japan, 1980, 53(1), 15-18,\
+  \ doi: 10.1246/bcsj.53.15\n[Palmer1977] H. Freund, H.B. Palmer, Int. J. Chem. Kin.,\
+  \ 1977, 9(6), 887-905, doi: 10.1002/kin.550090605\n[Peterson2008] S. Du, J.S. Francisco,\
+  \ B.C. Shepler, K.A. Peterson, J. Chem. Phys., 2008, 128, 204306, doi: 10.1063/1.2919569\n\
+  [Pilling2002a] M.A. Blitz, K.W. McKee, M.J. Pilling, J. Phys. Chem. A, 2002, 106(36),\
+  \ 8406-8410, doi: 10.1021/jp025508y\n[Pilling2002b] K.J. Hughes, M.A. Blitz, M.J.\
+  \ Pilling, S.H. Robertson, Proc. Comb. Inst., 2002, 29(2), 2431-2437, doi: 10.1016/S1540-7489(02)80296-6\n\
+  [Pilling2003] M.A. Blitz, K.J. Hughes, M.J. Pilling, J. Phys. Chem. A, 2003, 107(12),\
+  \ 1971-1978, doi: 10.1021/jp026524y\n[Pilling2006] M.A. Blitz, K.J. Hughes, M.J.\
+  \ Pilling, S.H. Robertson, J. Phys. Chem. A, 2006, 110(9), 2996-3009, doi: 10.1021/jp054722u\n\
+  [Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt, M.J. Rabinowitz, Int. J.\
+  \ Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472\n[Roth1993] D. Woiki,\
+  \ P. Roth, in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II (Proceedings\
+  \ Marseille France), 1993, 53-58, doi: 10.1007/978-3-642-78832-1_9\n[Roth1996a]\
+  \ D. Woiki, P. Roth, Israel Journal of Chemistry, 1996, 36(3), 279-283, doi: 10.1002/ijch.199600039\n\
+  [Roth1996b] D. Woiki, P. Roth, Symposium (International) on Combustion, 1996, 26(1),\
+  \ 583-588, doi: 10.1016/S0082-0784(96)80263-3\n[Sendt2002] K. Sendt, M. Jazbec,\
+  \ B.S. Haynes, Proceedings of the Combustion Institute, 2002, 29, 2439-2446, doi:\
+  \ 10.1016/S1540-7489(02)80297-8\n[Sendt2007] K. Sendt, B.S. Haynes, Proceedings\
+  \ of the Combustion Institute, 2007, 31(1), 257-265, doi: 10.1016/j.proci.2006.08.067\n\
+  [Sendt2008] C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2008, 112, 3239-3247,\
+  \ doi: 10.1021/jp710488d\n[Sendt2009a] C.R. Zhou, K. Sendt, B.S. Haynes, J. Phys.\
+  \ Chem. A, 2009, 113, 2975-2981, doi: 10.1021/jp810105e\n[Sendt2009b] C.R. Zhou,\
+  \ K. Sendt, B.S. Haynes, J. Phys. Chem. A, 2009, 113, 8299-8306, doi: 10.1021/jp903185k\n\
+  [Sitha2011] S. Sitha, L.L. Jewell, S.J. Piketh, G. Fourie, Atmospheric Rnvironment,\
+  \ 2011, 45, 745-754, doi: 10.1016/j.atmosenv.2010.09.018\n[Somnitz2004] H. Somnitz,\
+  \ Phys. Chem. Chem. Phys., 2004, 6(14), 3844-3851, doi: 10.1039/B317055A\n[Tezaki2003]\
+  \ N. Isshiki, Y. Murakami, K. Tsuchiya, A. Tezaki, H. Matsui, J. Phys. Chem. A,\
+  \ 2003, 107(14), 2464-2469, doi: 10.1021/jp0200829\n[Troe1984] H.J. Plach, J. Troe,\
+  \ Int. J. Chem. Kin., 1984, 16(12), 1531-1542, doi: 10.1002/kin.550161207\n[Truhlar2007]\
+  \ B.A. Ellingson, D.G. Truhlar, JACS 2007, 129(42), 12765-12771, doi: 10.1021/ja072538b\n"

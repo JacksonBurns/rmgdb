@@ -9,8 +9,9 @@ JOIN kinetics_family_groups_table p on p.id = t.parent_id""")
 kinetics_library_reactions_view_sql = text("""CREATE VIEW kinetics_library_reactions_view AS 
 SELECT 
     l.name as library_name, r.label, r.degeneracy, r.short_description, r.long_description, r.rank,
+    r.allow_max_rate_violation, r.reversible, r.elementary_high_p, r.duplicate,
     kd.type, kd.A_val, kd.A_unit, kd.n, kd.Ea_val, kd.Ea_unit, kd.T0_val, kd.T0_unit,
-    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment
+    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment, kd.raw_data
 FROM kinetics_library_reactions_table r
 JOIN kinetics_libraries_table l ON l.id = r.library_id
 LEFT JOIN kinetics_data_table kd ON kd.library_reaction_id = r.id
@@ -19,8 +20,9 @@ LEFT JOIN kinetics_data_table kd ON kd.library_reaction_id = r.id
 kinetics_family_rules_view_sql = text("""CREATE VIEW kinetics_family_rules_view AS 
 SELECT 
     f.name as family_name, r.label, r.short_description, r.long_description, r.rank,
+    r.allow_max_rate_violation, r.reversible, r.elementary_high_p, r.duplicate,
     kd.type, kd.A_val, kd.A_unit, kd.n, kd.Ea_val, kd.Ea_unit, kd.T0_val, kd.T0_unit,
-    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment
+    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment, kd.raw_data
 FROM kinetics_family_rules_table r
 JOIN kinetics_families_table f ON f.id = r.family_id
 LEFT JOIN kinetics_data_table kd ON kd.family_rule_id = r.id
@@ -29,8 +31,9 @@ LEFT JOIN kinetics_data_table kd ON kd.family_rule_id = r.id
 kinetics_family_training_reactions_view_sql = text("""CREATE VIEW kinetics_family_training_reactions_view AS 
 SELECT 
     f.name as family_name, r.label, r.degeneracy, r.short_description, r.long_description, r.rank,
+    r.allow_max_rate_violation, r.reversible, r.elementary_high_p, r.duplicate,
     kd.type, kd.A_val, kd.A_unit, kd.n, kd.Ea_val, kd.Ea_unit, kd.T0_val, kd.T0_unit,
-    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment
+    kd.w0_val, kd.w0_unit, kd.E0_val, kd.E0_unit, kd.Tmin_val, kd.Tmin_unit, kd.Tmax_val, kd.Tmax_unit, kd.comment, kd.raw_data
 FROM kinetics_family_training_reactions_table r
 JOIN kinetics_families_table f ON f.id = r.family_id
 LEFT JOIN kinetics_data_table kd ON kd.family_training_reaction_id = r.id

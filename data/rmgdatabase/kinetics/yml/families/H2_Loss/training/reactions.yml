@@ -1,0 +1,41 @@
+label: C14H12 <=> C14H10 + H2
+degeneracy: 1.0
+long_description: "\nV. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A.\
+  \ M. Mebel;\nHydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms\
+  \ of PAH Formation: A Detailed Study Using First Principles Calculations; \nJ. Chem.\
+  \ Theory Comput. 2005, 1, 908-924.\nOriginal entry: B2 <=> P + H2\n"
+rank: 8
+kinetics:
+  type: Arrhenius
+  A:
+  - 4730000000.0
+  - 1/s
+  n: 0.797
+  Ea:
+  - 17.176
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C16H12 <=> C16H10 + H2
+degeneracy: 1.0
+long_description: |2
+
+  V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin, and A. M. Mebel;
+  Hydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms of PAH Formation: A Detailed Study Using First Principles Calculations;
+  J. Chem. Theory Comput. 2005, 1, 908-924.
+  Original entry: P1 <=> PYR + H2
+rank: 8
+kinetics:
+  type: Arrhenius
+  A:
+  - 45200000000.0
+  - 1/s
+  n: 0.533
+  Ea:
+  - 17.938
+  - kcal/mol
+  T0:
+  - 1
+  - K

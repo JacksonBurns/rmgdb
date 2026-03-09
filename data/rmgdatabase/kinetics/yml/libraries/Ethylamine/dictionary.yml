@@ -1,0 +1,216 @@
+label: NCC
+adjacency_list: |-
+  1  N u0 p1 c0 {2,S} {4,S} {5,S}
+  2  C u0 p0 c0 {1,S} {3,S} {6,S} {7,S}
+  3  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
+  4  H u0 p0 c0 {1,S}
+  5  H u0 p0 c0 {1,S}
+  6  H u0 p0 c0 {2,S}
+  7  H u0 p0 c0 {2,S}
+  8  H u0 p0 c0 {3,S}
+  9  H u0 p0 c0 {3,S}
+  10 H u0 p0 c0 {3,S}
+---
+label: CH2CH2NH2
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
+  5 N u0 p1 c0 {4,S} {8,S} {9,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {4,S}
+  8 H u0 p0 c0 {5,S}
+  9 H u0 p0 c0 {5,S}
+---
+label: CH3CHNH2
+adjacency_list: |-
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2 C u1 p0 c0 {1,S} {3,S} {4,S}
+  3 H u0 p0 c0 {2,S}
+  4 N u0 p1 c0 {2,S} {8,S} {9,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {1,S}
+  8 H u0 p0 c0 {4,S}
+  9 H u0 p0 c0 {4,S}
+---
+label: CH3CH2NH
+adjacency_list: |-
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
+  2 C u0 p0 c0 {1,S} {3,S} {8,S} {9,S}
+  3 N u1 p1 c0 {2,S} {4,S}
+  4 H u0 p0 c0 {3,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {1,S}
+  8 H u0 p0 c0 {2,S}
+  9 H u0 p0 c0 {2,S}
+---
+label: H
+adjacency_list: |-
+  multiplicity 2
+  1 H u1 p0 c0
+---
+label: H2
+adjacency_list: |-
+  1 H u0 p0 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+---
+label: CH3
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+---
+label: CH4
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+---
+label: NH2
+adjacency_list: |-
+  multiplicity 2
+  1 N u1 p1 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+---
+label: NH3
+adjacency_list: |-
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+---
+label: C2H4
+adjacency_list: |-
+  1 C u0 p0 c0 {2,D} {3,S} {4,S}
+  2 C u0 p0 c0 {1,D} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+---
+label: CH2CHNH2
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {3,S} {4,D}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,D} {5,S} {6,S}
+  5 N u0 p1 c0 {4,S} {7,S} {8,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {5,S}
+  8 H u0 p0 c0 {5,S}
+---
+label: CH2NH
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {3,S} {4,D}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 N u0 p1 c0 {1,D} {5,S}
+  5 H u0 p0 c0 {4,S}
+---
+label: CH2NH2
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 N u0 p1 c0 {1,S} {5,S} {6,S}
+  5 H u0 p0 c0 {4,S}
+  6 H u0 p0 c0 {4,S}
+---
+label: N2H4
+adjacency_list: |-
+  1 N u0 p1 c0 {2,S} {3,S} {4,S}
+  2 N u0 p1 c0 {1,S} {5,S} {6,S}
+  3 H u0 p0 c0 {1,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {2,S}
+  6 H u0 p0 c0 {2,S}
+---
+label: N2H3
+adjacency_list: |-
+  multiplicity 2
+  1 N u0 p1 c0 {2,S} {4,S} {5,S}
+  2 N u1 p1 c0 {1,S} {3,S}
+  3 H u0 p0 c0 {2,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+---
+label: CH2CHNH
+adjacency_list: |-
+  multiplicity 2
+  1 C u1 p0 c0 {2,S} {3,S} {4,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}
+  4 C u0 p0 c0 {1,S} {5,D} {6,S}
+  5 N u0 p1 c0 {4,D} {7,S}
+  6 H u0 p0 c0 {4,S}
+  7 H u0 p0 c0 {5,S}
+---
+label: CH3CHN
+adjacency_list: |-
+  multiplicity 2
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,D} {7,S}
+  3 N u1 p1 c0 {2,D}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+---
+label: CH2CNH
+adjacency_list: |-
+  1 C u0 p0 c0 {2,D} {4,S} {5,S}
+  2 C u0 p0 c0 {1,D} {3,D}
+  3 N u0 p1 c0 {2,D} {6,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {3,S}
+---
+label: CH3CHNH
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,D} {7,S}
+  3 N u0 p1 c0 {2,D} {8,S}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+  7 H u0 p0 c0 {2,S}
+  8 H u0 p0 c0 {3,S}
+---
+label: HCN
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {3,T}
+  2 H u0 p0 c0 {1,S}
+  3 N u0 p1 c0 {1,T}
+---
+label: CH3CN
+adjacency_list: |-
+  1 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
+  2 C u0 p0 c0 {1,S} {3,T}
+  3 N u0 p1 c0 {2,T}
+  4 H u0 p0 c0 {1,S}
+  5 H u0 p0 c0 {1,S}
+  6 H u0 p0 c0 {1,S}
+---
+label: OH
+adjacency_list: |-
+  multiplicity 2
+  1 O u1 p2 c0 {2,S}
+  2 H u0 p0 c0 {1,S}
+---
+label: H2O
+adjacency_list: |-
+  1 O u0 p2 c0 {2,S} {3,S}
+  2 H u0 p0 c0 {1,S}
+  3 H u0 p0 c0 {1,S}

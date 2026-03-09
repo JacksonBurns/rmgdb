@@ -1,0 +1,191 @@
+label: NS + NO2 <=> N2 + SO2
+degeneracy: 1.0
+short_description: '[Pilling2002a]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  calculations done at the BD-(T)//B3LYP/6-31G++ level of theory
+kinetics:
+  type: Arrhenius
+  A:
+  - 15500000000000.0
+  - cm^3/(mol*s)
+  n: -1.1
+  Ea:
+  - 0
+  - cal/mol
+  T0:
+  - 295
+  - K
+---
+label: NO2 + SO2 <=> NO + SO3
+degeneracy: 1.0
+short_description: '[Palmer1977]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  T range: 700-2000 K
+  Shock tube measurement
+  Also given by [doi: 10.1016/S0010-2180(71)80077-9] for 700-1200 K
+kinetics:
+  type: Arrhenius
+  A:
+  - 6310000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 53700
+  - cal/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 700
+  - K
+  Tmax:
+  - 2000
+  - K
+---
+label: NO2 + S <=> SO + NO
+degeneracy: 1.0
+short_description: '[Marshall2012]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  T range: 292-656 K
+  Experimentally measured, and PES verified using QCISD/6-311G(d,p)
+kinetics:
+  type: Arrhenius
+  A:
+  - 11400000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - -980
+  - cal/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 292
+  - K
+  Tmax:
+  - 656
+  - K
+---
+label: S + NO <=> SNO
+degeneracy: 1.0
+short_description: '[Marshall2004]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  T range: 300-800 K
+  Experimentally measured, and PES verified using CBS-QB3
+  Added as a training reaction to Birad_R_Recombination
+elementary_high_p: true
+kinetics:
+  type: Troe
+  arrheniusHigh:
+    type: Arrhenius
+    data:
+      A:
+      - 130000000000000.0
+      - cm^3/(mol*s)
+      n: 0.24
+      Ea:
+      - 0
+      - cal/mol
+      T0:
+      - 300
+      - K
+      Tmin:
+      - 300
+      - K
+      Tmax:
+      - 800
+      - K
+  arrheniusLow:
+    type: Arrhenius
+    data:
+      A:
+      - 2250000000000000.0
+      - cm^6/(mol^2*s)
+      n: 0
+      Ea:
+      - -1868
+      - cal/mol
+      T0:
+      - 300
+      - K
+      Tmin:
+      - 300
+      - K
+      Tmax:
+      - 800
+      - K
+  alpha: 0.22
+  T3:
+  - 7445
+  - K
+  T1:
+  - 1.0e-30
+  - K
+  efficiencies: {}
+---
+label: S + NO <=> SO + N
+degeneracy: 1.0
+short_description: '[Roth1996b]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  T range: 2420-3870 K
+  Shock tube
+  The overall rate "S + NO <=> products" was determined, and the branching ratio for SO + N products is 80%-95%.
+  A branching ratio of 90% was ASSUMED here.
+kinetics:
+  type: Arrhenius
+  A:
+  - 108000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40100
+  - cal/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 2420
+  - K
+  Tmax:
+  - 3870
+  - K
+---
+label: S + NO <=> NS + O
+degeneracy: 1.0
+short_description: '[Roth1996b]'
+long_description: |2
+
+  Part of the "SOx-NOx" direct interactions subset
+  T range: 2420-3870 K
+  Shock tube
+  The overall rate "S + NO <=> products" was determined, and the branching ratio for NS + O products is 5%-20%.
+  A branching ratio of 10% was ASSUMED here.
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 40100
+  - cal/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 2420
+  - K
+  Tmax:
+  - 3870
+  - K

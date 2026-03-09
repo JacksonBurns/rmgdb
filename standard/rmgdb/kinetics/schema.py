@@ -28,8 +28,6 @@ class KineticsLibraryReactions(SCHEMA_BASE):
     short_description = Column(String)
     long_description = Column(String)
     rank = Column(Integer)
-    
-    # New keyword args
     allow_max_rate_violation = Column(Boolean)
     reversible = Column(Boolean)
     elementary_high_p = Column(Boolean)
@@ -55,6 +53,8 @@ class KineticsFamilyGroups(SCHEMA_BASE):
     family_id = mapped_column(ForeignKey("kinetics_families_table.id"))
     label = Column(String)
     group_adj_list = Column(String)
+    short_description = Column(String)
+    long_description = Column(String)
 
 class KineticsFamilyGroupsTree(SCHEMA_BASE):
     __tablename__ = "kinetics_family_groups_tree_table"
@@ -70,8 +70,6 @@ class KineticsFamilyRules(SCHEMA_BASE):
     short_description = Column(String)
     long_description = Column(String)
     rank = Column(Integer)
-    
-    # New keyword args
     allow_max_rate_violation = Column(Boolean)
     reversible = Column(Boolean)
     elementary_high_p = Column(Boolean)
@@ -93,8 +91,6 @@ class KineticsFamilyTrainingReactions(SCHEMA_BASE):
     short_description = Column(String)
     long_description = Column(String)
     rank = Column(Integer)
-
-    # New keyword args
     allow_max_rate_violation = Column(Boolean)
     reversible = Column(Boolean)
     elementary_high_p = Column(Boolean)
@@ -117,8 +113,6 @@ class KineticsData(SCHEMA_BASE):
     Tmin_val = Column(Float); Tmin_unit = Column(String)
     Tmax_val = Column(Float); Tmax_unit = Column(String)
     comment = Column(String)
-    
-    # Catch-all for complex models (Chebyshev arrays, Troe parameters, MultiArrhenius lists, etc.)
     raw_data = Column(String)
 
 for table in [KineticsLibraries, KineticsLibraryReactions, KineticsFamilies, KineticsFamilyGroups, KineticsFamilyRules, KineticsFamilyTrainingReactions]:

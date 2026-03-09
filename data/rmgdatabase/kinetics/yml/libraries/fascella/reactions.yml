@@ -1,0 +1,152 @@
+label: cC5H5 + ethyne <=> C7H71
+degeneracy: 1.0
+long_description: "\n/C7H71\t=\tcC5H5 +\tethyne\t4.20E+15\t-1\t19.5\t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 320000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 13.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C7H71 <=> C7H7c4
+degeneracy: 1.0
+long_description: "\n/cC7H7c4\t=\tC7H71\t\t\t1.60E+13\t0\t28.7\t  \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 3100000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 13.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C7H7c4 <=> cC7H7
+degeneracy: 1.0
+long_description: "\n/cC7H7\t\t= C7H7c4\t\t\t\t2.70E+13\t0\t52.9\t   \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 14000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 26.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: cC7H7 + ethyne <=> C9H91
+degeneracy: 1.0
+long_description: "\n/C9H91\t=\tcC7H7 +\tethyne\t\t7.50E+15\t-1\t20.1\t   \t   0.0\t\
+  0.0\t0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 1200000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 20.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C9H91 <=> C9H9c4
+degeneracy: 1.0
+long_description: "\n/C9H9c4\t=\tC9H91\t\t\t\t1.80E+13\t0\t31.9\t   \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 6700000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 17.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C9H9c4 <=> cC9H9
+degeneracy: 1.0
+long_description: "\n/cC9H9\t =\tC9H9c4\t\t\t\t2.40E+11\t0\t25.6\t   \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 23.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: cC9H9 <=> C9H9c5
+degeneracy: 1.0
+long_description: "\n/C9H9c5 =\t\tcC9H9\t\t\t\t7.70E+12\t0\t40.5\t   \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 110000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 26.8
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C9H9c5 <=> C9H9c5_T
+degeneracy: 1.0
+long_description: "\n/C9H9c5_T\t=\tC9H9c5\t\t\t4.10E+12\t0\t47.8\t   \t   0.0\t0.0\t\
+  0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 5900000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 33.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C9H9c5_T <=> indene + H
+degeneracy: 1.0
+long_description: "\n/indene +\tH\t= C9H9c5_T\t\t\t5.50E+12\t0\t11.6\t \t   0.0\t\
+  0.0\t0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 4500000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 23.7
+  - kcal/mol
+  T0:
+  - 1
+  - K

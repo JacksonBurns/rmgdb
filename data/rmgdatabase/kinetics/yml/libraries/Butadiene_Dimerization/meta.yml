@@ -1,0 +1,26 @@
+short_description: Reactions for Butadiene Dimerization
+long_description: '
+
+  In conjunction with the Butadiene_Dimerization thermo library,
+
+  this reaction library contains CBS-QB3 calculations for reactions
+
+  relevant to Butadiene_Dimerization.
+
+  Both calculations are done in CBS-QB3 level of theory.
+
+  Specifics of the calculations performed:
+
+  1. CBS-QB3 Level of theory was used after a B3LYP/6-311G(d,p) geometry optimization
+  was performed with frequency scale factor: 0.99
+
+  2. Frequency was calculated using B3LYP/CBSB7 iop(7/33=1) (Hessian was calculated)
+
+  3. 1D Hindered Rotors were calculated for steps of 10 degrees up to the full 360
+  degree cycle, with geometry optimization on each step, using B3LYP/CBSB7
+
+  4. All files generated were fed to Arkane.
+
+  5. Bond additivity correction was not used for the rate calculation.
+
+  '

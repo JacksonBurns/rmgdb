@@ -1,0 +1,15 @@
+short_description: ''
+long_description: "\nAutomated Reaction Mechanism Generation Including Heteroatoms:\
+  \ Nitrogen\nAlon Grinberg Dana, Beat Buesser, Shamel S. Merchant, William H. Green\n\
+  Table 2\nKinetic data for reactions marked as `BB` were calculated by B. Buesser\
+  \ with support by A. Vandeputte using:\nCBS-QB3 for energy barriers, B3LYP/6-311G(2d,d,p)\
+  \ for partition functions, hybrid meta-GGA BMK/6-311G(2d,d,p) for addition reactions.\n\
+  \nKinetic data for reactions marked as `MA` (NCC + H/CH3/NH2) were adopted from\
+  \ the literature:\nM. Altarawneh, M.H. Almatarneh, A. Marashdeh, B.Z. Dlugogorski\n\
+  \"Decomposition of ethylamine through bimolecular reactions\"\nCombust. Flame 163\
+  \ (2016) 532\u2013539\ndoi: 10.1016/j.combustflame.2015.10.032\n\nKinetic data for\
+  \ reactions marked as \"SL\" (NCC + OH) were adopted from the literature:\nS. Li,\
+  \ E. Dames, D.F. Davidson, R.K. Hanson\n\"High-Temperature Measurements of the Reactions\
+  \ of OH with Ethylamine and Dimethylamine\"\nThe Journal of Physical Chemistry A,\
+  \ 2014, 118, 70-77\ndoi: 10.1021/jp411141w\n(with geometries from http://dx.doi.org/10.1021/ct7002786\
+  \ CCSD(T)/6-311++G(2d,2p) single-point calculations)\n"

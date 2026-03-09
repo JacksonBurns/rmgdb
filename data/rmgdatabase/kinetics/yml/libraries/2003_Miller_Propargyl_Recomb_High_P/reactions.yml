@@ -1,0 +1,209 @@
+label: I <=> II
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 23090000000.0
+  - s^-1
+  n: 0.36
+  Ea:
+  - 34.586
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: II <=> III
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 500000000000.0
+  - s^-1
+  n: 0.056
+  Ea:
+  - 29.257
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: II <=> A
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1162000000000.0
+  - s^-1
+  n: -0.046
+  Ea:
+  - 38.474
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: A <=> IV
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 80670000000.0
+  - s^-1
+  n: 0.649
+  Ea:
+  - 8.03
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: II <=> VIII
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2084000000.0
+  - s^-1
+  n: 0.809
+  Ea:
+  - 39.151
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: IV <=> VI
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 26760000000.0
+  - s^-1
+  n: 1.256
+  Ea:
+  - 85.885
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: B <=> IX
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1450000000000.0
+  - s^-1
+  n: 0.194
+  Ea:
+  - 32.274
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: V <=> VI
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 155000000000.0
+  - s^-1
+  n: -0.049
+  Ea:
+  - 30.306
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: IX <=> VII
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1454000000000.0
+  - s^-1
+  n: 0.178
+  Ea:
+  - 0.205
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: VIII <=> IX
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 26550000000000.0
+  - s^-1
+  n: -0.215
+  Ea:
+  - 51.959
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: VIII <=> X
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3180000000000.0
+  - s^-1
+  n: -0.304
+  Ea:
+  - 37.327
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: X <=> IX
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 186500000000.0
+  - s^-1
+  n: 0.577
+  Ea:
+  - 29.169
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: X <=> XI
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3355000000000.0
+  - s^-1
+  n: 0.294
+  Ea:
+  - 35.954
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: IV <=> B
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 10120000000000.0
+  - s^-1
+  n: 0.1
+  Ea:
+  - 41.203
+  - kcal/mol
+  T0:
+  - 1
+  - K

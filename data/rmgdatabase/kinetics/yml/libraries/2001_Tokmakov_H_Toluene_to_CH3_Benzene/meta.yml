@@ -1,0 +1,20 @@
+short_description: Cantherm computed T,P-dependent rates using quantum calcs of 2001
+  Tokmakov for H + Toluene = CH3 + Benzene
+long_description: '
+
+  Computed T,P-dependent k''s for the methyl-hydrogen exchange reaction of toluene
+  (H + Toluene = CH3 + Benzene)
+
+  using Cantherm and the molecular properties computed with G2M(cc,MP2)//B3LYP/6-311++G(3df,2p)
+  from:
+
+  I.V. Tokmakov and M.C. Lin,
+
+  "Kinetics and Mechanism for the H-for-X Exchange Process in the H+C6H5X Reactions:
+  A Computational Study",
+
+  Int. J. Chem. Kin., Vol. 33, Iss. 11, November 2001, Pages 633-653
+
+  Calculated for an N2 bath gas
+
+  '

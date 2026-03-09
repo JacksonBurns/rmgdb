@@ -1,0 +1,5 @@
+short_description: Aromatic reactions only from 2014 Chernov et al. Combustion and
+  Flame mechanism
+long_description: "\nIncludes only reactions involving aromatic species from the mechanism\
+  \ in:\nV. Chernov, et al., \nSoot Formation with C1 and C2 Fuels Using an Improved\
+  \ Chemical Mechanism for PAH growth\nCombustion and Flame 161 (2014) 592-601\n"

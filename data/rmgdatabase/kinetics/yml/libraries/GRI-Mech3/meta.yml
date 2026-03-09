@@ -1,0 +1,9 @@
+short_description: Natural Gas Combustion Mechanism (without NOx chemistry)
+long_description: "\nThe thermodynamic and kinetic parameters in the GRI-Mech 3.0\
+  \ mechanism have \nbeen collectively estimated from literature search and then optimized\
+  \ to a set \nof representative experimental targets. For this reason you should\
+  \ generally\nuse GRI-Mech in its entirety, and generally should not tweak any of\
+  \ its\nparameter values.\n\nGRI-Mech is the result of collaborative research of\
+  \ the Gas Research Institute\nand carried out at The University of California at\
+  \ Berkeley, Stanford \nUniversity, The University of Texas at Austin, and SRI International.\n\
+  \nhttp://combustion.berkeley.edu/gri-mech/\n"

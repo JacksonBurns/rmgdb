@@ -1,0 +1,22 @@
+label: Di-H-ene
+short_description: "Based on V. V. Kislov, N. I. Islamova, A. M. Kolker, S. H. Lin,\
+  \ and A. M. Mebel;\nHydrogen Abstraction Acetylene Addition and Diels-Alder Mechanisms\
+  \ of PAH Formation: A Detailed Study Using First Principles Calculations; \nJ. Chem.\
+  \ Theory Comput. 2005, 1, 908-924."
+rank: 10
+kinetics:
+  type: ArrheniusEP
+  A:
+  - 4730000000.0
+  - s^-1
+  n: 0.797
+  alpha: 0
+  E0:
+  - 17.176
+  - kcal/mol
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 2200
+  - K

@@ -1,0 +1,221 @@
+short_description: primaryNitrogenLibrary
+long_description: "\nThis library includes important nitrogen related reactions.\n\
+  Prepared by Alon Grinberg Dana\n\nNotes:\n- Consider setting maximumRadicalElectrons\
+  \ = 3 to allow [N] quartet if you're interested in NOx (also allow N2 to be reactive)\n\
+  - For NOx, the Nitrogen_Dean_and_Bozzelli library should be used conjointly with\
+  \ this one.\n- It is reccomended to consider the SOxNOx, NitrogenCurran, SulfurLibrary,\
+  \ thermo_DFT_CCSDTF12_BAC, primaryThermoLibrary,\n  CHN, CHON, and BurcatNS thermo\
+  \ libraries for your model generation (in this order)\n- Some reactions have different\
+  \ kinetics coefficients reported for different T range,\n  'The Low T' rate is reported\
+  \ in the comments. You can also use the \"primaryNitrogenLibrary/LowT\" sub-library,\
+  \ and give it priority over this library\n- This library should be used along with\
+  \ a library which handles well the transition of ground/excited states of small\
+  \ radicals (e.g., FFCM)\n- At present (when this library was written) RMG does not\
+  \ differentiate between cis and trans conformers.\n  When data was available seperately\
+  \ for the production or consumption of two conformers\n  (e.g.: 'A + B <=> cis-X\
+  \ + C' and 'A + B <=> trans-X + C')\n  the two rates were summed and reported in\
+  \ this library as a duplicate reaction (using MultiArrhenius, unless otherwise mentioned).\n\
+  \  Such instances are marked with the comment 'conformer-dup'.\n- Some excited species\
+  \ were combined with their ground state in this library (e.g.: NCN, CH2NCN).\n\n\
+  This library contains the following subsets:\n* Thermal NO\n* Prompt NO\n* N2O Pathway\n\
+  * NNH Pathway\n* NHx Pathway\n* N2H4 + N2O4\n* CH3NO2\n* Thermal de-NOx\n* NO2 decomposition\n\
+  * NOx\n* HCN\n* C1-oxygenates\n\nReference legend:\n[Baulch1992a] D.L. Baulch, C.J.\
+  \ Cobos, R.A. Cox, C. Esser, P. Frank, Th. Just, J.A. Kerr, M.J. Philling, J. Troe,\
+  \ R.W. Walker, J. Warnatz, \"Evaluated Kinetic Data for Combustion Modelling\",\
+  \ Journal of Physical and Chemical Reference Data, 1992, 21(3), 411, doi: 10.1063/1.555908\n\
+  [Baulch1992b] R. Atkinson, D.L. Baulch, R.A. Cox, R.F. Hampson, J.A. Kerr, J. Troe,\
+  \ \"Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry: Supplement\
+  \ IV\", Journal of Physical and Chemical Reference Data, 1992, 21, 1125, doi: 10.1063/1.555918\n\
+  [Baulch1994] D.L. Baulch et al., Journal of Physical and Chemical Reference Data,\
+  \ 1994, 23, 847, doi: 10.1063/1.555953\n[Baulch2005] D.L. Baulch et al., Journal\
+  \ of Physical and Chemical Reference Data, 2005, 34, 757-1397, doi: 10.1063/1.1748524\n\
+  [Baulch2009] D.L. Baulch et al., Journal of Physical and Chemical Reference Data,\
+  \ 2009\n[Bozzelli1994] J.W. Bozzelli, A.Y. Chang, A.M. Dean, Symp. (Int.) Comb.,\
+  \ 1994, 25(1), 965-974, doi: 10.1016/S0082-0784(06)80733-2\n[Bozzelli1996] P. Glarborg,\
+  \ D. Kubel, K. Dam-Johansen, H-M. Chiang, J.W. Bozzelli, Int. J. Chem. Kin., 1996,\
+  \ 28(10), 773-790, doi: 10.1002/(SICI)1097-4601(1996)28:10<773::AID-KIN8>3.0.CO;2-K\n\
+  [Bozzelli2010] R. Asatryan, J.W. Bozzelli, G. da Silva, S. Swinnen, M.T. Nguyen,\
+  \ J. Phys. Chem. A 2010, 114, 6235-6249, doi: 10.1021/jp101640p \n[Carl2002] S.A.\
+  \ Carl, Q. Sun, L. Vereecken, J. Peeters, J. Phys. Chem. A 2002, 106(51), 12242-12247,\
+  \ doi: 10.1021/jp014135i\n[Cavallotti2023] A. Stagni, C. Cavallotti, Proc. Comb.\
+  \ Inst. 2023, 39(1), 633-641, doi: 10.1016/j.proci.2022.08.024\n[Cohen1991] N. Cohen,\
+  \ K. R. Westberg, Journal of Physical and Chemical Reference Data, 1991, 20, 1211,\
+  \ doi: 10.1063/1.555901\n[Cohen1992] Cohen, N. (1992). Chemical Kinetic Data Sheets\
+  \ for High-Temperature Chemical Reactions, Vol. III., Aerospace Corporation Report\
+  \ ATR-91 (7189)-2.\n[Dagaut1998] P. Dagaut, F. Lecomte, S. Chevailler, M. Cathonnet,\
+  \ Combat. Sci. Tech. 1998, 139, 329-363, doi: 10.1080/00102209808952093\n[DeanBozz2000]\
+  \ (RMG's Nitrogen_Dean_and_Bozzelli library) Anthony M. Dean, Joseph W. Bozzelli,\
+  \ Combustion Chemistry of Nitrogen, in: Gas-Phase Combustion Chemistry, Editor:\
+  \ W.C. Gardiner, 2000, 125-341, doi: 10.1007/978-1-4612-1310-9_2\n[DeRuyck2001]\
+  \ A.A. Konnov, J. De Ruyck, Comb. Flame, 2001, 125(4), 1258-1264, doi: 10.1016/S0010-2180(01)00250-4\n\
+  [Dievart2020] P. Dievart, L. Catoire, J. Phys. Chem. A, 2020, 124(30), 6214-6236,\
+  \ doi: 10.1021/acs.jpca.0c03144\n[Flower1977] W. L. Flower , R. K. Hanson, c. H.\
+  \ Kruger, Comb. Sci. Tech., 1977, 15(3-4), 115-128, doi: 10.1080/00102207708946777\n\
+  [Friedrichs2011] J. Dammeier, G. Friedrichs, J. Phys. Chem. A, 2011, 115, 14382-14390,\
+  \ doi: 10.1021/jp208715c\n[Friedrichs2012] J. Dammeier, N. Fa\xDFheber, G. Friedrichs,\
+  \ Phys. Chem. Chem. Phys., 2012, 15, 1030-1037, doi: 10.1039/C1CP22123J\n[Friedrichs2015]\
+  \  N. Fa\xDFheber,  N. Lamoureux,  G. Friedrichs, Phys. Chem. Chem. Phys., 2015,\
+  \ 17, 15876-15886, doi: 10.1039/C5CP01414J\n[Glarborg2018] P. Glarborg, J.A. Miller,\
+  \ B. Ruscic, S.J. Klippenstein, Progress in Energy and Combustion Science, 2018,\
+  \ 67, 31-68, doi: 10.1016/j.pecs.2018.01.002\n[Glarborg2021] P. Glarborg, Ahren\
+  \ W. Jasper, J. Phys. Chem. A, 2021, 125, 7, 2021, 1505-1516, doi: 10.1021/acs.jpca.0c11011\n\
+  [Glarborg2022] P. Glarborg, Combustion and Flame, 2022, 112311, doi: 10.1016/j.combustflame.2022.112311\n\
+  [Glarborg2023] Y. Gao, I.M. Alecu, H. Hashemi, P. Glarborg, P. Marshall, Proc. Comb.\
+  \ Inst. 2023, 39, 571-579, doi: 10.1016/j.proci.2022.07.045\n[GlarGim] (RMG's Nitrogen_Glarborg_Gimenez_et_al\
+  \ library) Gimenez Lopeza et al., Proceedings of the Combustion Institute, 2009,\
+  \ 32(1), 367-375, doi: 10.1016/j.proci.2008.06.188\n[GlarZha] (RMG's Nitrogen_Glarborg_Zhang_et_al\
+  \ library) Kuiwen Zhang et al. Proceedings of the Combustion Institute, 2013, 34,\
+  \ 617-624, doi: 10.1016/j.proci.2012.06.010\n[Goldsmith2019] X. Chen, M.E. Fuller,\
+  \ C.F. Goldsmith, Reaction Chemistry and Engineering, 2019, 4, 323-333, doi: 10.1039/C8RE00201K\n\
+  [Green2014] K. Prozument, Y.V. Suleimanov, B. Buesser, J.M. Oldham, W.H. Green,\
+  \ A.G. Suits, R.W. Field, J. Phys. Chem. Lett. 2014, 5(21), 3641-3648, doi: 10.1021/jz501758p\n\
+  [GrinbergDana2019] A. Grinberg Dana, K.B. Moore, A.W. Jasper, W.H. Green, J. Phys.\
+  \ Chem. A, 2019, 123(22), 4679-4692, doi: 10.1021/acs.jpca.9b02217\n[GrinbergDana2024]\
+  \ A. Grinberg Dana, K. Kaplan, M. Keslin, C. Cao, W.H. Green, \"NH3-1\", submitted\n\
+  [GRI] (RMG's GRI-Mech3.0-N library) GRI-Mech 3.0, http://www.me.berkeley.edu/gri_mech/\n\
+  [Hanson1981] T.R. Roose, R.K. Hanson, C.H. Kruger, Symposium (International) on\
+  \ Combustion, 1981, 18(1), 853-862, doi: 10.1016/S0082-0784(81)80089-6\n[Hanson1984a]\
+  \ M.Y. Louge, R.K. Hanson, Int. J. Chem. Kin., 1984, 16(3), 231-250, doi: 10.1002/kin.550160306\n\
+  [Hanson1984b] M.Y. Louge, R.K. Hanson, Int. J. Chem. Kin., 1984, 58(3), 291-300,\
+  \ doi: 10.1016/0010-2180(84)90113-5\n[Hanson1984c] R.K. Hanson, S. Salimian, In:\
+  \ Combustion Chemistry, W.C. Gardiner (Ed.), 1984, 361-421, doi: 10.1007/978-1-4684-0186-8_6\n\
+  [Hanson1989]  J.D. Mertens, A.Y. Chang, R.K. Hanson, C.T. Bowman, Int. J. Chem.\
+  \ Kin., 1989, 21(11), 1049-1067, doi: 10.1002/kin.550211107\n[Hanson1990a] D.F.\
+  \ Davidson, K. Kohse-Hoinghaus, A.Y. Chang, R.K. Hanson, Int. J. Chem. Kin., 1990,\
+  \ 22(5), 513-535, doi: 10.1002/kin.550220508\n[Hanson1990b] D.F. Davidson, R.K.\
+  \ Hanson, Int. J. Chem. Kin., 1990, 22(8), 843-861, doi: 10.1002/kin.550220805\n\
+  [Hanson1991a] A.J. Dean, R.K. Hanson, C.T. Bowman, J. Phys. Chem., 1991, 95(8),\
+  \ 3180-3189, doi: 10.1021/j100161a042\n[Hanson1991b] D.F. Davidson, R.K. Hanson,\
+  \ Symposium (International) on Combustion, 1991, 23(1), 267-273, doi: 10.1016/S0082-0784(06)80269-9\n\
+  [Hanson1993] M.S. Wooldridge, R.K. Hanson, C.T. Bowman, in: R. Burn, L.Z. Dumitrescu\
+  \ (Ed.) Shock Waves @ Marseille II (Proceedings Marseille France), 1993, 83-88,\
+  \ doi: 10.1007/978-3-642-78832-1\n[Hanson1996] S.T. Wooldridge, R.K. Hanson, C.T.\
+  \ Bowman, Int. J. Chem. Kin., 1996, 28(4), 254-258, doi: 10.1002/(SICI)1097-4601(1996)28:4<245::AID-KIN2>3.0.CO;2-V\n\
+  [Hanson1997] M. Rohrig, E.L. Petersen, D.F. Davidson, R.K. Hanson, Int. J. Chem.\
+  \ Kin., 1997, 29(7), 483-493, doi: 10.1002/(SICI)1097-4601(1997)29:7<483::AID-KIN2>3.0.CO;2-Q\n\
+  [Herron1991] W. Tsang, J.T. Herron, Journal of Physical and Chemical Reference Data,\
+  \ 1991, 20, 609, doi: 10.1063/1.555890\n[Hindelang1993] M.L. Thoma, F.J. Hindelang\
+  \ in: R. Burn, L.Z. Dumitrescu (Ed.) Shock Waves @ Marseille II (Proceedings Marseille\
+  \ France), 1993, 59-64, doi: 10.1007/978-3-642-78832-1\n[Howard1988] J.F. Gleason,\
+  \ C.J. Howard, J. Phys. Chem., 1988, 92(12), 3414-3417, doi: 10.1021/j100323a021\n\
+  [Huynh2019] T.V.-T Mai, H.T. Nguyen, L.K. Huynh, Phys. Chem. Chem. Phys., 2019,\
+  \ 21, 23733, doi: 10.1039/c9cp04585f\n[Hwang2003] D. Hwang, A. M. Mebel, J. Phys.\
+  \ Chem. A, 2003, 107, 2865-2875, doi: 10.1021/jp0270349\n[Kanno2020] N. Kanno, T.\
+  \ Kito, Int. K. Chem. Kin., 2020, 52(8), 548-555, doi: 10.1002/kin.21370\n[Keslin2024]\
+  \ M. Keslin, K. Kaplan, A. Grinberg Dana, \"Pressure-Dependent Kinetic Analysis\
+  \ of the N2H3 Potential Energy Surface\", submitted\n[Klemm1985] J.V. Michael, J.W.\
+  \ Sutherland, R.B. Klemm, Int. J. Chem. Kin., 1985, 17(3), 315-326, doi: 10.1002/kin.550170308\n\
+  [Klemm1990] J.W. Sutherland, P.M. Patterson, R.B. Klemm, J. Phys. Chem., 1990, 94(6),\
+  \ 2471-2475, doi: 10.1021/j100369a049\n[Klippenstein2000] J.A. Miller, S.J. Klippenstein,\
+  \ J. Phys. Chem. A, 2020, 104, 2061-2069, doi: 10.1021/jp992836y\n[Klippenstein2009a]\
+  \ S.J. Klippenstein, L.B. Harding, B. Ruscic, R. Sivaramakrishnan, N.K. Srinivasan,\
+  \ M.-C. Su, J.V. Michael, J. Phys. Chem. A, 2009, 113(38), 10241-10259, doi: 10.1021/jp905454k\n\
+  [Klippenstein2009b] S.J. Klippenstein, L.B. Harding, Proc. Comb. Inst., 2009, 32,\
+  \ 149-155, doi: 10.1016/j.proci.2008.06.135\n[Klippenstein2022] S.J. Klippenstein,\
+  \ P. Glarborg, Combustion and Flame, 2022, 236, 111787, doi: 10.1016/j.combustflame.2021.111787\n\
+  [Klippenstein2023] S.J. Klippenstein, C.R. Mulvihill, P. Glarborg, J. Phys. Chem.\
+  \ A, 2023, doi: 10.1021/acs.jpca.3c05181\n[Lin1990] C-Y. Lin, H-T. Wang, M.C. Lin,\
+  \ C.F. Melius, Int. J. Chem. Kin., 1990, 22(5), 455-482, doi: 10.1002/kin.550220504\n\
+  [Lin1993] Y. He, C.H. Wu, M.C. Lin, C.F. Melius, in: R. Burn, L.Z. Dumitrescu (Ed.)\
+  \ Shock Waves @ Marseille II (Proceedings Marseille France), 1993, 89-94, doi: 10.1007/978-3-642-78832-1\n\
+  [Lin1996a] A.M. Mebel, E.W.G. Diau, M.C. Lin, K.Morokuma, J. Phys. Chem., 1996,\
+  \ 100, 7517-7525, doi: 10.1021/jp953644f\n[Lin1996b] A.M. Mebel, M.C. Lin, K. Morokuma,\
+  \ C.F. Melius, Int. J. Chem. Kin., 1996, 28(9), 693-703, doi: 10.1002/(SICI)1097-4601(1996)28:9<693::AID-KIN8>3.0.CO;2-Q\n\
+  [Lin1997a] C.C. Hsu, M.C. Lin, A.M. Mebel, C.F. Melius, J. Phys. Chem. A, 1997,\
+  \ 101(1), 60-66, doi: 10.1021/jp962286t\n[Lin1997b] J.W. Boughton, S. Kristyan,\
+  \ M.C. Lin, Chemical Physics, 1997, 214(2-3), 219-227, doi: 10.1016/S0301-0104(96)00313-8\n\
+  [Lin1997c] A.G. Thaxton, C.-C. Hsu, M.C. Lin, Int. J. Chem. Kin., 1997, 29(4), 245-251,\
+  \ doi: 10.1002/(SICI)1097-4601(1997)29:4<245::AID-KIN2>3.0.CO;2-U\n[Lin1998a] D.\
+  \ Chakraborty, J. Park, M.C. Lin, Chemical Phisics, 1998, 231(1), 39-49, doi: 10.1016/S0301-0104(98)00033-0\n\
+  [Lin1998b] J. Park, N.D. Giles, J. Moore, M.C. Lin, J. Phys. Chem. A, 1998, 102(49),\
+  \ 10099-10105, doi: 10.1021/jp983139t\n[Lin1998c] A.M. Mebel, M.C. Lin, C.F. Melius,\
+  \ J. Phys. Chem. A, 1998, 102(10), 1803-1807, doi: 10.1021/jp973449w\n[Lin1998d]\
+  \ D. Chakraborty, C.C. Hsu, M.C. Lin, J. Chem. Phys., 1998, 109, 8887, doi: 10.1063/1.477560\n\
+  [Lin1998e] R.N. Musin, M.C. Lin, J. Phys. Chem. A, 1998, 102(10), 1808-1814, doi:\
+  \ 10.1021/jp9801370\n[Lin1998f] A.M. Mebel, M.C. Lin, K. Morokuma, Int. J. Chem.\
+  \ Kin., 1998, 30(10), 729-736, doi: 10.1002/(SICI)1097-4601(1998)30:10<729::AID-KIN5>3.0.CO;2-X\n\
+  [Lin1999a] J. Park, M.C. Lin, J. Phys Chem. A, 1999, 103, 8906-8907, doi: 10.1021/jp990954f\n\
+  [Lin1999b] A.M. Mebel, L.V. Moskaleva, M.C. Lin, J. Molec. Struc. (Theochem), 1999,\
+  \ 461-462, 223-238, doi: 10.1016/S0166-1280(98)00423-0\n[Lin2000a] L.V Moskaleva,\
+  \ M.C. Lin, Proceedings of the Combustion Institute, 2000, 28(2), 2393-2401, doi:\
+  \ 10.1016/S0082-0784(00)80652-9\n[Lin2000b] X. Lu, J. Park, M.C. Lin, J. Phys. Chem.\
+  \ A, 2000, 104(38), 8730-8738, doi: 10.1021/jp001610o\n[Lin2000c] X. Lu, R.N. Musin,\
+  \ M.C. Lin, J. Phys. Chem. A, 2000, 104(21), 5141-5148, doi: 10.1021/jp000464j\n\
+  [Lin2001] W.S. Xia, M.C. Lin, J. Chem. Phys., 2001, 114, 4522-4532, doi: 10.1063/1.1337061\n\
+  [Lin2003a] I.V. Tokmakov, L.V. Moskaleva, D.V. Paschenko, M.C. Lin, J. Phys. Chem.\
+  \ A, 2003, 107(7), 1066-1076, doi: 10.1021/jp022024t\n[Lin2003b] R.S. Zhu, M.C.\
+  \ Lin, J. Chem. Phys., 2003, 119, 10667, doi: 10.1063/1.1619373\n[Lin2003c] Z.F.\
+  \ Xu, M.C. Lin, Int. J. Chem. Kin., 2003, 35(5), 184-190, doi: 10.1002/kin.10115\n\
+  [Lin2003d] R.S. Zhu, M.C. Lin, J. Chem. Phys., 2003, 119(20), 10667-10677, doi:\
+  \ 10.1063/1.1619373\n[Lin2004] Z.F. Xu, M.C. Lin, Int. J. Chem. Kin., 2004, 36(4),\
+  \ 205-215, doi: 10.1002/kin.10178\n[Lin2005a] R.S. Zhu, M.C. Lin, Int. J. Chem.\
+  \ Kin., 2005, 37(10), 593-598, doi: 10.1002/kin.20066\n[Lin2005b] R.S. Zhu, M.C.\
+  \ Lin, Ab initio study on the oxidation of NCN by O and HO radicals: Prediction\
+  \ of the total rate constant and product branching ratios, in: 6th International\
+  \ Conference of Chemical Kinetics, NIST, Gaithersberg, MD, 2005\n[Lin2005c] Z.F.\
+  \ Xu, C.-H. Hsu, M.C. Lin, J. Chem. Phys., 2005, 122, 234308, doi: 10.1063/1.1917834\n\
+  [Lin2007a] R.S. Zhu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6766-6771, doi: 10.1021/jp068991b\n\
+  [Lin2007b] S. Xu, M.C. Lin, J. Phys. Chem. A, 2007, 111, 6730-6740, doi: 10.1021/jp069038+\n\
+  [Lin2009a] S. Xu, M.C. Lin, Proceedings of the Combustion Institute, 2009, 32, 99-106,\
+  \ doi: 10.1016/j.proci.2008.07.011\n[Lin2009b] S-Y. Tzeng, P-H. Chen, N.S. Wang,\
+  \ L.C. Lee, Z.F. Xu, M.C. Lin, J. Phys. Chem. A, 2009, 113, 6314-6325, doi: 10.1021/jp901903n\n\
+  [Lin2009c] S. Xu, M.C. Lin, Int. J. Chem. Kin., 2009, 41(11), 667-677, doi: 10.1002/kin.20453\n\
+  [Lin2010a] S. Xu, M.C. Lin, J. Phys. Chem. A, 2010, 114, 5195-5204, doi: 10.1021/jp911048p\n\
+  [Lin2010b] R.S. Zhu, S.C. Xu, M.C. Lin, Chem. Phys. Letters, 2010, 488(4-6), 121-125,\
+  \ doi: 10.1016/j.cplett.2010.02.003\n[Lin2010c] S. Xu, M.C. Lin, Int. J. Chem. Kin.,\
+  \ 2010, 42(2), 69-78, doi: 10.1002/kin.20463\n[Lin2012] R.S. Zhu, K-Y. Lai, M.C.\
+  \ Lin, J. Phys. Chem. A, 2012, 116, 4466-4472, doi: 10.1021/jp302247k\n[Lin2013a]\
+  \ R.S. Zhu, P. Raghunath, M.C. Lin, J. Phys. Chem. A, 2013, 117, 7308-7313, doi:\
+  \ 10.1021/jp401148q\n[Lin2013b] W.-S. Teng, L.V. Moskaleva, H.-L. Chen, M.C. Lin,\
+  \ J. Phys. Chem. A, 2013, 117(28), 5775-5784, doi: 10.1021/jp402903t\n[Lin2014a]\
+  \ P. Raghunath, Y.H. Lin, M.C. Lin, Computational and Theoretical Chemistry, 2014,\
+  \ 1046, 73-80, doi: 10.1016/j.comptc.2014.07.011\n[Lin2014b] P. Raghunath, N.T.\
+  \ Nghia, M.C. Lin, Advances in Quantum Chemistry, 2014, 69, 253-301, doi: 10.1016/B978-0-12-800345-9.00007-6\n\
+  [Lin2020] T.V. Pham, T.J. Tsay, M.C. Lin, Int. J. Chem. Kin., 2020, 52(10), 632-644,\
+  \ doi: 10.1002/kin.21388\n[Luo2019] Y. Shang, J. Shi, H. Ning, R. Zhang, H. Wang,\
+  \ S. Luo, Fuel, 2019, 243, 288-297, doi: 10.1016/j.fuel.2019.01.112\n[Marshall2013]\
+  \ S.J. Klippenstein, L.B. Harding, P. Glarborg, Y. Gao, H. Hu, P. Marshall, J. Phys.\
+  \ Chem. A, 2013, 117, 9011-9022, doi: 10.1021/jp4068069\n[Marshall2014] I.M. Alecu,\
+  \ P. Marshall, J. Phys. Chem. A, 2014, 118(48), 11405-11416, doi: 10.1021/jp509301t\n\
+  [Marshall2023] P. Marshal, P. Glarborg, The Journal of Physical Chemistry A, 2023,\
+  \ 127(11), 2601-2607, doi: 10.1021/acs.jpca.2c08921\n[Mei2019] B. Mei, X. Zhang,\
+  \ S. Ma, M. Cui H. Guo, Z. Cao, Y. Li, Combustion and Flame, 2019, 210, 236-246,\
+  \ doi: 10.1016/j.combustflame.2019.08.033\n[Miller1992] J.A. Miller, C.F. Melius,\
+  \ Simp. (Int.) Comb., 1992, 24(1), 719-726, doi: 10.1016/S0082-0784(06)80088-3\n\
+  [Miller1999] P. Glarborg, A.B. Bendtsen, J.A. Miller, Int. J. Chem. Kin., 1999,\
+  \ 31(9), 591-602, doi: 10.1002/(SICI)1097-4601(1999)31:9<591::AID-KIN1>3.0.CO;2-E\n\
+  [Miller2008] L.B. Harding, S.J. Klippenstein, J.A. Miller, J. Phys. Chem. A, 2008,\
+  \ 112 (3), pp 522-532, doi: 10.1021/jp077526r\n[Miller2011] S.J. Klippenstein, L.B.\
+  \ Harding, P. Glarborg, J.A. Miller, Comb. Flame, 2011, 158(4), 774-789, doi: 10.1016/j.combustflame.2010.12.013\n\
+  [Morley1976] C. Morley, Combustion and Flame, 1976, 27, 189-204, doi: 10.1016/0010-2180(76)90022-5\n\
+  [Mousavipour2009] S. Hosein Mousavipour, F. Pirhadi, A. HabibAgahi, J. Phys. Chem.\
+  \ A, 2009, 113(46), 12961-12971, doi: 10.1021/jp905197h\n[Page1992] M.R. Soto, M.\
+  \ Page, J. Chem. Phys., 1992, 97, 7287, doi: 10.1063/1.463501\n[Palmer1977] H. Freund,\
+  \ H.B. Palmer, Int. J. Chem. Kin., 1977, 9(6), 887-905, doi: 10.1002/kin.550090605\n\
+  [Perry1984] R.A. Perry, Chem. Phys. Lett., 1984, 106(3), 223-228, doi: 10.1016/0009-2614(84)80230-4\n\
+  [Perry1985] R.A. Perry, J. Chem. Phys, 1985, 82, 5485, doi: 10.1063/1.448583\n[Pritchard2001]\
+  \ W-T. Chan, S.M. Heck, H.O. Pritchard, Phys. Chem. Chem. Phys., 2001, 3, 56-62,\
+  \ doi: 10.1039/b006088g\n[Rabinowitz2010] S.M. Hwang, J.A. Cooke, K.J. De Witt,\
+  \ M.J. Rabinowitz, Int. J. Chem. Kin., 2010, 42(3), 168-180, doi: 10.1002/kin.20472\n\
+  [Salimian1984] S. Salimian, R.K. Hanson, C.H. Kruger, Int. J. CHem. Kin., 1984,\
+  \ 16(6), 725-739, doi: 10.1002/kin.550160609\n[Sarathy2020] Y. Li, S. Mani Sarathy,\
+  \ Int. J. Hydrogen Energy, 2020, 45, 23624-23637, doi: 10.1016/j.ijhydene.2020.06.083\n\
+  [Sarathy2022] J.E. Chavarrio Cans, M. Monge-Palacios, X. Zhang, S. Mani Sarathy,\
+  \ Combustion and Flame, 2022, 235, 111708, doi: 10.1016/j.combustflame.2021.111708\n\
+  [Stagni2020] A. Stagni, C. Cavallotti, O. Herbinet, T. Faravelli, Reaction Chemistry\
+  \ & Engineering, 2020, 5, 696-711, doi: 10.1039/c9re00429g\n[Staton2019] T.L. Nguyen,\
+  \ J.F. Staton, IJCK 2019, doi: 10.1002/kin.21255\n[Troe1975] K. Glanzer, J. Troe,\
+  \ Berichte der Bunsengesellschaft fur physikalische Chemie, 1975, 79(5), 465-469,\
+  \ doi: 10.1002/bbpc.19750790514\n[Troe1998] D. Fulle, H.F. Hamann, H. Hippler, J.\
+  \ Troe, J. Chem. Phys. 1998, 108, 5391-5397, doi: 10.1063/1.475971\n[Troe2023] C.J.\
+  \ Cobos, P. Glarborg, P. Marshall, J. Troe, Comb. Flame 2023, 257, 112374, doi:\
+  \ 10.1016/j.combustflame.2022.112374\n[Varandas2005] P.J.S.B. Caridade, S.P.J. Rodrigues,\
+  \ F. Sousa, A.J.C. Varandas, J. Phys. Chem. A ,2005, 109, 2356-2363, doi: 10.1021/jp045102g\n\
+  [Wagner1998] J. Deppe, G. Friedrichs, A. Ibrahim, H.-J. Romming, H.Gg. Wagner, Berichte\
+  \ der Bunsengesellschaft f\xFCr physikalische Chemie, 1998, 1474-1485, doi: 10.1002/bbpc.199800016\n\
+  [Wang1982] O.I. Smith, S. Tseregounis, S-N. Wang, Int. J. Chem. Kin., 1982, 14(6),\
+  \ 679-697, doi: 10.1002/kin.550140610\n[Xu2021] Y. Li, S. Javoy, R. Mevel, X. Xu,\
+  \ Phys. Chem. Chem. Phys., 2021, 23, 585, doi: 10.1039/d0cp05131d\n[Yamaguchi1999]\
+  \ Y. Yamaguchi, Y. Teng, S. Shimomura, K. Tabata, E. Suzuki, J. Phys. Chem. A, 1999,\
+  \ 103(41), 8272-8278, doi: 10.1021/jp990985a\n[Yang2012] Y. Guan, B. Yang, J. Comp.\
+  \ Chem., 2012, 33(23), 1870-1879, doi: 10.1002/jcc.23020\n"

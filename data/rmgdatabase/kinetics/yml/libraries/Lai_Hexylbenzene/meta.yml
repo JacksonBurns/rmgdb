@@ -1,0 +1,24 @@
+short_description: Reactions for Hexylbenzene pyrolysis at 450C
+long_description: "\nIn conjunction with the Lai_Hexylbenzene thermo library,\nthis\
+  \ reaction library contains CBS-QB3 calculations for reactions\nrelevant to Hexylbenzene\
+  \ pyrolysis and supercritical water treatment.\n\nLai, Lawrence, Gudiyella, Soumya,\
+  \ Liu, Mengjie, Green, William H. \"Chemistry of Alkylaromatics Reconsidered\".\
+  \ Energy Fuels, 2018, 32 (4), pp 5489-5500.\nLai, Lawrence, Green, William H. \"\
+  Thermochemistry and Kinetics of Intermolecular Addition of Radicals to Toluene and\
+  \ Alkylaromatics\". J. Phys. Chem. A., 2019, 123 (14), pp 3176-3184\nKhanniche,\
+  \ Sarah, Lai, Lawrence, Green, William H. \"Kinetics of Intramolecular Phenyl Migration\
+  \ and Fused Ring Formation in Hexylbenzene Radicals\". J. Phys. Chem. A, 2018, 122\
+  \ (51), pp 9778-9791.\nLai, Lawrence, Pang, Hao-Wei, Green, William H. \"Formation\
+  \ of 2-Ring Aromatics in Hexylbenzene Pyrolysis\". To be submitted to Energy Fuels,\
+  \ 2019.\n\nAll calculations are done in CBS-QB3 level of theory.\n\nSpecifics of\
+  \ the calculations performed:\n1. CBS-QB3 Level of theory was used after a B3LYP/6-311G(d,p)\
+  \ geometry optimization was performed\n2. Frequency was calculated using B3LYP/CBSB7\
+  \ iop(7/33=1) (Hessian was calculated)\n3. 1D Hindered Rotors were calculated for\
+  \ steps of 10 degrees up to the full 360 degree cycle, with geometry optimization\
+  \ on each step, using B3LYP/CBSB7\n4. All files generated were fed to Arkane.\n\
+  5. Frequency scaling factor was 0.99\n6. Bond additivity corrections were not used.\n\
+  \nDisclaimer: The number of significant figures displayed does not reflect the accuracy\
+  \ of thermochemistry values. Sommers and Simmie esimates\nthe error in enthalpy\
+  \ of formation (and therefore the activation energy) by CBS-QB3 calculations to\
+  \ be + or - 2.4kcal/mol \n(http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05448).\
+  \ \n"

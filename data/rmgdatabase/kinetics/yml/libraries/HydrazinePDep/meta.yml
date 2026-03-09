@@ -1,0 +1,20 @@
+short_description: HydrazinePDep
+long_description: '
+
+  This library includes well-skipping pressure-dependent reactions on the N3H5 and
+  N4H6 PESs
+
+  Calculated by alongd at CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
+
+  Using the modified strong collision method
+
+
+  opt, freq: wB97x-D3/6-311++G(3df,3pd)
+
+  sp: CCSD(T)-F12a/aug-cc-pVTZ
+
+  rotors: B3LYP/6-311++G(3df,3pd)
+
+  An IRC calculation was run for each TS in both directions to verify adjacent wells
+
+  '

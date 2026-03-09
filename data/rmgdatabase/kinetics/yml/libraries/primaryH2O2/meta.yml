@@ -1,0 +1,16 @@
+short_description: primaryH2O2
+long_description: "\nBased on:\n[Baulch2005] D.L. Baulch, C.T. Bowman, C.J. Cobos,\
+  \ R.A. Cox, Th. Just, J.A. Kerr, M.J. Pilling, D. Stocker, J. Troe,\n    W. Tsang,\
+  \ R.W. Walker, J. Warnatz, J. Phys. Chem. Ref. Data, 2005, 34, 757-1397, doi: 10.1063/1.1748524\n\
+  [Hosein2007] M.S. Hosein, S. Vahid, Bull. Chem. Soc. Jpn., 2007, 80(10), 1901-1913,\
+  \ doi: 10.1246/bcsj.80.1901\n[Klippenstein2022] S.J. Klippenstein, R. Sivaramakrishnan,\
+  \ U. Burke, K.P. Somers, H.J. Curran, L. Cai, H. Pitsch,\n    M. Pelucchi, T. Faravelli,\
+  \ P. Glarborg, \"HO2 + HO2: High level theory and the role of singlet channels\"\
+  ,\n    Combustion and Flame 2022, 243, 111975, doi: 10.1016/j.combustflame.2021.111975\n\
+  [Konnov2015] A.A. Konnov, \"On the role of excited species in hydrogen combustion\"\
+  , Combustion and Flame 2015, \n    162, 3755-3772, doi: 10.1016/j.combustflame.2015.07.014\n\
+  [Konnov2019] A.A. Konnov, \"Yet another kinetic mechanism for hydrogen combustion\"\
+  , Combustion and Flame 2019, \n    203, 14-22, doi: 10.1016/j.combustflame.2019.01.032\n\
+  [Tsang1986] W. Tsang, R.F. Hampson, \"Chemical Kinetic Data Base for Combustion\
+  \ Chemistry. Part I. Methane and Related Compounds\",\n    Journal of Physical and\
+  \ Chemical Reference Data, 1986,  15, 1087\u20131279, doi: 10.1063/1.555759\n"

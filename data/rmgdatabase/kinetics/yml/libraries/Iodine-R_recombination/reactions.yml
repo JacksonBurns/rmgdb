@@ -1,0 +1,157 @@
+label: H + I <=> HI
+degeneracy: 1.0
+short_description: 'Estimated: thermochemical, kinetic, or other'
+long_description: |2
+
+  Bath gas: Ar
+  Excitation technique: Shock Tube
+  Analytical technique: GC-MS
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.3e-31
+  - cm^3/(molecule*s)
+  n: -1.87
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 950
+  - K
+  Tmax:
+  - 1200
+  - K
+  Pmin:
+  - 187000.0
+  - Pa
+  Pmax:
+  - 247000.0
+  - Pa
+---
+label: I + I <=> I2
+degeneracy: 1.0
+long_description: |2
+
+  Bath gas: He
+kinetics:
+  type: Arrhenius
+  A:
+  - 5.51e-34
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - -4.78
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 290
+  - K
+  Tmax:
+  - 1250
+  - K
+---
+label: CH3 + I <=> CH3I
+degeneracy: 1.0
+short_description: Measured at 400 K, 82 Torr CH3I bath gas
+long_description: |2
+
+  Bath gas: CH3I
+  Excitation technique: Flash photolysis (laser or conventional)
+  Analytical technique: Vis-UV absorption
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.17e-11
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: C3H5 + I <=> C3H5I
+degeneracy: 1.0
+short_description: Measured at 296 K, 750 Torr N2 bath gas
+long_description: |2
+
+  Bath gas: N2
+  Excitation technique: Flash photolysis (laser or conventional)
+  Analytical technique: Vis-UV absorption
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.6e-10
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: C6H5 + I <=> C6H5I
+degeneracy: 1.0
+short_description: 'Estimated: thermochemical, kinetic, or other'
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.7e-11
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: C6H5CH2 + I <=> C6H5CH2I
+degeneracy: 1.0
+short_description: Estimated from I + C2H5 -> C2H5I by Zach et al (Table S2)
+long_description: "\n    Bath gas: Kr (100 Torr)\n    Estimated by Zach et al. by\
+  \ analogy to I + C2H5 -> C2H5I measured at 298 K, 100 Torr Kr bath gas and increased\
+  \ by 5 x to match MBMS experiments.\n    Supplementary Information (Table S2) for\
+  \ Buras, Z. J. et al. Phenyl Radical + Propene: A Prototypical Reaction Surface\
+  \ for Aromatic-Catalyzed 1,2Hydrogen-Migration and Subsequent Resonance Stabilized\
+  \ Radical Formation\n    "
+kinetics:
+  type: Arrhenius
+  A:
+  - 5.8e-11
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K
+---
+label: C6H5CH2CHCH3 + I <=> C6H5CH2CHCH3I
+degeneracy: 1.0
+short_description: Estimated from I + C2H5 -> C2H5I by Zach et al (Table S2)
+long_description: |2
+
+  Bath gas: Kr (100 Torr)
+  Estimated by analogy by Zach et al. to I + C2H5 -> C2H5I measured at 298 K, 100 Torr Kr bath gas and increased by 5 x to match MBMS experiments.
+  Supplementary Information (Table S2) for Buras, Z. J. et al. Phenyl Radical + Propene: A Prototypical Reaction Surface for Aromatic-Catalyzed 1,2Hydrogen-Migration and Subsequent Resonance Stabilized Radical Formation
+kinetics:
+  type: Arrhenius
+  A:
+  - 5.8e-11
+  - cm^3/(molecule*s)
+  n: 0
+  Ea:
+  - 0
+  - kJ/mol
+  T0:
+  - 1
+  - K

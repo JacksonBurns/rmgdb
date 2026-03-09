@@ -1,0 +1,37 @@
+short_description: ''
+long_description: "\nFoundational Fuel Chemistry Model Version 1.0 (excited species\
+  \ removed)\nhttp://web.stanford.edu/group/haiwanglab/FFCM1/pages/FFCM1.html\n\n\
+  FFCM-1\nH2/CO/C1 reaction model - Chemkin form - version v1.0c \nRelease date: 05/31/3016.\n\
+  \nG. P. Smith, Y. Tao, and H. Wang, Foundational Fuel Chemistry Model Version 1.0\
+  \ (FFCM-1),\nhttp://nanoenergy.stanford.edu/ffcm1, 2016.\n\nThe following reactions\
+  \ involve excited CH and OH species, which currently cannot be represented in RMG.\n\
+  In order to compare RMG's predictions with experimental results of excited CH or\
+  \ OH,\nit is advised to append the following reactions to the final Chemkin file.\n\
+  Note that the model generation in RMG could have been somewhat different if these\
+  \ reactions were to integrated as a library.\nSee https://github.com/ReactionMechanismGenerator/RMG-database/issues/174\
+  \ for more info.\n\nCH+O2<=>CO+OH*                                     1.800E+11\
+  \    0.000        0.00\nC2H+O<=>CO+CH*                                     2.500E+12\
+  \    0.000        0.00\nC2H+O2<=>CO2+CH*                                   3.200E+11\
+  \    0.000     1600.00\nH+O+M=>OH*+M                                       5.450E+12\
+  \    0.000        0.00\n2OH+H=>OH*+H2O                                     1.450E+15\
+  \    0.000        0.00\nCH*=>CH                                            1.850E+06\
+  \    0.000        0.00\nCH*+N2<=>CH+N2                                     3.030E+02\
+  \    3.400     -381.00\nCH*+O2<=>CH+O2                                     2.400E+06\
+  \    2.140    -1720.00\nCH*+H2O<=>CH+H2O                                   5.300E+13\
+  \    0.000        0.00\nCH*+H2<=>CH+H2                                     1.470E+14\
+  \    0.000     1361.00\nCH*+CO2<=>CH+CO2                                   2.410E-01\
+  \    4.300    -1694.00\nCH*+CO<=>CH+CO                                     2.440E+12\
+  \    0.500        0.00\nCH*+CH4<=>CH+CH4                                   1.730E+13\
+  \    0.000      167.00\nCH*+Ar<=>CH+Ar                                     1.250E+10\
+  \    0.500        0.00\nCH*+He<=>CH+He                                     1.950E+09\
+  \    0.500        0.00\nOH*=>OH                                            1.450E+06\
+  \    0.000        0.00\nOH*+N2<=>OH+N2                                     1.080E+11\
+  \    0.500    -1238.00\nOH*+O2<=>OH+O2                                     2.100E+12\
+  \    0.500     -482.00\nOH*+H2O<=>OH+H2O                                   5.920E+12\
+  \    0.500     -861.00\nOH*+H2<=>OH+H2                                     2.950E+12\
+  \    0.500     -444.00\nOH*+CO2<=>OH+CO2                                   2.750E+12\
+  \    0.500     -968.00\nOH*+CO<=>OH+CO                                     3.230E+12\
+  \    0.500     -787.00\nOH*+CH4<=>OH+CH4                                   3.360E+12\
+  \    0.500     -635.00\nOH*+Ar<=>OH+Ar                                     1.250E+10\
+  \    0.500        0.00\nOH*+He<=>OH+He                                     1.950E+09\
+  \    0.500        0.00\n"

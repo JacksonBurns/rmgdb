@@ -1,0 +1,11 @@
+short_description: CCSD(T)//B3LYP/6-31g+(d') and MP4SDQ//B3LYP/CBSB4
+long_description: "\nKinetics from:\nComputed Rate Coefficients and Product Yields\
+  \ for c-C5H5+CH3->Products\nS. Sharma and W. H. Green*\nDepartment of Chemical Engineering,\
+  \ Massachusetts Institute of Technology, Cambridge, MA 02139\nReceived: January\
+  \ 22, 2009; Revised Manuscript Received: June 1, 2009\nJ. Phys. Chem. A 2009, 113,\
+  \ 8871-8882\n\nRates from Table 8 and Table 9 are fitted in Chebyshev form\nDuplicated\
+  \ rates (backward rate if there is the forward rate) are deleted after we checked\
+  \ the backward rates are similar to those rates calculated from thermo by using\
+  \ plot kinetics tool in RMG website\nThe adduct C5H5CH3 in the dictionary is same\
+  \ as C5H5CH3-5 in the paper, because the paper mentioned either C5H5CH3-5, C5H5CH3-2,\
+  \ or C5H5CH3-3 would give similar computational results \n"

@@ -1,0 +1,20 @@
+short_description: Glarborg CH3Cl
+long_description: "\nPelucchi M, Cavallotti C, Frassoldati A, Ranzi E, Glarborg P,\
+  \ Faravelli T.\nTheoretical and kinetic modeling study of chloromethane (CH3Cl)\
+  \ pyrolysis and oxidation. \nInt J Chem Kinet. 2021;53:403-418\nhttps://doi.org/10.1002/kin.21452\n\
+  \nAbstract:\nThis work presents a comprehensive kinetic modeling study of the pyrolysis\
+  \ and oxidation of chloromethane. \nTheoretical calculations were performed for\
+  \ the decomposition reaction CH3Cl + M = CH3 + Cl + M and for a set of relevant\
+  \ \nH-abstraction reactions (CH3Cl + R, R = Cl, H, OH, HO2, O2, ?, CH3, C2H3, C2H5;\
+  \ CH4 + Cl, C2H6 + Cl, C2H4 + Cl, C2H2 + Cl).\nComparison with previous experimental\
+  \ or theoretical determinations, when available, proved the appropriateness \nof\
+  \ the adopted protocols and the accuracy of the calculated rate constants. Previously\
+  \ developed subsets for CH3Cl and HCl/Cl2 \nwere updated with the theoretical rate\
+  \ constants and combined with the CRECK C1-C3 mechanism,\nyielding a kinetic mechanism\
+  \ consisting of 143 species and 2347 reactions.\nThe validation was performed through\
+  \ comparison with all the pyrolysis and oxidation measurements available for pure\
+  \ CH3Cl and its mixtures with \nCH4, H2, and CO/H2 O. The kinetic discussion highlights\
+  \ the role of key reaction steps that have been theoretically investigated in this\
+  \ work \nand in previous efforts and sheds light on additional reaction pathways\
+  \ needing better assessments.\n\nChlorine dioxide (OCLO) was removed from the mechanism\
+  \ since RMG cannot process hypervalent chlorine\n"

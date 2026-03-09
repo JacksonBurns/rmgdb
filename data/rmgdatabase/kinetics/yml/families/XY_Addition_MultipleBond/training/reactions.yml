@@ -1,0 +1,692 @@
+label: C2H5F <=> C2H4 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH3-CH2F <=> C2H4 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH3-CH2F <=> C2H4 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 26300000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 59900
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4F2 <=> CH2CHF + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH3-CHF2 <=> CH2:CHF + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH3-CHF2 <=> CH2:CHF + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 79400000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 61900
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3F3 <=> CH2CF2 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH3-CF3 <=> CH2:CF2 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH3-CF3 <=> CH2:CF2 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 68700
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4F2-2 <=> C2H3F + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2F-CH2F <=> CH2:CHF + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH2F-CH2F <=> CH2:CHF + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 25000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 62900
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3F3-2 <=> CHFCHF + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2F-CHF2 <=> CHF:CHF[Z] + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH2F-CHF2 <=> CHF:CHF[Z] + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 126000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 69100
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3F3-3 <=> C2H2F2 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2F-CHF2 <=> CH2:CF2 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH2F-CHF2 <=> CH2:CF2 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 65400
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H2F4 <=> CHFCF2 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2F-CF3 <=> CHF:CF2 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CH2F-CF3 <=> CHF:CF2 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 26300000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 70700
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H2F4-2 <=> C2HF3 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CHF2-CHF2 <=> CHF:CF2 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CHF2-CHF2 <=> CHF:CF2 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 69400
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2HF5 <=> CF2CF2 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CHF2-CF3 <=> CF2:CF2 + HF
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CHF2-CF3 <=> CF2:CF2 + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 71600
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H5Br <=> C2H4 + BrH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2H5BR <=> C2H4 + HBR
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: C2H5BR <=> C2H4 + HBR
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 27000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 53000
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: BrH + C3HF3 <=> C3H2BrF3
+degeneracy: 1.0
+short_description: The chemkin file reaction is CF3CCH + HBR <=> BTP
+long_description: |2
+
+  Training reaction from kinetics library: 2-BTP
+  Original entry: CF3CCH + HBR <=> BTP
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0
+  Ea:
+  - 51390
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C3H2F4 <=> C3HF3-2 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CHFCHCF3 <=> HF + CF3CCH
+long_description: |2
+
+  Training reaction from kinetics library: NIST_Fluorine/reduced
+  Original entry: CHFCHCF3 <=> HF + CF3CCH
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.0e+51
+  - s^-1
+  n: -10.897
+  Ea:
+  - 102870
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C3H2F4-2 <=> C3HF3 + HF
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CFCF3 <=> CF3CCH + HF
+long_description: |2
+
+  Training reaction from kinetics library: NIST_Fluorine/reduced
+  Original entry: CH2CFCF3 <=> CF3CCH + HF
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.1e+44
+  - s^-1
+  n: -8.492
+  Ea:
+  - 99304
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: CF3OH <=> CF2O + HF
+degeneracy: 1.0
+short_description: CF3OH Decomposition
+long_description: |2
+
+  https://pubs.acs.org/doi/pdf/10.1021/jp709796n
+rank: 10
+kinetics:
+  type: Arrhenius
+  A:
+  - 794000000000.0
+  - s^-1
+  n: 0.45
+  Ea:
+  - 45.2
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H5Cl <=> C2H4 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2H5CL <=> C2H4 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2H5CL <=> C2H4 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.81e+19
+  - s^-1
+  n: -2
+  Ea:
+  - 60660
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4Cl2 <=> C2H3Cl + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH3CHCL2 <=> C2H3CL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH3CHCL2 <=> C2H3CL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.94e+21
+  - s^-1
+  n: -2.37
+  Ea:
+  - 59460
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3Cl3 <=> C2H2Cl2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH3CCL3 <=> CH2CCL2 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH3CCL3 <=> CH2CCL2 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.94e+21
+  - s^-1
+  n: -2.37
+  Ea:
+  - 59460
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4Cl2-2 <=> C2H3Cl-2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CLCH2CL <=> C2H3CL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH2CLCH2CL <=> C2H3CL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 6.76e+19
+  - s^-1
+  n: -1.93
+  Ea:
+  - 58710
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3Cl3-2 <=> C2H2Cl2-2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CLCHCL2 <=> CHCLCHCL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH2CLCHCL2 <=> CHCLCHCL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.39e+20
+  - s^-1
+  n: -2.03
+  Ea:
+  - 60450
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3Cl3-3 <=> C2H2Cl2-3 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CLCHCL2 <=> CH2CCL2 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH2CLCHCL2 <=> CH2CCL2 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.13e+19
+  - s^-1
+  n: -2.02
+  Ea:
+  - 60330
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H2Cl4 <=> C2HCl3 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CHCL2CHCL2 <=> C2HCL3 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CHCL2CHCL2 <=> C2HCL3 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 8.62e+21
+  - s^-1
+  n: -2.57
+  Ea:
+  - 51870
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2HCl5 <=> C2Cl4 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2HCL5 <=> C2CL4 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2HCL5 <=> C2CL4 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 26000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 57100
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3Cl-3 <=> C2H2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2H3CL <=> C2H2 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2H3CL <=> C2H2 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.62e+28
+  - s^-1
+  n: -4.29
+  Ea:
+  - 75780
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H2Cl2-4 <=> C2HCl + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CCL2 <=> C2HCL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CH2CCL2 <=> C2HCL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 145000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 69220
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H2Cl2-5 <=> C2HCl-2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CHCLCHCL <=> C2HCL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: CHCLCHCL <=> C2HCL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 72600000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 69090
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2HCl3-2 <=> C2Cl2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2HCL3 <=> C2CL2 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2HCL3 <=> C2CL2 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 72600000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 74440
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C3H7Cl <=> C3H6 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is IC3H7CL <=> C3H6 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: IC3H7CL <=> C3H6 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 7.81e+19
+  - s^-1
+  n: -2
+  Ea:
+  - 60660
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2Cl6 <=> C2Cl4 + Cl2
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2CL6 <=> C2CL4 + CL2
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2CL6 <=> C2CL4 + CL2
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 50100000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 54100
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2HClF4 <=> CF2CF2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2HF4CL <=> C2F4 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2HF4CL <=> C2F4 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 71600
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2HBrF4 <=> CF2CF2 + BrH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2HF4BR <=> C2F4 + HBR
+long_description: |2
+
+  Training reaction from kinetics library: CF2BrCl
+  Original entry: C2HF4BR <=> C2F4 + HBR
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 71600
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H5Cl <=> C2H4 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2H5CL <=> C2H4 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CH3Cl
+  Original entry: C2H5CL <=> C2H4 + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 45000000000.0
+  - s^-1
+  n: 1.05
+  Ea:
+  - 57700
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H4Cl2-2 <=> C2H3Cl-2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is CH2CLCH2CL <=> C2H3CL + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CH3Cl
+  Original entry: CH2CLCH2CL <=> C2H3CL + HCL
+rank: 3
+kinetics:
+  type: Arrhenius
+  A:
+  - 42000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 56300
+  - cal/mol
+  T0:
+  - 1
+  - K
+---
+label: C2H3Cl-3 <=> C2H2 + ClH
+degeneracy: 1.0
+short_description: The chemkin file reaction is C2H3CL <=> C2H2 + HCL
+long_description: |2
+
+  Training reaction from kinetics library: CH3Cl
+  Original entry: C2H3CL <=> C2H2 + HCL
+rank: 3
+duplicate: true
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - s^-1
+  n: 0
+  Ea:
+  - 67000
+  - cal/mol
+  T0:
+  - 1
+  - K

@@ -1,0 +1,19 @@
+label: cyclohexene
+short_description: A. G. Vandeputte, value for ring opening JP10=
+rank: 9
+kinetics:
+  type: ArrheniusEP
+  A:
+  - 12400000000.0
+  - s^-1
+  n: 1.27
+  alpha: 0
+  E0:
+  - 65.6
+  - kcal/mol
+  Tmin:
+  - 300
+  - K
+  Tmax:
+  - 1500
+  - K

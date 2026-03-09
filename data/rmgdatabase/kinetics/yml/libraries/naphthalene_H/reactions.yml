@@ -1,0 +1,181 @@
+label: biCPD3ene + H <=> adducta
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1630000000.0
+  - cm^3/(mol*s)
+  n: 1.61
+  Ea:
+  - 0.1
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD3ene + H <=> adductb
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 16100000000.0
+  - cm^3/(mol*s)
+  n: 1.52
+  Ea:
+  - 0.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: biCPD3ene + H <=> adductc
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 16100000000.0
+  - cm^3/(mol*s)
+  n: 1.52
+  Ea:
+  - 0.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: adducta <=> adductb
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 246000000.0
+  - s^-1
+  n: 1.46
+  Ea:
+  - 16.7
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: adductb <=> adductc
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 5460000.0
+  - s^-1
+  n: 2.01
+  Ea:
+  - 27.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: adducta <=> prod1
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 889000000000.0
+  - s^-1
+  n: 0.12
+  Ea:
+  - 9.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod1 <=> prod2
+degeneracy: 1.0
+long_description: "\n/ prod1 = prod2 rate limiting, calculated BMK/cbsb7\n/prod1 =\
+  \ prod2\t\t        3.51E+11\t0.51\t21.7 0.0 0.0 0.0\n"
+kinetics:
+  type: Arrhenius
+  A:
+  - 773000000000.0
+  - s^-1
+  n: 0.31
+  Ea:
+  - 22.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod2 <=> prod5
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1300000000000.0
+  - s^-1
+  n: 0.45
+  Ea:
+  - 25.6
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod2 <=> prod3
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 414000000000.0
+  - s^-1
+  n: 0.34
+  Ea:
+  - 11.9
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod3 <=> prod4
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 879000000000.0
+  - s^-1
+  n: 0.33
+  Ea:
+  - 10.5
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod4 <=> naphthalene + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 134000000.0
+  - s^-1
+  n: 1.55
+  Ea:
+  - 15.3
+  - kcal/mol
+  T0:
+  - 1
+  - K
+---
+label: prod5 <=> prod4
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 342000000000.0
+  - s^-1
+  n: 0.22
+  Ea:
+  - 4.8
+  - kcal/mol
+  T0:
+  - 1
+  - K

@@ -1,0 +1,18 @@
+short_description: Computed rates on OH + CO = HOCO = H + CO2 surface
+long_description: '
+
+  Chebyshev fit to T,P-dependent k''s calculated with CCSD(T)/cc-pvTZ for the small
+  OH + CO surface by:
+
+  A.V. Joshi and H. Wang,
+
+  "Master equation modeling of wide range temperature and pressure dependence of CO
+  + OH -> Products''
+
+  Int. J. Chem. Kin., Vol. 38, Iss. 1, January 2006, Pages 57-73
+
+  The surface includes OH+CO, HOCO and H+CO2 only.
+
+  Calculated for an N2/Ar bath gas
+
+  '

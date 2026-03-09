@@ -1,0 +1,109 @@
+label: LiOCOOCH2CH2X <=> CO2 + LiOCH2CH2X
+kinetics:
+  type: SurfaceArrhenius
+  A:
+  - 266452000000.0
+  - s^-1
+  n: 1.27462
+  Ea:
+  - 70.1461
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 298
+  - K
+  Tmax:
+  - 2500
+  - K
+  comment: Fitted to 50 data points; dA = *|/ 1.11209, dn = +|- 0.0134516, dEa = +|-
+    0.0934388 kJ/mol
+---
+label: LiOCOOCH2CH2X + X <=> C2H4 + LiOCOOX + X
+kinetics:
+  type: SurfaceArrhenius
+  A:
+  - 3.5183e-07
+  - m^2/(molecule*s)
+  n: 0.128046
+  Ea:
+  - -11.0304
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 298
+  - K
+  Tmax:
+  - 2500
+  - K
+  comment: Fitted to 50 data points; dA = *|/ 1.05314, dn = +|- 0.00655564, dEa =
+    +|- 0.0455374 kJ/mol
+---
+label: LiOCOOX + X <=> CO2 + LiOX + X
+kinetics:
+  type: SurfaceArrhenius
+  A:
+  - 3.5183e-07
+  - m^2/(molecule*s)
+  n: 0.128046
+  Ea:
+  - -11.0304
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 298
+  - K
+  Tmax:
+  - 2500
+  - K
+  comment: Fitted to 50 data points; dA = *|/ 1.05314, dn = +|- 0.00655564, dEa =
+    +|- 0.0455374 kJ/mol
+---
+label: XOCOOX <=> CO2 + OX + X
+kinetics:
+  type: SurfaceArrhenius
+  A:
+  - 1103120000000.0
+  - s^-1
+  n: 0.682037
+  Ea:
+  - 95.3188
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 298
+  - K
+  Tmax:
+  - 2500
+  - K
+  comment: Fitted to 50 data points; dA = *|/ 1.2104, dn = +|- 0.0241775, dEa = +|-
+    0.167944 kJ/mol
+---
+label: LiNCCH3X + X <=> LiNX + CH3CX
+kinetics:
+  type: SurfaceArrhenius
+  A:
+  - 7.71978e-11
+  - m^2/(molecule*s)
+  n: 1.32625
+  Ea:
+  - 170.986
+  - kJ/mol
+  T0:
+  - 1
+  - K
+  Tmin:
+  - 298
+  - K
+  Tmax:
+  - 2500
+  - K
+  comment: Fitted to 50 data points; dA = *|/ 1.03899, dn = +|- 0.00484281, dEa =
+    +|- 0.0336396 kJ/mol

@@ -1,0 +1,24 @@
+short_description: JetSurF1.0
+long_description: "\nJetSurF - A Jet Surrogate Fuel Model\nJetSurF is a detailed chemical\
+  \ reaction model for the combustion of jet-fuel surrogate.\n\nB. Sirjean, E. Dames,\
+  \ D. A. Sheen, X.-Q. You, C. Sung, A. T. Holley, F. N. Egolfopoulos,\nH. Wang, S.\
+  \ S. Vasu, D. F. Davidson, R. K. Hanson, H. Pitsch, C. T. Bowman, A. Kelley,\nC.\
+  \ K. Law, W. Tsang, N. P. Cernansky, D. L. Miller, A. Violi, R. P. Lindstedt,\n\
+  A high-temperature chemical kinetic model of n-alkane oxidation, JetSurF version\
+  \ 1.0\nSeptember 15, 2009 (http://web.stanford.edu/group/haiwanglab/JetSurF/JetSurF1.0/index.html).\n\
+  \ \n \nThe following reactions involve excited CH and OH species, which currently\
+  \ cannot be represented in RMG.\nIn order to compare RMG's predictions with experimental\
+  \ results of excited CH or OH,\nit is advised to append the following reactions\
+  \ to the final Chemkin file.\nNote that the model generation in RMG could have been\
+  \ somewhat different if these reactions were to integrated as a library.\nSee https://github.com/ReactionMechanismGenerator/RMG-database/issues/174\
+  \ for more info.\n\nCH* => CH                     1.90E+06 0.0 0.0\n!DUPLICATE\n\
+  CH* + M => CH + M             4.00E+10 0.5 0.0\n!DUPLICATE\nCH* + O2 => CH + O2\
+  \           2.40E+12 0.5 0.0\nC2H + O2 => CH* + CO2         4.50E+15 0.0 25000\n\
+  H+O+M = OH* +M                3.10E+14   0.0 10000.\nOH*+Ar = OH+Ar            \
+  \    2.17E+10  0.5   2060.\nOH* +H2O = OH+H2O             5.92E+12  0.5   -861.\n\
+  OH* +CO2 = OH+CO2             2.75E+12  0.5   -968.\nOH* +CO = OH+CO           \
+  \    3.23E+12  0.5   -787.\nOH* +H2 = OH+H2               2.95E+12  0.5   -444.\n\
+  OH* +O2 = OH+O2               2.10E+12  0.5   -482.\nOH* +OH = OH+OH           \
+  \    1.50E+12  0.5      0.\nOH* +H = OH+H                 1.50E+12  0.5      0.\n\
+  OH* +O = OH+O                 1.50E+12  0.5      0.\nOH* +CH4 = OH+CH4         \
+  \    3.36E+12  0.5   -635.\nOH* = OH                      1.40E+6   0.0      0.\n"

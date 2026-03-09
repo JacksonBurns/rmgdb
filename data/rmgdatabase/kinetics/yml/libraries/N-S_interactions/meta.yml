@@ -1,0 +1,26 @@
+short_description: N-S_interactions
+long_description: '
+
+  This library includes important nitrogen-sulfur interactions
+
+  Prepared by Alon Grinberg Dana
+
+
+  Reference legend:
+
+  [Marshall2004] A. Goumri, D.D. Shao, P. Marshall, J. Chem. Phys., 2004, 121, 9999,
+  doi: 10.1063/1.1806419
+
+  [Marshall2012] K.M. Thompson, Y. Gao, P. Marshall, Int. J. Chem. Kin., 2012, 44(1),
+  90-99, doi: 10.1002/kin.20612
+
+  [Palmer1977] H. Freund, H.B. Palmer, Int. J. Chem. Kin., 1977, 9(6), 887-905, doi:
+  10.1002/kin.550090605
+
+  [Pilling2002a] M.A. Blitz, K.W. McKee, M.J. Pilling, J. Phys. Chem. A, 2002, 106(36),
+  8406-8410, doi: 10.1021/jp025508y
+
+  [Roth1996b] D. Woiki, P. Roth, Symposium (International) on Combustion, 1996, 26(1),
+  583-588, doi: 10.1016/S0082-0784(96)80263-3
+
+  '

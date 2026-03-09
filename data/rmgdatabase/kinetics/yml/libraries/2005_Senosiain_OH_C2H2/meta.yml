@@ -1,0 +1,18 @@
+short_description: Calculated T,P-dependent rates for significant pathways on the
+  OH + acetylene surface of 2005 Senosiain
+long_description: '
+
+  T,P-dependent k''s for the significant pathways on the OH + acetylene surface computed
+  with RQCISD(T)/CBS//UB3LYP/6-311++G(d,p) by:
+
+  J. P. Senosiain, et al.,
+
+  "The Reaction of Acetylene with Hydroxyl Radicals",
+
+  J. Phys. Chem. A 2005, 109, 6045-6055
+
+  PLog rates taken directly from Table 6 of this paper.
+
+  Rates are for an Argon bath gas
+
+  '
