@@ -9,40 +9,7 @@ label: Abstracting
 group: "\n1 *5 X   u0 p0 c0 {2,S}\n2 *4 R!H ux px cx {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- C
-- N
-- O
-- C
-- O
-- O
-- C
-- N
-- O
-- C
-- O
-- O
-- C
-- N
-- O
-- C
-- O
-- OH
-- O
-- C
-- N
-- O
-- C
-- O
-- OH
-- O
-- C
-- N
-- O
-- C
-- O
-- OH
-- O
+children: []
 ---
 label: O-R
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 cx {3,S}\n3 *3 R  u0 px\
@@ -56,31 +23,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 H  u0
   \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
+children: []
 ---
 label: H2O
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S} {4,S}\n3 *3 H\
@@ -108,11 +51,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 N  u0
   \ c0 {2,S} {4,[S,D]}\n4    R  u0 px cx {3,[S,D]}\n"
 short_description: ''
 long_description: ''
-children:
-- O-N=O
-- O-N=O
-- O-N=O
-- O-N=O
+children: []
 ---
 label: O-N-2R
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 N  u0 p1\
@@ -140,10 +79,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0
   \ c0 {2,S} {4,[S,D,T]}\n4    R  u0 px cx {3,[S,D,T]}\n"
 short_description: ''
 long_description: ''
-children:
-- O-CH3
-- O-CH3
-- O-C=O
+children: []
 ---
 label: O-C-3R
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0 p0\
@@ -179,25 +115,14 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 C  u0
   \ cx {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- C2H6
-- C2H6
-- C2H6
+children: []
 ---
 label: C-O
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0 p2\
   \ cx {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CH3OH
-- C-OH
-- CH3OH
-- C-OH
-- CH3OH
-- C-OH
-- CH3OH
-- C-OH
+children: []
 ---
 label: C-OH
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0 p2\
@@ -211,8 +136,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 N  u0
   \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CH3NH2
+children: []
 ---
 label: N-R
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 R  u0 px\
@@ -240,17 +164,14 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 N  u0
   \ cx {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- N2H4
-- N2H4
+children: []
 ---
 label: N-O
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 O  u0 p2\
   \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- H3NO
+children: []
 ---
 label: N-C
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 C  u0 px\
@@ -288,10 +209,7 @@ group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 C ux px cx {1,S} {3,[S,D]} \n3    R ux px 
   \ {2,[S,D]} \n"
 short_description: ''
 long_description: ''
-children:
-- '*nC4'
-- '*nC6'
-- '*nC8'
+children: []
 ---
 label: '*C=R'
 group: "\n1 *5 X   u0 p0 c0 {2,S}\n2 *4 C   ux px cx {1,S} {3,D}\n3    R!H ux px cx\

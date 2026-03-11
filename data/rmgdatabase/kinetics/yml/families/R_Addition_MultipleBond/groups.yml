@@ -7293,13 +7293,7 @@ label: Sd_Cdd
 group: "\n1 *1 S2d u0 p2 {2,D}\n2 *2 Cdd u0 {1,D} {3,D}\n3    R!H u0 {2,D}\n"
 short_description: ''
 long_description: ''
-children:
-- Sd_Cdd/Cd
-- Sd_Cdd/O2d
-- Sd_Cdd/Cd
-- Sd_Cdd/O2d
-- Sd_Cdd/Cd
-- Sd_Cdd/O2d
+children: []
 ---
 label: Sd_Cdd-S2d
 group: "\n1 *1 S2d u0 p2 {2,D}\n2 *2 Cdd u0 {1,D} {3,D}\n3    S2d u0 p2 {2,D}\n"
@@ -7312,13 +7306,7 @@ group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 p2 {1,D}\n3    R   u0 {1,S}
   4    R   u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- Sd_Cdd
-- Sd_Cds
-- Sd_Cdd
-- Sd_Cds
-- Sd_Cdd
-- Sd_Cds
+children: []
 ---
 label: Sd_Cds-HH
 group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 p2 {1,D}\n3    H   u0 {1,S}\n\
@@ -7612,13 +7600,7 @@ label: Y_1centerbirad
 group: "\n1 *3 R!H u2\n"
 short_description: ''
 long_description: ''
-children:
-- O_atom_triplet
-- CH2_triplet
-- O_atom_triplet
-- CH2_triplet
-- O_atom_triplet
-- CH2_triplet
+children: []
 ---
 label: O_atom_triplet
 group: "\n1 *3 O u2\n"
@@ -7654,73 +7636,7 @@ label: CJ
 group: "\n1 *3 C u1 p0\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ
-- CdsJ
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
-- CsJ
-- CdsJ
-- CtJ
-- CbJ
-- C=SJ
-- CO_rad
-- CdsJ
-- CsJ
-- CdsJ
-- CsJ
+children: []
 ---
 label: CbJ
 group: "\n1 *3 Cb u1 p0\n"
@@ -7756,25 +7672,7 @@ label: C=SJ
 group: "\n1 *3 CS u1 p0 {2,S}\n2    R  u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- C=SJ-H
-- C=SJ-Cs
-- C=SJ-Cd
-- C=SJ-Ct
-- C=SJ-Cb
-- C=SJ-CO
-- C=SJ-C=S
-- C=SJ-O2s
-- C=SJ-S2s
-- C=SJ-H
-- C=SJ-Cs
-- C=SJ-Cd
-- C=SJ-Ct
-- C=SJ-Cb
-- C=SJ-CO
-- C=SJ-C=S
-- C=SJ-O2s
-- C=SJ-S2s
+children: []
 ---
 label: C=SJ-H
 group: "\n1 *3 CS u1 p0 {2,S}\n2    H  u0 {1,S}\n"
@@ -7834,43 +7732,7 @@ label: CO_rad
 group: "\n1 *3 C u1 p0 {2,D} {3,S}\n2    O u0 {1,D}\n3    R u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
-- CO_pri_rad
-- CO_sec_rad
+children: []
 ---
 label: CO_pri_rad
 group: "\n1 *3 C u1 p0 {2,D} {3,S}\n2    O u0 {1,D}\n3    H u0 {1,S}\n"
@@ -7882,19 +7744,7 @@ label: CO_sec_rad
 group: "\n1 *3 C   u1 p0 {2,D} {3,S}\n2    O   u0 {1,D}\n3    R!H u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CO_rad/NonDe
-- CO_rad/OneDe
-- CO_rad/NonDe
-- CO_rad/OneDe
-- CO_rad/NonDe
-- CO_rad/OneDe
-- CO_rad/NonDe
-- CO_rad/OneDe
-- CO_rad/NonDe
-- CO_rad/OneDe
-- CO_rad/NonDe
-- CO_rad/OneDe
+children: []
 ---
 label: CO_rad/NonDe
 group: "\n1 *3 C                     u1 p0 {2,D} {3,S}\n2    O                   \
@@ -7915,165 +7765,7 @@ group: "\n1 *3 C u1 p0 {2,S} {3,S} {4,S}\n2    R u0 {1,S}\n3    R u0 {1,S}\n4   
   \ u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-HH
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-S2s
-- CsJ-HH
-- CsJ-S2s
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-S2s
-- CsJ-HH
-- CsJ-S2s
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-HHH
-- CsJ-CsHH
-- CsJ-CsCsH
-- CsJ-CsCsCs
-- CsJ-OsHH
-- CsJ-OsCsH
-- CsJ-OsCsCs
-- CsJ-OsOsH
-- CsJ-OsOsCs
-- CsJ-OsOsOs
-- CsJ-SsHH
-- CsJ-SsCsH
-- CsJ-SsCsCs
-- CsJ-SsSsH
-- CsJ-SsSsCs
-- CsJ-SsSsSs
-- CsJ-OneDe
-- CsJ-TwoDe
-- CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
+children: []
 ---
 label: CsJ-HHH
 group: "\n1 *3 C u1 p0 {2,S} {3,S} {4,S}\n2    H u0 {1,S}\n3    H u0 {1,S}\n4    H\
@@ -8207,27 +7899,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \   u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-OneDeHH
-- CsJ-OneDeCsH
-- CsJ-OneDeOsH
-- CsJ-OneDeSsH
-- CsJ-OneDeCsCs
-- CsJ-OneDeOsCs
-- CsJ-OneDeSsCs
-- CsJ-OneDeOsOs
-- CsJ-OneDeOsSs
-- CsJ-OneDeSsSs
-- CsJ-OneDeHH
-- CsJ-OneDeCsH
-- CsJ-OneDeOsH
-- CsJ-OneDeSsH
-- CsJ-OneDeCsCs
-- CsJ-OneDeOsCs
-- CsJ-OneDeSsCs
-- CsJ-OneDeOsOs
-- CsJ-OneDeOsSs
-- CsJ-OneDeSsSs
+children: []
 ---
 label: CsJ-OneDeHH
 group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb,CO,CS,N3d,N5dc]\
@@ -8235,17 +7907,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-CdHH
-- CsJ-CtHH
-- CsJ-CbHH
-- CsJ-COHH
-- CsJ-C=SHH
-- CsJ-CdHH
-- CsJ-CtHH
-- CsJ-CbHH
-- CsJ-COHH
-- CsJ-C=SHH
+children: []
 ---
 label: CsJ-CtHH
 group: "\n1 *3 C  u1 p0 {2,S} {3,S} {4,S}\n2    Ct u0 {1,S}\n3    H  u0 {1,S}\n4 \
@@ -8295,17 +7957,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-CdCsH
-- CsJ-CtCsH
-- CsJ-CbCsH
-- CsJ-COCsH
-- CsJ-C=SCsH
-- CsJ-CdCsH
-- CsJ-CtCsH
-- CsJ-CbCsH
-- CsJ-COCsH
-- CsJ-C=SCsH
+children: []
 ---
 label: CsJ-CtCsH
 group: "\n1 *3 C  u1 p0 {2,S} {3,S} {4,S}\n2    Ct u0 {1,S}\n3    Cs u0 {1,S}\n4 \
@@ -8364,17 +8016,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-CdCsCs
-- CsJ-CtCsCs
-- CsJ-CbCsCs
-- CsJ-COCsCs
-- CsJ-C=SCsCs
-- CsJ-CdCsCs
-- CsJ-CtCsCs
-- CsJ-CbCsCs
-- CsJ-COCsCs
-- CsJ-C=SCsCs
+children: []
 ---
 label: CsJ-CtCsCs
 group: "\n1 *3 C  u1 p0 {2,S} {3,S} {4,S}\n2    Ct u0 {1,S}\n3    Cs u0 {1,S}\n4 \
@@ -8473,15 +8115,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-TwoDeH
-- CsJ-TwoDeCs
-- CsJ-TwoDeOs
-- CsJ-TwoDeSs
-- CsJ-TwoDeH
-- CsJ-TwoDeCs
-- CsJ-TwoDeOs
-- CsJ-TwoDeSs
+children: []
 ---
 label: CsJ-TwoDeH
 group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb,CO,CS,N3d,N5dc]\
@@ -8489,37 +8123,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-CdCdH
-- CsJ-CdCtH
-- CsJ-CdCbH
-- CsJ-CdCOH
-- CsJ-CdC=SH
-- CsJ-CtCtH
-- CsJ-CtCbH
-- CsJ-CtCOH
-- CsJ-CtC=SH
-- CsJ-CbCbH
-- CsJ-CbCOH
-- CsJ-CbC=SH
-- CsJ-COCOH
-- CsJ-COC=SH
-- CsJ-C=SC=SH
-- CsJ-CdCdH
-- CsJ-CdCtH
-- CsJ-CdCbH
-- CsJ-CdCOH
-- CsJ-CdC=SH
-- CsJ-CtCtH
-- CsJ-CtCbH
-- CsJ-CtCOH
-- CsJ-CtC=SH
-- CsJ-CbCbH
-- CsJ-CbCOH
-- CsJ-CbC=SH
-- CsJ-COCOH
-- CsJ-COC=SH
-- CsJ-C=SC=SH
+children: []
 ---
 label: CsJ-CtCtH
 group: "\n1 *3 C  u1 p0 {2,S} {3,S} {4,S}\n2    Ct u0 {1,S}\n3    Ct u0 {1,S}\n4 \
@@ -8632,37 +8236,7 @@ group: "\n1 *3 C                         u1 p0 {2,S} {3,S} {4,S}\n2    [Cd,Ct,Cb
   \     u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CsJ-CdCdCs
-- CsJ-CdCtCs
-- CsJ-CdCbCs
-- CsJ-CdCOCs
-- CsJ-CdC=SCs
-- CsJ-CtCtCs
-- CsJ-CtCbCs
-- CsJ-CtCOCs
-- CsJ-CtC=SCs
-- CsJ-CbCbCs
-- CsJ-CbCOCs
-- CsJ-CbC=SCs
-- CsJ-COCOCs
-- CsJ-COC=SCs
-- CsJ-C=SC=SCs
-- CsJ-CdCdCs
-- CsJ-CdCtCs
-- CsJ-CdCbCs
-- CsJ-CdCOCs
-- CsJ-CdC=SCs
-- CsJ-CtCtCs
-- CsJ-CtCbCs
-- CsJ-CtCOCs
-- CsJ-CtC=SCs
-- CsJ-CbCbCs
-- CsJ-CbCOCs
-- CsJ-CbC=SCs
-- CsJ-COCOCs
-- CsJ-COC=SCs
-- CsJ-C=SC=SCs
+children: []
 ---
 label: CsJ-CtCtCs
 group: "\n1 *3 C  u1 p0 {2,S} {3,S} {4,S}\n2    Ct u0 {1,S}\n3    Ct u0 {1,S}\n4 \
@@ -8805,61 +8379,7 @@ group: "\n1    C u0 {2,D} {3,S} {4,S}\n2 *3 C u1 p0 {1,D} {5,S}\n3    R u0 {1,S}
   4    R u0 {1,S}\n5    R u0 {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
-- CdsJ-H
-- CdsJ-Cs
-- CdsJ-Cd
-- CdsJ-Ct
-- CdsJ-Cb
-- CdsJ-CO
-- CdsJ-C=S
-- CdsJ-O2s
-- CdsJ-S2s
+children: []
 ---
 label: CdsJ-H
 group: "\n1    C u0 {2,D} {3,S} {4,S}\n2 *3 C u1 p0 {1,D} {5,S}\n3    R u0 {1,S}\n\
@@ -9015,39 +8535,13 @@ label: SJ
 group: "\n1 *3 S u1\n"
 short_description: ''
 long_description: ''
-children:
-- SsJ
-- SsJ
+children: []
 ---
 label: SsJ
 group: "\n1 *3 S2s u1 p2 {2,S}\n2    R   u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
-- SsJ-H
-- SsJ-Cs
-- SsJ-S2s
-- SsJ-OneDe
+children: []
 ---
 label: SsJ-H
 group: "\n1 *3 S2s u1 p2 {2,S}\n2    H   u0 {1,S}\n"
@@ -9072,17 +8566,7 @@ group: "\n1 *3 S2s                       u1 p2 {2,S}\n2    [Cd,Ct,Cb,CO,CS,N3d,N
   \ u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- SsJ-Cd
-- SsJ-Ct
-- SsJ-Cb
-- SsJ-CO
-- SsJ-C=S
-- SsJ-Cd
-- SsJ-Ct
-- SsJ-Cb
-- SsJ-CO
-- SsJ-C=S
+children: []
 ---
 label: SsJ-Ct
 group: "\n1 *3 S2s u1 p2 {2,S}\n2    Ct  u0 {1,S}\n"

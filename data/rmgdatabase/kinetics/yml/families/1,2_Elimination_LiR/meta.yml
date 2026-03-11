@@ -31,6 +31,7 @@ recipe:
     - 1
     - '*2'
 reversible: true
+reverse_map: {}
 reactant_num: 1
 product_num: 2
 auto_generated: true

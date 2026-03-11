@@ -1,10 +1,11 @@
 from sqlalchemy import text
 
 label_pairs_view_sql = text("""CREATE VIEW label_pairs_view AS 
-SELECT t.id, p.label as parent_label, c.label as child_label 
+SELECT t.id, f.name as family_name, p.label as parent_label, c.label as child_label 
 FROM kinetics_family_groups_tree_table t
 JOIN kinetics_family_groups_table c on c.id = t.child_id
-JOIN kinetics_family_groups_table p on p.id = t.parent_id""")
+JOIN kinetics_family_groups_table p on p.id = t.parent_id
+JOIN kinetics_families_table f on f.id = p.family_id""")
 
 kinetics_library_reaction_species_view_sql = text("""CREATE VIEW kinetics_library_reaction_species_view AS
 SELECT rs.library_reaction_id, r.label as reaction_label, rs.species_label, rs.role, d.adjacency_list

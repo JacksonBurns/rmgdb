@@ -21,7 +21,8 @@ from rmgdb.kinetics.views import (
     kinetics_family_training_dictionary_view_sql, kinetics_families_view_sql
 )
 
-# Crucial fix to make PyYAML retain exact whitespace/newlines using `|+` syntax for long descriptions/adj_lists
+from build import parse_reaction_label, to_float
+
 yaml.SafeDumper.org_represent_str = yaml.SafeDumper.represent_str
 repr_str = lambda dumper, data: dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|+") if "\n" in data else dumper.org_represent_str(data)
 yaml.add_representer(str, repr_str, Dumper=yaml.SafeDumper)
@@ -29,7 +30,6 @@ yaml.add_representer(np.float64, lambda dumper, data: dumper.represent_float(flo
 yaml.add_representer(np.float32, lambda dumper, data: dumper.represent_float(float(data)), Dumper=yaml.SafeDumper)
 yaml.add_representer(np.int64, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
 yaml.add_representer(np.int32, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
-
 
 def clean_dict(d):
     cleaned = {}
@@ -39,27 +39,6 @@ def clean_dict(d):
         cleaned[k] = v
     return cleaned
 
-def to_float(val):
-    if val is None: return None
-    try: return float(val)
-    except (TypeError, ValueError): return None
-
-def unpack_val_unit(lst):
-    if not lst: return None, None
-    if isinstance(lst, (float, int)): return float(lst), None
-    return float(lst[0]), (lst[1] if len(lst) > 1 else None)
-
-def parse_reaction_label(label):
-    if '<=>' in label: r, p = label.split('<=>')
-    elif '=>' in label: r, p = label.split('=>')
-    elif '=' in label: r, p = label.split('=')
-    else: return [], []
-    return [x.strip() for x in r.split('+') if x.strip()], [x.strip() for x in p.split('+') if x.strip()]
-
-
-# --------------------------------------------------------------------------------------
-# EXPORT TO YAML (DUMP)
-# --------------------------------------------------------------------------------------
 def pull_kinetics(fk_col, fk_id, engine):
     arrs = pd.read_sql(text(f"SELECT * FROM kinetics_arrhenius_table WHERE {fk_col} = :id ORDER BY id"), engine, params={"id": fk_id})
     if not arrs.empty:
@@ -191,7 +170,7 @@ def dump_db():
         if not df_groups.empty:
             for _, r in df_groups.iterrows():
                 d = clean_dict({"label": r.label, "group": r.group_adj_list, "short_description": r.short_description, "long_description": r.long_description})
-                ch = pd.read_sql(text("SELECT child_label FROM label_pairs_view WHERE parent_label=:lbl ORDER BY id"), engine, params={"lbl": r.label})
+                ch = pd.read_sql(text("SELECT child_label FROM label_pairs_view WHERE parent_label=:lbl AND family_name=:fam ORDER BY id"), engine, params={"lbl": r.label, "fam": name})
                 d["children"] = ch["child_label"].tolist() if not ch.empty else []
                 group_rows.append(d)
                 
@@ -219,10 +198,11 @@ def dump_db():
             treac_rows = [dump_reaction_row(r, "family_training_reaction_id", r.id, engine) for _, r in df_treac.iterrows()]
             with open(fdir / "training/reactions.yml", "w") as f: yaml.dump_all(treac_rows, f, yaml.SafeDumper, sort_keys=False)
 
+def unpack_val_unit(lst):
+    if not lst: return None, None
+    if isinstance(lst, (float, int)): return float(lst), None
+    return float(lst[0]), (lst[1] if len(lst) > 1 else None)
 
-# --------------------------------------------------------------------------------------
-# IMPORT FROM YAML (GEN)
-# --------------------------------------------------------------------------------------
 def insert_kinetics(k_dict, fk_col, fk_id, session, counts):
     if not k_dict: return
     ktype = k_dict.get("type")
@@ -349,7 +329,6 @@ def gen_db():
               "k_troe": 0, "k_lind": 0, "k_3b": 0, "k_eff": 0,
               "k_cheb": 0, "k_cheb_c": 0, "k_pdep": 0, "k_pdep_p": 0, "k_solutets": 0}
 
-    # Libraries
     if Path("yml/libraries").exists():
         for ldir in sorted(Path("yml/libraries").glob("*")):
             if not ldir.is_dir(): continue
@@ -386,8 +365,6 @@ def gen_db():
                         insert_kinetics(row.get("kinetics"), "library_reaction_id", r_id, session, counts)
                         counts["lib_reac"] += 1
 
-    # Families
-    label_to_id = {}
     if Path("yml/families").exists():
         for fdir in sorted(Path("yml/families").glob("*")):
             if not fdir.is_dir(): continue
@@ -398,12 +375,15 @@ def gen_db():
             fam_id = counts["fam"]
             session.add(KineticsFamilies(
                 id=fam_id, name=fdir.name, short_description=meta.get("short_description", ""), long_description=meta.get("long_description", ""),
-                template=repr(meta.get("template")) if meta.get("template") else None, recipe=repr(meta.get("recipe")) if meta.get("recipe") else None,
-                reversible=meta.get("reversible"), reverse_map=repr(meta.get("reverse_map")) if meta.get("reverse_map") else None,
+                template=repr(meta.get("template")) if "template" in meta else None, 
+                recipe=repr(meta.get("recipe")) if "recipe" in meta else None,
+                reversible=meta.get("reversible"), 
+                reverse_map=repr(meta.get("reverse_map")) if "reverse_map" in meta else None,
                 reactant_num=meta.get("reactant_num"), product_num=meta.get("product_num"), auto_generated=meta.get("auto_generated")
             ))
             counts["fam"] += 1
             
+            label_to_id = {}
             if (fdir / "groups.yml").exists():
                 with open(fdir / "groups.yml", "r") as f:
                     all_rows = list(yaml.safe_load_all(f))

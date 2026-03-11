@@ -3,63 +3,7 @@ group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R!H u0 px cx {1,S} {3,S}\n3 *3 R  
   \ {2,S}\n4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
+children: []
 ---
 label: VacantSite
 group: "\n1 *5 Xv u0\n"
@@ -79,34 +23,7 @@ group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 C   u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n4
   \ Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CH3
-- CH2
-- CH3
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
+children: []
 ---
 label: CH3
 group: "\n1 *1 R!H u0 px cx {2,S} {6,S}\n2 *2 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
@@ -121,31 +38,7 @@ group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 O   u0 px {1,S} {3,S}\n3 *3 H   u0 {2,S}
   4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
+children: []
 ---
 label: Bidentate
 group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R!H u0 px cx {1,S} {3,S}\n3 *3 R   u0\

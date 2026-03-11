@@ -56,6 +56,7 @@ recipe:
     - 1
     - '*6'
 reversible: true
+reverse_map: {}
 reactant_num: 3
 product_num: 4
 auto_generated: false

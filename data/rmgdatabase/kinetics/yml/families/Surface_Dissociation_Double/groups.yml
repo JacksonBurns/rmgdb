@@ -4,60 +4,6 @@ group: "\n1 *1 R!H u0 px c0 {2,D} {3,[S,D]}\n2 *2 R!H u0 px c0 {1,D}\n3 *3 Xo  u
 short_description: ''
 long_description: ''
 children:
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
 - C=R
 - C=O
 ---
@@ -79,21 +25,14 @@ group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 O  u0 px c0 {1,D}\n3 *3 Xo u0 p
   \ {1,[S,D]}\n"
 short_description: ''
 long_description: ''
-children:
-- CH2O
-- CO2
-- CH2O
-- CO2
+children: []
 ---
 label: C=C
 group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 C  u0 px c0 {1,D}\n3 *3 Xo u0 p0\
   \ {1,[S,D]}\n"
 short_description: ''
 long_description: ''
-children:
-- C2H4
-- C2H4
-- C2H4
+children: []
 ---
 label: AdsorbateVdW
 group: "\nmultiplicity [1]\n1 *3 Xv  u0 p0 c0\n2 *2 R!H ux px cx {3,D}\n3 *1 R!H ux\

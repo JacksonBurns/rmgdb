@@ -21,15 +21,7 @@ group: "\n1 *4 R!H     u0 {2,S} {3,[S,D]}\n2 *2 O2s     u0 {1,S} {4,S}\n3 *1 R!H
   \    u1 {1,[S,D]}\n4 *3 [O2s,S] ux {2,S}\n"
 short_description: ''
 long_description: ''
-children:
-- R2OO_0H
-- R2OO_O
-- R2OO_2H
-- R2OO_HNd
-- R2OO_HDe
-- R2OO_NdNd
-- R2OO_NdDe
-- R2OO_DeDe
+children: []
 ---
 label: R2OO_S
 group: "\n1 *4 [Cd,Cs,CO] u0 {2,S} {3,S}\n2 *2 O2s        u0 {1,S} {4,S}\n3 *1 R!H\

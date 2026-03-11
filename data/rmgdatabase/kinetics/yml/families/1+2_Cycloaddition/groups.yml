@@ -34,19 +34,7 @@ label: carbene
 group: "\n1 *3 C u0 p1 {2,S} {3,S}\n2    H u0 {1,S}\n3    H u0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- CF
-- CCl
-- CBr
-- CF
-- CCl
-- CBr
-- CF
-- CCl
-- CBr
-- CF
-- CCl
-- CBr
+children: []
 ---
 label: me_carbene
 group: "\n1    Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 C  u0 p1 {1,S} {6,S}\n3    H  u0\

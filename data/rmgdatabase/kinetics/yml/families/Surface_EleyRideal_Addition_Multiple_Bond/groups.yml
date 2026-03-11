@@ -2,10 +2,7 @@ label: Adsorbate1
 group: "\n1 *1 X  ux px cx {2,S}\n2 *2 R  ux px cx {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- '*C'
-- '*C'
-- '*C'
+children: []
 ---
 label: Gas
 group: "\nmultiplicity [1]\n1 *3 R!H u0 px cx {2,[D,T,Q]}\n2 *4 R!H u0 px cx {1,[D,T,Q]}\n"
@@ -23,10 +20,7 @@ label: '*C'
 group: "\n1 *1 X u0 p0 c0 {2,S}\n2 *2 C u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
-children:
-- '*nC4'
-- '*nC6'
-- '*nC8'
+children: []
 ---
 label: R=R
 group: "\nmultiplicity [1]\n1 *3 R!H u0 px cx {2,D}\n2 *4 R!H u0 px cx {1,D}\n"
@@ -44,18 +38,13 @@ label: C=C
 group: "\nmultiplicity [1]\n1 *3 C u0 p0 c0 {2,D}\n2 *4 C u0 p0 c0 {1,D}\n"
 short_description: ''
 long_description: ''
-children:
-- C2H4
-- C2H4
-- C2H4
+children: []
 ---
 label: C#C
 group: "\nmultiplicity [1]\n1 *3 C u0 p0 c0 {2,T}\n2 *4 C u0 p0 c0 {1,T}\n"
 short_description: ''
 long_description: ''
-children:
-- C2H2
-- C2H2
+children: []
 ---
 label: '*C2'
 group: "\n1 *1 X u0 p0 c0 {2,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n3    H u0\

@@ -36,4 +36,5 @@ recipe:
     - 1
     - '*5'
 reversible: true
+reverse_map: {}
 auto_generated: false

@@ -10,20 +10,13 @@ label: RR'
 group: OR{R_H, R_R'}
 short_description: ''
 long_description: ''
-children:
-- R_H
-- R_R'
-- R_H
-- R_R'
+children: []
 ---
 label: CO
 group: "\n1 *1 C u0 p1 c-1 {2,T}\n2 *4 O u0 p1 c+1 {1,T}\n"
 short_description: ''
 long_description: ''
-children:
-- C-O
-- C-O
-- C=O
+children: []
 ---
 label: CS
 group: "\n1 *1 C u0 p1 c-1 {2,T}\n2 *4 S u0 p1 c+1 {1,T}\n"
@@ -44,27 +37,6 @@ children:
 - Cd_H
 - Cb_H
 - Cs_H
-- H2
-- Ct_H
-- RO_H
-- RS_H
-- Cd_H
-- Cb_H
-- Cs_H
-- H2
-- Ct_H
-- RO_H
-- RS_H
-- Cd_H
-- Cb_H
-- Cs_H
-- H2
-- Ct_H
-- RO_H
-- RS_H
-- Cd_H
-- Cb_H
-- Cs_H
 ---
 label: H2
 group: "\n1 *2 H u0 {2,S}\n2 *3 H u0 {1,S}\n"
@@ -77,11 +49,6 @@ group: "\n1 *2 Ct u0 {2,S}\n2 *3 H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
-- acetylene
-- acetylene
-- acetylene
-- acetylene
-- acetylene
 - acetylene
 ---
 label: acetylene
@@ -97,9 +64,6 @@ short_description: ''
 long_description: ''
 children:
 - CsO_H
-- CsO_H
-- CsO_H
-- CsO_H
 ---
 label: CsO_H
 group: "\n1 *2 O  u0 {2,S} {3,S}\n2 *3 H  u0 {1,S}\n3    Cs u0 {1,S}\n"
@@ -112,9 +76,6 @@ group: "\n1 *2 S u0 {2,S} {3,S}\n2 *3 H u0 {1,S}\n3    R u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
-- CsS_H
-- CsS_H
-- CsS_H
 - CsS_H
 ---
 label: CsS_H
@@ -131,16 +92,6 @@ long_description: ''
 children:
 - Cd_pri
 - Cd_sec
-- Cd_pri
-- Cd_sec
-- Cd_pri
-- Cd_sec
-- Cd_pri
-- Cd_sec
-- Cd_pri
-- Cd_sec
-- Cd_pri
-- Cd_sec
 ---
 label: Cd_pri
 group: "\n1 *2 Cd u0 {2,D} {3,S} {4,S}\n2    C  u0 {1,D}\n3 *3 H  u0 {1,S}\n4    H\
@@ -148,11 +99,6 @@ group: "\n1 *2 Cd u0 {2,D} {3,S} {4,S}\n2    C  u0 {1,D}\n3 *3 H  u0 {1,S}\n4   
 short_description: ''
 long_description: ''
 children:
-- ethene
-- ethene
-- ethene
-- ethene
-- ethene
 - ethene
 ---
 label: ethene
@@ -168,26 +114,6 @@ group: "\n1 *2 Cd  u0 {2,D} {3,S} {4,S}\n2    C   u0 {1,D}\n3 *3 H   u0 {1,S}\n4
 short_description: ''
 long_description: ''
 children:
-- Cd/H/NonDeC
-- Cd/H/NonDeO
-- Cd/H/NonDeS
-- Cd/H/OneDe
-- Cd/H/NonDeC
-- Cd/H/NonDeO
-- Cd/H/NonDeS
-- Cd/H/OneDe
-- Cd/H/NonDeC
-- Cd/H/NonDeO
-- Cd/H/NonDeS
-- Cd/H/OneDe
-- Cd/H/NonDeC
-- Cd/H/NonDeO
-- Cd/H/NonDeS
-- Cd/H/OneDe
-- Cd/H/NonDeC
-- Cd/H/NonDeO
-- Cd/H/NonDeS
-- Cd/H/OneDe
 - Cd/H/NonDeC
 - Cd/H/NonDeO
 - Cd/H/NonDeS
@@ -238,26 +164,6 @@ children:
 - C_pri
 - C_sec
 - C_ter
-- C_methane
-- C_pri
-- C_sec
-- C_ter
-- C_methane
-- C_pri
-- C_sec
-- C_ter
-- C_methane
-- C_pri
-- C_sec
-- C_ter
-- C_methane
-- C_pri
-- C_sec
-- C_ter
-- C_methane
-- C_pri
-- C_sec
-- C_ter
 ---
 label: C_methane
 group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H  u0 {1,S}\n3    H  u0 {1,S}\n\
@@ -272,26 +178,6 @@ group: "\n1 *2 Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H   u0 {1,S}\n3    H   u0 {1
 short_description: ''
 long_description: ''
 children:
-- C_pri/NonDeC
-- C_pri/NonDeO
-- C_pri/NonDeS
-- C_pri/De
-- C_pri/NonDeC
-- C_pri/NonDeO
-- C_pri/NonDeS
-- C_pri/De
-- C_pri/NonDeC
-- C_pri/NonDeO
-- C_pri/NonDeS
-- C_pri/De
-- C_pri/NonDeC
-- C_pri/NonDeO
-- C_pri/NonDeS
-- C_pri/De
-- C_pri/NonDeC
-- C_pri/NonDeO
-- C_pri/NonDeS
-- C_pri/De
 - C_pri/NonDeC
 - C_pri/NonDeO
 - C_pri/NonDeS
@@ -327,12 +213,6 @@ long_description: ''
 children:
 - C_pri/Cd
 - C_pri/Ct
-- C_pri/Cd
-- C_pri/Ct
-- C_pri/Cd
-- C_pri/Ct
-- C_pri/Cd
-- C_pri/Ct
 ---
 label: C_pri/Cd
 group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H  u0 {1,S}\n3    H  u0 {1,S}\n\
@@ -359,31 +239,6 @@ children:
 - C/H2/NonDeS
 - C/H2/OneDe
 - C/H2/TwoDe
-- C/H2/NonDeC
-- C/H2/NonDeO
-- C/H2/NonDeS
-- C/H2/OneDe
-- C/H2/TwoDe
-- C/H2/NonDeC
-- C/H2/NonDeO
-- C/H2/NonDeS
-- C/H2/OneDe
-- C/H2/TwoDe
-- C/H2/NonDeC
-- C/H2/NonDeO
-- C/H2/NonDeS
-- C/H2/OneDe
-- C/H2/TwoDe
-- C/H2/NonDeC
-- C/H2/NonDeO
-- C/H2/NonDeS
-- C/H2/OneDe
-- C/H2/TwoDe
-- C/H2/NonDeC
-- C/H2/NonDeO
-- C/H2/NonDeS
-- C/H2/OneDe
-- C/H2/TwoDe
 ---
 label: C/H2/NonDeC
 group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H  u0 {1,S}\n3    H  u0 {1,S}\n\
@@ -398,16 +253,6 @@ group: "\n1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H        u0 {1,S}\n3   
 short_description: ''
 long_description: ''
 children:
-- C/H2/CsO
-- C/H2/O2
-- C/H2/CsO
-- C/H2/O2
-- C/H2/CsO
-- C/H2/O2
-- C/H2/CsO
-- C/H2/O2
-- C/H2/CsO
-- C/H2/O2
 - C/H2/CsO
 - C/H2/O2
 ---
@@ -433,16 +278,6 @@ long_description: ''
 children:
 - C/H2/CsS
 - C/H2/S2
-- C/H2/CsS
-- C/H2/S2
-- C/H2/CsS
-- C/H2/S2
-- C/H2/CsS
-- C/H2/S2
-- C/H2/CsS
-- C/H2/S2
-- C/H2/CsS
-- C/H2/S2
 ---
 label: C/H2/CsS
 group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H  u0 {1,S}\n3    H  u0 {1,S}\n\
@@ -465,21 +300,6 @@ group: "\n1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H              
 short_description: ''
 long_description: ''
 children:
-- C/H2/OneDeC
-- C/H2/OneDeO
-- C/H2/OneDeS
-- C/H2/OneDeC
-- C/H2/OneDeO
-- C/H2/OneDeS
-- C/H2/OneDeC
-- C/H2/OneDeO
-- C/H2/OneDeS
-- C/H2/OneDeC
-- C/H2/OneDeO
-- C/H2/OneDeS
-- C/H2/OneDeC
-- C/H2/OneDeO
-- C/H2/OneDeS
 - C/H2/OneDeC
 - C/H2/OneDeO
 - C/H2/OneDeS
@@ -526,26 +346,6 @@ children:
 - C/H/OneDe
 - C/H/TwoDe
 - C/H/ThreeDe
-- C/H/NonDeC
-- C/H/OneDe
-- C/H/TwoDe
-- C/H/ThreeDe
-- C/H/NonDeC
-- C/H/OneDe
-- C/H/TwoDe
-- C/H/ThreeDe
-- C/H/NonDeC
-- C/H/OneDe
-- C/H/TwoDe
-- C/H/ThreeDe
-- C/H/NonDeC
-- C/H/OneDe
-- C/H/TwoDe
-- C/H/ThreeDe
-- C/H/NonDeC
-- C/H/OneDe
-- C/H/TwoDe
-- C/H/ThreeDe
 ---
 label: C/H/NonDeC
 group: "\n1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H        u0 {1,S}\n3    [Cs,O,S]\
@@ -553,15 +353,6 @@ group: "\n1 *2 Cs       u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H        u0 {1,S}\n3   
 short_description: ''
 long_description: ''
 children:
-- C/H/Cs3
-- C/H/NDMustO
-- C/H/NDMustS
-- C/H/Cs3
-- C/H/NDMustO
-- C/H/NDMustS
-- C/H/Cs3
-- C/H/NDMustO
-- C/H/NDMustS
 - C/H/Cs3
 - C/H/NDMustO
 - C/H/NDMustS
@@ -596,18 +387,6 @@ long_description: ''
 children:
 - C/H/Cs2
 - C/H/ODMustO
-- C/H/Cs2
-- C/H/ODMustO
-- C/H/Cs2
-- C/H/ODMustO
-- C/H/Cs2
-- C/H/ODMustO
-- C/H/ODMustS
-- C/H/Cs2
-- C/H/ODMustO
-- C/H/Cs2
-- C/H/ODMustO
-- C/H/ODMustS
 ---
 label: C/H/Cs2
 group: "\n1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H               \
@@ -634,18 +413,6 @@ long_description: ''
 children:
 - C/H/Cs
 - C/H/TDMustO
-- C/H/Cs
-- C/H/TDMustO
-- C/H/Cs
-- C/H/TDMustO
-- C/H/Cs
-- C/H/TDMustO
-- C/H/TDMustS
-- C/H/Cs
-- C/H/TDMustO
-- C/H/Cs
-- C/H/TDMustO
-- C/H/TDMustS
 ---
 label: C/H/Cs
 group: "\n1 *2 Cs               u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 H               \
@@ -681,15 +448,6 @@ children:
 - Cs_Cs
 - Cs_Cd
 - Cs_Cb
-- Cs_Cs
-- Cs_Cd
-- Cs_Cb
-- Cs_Cs
-- Cs_Cd
-- Cs_Cb
-- Cs_Cs
-- Cs_Cd
-- Cs_Cb
 ---
 label: Cs_Cs
 group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 Cs u0 c0 {1,S}\n3    H  u0 {1,S}\n\
@@ -697,18 +455,6 @@ group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 Cs u0 c0 {1,S}\n3    H  u0 {1
 short_description: ''
 long_description: ''
 children:
-- C_methyl_C_methyl
-- C_methyl_C_pri
-- C_methyl_C_sec
-- C_methyl_C_ter
-- C_methyl_C_methyl
-- C_methyl_C_pri
-- C_methyl_C_sec
-- C_methyl_C_ter
-- C_methyl_C_methyl
-- C_methyl_C_pri
-- C_methyl_C_sec
-- C_methyl_C_ter
 - C_methyl_C_methyl
 - C_methyl_C_pri
 - C_methyl_C_sec
@@ -752,12 +498,6 @@ group: "\n1 *2 Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 Cd u0 c0 {1,S}\n3    H  u0 {1
 short_description: ''
 long_description: ''
 children:
-- C_methyl_Cd_pri
-- C_methyl_Cd_sec
-- C_methyl_Cd_pri
-- C_methyl_Cd_sec
-- C_methyl_Cd_pri
-- C_methyl_Cd_sec
 - C_methyl_Cd_pri
 - C_methyl_Cd_sec
 ---

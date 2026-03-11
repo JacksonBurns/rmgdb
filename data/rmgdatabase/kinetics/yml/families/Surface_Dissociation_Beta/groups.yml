@@ -4,62 +4,9 @@ group: "\n1 *1 R!H u0 {2,S} {4,[D,T]}\n2 *2 R!H u0 {1,S} {3,S}\n3 *3 R   u0 {2,S
 short_description: ''
 long_description: ''
 children:
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
 - R-H
 - CR-H
 - C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
 ---
 label: VacantSite
 group: "\n1 *5 Xv u0\n"
@@ -72,65 +19,14 @@ group: "\n1 *1 R!H u0 {2,S} {4,[D,T]}\n2 *2 C   u0 {1,S} {3,S}\n3 *3 H   u0 {2,S
   4 *4 Xo  u0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
-children:
-- CH3
-- CH2
-- CH3
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
+children: []
 ---
 label: O-H
 group: "\n1 *1 R!H u0 {2,S} {4,[D,T]}\n2 *2 O   u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\
   4 *4 Xo  u0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
-children:
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
+children: []
 ---
 label: R-H
 group: "\n1 *1 R!H u0 {2,S} {4,[D,T]}\n2 *2 R!H u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\

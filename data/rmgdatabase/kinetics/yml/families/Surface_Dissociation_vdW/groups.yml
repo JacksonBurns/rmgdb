@@ -3,63 +3,7 @@ group: "\nmultiplicity [1]\n1 *1 R!H u0 px c0 {2,[S,D]}\n2 *2 R   u0 px c0 {1,[S
   3 *3 Xv  u0 p0 c0\n"
 short_description: ''
 long_description: ''
-children:
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
-- C
-- O
-- N
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
+children: []
 ---
 label: VacantSite
 group: "\n1 *4 Xv u0 p0 c0\n"
@@ -79,65 +23,14 @@ group: "\nmultiplicity [1]\n1 *1 C  u0 px c0 {2,S}\n2 *2 H  u0 p0 c0 {1,S}\n3 *3
   \ u0 p0 c0\n"
 short_description: ''
 long_description: ''
-children:
-- CH3
-- CH2
-- CH3
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
-- CH
-- CH2
-- CH3
-- C-H_Bidentate
-- CH2R
-- CHR
+children: []
 ---
 label: O-H
 group: "\nmultiplicity [1]\n1 *1 O  u0 px c0 {2,S}\n2 *2 H  u0 p0 c0 {1,S}\n3 *3 Xv\
   \ u0 p0 c0\n"
 short_description: ''
 long_description: ''
-children:
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
-- H2O
-- H2O
-- H2O2
+children: []
 ---
 label: N-H
 group: "\nmultiplicity [1]\n1 *1 N  u0 px c0 {2,S}\n2 *2 H  u0 p0 c0 {1,S}\n3 *3 Xv\
@@ -188,10 +81,7 @@ group: "\nmultiplicity [1]\n1 *1 C  u0 p0 c0 {2,[S,D]}\n2 *2 C  u0 p0 c0 {1,[S,D
   3 *3 Xv u0 p0 c0\n"
 short_description: ''
 long_description: ''
-children:
-- C2H6
-- C2H6
-- C2H6
+children: []
 ---
 label: C-R
 group: "\nmultiplicity [1]\n1 *1 R!H u0 px c0 {2,[S,D]}\n2 *2 C   u0 p0 c0 {1,[S,D]}\n\

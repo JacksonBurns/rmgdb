@@ -10,39 +10,7 @@ group: "\n1 *6 Xo  u0 {2,S}\n2 *4 R!H u0 px cx {1,S}\t\n"
 short_description: ''
 long_description: ''
 children:
-- C
-- N
-- O
-- C
-- O
-- O
-- C
-- N
-- O
-- C
-- O
-- O
-- C
-- N
-- O
-- C
-- O
 - OH
-- O
-- C
-- N
-- O
-- C
-- O
-- OH
-- O
-- C
-- N
-- O
-- C
-- O
-- OH
-- O
 ---
 label: R-C-H
 group: "\n1 *1 R!H u0 px cx {2,[S,D]} {4,S}\n2 *2 C   u0 px cx {1,[S,D]} {3,S}\n3\

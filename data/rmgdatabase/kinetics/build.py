@@ -29,7 +29,6 @@ COUNTS = {"lib": 0, "lib_dict": 0, "lib_reac": 0, "lib_reac_spec": 0, "fam": 0, 
           "k_arr": 0, "k_arrep": 0, "k_arrbm": 0, "k_marcus": 0, "k_marcus_c": 0,
           "k_troe": 0, "k_lind": 0, "k_3b": 0, "k_eff": 0,
           "k_cheb": 0, "k_cheb_c": 0, "k_pdep": 0, "k_pdep_p": 0, "k_solutets": 0}
-LABEL_TO_ID = {None: None}
 
 def parse_val_unit(tup):
     if isinstance(tup, (tuple, list)) and len(tup) > 0:
@@ -287,10 +286,11 @@ def load_kinetics_family(folder):
         "reactantNum": None, "productNum": None, "template": template_spoof, "recipe": recipe_spoof,
     })
     
+    label_to_id = {}
     grp_file = folder / "groups.py"
     if grp_file.exists():
         def grp_entry(*, index=None, label="", group="", shortDesc="", longDesc="", kinetics=None, **kwargs):
-            LABEL_TO_ID[label] = COUNTS["fam_group"]
+            label_to_id[label] = COUNTS["fam_group"]
             SESSION.add(KineticsFamilyGroups(
                 id=COUNTS["fam_group"], family_id=fam_id, label=label, group_adj_list=group,
                 short_description=shortDesc or "", long_description=longDesc or ""
@@ -307,7 +307,7 @@ def load_kinetics_family(folder):
         def tree_spoof(tree_str):
             try:
                 for p in sketchy_conversion(tree_str):
-                    SESSION.add(KineticsFamilyGroupsTree(id=COUNTS["fam_tree"], parent_id=LABEL_TO_ID.get(p[0]), child_id=LABEL_TO_ID.get(p[1])))
+                    SESSION.add(KineticsFamilyGroupsTree(id=COUNTS["fam_tree"], parent_id=label_to_id.get(p[0]), child_id=label_to_id.get(p[1])))
                     COUNTS["fam_tree"] += 1
             except Exception: pass
                 

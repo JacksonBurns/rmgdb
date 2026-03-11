@@ -7,9 +7,6 @@ short_description: ''
 long_description: ''
 children:
 - 6_membered_ring
-- 6_membered_ring
-- 6_membered_ring
-- 6_membered_ring
 ---
 label: 6_membered_ring
 group: "\n1  *1 C     u0 {2,S} {3,S} {7,S} {8,S}\n2  *2 [C,H] u0 {1,S} {4,[S,D,T,B]}\n\
