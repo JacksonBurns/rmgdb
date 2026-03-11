@@ -35,10 +35,36 @@ WITH adj_reactions AS (
 )
 SELECT 
     l.name as library_name, r.id as reaction_id, r.label, ar.adjacency_reaction, r.degeneracy, r.short_description, r.long_description, r.rank,
-    a.kinetics_type as arrhenius_type, a.A_val, a.A_unit, a.n, a.Ea_val, a.Ea_unit, a.T0_val, a.T0_unit,
-    ep.kinetics_type as arrhenius_ep_type, ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    t.alpha as troe_alpha, t.high_A_val as troe_high_A, t.low_A_val as troe_low_A, t.T3_val as troe_T3,
-    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT, c.degreeP,
+    
+    COALESCE(
+        a.kinetics_type, 
+        ep.kinetics_type, 
+        bm.kinetics_type,
+        CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
+        CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
+        CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
+        CASE WHEN c.id IS NOT NULL THEN 'Chebyshev' END,
+        CASE WHEN pd.id IS NOT NULL THEN 'PDepArrhenius' END,
+        CASE WHEN ts.id IS NOT NULL THEN 'SoluteTSDiffData' END
+    ) AS overall_kinetics_type,
+
+    a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
+    
+    ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
+    
+    bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
+    t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
+    t.low_A_val as troe_low_A, t.low_n as troe_low_n, t.low_Ea_val as troe_low_Ea,
+    
+    lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
+    lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
+    
+    tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
+    
+    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
+    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_library_reactions_table r
@@ -46,7 +72,10 @@ JOIN kinetics_libraries_table l ON l.id = r.library_id
 LEFT JOIN adj_reactions ar ON ar.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_table a ON a.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.library_reaction_id = r.id
+LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.library_reaction_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.library_reaction_id = r.id
+LEFT JOIN kinetics_lindemann_table lind ON lind.library_reaction_id = r.id
+LEFT JOIN kinetics_third_body_table tb ON tb.library_reaction_id = r.id
 LEFT JOIN kinetics_chebyshev_table c ON c.library_reaction_id = r.id
 LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.library_reaction_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.library_reaction_id = r.id
@@ -63,10 +92,36 @@ WITH adj_reactions AS (
 )
 SELECT 
     f.name as family_name, r.id as reaction_id, r.label, ar.adjacency_reaction, r.degeneracy, r.short_description, r.long_description, r.rank,
-    a.kinetics_type as arrhenius_type, a.A_val, a.A_unit, a.n, a.Ea_val, a.Ea_unit, a.T0_val, a.T0_unit,
-    ep.kinetics_type as arrhenius_ep_type, ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    t.alpha as troe_alpha, t.high_A_val as troe_high_A, t.low_A_val as troe_low_A, t.T3_val as troe_T3,
-    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT, c.degreeP,
+    
+    COALESCE(
+        a.kinetics_type, 
+        ep.kinetics_type, 
+        bm.kinetics_type,
+        CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
+        CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
+        CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
+        CASE WHEN c.id IS NOT NULL THEN 'Chebyshev' END,
+        CASE WHEN pd.id IS NOT NULL THEN 'PDepArrhenius' END,
+        CASE WHEN ts.id IS NOT NULL THEN 'SoluteTSDiffData' END
+    ) AS overall_kinetics_type,
+
+    a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
+    
+    ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
+    
+    bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
+    t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
+    t.low_A_val as troe_low_A, t.low_n as troe_low_n, t.low_Ea_val as troe_low_Ea,
+    
+    lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
+    lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
+    
+    tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
+    
+    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
+    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_family_training_reactions_table r
@@ -74,7 +129,10 @@ JOIN kinetics_families_table f ON f.id = r.family_id
 LEFT JOIN adj_reactions ar ON ar.training_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_table a ON a.family_training_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.family_training_reaction_id = r.id
+LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.family_training_reaction_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.family_training_reaction_id = r.id
+LEFT JOIN kinetics_lindemann_table lind ON lind.family_training_reaction_id = r.id
+LEFT JOIN kinetics_third_body_table tb ON tb.family_training_reaction_id = r.id
 LEFT JOIN kinetics_chebyshev_table c ON c.family_training_reaction_id = r.id
 LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.family_training_reaction_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_training_reaction_id = r.id
@@ -83,17 +141,46 @@ LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_training_reaction_id = r
 all_family_rules_kinetics_view_sql = text("""CREATE VIEW all_family_rules_kinetics_view AS 
 SELECT 
     f.name as family_name, r.id as rule_id, r.label, r.short_description, r.long_description, r.rank,
-    a.kinetics_type as arrhenius_type, a.A_val, a.A_unit, a.n, a.Ea_val, a.Ea_unit, a.T0_val, a.T0_unit,
-    ep.kinetics_type as arrhenius_ep_type, ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    t.alpha as troe_alpha, t.high_A_val as troe_high_A, t.low_A_val as troe_low_A, t.T3_val as troe_T3,
-    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT, c.degreeP,
+    
+    COALESCE(
+        a.kinetics_type, 
+        ep.kinetics_type, 
+        bm.kinetics_type,
+        CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
+        CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
+        CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
+        CASE WHEN c.id IS NOT NULL THEN 'Chebyshev' END,
+        CASE WHEN pd.id IS NOT NULL THEN 'PDepArrhenius' END,
+        CASE WHEN ts.id IS NOT NULL THEN 'SoluteTSDiffData' END
+    ) AS overall_kinetics_type,
+
+    a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
+    
+    ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
+    
+    bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
+    t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
+    t.low_A_val as troe_low_A, t.low_n as troe_low_n, t.low_Ea_val as troe_low_Ea,
+    
+    lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
+    lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
+    
+    tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
+    
+    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
+    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_family_rules_table r
 JOIN kinetics_families_table f ON f.id = r.family_id
 LEFT JOIN kinetics_arrhenius_table a ON a.family_rule_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.family_rule_id = r.id
+LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.family_rule_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.family_rule_id = r.id
+LEFT JOIN kinetics_lindemann_table lind ON lind.family_rule_id = r.id
+LEFT JOIN kinetics_third_body_table tb ON tb.family_rule_id = r.id
 LEFT JOIN kinetics_chebyshev_table c ON c.family_rule_id = r.id
 LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.family_rule_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_rule_id = r.id
