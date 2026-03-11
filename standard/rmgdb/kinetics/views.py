@@ -20,9 +20,21 @@ JOIN kinetics_family_training_reactions_table r ON r.id = rs.training_reaction_i
 LEFT JOIN kinetics_family_training_dictionary_table d ON d.family_id = r.family_id AND d.label = rs.species_label
 """)
 
+# ------------------------------------------------------------------------
+# Wide Flattened Unified Views (Re-Joins All Data Tables To Reactions)
+# ------------------------------------------------------------------------
+
 all_library_kinetics_view_sql = text("""CREATE VIEW all_library_kinetics_view AS 
+WITH adj_reactions AS (
+    SELECT library_reaction_id,
+           GROUP_CONCAT(CASE WHEN role = 'reactant' THEN adjacency_list END, '\n + \n') || 
+           '\n <=> \n' ||
+           GROUP_CONCAT(CASE WHEN role = 'product' THEN adjacency_list END, '\n + \n') as adjacency_reaction
+    FROM kinetics_library_reaction_species_view
+    GROUP BY library_reaction_id
+)
 SELECT 
-    l.name as library_name, r.id as reaction_id, r.label, r.degeneracy, r.short_description, r.long_description, r.rank,
+    l.name as library_name, r.id as reaction_id, r.label, ar.adjacency_reaction, r.degeneracy, r.short_description, r.long_description, r.rank,
     a.kinetics_type as arrhenius_type, a.A_val, a.A_unit, a.n, a.Ea_val, a.Ea_unit, a.T0_val, a.T0_unit,
     ep.kinetics_type as arrhenius_ep_type, ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
     t.alpha as troe_alpha, t.high_A_val as troe_high_A, t.low_A_val as troe_low_A, t.T3_val as troe_T3,
@@ -31,12 +43,41 @@ SELECT
     ts.id as solute_ts_id
 FROM kinetics_library_reactions_table r
 JOIN kinetics_libraries_table l ON l.id = r.library_id
+LEFT JOIN adj_reactions ar ON ar.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_table a ON a.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.library_reaction_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.library_reaction_id = r.id
 LEFT JOIN kinetics_chebyshev_table c ON c.library_reaction_id = r.id
 LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.library_reaction_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.library_reaction_id = r.id
+""")
+
+all_family_training_kinetics_view_sql = text("""CREATE VIEW all_family_training_kinetics_view AS 
+WITH adj_reactions AS (
+    SELECT training_reaction_id,
+           GROUP_CONCAT(CASE WHEN role = 'reactant' THEN adjacency_list END, '\n + \n') || 
+           '\n <=> \n' ||
+           GROUP_CONCAT(CASE WHEN role = 'product' THEN adjacency_list END, '\n + \n') as adjacency_reaction
+    FROM kinetics_family_training_reaction_species_view
+    GROUP BY training_reaction_id
+)
+SELECT 
+    f.name as family_name, r.id as reaction_id, r.label, ar.adjacency_reaction, r.degeneracy, r.short_description, r.long_description, r.rank,
+    a.kinetics_type as arrhenius_type, a.A_val, a.A_unit, a.n, a.Ea_val, a.Ea_unit, a.T0_val, a.T0_unit,
+    ep.kinetics_type as arrhenius_ep_type, ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
+    t.alpha as troe_alpha, t.high_A_val as troe_high_A, t.low_A_val as troe_low_A, t.T3_val as troe_T3,
+    c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT, c.degreeP,
+    pd.id as pdep_id,
+    ts.id as solute_ts_id
+FROM kinetics_family_training_reactions_table r
+JOIN kinetics_families_table f ON f.id = r.family_id
+LEFT JOIN adj_reactions ar ON ar.training_reaction_id = r.id
+LEFT JOIN kinetics_arrhenius_table a ON a.family_training_reaction_id = r.id
+LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.family_training_reaction_id = r.id
+LEFT JOIN kinetics_troe_table t ON t.family_training_reaction_id = r.id
+LEFT JOIN kinetics_chebyshev_table c ON c.family_training_reaction_id = r.id
+LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.family_training_reaction_id = r.id
+LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_training_reaction_id = r.id
 """)
 
 all_family_rules_kinetics_view_sql = text("""CREATE VIEW all_family_rules_kinetics_view AS 
@@ -57,6 +98,10 @@ LEFT JOIN kinetics_chebyshev_table c ON c.family_rule_id = r.id
 LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.family_rule_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_rule_id = r.id
 """)
+
+# ------------------------------------------------------------------------
+# Standard Meta Views
+# ------------------------------------------------------------------------
 
 kinetics_library_dictionary_view_sql = text("""CREATE VIEW kinetics_library_dictionary_view AS
 SELECT l.name as library_name, d.label, d.adjacency_list

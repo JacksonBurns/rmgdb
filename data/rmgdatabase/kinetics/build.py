@@ -13,8 +13,9 @@ from rmgdb.kinetics.schema import (
 )
 from rmgdb.kinetics.views import (
     label_pairs_view_sql, kinetics_library_reaction_species_view_sql, kinetics_family_training_reaction_species_view_sql,
-    all_library_kinetics_view_sql, all_family_rules_kinetics_view_sql, kinetics_library_dictionary_view_sql,
-    kinetics_family_groups_view_sql, kinetics_family_forbidden_groups_view_sql, kinetics_family_training_dictionary_view_sql, kinetics_families_view_sql
+    all_library_kinetics_view_sql, all_family_rules_kinetics_view_sql, all_family_training_kinetics_view_sql, 
+    kinetics_library_dictionary_view_sql, kinetics_family_groups_view_sql, kinetics_family_forbidden_groups_view_sql, 
+    kinetics_family_training_dictionary_view_sql, kinetics_families_view_sql
 )
 from rmgdatabase.common.tree_str_to_pairs import sketchy_conversion
 
@@ -369,9 +370,12 @@ if __name__ == "__main__":
             if p.is_dir(): load_kinetics_family(p)
         
     SESSION.commit()
-    for view in [label_pairs_view_sql, kinetics_library_reaction_species_view_sql, kinetics_family_training_reaction_species_view_sql,
-                 all_library_kinetics_view_sql, all_family_rules_kinetics_view_sql, kinetics_library_dictionary_view_sql, 
-                 kinetics_family_groups_view_sql, kinetics_family_forbidden_groups_view_sql, kinetics_family_training_dictionary_view_sql, kinetics_families_view_sql]:
+    for view in [
+        label_pairs_view_sql, kinetics_library_reaction_species_view_sql, kinetics_family_training_reaction_species_view_sql,
+        all_library_kinetics_view_sql, all_family_rules_kinetics_view_sql, all_family_training_kinetics_view_sql, 
+        kinetics_library_dictionary_view_sql, kinetics_family_groups_view_sql, kinetics_family_forbidden_groups_view_sql, 
+        kinetics_family_training_dictionary_view_sql, kinetics_families_view_sql
+    ]:
         SESSION.execute(view)
     SESSION.commit()
     SESSION.close()
