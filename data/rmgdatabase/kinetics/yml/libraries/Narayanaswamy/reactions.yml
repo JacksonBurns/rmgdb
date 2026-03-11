@@ -1864,9 +1864,8 @@ kinetics:
 ---
 label: H(2) + C5H6(123) => C2H2(21) + S-C3H5(44)
 degeneracy: 1.0
-long_description: |2
-
-  H(2)+C5H6(123)=C2H2(21)+A-C3H5(47)                  3.300e+14 0.000     12.345
+long_description: "\nH(2)+C5H6(123)=C2H2(21)+A-C3H5(47)                  3.300e+14\
+  \ 0.000     12.345\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2066,9 +2065,8 @@ kinetics:
 ---
 label: CH3(16) + C5H5(124) => H(2) + H(2) + C6H6(91)
 degeneracy: 1.0
-long_description: |2
-
-  C5H5(124)+C5H5(124)=>H(2)+H(2)+A2(99)               6.390e+29 -4.030    35.206
+long_description: "\nC5H5(124)+C5H5(124)=>H(2)+H(2)+A2(99)               6.390e+29\
+  \ -4.030    35.206\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2319,9 +2317,8 @@ kinetics:
 ---
 label: A1-(92) + C3H3(41) <=> C9H8(128)
 degeneracy: 1.0
-long_description: |2
-
-  C5H6(123)+C5H5(124)=>CH3(16)+C9H8(128)              7.860e-01 3.070     5.729
+long_description: "\nC5H6(123)+C5H5(124)=>CH3(16)+C9H8(128)              7.860e-01\
+  \ 3.070     5.729\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2691,9 +2688,8 @@ kinetics:
 ---
 label: O2(3) + A1CH3(133) <=> HO2(9) + A1CH2(130)
 degeneracy: 1.0
-long_description: |2
-
-  A1CH2(130)=C2H2(21)+C5H5(124)                       8.200e+14 0.000     80.676
+long_description: "\nA1CH2(130)=C2H2(21)+C5H5(124)                       8.200e+14\
+  \ 0.000     80.676\n"
 kinetics:
   type: Arrhenius
   A:

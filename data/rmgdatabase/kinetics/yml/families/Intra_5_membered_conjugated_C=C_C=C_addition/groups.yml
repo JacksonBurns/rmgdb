@@ -1,19 +1,12 @@
 label: C=C=C-C=C
-group: |2
-
-  1 *4 Cd  u0 {2,S} {4,D}
-  2 *3 Cd  u0 {1,S} {5,D}
-  3 *1 C   u0 {4,D}
-  4 *5 Cdd u0 {1,D} {3,D}
-  5 *2 C   u0 {2,D}
+group: "\n1 *4 Cd  u0 {2,S} {4,D}\n2 *3 Cd  u0 {1,S} {5,D}\n3 *1 C   u0 {4,D}\n4 *5\
+  \ Cdd u0 {1,D} {3,D}\n5 *2 C   u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=C=C_End
-group: |2
-
-  1 *1 C u0
+group: "\n1 *1 C u0\n"
 short_description: ''
 long_description: ''
 children:
@@ -23,87 +16,55 @@ children:
 - C=C=CddC
 ---
 label: C-C=C_End
-group: |2
-
-  1 *2 C u0
+group: "\n1 *2 C u0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=C=CdH2
-group: |2
-
-  1 *1 Cd u0 {2,S} {3,S}
-  2    H  u0 {1,S}
-  3    H  u0 {1,S}
+group: "\n1 *1 Cd u0 {2,S} {3,S}\n2    H  u0 {1,S}\n3    H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=C=CdHC
-group: |2
-
-  1 *1 Cd u0 {2,S} {3,S}
-  2    H  u0 {1,S}
-  3    C  u0 {1,S}
+group: "\n1 *1 Cd u0 {2,S} {3,S}\n2    H  u0 {1,S}\n3    C  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=C=Cd(C)C
-group: |2
-
-  1 *1 Cd u0 {2,S} {3,S}
-  2    C  u0 {1,S}
-  3    C  u0 {1,S}
+group: "\n1 *1 Cd u0 {2,S} {3,S}\n2    C  u0 {1,S}\n3    C  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=C=CddC
-group: |2
-
-  1 *1 Cdd u0 {2,D}
-  2    C   u0 {1,D}
+group: "\n1 *1 Cdd u0 {2,D}\n2    C   u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-C=CdH2
-group: |2
-
-  1 *2 Cd u0 {2,S} {3,S}
-  2    H  u0 {1,S}
-  3    H  u0 {1,S}
+group: "\n1 *2 Cd u0 {2,S} {3,S}\n2    H  u0 {1,S}\n3    H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-C=CdHC
-group: |2
-
-  1 *2 Cd u0 {2,S} {3,S}
-  2    H  u0 {1,S}
-  3    C  u0 {1,S}
+group: "\n1 *2 Cd u0 {2,S} {3,S}\n2    H  u0 {1,S}\n3    C  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-C=Cd(C)C
-group: |2
-
-  1 *2 Cd u0 {2,S} {3,S}
-  2    C  u0 {1,S}
-  3    C  u0 {1,S}
+group: "\n1 *2 Cd u0 {2,S} {3,S}\n2    C  u0 {1,S}\n3    C  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-C=CddC
-group: |2
-
-  1 *2 Cdd u0 {2,D}
-  2    C   u0 {1,D}
+group: "\n1 *2 Cdd u0 {2,D}\n2    C   u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []

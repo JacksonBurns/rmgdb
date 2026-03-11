@@ -1,22 +1,12 @@
 label: H
-adjacency_list: |-
-  multiplicity 2
-  1 H u1 p0 c0
+adjacency_list: "multiplicity 2\n1 H u1 p0 c0\n"
 ---
 label: H2O
-adjacency_list: |-
-  1 O u0 p2 c0 {2,S} {3,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
+adjacency_list: "1 O u0 p2 c0 {2,S} {3,S}\n2 H u0 p0 c0 {1,S}\n3 H u0 p0 c0 {1,S}\n"
 ---
 label: CO
-adjacency_list: |-
-  1 C u0 p1 c-1 {2,T}
-  2 O u0 p1 c+1 {1,T}
+adjacency_list: "1 C u0 p1 c-1 {2,T}\n2 O u0 p1 c+1 {1,T}\n"
 ---
 label: HCO
-adjacency_list: |-
-  multiplicity 2
-  1 C u1 p0 c0 {2,D} {3,S}
-  2 O u0 p2 c0 {1,D}
-  3 H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 C u1 p0 c0 {2,D} {3,S}\n2 O u0 p2 c0 {1,D}\n3 H\
+  \ u0 p0 c0 {1,S}\n"

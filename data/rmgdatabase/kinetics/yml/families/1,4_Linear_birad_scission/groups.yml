@@ -1,10 +1,6 @@
 label: RJJ
-group: |2
-
-  1 *1 R!H u1 c0 {2,[S,D]}
-  2 *2 R!H u0 c0 {1,[S,D]} {3,S}
-  3 *3 R!H u0 c0 {2,S} {4,[S,D]}
-  4 *4 R!H u1 c0 {3,[S,D]}
+group: "\n1 *1 R!H u1 c0 {2,[S,D]}\n2 *2 R!H u0 c0 {1,[S,D]} {3,S}\n3 *3 R!H u0 c0\
+  \ {2,S} {4,[S,D]}\n4 *4 R!H u1 c0 {3,[S,D]}\n"
 short_description: ''
 long_description: ''
 children:

@@ -209,16 +209,16 @@ def parse_dict(filepath):
         for line in f:
             if not line.strip():
                 if current_label:
-                    entries.append((current_label, "".join(current_adj).strip()))
+                    entries.append((current_label, "".join(current_adj)))
                     current_label, current_adj = None, []
                 continue
             parts = line.split()
             if line.startswith(" ") or line.startswith("\t") or parts[0].isdigit() or parts[0] in ["multiplicity", "elec"]:
                 current_adj.append(line)
             else:
-                if current_label: entries.append((current_label, "".join(current_adj).strip()))
+                if current_label: entries.append((current_label, "".join(current_adj)))
                 current_label, current_adj = line.strip(), []
-        if current_label: entries.append((current_label, "".join(current_adj).strip()))
+        if current_label: entries.append((current_label, "".join(current_adj)))
     return entries
 
 def load_kinetics_library(folder):
@@ -387,11 +387,11 @@ def load_kinetics_family(folder):
 
 if __name__ == "__main__":
     if Path("./original/libraries").exists():
-        for p in Path("./original/libraries").glob("*"):
+        for p in sorted(Path("./original/libraries").glob("*")):
             if p.is_dir(): load_kinetics_library(p)
             
     if Path("./original/families").exists():
-        for p in Path("./original/families").glob("*"):
+        for p in sorted(Path("./original/families").glob("*")):
             if p.is_dir(): load_kinetics_family(p)
         
     SESSION.commit()

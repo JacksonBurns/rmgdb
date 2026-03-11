@@ -6,20 +6,10 @@ children:
 - linear_1_3_hexadien_5_yne
 ---
 label: linear_1_3_hexadien_5_yne
-group: |2
-
-  1  *3 Cd u0 {2,S} {3,D} {8,S}
-  2  *2 Cd u0 {1,S} {4,D} {7,S}
-  3  *4 Cd u0 {1,D} {5,S} {9,S}
-  4  *1 Cd u0 {2,D} {11,S} {12,S}
-  5  *5 Ct u0 {3,S} {6,T}
-  6  *6 Ct u0 p0 {5,T} {10,S}
-  7     R  u0 {2,S}
-  8     R  u0 {1,S}
-  9     R  u0 {3,S}
-  10 *7 H  u0 {6,S}
-  11    R  u0 {4,S}
-  12    R  u0 {4,S}
+group: "\n1  *3 Cd u0 {2,S} {3,D} {8,S}\n2  *2 Cd u0 {1,S} {4,D} {7,S}\n3  *4 Cd u0\
+  \ {1,D} {5,S} {9,S}\n4  *1 Cd u0 {2,D} {11,S} {12,S}\n5  *5 Ct u0 {3,S} {6,T}\n\
+  6  *6 Ct u0 p0 {5,T} {10,S}\n7     R  u0 {2,S}\n8     R  u0 {1,S}\n9     R  u0 {3,S}\n\
+  10 *7 H  u0 {6,S}\n11    R  u0 {4,S}\n12    R  u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []

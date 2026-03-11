@@ -1,137 +1,59 @@
 label: '*nbutane'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {2,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   H u0 p0 c0 {11,S}
+adjacency_list: "1 *1 X u0 p0 c0 {2,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {3,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   H u0\
+  \ p0 c0 {11,S}\n"
 ---
 label: '*nbutane2'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {3,S}
-  2 *2 C u0 p0 c0 {3,S} {5,S} {6,S} {4,S}
-  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   H u0 p0 c0 {11,S}
+adjacency_list: "1 *1 X u0 p0 c0 {3,S}\n2 *2 C u0 p0 c0 {3,S} {5,S} {6,S} {4,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {2,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   H u0\
+  \ p0 c0 {11,S}\n"
 ---
 label: '*nhexane'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {2,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   C u0 p0 c0 {11,S} {15,S} {16,S} {17,S}
-  15   H u0 p0 c0 {14,S}
-  16   H u0 p0 c0 {14,S}
-  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}
-  18   H u0 p0 c0 {17,S}
-  19   H u0 p0 c0 {17,S}
-  20   H u0 p0 c0 {17,S}
+adjacency_list: "1 *1 X u0 p0 c0 {2,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {3,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   C u0\
+  \ p0 c0 {11,S} {15,S} {16,S} {17,S}\n15   H u0 p0 c0 {14,S}\n16   H u0 p0 c0 {14,S}\n\
+  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}\n18   H u0 p0 c0 {17,S}\n19   H u0 p0\
+  \ c0 {17,S}\n20   H u0 p0 c0 {17,S}\n"
 ---
 label: '*nhexane2'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {3,S}
-  2 *2 C u0 p0 c0 {4,S} {3,S} {5,S} {6,S}
-  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   C u0 p0 c0 {11,S} {15,S} {16,S} {17,S}
-  15   H u0 p0 c0 {14,S}
-  16   H u0 p0 c0 {14,S}
-  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}
-  18   H u0 p0 c0 {17,S}
-  19   H u0 p0 c0 {17,S}
-  20   H u0 p0 c0 {17,S}
+adjacency_list: "1 *1 X u0 p0 c0 {3,S}\n2 *2 C u0 p0 c0 {4,S} {3,S} {5,S} {6,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {2,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   C u0\
+  \ p0 c0 {11,S} {15,S} {16,S} {17,S}\n15   H u0 p0 c0 {14,S}\n16   H u0 p0 c0 {14,S}\n\
+  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}\n18   H u0 p0 c0 {17,S}\n19   H u0 p0\
+  \ c0 {17,S}\n20   H u0 p0 c0 {17,S}\n"
 ---
 label: '*noctane'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {2,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   C u0 p0 c0 {11,S} {15,S} {16,S} {17,S}
-  15   H u0 p0 c0 {14,S}
-  16   H u0 p0 c0 {14,S}
-  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}
-  18   H u0 p0 c0 {17,S}
-  19   H u0 p0 c0 {17,S}
-  20   C u0 p0 c0 {17,S} {21,S} {22,S} {23,S}
-  21   H u0 p0 c0 {20,S}
-  22   H u0 p0 c0 {20,S}
-  23   C u0 p0 c0 {20,S} {24,S} {25,S} {26,S}
-  24   H u0 p0 c0 {23,S}
-  25   H u0 p0 c0 {23,S}
-  26   H u0 p0 c0 {23,S}
+adjacency_list: "1 *1 X u0 p0 c0 {2,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {6,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {3,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   C u0\
+  \ p0 c0 {11,S} {15,S} {16,S} {17,S}\n15   H u0 p0 c0 {14,S}\n16   H u0 p0 c0 {14,S}\n\
+  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}\n18   H u0 p0 c0 {17,S}\n19   H u0 p0\
+  \ c0 {17,S}\n20   C u0 p0 c0 {17,S} {21,S} {22,S} {23,S}\n21   H u0 p0 c0 {20,S}\n\
+  22   H u0 p0 c0 {20,S}\n23   C u0 p0 c0 {20,S} {24,S} {25,S} {26,S}\n24   H u0 p0\
+  \ c0 {23,S}\n25   H u0 p0 c0 {23,S}\n26   H u0 p0 c0 {23,S}\n"
 ---
 label: '*noctane2'
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {3,S}
-  2 *2 C u0 p0 c0 {4,S} {3,S} {5,S} {6,S}
-  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}
-  4 *4 H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  9    H u0 p0 c0 {8,S}
-  10   H u0 p0 c0 {8,S}
-  11   C u0 p0 c0 {8,S} {12,S} {13,S} {14,S}
-  12   H u0 p0 c0 {11,S}
-  13   H u0 p0 c0 {11,S}
-  14   C u0 p0 c0 {11,S} {15,S} {16,S} {17,S}
-  15   H u0 p0 c0 {14,S}
-  16   H u0 p0 c0 {14,S}
-  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}
-  18   H u0 p0 c0 {17,S}
-  19   H u0 p0 c0 {17,S}
-  20   C u0 p0 c0 {17,S} {21,S} {22,S} {23,S}
-  21   H u0 p0 c0 {20,S}
-  22   H u0 p0 c0 {20,S}
-  23   C u0 p0 c0 {20,S} {24,S} {25,S} {26,S}
-  24   H u0 p0 c0 {23,S}
-  25   H u0 p0 c0 {23,S}
-  26   H u0 p0 c0 {23,S}
+adjacency_list: "1 *1 X u0 p0 c0 {3,S}\n2 *2 C u0 p0 c0 {4,S} {3,S} {5,S} {6,S}\n\
+  3 *3 C u0 p0 c0 {2,S} {1,S} {7,S} {8,S}\n4 *4 H u0 p0 c0 {2,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    C u0 p0 c0 {3,S} {9,S}\
+  \ {10,S} {11,S}\n9    H u0 p0 c0 {8,S}\n10   H u0 p0 c0 {8,S}\n11   C u0 p0 c0 {8,S}\
+  \ {12,S} {13,S} {14,S}\n12   H u0 p0 c0 {11,S}\n13   H u0 p0 c0 {11,S}\n14   C u0\
+  \ p0 c0 {11,S} {15,S} {16,S} {17,S}\n15   H u0 p0 c0 {14,S}\n16   H u0 p0 c0 {14,S}\n\
+  17   C u0 p0 c0 {14,S} {18,S} {19,S} {20,S}\n18   H u0 p0 c0 {17,S}\n19   H u0 p0\
+  \ c0 {17,S}\n20   C u0 p0 c0 {17,S} {21,S} {22,S} {23,S}\n21   H u0 p0 c0 {20,S}\n\
+  22   H u0 p0 c0 {20,S}\n23   C u0 p0 c0 {20,S} {24,S} {25,S} {26,S}\n24   H u0 p0\
+  \ c0 {23,S}\n25   H u0 p0 c0 {23,S}\n26   H u0 p0 c0 {23,S}\n"

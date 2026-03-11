@@ -1,31 +1,8 @@
 label: Adsorbate
-group: |2
-
-  multiplicity [2]
-  1 *1 [H,C,N,O,S,F,Cl,Br] u1
+group: "\nmultiplicity [2]\n1 *1 [H,C,N,O,S,F,Cl,Br] u1\n"
 short_description: ''
 long_description: ''
 children:
-- H
-- C
-- N
-- O
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CX
-- OX
-- NX
-- H
-- C
-- N
-- O
 - H2
 - O
 - N
@@ -35,26 +12,41 @@ children:
 - NC
 - OC
 - 'ON'
-- CX
-- OX
-- NX
 - C
 - N
 - O
+- H
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
 ---
 label: VacantSite
-group: |2
-
-  1 *2 Xv u0
+group: "\n1 *2 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H
-group: |2
-
-  multiplicity [2]
-  1 *1 H u1 p0 c0
+group: "\nmultiplicity [2]\n1 *1 H u1 p0 c0\n"
 short_description: ''
 long_description: ''
 children:
@@ -63,38 +55,31 @@ children:
 - NH3
 ---
 label: C
-group: |2
-
-  multiplicity [2]
-  1 *1 C u1
+group: "\nmultiplicity [2]\n1 *1 C u1\n"
 short_description: ''
 long_description: ''
 children:
-- CC
-- CN
-- CO
 - C=*
 - C#*
 - C$*
-- C-H
-- CH=O
-- CH2-H
-- C-H
-- C-O
-- C-C
 - C=*
 - C#*
 - C$*
 - CH2
 - CO
 - C2O
+- C-H
+- CH=O
+- CH2-H
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
 ---
 label: C-H
-group: |2
-
-  multiplicity [2]
-  1 *1 C u1 p1 cx {2,S}
-  2    H u0 p0 c0 {1,S}
+group: "\nmultiplicity [2]\n1 *1 C u1 p1 cx {2,S}\n2    H u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -106,101 +91,74 @@ children:
 - CHR
 ---
 label: CH=O
-group: |2
-
-  multiplicity [2]
-  1    O u0 p2 cx {2,D}
-  2 *1 C u1 p0 cx {1,D} {3,S}
-  3    H u0 p0 c0 {2,S}
+group: "\nmultiplicity [2]\n1    O u0 p2 cx {2,D}\n2 *1 C u1 p0 cx {1,D} {3,S}\n3\
+  \    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: CH2-H
-group: |2
-
-  multiplicity [2]
-  1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
-  2    H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
+group: "\nmultiplicity [2]\n1 *1 C u1 p0 c0 {2,S} {3,S} {4,S}\n2    H u0 p0 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N
-group: |2
-
-  multiplicity [2]
-  1 *1 N u1
+group: "\nmultiplicity [2]\n1 *1 N u1\n"
 short_description: ''
 long_description: ''
 children:
-- 'NO'
-- NN
 - N3s
 - N3d
 - N=*
 - N#*
-- N=O
 - N-C
 - N-H
+- NH
+- NN
+- N=O
+- 'NO'
+- NN
 - N-H2
 - N-H
 - N-N
-- NH
-- NN
 ---
 label: N=O
-group: |2
-
-  multiplicity [2]
-  1 *1 N u1 p1 c0 {2,D}
-  2    O u0 p2 c0 {1,D}
+group: "\nmultiplicity [2]\n1 *1 N u1 p1 c0 {2,D}\n2    O u0 p2 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
 - HNO
 ---
 label: O
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1
+group: "\nmultiplicity [2]\n1 *1 O u1\n"
 short_description: ''
 long_description: ''
 children:
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
 - O-H
 - O=N
 - O-H
 - O-C
 - O-N
-- O-H
-- O-N
-- O-C
-- O-H
-- O-C
-- O-N
 ---
 label: O-H
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1 p2 c0 {2,S}
-  2    H u0 p0 c0 {1,S}
+group: "\nmultiplicity [2]\n1 *1 O u1 p2 c0 {2,S}\n2    H u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
 - H2O
-- H2O2
 - H2O
+- H2O2
 ---
 label: O-C
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1 p2 cx {2,S}
-  2    C u0 p0 cx {1,S}
+group: "\nmultiplicity [2]\n1 *1 O u1 p2 cx {2,S}\n2    C u0 p0 cx {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -208,24 +166,14 @@ children:
 - O-C=O
 ---
 label: O-CH3
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1 p2 c0 {2,S}
-  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+group: "\nmultiplicity [2]\n1 *1 O u1 p2 c0 {2,S}\n2    C u0 p0 c0 {1,S} {3,S} {4,S}\
+  \ {5,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-N
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1 p2 cx {2,S}
-  2    N u0 p1 cx {1,S}
+group: "\nmultiplicity [2]\n1 *1 O u1 p2 cx {2,S}\n2    N u0 p1 cx {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -233,38 +181,22 @@ children:
 - O-N=O
 ---
 label: O-N=O
-group: |2
-
-  multiplicity [2]
-  1 *1 O u1 p2 cx {3,S}
-  2    O u0 p2 cx {3,D}
-  3    N u0 p1 cx {1,S} {2,D}
+group: "\nmultiplicity [2]\n1 *1 O u1 p2 cx {3,S}\n2    O u0 p2 cx {3,D}\n3    N u0\
+  \ p1 cx {1,S} {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: adjacentradical
-group: |2
-
-  1 *1 R u1 {2,S}
-  2    R u1 {1,S}
+group: "\n1 *1 R u1 {2,S}\n2    R u1 {1,S}\n"
 forbidden: true
 short_description: ''
-long_description: |2
-
-  The adsorbing atom should not be adjacent to a radical.
-  e.g. this is not allowed:
-
-  .O-O.    -->   .O-O
-                    |
-     X              X
+long_description: "\nThe adsorbing atom should not be adjacent to a radical.\ne.g.\
+  \ this is not allowed:\n\n.O-O.    -->   .O-O\n                  |\n   X       \
+  \       X\n"
 ---
 label: chargedSpecies
-group: |2
-
-  1 *1 R u1 c[+1,-1]
+group: "\n1 *1 R u1 c[+1,-1]\n"
 forbidden: true
 short_description: ''
-long_description: |2
-
-  The adsorbing atom should not have a charge
+long_description: "\nThe adsorbing atom should not have a charge\n"

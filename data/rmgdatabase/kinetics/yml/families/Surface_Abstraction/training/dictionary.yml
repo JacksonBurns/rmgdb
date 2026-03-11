@@ -1,73 +1,41 @@
 label: CH2X_1
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {3,S} {4,D}
-  2    H u0 p0 {1,S}
-  3    H u0 p0 {1,S}
-  4 *2 X u0 p0 {1,D}
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,D}\n2    H u0 p0 {1,S}\n3    H u0 p0\
+  \ {1,S}\n4 *2 X u0 p0 {1,D}\n"
 ---
 label: HOX_3
-adjacency_list: |-
-  1 *3 O u0 p2 {2,S} {3,S}
-  2 *4 H u0 p0 {1,S}
-  3 *5 X u0 p0 {1,S}
+adjacency_list: "1 *3 O u0 p2 {2,S} {3,S}\n2 *4 H u0 p0 {1,S}\n3 *5 X u0 p0 {1,S}\n"
 ---
 label: CH3X_4
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 H u0 p0 {1,S}
-  3    H u0 p0 {1,S}
-  4    H u0 p0 {1,S}
-  5 *2 X u0 p0 {1,S}
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}\n2 *4 H u0 p0 {1,S}\n3    H\
+  \ u0 p0 {1,S}\n4    H u0 p0 {1,S}\n5 *2 X u0 p0 {1,S}\n"
 ---
 label: OX_5
-adjacency_list: |-
-  1 *5 X u0 p0 c0 {2,D}
-  2 *3 O u0 p2 c0 {1,D}
+adjacency_list: "1 *5 X u0 p0 c0 {2,D}\n2 *3 O u0 p2 c0 {1,D}\n"
 ---
 label: CHX_1
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {3,T}
-  2    H u0 p0 {1,S}
-  3 *2 X u0 p0 {1,T}
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,T}\n2    H u0 p0 {1,S}\n3 *2 X u0 p0 {1,T}\n"
 ---
 label: CH2X_4
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {3,S} {4,D}
-  2 *4 H u0 p0 {1,S}
-  3    H u0 p0 {1,S}
-  4 *2 X u0 p0 {1,D}
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,D}\n2 *4 H u0 p0 {1,S}\n3    H u0 p0\
+  \ {1,S}\n4 *2 X u0 p0 {1,D}\n"
 ---
 label: CX_1
-adjacency_list: |-
-  1 *1 C u0 p0 {2,Q}
-  2 *2 X u0 p0 {1,Q}
+adjacency_list: "1 *1 C u0 p0 {2,Q}\n2 *2 X u0 p0 {1,Q}\n"
 ---
 label: CHX_4
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {3,T}
-  2 *4 H u0 p0 {1,S}
-  3 *2 X u0 p0 {1,T}
+adjacency_list: "1 *1 C u0 p0 {2,S} {3,T}\n2 *4 H u0 p0 {1,S}\n3 *2 X u0 p0 {1,T}\n"
 ---
 label: OX_1
-adjacency_list: |-
-  1 *2 X u0 p0 c0 {2,D}
-  2 *1 O u0 p2 c0 {1,D}
+adjacency_list: "1 *2 X u0 p0 c0 {2,D}\n2 *1 O u0 p2 c0 {1,D}\n"
 ---
 label: HCOX_3
-adjacency_list: |-
-  1    O u0 p2 c0 {2,D}
-  2 *3 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3 *4 H u0 p0 c0 {2,S}
-  4 *5 X u0 p0 c0 {2,S}
+adjacency_list: "1    O u0 p2 c0 {2,D}\n2 *3 C u0 p0 c0 {1,D} {3,S} {4,S}\n3 *4 H\
+  \ u0 p0 c0 {2,S}\n4 *5 X u0 p0 c0 {2,S}\n"
 ---
 label: HOX_4
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {3,S}
-  2 *4 H u0 p0 c0 {1,S}
-  3 *2 X u0 p0 c0 {1,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {3,S}\n2 *4 H u0 p0 c0 {1,S}\n3 *2 X u0 p0\
+  \ c0 {1,S}\n"
 ---
 label: COX_5
-adjacency_list: |-
-  1    O u0 p2 c0 {2,D}
-  2 *3 C u0 p0 c0 {1,D} {3,D}
-  3 *5 X u0 p0 c0 {2,D}
+adjacency_list: "1    O u0 p2 c0 {2,D}\n2 *3 C u0 p0 c0 {1,D} {3,D}\n3 *5 X u0 p0\
+  \ c0 {2,D}"

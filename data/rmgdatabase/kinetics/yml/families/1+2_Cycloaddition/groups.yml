@@ -19,27 +19,19 @@ long_description: ''
 children: []
 ---
 label: o_atom_singlet
-group: |2
-
-  1 *3 O u0 p3 c0
+group: "\n1 *3 O u0 p3 c0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: S_atom_singlet
-group: |2
-
-  1 *3 S u0 p3 c0
+group: "\n1 *3 S u0 p3 c0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: carbene
-group: |2
-
-  1 *3 C u0 p1 {2,S} {3,S}
-  2    H u0 {1,S}
-  3    H u0 {1,S}
+group: "\n1 *3 C u0 p1 {2,S} {3,S}\n2    H u0 {1,S}\n3    H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -51,63 +43,36 @@ children:
 - CBr
 ---
 label: me_carbene
-group: |2
-
-  1    Cs u0 {2,S} {3,S} {4,S} {5,S}
-  2 *3 C  u0 p1 {1,S} {6,S}
-  3    H  u0 {1,S}
-  4    H  u0 {1,S}
-  5    H  u0 {1,S}
-  6    H  u0 {2,S}
+group: "\n1    Cs u0 {2,S} {3,S} {4,S} {5,S}\n2 *3 C  u0 p1 {1,S} {6,S}\n3    H  u0\
+  \ {1,S}\n4    H  u0 {1,S}\n5    H  u0 {1,S}\n6    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: ph_carbene
-group: |2
-
-  1 *3 C  u0 p1 {2,S} {3,S}
-  2    Cb u0 {1,S} {4,B} {5,B}
-  3    H  u0 {1,S}
-  4    Cb u0 {2,B} {6,B}
-  5    Cb u0 {2,B} {7,B}
-  6    Cb u0 {4,B} {8,B}
-  7    Cb u0 {5,B} {8,B}
-  8    Cb u0 {6,B} {7,B}
+group: "\n1 *3 C  u0 p1 {2,S} {3,S}\n2    Cb u0 {1,S} {4,B} {5,B}\n3    H  u0 {1,S}\n\
+  4    Cb u0 {2,B} {6,B}\n5    Cb u0 {2,B} {7,B}\n6    Cb u0 {4,B} {8,B}\n7    Cb\
+  \ u0 {5,B} {8,B}\n8    Cb u0 {6,B} {7,B}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: dime_carbene
-group: |2
-
-  1    Cs u0 {3,S} {4,S} {5,S} {6,S}
-  2    Cs u0 {3,S} {7,S} {8,S} {9,S}
-  3 *3 C  u0 p1 {1,S} {2,S}
-  4    H  u0 {1,S}
-  5    H  u0 {1,S}
-  6    H  u0 {1,S}
-  7    H  u0 {2,S}
-  8    H  u0 {2,S}
-  9    H  u0 {2,S}
+group: "\n1    Cs u0 {3,S} {4,S} {5,S} {6,S}\n2    Cs u0 {3,S} {7,S} {8,S} {9,S}\n\
+  3 *3 C  u0 p1 {1,S} {2,S}\n4    H  u0 {1,S}\n5    H  u0 {1,S}\n6    H  u0 {1,S}\n\
+  7    H  u0 {2,S}\n8    H  u0 {2,S}\n9    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: imidogen_singlet
-group: |2
-
-  1 *3 N1s u0 p2 {2,S}
-  2    H   u0 {1,S}
+group: "\n1 *3 N1s u0 p2 {2,S}\n2    H   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl
-group: |2
-
-  1 *1 [CO,CS,Cdd,N] u0 {2,D}
-  2 *2 [O,N,S]       u0 {1,D}
+group: "\n1 *1 [CO,CS,Cdd,N] u0 {2,D}\n2 *2 [O,N,S]       u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -125,142 +90,91 @@ children:
 - mb_Scarbonyl_DeDe
 ---
 label: mb_carbonyl_2H
-group: |2
-
-  1 *1 CO u0 {2,D} {3,S} {4,S}
-  2 *2 O  u0 {1,D}
-  3    H  u0 {1,S}
-  4    H  u0 {1,S}
+group: "\n1 *1 CO u0 {2,D} {3,S} {4,S}\n2 *2 O  u0 {1,D}\n3    H  u0 {1,S}\n4    H\
+  \  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl_HNd
-group: |2
-
-  1 *1 CO     u0 {2,D} {3,S} {4,S}
-  2 *2 O      u0 {1,D}
-  3    H      u0 {1,S}
-  4    [Cs,O] u0 {1,S}
+group: "\n1 *1 CO     u0 {2,D} {3,S} {4,S}\n2 *2 O      u0 {1,D}\n3    H      u0 {1,S}\n\
+  4    [Cs,O] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl_HDe
-group: |2
-
-  1 *1 CO            u0 {2,D} {3,S} {4,S}
-  2 *2 O             u0 {1,D}
-  3    H             u0 {1,S}
-  4    [Cd,Ct,Cb,CO] u0 {1,S}
+group: "\n1 *1 CO            u0 {2,D} {3,S} {4,S}\n2 *2 O             u0 {1,D}\n3\
+  \    H             u0 {1,S}\n4    [Cd,Ct,Cb,CO] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl_NdNd
-group: |2
-
-  1 *1 CO     u0 {2,D} {3,S} {4,S}
-  2 *2 O      u0 {1,D}
-  3    [Cs,O] u0 {1,S}
-  4    [Cs,O] u0 {1,S}
+group: "\n1 *1 CO     u0 {2,D} {3,S} {4,S}\n2 *2 O      u0 {1,D}\n3    [Cs,O] u0 {1,S}\n\
+  4    [Cs,O] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl_NdDe
-group: |2
-
-  1 *1 CO            u0 {2,D} {3,S} {4,S}
-  2 *2 O             u0 {1,D}
-  3    [Cs,O]        u0 {1,S}
-  4    [Cd,Ct,Cb,CO] u0 {1,S}
+group: "\n1 *1 CO            u0 {2,D} {3,S} {4,S}\n2 *2 O             u0 {1,D}\n3\
+  \    [Cs,O]        u0 {1,S}\n4    [Cd,Ct,Cb,CO] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_carbonyl_DeDe
-group: |2
-
-  1 *1 CO            u0 {2,D} {3,S} {4,S}
-  2 *2 O             u0 {1,D}
-  3    [Cd,Ct,Cb,CO] u0 {1,S}
-  4    [Cd,Ct,Cb,CO] u0 {1,S}
+group: "\n1 *1 CO            u0 {2,D} {3,S} {4,S}\n2 *2 O             u0 {1,D}\n3\
+  \    [Cd,Ct,Cb,CO] u0 {1,S}\n4    [Cd,Ct,Cb,CO] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_2H
-group: |2
-
-  1 *1 CS u0 {2,D} {3,S} {4,S}
-  2 *2 S  u0 {1,D}
-  3    H  u0 {1,S}
-  4    H  u0 {1,S}
+group: "\n1 *1 CS u0 {2,D} {3,S} {4,S}\n2 *2 S  u0 {1,D}\n3    H  u0 {1,S}\n4    H\
+  \  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_HNd
-group: |2
-
-  1 *1 CS       u0 {2,D} {3,S} {4,S}
-  2 *2 S        u0 {1,D}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
+group: "\n1 *1 CS       u0 {2,D} {3,S} {4,S}\n2 *2 S        u0 {1,D}\n3    H     \
+  \   u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_HDe
-group: |2
-
-  1 *1 CS               u0 {2,D} {3,S} {4,S}
-  2 *2 S                u0 {1,D}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 CS               u0 {2,D} {3,S} {4,S}\n2 *2 S                u0 {1,D}\n\
+  3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_NdNd
-group: |2
-
-  1 *1 CS       u0 {2,D} {3,S} {4,S}
-  2 *2 S        u0 {1,D}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
+group: "\n1 *1 CS       u0 {2,D} {3,S} {4,S}\n2 *2 S        u0 {1,D}\n3    [Cs,O,S]\
+  \ u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_NdDe
-group: |2
-
-  1 *1 CS               u0 {2,D} {3,S} {4,S}
-  2 *2 S                u0 {1,D}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 CS               u0 {2,D} {3,S} {4,S}\n2 *2 S                u0 {1,D}\n\
+  3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_Scarbonyl_DeDe
-group: |2
-
-  1 *1 CS               u0 {2,D} {3,S} {4,S}
-  2 *2 S                u0 {1,D}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 CS               u0 {2,D} {3,S} {4,S}\n2 *2 S                u0 {1,D}\n\
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db
-group: |2
-
-  1 *1 [Cd,Cdd,N] u0 {2,D}
-  2 *2 [Cd,Cdd,N] u0 {1,D}
+group: "\n1 *1 [Cd,Cdd,N] u0 {2,D}\n2 *2 [Cd,Cdd,N] u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -273,37 +187,21 @@ children:
 - mb_db_tetrasub
 ---
 label: mb_db_dbSub
-group: |2
-
-  1 *1 Cdd      u0 {2,D} {3,D}
-  2 *2 Cd       u0 {1,D}
-  3    [Cd,Cdd] u0 {1,D}
+group: "\n1 *1 Cdd      u0 {2,D} {3,D}\n2 *2 Cd       u0 {1,D}\n3    [Cd,Cdd] u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_unsub
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2 *2 Cd u0 {1,D} {5,S} {6,S}
-  3    H  u0 {1,S}
-  4    H  u0 {1,S}
-  5    H  u0 {2,S}
-  6    H  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    H  u0 {1,S}\n\
+  4    H  u0 {1,S}\n5    H  u0 {2,S}\n6    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_monosub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    H   u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    H   u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -311,40 +209,24 @@ children:
 - mb_db_monosub_De
 ---
 label: mb_db_monosub_Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    H        u0 {1,S}
-  5    H        u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    H        u0 {1,S}\n5    H        u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_monosub_De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_onecdisub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -353,53 +235,32 @@ children:
 - mb_db_onecdisub_twoDe
 ---
 label: mb_db_onecdisub_Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    H        u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    H        u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_onecdisub_oneDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_onecdisub_twoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_twocdisub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    H   u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -408,53 +269,32 @@ children:
 - mb_db_twocdisub_twoDe
 ---
 label: mb_db_twocdisub_Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    H        u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    H        u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_twocdisub_oneDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_twocdisub_twoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -466,92 +306,56 @@ children:
 - mb_db_trisub_threeDe
 ---
 label: mb_db_trisub_Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub_oneMDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub_oneDDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub_onectwoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub_twoctwoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_trisub_threeDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    R!H u0 {1,S}
-  4    R!H u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    R!H u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -563,88 +367,55 @@ children:
 - mb_db_tetrasub_fourDe
 ---
 label: mb_db_tetrasub_Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    [Cs,O,S] u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub_oneDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub_onectwoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub_twoctwoDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub_threeDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_db_tetrasub_fourDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_tb
-group: |2
-
-  1 *1 [Ct,N] u0 {2,T}
-  2 *2 [Ct,N] u0 {1,T}
+group: "\n1 *1 [Ct,N] u0 {2,T}\n2 *2 [Ct,N] u0 {1,T}\n"
 short_description: ''
 long_description: ''
 children:
@@ -653,68 +424,45 @@ children:
 - mb_tb_disub
 ---
 label: mb_tb_unsub
-group: |2
-
-  1 *1 Ct u0 {2,T} {3,S}
-  2 *2 Ct u0 {1,T} {4,S}
-  3    H  u0 {1,S}
-  4    H  u0 {2,S}
+group: "\n1 *1 Ct u0 {2,T} {3,S}\n2 *2 Ct u0 {1,T} {4,S}\n3    H  u0 {1,S}\n4    H\
+  \  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_tb_monosub
-group: |2
-
-  1 *1 Ct  u0 {2,T} {3,S}
-  2 *2 Ct  u0 {1,T} {4,S}
-  3    R!H u0 {1,S}
-  4    H   u0 {2,S}
+group: "\n1 *1 Ct  u0 {2,T} {3,S}\n2 *2 Ct  u0 {1,T} {4,S}\n3    R!H u0 {1,S}\n4 \
+  \   H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - mb_tb_monosub_Nd
 ---
 label: mb_tb_monosub_Nd
-group: |2
-
-  1 *1 Ct           u0 {2,T} {3,S}
-  2 *2 Ct           u0 {1,T} {4,S}
-  3    [Cs,O2s,S2s] u0 {1,S}
-  4    H            u0 {2,S}
+group: "\n1 *1 Ct           u0 {2,T} {3,S}\n2 *2 Ct           u0 {1,T} {4,S}\n3  \
+  \  [Cs,O2s,S2s] u0 {1,S}\n4    H            u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: mb_tb_disub
-group: |2
-
-  1 *1 Ct  u0 {2,T} {3,S}
-  2 *2 Ct  u0 {1,T} {4,S}
-  3    R!H u0 {1,S}
-  4    R!H u0 {2,S}
+group: "\n1 *1 Ct  u0 {2,T} {3,S}\n2 *2 Ct  u0 {1,T} {4,S}\n3    R!H u0 {1,S}\n4 \
+  \   R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - mb_tb_disub_twoNd
 ---
 label: mb_tb_disub_twoNd
-group: |2
-
-  1 *1 Ct           u0 {2,T} {3,S}
-  2 *2 Ct           u0 {1,T} {4,S}
-  3    [Cs,O2s,S2s] u0 {1,S}
-  4    [Cs,O2s,S2s] u0 {2,S}
+group: "\n1 *1 Ct           u0 {2,T} {3,S}\n2 *2 Ct           u0 {1,T} {4,S}\n3  \
+  \  [Cs,O2s,S2s] u0 {1,S}\n4    [Cs,O2s,S2s] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O0sc
-group: |2
-
-  1 *3 O0sc u0 p3 c-1
+group: "\n1 *3 O0sc u0 p3 c-1\n"
 forbidden: true
 short_description: ''
-long_description: |2
-
-  This will form unreasonable structures such as C=N + C1[O-](N1)[N+]#N <=> C1[O-](N1)[N+]#N
+long_description: "\nThis will form unreasonable structures such as C=N + C1[O-](N1)[N+]#N\
+  \ <=> C1[O-](N1)[N+]#N\n"

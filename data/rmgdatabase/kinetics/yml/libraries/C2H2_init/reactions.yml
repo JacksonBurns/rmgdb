@@ -1,9 +1,8 @@
 label: VA <=> B123
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -24,10 +23,9 @@ kinetics:
 ---
 label: VA <=> MCP
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -48,10 +46,9 @@ kinetics:
 ---
 label: VA <=> CBD
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -72,10 +69,9 @@ kinetics:
 ---
 label: VA <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -96,10 +92,9 @@ kinetics:
 ---
 label: VA <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -120,10 +115,9 @@ kinetics:
 ---
 label: VA <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -144,10 +138,9 @@ kinetics:
 ---
 label: B123 <=> MCP
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -168,10 +161,9 @@ kinetics:
 ---
 label: B123 <=> CBD
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -192,10 +184,9 @@ kinetics:
 ---
 label: B123 <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -216,10 +207,9 @@ kinetics:
 ---
 label: B123 <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -240,10 +230,9 @@ kinetics:
 ---
 label: B123 <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -264,10 +253,9 @@ kinetics:
 ---
 label: MCP <=> CBD
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -288,10 +276,9 @@ kinetics:
 ---
 label: MCP <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -312,10 +299,9 @@ kinetics:
 ---
 label: MCP <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -336,10 +322,9 @@ kinetics:
 ---
 label: MCP <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -360,10 +345,9 @@ kinetics:
 ---
 label: CBD <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -384,10 +368,9 @@ kinetics:
 ---
 label: CBD <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -408,10 +391,9 @@ kinetics:
 ---
 label: CBD <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -432,10 +414,9 @@ kinetics:
 ---
 label: hcch + hcch <=> VA
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -456,10 +437,9 @@ kinetics:
 ---
 label: hcch + hcch <=> B123
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -480,10 +460,9 @@ kinetics:
 ---
 label: hcch + hcch <=> MCP
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -504,10 +483,9 @@ kinetics:
 ---
 label: hcch + hcch <=> CBD
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -528,10 +506,9 @@ kinetics:
 ---
 label: hcch + hcch <=> hcch + cch2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -552,10 +529,9 @@ kinetics:
 ---
 label: hcch + hcch <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -576,10 +552,9 @@ kinetics:
 ---
 label: hcch + hcch <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -600,10 +575,9 @@ kinetics:
 ---
 label: hcch + hcch <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -624,10 +598,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> VA
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -648,10 +621,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> B123
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -672,10 +644,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> MCP
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -696,10 +667,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> CBD
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -720,10 +690,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> hcccch2 + h
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -744,10 +713,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -768,10 +736,9 @@ kinetics:
 ---
 label: hcch + cch2 <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -792,10 +759,9 @@ kinetics:
 ---
 label: hcccch2 + h <=> h2cccc + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -816,10 +782,9 @@ kinetics:
 ---
 label: hcccch2 + h <=> hcccch + h2
 degeneracy: 1.0
-long_description: |2
-
-  Pressure dependent rates calculated using MESS with 1D hindered rotors and asymmetric Eckart tunneling
-  Based on electronic structure calculations at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPressure dependent rates calculated using MESS with 1D hindered\
+  \ rotors and asymmetric Eckart tunneling\nBased on electronic structure calculations\
+  \ at the CCSD(T)-F12b/cc-pVQZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:

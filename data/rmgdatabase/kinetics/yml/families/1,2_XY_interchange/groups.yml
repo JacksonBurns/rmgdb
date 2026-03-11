@@ -7,12 +7,8 @@ children:
 - OY
 ---
 label: YY
-group: |2
-
-  1 *1 Val7   u0 {2,S}
-  2 *2 Cs     u0 {1,S} {3,S}
-  3 *3 Cs     u0 {2,S} {4,S}
-  4 *4 Val7   u0 {3,S}
+group: "\n1 *1 Val7   u0 {2,S}\n2 *2 Cs     u0 {1,S} {3,S}\n3 *3 Cs     u0 {2,S} {4,S}\n\
+  4 *4 Val7   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -24,78 +20,50 @@ children:
 - ClBr
 ---
 label: FF
-group: |2
-
-  1 *1 F1s   u0 {2,S}
-  2 *2 Cs    u0 {1,S} {3,S}
-  3 *3 Cs    u0 {2,S} {4,S}
-  4 *4 F1s   u0 {3,S}
+group: "\n1 *1 F1s   u0 {2,S}\n2 *2 Cs    u0 {1,S} {3,S}\n3 *3 Cs    u0 {2,S} {4,S}\n\
+  4 *4 F1s   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: ClCl
-group: |2
-
-  1 *1 Cl1s  u0 {2,S}
-  2 *2 Cs    u0 {1,S} {3,S}
-  3 *3 Cs    u0 {2,S} {4,S}
-  4 *4 Cl1s  u0 {3,S}
+group: "\n1 *1 Cl1s  u0 {2,S}\n2 *2 Cs    u0 {1,S} {3,S}\n3 *3 Cs    u0 {2,S} {4,S}\n\
+  4 *4 Cl1s  u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: BrBr
-group: |2
-
-  1 *1 Br1s  u0 {2,S}
-  2 *2 Cs    u0 {1,S} {3,S}
-  3 *3 Cs    u0 {2,S} {4,S}
-  4 *4 Br1s  u0 {3,S}
+group: "\n1 *1 Br1s  u0 {2,S}\n2 *2 Cs    u0 {1,S} {3,S}\n3 *3 Cs    u0 {2,S} {4,S}\n\
+  4 *4 Br1s  u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: FCl
-group: |2
-
-  1 *1 F1s  u0 {2,S}
-  2 *2 Cs   u0 {1,S} {3,S}
-  3 *3 Cs   u0 {2,S} {4,S}
-  4 *4 Cl1s u0 {3,S}
+group: "\n1 *1 F1s  u0 {2,S}\n2 *2 Cs   u0 {1,S} {3,S}\n3 *3 Cs   u0 {2,S} {4,S}\n\
+  4 *4 Cl1s u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: FBr
-group: |2
-
-  1 *1 F1s   u0 {2,S}
-  2 *2 Cs  u0 {1,S} {3,S}
-  3 *3 Cs  u0 {2,S} {4,S}
-  4 *4 Br1s  u0 {3,S}
+group: "\n1 *1 F1s   u0 {2,S}\n2 *2 Cs  u0 {1,S} {3,S}\n3 *3 Cs  u0 {2,S} {4,S}\n\
+  4 *4 Br1s  u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: ClBr
-group: |2
-
-  1 *1 Cl1s  u0 {2,S}
-  2 *2 Cs    u0 {1,S} {3,S}
-  3 *3 Cs    u0 {2,S} {4,S}
-  4 *4 Br1s  u0 {3,S}
+group: "\n1 *1 Cl1s  u0 {2,S}\n2 *2 Cs    u0 {1,S} {3,S}\n3 *3 Cs    u0 {2,S} {4,S}\n\
+  4 *4 Br1s  u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: OY
-group: |2
-
-  1 *1 O2s    u0 {2,S}
-  2 *2 Cs     u0 {1,S} {3,S}
-  3 *3 Cs     u0 {2,S} {4,S}
-  4 *4 Val7   u0 {3,S}
+group: "\n1 *1 O2s    u0 {2,S}\n2 *2 Cs     u0 {1,S} {3,S}\n3 *3 Cs     u0 {2,S} {4,S}\n\
+  4 *4 Val7   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -104,34 +72,22 @@ children:
 - OCl
 ---
 label: OF
-group: |2
-
-  1 *1 O2s  u0 {2,S}
-  2 *2 Cs   u0 {1,S} {3,S}
-  3 *3 Cs   u0 {2,S} {4,S}
-  4 *4 F1s  u0 {3,S}
+group: "\n1 *1 O2s  u0 {2,S}\n2 *2 Cs   u0 {1,S} {3,S}\n3 *3 Cs   u0 {2,S} {4,S}\n\
+  4 *4 F1s  u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: OCl
-group: |2
-
-  1 *1 O2s  u0 {2,S}
-  2 *2 Cs   u0 {1,S} {3,S}
-  3 *3 Cs   u0 {2,S} {4,S}
-  4 *4 Cl1s u0 {3,S}
+group: "\n1 *1 O2s  u0 {2,S}\n2 *2 Cs   u0 {1,S} {3,S}\n3 *3 Cs   u0 {2,S} {4,S}\n\
+  4 *4 Cl1s u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: OBr
-group: |2
-
-  1 *1 O2s  u0 {2,S}
-  2 *2 Cs   u0 {1,S} {3,S}
-  3 *3 Cs   u0 {2,S} {4,S}
-  4 *4 Br1s u0 {3,S}
+group: "\n1 *1 O2s  u0 {2,S}\n2 *2 Cs   u0 {1,S} {3,S}\n3 *3 Cs   u0 {2,S} {4,S}\n\
+  4 *4 Br1s u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []

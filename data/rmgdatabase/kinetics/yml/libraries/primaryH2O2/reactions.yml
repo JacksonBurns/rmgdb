@@ -158,12 +158,10 @@ kinetics:
 ---
 label: O + H <=> OH
 short_description: '[Konnov2015]'
-long_description: |2
-
-  Table 1, Reaction 3
-  The efficiency for H2O was taken from Konnov 2015, other collider efficiencies were taken from Curran 10.1016/j.combustflame.2015.09.014
-  Note that in the Curran library th efficiency for O2 was 12, her for consistency we remain with
-  the Konnov recommendation of collision efficiency for O2 of 5.
+long_description: "\nTable 1, Reaction 3\nThe efficiency for H2O was taken from Konnov\
+  \ 2015, other collider efficiencies were taken from Curran 10.1016/j.combustflame.2015.09.014\n\
+  Note that in the Curran library th efficiency for O2 was 12, her for consistency\
+  \ we remain with\nthe Konnov recommendation of collision efficiency for O2 of 5.\n"
 kinetics:
   type: ThirdBody
   efficiencies:
@@ -205,10 +203,9 @@ kinetics:
 ---
 label: H2O <=> H + OH
 short_description: '[Konnov2015]'
-long_description: |
-  Table 1, Reaction 4a
-  Note that in Konnov2015 the collision efficiency for O2 was 1.5, but Konnov2019 updated the rate
-  for the specific collider (see reaction index 13). THerefore, an efficiency of 0 was given here for O2.
+long_description: "Table 1, Reaction 4a\nNote that in Konnov2015 the collision efficiency\
+  \ for O2 was 1.5, but Konnov2019 updated the rate\nfor the specific collider (see\
+  \ reaction index 13). THerefore, an efficiency of 0 was given here for O2.\n"
 kinetics:
   type: ThirdBody
   efficiencies:
@@ -231,10 +228,8 @@ kinetics:
 ---
 label: H2O + H2O <=> H + OH + H2O
 short_description: '[Konnov2015]'
-long_description: |2
-
-  Table 1, Reaction 4b
-  Originally from Srinivasan and Michael, Int. J. Chem. Kinetic 38 (2006)
+long_description: "\nTable 1, Reaction 4b\nOriginally from Srinivasan and Michael,\
+  \ Int. J. Chem. Kinetic 38 (2006)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -316,10 +311,8 @@ kinetics:
 ---
 label: H + O2 <=> OH + O
 short_description: '[Konnov2015]'
-long_description: |2
-
-  Table 1, Reaction 8
-  Originally based on Hong et al., Proc. Comb. Inst. 33:309-316 (2011)
+long_description: "\nTable 1, Reaction 8\nOriginally based on Hong et al., Proc. Comb.\
+  \ Inst. 33:309-316 (2011)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -553,10 +546,8 @@ kinetics:
 ---
 label: H2O2 + O <=> HO2 + OH
 short_description: '[Konnov2015]'
-long_description: |2
-
-  Table 1, Reaction 19
-  Originally from Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
+long_description: "\nTable 1, Reaction 19\nOriginally from Tsang and Hampson, J. Phys.\
+  \ Chem. Ref. Data, 15:1087 (1986)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -575,10 +566,8 @@ kinetics:
 ---
 label: H2O2 + OH <=> HO2 + H2O
 short_description: '[Konnov2015]'
-long_description: |2
-
-  Table 1, Reaction 20
-  Originally from Hong et al., J. Phys. Chem. A, 114:5718 (2010)
+long_description: "\nTable 1, Reaction 20\nOriginally from Hong et al., J. Phys. Chem.\
+  \ A, 114:5718 (2010)\n"
 kinetics:
   type: MultiArrhenius
   arrhenius:
@@ -1034,14 +1023,11 @@ kinetics:
 ---
 label: HO2 + H <=> H2O2
 short_description: '[Hosein2007]'
-long_description: |2
-
-  Reaction X2 in Burke at el. (Table III),
-  p. 1909 in Hosein2007
-  Declared 'negligible' by Burke at el.
-  The original rate Arrhenius(A=(7.20E+09, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K')) was
-  multiplied by the inverse of ~1.2E-05 mol cm^-3 which is the density of an ideal gas at 1000 K,
-  so that a ThirdBody kinetics format could be written here
+long_description: "\nReaction X2 in Burke at el. (Table III),\np. 1909 in Hosein2007\n\
+  Declared 'negligible' by Burke at el.\nThe original rate Arrhenius(A=(7.20E+09,\
+  \ 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K')) was\nmultiplied\
+  \ by the inverse of ~1.2E-05 mol cm^-3 which is the density of an ideal gas at 1000\
+  \ K,\nso that a ThirdBody kinetics format could be written here\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:

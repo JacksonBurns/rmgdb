@@ -1,25 +1,19 @@
 label: Combined
-group: |2
-
-  1 *1 R!H  u0 {2,[D,T]}
-  2 *2 R!H  u0 {1,[D,T]}
-  3 *3 Xv   u0
+group: "\n1 *1 R!H  u0 {2,[D,T]}\n2 *2 R!H  u0 {1,[D,T]}\n3 *3 Xv   u0\n"
 short_description: ''
 long_description: ''
 children:
 - C
 - O
 - N
-- C=R
-- C=O
 - R-H
 - CR-H
 - C-H
+- C=R
+- C=O
 ---
 label: VacantSite
-group: |2
-
-  1 *4 Xv u0
+group: "\n1 *4 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []

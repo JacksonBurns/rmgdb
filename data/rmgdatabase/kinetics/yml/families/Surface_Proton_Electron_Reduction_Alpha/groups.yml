@@ -1,31 +1,8 @@
 label: Adsorbate
-group: |2
-
-  1 *1 R!H u0 {2,[D,T,Q]}
-  2 *2 X u0 {1,[D,T,Q]}
+group: "\n1 *1 R!H u0 {2,[D,T,Q]}\n2 *2 X u0 {1,[D,T,Q]}\n"
 short_description: ''
 long_description: ''
 children:
-- H
-- C
-- N
-- O
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CX
-- OX
-- NX
-- H
-- C
-- N
-- O
 - H2
 - O
 - N
@@ -35,26 +12,41 @@ children:
 - NC
 - OC
 - 'ON'
-- CX
-- OX
-- NX
 - C
 - N
 - O
+- H
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
 ---
 label: Proton
-group: |2
-
-  1 *3 H+ u0 p0 c+1
+group: "\n1 *3 H+ u0 p0 c+1\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: CX
-group: |2
-
-  1 *1 C u0 {2,[D,T,Q]}
-  2 *2 X u0 {1,[D,T,Q]}
+group: "\n1 *1 C u0 {2,[D,T,Q]}\n2 *2 X u0 {1,[D,T,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -62,30 +54,20 @@ children:
 - C=X
 ---
 label: CTX
-group: |2
-
-  1 *1 C u0 {2,T}
-  2 *2 X u0 {1,T}
+group: "\n1 *1 C u0 {2,T}\n2 *2 X u0 {1,T}\n"
 short_description: ''
 long_description: ''
 children:
 - HCX
 ---
 label: HCX
-group: |2
-
-  1 *1 C u0 {2,T} {3,S}
-  2 *2 X u0 {1,T}
-  3    H u0 {1,S}
+group: "\n1 *1 C u0 {2,T} {3,S}\n2 *2 X u0 {1,T}\n3    H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=X
-group: |2
-
-  1 *1 C u0 {2,D}
-  2 *2 X u0 {1,D}
+group: "\n1 *1 C u0 {2,D}\n2 *2 X u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -93,40 +75,26 @@ children:
 - H2C=X
 ---
 label: H2C=X
-group: |2
-
-  1 *1 C u0 {2,D} {3,S} {4,S}
-  2 *2 X u0 {1,D}
-  3    H u0 {1,S}
-  4    H u0 {1,S}
+group: "\n1 *1 C u0 {2,D} {3,S} {4,S}\n2 *2 X u0 {1,D}\n3    H u0 {1,S}\n4    H u0\
+  \ {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O=C=X
-group: |2
-
-  1 *1 C u0 {2,D} {3,D}
-  2 *2 X u0 {1,D}
-  3    O2d u0 {1,D}
+group: "\n1 *1 C u0 {2,D} {3,D}\n2 *2 X u0 {1,D}\n3    O2d u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: OX
-group: |2
-
-  1 *1 O u0 {2,D}
-  2 *2 X u0 {1,D}
+group: "\n1 *1 O u0 {2,D}\n2 *2 X u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: NX
-group: |2
-
-  1 *1 N u0 {2,[D,T]}
-  2 *2 X u0 {1,[D,T]}
+group: "\n1 *1 N u0 {2,[D,T]}\n2 *2 X u0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -134,19 +102,13 @@ children:
 - N=X
 ---
 label: NTX
-group: |2
-
-  1 *1 N u0 {2,T}
-  2 *2 X u0 {1,T}
+group: "\n1 *1 N u0 {2,T}\n2 *2 X u0 {1,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N=X
-group: |2
-
-  1 *1 N u0 {2,D}
-  2 *2 X u0 {1,D}
+group: "\n1 *1 N u0 {2,D}\n2 *2 X u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -154,21 +116,13 @@ children:
 - N-N=X
 ---
 label: HN=X
-group: |2
-
-  1 *1 N u0 {2,D} {3,S}
-  2 *2 X u0 {1,D}
-  3    H u0 {1,S}
+group: "\n1 *1 N u0 {2,D} {3,S}\n2 *2 X u0 {1,D}\n3    H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N-N=X
-group: |2
-
-  1 *1 N u0 {2,D} {3,S}
-  2 *2 X u0 {1,D}
-  3    N u0 {1,S}
+group: "\n1 *1 N u0 {2,D} {3,S}\n2 *2 X u0 {1,D}\n3    N u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []

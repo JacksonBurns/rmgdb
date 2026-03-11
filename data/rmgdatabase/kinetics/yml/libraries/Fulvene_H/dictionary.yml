@@ -1,136 +1,58 @@
 label: benzene
-adjacency_list: |-
-  1  C u0 p0 c0 {2,D} {6,S} {7,S}
-  2  C u0 p0 c0 {1,D} {3,S} {8,S}
-  3  C u0 p0 c0 {2,S} {4,D} {9,S}
-  4  C u0 p0 c0 {3,D} {5,S} {10,S}
-  5  C u0 p0 c0 {4,S} {6,D} {11,S}
-  6  C u0 p0 c0 {1,S} {5,D} {12,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {2,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {4,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {6,S}
+adjacency_list: "1  C u0 p0 c0 {2,D} {6,S} {7,S}\n2  C u0 p0 c0 {1,D} {3,S} {8,S}\n\
+  3  C u0 p0 c0 {2,S} {4,D} {9,S}\n4  C u0 p0 c0 {3,D} {5,S} {10,S}\n5  C u0 p0 c0\
+  \ {4,S} {6,D} {11,S}\n6  C u0 p0 c0 {1,S} {5,D} {12,S}\n7  H u0 p0 c0 {1,S}\n8 \
+  \ H u0 p0 c0 {2,S}\n9  H u0 p0 c0 {3,S}\n10 H u0 p0 c0 {4,S}\n11 H u0 p0 c0 {5,S}\n\
+  12 H u0 p0 c0 {6,S}\n"
 ---
 label: C5H5CH2-1
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}
-  2  C u0 p0 c0 {1,S} {4,D} {8,S}
-  3  C u0 p0 c0 {1,S} {5,D} {9,S}
-  4  C u0 p0 c0 {2,D} {5,S} {10,S}
-  5  C u0 p0 c0 {3,D} {4,S} {11,S}
-  6  C u1 p0 c0 {1,S} {12,S} {13,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {2,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {4,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {6,S}
-  13 H u0 p0 c0 {6,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {3,S} {6,S} {7,S}\n2  C u0 p0\
+  \ c0 {1,S} {4,D} {8,S}\n3  C u0 p0 c0 {1,S} {5,D} {9,S}\n4  C u0 p0 c0 {2,D} {5,S}\
+  \ {10,S}\n5  C u0 p0 c0 {3,D} {4,S} {11,S}\n6  C u1 p0 c0 {1,S} {12,S} {13,S}\n\
+  7  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {2,S}\n9  H u0 p0 c0 {3,S}\n10 H u0 p0 c0 {4,S}\n\
+  11 H u0 p0 c0 {5,S}\n12 H u0 p0 c0 {6,S}\n13 H u0 p0 c0 {6,S}\n"
 ---
 label: C5H5CH2-2
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-  2  C u0 p0 c0 {1,S} {3,D} {6,S}
-  3  C u0 p0 c0 {2,D} {5,S} {10,S}
-  4  C u0 p0 c0 {1,S} {5,D} {9,S}
-  5  C u0 p0 c0 {3,S} {4,D} {11,S}
-  6  C u1 p0 c0 {2,S} {12,S} {13,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {4,S}
-  10 H u0 p0 c0 {3,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {6,S}
-  13 H u0 p0 c0 {6,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,D} {6,S}\n3  C u0 p0 c0 {2,D} {5,S} {10,S}\n4  C u0 p0 c0 {1,S} {5,D}\
+  \ {9,S}\n5  C u0 p0 c0 {3,S} {4,D} {11,S}\n6  C u1 p0 c0 {2,S} {12,S} {13,S}\n7\
+  \  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {4,S}\n10 H u0 p0 c0 {3,S}\n\
+  11 H u0 p0 c0 {5,S}\n12 H u0 p0 c0 {6,S}\n13 H u0 p0 c0 {6,S}\n"
 ---
 label: C5H5CH2-3
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}
-  2  C u0 p0 c0 {1,S} {3,D} {9,S}
-  3  C u0 p0 c0 {2,D} {4,S} {6,S}
-  4  C u0 p0 c0 {3,S} {5,D} {11,S}
-  5  C u0 p0 c0 {1,S} {4,D} {10,S}
-  6  C u1 p0 c0 {3,S} {12,S} {13,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {2,S}
-  10 H u0 p0 c0 {5,S}
-  11 H u0 p0 c0 {4,S}
-  12 H u0 p0 c0 {6,S}
-  13 H u0 p0 c0 {6,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {5,S} {7,S} {8,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,D} {9,S}\n3  C u0 p0 c0 {2,D} {4,S} {6,S}\n4  C u0 p0 c0 {3,S} {5,D}\
+  \ {11,S}\n5  C u0 p0 c0 {1,S} {4,D} {10,S}\n6  C u1 p0 c0 {3,S} {12,S} {13,S}\n\
+  7  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {2,S}\n10 H u0 p0 c0 {5,S}\n\
+  11 H u0 p0 c0 {4,S}\n12 H u0 p0 c0 {6,S}\n13 H u0 p0 c0 {6,S}\n"
 ---
 label: biring1
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}
-  2  C u0 p0 c0 {1,S} {3,S} {4,S} {8,S}
-  3  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}
-  4  C u0 p0 c0 {2,S} {6,D} {11,S}
-  5  C u1 p0 c0 {1,S} {6,S} {12,S}
-  6  C u0 p0 c0 {4,D} {5,S} {13,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {2,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {3,S}
-  11 H u0 p0 c0 {4,S}
-  12 H u0 p0 c0 {5,S}
-  13 H u0 p0 c0 {6,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {3,S} {5,S} {7,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,S} {4,S} {8,S}\n3  C u0 p0 c0 {1,S} {2,S} {9,S} {10,S}\n4  C u0 p0\
+  \ c0 {2,S} {6,D} {11,S}\n5  C u1 p0 c0 {1,S} {6,S} {12,S}\n6  C u0 p0 c0 {4,D} {5,S}\
+  \ {13,S}\n7  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {2,S}\n9  H u0 p0 c0 {3,S}\n10 H u0\
+  \ p0 c0 {3,S}\n11 H u0 p0 c0 {4,S}\n12 H u0 p0 c0 {5,S}\n13 H u0 p0 c0 {6,S}\n"
 ---
 label: H
-adjacency_list: |-
-  multiplicity 2
-  1 H u1 p0 c0
+adjacency_list: "multiplicity 2\n1 H u1 p0 c0\n"
 ---
 label: FULVENE
-adjacency_list: |-
-  1  C u0 p0 c0 {2,S} {5,S} {6,D}
-  2  C u0 p0 c0 {1,S} {3,D} {7,S}
-  3  C u0 p0 c0 {2,D} {4,S} {9,S}
-  4  C u0 p0 c0 {3,S} {5,D} {10,S}
-  5  C u0 p0 c0 {1,S} {4,D} {8,S}
-  6  C u0 p0 c0 {1,D} {11,S} {12,S}
-  7  H u0 p0 c0 {2,S}
-  8  H u0 p0 c0 {5,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {4,S}
-  11 H u0 p0 c0 {6,S}
-  12 H u0 p0 c0 {6,S}
+adjacency_list: "1  C u0 p0 c0 {2,S} {5,S} {6,D}\n2  C u0 p0 c0 {1,S} {3,D} {7,S}\n\
+  3  C u0 p0 c0 {2,D} {4,S} {9,S}\n4  C u0 p0 c0 {3,S} {5,D} {10,S}\n5  C u0 p0 c0\
+  \ {1,S} {4,D} {8,S}\n6  C u0 p0 c0 {1,D} {11,S} {12,S}\n7  H u0 p0 c0 {2,S}\n8 \
+  \ H u0 p0 c0 {5,S}\n9  H u0 p0 c0 {3,S}\n10 H u0 p0 c0 {4,S}\n11 H u0 p0 c0 {6,S}\n\
+  12 H u0 p0 c0 {6,S}\n"
 ---
 label: C5H4CH3
-adjacency_list: |-
-  multiplicity 2
-  1  C u1 p0 c0 {2,S} {5,S} {6,S}
-  2  C u0 p0 c0 {1,S} {3,D} {10,S}
-  3  C u0 p0 c0 {2,D} {4,S} {12,S}
-  4  C u0 p0 c0 {3,S} {5,D} {13,S}
-  5  C u0 p0 c0 {1,S} {4,D} {11,S}
-  6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-  7  H u0 p0 c0 {6,S}
-  8  H u0 p0 c0 {6,S}
-  9  H u0 p0 c0 {6,S}
-  10 H u0 p0 c0 {2,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {3,S}
-  13 H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1  C u1 p0 c0 {2,S} {5,S} {6,S}\n2  C u0 p0 c0 {1,S}\
+  \ {3,D} {10,S}\n3  C u0 p0 c0 {2,D} {4,S} {12,S}\n4  C u0 p0 c0 {3,S} {5,D} {13,S}\n\
+  5  C u0 p0 c0 {1,S} {4,D} {11,S}\n6  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}\n7  H u0\
+  \ p0 c0 {6,S}\n8  H u0 p0 c0 {6,S}\n9  H u0 p0 c0 {6,S}\n10 H u0 p0 c0 {2,S}\n11\
+  \ H u0 p0 c0 {5,S}\n12 H u0 p0 c0 {3,S}\n13 H u0 p0 c0 {4,S}\n"
 ---
 label: cyC6H7
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-  2  C u0 p0 c0 {1,S} {5,D} {9,S}
-  3  C u1 p0 c0 {1,S} {6,S} {10,S}
-  4  C u0 p0 c0 {5,S} {6,D} {13,S}
-  5  C u0 p0 c0 {2,D} {4,S} {11,S}
-  6  C u0 p0 c0 {3,S} {4,D} {12,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {2,S}
-  10 H u0 p0 c0 {3,S}
-  11 H u0 p0 c0 {5,S}
-  12 H u0 p0 c0 {6,S}
-  13 H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}\n2  C u0 p0\
+  \ c0 {1,S} {5,D} {9,S}\n3  C u1 p0 c0 {1,S} {6,S} {10,S}\n4  C u0 p0 c0 {5,S} {6,D}\
+  \ {13,S}\n5  C u0 p0 c0 {2,D} {4,S} {11,S}\n6  C u0 p0 c0 {3,S} {4,D} {12,S}\n7\
+  \  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {2,S}\n10 H u0 p0 c0 {3,S}\n\
+  11 H u0 p0 c0 {5,S}\n12 H u0 p0 c0 {6,S}\n13 H u0 p0 c0 {4,S}\n"

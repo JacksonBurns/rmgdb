@@ -1,37 +1,25 @@
 label: '[Li]O[C]1OCCO1 <=> [Li]OC(=O)OC[CH2]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [Li]O[C]1OCCO1 <=> [Li]OC(=O)C[CH2]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      2.66599400   -1.25279300   -0.21024000
-  O       1.87162600    0.40165300    0.02198600
-  C       0.66099800    0.17325400    0.00564100
-  O       0.17336600   -1.03959300   -0.15189100
-  C      -1.50340400   -0.88699900   -0.11131600
-  C      -1.62120800    0.59452300    0.08946800
-  O      -0.23758600    1.13890400    0.14639900
-  H      -1.77653100   -1.52152900    0.72327600
-  H      -1.79803100   -1.27921400   -1.07730400
-  H      -2.10607800    1.11033700   -0.73832600
-  H      -2.08512500    0.87165400    1.03518700
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1477.9928602794778 J/mol
+long_description: "\nTS method summary for TS1 in [Li]O[C]1OCCO1 <=> [Li]OC(=O)C[CH2]:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      2.66599400   -1.25279300   -0.21024000\nO       1.87162600\
+  \    0.40165300    0.02198600\nC       0.66099800    0.17325400    0.00564100\n\
+  O       0.17336600   -1.03959300   -0.15189100\nC      -1.50340400   -0.88699900\
+  \   -0.11131600\nC      -1.62120800    0.59452300    0.08946800\nO      -0.23758600\
+  \    1.13890400    0.14639900\nH      -1.77653100   -1.52152900    0.72327600\n\
+  H      -1.79803100   -1.27921400   -1.07730400\nH      -2.10607800    1.11033700\
+  \   -0.73832600\nH      -2.08512500    0.87165400    1.03518700\n\n1D rotors:\n\
+  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/mol But unable to propose\
+  \ troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO\
+  \ TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n    [\"\
+  water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1477.9928602794778 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -53,41 +41,28 @@ kinetics:
 ---
 label: '[Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  O       2.59867100   -0.18728600   -1.35132100
-  C       1.56185200    0.17450300   -0.90257500
-  O       1.11484400    0.02288600    0.33185500
-  C      -0.23857200    0.51166800    0.61927300
-  C      -1.32472800   -0.56246600    0.36870000
-  O      -2.30958000   -0.11570300   -0.47987400
-  Li     -3.43222200    0.30055100   -1.54626500
-  H      -0.43948800    1.37473300   -0.01534500
-  H      -0.17835100    0.82215200    1.66217400
-  H      -1.74337700   -0.86314000    1.34516400
-  H      -0.80689900   -1.45309200   -0.02768100
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 38.37 kJ/mol
-  pivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy: 11.02 kJ/mol
-  * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: Could not read energies
-  pivots: [5, 6], dihedral: [4, 5, 6, 7], rotor symmetry: 1, max scan energy: 0.22 kJ/mol (set as a FreeRotor)
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1716.0525411150861 J/mol
+long_description: "\nTS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li]OCCO[C]=O:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nO       2.59867100   -0.18728600   -1.35132100\nC       1.56185200\
+  \    0.17450300   -0.90257500\nO       1.11484400    0.02288600    0.33185500\n\
+  C      -0.23857200    0.51166800    0.61927300\nC      -1.32472800   -0.56246600\
+  \    0.36870000\nO      -2.30958000   -0.11570300   -0.47987400\nLi     -3.43222200\
+  \    0.30055100   -1.54626500\nH      -0.43948800    1.37473300   -0.01534500\n\
+  H      -0.17835100    0.82215200    1.66217400\nH      -1.74337700   -0.86314000\
+  \    1.34516400\nH      -0.80689900   -1.45309200   -0.02768100\n\n1D rotors:\n\
+  pivots: [2, 3], dihedral: [1, 2, 3, 4], rotor symmetry: 1, max scan energy: 38.37\
+  \ kJ/mol\npivots: [3, 4], dihedral: [2, 3, 4, 5], rotor symmetry: 1, max scan energy:\
+  \ 11.02 kJ/mol\n* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation\
+  \ reason: Could not read energies\npivots: [5, 6], dihedral: [4, 5, 6, 7], rotor\
+  \ symmetry: 1, max scan energy: 0.22 kJ/mol (set as a FreeRotor)\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1716.0525411150861 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -109,49 +84,40 @@ kinetics:
 ---
 label: '[Li]O[C](OC)OC <=> [Li]OC(=O)OC + [CH3]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS4 in [Li]O[C](OC)OC <=> [Li]OC(=O)OC + [CH3]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li     10.13692100   -1.88318400    0.21618100
-  O       9.95271500   -3.47597800   -0.82363000
-  C       9.43494700   -4.12309200    0.09748900
-  O       9.05523800   -5.39251300   -0.02478300
-  C       9.27694900   -6.00741100   -1.31448600
-  O       9.23224500   -3.57328800    1.26418200
-  C       8.49351700   -4.51650300    2.55819400
-  H       8.90589100   -7.02407800   -1.20932600
-  H      10.33979200   -6.00627900   -1.55471100
-  H       8.72542600   -5.47212400   -2.08690700
-  H       8.49157700   -3.75633300    3.32703400
-  H       9.18504600   -5.33492000    2.70390000
-  H       7.52622300   -4.78602300    2.15700800
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: Another conformer for TS4 exists which is 2.60 kJ/mol lower.Another conformer for TS4 exists which is 2.60 kJ/mol lower. But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 7], invalidation reason: Two consecutive points are inconsistent by more than 17.59 kJ/molTwo consecutive points are inconsistent by more than 19.39 kJ/molTwo consecutive points are inconsistent by more than 23.48 kJ/mol
-  pivots: [4, 5], dihedral: [3, 4, 5, 8], rotor symmetry: 2, max scan energy: 2.98 kJ/mol
-  pivots: [6, 7], dihedral: [3, 6, 7, 11], rotor symmetry: 3, max scan energy: 2.25 kJ/mol
-  Troubleshot with the following constraints and 2 degrees resolution:
-  D 1 2 3 4 F
-  D 2 3 4 5 F
-  D 2 3 6 7 F
-  D 3 4 5 8 F
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1650.2595639812773 J/mol
+long_description: "\nTS method summary for TS4 in [Li]O[C](OC)OC <=> [Li]OC(=O)OC\
+  \ + [CH3]:\n\nThe method that generated the best TS guess and its output used for\
+  \ the optimization: user guess 0\n\n\nTS external symmetry: 1, TS optical isomers:\
+  \ 1\n\nOptimized TS geometry:\nLi     10.13692100   -1.88318400    0.21618100\n\
+  O       9.95271500   -3.47597800   -0.82363000\nC       9.43494700   -4.12309200\
+  \    0.09748900\nO       9.05523800   -5.39251300   -0.02478300\nC       9.27694900\
+  \   -6.00741100   -1.31448600\nO       9.23224500   -3.57328800    1.26418200\n\
+  C       8.49351700   -4.51650300    2.55819400\nH       8.90589100   -7.02407800\
+  \   -1.20932600\nH      10.33979200   -6.00627900   -1.55471100\nH       8.72542600\
+  \   -5.47212400   -2.08690700\nH       8.49157700   -3.75633300    3.32703400\n\
+  H       9.18504600   -5.33492000    2.70390000\nH       7.52622300   -4.78602300\
+  \    2.15700800\n\n1D rotors:\n* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3,\
+  \ 4], invalidation reason: initial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting\
+  \ methods.\n* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation\
+  \ reason: Another conformer for TS4 exists which is 2.60 kJ/mol lower.Another conformer\
+  \ for TS4 exists which is 2.60 kJ/mol lower. But unable to propose troubleshooting\
+  \ methods.\n* Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 7], invalidation\
+  \ reason: Two consecutive points are inconsistent by more than 17.59 kJ/molTwo consecutive\
+  \ points are inconsistent by more than 19.39 kJ/molTwo consecutive points are inconsistent\
+  \ by more than 23.48 kJ/mol\npivots: [4, 5], dihedral: [3, 4, 5, 8], rotor symmetry:\
+  \ 2, max scan energy: 2.98 kJ/mol\npivots: [6, 7], dihedral: [3, 6, 7, 11], rotor\
+  \ symmetry: 3, max scan energy: 2.25 kJ/mol\nTroubleshot with the following constraints\
+  \ and 2 degrees resolution:\nD 1 2 3 4 F\nD 2 3 4 5 F\nD 2 3 6 7 F\nD 3 4 5 8 F\n\
+  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files\n\
+  \    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\",\"dimethylformamide\"\
+  ,\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n     \"ethylacetate\",\"methanol\"\
+  ,\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\"\
+  ,\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\",\n    \"propan-1-ol\", \"\
+  butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"propan-2-one\",\n    \"methyl\
+  \ acetate\", \"formamide\", \"diethyl carbonate\", \"dimethyl carbonate\",]\n  \
+  \  MAE error: 1650.2595639812773 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -173,40 +139,36 @@ kinetics:
 ---
 label: '[Li]OC1OCC1 <=> O=CCCO[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS7 in [Li]OC1OCC1 <=> O=CCCO[Li]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -1.13093225   -1.47782476   -0.52938465
-  O      -1.71415457    0.21718059   -0.13786126
-  C      -0.60832813    0.42268843    0.42486000
-  O       0.44495341   -1.09247544    0.19796183
-  C       1.46777571   -0.14965544   -0.03324304
-  C       0.58784040    1.07473776   -0.26303306
-  H      -0.57618074    0.46549170    1.52547654
-  H       2.11736192   -0.42023494   -0.87312379
-  H       2.10541851   -0.03741197    0.85335523
-  H       0.35290002    1.23671989   -1.31600879
-  H       0.90847788    2.01537435    0.18857794
-
-  1D rotors:
-  * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 0.39 kJ/mol
-  * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 3], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 383.9871972817142 J/mol
+long_description: "\nTS method summary for TS7 in [Li]OC1OCC1 <=> O=CCCO[Li]:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -1.13093225   -1.47782476   -0.52938465\nO      -1.71415457\
+  \    0.21718059   -0.13786126\nC      -0.60832813    0.42268843    0.42486000\n\
+  O       0.44495341   -1.09247544    0.19796183\nC       1.46777571   -0.14965544\
+  \   -0.03324304\nC       0.58784040    1.07473776   -0.26303306\nH      -0.57618074\
+  \    0.46549170    1.52547654\nH       2.11736192   -0.42023494   -0.87312379\n\
+  H       2.10541851   -0.03741197    0.85335523\nH       0.35290002    1.23671989\
+  \   -1.31600879\nH       0.90847788    2.01537435    0.18857794\n\n1D rotors:\n\
+  * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 5], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points\
+  \ are inconsistent by more than 0.39 kJ/mol\n* Invalidated! pivots: [4, 5], dihedral:\
+  \ [1, 4, 5, 6], invalidation reason: initial and final points are inconsistent by\
+  \ more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00\
+  \ kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/mol But unable to propose\
+  \ troubleshooting methods.\n* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 3],\
+  \ invalidation reason: initial and final points are inconsistent by more than 5.00\
+  \ kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting\
+  \ methods.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with\
+  \ energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\"\
+  ,\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n   \
+  \  \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 383.9871972817142 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -228,39 +190,31 @@ kinetics:
 ---
 label: O=CCCO[Li] <=> [Li]OC=C + C=O
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS10 in O=CCCO[Li] <=> [Li]OC=C + C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.67050684   -1.60390085   -0.36093039
-  O      -0.92604375   -1.15828311   -0.03727727
-  C      -1.60083705   -0.10816047    0.33621254
-  O       2.05006768   -0.34074837    0.03435938
-  C       1.84701267    0.85995531    0.09314486
-  C      -1.65781511    1.09798726   -0.28717014
-  H      -2.17928322   -0.21866717    1.26598488
-  H       0.96975439    1.32395018   -0.38007248
-  H       2.53532757    1.50855856    0.65878630
-  H      -1.19345872    1.25604363   -1.25688972
-  H      -2.27676986    1.89077262    0.11390132
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points are inconsistent by more than 6.68 kJ/mol
-  * Invalidated! pivots: [3, 6], dihedral: [2, 3, 6, 10], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1179.836010787957 J/mol
+long_description: "\nTS method summary for TS10 in O=CCCO[Li] <=> [Li]OC=C + C=O:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.67050684   -1.60390085   -0.36093039\nO      -0.92604375\
+  \   -1.15828311   -0.03727727\nC      -1.60083705   -0.10816047    0.33621254\n\
+  O       2.05006768   -0.34074837    0.03435938\nC       1.84701267    0.85995531\
+  \    0.09314486\nC      -1.65781511    1.09798726   -0.28717014\nH      -2.17928322\
+  \   -0.21866717    1.26598488\nH       0.96975439    1.32395018   -0.38007248\n\
+  H       2.53532757    1.50855856    0.65878630\nH      -1.19345872    1.25604363\
+  \   -1.25688972\nH      -2.27676986    1.89077262    0.11390132\n\n1D rotors:\n\
+  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 6], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molTwo consecutive points\
+  \ are inconsistent by more than 6.68 kJ/mol\n* Invalidated! pivots: [3, 6], dihedral:\
+  \ [2, 3, 6, 10], invalidation reason: initial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/mol But unable to propose\
+  \ troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO\
+  \ TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n    [\"\
+  water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1179.836010787957 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -282,33 +236,21 @@ kinetics:
 ---
 label: '[Li]N[CH2] <=> [Li] + N=C'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS5 in [Li]N[CH2] <=> [Li] + N=C:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      6.05139304   -0.13209844    0.04731853
-  N      -0.59090151    0.44974234   -0.13918199
-  C      -1.50102245   -0.40751439    0.06649375
-  H      -0.84130096    1.35681132    0.26234830
-  H      -2.43737623   -0.21216607    0.60231309
-  H      -1.36253440   -1.42264825   -0.30947313
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 9225.750515830967 J/mol
+long_description: "\nTS method summary for TS5 in [Li]N[CH2] <=> [Li] + N=C:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      6.05139304   -0.13209844    0.04731853\nN      -0.59090151\
+  \    0.44974234   -0.13918199\nC      -1.50102245   -0.40751439    0.06649375\n\
+  H      -0.84130096    1.35681132    0.26234830\nH      -2.43737623   -0.21216607\
+  \    0.60231309\nH      -1.36253440   -1.42264825   -0.30947313\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 9225.750515830967 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -330,33 +272,21 @@ kinetics:
 ---
 label: '[Li]O[CH]O <=> O=[CH] + [Li]O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS3 in [Li]O[CH]O <=> O=[CH] + [Li]O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.87424500    0.73974100    0.09129300
-  O       1.75669700   -0.86642000    0.56373200
-  C       2.58297500   -1.53104300    1.11098800
-  O       4.34504900    0.32811600    0.72907500
-  H       3.18306800   -1.22575300    1.99446700
-  H       5.29067900    0.34100400    0.85554700
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1999.2439277651972 J/mol
+long_description: "\nTS method summary for TS3 in [Li]O[CH]O <=> O=[CH] + [Li]O:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.87424500    0.73974100    0.09129300\nO       1.75669700\
+  \   -0.86642000    0.56373200\nC       2.58297500   -1.53104300    1.11098800\n\
+  O       4.34504900    0.32811600    0.72907500\nH       3.18306800   -1.22575300\
+  \    1.99446700\nH       5.29067900    0.34100400    0.85554700\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1999.2439277651972 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -378,44 +308,33 @@ kinetics:
 ---
 label: '[Li]OC1OCCC1 <=> O=CCCCO[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS5 in [Li]OC1OCCC1 <=> O=CCCCO[Li]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.22951500   -8.28055600    1.65539800
-  O       0.68519100   -2.60872700   -1.25971800
-  C       1.79766000   -3.06680400   -1.37724100
-  O       3.01142700   -7.05534000    0.98825700
-  C       3.68295800   -5.99093900    0.43042200
-  C       2.84010400   -5.23936600   -0.64613300
-  C       2.57331200   -3.76228300   -0.29332800
-  H       2.31835000   -3.00937400   -2.36068900
-  H       4.62637300   -6.32192200   -0.04005100
-  H       3.97620800   -5.26015300    1.20678500
-  H       1.88728800   -5.76856000   -0.73282900
-  H       3.32837000   -5.29792800   -1.62623300
-  H       3.53476000   -3.24110100   -0.18547300
-  H       2.02723700   -3.67881900    0.64973300
-
-  1D rotors:
-  pivots: [3, 7], dihedral: [2, 3, 7, 6], rotor symmetry: 1, max scan energy: 7.20 kJ/mol
-  * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: Could not read energies
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  pivots: [6, 7], dihedral: [5, 6, 7, 3], rotor symmetry: 1, max scan energy: 25.95 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1791.841785505636 J/mol
+long_description: "\nTS method summary for TS5 in [Li]OC1OCCC1 <=> O=CCCCO[Li]:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.22951500   -8.28055600    1.65539800\nO       0.68519100\
+  \   -2.60872700   -1.25971800\nC       1.79766000   -3.06680400   -1.37724100\n\
+  O       3.01142700   -7.05534000    0.98825700\nC       3.68295800   -5.99093900\
+  \    0.43042200\nC       2.84010400   -5.23936600   -0.64613300\nC       2.57331200\
+  \   -3.76228300   -0.29332800\nH       2.31835000   -3.00937400   -2.36068900\n\
+  H       4.62637300   -6.32192200   -0.04005100\nH       3.97620800   -5.26015300\
+  \    1.20678500\nH       1.88728800   -5.76856000   -0.73282900\nH       3.32837000\
+  \   -5.29792800   -1.62623300\nH       3.53476000   -3.24110100   -0.18547300\n\
+  H       2.02723700   -3.67881900    0.64973300\n\n1D rotors:\npivots: [3, 7], dihedral:\
+  \ [2, 3, 7, 6], rotor symmetry: 1, max scan energy: 7.20 kJ/mol\n* Invalidated!\
+  \ pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason: Could not read energies\n\
+  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol But unable to propose troubleshooting methods.\npivots: [6, 7], dihedral:\
+  \ [5, 6, 7, 3], rotor symmetry: 1, max scan energy: 25.95 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1791.841785505636 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -437,10 +356,7 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC[CH2] + [Li] <=> C=C + [Li]OC(=O)O[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  Computed using CVTST.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+long_description: "\nComputed using CVTST.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -464,32 +380,20 @@ kinetics:
 ---
 label: '[Li]O[CH2] <=> [Li] + C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS2 in [Li]O[CH2] <=> [Li] + C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      5.94953985   -0.41297703   -0.17000001
-  O      -1.44709358   -0.51595384   -0.58748736
-  C      -0.51807902   -0.11636709    0.05072105
-  H      -0.34294039    0.96399341    0.21662004
-  H       0.21655881   -0.80519630    0.51008017
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 9134.820807836515 J/mol
+long_description: "\nTS method summary for TS2 in [Li]O[CH2] <=> [Li] + C=O:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      5.94953985   -0.41297703   -0.17000001\nO      -1.44709358\
+  \   -0.51595384   -0.58748736\nC      -0.51807902   -0.11636709    0.05072105\n\
+  H      -0.34294039    0.96399341    0.21662004\nH       0.21655881   -0.80519630\
+  \    0.51008017\n\n\nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 9134.820807836515 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -511,34 +415,22 @@ kinetics:
 ---
 label: '[Li]OC + C[CH2] <=> [Li] + COCC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS2 in [Li]OC + C[CH2] <=> [Li] + COCC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.95543900   -2.06606100    0.49168200
-  C      -1.75006400    0.40919300    0.35197900
-  C      -0.92556700   -0.39675200   -0.59963000
-  O       0.88790900   -0.39946500    0.11588300
-  C       1.47810800    0.86505900   -0.03509700
-  H      -1.29395600    1.37884800    0.56898500
-  H      -1.90037200   -0.11068200    1.30024000
-  H      -2.74501400    0.61653300   -0.07202800
-  H      -1.15395000   -1.45760200   -0.67306700
-  H      -0.66073800    0.05265400   -1.54957700
-  H       1.04427800    1.60592100    0.65130900
-  H       1.36341600    1.24189300   -1.06273700
-  H       2.55152500    0.80698400    0.17628500
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [6, 2, 3, 9], rotor symmetry: 3, max scan energy: 4.07 kJ/mol
-  * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 11], invalidation reason: Two consecutive points are inconsistent by more than 0.60 kJ/molTwo consecutive points are inconsistent by more than 0.75 kJ/molTwo consecutive points are inconsistent by more than 0.80 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp
+long_description: "\nTS method summary for TS2 in [Li]OC + C[CH2] <=> [Li] + COCC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.95543900   -2.06606100    0.49168200\nC      -1.75006400\
+  \    0.40919300    0.35197900\nC      -0.92556700   -0.39675200   -0.59963000\n\
+  O       0.88790900   -0.39946500    0.11588300\nC       1.47810800    0.86505900\
+  \   -0.03509700\nH      -1.29395600    1.37884800    0.56898500\nH      -1.90037200\
+  \   -0.11068200    1.30024000\nH      -2.74501400    0.61653300   -0.07202800\n\
+  H      -1.15395000   -1.45760200   -0.67306700\nH      -0.66073800    0.05265400\
+  \   -1.54957700\nH       1.04427800    1.60592100    0.65130900\nH       1.36341600\
+  \    1.24189300   -1.06273700\nH       2.55152500    0.80698400    0.17628500\n\n\
+  1D rotors:\npivots: [2, 3], dihedral: [6, 2, 3, 9], rotor symmetry: 3, max scan\
+  \ energy: 4.07 kJ/mol\n* Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 11], invalidation\
+  \ reason: Two consecutive points are inconsistent by more than 0.60 kJ/molTwo consecutive\
+  \ points are inconsistent by more than 0.75 kJ/molTwo consecutive points are inconsistent\
+  \ by more than 0.80 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvp\n"
 kinetics:
   type: Arrhenius
   A:
@@ -560,38 +452,25 @@ kinetics:
 ---
 label: '[Li]NC + [CH3] <=> [Li] + CNC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS4 in [Li]NC + [CH3] <=> [Li] + CNC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.55807100    1.25431300    2.17607900
-  C       0.45911900   -0.67732400    0.78010500
-  N       2.03979300    0.43783800    1.54272500
-  C       2.89461700    0.71861100    0.39194100
-  H       1.12159700   -1.42531300    0.36122300
-  H      -0.04238100   -0.07878800    0.02372200
-  H      -0.21042200   -1.07927100    1.53776200
-  H       2.46067500   -0.31310800    2.08791500
-  H       3.84954800    1.15732300    0.70479900
-  H       2.40476300    1.44613800   -0.26337200
-  H       3.12222700   -0.17403500   -0.20975200
-
-  1D rotors:
-  pivots: [3, 4], dihedral: [1, 3, 4, 9], rotor symmetry: 3, max scan energy: 8.43 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 8.029132914089132e-10 J/mol
+long_description: "\nTS method summary for TS4 in [Li]NC + [CH3] <=> [Li] + CNC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.55807100    1.25431300    2.17607900\nC       0.45911900\
+  \   -0.67732400    0.78010500\nN       2.03979300    0.43783800    1.54272500\n\
+  C       2.89461700    0.71861100    0.39194100\nH       1.12159700   -1.42531300\
+  \    0.36122300\nH      -0.04238100   -0.07878800    0.02372200\nH      -0.21042200\
+  \   -1.07927100    1.53776200\nH       2.46067500   -0.31310800    2.08791500\n\
+  H       3.84954800    1.15732300    0.70479900\nH       2.40476300    1.44613800\
+  \   -0.26337200\nH       3.12222700   -0.17403500   -0.20975200\n\n1D rotors:\n\
+  pivots: [3, 4], dihedral: [1, 3, 4, 9], rotor symmetry: 3, max scan energy: 8.43\
+  \ kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with\
+  \ energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\"\
+  ,\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n   \
+  \  \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 8.029132914089132e-10 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -613,39 +492,33 @@ kinetics:
 ---
 label: '[Li]N(C)C + [H] <=> [Li] + CNC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS5 in [Li]N(C)C + [H] <=> [Li] + CNC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li     -0.01255156   -2.15540609    0.17281461
-  C      -1.18904595    0.48655227   -0.00173058
-  N      -0.00119847   -0.32330655    0.13512720
-  C       1.19572522    0.47240045   -0.00552380
-  H      -1.29496161    1.17270913    0.84939970
-  H      -2.08251863   -0.14341129   -0.03173585
-  H      -1.18193779    1.09526007   -0.91713761
-  H      -0.00888523   -1.23541538   -1.24714949
-  H       2.08165534   -0.16803921   -0.03714132
-  H       1.31181522    1.15820060    0.84456073
-  H       1.19338693    1.08020408   -0.92156070
-
-  1D rotors:
-  * Invalidated! pivots: [1, 3], dihedral: [6, 1, 3, 2], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [2, 3], dihedral: [9, 2, 3, 1], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1057.5062115419946 J/mol
+long_description: "\nTS method summary for TS5 in [Li]N(C)C + [H] <=> [Li] + CNC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi     -0.01255156   -2.15540609    0.17281461\nC      -1.18904595\
+  \    0.48655227   -0.00173058\nN      -0.00119847   -0.32330655    0.13512720\n\
+  C       1.19572522    0.47240045   -0.00552380\nH      -1.29496161    1.17270913\
+  \    0.84939970\nH      -2.08251863   -0.14341129   -0.03173585\nH      -1.18193779\
+  \    1.09526007   -0.91713761\nH      -0.00888523   -1.23541538   -1.24714949\n\
+  H       2.08165534   -0.16803921   -0.03714132\nH       1.31181522    1.15820060\
+  \    0.84456073\nH       1.19338693    1.08020408   -0.92156070\n\n1D rotors:\n\
+  * Invalidated! pivots: [1, 3], dihedral: [6, 1, 3, 2], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol But unable to propose troubleshooting methods.\n* Invalidated! pivots:\
+  \ [2, 3], dihedral: [9, 2, 3, 1], invalidation reason: initial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\
+  \ But unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1057.5062115419946 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -667,42 +540,27 @@ kinetics:
 ---
 label: '[Li]NC + C[CH2] <=> [Li] + CNCC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS6 in [Li]NC + C[CH2] <=> [Li] + CNCC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.86285000   -3.43375100    2.79902300
-  C       0.98777800   -2.65086100   -0.09382000
-  N       0.71786100   -3.57279300    1.00412300
-  C       2.58209000   -4.54615500    1.38240100
-  C       2.51791600   -5.74331000    0.47224200
-  H       1.57842000   -1.80331500    0.26902300
-  H       0.06101000   -2.23833800   -0.51244300
-  H       1.54339700   -3.11115800   -0.92583100
-  H       0.23428600   -4.38822600    0.63186500
-  H       2.73940400   -4.78839100    2.43474500
-  H       3.21675900   -3.72761600    1.05622300
-  H       2.23662900   -5.46469700   -0.54831800
-  H       1.79544000   -6.48501400    0.82582800
-  H       3.48948500   -6.25526200    0.40261200
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [6, 2, 3, 1], rotor symmetry: 3, max scan energy: 7.27 kJ/mol
-  pivots: [4, 5], dihedral: [10, 4, 5, 12], rotor symmetry: 1, max scan energy: 4.84 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1827.7398650288437 J/mol
+long_description: "\nTS method summary for TS6 in [Li]NC + C[CH2] <=> [Li] + CNCC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.86285000   -3.43375100    2.79902300\nC       0.98777800\
+  \   -2.65086100   -0.09382000\nN       0.71786100   -3.57279300    1.00412300\n\
+  C       2.58209000   -4.54615500    1.38240100\nC       2.51791600   -5.74331000\
+  \    0.47224200\nH       1.57842000   -1.80331500    0.26902300\nH       0.06101000\
+  \   -2.23833800   -0.51244300\nH       1.54339700   -3.11115800   -0.92583100\n\
+  H       0.23428600   -4.38822600    0.63186500\nH       2.73940400   -4.78839100\
+  \    2.43474500\nH       3.21675900   -3.72761600    1.05622300\nH       2.23662900\
+  \   -5.46469700   -0.54831800\nH       1.79544000   -6.48501400    0.82582800\n\
+  H       3.48948500   -6.25526200    0.40261200\n\n1D rotors:\npivots: [2, 3], dihedral:\
+  \ [6, 2, 3, 1], rotor symmetry: 3, max scan energy: 7.27 kJ/mol\npivots: [4, 5],\
+  \ dihedral: [10, 4, 5, 12], rotor symmetry: 1, max scan energy: 4.84 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1827.7398650288437 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -724,42 +582,27 @@ kinetics:
 ---
 label: '[Li]NCC + [CH3] <=> [Li] + CNCC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS7 in [Li]NCC + [CH3] <=> [Li] + CNCC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.05606100   -3.45546000    2.01224800
-  C       1.02585900   -2.12623900    0.34507400
-  N       1.00888800   -4.16659200    0.73566500
-  C       2.41249300   -4.57313800    0.74711200
-  C       2.59339300   -6.09431100    0.80785700
-  H       1.60805900   -1.64413200    1.12608300
-  H       0.03900700   -1.69160400    0.19949800
-  H       1.57322900   -2.25185000   -0.58111600
-  H       0.59390100   -4.45373900   -0.15068400
-  H       2.88943300   -4.12236900    1.62589400
-  H       2.95316600   -4.18843300   -0.13225800
-  H       2.14825000   -6.57778000   -0.06703100
-  H       2.11573400   -6.50891300    1.69885700
-  H       3.65797100   -6.35433100    0.83047600
-
-  1D rotors:
-  pivots: [3, 4], dihedral: [1, 3, 4, 5], rotor symmetry: 1, max scan energy: 23.37 kJ/mol
-  pivots: [4, 5], dihedral: [3, 4, 5, 12], rotor symmetry: 3, max scan energy: 13.57 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1425.8896370647562 J/mol
+long_description: "\nTS method summary for TS7 in [Li]NCC + [CH3] <=> [Li] + CNCC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.05606100   -3.45546000    2.01224800\nC       1.02585900\
+  \   -2.12623900    0.34507400\nN       1.00888800   -4.16659200    0.73566500\n\
+  C       2.41249300   -4.57313800    0.74711200\nC       2.59339300   -6.09431100\
+  \    0.80785700\nH       1.60805900   -1.64413200    1.12608300\nH       0.03900700\
+  \   -1.69160400    0.19949800\nH       1.57322900   -2.25185000   -0.58111600\n\
+  H       0.59390100   -4.45373900   -0.15068400\nH       2.88943300   -4.12236900\
+  \    1.62589400\nH       2.95316600   -4.18843300   -0.13225800\nH       2.14825000\
+  \   -6.57778000   -0.06703100\nH       2.11573400   -6.50891300    1.69885700\n\
+  H       3.65797100   -6.35433100    0.83047600\n\n1D rotors:\npivots: [3, 4], dihedral:\
+  \ [1, 3, 4, 5], rotor symmetry: 1, max scan energy: 23.37 kJ/mol\npivots: [4, 5],\
+  \ dihedral: [3, 4, 5, 12], rotor symmetry: 3, max scan energy: 13.57 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1425.8896370647562 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -781,43 +624,31 @@ kinetics:
 ---
 label: '[Li]N(C)CC + [H] <=> [Li] + CNCC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS8 in [Li]N(C)CC + [H] <=> [Li] + CNCC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.33837900   -4.64647900    1.22723600
-  C       1.24491900   -2.34667300    0.49201700
-  N       1.21107200   -3.75746400    0.84374800
-  C       2.49783000   -4.39820300    0.61837300
-  C       2.47997100   -5.87080600    1.02075500
-  H       1.87369600   -1.78539800    1.19871100
-  H       0.23758500   -1.91968100    0.53084900
-  H       1.64161700   -2.16740400   -0.51925300
-  H       0.20877800   -4.39361800   -0.34456500
-  H       3.26953700   -3.86937200    1.20156400
-  H       2.80323700   -4.30928200   -0.43751400
-  H       1.74538600   -6.42456000    0.42730500
-  H       2.23250200   -5.98351400    2.08218500
-  H       3.45557400   -6.33643600    0.85626200
-
-  1D rotors:
-  * Invalidated! pivots: [1, 3], dihedral: [7, 1, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molCould not read energies
-  pivots: [2, 4], dihedral: [10, 2, 4, 3], rotor symmetry: 1, max scan energy: 26.26 kJ/mol
-  * Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 2], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molCould not read energies
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1071.2824706634553 J/mol
+long_description: "\nTS method summary for TS8 in [Li]N(C)CC + [H] <=> [Li] + CNCC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.33837900   -4.64647900    1.22723600\nC       1.24491900\
+  \   -2.34667300    0.49201700\nN       1.21107200   -3.75746400    0.84374800\n\
+  C       2.49783000   -4.39820300    0.61837300\nC       2.47997100   -5.87080600\
+  \    1.02075500\nH       1.87369600   -1.78539800    1.19871100\nH       0.23758500\
+  \   -1.91968100    0.53084900\nH       1.64161700   -2.16740400   -0.51925300\n\
+  H       0.20877800   -4.39361800   -0.34456500\nH       3.26953700   -3.86937200\
+  \    1.20156400\nH       2.80323700   -4.30928200   -0.43751400\nH       1.74538600\
+  \   -6.42456000    0.42730500\nH       2.23250200   -5.98351400    2.08218500\n\
+  H       3.45557400   -6.33643600    0.85626200\n\n1D rotors:\n* Invalidated! pivots:\
+  \ [1, 3], dihedral: [7, 1, 3, 4], invalidation reason: initial and final points\
+  \ are inconsistent by more than 5.00 kJ/molCould not read energies\npivots: [2,\
+  \ 4], dihedral: [10, 2, 4, 3], rotor symmetry: 1, max scan energy: 26.26 kJ/mol\n\
+  * Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 2], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molCould not read energies\n\
+  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files\n\
+  \    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\",\"dimethylformamide\"\
+  ,\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n     \"ethylacetate\",\"methanol\"\
+  ,\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\"\
+  ,\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\",\n    \"propan-1-ol\", \"\
+  butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"propan-2-one\",\n    \"methyl\
+  \ acetate\", \"formamide\", \"diethyl carbonate\", \"dimethyl carbonate\",]\n  \
+  \  MAE error: 1071.2824706634553 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -840,31 +671,20 @@ kinetics:
 ---
 label: '[Li]O + [H] <=> [Li] + O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS9 in [Li]O + [H] <=> [Li] + O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      1.28826489    0.18010119    0.00207350
-  O      -0.36733064    0.11184220    0.00745957
-  H       0.39396705   -1.32898954   -0.00633395
-  H      -1.27901258   -0.17912694    0.00905353
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2114.547977695349 J/mol
+long_description: "\nTS method summary for TS9 in [Li]O + [H] <=> [Li] + O:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      1.28826489    0.18010119    0.00207350\nO      -0.36733064\
+  \    0.11184220    0.00745957\nH       0.39396705   -1.32898954   -0.00633395\n\
+  H      -1.27901258   -0.17912694    0.00905353\n\n\nNo rotors considered for this\
+  \ TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy\
+  \ files\n    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\"\
+  ,\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n   \
+  \  \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 2114.547977695349 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -887,32 +707,20 @@ kinetics:
 ---
 label: '[Li]N + [H] <=> [Li] + N'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS10 in [Li]N + [H] <=> [Li] + N:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      1.91584700    2.00773900   -1.02886800
-  N       1.72410800    0.79367700    0.30433400
-  H       3.35327200    1.38343900   -0.34462600
-  H       1.91932800    0.99397300    1.28417000
-  H       1.91839100   -0.20073000    0.19609500
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1435.1628987975923 J/mol
+long_description: "\nTS method summary for TS10 in [Li]N + [H] <=> [Li] + N:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      1.91584700    2.00773900   -1.02886800\nN       1.72410800\
+  \    0.79367700    0.30433400\nH       3.35327200    1.38343900   -0.34462600\n\
+  H       1.91932800    0.99397300    1.28417000\nH       1.91839100   -0.20073000\
+  \    0.19609500\n\n\nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1435.1628987975923 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -935,35 +743,23 @@ kinetics:
 ---
 label: '[Li]OC + [H] <=> [Li] + CO'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS11 in [Li]OC + [H] <=> [Li] + CO:
-  Methods that successfully generated a TS guess:
-  user guess 0,user guess 0,
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      2.05286763    0.11494012   -0.00863872
-  O       0.38320517    0.12959365   -0.00264163
-  C      -1.00062168   -0.00723588   -0.00489942
-  H       0.96172040   -1.23025812    0.00873654
-  H      -1.46633645    0.98431418   -0.00871499
-  H      -1.35936775   -0.54162168    0.88336582
-  H      -1.35623697   -0.54719021   -0.89107706
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [1, 2, 3, 5], rotor symmetry: 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1321.823066484516 J/mol
+long_description: "\nTS method summary for TS11 in [Li]OC + [H] <=> [Li] + CO:\nMethods\
+  \ that successfully generated a TS guess:\nuser guess 0,user guess 0,\nThe method\
+  \ that generated the best TS guess and its output used for the optimization: user\
+  \ guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized TS geometry:\n\
+  Li      2.05286763    0.11494012   -0.00863872\nO       0.38320517    0.12959365\
+  \   -0.00264163\nC      -1.00062168   -0.00723588   -0.00489942\nH       0.96172040\
+  \   -1.23025812    0.00873654\nH      -1.46633645    0.98431418   -0.00871499\n\
+  H      -1.35936775   -0.54162168    0.88336582\nH      -1.35623697   -0.54719021\
+  \   -0.89107706\n\n1D rotors:\npivots: [2, 3], dihedral: [1, 2, 3, 5], rotor symmetry:\
+  \ 1, max scan energy: 0.65 kJ/mol (set as a FreeRotor)\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1321.823066484516 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -986,34 +782,21 @@ kinetics:
 ---
 label: '[Li]O + [CH3] <=> [Li] + CO'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS12 in [Li]O + [CH3] <=> [Li] + CO:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li     -0.28748200   -0.18010600    1.00319500
-  O       0.86993900    0.39784300   -0.11608000
-  C       2.59811800   -0.51057100   -0.06290500
-  H       0.96229700    1.06152900   -0.80658800
-  H       3.25030100    0.31559600    0.18187100
-  H       2.64875300   -0.90201200   -1.06889700
-  H       2.43978600   -1.23892300    0.72228500
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2046.4105178239631 J/mol
+long_description: "\nTS method summary for TS12 in [Li]O + [CH3] <=> [Li] + CO:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi     -0.28748200   -0.18010600    1.00319500\nO       0.86993900\
+  \    0.39784300   -0.11608000\nC       2.59811800   -0.51057100   -0.06290500\n\
+  H       0.96229700    1.06152900   -0.80658800\nH       3.25030100    0.31559600\
+  \    0.18187100\nH       2.64875300   -0.90201200   -1.06889700\nH       2.43978600\
+  \   -1.23892300    0.72228500\n\n\nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2046.4105178239631 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1036,35 +819,24 @@ kinetics:
 ---
 label: '[Li]NC + [H] <=> [Li] + CN'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS13 in [Li]NC + [H] <=> [Li] + CN:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.97896700    2.55914500   -0.24504500
-  N       1.69265600    1.43053300    0.36161000
-  C       1.63546400   -0.02844300    0.34543400
-  H       3.12243000    1.84764100    1.28691400
-  H       1.03626400    1.77345000    1.06081000
-  H       2.44491900   -0.42885900   -0.27310200
-  H       0.69075100   -0.38108300   -0.09139200
-  H       1.72952400   -0.48126300    1.34115700
-
-  1D rotors:
-  * Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 4708.787281816518 J/mol
+long_description: "\nTS method summary for TS13 in [Li]NC + [H] <=> [Li] + CN:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.97896700    2.55914500   -0.24504500\nN       1.69265600\
+  \    1.43053300    0.36161000\nC       1.63546400   -0.02844300    0.34543400\n\
+  H       3.12243000    1.84764100    1.28691400\nH       1.03626400    1.77345000\
+  \    1.06081000\nH       2.44491900   -0.42885900   -0.27310200\nH       0.69075100\
+  \   -0.38108300   -0.09139200\nH       1.72952400   -0.48126300    1.34115700\n\n\
+  1D rotors:\n* Invalidated! pivots: [1, 2], dihedral: [5, 1, 2, 8], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/mol But\
+  \ unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 4708.787281816518 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1087,37 +859,24 @@ kinetics:
 ---
 label: '[Li]O + C[CH2] <=> [Li] + CCO'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS15 in [Li]O + C[CH2] <=> [Li] + CCO:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -2.57304700    0.27516400   -0.65750400
-  C       1.54543100   -0.31294900   -0.20991200
-  C       0.50691500    0.68250500    0.19066600
-  O      -1.20609000   -0.34489700    0.18644900
-  H       1.31703400   -0.75838900   -1.18091300
-  H       2.53974800    0.15487200   -0.28938100
-  H       1.63329600   -1.12303200    0.51949300
-  H       0.22894600    1.43785900   -0.53575000
-  H       0.48492400    1.02184600    1.21876200
-  H      -1.09958300   -1.00876300    0.87538500
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 5.59 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1614.986893512281 J/mol
+long_description: "\nTS method summary for TS15 in [Li]O + C[CH2] <=> [Li] + CCO:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -2.57304700    0.27516400   -0.65750400\nC       1.54543100\
+  \   -0.31294900   -0.20991200\nC       0.50691500    0.68250500    0.19066600\n\
+  O      -1.20609000   -0.34489700    0.18644900\nH       1.31703400   -0.75838900\
+  \   -1.18091300\nH       2.53974800    0.15487200   -0.28938100\nH       1.63329600\
+  \   -1.12303200    0.51949300\nH       0.22894600    1.43785900   -0.53575000\n\
+  H       0.48492400    1.02184600    1.21876200\nH      -1.09958300   -1.00876300\
+  \    0.87538500\n\n1D rotors:\npivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry:\
+  \ 3, max scan energy: 5.59 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1614.986893512281 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1139,38 +898,25 @@ kinetics:
 ---
 label: '[Li]OCC + [H] <=> [Li] + CCO'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS16 in [Li]OCC + [H] <=> [Li] + CCO:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.49143616    0.55729277   -0.12525674
-  C      -1.41113872    0.44040349   -0.02571704
-  C      -0.33003762   -0.62547457    0.03698411
-  O       0.94967788   -0.09370527   -0.11768223
-  H      -1.37208971    0.96882848   -0.98064514
-  H      -2.40427692   -0.00332329    0.08351568
-  H      -1.26743662    1.17043881    0.77319839
-  H      -0.49296294   -1.36694873   -0.75554854
-  H      -0.39930548   -1.16567232    0.99075815
-  H       1.34235779    0.48281906    1.16520496
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [5, 2, 3, 4], rotor symmetry: 3, max scan energy: 13.87 kJ/mol
-  pivots: [3, 4], dihedral: [2, 3, 4, 1], rotor symmetry: 1, max scan energy: 0.52 kJ/mol (set as a FreeRotor)
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1.736364652060729e-05 J/mol
+long_description: "\nTS method summary for TS16 in [Li]OCC + [H] <=> [Li] + CCO:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.49143616    0.55729277   -0.12525674\nC      -1.41113872\
+  \    0.44040349   -0.02571704\nC      -0.33003762   -0.62547457    0.03698411\n\
+  O       0.94967788   -0.09370527   -0.11768223\nH      -1.37208971    0.96882848\
+  \   -0.98064514\nH      -2.40427692   -0.00332329    0.08351568\nH      -1.26743662\
+  \    1.17043881    0.77319839\nH      -0.49296294   -1.36694873   -0.75554854\n\
+  H      -0.39930548   -1.16567232    0.99075815\nH       1.34235779    0.48281906\
+  \    1.16520496\n\n1D rotors:\npivots: [2, 3], dihedral: [5, 2, 3, 4], rotor symmetry:\
+  \ 3, max scan energy: 13.87 kJ/mol\npivots: [3, 4], dihedral: [2, 3, 4, 1], rotor\
+  \ symmetry: 1, max scan energy: 0.52 kJ/mol (set as a FreeRotor)\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1.736364652060729e-05 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1192,38 +938,25 @@ kinetics:
 ---
 label: '[Li]N + C[CH2] <=> [Li] + CCN'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS17 in [Li]N + C[CH2] <=> [Li] + CCN:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      2.24111023    0.88861561    0.00000000
-  C      -1.53683978   -0.23464256    0.00000000
-  C      -0.36949484    0.70943914    0.00000000
-  N       1.25313058   -0.61428298    0.00000000
-  H      -1.53341411   -0.88051875   -0.88086808
-  H      -2.49375547    0.30282603    0.00000000
-  H      -1.53341411   -0.88051875    0.88086808
-  H      -0.26776509    1.30799358   -0.90233509
-  H      -0.26776509    1.30799358    0.90233509
-  H       1.01858967   -1.18352112   -0.80784057
-  H       1.01858967   -1.18352112    0.80784057
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 4.88 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2191.6345368658176 J/mol
+long_description: "\nTS method summary for TS17 in [Li]N + C[CH2] <=> [Li] + CCN:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      2.24111023    0.88861561    0.00000000\nC      -1.53683978\
+  \   -0.23464256    0.00000000\nC      -0.36949484    0.70943914    0.00000000\n\
+  N       1.25313058   -0.61428298    0.00000000\nH      -1.53341411   -0.88051875\
+  \   -0.88086808\nH      -2.49375547    0.30282603    0.00000000\nH      -1.53341411\
+  \   -0.88051875    0.88086808\nH      -0.26776509    1.30799358   -0.90233509\n\
+  H      -0.26776509    1.30799358    0.90233509\nH       1.01858967   -1.18352112\
+  \   -0.80784057\nH       1.01858967   -1.18352112    0.80784057\n\n1D rotors:\n\
+  pivots: [2, 3], dihedral: [5, 2, 3, 8], rotor symmetry: 3, max scan energy: 4.88\
+  \ kJ/mol\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy\
+  \ files\n    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\"\
+  ,\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n   \
+  \  \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 2191.6345368658176 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1246,37 +979,26 @@ kinetics:
 ---
 label: '[Li]OC + [CH3] <=> [Li] + COC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [Li]OC + [CH3] <=> [Li] + COC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      6.51706400   -1.13632600   -3.21539400
-  C       4.02423400   -1.41606000   -2.34418400
-  O       5.56418700   -0.34050500   -2.05108800
-  C       5.26882800    0.60085300   -1.05050100
-  H       3.90830800   -1.82877700   -1.35110600
-  H       4.26586000   -2.13817000   -3.11854700
-  H       3.32573800   -0.64407500   -2.63764800
-  H       4.99996100    0.11042200   -0.10400400
-  H       4.43692100    1.25540800   -1.34741500
-  H       6.14543300    1.23014000   -0.86797000
-
-  1D rotors:
-  * Invalidated! pivots: [3, 4], dihedral: [1, 3, 4, 8], invalidation reason: Two consecutive points are inconsistent by more than 1.40 kJ/molTwo consecutive points are inconsistent by more than 1.52 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1526.5386694571223 J/mol
+long_description: "\nTS method summary for TS1 in [Li]OC + [CH3] <=> [Li] + COC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      6.51706400   -1.13632600   -3.21539400\nC       4.02423400\
+  \   -1.41606000   -2.34418400\nO       5.56418700   -0.34050500   -2.05108800\n\
+  C       5.26882800    0.60085300   -1.05050100\nH       3.90830800   -1.82877700\
+  \   -1.35110600\nH       4.26586000   -2.13817000   -3.11854700\nH       3.32573800\
+  \   -0.64407500   -2.63764800\nH       4.99996100    0.11042200   -0.10400400\n\
+  H       4.43692100    1.25540800   -1.34741500\nH       6.14543300    1.23014000\
+  \   -0.86797000\n\n1D rotors:\n* Invalidated! pivots: [3, 4], dihedral: [1, 3, 4,\
+  \ 8], invalidation reason: Two consecutive points are inconsistent by more than\
+  \ 1.40 kJ/molTwo consecutive points are inconsistent by more than 1.52 kJ/mol But\
+  \ unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1526.5386694571223 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1298,41 +1020,29 @@ kinetics:
 ---
 label: '[Li]OCC + [CH3] <=> [Li] + COCC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS3 in [Li]OCC + [CH3] <=> [Li] + COCC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li     -2.74010800   -4.87944000   -2.74685100
-  C      -2.29023200   -1.71339600   -1.09005000
-  C      -3.11923600   -1.87939400   -2.35977600
-  O      -3.12657200   -3.21901700   -2.79202100
-  C      -4.17095700   -3.35427200   -4.36839000
-  H      -1.25332700   -2.01355600   -1.26099300
-  H      -2.69616100   -2.32265000   -0.27855700
-  H      -2.29596500   -0.66546600   -0.76876900
-  H      -4.14967400   -1.54173400   -2.17015500
-  H      -2.70920200   -1.23314600   -3.15098300
-  H      -3.61682000   -2.67724300   -5.00431900
-  H      -5.11687000   -2.99859300   -3.98292400
-  H      -4.16500100   -4.39266700   -4.68634200
-
-  1D rotors:
-  pivots: [2, 3], dihedral: [6, 2, 3, 4], rotor symmetry: 3, max scan energy: 15.23 kJ/mol
-  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation reason: Two consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent by more than 6.64 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1616.2708289398845 J/mol
+long_description: "\nTS method summary for TS3 in [Li]OCC + [CH3] <=> [Li] + COCC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi     -2.74010800   -4.87944000   -2.74685100\nC      -2.29023200\
+  \   -1.71339600   -1.09005000\nC      -3.11923600   -1.87939400   -2.35977600\n\
+  O      -3.12657200   -3.21901700   -2.79202100\nC      -4.17095700   -3.35427200\
+  \   -4.36839000\nH      -1.25332700   -2.01355600   -1.26099300\nH      -2.69616100\
+  \   -2.32265000   -0.27855700\nH      -2.29596500   -0.66546600   -0.76876900\n\
+  H      -4.14967400   -1.54173400   -2.17015500\nH      -2.70920200   -1.23314600\
+  \   -3.15098300\nH      -3.61682000   -2.67724300   -5.00431900\nH      -5.11687000\
+  \   -2.99859300   -3.98292400\nH      -4.16500100   -4.39266700   -4.68634200\n\n\
+  1D rotors:\npivots: [2, 3], dihedral: [6, 2, 3, 4], rotor symmetry: 3, max scan\
+  \ energy: 15.23 kJ/mol\n* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 1], invalidation\
+  \ reason: Two consecutive points are inconsistent by more than 6.75 kJ/molTwo consecutive\
+  \ points are inconsistent by more than 6.75 kJ/molTwo consecutive points are inconsistent\
+  \ by more than 6.64 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO\
+  \ TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n    [\"\
+  water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1616.2708289398845 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1354,35 +1064,22 @@ kinetics:
 ---
 label: '[Li]N + [CH3] <=> [Li] + CN'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS14 in [Li]N + [CH3] <=> [Li] + CN:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      2.40811800    2.01328500   -0.85438200
-  N       2.11561000    1.83611700    0.90968800
-  C       1.73450000   -0.09747600    0.20605700
-  H       2.80524200    1.62458700    1.63010700
-  H       1.24512600    2.01206100    1.41033200
-  H       2.64014000   -0.51618000   -0.22479700
-  H       0.88533500   -0.08035300   -0.47199800
-  H       1.49690500   -0.50092000    1.18138200
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 3733.7594052313543 J/mol
+long_description: "\nTS method summary for TS14 in [Li]N + [CH3] <=> [Li] + CN:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      2.40811800    2.01328500   -0.85438200\nN       2.11561000\
+  \    1.83611700    0.90968800\nC       1.73450000   -0.09747600    0.20605700\n\
+  H       2.80524200    1.62458700    1.63010700\nH       1.24512600    2.01206100\
+  \    1.41033200\nH       2.64014000   -0.51618000   -0.22479700\nH       0.88533500\
+  \   -0.08035300   -0.47199800\nH       1.49690500   -0.50092000    1.18138200\n\n\
+  \nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 3733.7594052313543 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1405,39 +1102,29 @@ kinetics:
 ---
 label: '[Li]NCC + [H] <=> [Li] + CCN'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS18 in [Li]NCC + [H] <=> [Li] + CCN:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      4.96386900    0.59677000   -2.24670800
-  C       1.28798200   -0.93517900   -1.41482700
-  C       2.04070800    0.34605900   -1.78351100
-  N       3.41953300    0.41063200   -1.30736000
-  H       1.79730100   -1.80886900   -1.82862700
-  H       0.26120100   -0.91416400   -1.79495900
-  H       1.23888400   -1.05694700   -0.32722800
-  H       2.04864400    0.45971700   -2.87498700
-  H       1.48295900    1.21378300   -1.39663000
-  H       4.25148700   -0.92956300   -2.05992500
-  H       3.45414500    0.04969200   -0.35434500
-
-  1D rotors:
-  pivots: [1, 2], dihedral: [6, 1, 2, 3], rotor symmetry: 3, max scan energy: 14.10 kJ/mol
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 11], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1260.011897897355 J/mol
+long_description: "\nTS method summary for TS18 in [Li]NCC + [H] <=> [Li] + CCN:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      4.96386900    0.59677000   -2.24670800\nC       1.28798200\
+  \   -0.93517900   -1.41482700\nC       2.04070800    0.34605900   -1.78351100\n\
+  N       3.41953300    0.41063200   -1.30736000\nH       1.79730100   -1.80886900\
+  \   -1.82862700\nH       0.26120100   -0.91416400   -1.79495900\nH       1.23888400\
+  \   -1.05694700   -0.32722800\nH       2.04864400    0.45971700   -2.87498700\n\
+  H       1.48295900    1.21378300   -1.39663000\nH       4.25148700   -0.92956300\
+  \   -2.05992500\nH       3.45414500    0.04969200   -0.35434500\n\n1D rotors:\n\
+  pivots: [1, 2], dihedral: [6, 1, 2, 3], rotor symmetry: 3, max scan energy: 14.10\
+  \ kJ/mol\n* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 11], invalidation reason:\
+  \ initial and final points are inconsistent by more than 5.00 kJ/molinitial and\
+  \ final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/mol But unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1260.011897897355 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1460,33 +1147,21 @@ kinetics:
 ---
 label: '[CH3] + [Li][H] <=> [Li] + C'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [CH3] + [Li][H] <=> [Li] + C:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 3, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      2.70871273   -0.01490895    0.00158396
-  C      -0.96949251    0.00074660    0.00030355
-  H       1.04579798   -0.00431498   -0.00287904
-  H      -1.12331191   -0.67940335   -0.82540465
-  H      -1.11719084    1.05691017   -0.17519024
-  H      -1.11679945   -0.37438412    1.00313346
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1724.5822620152626 J/mol
+long_description: "\nTS method summary for TS1 in [CH3] + [Li][H] <=> [Li] + C:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 3, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      2.70871273   -0.01490895    0.00158396\nC      -0.96949251\
+  \    0.00074660    0.00030355\nH       1.04579798   -0.00431498   -0.00287904\n\
+  H      -1.12331191   -0.67940335   -0.82540465\nH      -1.11719084    1.05691017\
+  \   -0.17519024\nH      -1.11679945   -0.37438412    1.00313346\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1724.5822620152626 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1508,33 +1183,21 @@ kinetics:
 ---
 label: '[CH3] + [Li]F <=> [Li] + CF'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS2 in [CH3] + [Li]F <=> [Li] + CF:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      4.49673700   -1.13011800    1.39763100
-  C       1.75580400    0.00037500    0.06602800
-  F       3.42440700   -0.39159000    0.25679400
-  H       1.58109900    0.66479500    0.90113000
-  H       1.28598600   -0.97216800    0.11894400
-  H       1.79999200    0.45924600   -0.91097200
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2138.0682833668507 J/mol
+long_description: "\nTS method summary for TS2 in [CH3] + [Li]F <=> [Li] + CF:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      4.49673700   -1.13011800    1.39763100\nC       1.75580400\
+  \    0.00037500    0.06602800\nF       3.42440700   -0.39159000    0.25679400\n\
+  H       1.58109900    0.66479500    0.90113000\nH       1.28598600   -0.97216800\
+  \    0.11894400\nH       1.79999200    0.45924600   -0.91097200\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 2138.0682833668507 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1556,33 +1219,21 @@ kinetics:
 ---
 label: '[CH3] + [Li]Cl <=> [Li] + CCl'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS3 in [CH3] + [Li]Cl <=> [Li] + CCl:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      3.00547500   -0.87557900   -3.79036700
-  C       1.88221400    0.13984100   -0.18786500
-  Cl      3.00971200    0.32165900   -1.76333600
-  H       2.24700300    0.89978200    0.49361100
-  H       2.03861700   -0.86850900    0.17807800
-  H       0.86741800    0.32211300   -0.52269700
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1761.0833142781657 J/mol
+long_description: "\nTS method summary for TS3 in [CH3] + [Li]Cl <=> [Li] + CCl:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      3.00547500   -0.87557900   -3.79036700\nC       1.88221400\
+  \    0.13984100   -0.18786500\nCl      3.00971200    0.32165900   -1.76333600\n\
+  H       2.24700300    0.89978200    0.49361100\nH       2.03861700   -0.86850900\
+  \    0.17807800\nH       0.86741800    0.32211300   -0.52269700\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 1761.0833142781657 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1604,36 +1255,23 @@ kinetics:
 ---
 label: '[Li]O + C=C <=> [Li] + OC[CH2]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS4 in [Li]O + C=C <=> [Li] + OC[CH2]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      3.82071700   -0.24488300   -0.36482000
-  C       0.89720500   -0.22058300    0.10504000
-  H       1.30306300   -0.02886500    1.09171200
-  C       0.83572500    0.78589300   -0.86569600
-  O       2.70145500    0.49151200   -1.61715700
-  H       0.59739300   -1.23813900   -0.11593200
-  H       0.29359500    0.61937600   -1.78758900
-  H       1.02332200    1.81627900   -0.60053600
-  H       2.45117000    0.02306900   -2.42348300
-
-  1D rotors:
-  pivots: [2, 4], dihedral: [3, 2, 4, 7], rotor symmetry: 2, max scan energy: 17.83 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 4980.414430298042 J/mol
+long_description: "\nTS method summary for TS4 in [Li]O + C=C <=> [Li] + OC[CH2]:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      3.82071700   -0.24488300   -0.36482000\nC       0.89720500\
+  \   -0.22058300    0.10504000\nH       1.30306300   -0.02886500    1.09171200\n\
+  C       0.83572500    0.78589300   -0.86569600\nO       2.70145500    0.49151200\
+  \   -1.61715700\nH       0.59739300   -1.23813900   -0.11593200\nH       0.29359500\
+  \    0.61937600   -1.78758900\nH       1.02332200    1.81627900   -0.60053600\n\
+  H       2.45117000    0.02306900   -2.42348300\n\n1D rotors:\npivots: [2, 4], dihedral:\
+  \ [3, 2, 4, 7], rotor symmetry: 2, max scan energy: 17.83 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 4980.414430298042 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1655,39 +1293,26 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS5 in [Li]OC(=O)OC[CH2] <=> [Li]OC[CH2] + O=C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.96701700   -1.13824900   -0.15895200
-  O      -2.46633000   -0.36661300    0.95261900
-  C      -2.69790600    0.67181500    1.43609500
-  O      -2.94565100    1.68669600    1.92040500
-  O       0.40069800   -0.49898400   -0.72233300
-  C       1.57073700    0.05670900   -1.18237000
-  C       2.36317900    0.78094900   -0.14406400
-  H       3.22407400    1.38251500   -0.42071200
-  H       1.38606500    0.76055700   -2.02340400
-  H       2.23211500   -0.72124600   -1.63365600
-  H       2.17387800    0.59315200    0.90679500
-
-  1D rotors:
-  * Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation reason: Could not read energies
-  pivots: [6, 7], dihedral: [5, 6, 7, 8], rotor symmetry: 6, max scan energy: 2.96 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2756.9521557186627 J/mol
+long_description: "\nTS method summary for TS5 in [Li]OC(=O)OC[CH2] <=> [Li]OC[CH2]\
+  \ + O=C=O:\n\nThe method that generated the best TS guess and its output used for\
+  \ the optimization: user guess 0\n\n\nTS external symmetry: 1, TS optical isomers:\
+  \ 2\n\nOptimized TS geometry:\nLi     -0.96701700   -1.13824900   -0.15895200\n\
+  O      -2.46633000   -0.36661300    0.95261900\nC      -2.69790600    0.67181500\
+  \    1.43609500\nO      -2.94565100    1.68669600    1.92040500\nO       0.40069800\
+  \   -0.49898400   -0.72233300\nC       1.57073700    0.05670900   -1.18237000\n\
+  C       2.36317900    0.78094900   -0.14406400\nH       3.22407400    1.38251500\
+  \   -0.42071200\nH       1.38606500    0.76055700   -2.02340400\nH       2.23211500\
+  \   -0.72124600   -1.63365600\nH       2.17387800    0.59315200    0.90679500\n\n\
+  1D rotors:\n* Invalidated! pivots: [5, 6], dihedral: [1, 5, 6, 7], invalidation\
+  \ reason: Could not read energies\npivots: [6, 7], dihedral: [5, 6, 7, 8], rotor\
+  \ symmetry: 6, max scan energy: 2.96 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2756.9521557186627 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1709,29 +1334,17 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC <=> [Li]OC + O=C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS6 in [Li]OC(=O)OC <=> [Li]OC + O=C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      5.04185400   -0.21852400   -0.03835700
-  O       3.25247800   -1.11583300   -0.33860900
-  C       2.36548400   -0.96686600   -1.08434100
-  O       1.48076300   -0.83623400   -1.81011400
-  O       5.78339200    1.00550600   -0.77059600
-  C       6.45425100    2.04955800   -1.36939800
-  H       6.65054600    1.86707100   -2.44274400
-  H       7.43841500    2.24421200   -0.90374600
-  H       5.89254200    3.00108300   -1.31473500
-
-  1D rotors:
-  pivots: [5, 6], dihedral: [1, 5, 6, 7], rotor symmetry: 1, max scan energy: 0.04 kJ/mol (set as a FreeRotor)
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+long_description: "\nTS method summary for TS6 in [Li]OC(=O)OC <=> [Li]OC + O=C=O:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      5.04185400   -0.21852400   -0.03835700\nO       3.25247800\
+  \   -1.11583300   -0.33860900\nC       2.36548400   -0.96686600   -1.08434100\n\
+  O       1.48076300   -0.83623400   -1.81011400\nO       5.78339200    1.00550600\
+  \   -0.77059600\nC       6.45425100    2.04955800   -1.36939800\nH       6.65054600\
+  \    1.86707100   -2.44274400\nH       7.43841500    2.24421200   -0.90374600\n\
+  H       5.89254200    3.00108300   -1.31473500\n\n1D rotors:\npivots: [5, 6], dihedral:\
+  \ [1, 5, 6, 7], rotor symmetry: 1, max scan energy: 0.04 kJ/mol (set as a FreeRotor)\n\
+  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1753,34 +1366,21 @@ kinetics:
 ---
 label: '[Li]OCO <=> [Li]O + C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [Li]OCO <=> [Li]O + C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.78877200    1.23956200    0.07241700
-  O       1.16034300    1.22721100    0.06023400
-  C       1.39171400    0.02905600    0.10137600
-  O      -1.23386700   -0.34577400   -0.14916500
-  H       2.09301700   -0.42740500   -0.61722300
-  H       0.93534900   -0.62824800    0.84977000
-  H      -1.80092200   -1.09439000   -0.31740600
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2852.7605391591824 J/mol
+long_description: "\nTS method summary for TS1 in [Li]OCO <=> [Li]O + C=O:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.78877200    1.23956200    0.07241700\nO       1.16034300\
+  \    1.22721100    0.06023400\nC       1.39171400    0.02905600    0.10137600\n\
+  O      -1.23386700   -0.34577400   -0.14916500\nH       2.09301700   -0.42740500\
+  \   -0.61722300\nH       0.93534900   -0.62824800    0.84977000\nH      -1.80092200\
+  \   -1.09439000   -0.31740600\n\n\nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2852.7605391591824 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1802,33 +1402,21 @@ kinetics:
 ---
 label: '[Li]OCF <=> [Li]F + C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS8 in [Li]OCF <=> [Li]F + C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.73637500   -1.17722200    0.05547000
-  O      -1.11732500   -0.58062100   -0.02059700
-  C      -0.94937700    0.62629300    0.04611900
-  F       1.57678000    0.22561600   -0.04626600
-  H      -0.44153100    1.10232800    0.89325700
-  H      -1.33358500    1.29011400   -0.74570300
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2167.4878926153538 J/mol
+long_description: "\nTS method summary for TS8 in [Li]OCF <=> [Li]F + C=O:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.73637500   -1.17722200    0.05547000\nO      -1.11732500\
+  \   -0.58062100   -0.02059700\nC      -0.94937700    0.62629300    0.04611900\n\
+  F       1.57678000    0.22561600   -0.04626600\nH      -0.44153100    1.10232800\
+  \    0.89325700\nH      -1.33358500    1.29011400   -0.74570300\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 2167.4878926153538 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1851,33 +1439,23 @@ kinetics:
 ---
 label: '[Li]OCCl <=> [Li]Cl + C=O'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS9 in [Li]OCCl <=> [Li]Cl + C=O:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.00585826   -1.37546289    0.07580004
-  O      -1.70390800   -0.51267720   -0.03767821
-  C      -1.46459925    0.68381718    0.02582362
-  Cl      1.51931730    0.06620772    0.01568653
-  H      -1.66736974    1.34639439   -0.82976904
-  H      -1.07809033    1.15217907    0.94055248
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 3473.2666466033193 J/mol
+long_description: "\nTS method summary for TS9 in [Li]OCCl <=> [Li]Cl + C=O:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.00585826   -1.37546289    0.07580004\nO      -1.70390800\
+  \   -0.51267720   -0.03767821\nC      -1.46459925    0.68381718    0.02582362\n\
+  Cl      1.51931730    0.06620772    0.01568653\nH      -1.66736974    1.34639439\
+  \   -0.82976904\nH      -1.07809033    1.15217907    0.94055248\n\n1D rotors:\n\
+  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 5], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/mol But unable to propose\
+  \ troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO\
+  \ TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n    [\"\
+  water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 3473.2666466033193 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1899,40 +1477,28 @@ kinetics:
 ---
 label: O=S(=O)(C)CC[CH2] + [Li] <=> C=C + [Li]OS(=O)(=C)C
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in O=S(=O)(C)CC[CH2] + [Li] <=> C=C + [Li]OS(=O)(=C)C:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.23360500   -0.43826800    1.05757300
-  O       1.85305100   -0.48614800    0.18589400
-  S       3.03288500    0.16000500   -0.45526700
-  O       4.11761400   -0.69474000   -0.93728000
-  C       2.38600100    1.10779500   -1.85159000
-  C       3.67254200    1.32635100    0.68881200
-  C       4.48291700   -0.08700100    2.46471000
-  C       5.08941300    0.77695100    3.31110200
-  H       4.54151500    1.26621700    4.10890900
-  H       6.13803800    1.03308600    3.20640600
-  H       1.96675400    0.37577700   -2.54325400
-  H       3.21334900    1.64592300   -2.31400900
-  H       1.61020800    1.78181000   -1.48749800
-  H       2.93045600    1.89337800    1.23838600
-  H       4.61031100    1.78138900    0.39657800
-  H       3.46456700   -0.41452700    2.64278500
-  H       5.05211100   -0.65010600    1.73396300
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:
-  pivots: [3, 6], dihedral: [2, 3, 6, 14], rotor symmetry: 1, max scan energy: 14.75 kJ/mol
-  pivots: [3, 5], dihedral: [2, 3, 5, 11], rotor symmetry: 3, max scan energy: 10.77 kJ/mol
-  * Invalidated! pivots: [7, 8], dihedral: [16, 7, 8, 9], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+long_description: "\nTS method summary for TS1 in O=S(=O)(C)CC[CH2] + [Li] <=> C=C\
+  \ + [Li]OS(=O)(=C)C:\n\nThe method that generated the best TS guess and its output\
+  \ used for the optimization: user guess 0\n\n\nTS external symmetry: 1, TS optical\
+  \ isomers: 2\n\nOptimized TS geometry:\nLi      0.23360500   -0.43826800    1.05757300\n\
+  O       1.85305100   -0.48614800    0.18589400\nS       3.03288500    0.16000500\
+  \   -0.45526700\nO       4.11761400   -0.69474000   -0.93728000\nC       2.38600100\
+  \    1.10779500   -1.85159000\nC       3.67254200    1.32635100    0.68881200\n\
+  C       4.48291700   -0.08700100    2.46471000\nC       5.08941300    0.77695100\
+  \    3.31110200\nH       4.54151500    1.26621700    4.10890900\nH       6.13803800\
+  \    1.03308600    3.20640600\nH       1.96675400    0.37577700   -2.54325400\n\
+  H       3.21334900    1.64592300   -2.31400900\nH       1.61020800    1.78181000\
+  \   -1.48749800\nH       2.93045600    1.89337800    1.23838600\nH       4.61031100\
+  \    1.78138900    0.39657800\nH       3.46456700   -0.41452700    2.64278500\n\
+  H       5.05211100   -0.65010600    1.73396300\n\n1D rotors:\n* Invalidated! pivots:\
+  \ [2, 3], dihedral: [1, 2, 3, 4], invalidation reason:\npivots: [3, 6], dihedral:\
+  \ [2, 3, 6, 14], rotor symmetry: 1, max scan energy: 14.75 kJ/mol\npivots: [3, 5],\
+  \ dihedral: [2, 3, 5, 11], rotor symmetry: 3, max scan energy: 10.77 kJ/mol\n* Invalidated!\
+  \ pivots: [7, 8], dihedral: [16, 7, 8, 9], invalidation reason: initial and final\
+  \ points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\
+  \ But unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1954,10 +1520,7 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC'
 degeneracy: 1.0
-long_description: |2
-
-  Computed using CVTST
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+long_description: "\nComputed using CVTST\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1981,34 +1544,21 @@ kinetics:
 ---
 label: '[Li]O[Li] + C=O <=> [Li]OCO[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS7 in [Li]O[Li] + O=C <=> [Li]OCO[Li]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 2, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      5.26122200   -2.16488900   -1.43635000
-  O       4.16581000   -1.00650700   -0.36650500
-  C       3.47523600   -0.27668500    0.30751600
-  O       6.20422100   -3.16227700   -2.35757800
-  Li      7.12770800   -4.13885600   -3.25991800
-  H       3.91701800    0.40191100    1.05639300
-  H       2.37777900   -0.26233900    0.19860600
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 6992.493889350707 J/mol
+long_description: "\nTS method summary for TS7 in [Li]O[Li] + O=C <=> [Li]OCO[Li]:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 2, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      5.26122200   -2.16488900   -1.43635000\nO       4.16581000\
+  \   -1.00650700   -0.36650500\nC       3.47523600   -0.27668500    0.30751600\n\
+  O       6.20422100   -3.16227700   -2.35757800\nLi      7.12770800   -4.13885600\
+  \   -3.25991800\nH       3.91701800    0.40191100    1.05639300\nH       2.37777900\
+  \   -0.26233900    0.19860600\n\n\nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 6992.493889350707 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2030,35 +1580,22 @@ kinetics:
 ---
 label: '[Li]OC[CH2] <=> [Li][O] + C=C'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS8 in [Li]OC[CH2] <=> [Li][O] + C=C:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li     -0.91810413   -1.46763367   -0.00343736
-  O      -1.43551440    0.15847563    0.00469185
-  C       0.51731043    0.76450037    0.00318628
-  C       1.22192340   -0.39477660   -0.00179059
-  H       1.55560118   -0.84671823   -0.93123285
-  H       1.55706499   -0.85358686    0.92375565
-  H       0.34516190    1.30427126    0.92254216
-  H       0.34306501    1.31089605   -0.91186830
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 6207.138255494839 J/mol
+long_description: "\nTS method summary for TS8 in [Li]OC[CH2] <=> [Li][O] + C=C:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi     -0.91810413   -1.46763367   -0.00343736\nO      -1.43551440\
+  \    0.15847563    0.00469185\nC       0.51731043    0.76450037    0.00318628\n\
+  C       1.22192340   -0.39477660   -0.00179059\nH       1.55560118   -0.84671823\
+  \   -0.93123285\nH       1.55706499   -0.85358686    0.92375565\nH       0.34516190\
+  \    1.30427126    0.92254216\nH       0.34306501    1.31089605   -0.91186830\n\n\
+  \nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 6207.138255494839 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2080,39 +1617,33 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O] + C=C'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS9 in [Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O] + C=C:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.21472100    1.08893600    0.04629800
-  O       2.98950300   -0.57597100    0.31603500
-  C       3.81582500    0.10932400    1.00613000
-  O       3.69881400    1.37255200    1.12635500
-  O       4.77758900   -0.57482400    1.58413800
-  C       5.96700300    0.59057700    2.94859300
-  C       6.86673100    1.08514900    2.05930900
-  H       6.66188300    1.99792200    1.51328300
-  H       7.77799200    0.54918900    1.81993300
-  H       6.18401500   -0.29804400    3.52695800
-  H       5.10136800    1.17151600    3.23479500
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [6, 7], dihedral: [10, 6, 7, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1178.0314401999576 J/mol
+long_description: "\nTS method summary for TS9 in [Li]OC(=O)OC[CH2] <=> [Li]OC(=O)[O]\
+  \ + C=C:\n\nThe method that generated the best TS guess and its output used for\
+  \ the optimization: user guess 0\n\n\nTS external symmetry: 1, TS optical isomers:\
+  \ 2\n\nOptimized TS geometry:\nLi      2.21472100    1.08893600    0.04629800\n\
+  O       2.98950300   -0.57597100    0.31603500\nC       3.81582500    0.10932400\
+  \    1.00613000\nO       3.69881400    1.37255200    1.12635500\nO       4.77758900\
+  \   -0.57482400    1.58413800\nC       5.96700300    0.59057700    2.94859300\n\
+  C       6.86673100    1.08514900    2.05930900\nH       6.66188300    1.99792200\
+  \    1.51328300\nH       7.77799200    0.54918900    1.81993300\nH       6.18401500\
+  \   -0.29804400    3.52695800\nH       5.10136800    1.17151600    3.23479500\n\n\
+  1D rotors:\n* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/mol But unable to propose troubleshooting methods.\n* Invalidated!\
+  \ pivots: [6, 7], dihedral: [10, 6, 7, 8], invalidation reason: initial and final\
+  \ points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\
+  \ But unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1178.0314401999576 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2134,35 +1665,22 @@ kinetics:
 ---
 label: '[Li]OC[CH2] <=> [Li] + O1CC1'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [Li]OC[CH2] <=> [Li] + O1CC1:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      1.73301400   -1.23426700   -0.49793500
-  O       0.60551200    0.06249200   -0.10018600
-  C      -0.50388800    0.89554800    0.19652100
-  C      -1.00886000   -0.45148800   -0.03734900
-  H      -0.69990300    1.66086200   -0.55370500
-  H      -0.51073300    1.28290300    1.21479300
-  H      -1.15946900   -1.12920200    0.79035100
-  H      -1.35302600   -0.74247900   -1.01915400
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2253.8360605095613 J/mol
+long_description: "\nTS method summary for TS1 in [Li]OC[CH2] <=> [Li] + O1CC1:\n\n\
+  The method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      1.73301400   -1.23426700   -0.49793500\nO       0.60551200\
+  \    0.06249200   -0.10018600\nC      -0.50388800    0.89554800    0.19652100\n\
+  C      -1.00886000   -0.45148800   -0.03734900\nH      -0.69990300    1.66086200\
+  \   -0.55370500\nH      -0.51073300    1.28290300    1.21479300\nH      -1.15946900\
+  \   -1.12920200    0.79035100\nH      -1.35302600   -0.74247900   -1.01915400\n\n\
+  \nNo rotors considered for this TS.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2253.8360605095613 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2184,45 +1702,43 @@ kinetics:
 ---
 label: '[Li]NCCC[CH2] <=> [Li] + N1CCCC1'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS8 in [Li]NCCC[CH2] <=> [Li] + N1CCCC1:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.79696000   -2.05316500   -1.00229800
-  N      -1.02753700   -0.82446500    0.31048300
-  C      -1.17602900    0.62975500    0.34728300
-  C      -0.04031000    1.23440900   -0.48523000
-  C       1.26536000    0.60012900    0.03045100
-  C       1.10536400   -0.89281200    0.16065300
-  H      -1.14744700   -1.20628300    1.24655300
-  H      -2.14778300    0.93882900   -0.05818200
-  H      -1.11834800    1.02433100    1.37055800
-  H      -0.18192200    0.97424700   -1.54208700
-  H      -0.02609500    2.32742400   -0.41948200
-  H       2.09531900    0.85423100   -0.64191300
-  H       1.50425000    1.03272800    1.00804200
-  H       1.36740100   -1.36403600    1.10079100
-  H       1.41475700   -1.48698600   -0.70029100
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 14], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 5600.017004537509 J/mol
+long_description: "\nTS method summary for TS8 in [Li]NCCC[CH2] <=> [Li] + N1CCCC1:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.79696000   -2.05316500   -1.00229800\nN      -1.02753700\
+  \   -0.82446500    0.31048300\nC      -1.17602900    0.62975500    0.34728300\n\
+  C      -0.04031000    1.23440900   -0.48523000\nC       1.26536000    0.60012900\
+  \    0.03045100\nC       1.10536400   -0.89281200    0.16065300\nH      -1.14744700\
+  \   -1.20628300    1.24655300\nH      -2.14778300    0.93882900   -0.05818200\n\
+  H      -1.11834800    1.02433100    1.37055800\nH      -0.18192200    0.97424700\
+  \   -1.54208700\nH      -0.02609500    2.32742400   -0.41948200\nH       2.09531900\
+  \    0.85423100   -0.64191300\nH       1.50425000    1.03272800    1.00804200\n\
+  H       1.36740100   -1.36403600    1.10079100\nH       1.41475700   -1.48698600\
+  \   -0.70029100\n\n1D rotors:\n* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3,\
+  \ 4], invalidation reason: initial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting\
+  \ methods.\n* Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/mol But unable to propose troubleshooting methods.\n* Invalidated!\
+  \ pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final\
+  \ points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\
+  \ But unable to propose troubleshooting methods.\n* Invalidated! pivots: [5, 6],\
+  \ dihedral: [4, 5, 6, 14], invalidation reason: initial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 5600.017004537509 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2244,38 +1760,24 @@ kinetics:
 ---
 label: '[Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.19853800   -1.72038300   -0.07266600
-  O       1.76667000    0.85234100    0.00624500
-  C       0.64157500    0.45596800    0.00446400
-  O       0.35500500   -0.88546600   -0.06754100
-  C      -1.07057700   -1.09977700    0.11070100
-  C      -1.63216600    0.30832100   -0.11252500
-  O      -0.48175500    1.17430200    0.07309300
-  H      -1.23031400   -1.47803000    1.12084400
-  H      -1.39532400   -1.83156700   -0.62695100
-  H      -2.00519600    0.46029600   -1.12605700
-  H      -2.38753000    0.59754200    0.61515000
-
-
-  No rotors considered for this TS.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 10990.041834280188 J/mol
+long_description: "\nTS method summary for TS2 in [Li]O[C]1OCCO1 <=> [Li] + O=C1OCCO1:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.19853800   -1.72038300   -0.07266600\nO       1.76667000\
+  \    0.85234100    0.00624500\nC       0.64157500    0.45596800    0.00446400\n\
+  O       0.35500500   -0.88546600   -0.06754100\nC      -1.07057700   -1.09977700\
+  \    0.11070100\nC      -1.63216600    0.30832100   -0.11252500\nO      -0.48175500\
+  \    1.17430200    0.07309300\nH      -1.23031400   -1.47803000    1.12084400\n\
+  H      -1.39532400   -1.83156700   -0.62695100\nH      -2.00519600    0.46029600\
+  \   -1.12605700\nH      -2.38753000    0.59754200    0.61515000\n\n\nNo rotors considered\
+  \ for this TS.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 10990.041834280188 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2297,52 +1799,49 @@ kinetics:
 ---
 label: '[Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS4 in [Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -0.21778400   -2.51460800    1.52748300
-  O       0.30780200   -0.93202600    1.17295000
-  C       1.22507300    0.05015800    0.75305900
-  C       1.16007100    0.34370200   -0.74604900
-  C      -0.18415100    0.88158700   -1.26317700
-  C      -1.37708100   -0.08782900   -1.14193800
-  C      -2.18529400   -0.00383000    0.17331100
-  C      -1.43642000   -0.15241200    1.46687200
-  H       2.23706500   -0.28675900    1.01225300
-  H       1.05582400    0.98241000    1.31722700
-  H       1.94770800    1.07203000   -0.98005100
-  H       1.41088600   -0.57386900   -1.29204500
-  H      -0.05269600    1.13539800   -2.32063300
-  H      -0.42385200    1.82754000   -0.75961200
-  H      -1.02546000   -1.11603800   -1.28152500
-  H      -2.08272100    0.11086500   -1.95663300
-  H      -2.68514000    0.97783700    0.18386800
-  H      -2.97901800   -0.75853500    0.12355800
-  H      -1.85839500   -0.83027000    2.20556000
-  H      -1.01299600    0.74101900    1.91000900
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol
-  * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 19], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 648.5792529213884 J/mol
+long_description: "\nTS method summary for TS4 in [Li]OCCCCC[CH2] <=> [Li] + O1CCCCCC1:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -0.21778400   -2.51460800    1.52748300\nO       0.30780200\
+  \   -0.93202600    1.17295000\nC       1.22507300    0.05015800    0.75305900\n\
+  C       1.16007100    0.34370200   -0.74604900\nC      -0.18415100    0.88158700\
+  \   -1.26317700\nC      -1.37708100   -0.08782900   -1.14193800\nC      -2.18529400\
+  \   -0.00383000    0.17331100\nC      -1.43642000   -0.15241200    1.46687200\n\
+  H       2.23706500   -0.28675900    1.01225300\nH       1.05582400    0.98241000\
+  \    1.31722700\nH       1.94770800    1.07203000   -0.98005100\nH       1.41088600\
+  \   -0.57386900   -1.29204500\nH      -0.05269600    1.13539800   -2.32063300\n\
+  H      -0.42385200    1.82754000   -0.75961200\nH      -1.02546000   -1.11603800\
+  \   -1.28152500\nH      -2.08272100    0.11086500   -1.95663300\nH      -2.68514000\
+  \    0.97783700    0.18386800\nH      -2.97901800   -0.75853500    0.12355800\n\
+  H      -1.85839500   -0.83027000    2.20556000\nH      -1.01299600    0.74101900\
+  \    1.91000900\n\n1D rotors:\n* Invalidated! pivots: [2, 3], dihedral: [1, 2, 3,\
+  \ 4], invalidation reason: initial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\n\
+  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol But unable to propose troubleshooting methods.\n* Invalidated! pivots:\
+  \ [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol\n* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/mol But unable to propose troubleshooting methods.\n* Invalidated!\
+  \ pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: initial and final\
+  \ points are inconsistent by more than 5.00 kJ/mol\n* Invalidated! pivots: [7, 8],\
+  \ dihedral: [6, 7, 8, 19], invalidation reason: initial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine\
+  \ with energy files\n    fit to dGsolv298 for library solvents:\n    [\"water\"\
+  ,\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\"\
+  ,\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\"\
+  ,\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\"\
+  ,\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"\
+  propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\", \"\
+  dimethyl carbonate\",]\n    MAE error: 648.5792529213884 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2364,44 +1863,43 @@ kinetics:
 ---
 label: '[Li]OCCC[CH2] <=> [Li] + O1CCCC1'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS5 in [Li]OCCC[CH2] <=> [Li] + O1CCCC1:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      0.18875700    4.40146700   -0.15965700
-  O       1.25526000    4.50560200    1.18500100
-  C       1.81848000    4.05586800    2.39368600
-  C       3.04718900    4.92469900    2.67844800
-  C       2.59628200    6.35626200    2.34735900
-  C       1.87760200    6.33368500    1.02998700
-  H       2.48003000    6.25991400    0.13113900
-  H       1.09474400    4.15021500    3.21790700
-  H       2.09303800    2.99768000    2.31072700
-  H       3.86832600    4.63175200    2.01575200
-  H       3.39490700    4.82429600    3.71124200
-  H       1.92993300    6.72532100    3.13318700
-  H       3.45844200    7.03440200    2.30740100
-  H       0.97428300    6.92366500    0.92199700
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [3, 4], dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1463.7250120069011 J/mol
+long_description: "\nTS method summary for TS5 in [Li]OCCC[CH2] <=> [Li] + O1CCCC1:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      0.18875700    4.40146700   -0.15965700\nO       1.25526000\
+  \    4.50560200    1.18500100\nC       1.81848000    4.05586800    2.39368600\n\
+  C       3.04718900    4.92469900    2.67844800\nC       2.59628200    6.35626200\
+  \    2.34735900\nC       1.87760200    6.33368500    1.02998700\nH       2.48003000\
+  \    6.25991400    0.13113900\nH       1.09474400    4.15021500    3.21790700\n\
+  H       2.09303800    2.99768000    2.31072700\nH       3.86832600    4.63175200\
+  \    2.01575200\nH       3.39490700    4.82429600    3.71124200\nH       1.92993300\
+  \    6.72532100    3.13318700\nH       3.45844200    7.03440200    2.30740100\n\
+  H       0.97428300    6.92366500    0.92199700\n\n1D rotors:\n* Invalidated! pivots:\
+  \ [2, 3], dihedral: [1, 2, 3, 4], invalidation reason: initial and final points\
+  \ are inconsistent by more than 5.00 kJ/molinitial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/mol\
+  \ But unable to propose troubleshooting methods.\n* Invalidated! pivots: [3, 4],\
+  \ dihedral: [2, 3, 4, 5], invalidation reason: initial and final points are inconsistent\
+  \ by more than 5.00 kJ/molinitial and final points are inconsistent by more than\
+  \ 5.00 kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/mol But unable to propose\
+  \ troubleshooting methods.\n* Invalidated! pivots: [4, 5], dihedral: [3, 4, 5, 6],\
+  \ invalidation reason: initial and final points are inconsistent by more than 5.00\
+  \ kJ/molinitial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting\
+  \ methods.\n* Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/molinitial\
+  \ and final points are inconsistent by more than 5.00 kJ/molinitial and final points\
+  \ are inconsistent by more than 5.00 kJ/mol\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 1463.7250120069011 J/mol\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -2424,35 +1922,24 @@ kinetics:
 ---
 label: '[Li]CC <=> C=C + [Li][H]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS1 in [Li]CC <=> C=C + [Li][H]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li      2.61403700    1.76672400   -0.70523200
-  C       3.74739900    0.26828100   -0.29006800
-  C       3.52138200    0.70505900    1.17932700
-  H       4.80154100    0.39826200   -0.56515800
-  H       3.51666300   -0.79317000   -0.40677400
-  H       3.24455300    1.78628400    1.30105800
-  H       4.38360300    0.59677300    1.85446400
-  H       2.69158000    0.15525900    1.63951800
-
-  1D rotors:
-  * Invalidated! pivots: [1, 2], dihedral: [4, 1, 2, 6], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2061.526158269488 J/mol
+long_description: "\nTS method summary for TS1 in [Li]CC <=> C=C + [Li][H]:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi      2.61403700    1.76672400   -0.70523200\nC       3.74739900\
+  \    0.26828100   -0.29006800\nC       3.52138200    0.70505900    1.17932700\n\
+  H       4.80154100    0.39826200   -0.56515800\nH       3.51666300   -0.79317000\
+  \   -0.40677400\nH       3.24455300    1.78628400    1.30105800\nH       4.38360300\
+  \    0.59677300    1.85446400\nH       2.69158000    0.15525900    1.63951800\n\n\
+  1D rotors:\n* Invalidated! pivots: [1, 2], dihedral: [4, 1, 2, 6], invalidation\
+  \ reason: initial and final points are inconsistent by more than 5.00 kJ/mol But\
+  \ unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2061.526158269488 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2474,34 +1961,23 @@ kinetics:
 ---
 label: '[Li]NC <=> N=C + [Li][H]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS3 in [Li]NC <=> N=C + [Li][H]:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      1.98746585   -0.52738947   -0.00361624
-  N       0.45147254    0.30262629    0.00522525
-  C      -0.92611851   -0.15975163    0.00259877
-  H       0.43824316    1.31338637    0.01447592
-  H      -1.17387633   -0.78335004    0.87699274
-  H      -1.17511304   -0.76926072   -0.88130944
-  H      -1.65482009    0.66025357    0.00967177
-
-  1D rotors:
-  * Invalidated! pivots: [2, 3], dihedral: [1, 2, 3, 5], invalidation reason: initial and final points are inconsistent by more than 5.00 kJ/mol But unable to propose troubleshooting methods.
-  ccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 2139.3398223085746 J/mol
+long_description: "\nTS method summary for TS3 in [Li]NC <=> N=C + [Li][H]:\n\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      1.98746585   -0.52738947   -0.00361624\nN       0.45147254\
+  \    0.30262629    0.00522525\nC      -0.92611851   -0.15975163    0.00259877\n\
+  H       0.43824316    1.31338637    0.01447592\nH      -1.17387633   -0.78335004\
+  \    0.87699274\nH      -1.17511304   -0.76926072   -0.88130944\nH      -1.65482009\
+  \    0.66025357    0.00967177\n\n1D rotors:\n* Invalidated! pivots: [2, 3], dihedral:\
+  \ [1, 2, 3, 5], invalidation reason: initial and final points are inconsistent by\
+  \ more than 5.00 kJ/mol But unable to propose troubleshooting methods.\nccsd(t)-f12/cc-pvdz-f12//wb97x-d3/def2-tzvpused\
+  \ COSMO TZPD-Fine with energy files\n    fit to dGsolv298 for library solvents:\n\
+  \    [\"water\",\"butanol\",\"dimethylformamide\",\"dimethylsulfoxide\",\"ethanol\"\
+  ,\"acetonitrile\",\n     \"ethylacetate\",\"methanol\",\"butan-2-one\",\"cyclohexanone\"\
+  , \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\",\"propan-2-ol\",\"N-methylformamide\"\
+  ,\"pentan-1-ol\",\n    \"propan-1-ol\", \"butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\"\
+  , \"propan-2-one\",\n    \"methyl acetate\", \"formamide\", \"diethyl carbonate\"\
+  , \"dimethyl carbonate\",]\n    MAE error: 2139.3398223085746 J/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2523,29 +1999,17 @@ kinetics:
 ---
 label: '[Li]O[CH]OC <=> O=[CH] + [Li]OC'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS4 in [Li]O[CH]OC <=> O=[CH] + [Li]OC:
-
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 1
-
-  Optimized TS geometry:
-  Li      3.11938200    0.00580200    2.75259500
-  O       1.62524600   -0.33884700    1.46544000
-  C       1.40627800   -0.20972400    0.31263200
-  O       4.61316700    0.60600100    2.66739200
-  C       5.89388500    1.11128900    2.64427900
-  H       2.12421500    0.21023400   -0.43421800
-  H       6.36930700    1.11127900    3.64324000
-  H       5.93134700    2.15747800    2.28506200
-  H       6.56678700    0.53303700    1.98263000
-
-  1D rotors:
-  pivots: [4, 5], dihedral: [1, 4, 5, 7], rotor symmetry: 1, max scan energy: 0.04 kJ/mol (set as a FreeRotor)
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)
+long_description: "\nTS method summary for TS4 in [Li]O[CH]OC <=> O=[CH] + [Li]OC:\n\
+  \nThe method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 1\n\nOptimized\
+  \ TS geometry:\nLi      3.11938200    0.00580200    2.75259500\nO       1.62524600\
+  \   -0.33884700    1.46544000\nC       1.40627800   -0.20972400    0.31263200\n\
+  O       4.61316700    0.60600100    2.66739200\nC       5.89388500    1.11128900\
+  \    2.64427900\nH       2.12421500    0.21023400   -0.43421800\nH       6.36930700\
+  \    1.11127900    3.64324000\nH       5.93134700    2.15747800    2.28506200\n\
+  H       6.56678700    0.53303700    1.98263000\n\n1D rotors:\npivots: [4, 5], dihedral:\
+  \ [1, 4, 5, 7], rotor symmetry: 1, max scan energy: 0.04 kJ/mol (set as a FreeRotor)\n\
+  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2567,49 +2031,34 @@ kinetics:
 ---
 label: '[Li]OC1OCCCC1 <=> O=CCCCCO[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  TS method summary for TS6 in [Li]OC1OCCCC1 <=> O=CCCCCO[Li]:
-  Methods that successfully generated a TS guess:
-  user guess 0,user guess 1,
-  The method that generated the best TS guess and its output used for the optimization: user guess 0
-
-
-  TS external symmetry: 1, TS optical isomers: 2
-
-  Optimized TS geometry:
-  Li     -2.20746100   -3.36971300   -3.70952100
-  O       1.25187300    1.95405300   -1.04632200
-  C       1.04640200    0.88280800   -1.56571700
-  O      -0.61905500   -3.34540100   -3.52965300
-  C       0.75057700   -3.40515400   -3.37372500
-  C       1.33014800   -2.18325400   -2.63924900
-  C       1.17117900   -0.87493200   -3.42052900
-  C       1.82427700    0.33951000   -2.74581800
-  H       0.23182200    0.22912600   -1.18197300
-  H       1.26013900   -3.48345200   -4.35441500
-  H       1.04873000   -4.30660500   -2.80769200
-  H       2.39940800   -2.39734300   -2.50177400
-  H       0.89693800   -2.08083500   -1.63590000
-  H       0.10876700   -0.72003200   -3.63956100
-  H       1.66878000   -0.97713400   -4.39144100
-  H       1.96556900    1.17143800   -3.44430700
-  H       2.82865100    0.08557500   -2.37989200
-
-  1D rotors:
-  * Invalidated! pivots: [3, 8], dihedral: [2, 3, 8, 7], invalidation reason:
-  * Invalidated! pivots: [4, 5], dihedral: [1, 4, 5, 6], invalidation reason:
-  * Invalidated! pivots: [5, 6], dihedral: [4, 5, 6, 7], invalidation reason:
-  * Invalidated! pivots: [6, 7], dihedral: [5, 6, 7, 8], invalidation reason: Another conformer for TS6 exists which is 7.66 kJ/mol lower.
-  * Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 3], invalidation reason:
-  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files
-      fit to dGsolv298 for library solvents:
-      ["water","butanol","dimethylformamide","dimethylsulfoxide","ethanol","acetonitrile",
-       "ethylacetate","methanol","butan-2-one","cyclohexanone", "N,N-dimethylacetamide",
-      "2-methylpropan-1-ol","propan-2-ol","N-methylformamide","pentan-1-ol",
-      "propan-1-ol", "butan-2-ol", "oxolane", "2-methylpropan-2-ol", "propan-2-one",
-      "methyl acetate", "formamide", "diethyl carbonate", "dimethyl carbonate",]
-      MAE error: 1729.1474107981676 J/mol
+long_description: "\nTS method summary for TS6 in [Li]OC1OCCCC1 <=> O=CCCCCO[Li]:\n\
+  Methods that successfully generated a TS guess:\nuser guess 0,user guess 1,\nThe\
+  \ method that generated the best TS guess and its output used for the optimization:\
+  \ user guess 0\n\n\nTS external symmetry: 1, TS optical isomers: 2\n\nOptimized\
+  \ TS geometry:\nLi     -2.20746100   -3.36971300   -3.70952100\nO       1.25187300\
+  \    1.95405300   -1.04632200\nC       1.04640200    0.88280800   -1.56571700\n\
+  O      -0.61905500   -3.34540100   -3.52965300\nC       0.75057700   -3.40515400\
+  \   -3.37372500\nC       1.33014800   -2.18325400   -2.63924900\nC       1.17117900\
+  \   -0.87493200   -3.42052900\nC       1.82427700    0.33951000   -2.74581800\n\
+  H       0.23182200    0.22912600   -1.18197300\nH       1.26013900   -3.48345200\
+  \   -4.35441500\nH       1.04873000   -4.30660500   -2.80769200\nH       2.39940800\
+  \   -2.39734300   -2.50177400\nH       0.89693800   -2.08083500   -1.63590000\n\
+  H       0.10876700   -0.72003200   -3.63956100\nH       1.66878000   -0.97713400\
+  \   -4.39144100\nH       1.96556900    1.17143800   -3.44430700\nH       2.82865100\
+  \    0.08557500   -2.37989200\n\n1D rotors:\n* Invalidated! pivots: [3, 8], dihedral:\
+  \ [2, 3, 8, 7], invalidation reason:\n* Invalidated! pivots: [4, 5], dihedral: [1,\
+  \ 4, 5, 6], invalidation reason:\n* Invalidated! pivots: [5, 6], dihedral: [4, 5,\
+  \ 6, 7], invalidation reason:\n* Invalidated! pivots: [6, 7], dihedral: [5, 6, 7,\
+  \ 8], invalidation reason: Another conformer for TS6 exists which is 7.66 kJ/mol\
+  \ lower.\n* Invalidated! pivots: [7, 8], dihedral: [6, 7, 8, 3], invalidation reason:\n\
+  ccsd(t)-f12/cc-pvdz-f12//b3lyp/6-311++G(d,p)used COSMO TZPD-Fine with energy files\n\
+  \    fit to dGsolv298 for library solvents:\n    [\"water\",\"butanol\",\"dimethylformamide\"\
+  ,\"dimethylsulfoxide\",\"ethanol\",\"acetonitrile\",\n     \"ethylacetate\",\"methanol\"\
+  ,\"butan-2-one\",\"cyclohexanone\", \"N,N-dimethylacetamide\",\n    \"2-methylpropan-1-ol\"\
+  ,\"propan-2-ol\",\"N-methylformamide\",\"pentan-1-ol\",\n    \"propan-1-ol\", \"\
+  butan-2-ol\", \"oxolane\", \"2-methylpropan-2-ol\", \"propan-2-one\",\n    \"methyl\
+  \ acetate\", \"formamide\", \"diethyl carbonate\", \"dimethyl carbonate\",]\n  \
+  \  MAE error: 1729.1474107981676 J/mol\n"
 kinetics:
   type: Arrhenius
   A:

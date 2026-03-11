@@ -209,11 +209,10 @@ kinetics:
 label: H2O <=> H + OH
 degeneracy: 1.0
 short_description: Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
-long_description: |2
-
-  Srinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)
-  Rate constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106 (2002)
-  Efficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
+long_description: "\nSrinivasan and Michael, Int. J. Chem. Kinetic. 38 (2006)\nRate\
+  \ constant is for Ar with efficiencies from Michael et al., J. Phys. Chem. A, 106\
+  \ (2002)\nEfficiencies for CO and CO2 taken from Li et al., Int. J. Chem. Kinet.\
+  \ 36:566-575 (2004)\n"
 kinetics:
   type: ThirdBody
   efficiencies:
@@ -253,11 +252,9 @@ kinetics:
 label: H + O2 <=> HO2
 degeneracy: 1.0
 short_description: MAIN BATH GAS IS Ar or He
-long_description: |2
-
-  High-pressure limit from Troe, Proc. Comb. Inst. 28:1463-1469 (2000)
-  Low-pressure limit from Michael et al., J. Phys. Chem. A 106:5297-5313
-  Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)
+long_description: "\nHigh-pressure limit from Troe, Proc. Comb. Inst. 28:1463-1469\
+  \ (2000)\nLow-pressure limit from Michael et al., J. Phys. Chem. A 106:5297-5313\n\
+  Centering factors from Fernandes et al., Phys. Chem. Chem. Phys. 10:4313-4321 (2008)\n"
 kinetics:
   type: Troe
   alpha: 0.5
@@ -297,10 +294,7 @@ kinetics:
 label: HO2 + H <=> H2 + O2
 degeneracy: 1.0
 short_description: Michael et al., Proc. Comb. Inst. 28:1471 (2000)
-long_description: |2
-
-  Scaled by 0.75
-  Originally: 3.659E+06 2.09 -1.451E+03
+long_description: "\nScaled by 0.75\nOriginally: 3.659E+06 2.09 -1.451E+03\n"
 kinetics:
   type: Arrhenius
   A:
@@ -333,10 +327,7 @@ kinetics:
 label: HO2 + O <=> O2 + OH
 degeneracy: 1.0
 short_description: Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)
-long_description: |2
-
-  Scaled by 0.60
-  Originally: 4.750E+10 1.00 -7.2393E+02
+long_description: "\nScaled by 0.60\nOriginally: 4.750E+10 1.00 -7.2393E+02\n"
 kinetics:
   type: Arrhenius
   A:
@@ -399,10 +390,8 @@ kinetics:
 label: H2O2 <=> OH + OH
 degeneracy: 1.0
 short_description: Troe, Combust. Flame, 158:594-601 (2011)
-long_description: |2
-
-  Rate constant is for Ar
-  Efficiencies for H2 and CO taken from Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)
+long_description: "\nRate constant is for Ar\nEfficiencies for H2 and CO taken from\
+  \ Li et al., Int. J. Chem. Kinet. 36:566-575 (2004)\n"
 kinetics:
   type: Troe
   alpha: 0.43
@@ -541,13 +530,11 @@ kinetics:
 label: HO2 + H <=> H2O2
 degeneracy: 1.0
 short_description: Mousavipour et al., Bull. Chem. Soc. Jpn., 80:1901 (2007)
-long_description: |-
-  Reaction X2 in Burke at el. (Table III),
-      p. 1909 in Mousavipour et al.
-      Declared 'negligible' by Burke at el.
-      The original rate Arrhenius(A=(7.20E+09, 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K')) was
-      multiplied by the inverse of ~1.2E-05 mol cm^-3 which is the density of an ideal gas at 1000 K,
-      so that a ThirdBody kinetics format could be written here
+long_description: "Reaction X2 in Burke at el. (Table III),\n    p. 1909 in Mousavipour\
+  \ et al.\n    Declared 'negligible' by Burke at el.\n    The original rate Arrhenius(A=(7.20E+09,\
+  \ 'cm^6/(mol^2*s)'), n=1.25, Ea=(-270, 'cal/mol'), T0 = (1, 'K')) was\n    multiplied\
+  \ by the inverse of ~1.2E-05 mol cm^-3 which is the density of an ideal gas at 1000\
+  \ K,\n    so that a ThirdBody kinetics format could be written here"
 duplicate: false
 kinetics:
   type: ThirdBody
@@ -600,10 +587,7 @@ kinetics:
 label: H2O2 + O <=> H2O + O2
 degeneracy: 1.0
 short_description: Baulch et al., J. Phys. Chem. Ref. Data, 34:757 (2005)
-long_description: |2-
-
-      Reaction X5 in Burke at el. (Table III),
-      Upper limit
+long_description: "\n    Reaction X5 in Burke at el. (Table III),\n    Upper limit"
 duplicate: false
 kinetics:
   type: Arrhenius

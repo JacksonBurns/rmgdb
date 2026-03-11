@@ -3,26 +3,6 @@ group: "\n1 *1 R!H u0 {2,[D,T]}\n2 *2 R!H u0 {1,[D,T]} \n3 *3 Xv u0 \n"
 short_description: ''
 long_description: ''
 children:
-- H
-- C
-- N
-- O
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CRX
-- ORX
-- NRX
-- CX
-- OX
-- NX
-- H
-- C
-- N
-- O
 - H2
 - O
 - N
@@ -32,52 +12,57 @@ children:
 - NC
 - OC
 - 'ON'
-- CX
-- OX
-- NX
 - C
 - N
 - O
+- H
+- C
+- N
+- O
+- H
+- C
+- N
+- O
+- CX
+- OX
+- NX
+- CX
+- OX
+- NX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
 ---
 label: Proton
-group: |2
-
-  1 *4 H+ u0 p0 c+1
+group: "\n1 *4 H+ u0 p0 c+1\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: CRX
-group: |2
-
-  1 *1 C u0 {2,[D,T]}
-  2 *2 R!H u0 {1,[D,T]}
-  3 *3 Xv u0
+group: "\n1 *1 C u0 {2,[D,T]}\n2 *2 R!H u0 {1,[D,T]}\n3 *3 Xv u0\n"
 short_description: ''
 long_description: ''
 children:
-- O=C=OX
 - CCX
 - COX
 - CNX
+- O=C=OX
 ---
 label: O=C=OX
-group: |2
-
-  1 *1 C u0 {2,D} {3,D}
-  2 *2 O u0 {1,D}
-  3    O u0 {1,D}
-  4 *3 Xv u0
+group: "\n1 *1 C u0 {2,D} {3,D}\n2 *2 O u0 {1,D}\n3    O u0 {1,D}\n4 *3 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: NRX
-group: |2
-
-  1 *1 N u0 {2,[D,T]}
-  2 *2 R!H u0 {1,[D,T]}
-  3 *3 Xv u0
+group: "\n1 *1 N u0 {2,[D,T]}\n2 *2 R!H u0 {1,[D,T]}\n3 *3 Xv u0\n"
 short_description: ''
 long_description: ''
 children:
@@ -87,11 +72,7 @@ children:
 - NNX
 ---
 label: ORX
-group: |2
-
-  1 *1 O u0 {2,D}
-  2 *2 R!H u0 {1,D}
-  3 *3 Xv u0
+group: "\n1 *1 O u0 {2,D}\n2 *2 R!H u0 {1,D}\n3 *3 Xv u0\n"
 short_description: ''
 long_description: ''
 children:

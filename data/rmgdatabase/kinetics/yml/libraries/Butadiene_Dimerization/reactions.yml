@@ -1,9 +1,8 @@
 label: BD <=> CB
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -20,9 +19,8 @@ kinetics:
 label: DVCB <=> COD
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -39,9 +37,8 @@ kinetics:
 label: BD + BD <=> VCH
 degeneracy: 4.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -58,9 +55,8 @@ kinetics:
 label: DVT <=> BD + BD
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -77,9 +73,8 @@ kinetics:
 label: DVT <=> VCH
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -96,9 +91,8 @@ kinetics:
 label: DVT <=> COD
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -115,9 +109,8 @@ kinetics:
 label: DVT <=> DVCB
 degeneracy: 1.0
 short_description: 'Level of theory: CBS-QB3 with 1D rotors in B3LYP/CBSB7'
-long_description: |2
-
-  library value for butadiene dimerization reactions calculated by Duminda Ranasinghe and Hao-Wei Pang in March 2019
+long_description: "\nlibrary value for butadiene dimerization reactions calculated\
+  \ by Duminda Ranasinghe and Hao-Wei Pang in March 2019\n"
 kinetics:
   type: Arrhenius
   A:

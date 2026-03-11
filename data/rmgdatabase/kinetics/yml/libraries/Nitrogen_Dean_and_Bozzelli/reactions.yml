@@ -1,8 +1,8 @@
 label: O + N2 <=> N + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -18,9 +18,9 @@ kinetics:
 ---
 label: NO <=> N + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -35,9 +35,9 @@ kinetics:
 ---
 label: N2O <=> N2 + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -52,9 +52,9 @@ kinetics:
 ---
 label: N2O + O <=> N2 + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -70,9 +70,9 @@ kinetics:
 ---
 label: N2O + O <=> NO + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -89,9 +89,9 @@ kinetics:
 ---
 label: NH3 <=> NH2 + H
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -106,9 +106,9 @@ kinetics:
 ---
 label: NH3 + H <=> NH2 + H2
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -125,9 +125,9 @@ kinetics:
 ---
 label: NH3 + OH <=> NH2 + H2O
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -144,9 +144,9 @@ kinetics:
 ---
 label: NH3 + O <=> NH2 + OH
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -163,9 +163,9 @@ kinetics:
 ---
 label: NH2 + H <=> NH(S) + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -182,9 +182,9 @@ kinetics:
 ---
 label: HO2 + NO <=> NO2 + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -200,9 +200,9 @@ kinetics:
 ---
 label: N2O + H <=> HNNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -238,9 +238,9 @@ kinetics:
 ---
 label: N2O + H <=> N2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -257,9 +257,9 @@ kinetics:
 ---
 label: H + N2O <=> NH(T) + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -275,9 +275,9 @@ kinetics:
 ---
 label: H + N2O <=> NNH + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -293,9 +293,9 @@ kinetics:
 ---
 label: NH(T) + NO <=> N2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -311,9 +311,9 @@ kinetics:
 ---
 label: NH(T) + NO <=> NNH + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -329,9 +329,9 @@ kinetics:
 ---
 label: NH(T) + O2 <=> HNOO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -367,9 +367,9 @@ kinetics:
 ---
 label: NH(T) + O2 <=> NO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -385,9 +385,9 @@ kinetics:
 ---
 label: NH(T) + O2 <=> H + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -403,9 +403,9 @@ kinetics:
 ---
 label: NH(T) + O2 <=> HNO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -421,9 +421,9 @@ kinetics:
 ---
 label: NH2 + O2 <=> NH2O + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -439,9 +439,9 @@ kinetics:
 ---
 label: NH2 + O2 <=> HNO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -457,9 +457,9 @@ kinetics:
 ---
 label: NH2 + HO2 <=> NH2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -475,9 +475,9 @@ kinetics:
 ---
 label: NH2 + HO2 <=> NH3 + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -494,9 +494,9 @@ kinetics:
 ---
 label: NH2 + O <=> HNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -512,9 +512,9 @@ kinetics:
 ---
 label: NH2 + O <=> NH(T) + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -531,9 +531,9 @@ kinetics:
 ---
 label: NH2 + OH <=> NH2OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -569,9 +569,9 @@ kinetics:
 ---
 label: NH2 + OH <=> NH(S) + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -588,9 +588,9 @@ kinetics:
 ---
 label: NH2 + NH2 <=> N2H4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -626,9 +626,9 @@ kinetics:
 ---
 label: NH2 + NH2 <=> H2NN(S) + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -664,9 +664,9 @@ kinetics:
 ---
 label: NH2 + NH2 <=> N2H3 + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -702,9 +702,9 @@ kinetics:
 ---
 label: NH2 + NH2 <=> NH3 + NH(T)
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -721,9 +721,9 @@ kinetics:
 ---
 label: NH2 + NO <=> N2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -739,9 +739,9 @@ kinetics:
 ---
 label: NH2 + NO <=> NNH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -757,9 +757,9 @@ kinetics:
 ---
 label: NH2 + NO <=> NH2NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -795,9 +795,9 @@ kinetics:
 ---
 label: CH3 + NO + N2 <=> CH3NO + N2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -813,9 +813,9 @@ kinetics:
 ---
 label: CH3 + NO <=> CH3NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -851,9 +851,9 @@ kinetics:
 ---
 label: CH3 + NO <=> H2CN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -869,9 +869,9 @@ kinetics:
 ---
 label: CH3 + NO <=> HCN + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -887,9 +887,9 @@ kinetics:
 ---
 label: CH3 + N <=> H2CN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -905,9 +905,9 @@ kinetics:
 ---
 label: CH3 + N <=> HCN + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -923,9 +923,9 @@ kinetics:
 ---
 label: CH3 + N <=> HCNH + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -941,9 +941,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> CH3NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -979,9 +979,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> CH2NH2 + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1017,9 +1017,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> CH3NH + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1055,9 +1055,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> H2CNH + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1093,9 +1093,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> CH4 + NH(S)
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1112,9 +1112,9 @@ kinetics:
 ---
 label: CH3 + NH2 <=> CH2(T) + NH3
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1131,9 +1131,9 @@ kinetics:
 ---
 label: CH2(T) + N2 <=> CH2NN
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1169,9 +1169,9 @@ kinetics:
 ---
 label: CH2(T) + N2 <=> HCN + NH(T)
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1187,9 +1187,9 @@ kinetics:
 ---
 label: CH2(T) + NO <=> HCNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1205,9 +1205,9 @@ kinetics:
 ---
 label: CH2(T) + NO <=> HCN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1223,9 +1223,9 @@ kinetics:
 ---
 label: CH2(T) + NO <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1241,9 +1241,9 @@ kinetics:
 ---
 label: CH2(T) + NO <=> NH2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1259,9 +1259,9 @@ kinetics:
 ---
 label: CH2(T) + NO <=> H2CN + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1277,9 +1277,9 @@ kinetics:
 ---
 label: CH + N2 <=> HCNN
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1315,9 +1315,9 @@ kinetics:
 ---
 label: CH + N2 <=> HCN + N
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1333,9 +1333,9 @@ kinetics:
 ---
 label: CH + NO <=> HCN + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1351,9 +1351,9 @@ kinetics:
 ---
 label: CH + NO <=> H + NCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1369,9 +1369,9 @@ kinetics:
 ---
 label: CH + NO <=> N + HCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1387,9 +1387,9 @@ kinetics:
 ---
 label: CH + NO <=> NH(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1405,9 +1405,9 @@ kinetics:
 ---
 label: CH + NO <=> OH + CN
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1423,9 +1423,9 @@ kinetics:
 ---
 label: N + O2 <=> NO + O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1442,9 +1442,9 @@ kinetics:
 ---
 label: N + OH <=> NH(T) + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1460,9 +1460,9 @@ kinetics:
 ---
 label: N + OH <=> NO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1478,9 +1478,9 @@ kinetics:
 ---
 label: CH + N <=> CN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1496,9 +1496,9 @@ kinetics:
 ---
 label: CH2(T) + N <=> HCN + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1514,9 +1514,9 @@ kinetics:
 ---
 label: NH(T) + N <=> N2 + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1532,9 +1532,9 @@ kinetics:
 ---
 label: NH2 + N <=> N2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1550,9 +1550,9 @@ kinetics:
 ---
 label: CN + N <=> C(T) + N2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1568,9 +1568,9 @@ kinetics:
 ---
 label: NH(T) + NH(T) <=> N2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1586,9 +1586,9 @@ kinetics:
 ---
 label: NH2 + NH(T) <=> N2H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1604,9 +1604,9 @@ kinetics:
 ---
 label: NH2 + NH(T) <=> NH3 + N
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1623,9 +1623,9 @@ kinetics:
 ---
 label: NH(T) + OH <=> HNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1641,9 +1641,9 @@ kinetics:
 ---
 label: NH(T) + OH <=> N + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1660,9 +1660,9 @@ kinetics:
 ---
 label: NH(T) + H <=> N + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1679,9 +1679,9 @@ kinetics:
 ---
 label: NH(T) + O <=> NO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1697,9 +1697,9 @@ kinetics:
 ---
 label: NH(T) + CH3 <=> H2CNH + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1715,9 +1715,9 @@ kinetics:
 ---
 label: NH(T) + CH3 <=> CH4 + N
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1734,9 +1734,9 @@ kinetics:
 ---
 label: NNH + O2 <=> N2 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1753,9 +1753,9 @@ kinetics:
 ---
 label: NNH + O2 <=> N2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1771,9 +1771,9 @@ kinetics:
 ---
 label: NNH + H <=> N2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1790,9 +1790,9 @@ kinetics:
 ---
 label: NNH + OH <=> N2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1809,9 +1809,9 @@ kinetics:
 ---
 label: NNH + O <=> N2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1828,9 +1828,9 @@ kinetics:
 ---
 label: NNH + NH2 <=> N2 + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1847,9 +1847,9 @@ kinetics:
 ---
 label: NNH + HO2 <=> N2 + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1866,9 +1866,9 @@ kinetics:
 ---
 label: NNH + HO2 <=> HNNO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1885,9 +1885,9 @@ kinetics:
 ---
 label: NNH + NO <=> N2 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -1904,9 +1904,9 @@ kinetics:
 ---
 label: N2H2 <=> NNH + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 duplicate: true
 kinetics:
   type: MultiPDepArrhenius
@@ -1976,9 +1976,9 @@ kinetics:
 ---
 label: N2H2 <=> H2NN(S)
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -2014,9 +2014,9 @@ kinetics:
 ---
 label: N2H2 + H <=> NNH + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2033,9 +2033,9 @@ kinetics:
 ---
 label: N2H2 + O <=> NNH + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2052,9 +2052,9 @@ kinetics:
 ---
 label: N2H2 + OH <=> NNH + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2071,9 +2071,9 @@ kinetics:
 ---
 label: N2H2 + NH2 <=> NH3 + NNH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2090,9 +2090,9 @@ kinetics:
 ---
 label: N2H2 + CH3 <=> NNH + CH4
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2109,9 +2109,9 @@ kinetics:
 ---
 label: N2H2 + NH(T) <=> NNH + NH2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2128,9 +2128,9 @@ kinetics:
 ---
 label: N2H2 + NO <=> N2O + NH2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2146,10 +2146,12 @@ kinetics:
 ---
 label: H2NN(S) <=> NNH + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli.
-  The exponential factor of k30a2 at 0.1 atm is -5.77 in the body text of the book while that is inconsistently -7.77 in the table of 'Summary of Rate Constant Parameters.' The difference of the rate constants with those exponential factors are less than one order of magnitude.
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli.\nThe exponential factor of k30a2 at 0.1 atm is -5.77\
+  \ in the body text of the book while that is inconsistently -7.77 in the table of\
+  \ 'Summary of Rate Constant Parameters.' The difference of the rate constants with\
+  \ those exponential factors are less than one order of magnitude.\n"
 duplicate: true
 kinetics:
   type: MultiPDepArrhenius
@@ -2219,9 +2221,9 @@ kinetics:
 ---
 label: H2NN(S) + O2 <=> NH2 + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2237,9 +2239,9 @@ kinetics:
 ---
 label: H2NN(S) + H <=> N2H2 + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2255,9 +2257,9 @@ kinetics:
 ---
 label: H2NN(S) + H <=> NNH + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2274,9 +2276,9 @@ kinetics:
 ---
 label: H2NN(S) + O <=> NH2 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2292,9 +2294,9 @@ kinetics:
 ---
 label: H2NN(S) + O <=> OH + NNH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2311,9 +2313,9 @@ kinetics:
 ---
 label: H2NN(S) + OH <=> NH2NO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2329,9 +2331,9 @@ kinetics:
 ---
 label: H2NN(S) + OH <=> NNH + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2348,9 +2350,9 @@ kinetics:
 ---
 label: H2NN(S) + CH3 <=> H2CNNH2 + H
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2366,9 +2368,9 @@ kinetics:
 ---
 label: H2NN(S) + CH3 <=> CH3NNH + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2384,9 +2386,9 @@ kinetics:
 ---
 label: H2NN(S) + CH3 <=> CH4 + NNH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2403,9 +2405,9 @@ kinetics:
 ---
 label: H2NN(S) + NH2 <=> HNNNH2 + H
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2421,9 +2423,9 @@ kinetics:
 ---
 label: H2NN(S) + NH2 <=> NH3 + NNH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2440,9 +2442,9 @@ kinetics:
 ---
 label: H2NN(S) + HO2 <=> NH2NO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2458,9 +2460,9 @@ kinetics:
 ---
 label: H2NN(S) + HO2 <=> NNH + H2O2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2477,9 +2479,9 @@ kinetics:
 ---
 label: N2H3 <=> N2H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -2515,9 +2517,9 @@ kinetics:
 ---
 label: N2H3 + H <=> N2H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2534,9 +2536,9 @@ kinetics:
 ---
 label: N2H3 + O <=> NH2 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2552,9 +2554,9 @@ kinetics:
 ---
 label: N2H3 + O <=> NH2NO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2570,9 +2572,9 @@ kinetics:
 ---
 label: N2H3 + O <=> N2H2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2589,9 +2591,9 @@ kinetics:
 ---
 label: N2H3 + OH <=> N2H2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2608,9 +2610,9 @@ kinetics:
 ---
 label: N2H3 + OH <=> H2NN(S) + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2627,9 +2629,9 @@ kinetics:
 ---
 label: N2H3 + CH3 <=> N2H2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2646,9 +2648,9 @@ kinetics:
 ---
 label: N2H3 + CH3 <=> H2NN(S) + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2665,9 +2667,9 @@ kinetics:
 ---
 label: N2H3 + NH2 <=> N2H2 + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2684,9 +2686,9 @@ kinetics:
 ---
 label: N2H3 + NH2 <=> H2NN(S) + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2703,9 +2705,9 @@ kinetics:
 ---
 label: N2H3 + HO2 <=> H2NNHO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2721,9 +2723,9 @@ kinetics:
 ---
 label: N2H3 + HO2 <=> N2H2 + H2O2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2740,9 +2742,9 @@ kinetics:
 ---
 label: N2H3 + HO2 <=> N2H4 + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2759,9 +2761,9 @@ kinetics:
 ---
 label: N2H4 <=> H2NN(S) + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -2797,9 +2799,9 @@ kinetics:
 ---
 label: N2H4 + H <=> N2H3 + H2
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2816,9 +2818,9 @@ kinetics:
 ---
 label: N2H4 + O <=> N2H3 + OH
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2835,9 +2837,9 @@ kinetics:
 ---
 label: N2H4 + OH <=> N2H3 + H2O
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2854,9 +2856,9 @@ kinetics:
 ---
 label: N2H4 + CH3 <=> N2H3 + CH4
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2873,9 +2875,9 @@ kinetics:
 ---
 label: N2H4 + NH2 <=> N2H3 + NH3
 degeneracy: 4.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2892,9 +2894,9 @@ kinetics:
 ---
 label: NO + C(T) <=> CO + N
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2910,9 +2912,9 @@ kinetics:
 ---
 label: NO + C(T) <=> CN + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2928,9 +2930,9 @@ kinetics:
 ---
 label: NO + HCCO <=> HCNO + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2946,9 +2948,9 @@ kinetics:
 ---
 label: NO + HCCO <=> HCN + CO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2964,9 +2966,9 @@ kinetics:
 ---
 label: NO2 + H <=> NO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2982,9 +2984,9 @@ kinetics:
 ---
 label: NO2 + O <=> NO + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3001,9 +3003,9 @@ kinetics:
 ---
 label: NO2 <=> NO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3018,9 +3020,9 @@ kinetics:
 ---
 label: NO2 + NH2 <=> N2O + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3036,9 +3038,9 @@ kinetics:
 ---
 label: NO2 + NH2 <=> NH2O + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3054,9 +3056,9 @@ kinetics:
 ---
 label: NO2 + CH3 <=> NO + CH3O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3073,9 +3075,9 @@ kinetics:
 ---
 label: N2O + OH <=> N2 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3092,9 +3094,9 @@ kinetics:
 ---
 label: HNO <=> H + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3109,9 +3111,9 @@ kinetics:
 ---
 label: HNO + HNO <=> N2O + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3127,9 +3129,9 @@ kinetics:
 ---
 label: HNO + OH <=> NO + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3146,9 +3148,9 @@ kinetics:
 ---
 label: HNO + H <=> H2 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3165,9 +3167,9 @@ kinetics:
 ---
 label: HNO + O <=> OH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3184,9 +3186,9 @@ kinetics:
 ---
 label: HNO + NH2 <=> NH3 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3203,9 +3205,9 @@ kinetics:
 ---
 label: HNO + NO <=> N2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3221,9 +3223,9 @@ kinetics:
 ---
 label: HNO + O2 <=> NO + HO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3240,9 +3242,9 @@ kinetics:
 ---
 label: HNO + CH3 <=> NO + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3259,9 +3261,9 @@ kinetics:
 ---
 label: NH2O <=> HNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3276,9 +3278,9 @@ kinetics:
 ---
 label: NH2O <=> HNOH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -3314,9 +3316,9 @@ kinetics:
 ---
 label: NH2O + H <=> NH2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3332,9 +3334,9 @@ kinetics:
 ---
 label: NH2O + H <=> HNO + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3351,9 +3353,9 @@ kinetics:
 ---
 label: NH2O + O <=> HNO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3370,9 +3372,9 @@ kinetics:
 ---
 label: NH2O + OH <=> HNO + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3389,9 +3391,9 @@ kinetics:
 ---
 label: NH2O + CH3 <=> CH3O + NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3407,9 +3409,9 @@ kinetics:
 ---
 label: NH2O + CH3 <=> CH4 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3426,9 +3428,9 @@ kinetics:
 ---
 label: NH2O + NH2 <=> HNO + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3445,9 +3447,9 @@ kinetics:
 ---
 label: NH2O + HO2 <=> HNO + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3464,9 +3466,9 @@ kinetics:
 ---
 label: NH2O + HO2 <=> O2 + NH2OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3483,9 +3485,9 @@ kinetics:
 ---
 label: HNOH <=> H + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3500,9 +3502,9 @@ kinetics:
 ---
 label: HNOH + H <=> NH2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3518,9 +3520,9 @@ kinetics:
 ---
 label: HNOH + H <=> HNO + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3537,9 +3539,9 @@ kinetics:
 ---
 label: HNOH + O <=> HNO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3556,9 +3558,9 @@ kinetics:
 ---
 label: HNOH + OH <=> HNO + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3575,9 +3577,9 @@ kinetics:
 ---
 label: HNOH + CH3 <=> CH3NH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3593,9 +3595,9 @@ kinetics:
 ---
 label: HNOH + CH3 <=> CH4 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3612,9 +3614,9 @@ kinetics:
 ---
 label: HNOH + NH2 <=> N2H3 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3630,9 +3632,9 @@ kinetics:
 ---
 label: HNOH + NH2 <=> H2NN(S) + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3648,9 +3650,9 @@ kinetics:
 ---
 label: HNOH + NH2 <=> HNO + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3667,9 +3669,9 @@ kinetics:
 ---
 label: HNOH + HO2 <=> HONHO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3685,9 +3687,9 @@ kinetics:
 ---
 label: HNOH + HO2 <=> HNO + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3704,9 +3706,9 @@ kinetics:
 ---
 label: HNOH + HO2 <=> NH2OH + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3723,9 +3725,9 @@ kinetics:
 ---
 label: HNOO <=> OH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3740,9 +3742,9 @@ kinetics:
 ---
 label: HONO <=> OH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -3757,9 +3759,9 @@ kinetics:
 ---
 label: HONO + H <=> H2 + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3776,9 +3778,9 @@ kinetics:
 ---
 label: HONO + H <=> H2O + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3794,9 +3796,9 @@ kinetics:
 ---
 label: HONO + H <=> OH + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3812,9 +3814,9 @@ kinetics:
 ---
 label: HONO + O <=> OH + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3831,9 +3833,9 @@ kinetics:
 ---
 label: HONO + OH <=> H2O + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3850,9 +3852,9 @@ kinetics:
 ---
 label: HONO + CH3 <=> NO2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3869,9 +3871,9 @@ kinetics:
 ---
 label: HONO + NH2 <=> NO2 + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3888,9 +3890,9 @@ kinetics:
 ---
 label: HNO2 <=> HONO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -3926,9 +3928,9 @@ kinetics:
 ---
 label: HNO2 + H <=> H2 + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3945,9 +3947,9 @@ kinetics:
 ---
 label: HNO2 + O <=> OH + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3964,9 +3966,9 @@ kinetics:
 ---
 label: HNO2 + OH <=> H2O + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3983,9 +3985,9 @@ kinetics:
 ---
 label: HNO2 + CH3 <=> NO2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4002,9 +4004,9 @@ kinetics:
 ---
 label: HNO2 + NH2 <=> NO2 + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4021,9 +4023,9 @@ kinetics:
 ---
 label: HCN <=> HNC
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -4059,9 +4061,9 @@ kinetics:
 ---
 label: OH + HCN <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4077,9 +4079,9 @@ kinetics:
 ---
 label: OH + HCN <=> HOCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4095,9 +4097,9 @@ kinetics:
 ---
 label: OH + HCN <=> NH2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4113,9 +4115,9 @@ kinetics:
 ---
 label: OH + HCN <=> NCHOH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -4151,9 +4153,9 @@ kinetics:
 ---
 label: HCN + O <=> NH(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4169,9 +4171,9 @@ kinetics:
 ---
 label: HCN + O <=> NCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4187,9 +4189,9 @@ kinetics:
 ---
 label: HCN + O <=> CN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4206,9 +4208,9 @@ kinetics:
 ---
 label: O + HNC <=> NH(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4224,9 +4226,9 @@ kinetics:
 ---
 label: OH + HNC <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4242,9 +4244,9 @@ kinetics:
 ---
 label: HNC + O2 <=> HNCO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4260,9 +4262,9 @@ kinetics:
 ---
 label: HNC + O2 <=> NH(T) + CO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4278,9 +4280,9 @@ kinetics:
 ---
 label: CN + H2 <=> HCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4297,9 +4299,9 @@ kinetics:
 ---
 label: CN + H2O <=> HCN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4316,9 +4318,9 @@ kinetics:
 ---
 label: CN + O <=> CO + N
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4334,9 +4336,9 @@ kinetics:
 ---
 label: CN + O2 <=> NCO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4352,9 +4354,9 @@ kinetics:
 ---
 label: CN + OH <=> NCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4370,9 +4372,9 @@ kinetics:
 ---
 label: CN + HCN <=> NCCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4388,9 +4390,9 @@ kinetics:
 ---
 label: CN + N2O <=> NCN + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4406,9 +4408,9 @@ kinetics:
 ---
 label: CN + NO2 <=> NCO + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4424,9 +4426,9 @@ kinetics:
 ---
 label: CN + CH4 <=> HCN + CH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4443,9 +4445,9 @@ kinetics:
 ---
 label: CN + NH3 <=> HCN + NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4462,9 +4464,9 @@ kinetics:
 ---
 label: H2CN <=> HCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -4500,9 +4502,9 @@ kinetics:
 ---
 label: H2CN + HO2 <=> CH2NO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4518,9 +4520,9 @@ kinetics:
 ---
 label: H2CN + HO2 <=> HCN + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4537,9 +4539,9 @@ kinetics:
 ---
 label: H2CN + HO2 <=> H2CNH + O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4556,9 +4558,9 @@ kinetics:
 ---
 label: H2CN + O2 <=> CH2O + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4574,9 +4576,9 @@ kinetics:
 ---
 label: H2CN + CH3 <=> HCN + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4593,9 +4595,9 @@ kinetics:
 ---
 label: H2CN + OH <=> HCN + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -4631,9 +4633,9 @@ kinetics:
 ---
 label: H2CN + N <=> N2 + CH2(T)
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4649,9 +4651,9 @@ kinetics:
 ---
 label: H2CN + H <=> HCN + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4668,9 +4670,9 @@ kinetics:
 ---
 label: H2CN + NH2 <=> HCN + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4687,9 +4689,9 @@ kinetics:
 ---
 label: H2CN + O <=> HCN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4706,9 +4708,9 @@ kinetics:
 ---
 label: H2CN + O <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4724,9 +4726,9 @@ kinetics:
 ---
 label: H2CN + O <=> HCNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4742,9 +4744,9 @@ kinetics:
 ---
 label: HCNH <=> HCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -4780,9 +4782,9 @@ kinetics:
 ---
 label: HCNH + H <=> H2CN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4798,9 +4800,9 @@ kinetics:
 ---
 label: HCNH + H <=> HCN + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4817,9 +4819,9 @@ kinetics:
 ---
 label: HCNH + O <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4835,9 +4837,9 @@ kinetics:
 ---
 label: HCNH + O <=> HCN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4854,9 +4856,9 @@ kinetics:
 ---
 label: HCNH + OH <=> HCN + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4873,9 +4875,9 @@ kinetics:
 ---
 label: HCNH + CH3 <=> HCN + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4892,9 +4894,9 @@ kinetics:
 ---
 label: HCNN + O2 <=> H + CO2 + N2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4910,9 +4912,9 @@ kinetics:
 ---
 label: HCNN + O2 <=> HCO + N2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4928,9 +4930,9 @@ kinetics:
 ---
 label: H2CNH + H <=> H2CN + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4947,9 +4949,9 @@ kinetics:
 ---
 label: H2CNH + O <=> H2CN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4966,9 +4968,9 @@ kinetics:
 ---
 label: H2CNH + OH <=> H2CN + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4985,9 +4987,9 @@ kinetics:
 ---
 label: H2CNH + CH3 <=> H2CN + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5004,9 +5006,9 @@ kinetics:
 ---
 label: H2CNH + NH2 <=> H2CN + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5023,9 +5025,9 @@ kinetics:
 ---
 label: H2CNH + H <=> HCNH + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5042,9 +5044,9 @@ kinetics:
 ---
 label: H2CNH + O <=> HCNH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5061,9 +5063,9 @@ kinetics:
 ---
 label: H2CNH + OH <=> HCNH + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5080,9 +5082,9 @@ kinetics:
 ---
 label: H2CNH + CH3 <=> HCNH + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5099,9 +5101,9 @@ kinetics:
 ---
 label: H2CNH + NH2 <=> HCNH + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5118,9 +5120,9 @@ kinetics:
 ---
 label: H2CNH + O <=> CH2O + NH(T)
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5136,9 +5138,9 @@ kinetics:
 ---
 label: CH3NH <=> H2CNH + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -5174,9 +5176,9 @@ kinetics:
 ---
 label: CH3NH + H <=> H2CNH + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5193,9 +5195,9 @@ kinetics:
 ---
 label: CH3NH + O <=> H2CNH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5212,9 +5214,9 @@ kinetics:
 ---
 label: CH3NH + OH <=> H2CNH + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5231,9 +5233,9 @@ kinetics:
 ---
 label: CH3NH + CH3 <=> H2CNH + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5250,9 +5252,9 @@ kinetics:
 ---
 label: CH2NH2 <=> H2CNH + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -5288,9 +5290,9 @@ kinetics:
 ---
 label: CH2NH2 + O2 <=> H2CNH + HO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5307,9 +5309,9 @@ kinetics:
 ---
 label: CH2NH2 + O2 <=> NH2 + CH2O + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5325,9 +5327,9 @@ kinetics:
 ---
 label: CH2NH2 + H <=> H2CNH + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5344,9 +5346,9 @@ kinetics:
 ---
 label: CH2NH2 + O <=> CH2O + NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5362,9 +5364,9 @@ kinetics:
 ---
 label: CH2NH2 + O <=> H2CNH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5381,9 +5383,9 @@ kinetics:
 ---
 label: CH2NH2 + OH <=> CH2OH + NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5399,9 +5401,9 @@ kinetics:
 ---
 label: CH2NH2 + OH <=> H2CNH + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5418,9 +5420,9 @@ kinetics:
 ---
 label: CH2NH2 + CH3 <=> C2H5 + NH2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5436,9 +5438,9 @@ kinetics:
 ---
 label: CH2NH2 + CH3 <=> H2CNH + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5455,9 +5457,9 @@ kinetics:
 ---
 label: CH3NH2 + H <=> CH2NH2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5474,9 +5476,9 @@ kinetics:
 ---
 label: CH3NH2 + O <=> CH2NH2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5493,9 +5495,9 @@ kinetics:
 ---
 label: CH3NH2 + OH <=> CH2NH2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5512,9 +5514,9 @@ kinetics:
 ---
 label: CH3NH2 + CH3 <=> CH2NH2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5531,9 +5533,9 @@ kinetics:
 ---
 label: CH3NH2 + NH2 <=> CH2NH2 + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5550,9 +5552,9 @@ kinetics:
 ---
 label: CH3NH2 + H <=> CH3NH + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5569,9 +5571,9 @@ kinetics:
 ---
 label: CH3NH2 + O <=> CH3NH + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5588,9 +5590,9 @@ kinetics:
 ---
 label: CH3NH2 + OH <=> CH3NH + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5607,9 +5609,9 @@ kinetics:
 ---
 label: CH3NH2 + CH3 <=> CH3NH + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5626,9 +5628,9 @@ kinetics:
 ---
 label: CH3NH2 + NH2 <=> CH3NH + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5645,9 +5647,9 @@ kinetics:
 ---
 label: NCCN <=> CN + CN
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -5662,9 +5664,9 @@ kinetics:
 ---
 label: NCCN + O <=> NCO + CN
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5680,9 +5682,9 @@ kinetics:
 ---
 label: NCCN + OH <=> HOCN + CN
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5698,9 +5700,9 @@ kinetics:
 ---
 label: NCO + NO <=> CO2 + N2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5716,9 +5718,9 @@ kinetics:
 ---
 label: NCO + NO <=> N2O + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5734,9 +5736,9 @@ kinetics:
 ---
 label: NCO <=> N + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -5751,9 +5753,9 @@ kinetics:
 ---
 label: NCO + H2 <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5770,9 +5772,9 @@ kinetics:
 ---
 label: NCO + O <=> NO + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5788,9 +5790,9 @@ kinetics:
 ---
 label: NCO + O <=> N + CO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5806,9 +5808,9 @@ kinetics:
 ---
 label: NCO + H <=> NH(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5824,9 +5826,9 @@ kinetics:
 ---
 label: NCO + N <=> N2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5842,9 +5844,9 @@ kinetics:
 ---
 label: NCO + OH <=> HNCO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5861,9 +5863,9 @@ kinetics:
 ---
 label: NCO + OH <=> HON(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5879,9 +5881,9 @@ kinetics:
 ---
 label: NCO + OH <=> H + CO + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5897,9 +5899,9 @@ kinetics:
 ---
 label: NCO + NO2 <=> CO2 + N2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5915,9 +5917,9 @@ kinetics:
 ---
 label: NCO + NO2 <=> CO + NO + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5933,9 +5935,9 @@ kinetics:
 ---
 label: NCO + CH4 <=> HNCO + CH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -5952,9 +5954,9 @@ kinetics:
 ---
 label: HCNO <=> HCN + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -5990,9 +5992,9 @@ kinetics:
 ---
 label: HCNO + H <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6008,9 +6010,9 @@ kinetics:
 ---
 label: HCNO + H <=> HCN + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6026,9 +6028,9 @@ kinetics:
 ---
 label: HCNO + H <=> NH2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6044,9 +6046,9 @@ kinetics:
 ---
 label: HCNO + H <=> HOCN + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6062,9 +6064,9 @@ kinetics:
 ---
 label: HCNO + O <=> HCO + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6080,9 +6082,9 @@ kinetics:
 ---
 label: HCNO + OH <=> HCOH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6098,9 +6100,9 @@ kinetics:
 ---
 label: HOCN + H <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6116,9 +6118,9 @@ kinetics:
 ---
 label: HOCN + H <=> NH2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6134,9 +6136,9 @@ kinetics:
 ---
 label: HOCN + H <=> H2 + NCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6152,9 +6154,9 @@ kinetics:
 ---
 label: HOCN + O <=> OH + NCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6170,9 +6172,9 @@ kinetics:
 ---
 label: HOCN + OH <=> H2O + NCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6188,9 +6190,9 @@ kinetics:
 ---
 label: HOCN + CH3 <=> CH4 + NCO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6206,9 +6208,9 @@ kinetics:
 ---
 label: HOCN + NH2 <=> NCO + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6224,9 +6226,9 @@ kinetics:
 ---
 label: HNCO <=> NH(T) + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -6241,9 +6243,9 @@ kinetics:
 ---
 label: HNCO + H <=> NH2 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6259,9 +6261,9 @@ kinetics:
 ---
 label: HNCO + O <=> HNO + CO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6277,9 +6279,9 @@ kinetics:
 ---
 label: HNCO + O <=> NH(T) + CO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6295,9 +6297,9 @@ kinetics:
 ---
 label: HNCO + OH <=> NH2 + CO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6313,9 +6315,9 @@ kinetics:
 ---
 label: HNCO + OH <=> NCO + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6332,9 +6334,9 @@ kinetics:
 ---
 label: HNCO + NH2 <=> NCO + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6351,9 +6353,9 @@ kinetics:
 ---
 label: CH2NO <=> HNCO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -6389,9 +6391,9 @@ kinetics:
 ---
 label: CH2NO + O2 <=> CH2O + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6407,9 +6409,9 @@ kinetics:
 ---
 label: CH2NO + H <=> CH3 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6425,9 +6427,9 @@ kinetics:
 ---
 label: CH2NO + H <=> HCNO + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6444,9 +6446,9 @@ kinetics:
 ---
 label: CH2NO + O <=> CH2O + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6462,9 +6464,9 @@ kinetics:
 ---
 label: CH2NO + O <=> HCNO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6480,9 +6482,9 @@ kinetics:
 ---
 label: CH2NO + OH <=> CH2OH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6498,9 +6500,9 @@ kinetics:
 ---
 label: CH2NO + OH <=> HCNO + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6517,9 +6519,9 @@ kinetics:
 ---
 label: CH2NO + CH3 <=> C2H5 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6535,9 +6537,9 @@ kinetics:
 ---
 label: CH2NO + CH3 <=> HCNO + CH4
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6554,9 +6556,9 @@ kinetics:
 ---
 label: CH2NO + NH2 <=> CH2NH2 + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6572,9 +6574,9 @@ kinetics:
 ---
 label: CH2NO + NH2 <=> HCNO + NH3
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6591,9 +6593,9 @@ kinetics:
 ---
 label: CH3NO + H <=> CH2NO + H2
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6610,9 +6612,9 @@ kinetics:
 ---
 label: CH3NO + O <=> CH2NO + OH
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6629,9 +6631,9 @@ kinetics:
 ---
 label: CH3NO + OH <=> CH2NO + H2O
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6648,9 +6650,9 @@ kinetics:
 ---
 label: CH3NO + CH3 <=> CH2NO + CH4
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6667,9 +6669,9 @@ kinetics:
 ---
 label: CH3NO + NH2 <=> CH2NO + NH3
 degeneracy: 3.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6686,9 +6688,9 @@ kinetics:
 ---
 label: CH3NO + H <=> CH3 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6704,9 +6706,9 @@ kinetics:
 ---
 label: CH3NO + O <=> CH3 + NO2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6722,9 +6724,9 @@ kinetics:
 ---
 label: CH3NO + OH <=> CH3 + HONO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6740,9 +6742,9 @@ kinetics:
 ---
 label: HON(S) <=> NO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -6757,9 +6759,9 @@ kinetics:
 ---
 label: HON(S) + H <=> HNO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6775,9 +6777,9 @@ kinetics:
 ---
 label: HON(S) + H <=> OH + NH(S)
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6793,9 +6795,9 @@ kinetics:
 ---
 label: HON(S) + O <=> OH + NO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6812,9 +6814,9 @@ kinetics:
 ---
 label: HON(S) + OH <=> HONO + H
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6830,9 +6832,9 @@ kinetics:
 ---
 label: HON(S) + O2 <=> HONO + O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6848,9 +6850,9 @@ kinetics:
 ---
 label: HCOH <=> CH2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -6886,9 +6888,9 @@ kinetics:
 ---
 label: NH2OH + H <=> HNOH + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6905,9 +6907,9 @@ kinetics:
 ---
 label: NH2OH + H <=> NH2O + H2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6924,9 +6926,9 @@ kinetics:
 ---
 label: NH2OH + O <=> HNOH + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6943,9 +6945,9 @@ kinetics:
 ---
 label: NH2OH + O <=> NH2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6962,9 +6964,9 @@ kinetics:
 ---
 label: NH2OH + OH <=> HNOH + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6981,9 +6983,9 @@ kinetics:
 ---
 label: NH2OH + OH <=> NH2O + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7000,9 +7002,9 @@ kinetics:
 ---
 label: NH2OH + CH3 <=> HNOH + CH4
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7019,9 +7021,9 @@ kinetics:
 ---
 label: NH2OH + CH3 <=> NH2O + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7038,9 +7040,9 @@ kinetics:
 ---
 label: NH2OH + NH2 <=> HNOH + NH3
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7057,9 +7059,9 @@ kinetics:
 ---
 label: NH2OH + NH2 <=> NH2O + NH3
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7076,9 +7078,9 @@ kinetics:
 ---
 label: NH2OH + HO2 <=> HNOH + H2O2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7095,9 +7097,9 @@ kinetics:
 ---
 label: NH2OH + HO2 <=> NH2O + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7114,9 +7116,9 @@ kinetics:
 ---
 label: NH2NO <=> N2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -7152,9 +7154,9 @@ kinetics:
 ---
 label: NH2NO + H <=> HNNO + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7171,9 +7173,9 @@ kinetics:
 ---
 label: NH2NO + O <=> HNNO + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7190,9 +7192,9 @@ kinetics:
 ---
 label: NH2NO + OH <=> HNNO + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7209,9 +7211,9 @@ kinetics:
 ---
 label: NH2NO + CH3 <=> HNNO + CH4
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7228,9 +7230,9 @@ kinetics:
 ---
 label: NH2NO + NH2 <=> HNNO + NH3
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7247,9 +7249,9 @@ kinetics:
 ---
 label: NH2NO + HO2 <=> HNNO + H2O2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7266,9 +7268,9 @@ kinetics:
 ---
 label: H2NNHO <=> NH2 + HNO
 degeneracy: 1.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -7304,9 +7306,9 @@ kinetics:
 ---
 label: H2NNHO + H <=> HNNHO + H2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7323,9 +7325,9 @@ kinetics:
 ---
 label: H2NNHO + O <=> HNNHO + OH
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7342,9 +7344,9 @@ kinetics:
 ---
 label: H2NNHO + OH <=> HNNHO + H2O
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7361,9 +7363,9 @@ kinetics:
 ---
 label: H2NNHO + CH3 <=> HNNHO + CH4
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7380,9 +7382,9 @@ kinetics:
 ---
 label: H2NNHO + NH2 <=> HNNHO + NH3
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7399,9 +7401,9 @@ kinetics:
 ---
 label: H2NNHO + HO2 <=> HNNHO + H2O2
 degeneracy: 2.0
-long_description: |2
-
-  Added by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN: 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M. Dean, Joseph W. Bozzelli,
+long_description: "\nAdded by Beat Buesser from 'Gas-Phase Combustion Chemistry' (ISBN:\
+  \ 978-1-4612-7088-1), chapter 2, 'Combustion Chemistry of Nitrogen', Anthony M.\
+  \ Dean, Joseph W. Bozzelli,\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius

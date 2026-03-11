@@ -1,25 +1,11 @@
 label: C2H5NO2
-adjacency_list: |-
-  1  *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  3  *2 N u0 p0 c+1 {1,S} {9,D} {10,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     O u0 p2 c0 {3,D}
-  10 *3 O u0 p3 c-1 {3,S}
+adjacency_list: "1  *1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2     C u0 p0 c0 {1,S}\
+  \ {6,S} {7,S} {8,S}\n3  *2 N u0 p0 c+1 {1,S} {9,D} {10,S}\n4     H u0 p0 c0 {1,S}\n\
+  5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0 c0 {2,S}\n8     H\
+  \ u0 p0 c0 {2,S}\n9     O u0 p2 c0 {3,D}\n10 *3 O u0 p3 c-1 {3,S}\n"
 ---
 label: C2H5ONO
-adjacency_list: |-
-  1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}
-  2  C u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-  3  O u0 p2 c0 {1,S} {4,S}
-  4  N u0 p1 c0 {3,S} {10,D}
-  5  H u0 p0 c0 {1,S}
-  6  H u0 p0 c0 {1,S}
-  7  H u0 p0 c0 {2,S}
-  8  H u0 p0 c0 {2,S}
-  9  H u0 p0 c0 {2,S}
-  10 O u0 p2 c0 {4,D}
+adjacency_list: "1  C u0 p0 c0 {2,S} {3,S} {5,S} {6,S}\n2  C u0 p0 c0 {1,S} {7,S}\
+  \ {8,S} {9,S}\n3  O u0 p2 c0 {1,S} {4,S}\n4  N u0 p1 c0 {3,S} {10,D}\n5  H u0 p0\
+  \ c0 {1,S}\n6  H u0 p0 c0 {1,S}\n7  H u0 p0 c0 {2,S}\n8  H u0 p0 c0 {2,S}\n9  H\
+  \ u0 p0 c0 {2,S}\n10 O u0 p2 c0 {4,D}\n"

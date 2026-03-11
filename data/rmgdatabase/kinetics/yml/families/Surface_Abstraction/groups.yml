@@ -1,35 +1,26 @@
 label: Abstracting
-group: |2
-
-  1 *1 R!H ux px cx {2,[D,T,Q]}
-  2 *2 Xo  u0 p0 c0 {1,[D,T,Q]}
+group: "\n1 *1 R!H ux px cx {2,[D,T,Q]}\n2 *2 Xo  u0 p0 c0 {1,[D,T,Q]}\n"
 short_description: ''
 long_description: ''
 children:
-- OH
 - C
 - N
 - O
 - C
 - O
+- OH
 - O
 ---
 label: Donating
-group: |2
-
-  1 *4 R   ux px cx {2,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 R   ux px cx {2,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo  u0\
+  \ p0 c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*R-H'
-group: |2
-
-  1 *4 H   u0 p0 c0 {2,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 H   u0 p0 c0 {2,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo  u0\
+  \ p0 c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -38,23 +29,16 @@ children:
 - '*OH'
 ---
 label: '*R-O'
-group: |2
-
-  1 *4 O   u0 p2 c0 {2,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 O   u0 p2 c0 {2,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo  u0\
+  \ p0 c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
 - '*R-OH'
 ---
 label: '*R-OH'
-group: |2
-
-  1 *4 O   u0 p2 c0 {2,S} {4,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
-  4    H   u0 p0 c0 {1,S}
+group: "\n1 *4 O   u0 p2 c0 {2,S} {4,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5\
+  \ Xo  u0 p0 c0 {2,[S,D,T]}\n4    H   u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -63,11 +47,8 @@ children:
 - '*O-OH'
 ---
 label: '*R-C'
-group: |2
-
-  1 *4 C   ux px cx {2,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 C   ux px cx {2,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo  u0\
+  \ p0 c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -76,81 +57,69 @@ children:
 - '*N-C'
 ---
 label: C
-group: |2
-
-  1 *1 C  ux px cx {2,[D,T,Q]}
-  2 *2 Xo u0 p0 c0 {1,[D,T,Q]}
+group: "\n1 *1 C  ux px cx {2,[D,T,Q]}\n2 *2 Xo u0 p0 c0 {1,[D,T,Q]}\n"
 short_description: ''
 long_description: ''
 children:
-- CC
-- CN
-- CO
 - C=*
 - C#*
 - C$*
-- C-H
-- CH=O
-- CH2-H
-- C-H
-- C-O
-- C-C
 - C=*
 - C#*
 - C$*
 - CH2
 - CO
 - C2O
+- C-H
+- CH=O
+- CH2-H
+- CC
+- CN
+- CO
+- C-H
+- C-O
+- C-C
 ---
 label: N
-group: |2
-
-  1 *1 N  ux px cx {2,[D,T]}
-  2 *2 Xo u0 p0 c0 {1,[D,T]}
+group: "\n1 *1 N  ux px cx {2,[D,T]}\n2 *2 Xo u0 p0 c0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
 children:
-- 'NO'
-- NN
 - N3s
 - N3d
 - N=*
 - N#*
-- N=O
 - N-C
 - N-H
+- NH
+- NN
+- N=O
+- 'NO'
+- NN
 - N-H2
 - N-H
 - N-N
-- NH
-- NN
 ---
 label: O
-group: |2
-
-  1 *1 O  u0 p2 c0 {2,D}
-  2 *2 Xo u0 p0 c0 {1,D}
+group: "\n1 *1 O  u0 p2 c0 {2,D}\n2 *2 Xo u0 p0 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
+- O-H
+- O-N
+- O-C
+- O-H
+- O-C
+- O-N
 - O-H
 - O=N
 - O-H
 - O-C
 - O-N
-- O-H
-- O-N
-- O-C
-- O-H
-- O-C
-- O-N
 ---
 label: '*R-N'
-group: |2
-
-  1 *4 N   ux px cx {2,S}
-  2 *3 R!H ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 N   ux px cx {2,S}\n2 *3 R!H ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo  u0\
+  \ p0 c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -159,11 +128,8 @@ children:
 - '*-O-N'
 ---
 label: '*C-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
-  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -172,11 +138,8 @@ children:
 - '*#C-H'
 ---
 label: '*N-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 N  u0 p1 c0 {1,S} {3,[S,D]}
-  3 *5 Xo u0 p0 c0 {2,[S,D]}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 N  u0 p1 c0 {1,S} {3,[S,D]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -184,43 +147,27 @@ children:
 - '*=N-H'
 ---
 label: '*OH'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 O  u0 p2 c0 {1,S} {3,S}
-  3 *5 Xo u0 p0 c0 {2,S}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 O  u0 p2 c0 {1,S} {3,S}\n3 *5 Xo u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-N-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 N  u0 p1 c0 {1,S} {3,S} {4,S}
-  3 *5 Xo u0 p0 c0 {2,S}
-  4    R  ux px c0 {2,S}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 N  u0 p1 c0 {1,S} {3,S} {4,S}\n3 *5 Xo u0 p0\
+  \ c0 {2,S}\n4    R  ux px c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*=N-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 N  u0 p1 c0 {1,S} {3,D}
-  3 *5 Xo u0 p0 c0 {2,D}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 N  u0 p1 c0 {1,S} {3,D}\n3 *5 Xo u0 p0 c0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-C-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,S} {4,[S,D]}
-  3 *5 Xo u0 p0 c0 {2,S}
-  4    R  u0 px c0 {2,[S,D]}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,S} {4,[S,D]}\n3 *5 Xo\
+  \ u0 p0 c0 {2,S}\n4    R  u0 px c0 {2,[S,D]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -228,34 +175,22 @@ children:
 - '*-CH2-H'
 ---
 label: '*=C-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}
-  3 *5 Xo u0 p0 c0 {2,D}
-  4    R  u0 px c0 {2,S}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}\n3 *5 Xo u0 p0\
+  \ c0 {2,D}\n4    R  u0 px c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - '*=CH-H'
 ---
 label: '*#C-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,T}
-  3 *5 Xo u0 p0 c0 {2,T}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,T}\n3 *5 Xo u0 p0 c0 {2,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*C-OH'
-group: |2
-
-  1 *4 O   u0 p2 c0 {2,S} {4,S}
-  2 *3 C   u0 p0 c0 {1,S} {3,[S,D,T]}
-  3 *5 Xo  u0 p0 c0 {2,[S,D,T]}
-  4    H   u0 p0 c0 {1,S}
+group: "\n1 *4 O   u0 p2 c0 {2,S} {4,S}\n2 *3 C   u0 p0 c0 {1,S} {3,[S,D,T]}\n3 *5\
+  \ Xo  u0 p0 c0 {2,[S,D,T]}\n4    H   u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -264,232 +199,150 @@ children:
 - '*#C-OH'
 ---
 label: '*=N-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 N  u0 p1 c0 {1,S} {3,D}
-  3 *5 Xo u0 p0 c0 {2,D}
-  4    H  u0 p0 c0 {1,S}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 N  u0 p1 c0 {1,S} {3,D}\n3 *5 Xo u0 p0\
+  \ c0 {2,D}\n4    H  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*O-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 O  u0 p2 c0 {1,S} {3,S}
-  3 *5 Xo u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {1,S}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 O  u0 p2 c0 {1,S} {3,S}\n3 *5 Xo u0 p0\
+  \ c0 {2,S}\n4    H  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-C-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,S} {5,[S,D]}
-  3 *5 Xo u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {1,S}
-  5    R  u0 p0 c0 {2,[S,D]}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 C  u0 p0 c0 {1,S} {3,S} {5,[S,D]}\n3\
+  \ *5 Xo u0 p0 c0 {2,S}\n4    H  u0 p0 c0 {1,S}\n5    R  u0 p0 c0 {2,[S,D]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*=C-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,D} {5,S}
-  3 *5 Xo u0 p0 c0 {2,D}
-  4    H  u0 p0 c0 {1,S}
-  5    R  ux px c0 {2,S}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 C  u0 p0 c0 {1,S} {3,D} {5,S}\n3 *5 Xo\
+  \ u0 p0 c0 {2,D}\n4    H  u0 p0 c0 {1,S}\n5    R  ux px c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*#C-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,T}
-  3 *5 Xo u0 p0 c0 {2,T}
-  4    H  u0 p0 c0 {1,S}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 C  u0 p0 c0 {1,S} {3,T}\n3 *5 Xo u0 p0\
+  \ c0 {2,T}\n4    H  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C=*
-group: |2
-
-  1 *1 C  u0 p0 c0 {2,D}
-  2 *2 Xo u0 p0 c0 {1,D}
+group: "\n1 *1 C  u0 p0 c0 {2,D}\n2 *2 Xo u0 p0 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C#*
-group: |2
-
-  1 *1 C  u0 p0 c0 {2,T}
-  2 *2 Xo u0 p0 c0 {1,T}
+group: "\n1 *1 C  u0 p0 c0 {2,T}\n2 *2 Xo u0 p0 c0 {1,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C$*
-group: |2
-
-  1 *1 C  u0 p0 c0 {2,Q}
-  2 *2 Xo u0 p0 c0 {1,Q}
+group: "\n1 *1 C  u0 p0 c0 {2,Q}\n2 *2 Xo u0 p0 c0 {1,Q}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N=*
-group: |2
-
-  1 *1 N  u0 px cx {2,D} {3,[S,D]}
-  2 *2 Xo u0 p0 c0 {1,D}
-  3    R  ux px cx {1,[S,D]}
+group: "\n1 *1 N  u0 px cx {2,D} {3,[S,D]}\n2 *2 Xo u0 p0 c0 {1,D}\n3    R  ux px\
+  \ cx {1,[S,D]}\n"
 short_description: ''
 long_description: ''
 children:
 - R-N=*
 ---
 label: N#*
-group: |2
-
-  1 *1 N  u0 px cx {2,T}
-  2 *2 Xo u0 p0 c0 {1,T}
+group: "\n1 *1 N  u0 px cx {2,T}\n2 *2 Xo u0 p0 c0 {1,T}\n"
 short_description: ''
 long_description: ''
 children:
 - :N#*
 ---
 label: R-N=*
-group: |2
-
-  1 *1 N  u0 p1 c0 {2,D} {3,S}
-  2 *2 Xo u0 p0 c0 {1,D}
-  3    R  u0 p0 c0 {1,S}
+group: "\n1 *1 N  u0 p1 c0 {2,D} {3,S}\n2 *2 Xo u0 p0 c0 {1,D}\n3    R  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: :N#*
-group: |2
-
-  1 *1 N   u0 p1 c0 {2,T}
-  2 *2 Xo  u0 p0 c0 {1,T}
+group: "\n1 *1 N   u0 p1 c0 {2,T}\n2 *2 Xo  u0 p0 c0 {1,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N-OH'
-group: |2
-
-  1 *4 O  u0 p2 c0 {2,S} {4,S}
-  2 *3 N  ux px cx {1,S} {3,[S,D]}
-  3 *5 Xo u0 p0 c0 {2,[S,D]}
-  4    H  u0 p0 c0 {1,S}
+group: "\n1 *4 O  u0 p2 c0 {2,S} {4,S}\n2 *3 N  ux px cx {1,S} {3,[S,D]}\n3 *5 Xo\
+  \ u0 p0 c0 {2,[S,D]}\n4    H  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
 - '*=N-OH'
 ---
 label: '*C-C'
-group: |2
-
-  1 *4 C  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
-  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 C  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-O-C'
-group: |2
-
-  1 *4 C  u0 p0 c0 {2,S}
-  2 *3 O  u0 p2 c0 {1,S} {3,S}
-  3 *5 Xo u0 p0 c0 {2,S}
+group: "\n1 *4 C  u0 p0 c0 {2,S}\n2 *3 O  u0 p2 c0 {1,S} {3,S}\n3 *5 Xo u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N-C'
-group: |2
-
-  1 *4 C  u0 p0 c0 {2,S}
-  2 *3 N  u0 px cx {1,S} {3,[S,D]}
-  3 *5 Xo u0 p0 c0 {2,[S,D]}
+group: "\n1 *4 C  u0 p0 c0 {2,S}\n2 *3 N  u0 px cx {1,S} {3,[S,D]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*C-N'
-group: |2
-
-  1 *4 N  ux px cx {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}
-  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 N  ux px cx {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,[S,D,T]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-O-N'
-group: |2
-
-  1 *4 N  ux px cx {2,S}
-  2 *3 O  u0 p2 c0 {1,S} {3,S}
-  3 *5 Xo u0 p0 c0 {2,S}
+group: "\n1 *4 N  ux px cx {2,S}\n2 *3 O  u0 p2 c0 {1,S} {3,S}\n3 *5 Xo u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N-N'
-group: |2
-
-  1 *4 N  ux px cx {2,S}
-  2 *3 N  ux px cx {1,S} {3,[S,D,T]}
-  3 *5 Xo u0 p0 c0 {2,[S,D,T]}
+group: "\n1 *4 N  ux px cx {2,S}\n2 *3 N  ux px cx {1,S} {3,[S,D,T]}\n3 *5 Xo u0 p0\
+  \ c0 {2,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-CH-H'
-group: |2
-
-  1 *4 H   u0 p0 c0 {2,S}
-  2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3 *5 Xo  u0 p0 c0 {2,S}
-  4    R   u0 px c0 {2,S}
-  5    H   u0 p0 c0 {2,S}
+group: "\n1 *4 H   u0 p0 c0 {2,S}\n2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n3 *5\
+  \ Xo  u0 p0 c0 {2,S}\n4    R   u0 px c0 {2,S}\n5    H   u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*=CH-H'
-group: |2
-
-  1 *4 H  u0 p0 c0 {2,S}
-  2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}
-  3 *5 Xo u0 p0 c0 {2,D}
-  4    H  u0 p0 c0 {2,S}
+group: "\n1 *4 H  u0 p0 c0 {2,S}\n2 *3 C  u0 p0 c0 {1,S} {3,D} {4,S}\n3 *5 Xo u0 p0\
+  \ c0 {2,D}\n4    H  u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*-CH2-H'
-group: |2
-
-  1 *4 H   u0 p0 c0 {2,S}
-  2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3 *5 Xo  u0 p0 c0 {2,S}
-  4    H   u0 px c0 {2,S}
-  5    H   u0 p0 c0 {2,S}
+group: "\n1 *4 H   u0 p0 c0 {2,S}\n2 *3 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n3 *5\
+  \ Xo  u0 p0 c0 {2,S}\n4    H   u0 px c0 {2,S}\n5    H   u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []

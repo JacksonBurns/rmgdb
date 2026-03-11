@@ -4159,9 +4159,7 @@ kinetics:
 ---
 label: CH3CHO <=> CH4 + CO
 degeneracy: 1.0
-long_description: |2
-
-  Warning: SRI parameters from chemkin file ignored on import.
+long_description: "\nWarning: SRI parameters from chemkin file ignored on import.\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -4198,9 +4196,7 @@ kinetics:
 ---
 label: CH3CHO <=> CH3 + HCO
 degeneracy: 1.0
-long_description: |2
-
-  Warning: SRI parameters from chemkin file ignored on import.
+long_description: "\nWarning: SRI parameters from chemkin file ignored on import.\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann

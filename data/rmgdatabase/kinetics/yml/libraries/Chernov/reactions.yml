@@ -1,8 +1,6 @@
 label: H2CCCH + C2H3 <=> C5H5 + H
 degeneracy: 1.0
-long_description: |2
-
-  468
+long_description: "\n468\n"
 kinetics:
   type: Arrhenius
   A:
@@ -19,9 +17,7 @@ kinetics:
 ---
 label: H2CCCH + C2H2 <=> C5H5
 degeneracy: 1.0
-long_description: |2
-
-  469
+long_description: "\n469\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -39,9 +35,7 @@ kinetics:
 ---
 label: C5H5 + O2 <=> CH2CO + C2H2 + HCO
 degeneracy: 1.0
-long_description: |2
-
-  470
+long_description: "\n470\n"
 kinetics:
   type: Arrhenius
   A:
@@ -58,9 +52,7 @@ kinetics:
 ---
 label: C5H6 + O2 <=> C5H5 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  471
+long_description: "\n471\n"
 kinetics:
   type: Arrhenius
   A:
@@ -77,9 +69,7 @@ kinetics:
 ---
 label: C5H5 + O <=> i-C4H5 + CO
 degeneracy: 1.0
-long_description: |2
-
-  472
+long_description: "\n472\n"
 kinetics:
   type: Arrhenius
   A:
@@ -96,9 +86,7 @@ kinetics:
 ---
 label: C5H6 + H <=> C5H5 + H2
 degeneracy: 1.0
-long_description: |2
-
-  473
+long_description: "\n473\n"
 kinetics:
   type: Arrhenius
   A:
@@ -115,11 +103,7 @@ kinetics:
 ---
 label: C5H5 + H <=> C5H6
 degeneracy: 1.0
-long_description: |2
-
-  474
-  C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
-  475
+long_description: "\n474\nC5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00\n475\n"
 kinetics:
   type: Arrhenius
   A:
@@ -132,16 +116,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    474
-    C5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00
-    475
+  comment: "474\nC5H6+H = C3H5+C2H2 6.600E+14 0.0000 6200.00\n475"
 ---
 label: C5H5 + OH <=> CH2O + C2H2 + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  476
+long_description: "\n476\n"
 kinetics:
   type: Arrhenius
   A:
@@ -158,9 +137,7 @@ kinetics:
 ---
 label: C5H6 + OH <=> C5H5 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  477
+long_description: "\n477\n"
 kinetics:
   type: Arrhenius
   A:
@@ -177,9 +154,7 @@ kinetics:
 ---
 label: C5H6 + HO2 <=> C5H5 + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  478
+long_description: "\n478\n"
 kinetics:
   type: Arrhenius
   A:
@@ -196,9 +171,7 @@ kinetics:
 ---
 label: C5H6 + C2H3 <=> C5H5 + C2H4
 degeneracy: 1.0
-long_description: |2
-
-  479
+long_description: "\n479\n"
 kinetics:
   type: Arrhenius
   A:
@@ -215,9 +188,7 @@ kinetics:
 ---
 label: C6H5O <=> C5H5 + CO
 degeneracy: 1.0
-long_description: |2
-
-  480
+long_description: "\n480\n"
 kinetics:
   type: Arrhenius
   A:
@@ -234,9 +205,7 @@ kinetics:
 ---
 label: C6H5O + O <=> C5H5 + CO2
 degeneracy: 1.0
-long_description: |2
-
-  481
+long_description: "\n481\n"
 kinetics:
   type: Arrhenius
   A:
@@ -253,9 +222,7 @@ kinetics:
 ---
 label: C6H5O + H <=> C5H6 + CO
 degeneracy: 1.0
-long_description: |2
-
-  482
+long_description: "\n482\n"
 kinetics:
   type: Arrhenius
   A:
@@ -272,9 +239,7 @@ kinetics:
 ---
 label: C6H5O + H <=> C6H5OH
 degeneracy: 1.0
-long_description: |2
-
-  483
+long_description: "\n483\n"
 kinetics:
   type: Arrhenius
   A:
@@ -291,9 +256,7 @@ kinetics:
 ---
 label: C6H5OH <=> C5H6 + CO
 degeneracy: 1.0
-long_description: |2
-
-  484
+long_description: "\n484\n"
 kinetics:
   type: Arrhenius
   A:
@@ -310,9 +273,7 @@ kinetics:
 ---
 label: C6H5OH + O <=> C6H5O + OH
 degeneracy: 1.0
-long_description: |2
-
-  485
+long_description: "\n485\n"
 kinetics:
   type: Arrhenius
   A:
@@ -329,9 +290,7 @@ kinetics:
 ---
 label: C6H5OH + H <=> C6H5O + H2
 degeneracy: 1.0
-long_description: |2
-
-  486
+long_description: "\n486\n"
 kinetics:
   type: Arrhenius
   A:
@@ -348,9 +307,7 @@ kinetics:
 ---
 label: C6H5OH + OH <=> C6H5O + H2O
 degeneracy: 1.0
-long_description: |2
-
-  487
+long_description: "\n487\n"
 kinetics:
   type: Arrhenius
   A:
@@ -367,9 +324,7 @@ kinetics:
 ---
 label: C6H5OH + C2H3 <=> C6H5O + C2H4
 degeneracy: 1.0
-long_description: |2
-
-  488
+long_description: "\n488\n"
 kinetics:
   type: Arrhenius
   A:
@@ -386,9 +341,7 @@ kinetics:
 ---
 label: H2CCCH + H2CCCH <=> A1
 degeneracy: 1.0
-long_description: |2
-
-  489
+long_description: "\n489\n"
 kinetics:
   type: Arrhenius
   A:
@@ -405,9 +358,7 @@ kinetics:
 ---
 label: H2CCCH + H2CCCH <=> A1- + H
 degeneracy: 1.0
-long_description: |2
-
-  490
+long_description: "\n490\n"
 kinetics:
   type: Arrhenius
   A:
@@ -424,9 +375,7 @@ kinetics:
 ---
 label: H2CCCCH + C2H3 <=> A1
 degeneracy: 1.0
-long_description: |2
-
-  491
+long_description: "\n491\n"
 kinetics:
   type: Arrhenius
   A:
@@ -443,9 +392,7 @@ kinetics:
 ---
 label: H2CCCCH + C2H3 <=> A1- + H
 degeneracy: 1.0
-long_description: |2
-
-  492
+long_description: "\n492\n"
 kinetics:
   type: Arrhenius
   A:
@@ -462,9 +409,7 @@ kinetics:
 ---
 label: H2CCCH + C3H4 <=> A1 + H
 degeneracy: 1.0
-long_description: |2
-
-  493
+long_description: "\n493\n"
 kinetics:
   type: Arrhenius
   A:
@@ -481,9 +426,7 @@ kinetics:
 ---
 label: C2H3 + C4H4 <=> A1 + H
 degeneracy: 1.0
-long_description: |2
-
-  494
+long_description: "\n494\n"
 kinetics:
   type: Arrhenius
   A:
@@ -500,9 +443,7 @@ kinetics:
 ---
 label: H2CCCCH + C2H2 <=> A1-
 degeneracy: 1.0
-long_description: |2
-
-  495
+long_description: "\n495\n"
 kinetics:
   type: Arrhenius
   A:
@@ -519,9 +460,7 @@ kinetics:
 ---
 label: C4H4 + C2H2 <=> A1- + H
 degeneracy: 1.0
-long_description: |2
-
-  496
+long_description: "\n496\n"
 kinetics:
   type: Arrhenius
   A:
@@ -538,9 +477,7 @@ kinetics:
 ---
 label: i-C4H5 + C2H2 <=> A1 + H
 degeneracy: 1.0
-long_description: |2
-
-  497
+long_description: "\n497\n"
 kinetics:
   type: Arrhenius
   A:
@@ -557,9 +494,7 @@ kinetics:
 ---
 label: i-C4H5 + C2H3 <=> A1 + H2
 degeneracy: 1.0
-long_description: |2
-
-  498
+long_description: "\n498\n"
 kinetics:
   type: Arrhenius
   A:
@@ -576,9 +511,7 @@ kinetics:
 ---
 label: i-C4H5 + C2H <=> A1
 degeneracy: 1.0
-long_description: |2
-
-  499
+long_description: "\n499\n"
 kinetics:
   type: Arrhenius
   A:
@@ -595,9 +528,7 @@ kinetics:
 ---
 label: i-C4H5 + C2H <=> A1- + H
 degeneracy: 1.0
-long_description: |2
-
-  500
+long_description: "\n500\n"
 kinetics:
   type: Arrhenius
   A:
@@ -614,11 +545,7 @@ kinetics:
 ---
 label: C5H6 + C2H3 <=> A1 + CH3
 degeneracy: 1.0
-long_description: |2
-
-  501
-  C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
-  502
+long_description: "\n501\nC5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00\n502\n"
 kinetics:
   type: Arrhenius
   A:
@@ -631,16 +558,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    501
-    C5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00
-    502
+  comment: "501\nC5H5+CH3 = A1+2H 1.000E+18 0.0000 30000.00\n502"
 ---
 label: A1 <=> A1- + H
 degeneracy: 1.0
-long_description: |2
-
-  503
+long_description: "\n503\n"
 kinetics:
   type: Arrhenius
   A:
@@ -657,9 +579,7 @@ kinetics:
 ---
 label: A1 <=> C4H4 + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  504
+long_description: "\n504\n"
 kinetics:
   type: Arrhenius
   A:
@@ -676,9 +596,7 @@ kinetics:
 ---
 label: A1 + O2 <=> A1- + HO2
 degeneracy: 1.0
-long_description: |2
-
-  505
+long_description: "\n505\n"
 kinetics:
   type: Arrhenius
   A:
@@ -695,9 +613,7 @@ kinetics:
 ---
 label: A1 + O <=> A1- + OH
 degeneracy: 1.0
-long_description: |2
-
-  506
+long_description: "\n506\n"
 kinetics:
   type: Arrhenius
   A:
@@ -714,9 +630,7 @@ kinetics:
 ---
 label: A1 + O <=> C6H5OH
 degeneracy: 1.0
-long_description: |2
-
-  507
+long_description: "\n507\n"
 kinetics:
   type: Arrhenius
   A:
@@ -733,9 +647,7 @@ kinetics:
 ---
 label: A1 + O <=> C6H5O + H
 degeneracy: 1.0
-long_description: |2
-
-  508
+long_description: "\n508\n"
 kinetics:
   type: Arrhenius
   A:
@@ -752,9 +664,7 @@ kinetics:
 ---
 label: A1 + H <=> A1- + H2
 degeneracy: 1.0
-long_description: |2
-
-  509
+long_description: "\n509\n"
 kinetics:
   type: Arrhenius
   A:
@@ -771,9 +681,7 @@ kinetics:
 ---
 label: A1 + OH <=> C6H5OH + H
 degeneracy: 1.0
-long_description: |2
-
-  510
+long_description: "\n510\n"
 kinetics:
   type: Arrhenius
   A:
@@ -790,9 +698,7 @@ kinetics:
 ---
 label: A1 + OH <=> A1- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  511
+long_description: "\n511\n"
 kinetics:
   type: Arrhenius
   A:
@@ -809,9 +715,7 @@ kinetics:
 ---
 label: A1 + CH3 <=> A1- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  512
+long_description: "\n512\n"
 kinetics:
   type: Arrhenius
   A:
@@ -828,9 +732,7 @@ kinetics:
 ---
 label: A1 + C2H <=> A1- + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  513
+long_description: "\n513\n"
 kinetics:
   type: Arrhenius
   A:
@@ -847,9 +749,7 @@ kinetics:
 ---
 label: A1 + C4H <=> A1- + C4H2
 degeneracy: 1.0
-long_description: |2
-
-  514
+long_description: "\n514\n"
 kinetics:
   type: Arrhenius
   A:
@@ -866,9 +766,7 @@ kinetics:
 ---
 label: A1 + C6H <=> A1- + C6H2
 degeneracy: 1.0
-long_description: |2
-
-  515
+long_description: "\n515\n"
 kinetics:
   type: Arrhenius
   A:
@@ -885,9 +783,7 @@ kinetics:
 ---
 label: A1 + C8H <=> A1- + C8H2
 degeneracy: 1.0
-long_description: |2
-
-  516
+long_description: "\n516\n"
 kinetics:
   type: Arrhenius
   A:
@@ -904,9 +800,7 @@ kinetics:
 ---
 label: A1- + O2 <=> C6H5O + O
 degeneracy: 1.0
-long_description: |2
-
-  517
+long_description: "\n517\n"
 kinetics:
   type: Arrhenius
   A:
@@ -923,9 +817,7 @@ kinetics:
 ---
 label: A1- + O <=> C5H5 + CO
 degeneracy: 1.0
-long_description: |2
-
-  518
+long_description: "\n518\n"
 kinetics:
   type: Arrhenius
   A:
@@ -942,9 +834,7 @@ kinetics:
 ---
 label: A1- + OH <=> C6H5O + H
 degeneracy: 1.0
-long_description: |2
-
-  519
+long_description: "\n519\n"
 kinetics:
   type: Arrhenius
   A:
@@ -961,9 +851,7 @@ kinetics:
 ---
 label: A1- + C6H5OH <=> C6H5O + A1
 degeneracy: 1.0
-long_description: |2
-
-  520
+long_description: "\n520\n"
 kinetics:
   type: Arrhenius
   A:
@@ -980,9 +868,7 @@ kinetics:
 ---
 label: i-C4H5 + C3H4 <=> C7H8 + H
 degeneracy: 1.0
-long_description: |2
-
-  521
+long_description: "\n521\n"
 kinetics:
   type: Arrhenius
   A:
@@ -999,9 +885,7 @@ kinetics:
 ---
 label: i-C4H5 + H2CCCH <=> C7H7 + H
 degeneracy: 1.0
-long_description: |2
-
-  522
+long_description: "\n522\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1018,9 +902,7 @@ kinetics:
 ---
 label: A1 + CH2 <=> C7H8
 degeneracy: 1.0
-long_description: |2
-
-  523
+long_description: "\n523\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1037,9 +919,7 @@ kinetics:
 ---
 label: A1 + CH2(S) <=> C7H8
 degeneracy: 1.0
-long_description: |2
-
-  524
+long_description: "\n524\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1056,9 +936,7 @@ kinetics:
 ---
 label: C7H8 <=> A1- + CH3
 degeneracy: 1.0
-long_description: |2
-
-  525
+long_description: "\n525\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1075,9 +953,7 @@ kinetics:
 ---
 label: i-C4H5 + H2CCCH <=> C7H8
 degeneracy: 1.0
-long_description: |2
-
-  526
+long_description: "\n526\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1094,9 +970,7 @@ kinetics:
 ---
 label: C7H8 + O2 <=> C7H7 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  527
+long_description: "\n527\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1113,9 +987,7 @@ kinetics:
 ---
 label: C7H8 + O <=> C7H7 + OH
 degeneracy: 1.0
-long_description: |2
-
-  528
+long_description: "\n528\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1132,9 +1004,7 @@ kinetics:
 ---
 label: C7H8 + H <=> A1 + CH3
 degeneracy: 1.0
-long_description: |2
-
-  529
+long_description: "\n529\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1151,9 +1021,7 @@ kinetics:
 ---
 label: C7H8 + H <=> C7H7 + H2
 degeneracy: 1.0
-long_description: |2
-
-  530
+long_description: "\n530\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1170,9 +1038,7 @@ kinetics:
 ---
 label: C7H8 + OH <=> C7H7 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  531
+long_description: "\n531\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1189,9 +1055,7 @@ kinetics:
 ---
 label: C7H8 + HO2 <=> C7H7 + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  532
+long_description: "\n532\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1208,9 +1072,7 @@ kinetics:
 ---
 label: C7H8 + CH3 <=> C7H7 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  533
+long_description: "\n533\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1227,9 +1089,7 @@ kinetics:
 ---
 label: C7H8 + C2H3 <=> C7H7 + C2H4
 degeneracy: 1.0
-long_description: |2
-
-  534
+long_description: "\n534\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1246,9 +1106,7 @@ kinetics:
 ---
 label: C7H8 + H2CCCH <=> C7H7 + C3H4
 degeneracy: 1.0
-long_description: |2
-
-  535
+long_description: "\n535\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1265,9 +1123,7 @@ kinetics:
 ---
 label: C7H8 + C3H5 <=> C7H7 + C3H6
 degeneracy: 1.0
-long_description: |2
-
-  536
+long_description: "\n536\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1284,9 +1140,7 @@ kinetics:
 ---
 label: C7H8 + C5H5 <=> C7H7 + C5H6
 degeneracy: 1.0
-long_description: |2
-
-  537
+long_description: "\n537\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1303,9 +1157,7 @@ kinetics:
 ---
 label: C7H8 + A1- <=> C7H7 + A1
 degeneracy: 1.0
-long_description: |2
-
-  538
+long_description: "\n538\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1322,9 +1174,7 @@ kinetics:
 ---
 label: A1- + CH3 <=> C7H7 + H
 degeneracy: 1.0
-long_description: |2
-
-  539
+long_description: "\n539\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1341,9 +1191,7 @@ kinetics:
 ---
 label: C7H7 <=> C4H4 + H2CCCH
 degeneracy: 1.0
-long_description: |2
-
-  540
+long_description: "\n540\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1360,11 +1208,7 @@ kinetics:
 ---
 label: C7H7 + O <=> A1 + HCO
 degeneracy: 1.0
-long_description: |2
-
-  541
-  C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
-  542
+long_description: "\n541\nC7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00\n542\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1377,16 +1221,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    541
-    C7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00
-    542
+  comment: "541\nC7H7 = C5H5+C2H2 6.100E+13 0.0000 35000.00\n542"
 ---
 label: C7H7 + O <=> A1- + CH2O
 degeneracy: 1.0
-long_description: |2
-
-  543
+long_description: "\n543\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1403,9 +1242,7 @@ kinetics:
 ---
 label: C7H7 + H <=> C7H8
 degeneracy: 1.0
-long_description: |2
-
-  544
+long_description: "\n544\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1422,9 +1259,7 @@ kinetics:
 ---
 label: C7H7 + HO2 <=> A1 + HCO + OH
 degeneracy: 1.0
-long_description: |2
-
-  545
+long_description: "\n545\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1441,9 +1276,7 @@ kinetics:
 ---
 label: C7H7 + HO2 <=> A1- + CH2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  546
+long_description: "\n546\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1460,9 +1293,7 @@ kinetics:
 ---
 label: C7H7 + H + OH <=> A1 + CH2OH
 degeneracy: 1.0
-long_description: |2
-
-  547
+long_description: "\n547\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1479,9 +1310,7 @@ kinetics:
 ---
 label: i-C4H5 + C4H2 <=> A1C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  548
+long_description: "\n548\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1498,9 +1327,7 @@ kinetics:
 ---
 label: A1C2H- + H <=> A1C2H
 degeneracy: 1.0
-long_description: |2
-
-  549
+long_description: "\n549\n"
 kinetics:
   type: Troe
   alpha: 1.0
@@ -1542,9 +1369,7 @@ kinetics:
 ---
 label: H2CCCCH + C4H2 <=> A1C2H-
 degeneracy: 1.0
-long_description: |2
-
-  550
+long_description: "\n550\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1561,9 +1386,7 @@ kinetics:
 ---
 label: A1- + C4H2 <=> A1C2H + C2H
 degeneracy: 1.0
-long_description: |2
-
-  551
+long_description: "\n551\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1580,9 +1403,7 @@ kinetics:
 ---
 label: A1- + C2H3 <=> A1C2H + H2
 degeneracy: 1.0
-long_description: |2
-
-  552
+long_description: "\n552\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1599,9 +1420,7 @@ kinetics:
 ---
 label: A1- + C4H4 <=> A1C2H + C2H3
 degeneracy: 1.0
-long_description: |2
-
-  553
+long_description: "\n553\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1618,9 +1437,7 @@ kinetics:
 ---
 label: A1 + C2H <=> A1C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  554
+long_description: "\n554\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1637,9 +1454,7 @@ kinetics:
 ---
 label: A1- + C2H <=> A1C2H
 degeneracy: 1.0
-long_description: |2
-
-  555
+long_description: "\n555\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1656,9 +1471,7 @@ kinetics:
 ---
 label: A1C2H + O <=> A1C2H- + OH
 degeneracy: 1.0
-long_description: |2
-
-  556
+long_description: "\n556\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1675,9 +1488,7 @@ kinetics:
 ---
 label: A1C2H + O <=> A1- + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  557
+long_description: "\n557\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1694,9 +1505,7 @@ kinetics:
 ---
 label: A1C2H + O <=> C6H5O + C2H
 degeneracy: 1.0
-long_description: |2
-
-  558
+long_description: "\n558\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1713,9 +1522,7 @@ kinetics:
 ---
 label: A1C2H + H <=> A1C2H- + H2
 degeneracy: 1.0
-long_description: |2
-
-  559
+long_description: "\n559\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1732,9 +1539,7 @@ kinetics:
 ---
 label: A1C2H + H <=> A1- + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  560
+long_description: "\n560\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1751,9 +1556,7 @@ kinetics:
 ---
 label: A1C2H + H <=> n-C8H7
 degeneracy: 1.0
-long_description: |2
-
-  561
+long_description: "\n561\n"
 duplicate: true
 kinetics:
   type: Arrhenius
@@ -1771,9 +1574,7 @@ kinetics:
 ---
 label: A1C2H + OH <=> A1C2H- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  562
+long_description: "\n562\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1790,9 +1591,7 @@ kinetics:
 ---
 label: A1C2H + OH <=> A1- + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  563
+long_description: "\n563\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1809,9 +1608,7 @@ kinetics:
 ---
 label: A1C2H + OH <=> A1 + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  564
+long_description: "\n564\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1828,9 +1625,7 @@ kinetics:
 ---
 label: A1C2H + C2H <=> A1C2H- + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  565
+long_description: "\n565\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1847,9 +1642,7 @@ kinetics:
 ---
 label: C4H4 + C4H4 <=> A1C2H3
 degeneracy: 1.0
-long_description: |2
-
-  566
+long_description: "\n566\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1866,9 +1659,7 @@ kinetics:
 ---
 label: i-C4H5 + C4H4 <=> A1C2H3 + H
 degeneracy: 1.0
-long_description: |2
-
-  567
+long_description: "\n567\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1885,10 +1676,8 @@ kinetics:
 ---
 label: C5H5 + H2CCCH <=> A1C2H3* + H
 degeneracy: 1.0
-long_description: |2
-
-  568
-  Rxn 568 commented out because reverse rate coefficient is above Z
+long_description: "\n568\nRxn 568 commented out because reverse rate coefficient is\
+  \ above Z\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1901,15 +1690,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    568
-    Rxn 568 commented out because reverse rate coefficient is above Z
+  comment: "568\nRxn 568 commented out because reverse rate coefficient is above Z"
 ---
 label: A1 + C2H3 <=> A1C2H3 + H
 degeneracy: 1.0
-long_description: |2
-
-  569
+long_description: "\n569\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1926,9 +1711,7 @@ kinetics:
 ---
 label: A1- + C2H3 <=> A1C2H3
 degeneracy: 1.0
-long_description: |2
-
-  570
+long_description: "\n570\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1945,9 +1728,7 @@ kinetics:
 ---
 label: A1- + C2H4 <=> A1C2H3 + H
 degeneracy: 1.0
-long_description: |2
-
-  571
+long_description: "\n571\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1964,9 +1745,7 @@ kinetics:
 ---
 label: A1- + C4H4 <=> A1C2H3 + C2H
 degeneracy: 1.0
-long_description: |2
-
-  572
+long_description: "\n572\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1983,9 +1762,7 @@ kinetics:
 ---
 label: A1- + C4H6 <=> A1C2H3 + C2H3
 degeneracy: 1.0
-long_description: |2
-
-  573
+long_description: "\n573\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2002,9 +1779,7 @@ kinetics:
 ---
 label: C7H7 + CH2 <=> A1C2H3 + H
 degeneracy: 1.0
-long_description: |2
-
-  574
+long_description: "\n574\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2021,9 +1796,7 @@ kinetics:
 ---
 label: A1C2H3 + H <=> n-C8H7 + H2
 degeneracy: 1.0
-long_description: |2
-
-  575
+long_description: "\n575\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2040,9 +1813,7 @@ kinetics:
 ---
 label: A1C2H3 + H <=> A1C2H3* + H2
 degeneracy: 1.0
-long_description: |2
-
-  576
+long_description: "\n576\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2059,9 +1830,7 @@ kinetics:
 ---
 label: A1C2H3 + O <=> A1- + CH2HCO
 degeneracy: 1.0
-long_description: |2
-
-  577
+long_description: "\n577\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2078,9 +1847,7 @@ kinetics:
 ---
 label: A1C2H3 + O <=> A1- + CH3 + CO
 degeneracy: 1.0
-long_description: |2
-
-  578
+long_description: "\n578\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2097,9 +1864,7 @@ kinetics:
 ---
 label: A1C2H3 + O <=> C2H3 + C6H5O
 degeneracy: 1.0
-long_description: |2
-
-  579
+long_description: "\n579\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2116,9 +1881,7 @@ kinetics:
 ---
 label: A1C2H3 + O <=> n-C8H7 + OH
 degeneracy: 1.0
-long_description: |2
-
-  580
+long_description: "\n580\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2135,9 +1898,7 @@ kinetics:
 ---
 label: A1C2H3 + OH <=> n-C8H7 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  581
+long_description: "\n581\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2154,9 +1915,7 @@ kinetics:
 ---
 label: A1C2H3 + OH => C6H5O + C2H4
 degeneracy: 1.0
-long_description: |2
-
-  582
+long_description: "\n582\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2174,9 +1933,7 @@ kinetics:
 ---
 label: A1C2H3 + OH <=> A1C2H3* + H2O
 degeneracy: 1.0
-long_description: |2
-
-  583
+long_description: "\n583\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2193,9 +1950,7 @@ kinetics:
 ---
 label: A1C2H3 + OH <=> C7H7 + CH2O
 degeneracy: 1.0
-long_description: |2
-
-  584
+long_description: "\n584\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2212,9 +1967,7 @@ kinetics:
 ---
 label: A1C2H3 + O2 <=> C6H5O + CH2HCO
 degeneracy: 1.0
-long_description: |2
-
-  585
+long_description: "\n585\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2231,9 +1984,7 @@ kinetics:
 ---
 label: A1C2H3* + O2 <=> C6H5O + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  586
+long_description: "\n586\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2250,9 +2001,7 @@ kinetics:
 ---
 label: A1C2H3* + H <=> A1C2H3
 degeneracy: 1.0
-long_description: |2
-
-  587
+long_description: "\n587\n"
 kinetics:
   type: Troe
   alpha: 1.0
@@ -2294,10 +2043,7 @@ kinetics:
 ---
 label: C5H5 + H2CCCH <=> n-C8H7 + H
 degeneracy: 1.0
-long_description: |2
-
-  588
-  Rxn 588 commented out because k>Z for T<1400 K
+long_description: "\n588\nRxn 588 commented out because k>Z for T<1400 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2310,15 +2056,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    588
-    Rxn 588 commented out because k>Z for T<1400 K
+  comment: "588\nRxn 588 commented out because k>Z for T<1400 K"
 ---
 label: A1 + C2H <=> n-C8H7
 degeneracy: 1.0
-long_description: |2
-
-  589
+long_description: "\n589\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2335,9 +2077,7 @@ kinetics:
 ---
 label: A1- + C2H2 <=> n-C8H7
 degeneracy: 1.0
-long_description: |2
-
-  590
+long_description: "\n590\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2354,9 +2094,7 @@ kinetics:
 ---
 label: A1- + C2H3 <=> n-C8H7 + H
 degeneracy: 1.0
-long_description: |2
-
-  591
+long_description: "\n591\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2373,9 +2111,7 @@ kinetics:
 ---
 label: n-C8H7 <=> A1C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  592
+long_description: "\n592\n"
 duplicate: true
 kinetics:
   type: ThirdBody
@@ -2392,9 +2128,7 @@ kinetics:
 ---
 label: n-C8H7 + H <=> A1C2H3
 degeneracy: 1.0
-long_description: |2
-
-  593
+long_description: "\n593\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2411,9 +2145,7 @@ kinetics:
 ---
 label: n-C8H7 + H <=> A1C2H + H2
 degeneracy: 1.0
-long_description: |2
-
-  594
+long_description: "\n594\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2430,9 +2162,7 @@ kinetics:
 ---
 label: n-C8H7 + OH <=> A1C2H + H2O
 degeneracy: 1.0
-long_description: |2
-
-  595
+long_description: "\n595\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2449,9 +2179,7 @@ kinetics:
 ---
 label: C5H5 + C4H4 <=> INDENE + H
 degeneracy: 1.0
-long_description: |2
-
-  596
+long_description: "\n596\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2468,9 +2196,7 @@ kinetics:
 ---
 label: A1- + H2CCCH <=> INDENE
 degeneracy: 1.0
-long_description: |2
-
-  597
+long_description: "\n597\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2487,9 +2213,7 @@ kinetics:
 ---
 label: C4H6 + A1- <=> INDENE + CH3
 degeneracy: 1.0
-long_description: |2
-
-  598
+long_description: "\n598\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2506,9 +2230,7 @@ kinetics:
 ---
 label: i-C4H5 + A1 <=> INDENE + CH3
 degeneracy: 1.0
-long_description: |2
-
-  599
+long_description: "\n599\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2525,9 +2247,7 @@ kinetics:
 ---
 label: A1- + C3H4 <=> INDENE + H
 degeneracy: 1.0
-long_description: |2
-
-  600
+long_description: "\n600\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2544,9 +2264,7 @@ kinetics:
 ---
 label: INDENE <=> INDENYL + H
 degeneracy: 1.0
-long_description: |2
-
-  601
+long_description: "\n601\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2563,9 +2281,7 @@ kinetics:
 ---
 label: INDENE + O <=> INDENYL + OH
 degeneracy: 1.0
-long_description: |2
-
-  602
+long_description: "\n602\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2582,9 +2298,7 @@ kinetics:
 ---
 label: INDENE + O <=> C7H7 + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  603
+long_description: "\n603\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2601,9 +2315,7 @@ kinetics:
 ---
 label: INDENE + H <=> INDENYL + H2
 degeneracy: 1.0
-long_description: |2
-
-  604
+long_description: "\n604\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2620,9 +2332,7 @@ kinetics:
 ---
 label: C7H7 + C2H2 <=> INDENE + H
 degeneracy: 1.0
-long_description: |2
-
-  605
+long_description: "\n605\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2639,9 +2349,7 @@ kinetics:
 ---
 label: INDENE + H <=> A1C2H + CH3
 degeneracy: 1.0
-long_description: |2
-
-  606
+long_description: "\n606\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2658,9 +2366,7 @@ kinetics:
 ---
 label: INDENE + H <=> A1 + H2CCCH
 degeneracy: 1.0
-long_description: |2
-
-  607
+long_description: "\n607\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2677,9 +2383,7 @@ kinetics:
 ---
 label: INDENE + OH <=> C7H7 + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  608
+long_description: "\n608\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2696,9 +2400,7 @@ kinetics:
 ---
 label: INDENE + OH <=> INDENYL + H2O
 degeneracy: 1.0
-long_description: |2
-
-  609
+long_description: "\n609\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2715,9 +2417,7 @@ kinetics:
 ---
 label: INDENE + CH3 <=> INDENYL + CH4
 degeneracy: 1.0
-long_description: |2
-
-  610
+long_description: "\n610\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2734,9 +2434,7 @@ kinetics:
 ---
 label: INDENE + H2CCCH <=> INDENYL + C3H4
 degeneracy: 1.0
-long_description: |2
-
-  611
+long_description: "\n611\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2753,9 +2451,7 @@ kinetics:
 ---
 label: INDENE + A1- <=> INDENYL + A1
 degeneracy: 1.0
-long_description: |2
-
-  612
+long_description: "\n612\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2772,9 +2468,7 @@ kinetics:
 ---
 label: INDENE + C7H7 <=> INDENYL + C7H8
 degeneracy: 1.0
-long_description: |2
-
-  613
+long_description: "\n613\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2791,9 +2485,7 @@ kinetics:
 ---
 label: C5H5 + C4H2 <=> INDENYL
 degeneracy: 1.0
-long_description: |2
-
-  614
+long_description: "\n614\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2810,9 +2502,7 @@ kinetics:
 ---
 label: INDENYL => C2H2 + C4H2 + H2CCCH
 degeneracy: 1.0
-long_description: |2
-
-  615
+long_description: "\n615\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2830,9 +2520,7 @@ kinetics:
 ---
 label: INDENYL + O <=> n-C8H7 + CO
 degeneracy: 1.0
-long_description: |2
-
-  616
+long_description: "\n616\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2849,9 +2537,7 @@ kinetics:
 ---
 label: INDENYL + O <=> A1C2H3* + CO
 degeneracy: 1.0
-long_description: |2
-
-  617
+long_description: "\n617\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2868,9 +2554,7 @@ kinetics:
 ---
 label: INDENYL + HO2 => n-C8H7 + CO + OH
 degeneracy: 1.0
-long_description: |2
-
-  618
+long_description: "\n618\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2888,9 +2572,7 @@ kinetics:
 ---
 label: INDENYL + HO2 => A1C2H + CO + H2O
 degeneracy: 1.0
-long_description: |2
-
-  619
+long_description: "\n619\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2908,9 +2590,7 @@ kinetics:
 ---
 label: INDENYL + HO2 => A1C2H3* + CO + OH
 degeneracy: 1.0
-long_description: |2
-
-  620
+long_description: "\n620\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2928,9 +2608,7 @@ kinetics:
 ---
 label: A1- + A1 <=> P2 + H
 degeneracy: 1.0
-long_description: |2
-
-  621
+long_description: "\n621\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2947,9 +2625,7 @@ kinetics:
 ---
 label: INDENYL + H2CCCH => P2
 degeneracy: 1.0
-long_description: |2
-
-  622
+long_description: "\n622\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2967,9 +2643,7 @@ kinetics:
 ---
 label: INDENE + H2CCCH => P2 + H
 degeneracy: 1.0
-long_description: |2
-
-  623
+long_description: "\n623\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -2987,9 +2661,7 @@ kinetics:
 ---
 label: A1- + A1- <=> P2
 degeneracy: 1.0
-long_description: |2
-
-  624
+long_description: "\n624\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3006,9 +2678,7 @@ kinetics:
 ---
 label: A1- + A1- <=> P2- + H
 degeneracy: 1.0
-long_description: |2
-
-  625
+long_description: "\n625\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3025,9 +2695,7 @@ kinetics:
 ---
 label: P2 <=> P2- + H
 degeneracy: 1.0
-long_description: |2
-
-  626
+long_description: "\n626\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3044,9 +2712,7 @@ kinetics:
 ---
 label: P2 <=> INDENE + C3H2
 degeneracy: 1.0
-long_description: |2
-
-  627
+long_description: "\n627\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3063,9 +2729,7 @@ kinetics:
 ---
 label: P2- + O2 <=> A2 + HCO + CO
 degeneracy: 1.0
-long_description: |2
-
-  628
+long_description: "\n628\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3082,9 +2746,7 @@ kinetics:
 ---
 label: P2 + H <=> P2- + H2
 degeneracy: 1.0
-long_description: |2
-
-  629
+long_description: "\n629\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3101,9 +2763,7 @@ kinetics:
 ---
 label: P2 + OH <=> P2- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  630
+long_description: "\n630\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3120,9 +2780,7 @@ kinetics:
 ---
 label: i-C4H5 + A1 => A2 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  631
+long_description: "\n631\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3140,9 +2798,7 @@ kinetics:
 ---
 label: C4H6 + A1- => A2 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  632
+long_description: "\n632\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3160,9 +2816,7 @@ kinetics:
 ---
 label: A1- + H2CCCCH <=> A2
 degeneracy: 1.0
-long_description: |2
-
-  633
+long_description: "\n633\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3179,9 +2833,7 @@ kinetics:
 ---
 label: A1- + H2CCCCH <=> A2- + H
 degeneracy: 1.0
-long_description: |2
-
-  634
+long_description: "\n634\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3198,9 +2850,7 @@ kinetics:
 ---
 label: A1- + C4H4 <=> A2 + H
 degeneracy: 1.0
-long_description: |2
-
-  635
+long_description: "\n635\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3217,9 +2867,7 @@ kinetics:
 ---
 label: C7H7 + H2CCCH => A2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  636
+long_description: "\n636\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3237,9 +2885,7 @@ kinetics:
 ---
 label: A1C2H- + C2H2 <=> A2-
 degeneracy: 1.0
-long_description: |2
-
-  637
+long_description: "\n637\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3256,9 +2902,7 @@ kinetics:
 ---
 label: A1C2H3* + C2H2 <=> A2 + H
 degeneracy: 1.0
-long_description: |2
-
-  638
+long_description: "\n638\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3275,9 +2919,7 @@ kinetics:
 ---
 label: n-C8H7 + C2H2 <=> A2 + H
 degeneracy: 1.0
-long_description: |2
-
-  639
+long_description: "\n639\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3294,10 +2936,7 @@ kinetics:
 ---
 label: INDENYL + CH3 <=> A2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  640
-  Rxn 640 commented out because k>Z for T>2000 K
+long_description: "\n640\nRxn 640 commented out because k>Z for T>2000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3310,15 +2949,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    640
-    Rxn 640 commented out because k>Z for T>2000 K
+  comment: "640\nRxn 640 commented out because k>Z for T>2000 K"
 ---
 label: INDENE + CH2 => A2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  641
+long_description: "\n641\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3336,9 +2971,7 @@ kinetics:
 ---
 label: INDENE + CH2(S) <=> A2 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  642
+long_description: "\n642\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3355,9 +2988,7 @@ kinetics:
 ---
 label: A2 + O <=> CH2CO + A1C2H
 degeneracy: 1.0
-long_description: |2
-
-  643
+long_description: "\n643\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3374,9 +3005,7 @@ kinetics:
 ---
 label: A2 + O => INDENYL + CO + H
 degeneracy: 1.0
-long_description: |2
-
-  644
+long_description: "\n644\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3394,9 +3023,7 @@ kinetics:
 ---
 label: A2 + O <=> n-C8H7 + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  645
+long_description: "\n645\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3413,9 +3040,7 @@ kinetics:
 ---
 label: A2 + O <=> A1C2H3* + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  646
+long_description: "\n646\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3432,9 +3057,7 @@ kinetics:
 ---
 label: A2 + O <=> A2- + OH
 degeneracy: 1.0
-long_description: |2
-
-  647
+long_description: "\n647\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3451,9 +3074,7 @@ kinetics:
 ---
 label: A2 + H <=> A2- + H2
 degeneracy: 1.0
-long_description: |2
-
-  648
+long_description: "\n648\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3470,9 +3091,7 @@ kinetics:
 ---
 label: A2 + OH <=> A2- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  649
+long_description: "\n649\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3489,9 +3108,7 @@ kinetics:
 ---
 label: A2 + OH => A1C2H + CH2CO + H
 degeneracy: 1.0
-long_description: |2
-
-  650
+long_description: "\n650\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3509,9 +3126,7 @@ kinetics:
 ---
 label: A2 + CH3 <=> A2- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  651
+long_description: "\n651\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3528,9 +3143,7 @@ kinetics:
 ---
 label: A2 + C2H <=> A2- + C2H2
 degeneracy: 1.0
-long_description: |2
-
-  652
+long_description: "\n652\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3547,9 +3160,7 @@ kinetics:
 ---
 label: A2 + C2H <=> A2C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  653
+long_description: "\n653\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3566,9 +3177,7 @@ kinetics:
 ---
 label: A2- + O2 => A1C2H + HCO + CO
 degeneracy: 1.0
-long_description: |2
-
-  654
+long_description: "\n654\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3586,9 +3195,7 @@ kinetics:
 ---
 label: A2- + O => INDENYL + CO
 degeneracy: 1.0
-long_description: |2
-
-  655
+long_description: "\n655\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3606,9 +3213,7 @@ kinetics:
 ---
 label: A2- + H <=> A2
 degeneracy: 1.0
-long_description: |2
-
-  656
+long_description: "\n656\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3625,9 +3230,7 @@ kinetics:
 ---
 label: A2- + HO2 => INDENYL + CO + OH
 degeneracy: 1.0
-long_description: |2
-
-  657
+long_description: "\n657\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3645,9 +3248,7 @@ kinetics:
 ---
 label: A2- + C2H2 <=> A2C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  658
+long_description: "\n658\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3664,9 +3265,7 @@ kinetics:
 ---
 label: A2C2H + H <=> A2C2H* + H2
 degeneracy: 1.0
-long_description: |2
-
-  659
+long_description: "\n659\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3683,9 +3282,7 @@ kinetics:
 ---
 label: A2C2H + OH <=> A2- + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  660
+long_description: "\n660\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3702,9 +3299,7 @@ kinetics:
 ---
 label: A2C2H + OH <=> A2C2H* + H2O
 degeneracy: 1.0
-long_description: |2
-
-  661
+long_description: "\n661\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3721,9 +3316,7 @@ kinetics:
 ---
 label: INDENYL + H2CCCH => A2C2H + H + H
 degeneracy: 1.0
-long_description: |2
-
-  662
+long_description: "\n662\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -3741,9 +3334,7 @@ kinetics:
 ---
 label: A2 + CH2 <=> A2CH3
 degeneracy: 1.0
-long_description: |2
-
-  663
+long_description: "\n663\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3760,9 +3351,7 @@ kinetics:
 ---
 label: A2 + CH2(S) <=> A2CH3
 degeneracy: 1.0
-long_description: |2
-
-  664
+long_description: "\n664\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3779,9 +3368,7 @@ kinetics:
 ---
 label: A2CH3 <=> A2- + CH3
 degeneracy: 1.0
-long_description: |2
-
-  665
+long_description: "\n665\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3798,9 +3385,7 @@ kinetics:
 ---
 label: A2CH3 <=> A2CH2 + H
 degeneracy: 1.0
-long_description: |2
-
-  666
+long_description: "\n666\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3817,9 +3402,7 @@ kinetics:
 ---
 label: A2CH3 + O2 <=> A2CH2 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  667
+long_description: "\n667\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3836,9 +3419,7 @@ kinetics:
 ---
 label: A2CH3 + O <=> A2CH2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  668
+long_description: "\n668\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3855,9 +3436,7 @@ kinetics:
 ---
 label: A2CH3 + H <=> A2CH2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  669
+long_description: "\n669\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3874,9 +3453,7 @@ kinetics:
 ---
 label: A2CH3 + H <=> A2 + CH3
 degeneracy: 1.0
-long_description: |2
-
-  670
+long_description: "\n670\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3893,9 +3470,7 @@ kinetics:
 ---
 label: A2CH3 + OH <=> A2CH2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  671
+long_description: "\n671\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3912,9 +3487,7 @@ kinetics:
 ---
 label: A2CH3 + HO2 <=> A2CH2 + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  672
+long_description: "\n672\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3931,9 +3504,7 @@ kinetics:
 ---
 label: A2CH3 + CH3 <=> A2CH2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  673
+long_description: "\n673\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3950,9 +3521,7 @@ kinetics:
 ---
 label: A2CH2 + O <=> A2- + CH2O
 degeneracy: 1.0
-long_description: |2
-
-  674
+long_description: "\n674\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3969,9 +3538,7 @@ kinetics:
 ---
 label: A2CH2 + HO2 <=> A2- + CH2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  675
+long_description: "\n675\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3988,9 +3555,7 @@ kinetics:
 ---
 label: A2CH2 + CH2 <=> A2C2H + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  676
+long_description: "\n676\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4007,9 +3572,7 @@ kinetics:
 ---
 label: A2CH2 + H2CCCH <=> A3 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  677
+long_description: "\n677\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4026,9 +3589,7 @@ kinetics:
 ---
 label: A1C2H- + C4H4 <=> A2R5 + H
 degeneracy: 1.0
-long_description: |2
-
-  678
+long_description: "\n678\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4045,9 +3606,7 @@ kinetics:
 ---
 label: A1C2H3* + C4H2 <=> A2R5 + H
 degeneracy: 1.0
-long_description: |2
-
-  679
+long_description: "\n679\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4064,9 +3623,7 @@ kinetics:
 ---
 label: n-C8H7 + C4H2 <=> A2R5 + H
 degeneracy: 1.0
-long_description: |2
-
-  680
+long_description: "\n680\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4083,9 +3640,7 @@ kinetics:
 ---
 label: INDENYL + H2CCCH => A2R5 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  681
+long_description: "\n681\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4103,9 +3658,7 @@ kinetics:
 ---
 label: INDENE + H2CCCH => A2R5 + H + H2
 degeneracy: 1.0
-long_description: |2
-
-  682
+long_description: "\n682\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4123,9 +3676,7 @@ kinetics:
 ---
 label: INDENYL + H2CCCH <=> A2R5 + H2
 degeneracy: 1.0
-long_description: |2
-
-  683
+long_description: "\n683\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4142,9 +3693,7 @@ kinetics:
 ---
 label: A2- + C2H2 <=> A2R5 + H
 degeneracy: 1.0
-long_description: |2
-
-  684
+long_description: "\n684\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4161,9 +3710,7 @@ kinetics:
 ---
 label: A2C2H* + H <=> A2R5
 degeneracy: 1.0
-long_description: |2
-
-  685
+long_description: "\n685\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4180,9 +3727,7 @@ kinetics:
 ---
 label: A2C2H + H <=> A2R5 + H
 degeneracy: 1.0
-long_description: |2
-
-  686
+long_description: "\n686\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4199,9 +3744,7 @@ kinetics:
 ---
 label: A2R5- + H <=> A2R5
 degeneracy: 1.0
-long_description: |2
-
-  687
+long_description: "\n687\n"
 kinetics:
   type: Troe
   alpha: 1.0
@@ -4244,9 +3787,7 @@ kinetics:
 ---
 label: A2R5 <=> A1C2H + C4H2
 degeneracy: 1.0
-long_description: |2
-
-  688
+long_description: "\n688\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4263,9 +3804,7 @@ kinetics:
 ---
 label: A2R5 + O <=> A2R5- + OH
 degeneracy: 1.0
-long_description: |2
-
-  689
+long_description: "\n689\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4282,9 +3821,7 @@ kinetics:
 ---
 label: A2R5 + O => A2- + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  690
+long_description: "\n690\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4302,9 +3839,7 @@ kinetics:
 ---
 label: A2R5 + H <=> A2R5- + H2
 degeneracy: 1.0
-long_description: |2
-
-  691
+long_description: "\n691\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4321,9 +3856,7 @@ kinetics:
 ---
 label: A2R5 + OH <=> A2R5- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  692
+long_description: "\n692\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4340,9 +3873,7 @@ kinetics:
 ---
 label: A2R5 + OH <=> A2- + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  693
+long_description: "\n693\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4359,9 +3890,7 @@ kinetics:
 ---
 label: A1C2H + A1- <=> A3 + H
 degeneracy: 1.0
-long_description: |2
-
-  694
+long_description: "\n694\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4378,9 +3907,7 @@ kinetics:
 ---
 label: A1C2H- + A1 <=> A3 + H
 degeneracy: 1.0
-long_description: |2
-
-  695
+long_description: "\n695\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4397,9 +3924,7 @@ kinetics:
 ---
 label: A2- + C4H4 <=> A3 + H
 degeneracy: 1.0
-long_description: |2
-
-  696
+long_description: "\n696\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4416,9 +3941,7 @@ kinetics:
 ---
 label: A2- + C4H2 <=> A3-
 degeneracy: 1.0
-long_description: |2
-
-  697
+long_description: "\n697\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4435,9 +3958,7 @@ kinetics:
 ---
 label: P2- + C2H2 <=> A3 + H
 degeneracy: 1.0
-long_description: |2
-
-  698
+long_description: "\n698\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4454,9 +3975,7 @@ kinetics:
 ---
 label: A2C2H* + C2H2 <=> A3-
 degeneracy: 1.0
-long_description: |2
-
-  699
+long_description: "\n699\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4473,9 +3992,7 @@ kinetics:
 ---
 label: A2R5- + C2H2 <=> A3-
 degeneracy: 1.0
-long_description: |2
-
-  700
+long_description: "\n700\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4492,9 +4009,7 @@ kinetics:
 ---
 label: A2R5 + C2H2 => A3
 degeneracy: 1.0
-long_description: |2
-
-  701
+long_description: "\n701\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4512,9 +4027,7 @@ kinetics:
 ---
 label: A2 + C4H2 => A3
 degeneracy: 1.0
-long_description: |2
-
-  702
+long_description: "\n702\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4532,9 +4045,7 @@ kinetics:
 ---
 label: A3 + O <=> A2C2H + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  703
+long_description: "\n703\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4551,9 +4062,7 @@ kinetics:
 ---
 label: A3 + O <=> A3- + OH
 degeneracy: 1.0
-long_description: |2
-
-  704
+long_description: "\n704\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4570,9 +4079,7 @@ kinetics:
 ---
 label: A3 + O => HCCO + P2-
 degeneracy: 1.0
-long_description: |2
-
-  705
+long_description: "\n705\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4590,9 +4097,7 @@ kinetics:
 ---
 label: A3 + H <=> A3- + H2
 degeneracy: 1.0
-long_description: |2
-
-  706
+long_description: "\n706\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4609,10 +4114,7 @@ kinetics:
 ---
 label: A3 + OH <=> A3- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  707
-  Rxn 707 commented out because k>Z for T>2000 K
+long_description: "\n707\nRxn 707 commented out because k>Z for T>2000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4625,15 +4127,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    707
-    Rxn 707 commented out because k>Z for T>2000 K
+  comment: "707\nRxn 707 commented out because k>Z for T>2000 K"
 ---
 label: A3 + OH => A2C2H + CH2CO + H
 degeneracy: 1.0
-long_description: |2
-
-  708
+long_description: "\n708\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4651,9 +4149,7 @@ kinetics:
 ---
 label: A3 + OH <=> CH2CO + P2-
 degeneracy: 1.0
-long_description: |2
-
-  709
+long_description: "\n709\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4670,9 +4166,7 @@ kinetics:
 ---
 label: A3 + CH3 <=> A3- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  710
+long_description: "\n710\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4689,9 +4183,7 @@ kinetics:
 ---
 label: A3 + C2H <=> A3C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  711
+long_description: "\n711\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4708,9 +4200,7 @@ kinetics:
 ---
 label: A3C2H + H <=> A3C2H* + H2
 degeneracy: 1.0
-long_description: |2
-
-  712
+long_description: "\n712\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4727,9 +4217,7 @@ kinetics:
 ---
 label: A3C2H + OH <=> A3- + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  713
+long_description: "\n713\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4746,9 +4234,7 @@ kinetics:
 ---
 label: A3- + O2 => CO + HCO + A2R5
 degeneracy: 1.0
-long_description: |2
-
-  714
+long_description: "\n714\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -4766,9 +4252,7 @@ kinetics:
 ---
 label: A3- + H <=> A3
 degeneracy: 1.0
-long_description: |2
-
-  715
+long_description: "\n715\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4785,9 +4269,7 @@ kinetics:
 ---
 label: A3- + C2H2 <=> A3C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  716
+long_description: "\n716\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4804,9 +4286,7 @@ kinetics:
 ---
 label: A3 + CH2 <=> A3CH3
 degeneracy: 1.0
-long_description: |2
-
-  717
+long_description: "\n717\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4823,9 +4303,7 @@ kinetics:
 ---
 label: A3 + CH2(S) <=> A3CH3
 degeneracy: 1.0
-long_description: |2
-
-  718
+long_description: "\n718\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4842,9 +4320,7 @@ kinetics:
 ---
 label: A3CH2 + H <=> A3- + CH3
 degeneracy: 1.0
-long_description: |2
-
-  719
+long_description: "\n719\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4861,9 +4337,7 @@ kinetics:
 ---
 label: A3CH3 <=> A3CH2 + H
 degeneracy: 1.0
-long_description: |2
-
-  720
+long_description: "\n720\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4880,9 +4354,7 @@ kinetics:
 ---
 label: A3CH3 + O2 <=> A3CH2 + HO2
 degeneracy: 1.0
-long_description: |2
-
-  721
+long_description: "\n721\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4899,9 +4371,7 @@ kinetics:
 ---
 label: A3CH3 + O <=> A3CH2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  722
+long_description: "\n722\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4918,9 +4388,7 @@ kinetics:
 ---
 label: A3CH2 + O <=> A3- + CH2O
 degeneracy: 1.0
-long_description: |2
-
-  723
+long_description: "\n723\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4937,9 +4405,7 @@ kinetics:
 ---
 label: A3CH3 + H <=> A3CH2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  724
+long_description: "\n724\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4956,9 +4422,7 @@ kinetics:
 ---
 label: A3CH3 + H <=> A3 + CH3
 degeneracy: 1.0
-long_description: |2
-
-  725
+long_description: "\n725\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4975,9 +4439,7 @@ kinetics:
 ---
 label: A3CH3 + OH <=> A3CH2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  726
+long_description: "\n726\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4994,9 +4456,7 @@ kinetics:
 ---
 label: A3CH3 + HO2 <=> A3CH2 + H2O2
 degeneracy: 1.0
-long_description: |2
-
-  727
+long_description: "\n727\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5013,9 +4473,7 @@ kinetics:
 ---
 label: A3CH3 + CH3 <=> A3CH2 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  728
+long_description: "\n728\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5032,9 +4490,7 @@ kinetics:
 ---
 label: A3CH2 + HO2 => A3- + CH2O + OH
 degeneracy: 1.0
-long_description: |2
-
-  729
+long_description: "\n729\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5052,9 +4508,7 @@ kinetics:
 ---
 label: A3CH2 + CH2 <=> A4 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  730
+long_description: "\n730\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5071,9 +4525,7 @@ kinetics:
 ---
 label: C4H2 + A2R5 => A4
 degeneracy: 1.0
-long_description: |2
-
-  731
+long_description: "\n731\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5091,9 +4543,7 @@ kinetics:
 ---
 label: A1C2H + A1C2H- <=> A4 + H
 degeneracy: 1.0
-long_description: |2
-
-  732
+long_description: "\n732\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5110,9 +4560,7 @@ kinetics:
 ---
 label: n-C8H7 + A1C2H => A4 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  733
+long_description: "\n733\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5130,9 +4578,7 @@ kinetics:
 ---
 label: A1C2H3* + A1C2H => A4 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  734
+long_description: "\n734\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5150,9 +4596,7 @@ kinetics:
 ---
 label: INDENYL + C7H7 => A4 + H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  735
+long_description: "\n735\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5170,9 +4614,7 @@ kinetics:
 ---
 label: INDENYL + INDENYL => A4 + C2H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  736
+long_description: "\n736\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5190,9 +4632,7 @@ kinetics:
 ---
 label: A2 + C6H <=> A4-
 degeneracy: 1.0
-long_description: |2
-
-  737
+long_description: "\n737\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5209,9 +4649,7 @@ kinetics:
 ---
 label: A2 + A1- <=> A4 + H + H2
 degeneracy: 1.0
-long_description: |2
-
-  738
+long_description: "\n738\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5228,9 +4666,7 @@ kinetics:
 ---
 label: A2- + A1 <=> A4 + H + H2
 degeneracy: 1.0
-long_description: |2
-
-  739
+long_description: "\n739\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5247,9 +4683,7 @@ kinetics:
 ---
 label: A2- + A1- => A4 + H2
 degeneracy: 1.0
-long_description: |2
-
-  740
+long_description: "\n740\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5267,9 +4701,7 @@ kinetics:
 ---
 label: A2- + C6H2 <=> A4-
 degeneracy: 1.0
-long_description: |2
-
-  741
+long_description: "\n741\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5286,9 +4718,7 @@ kinetics:
 ---
 label: A2C2H* + C4H4 <=> A4 + H
 degeneracy: 1.0
-long_description: |2
-
-  742
+long_description: "\n742\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5305,9 +4735,7 @@ kinetics:
 ---
 label: A2R5- + C4H2 => A4-
 degeneracy: 1.0
-long_description: |2
-
-  743
+long_description: "\n743\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5325,9 +4753,7 @@ kinetics:
 ---
 label: A2R5- + H2CCCCH <=> A4
 degeneracy: 1.0
-long_description: |2
-
-  744
+long_description: "\n744\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5344,9 +4770,7 @@ kinetics:
 ---
 label: A3- + C2H2 <=> A4 + H
 degeneracy: 1.0
-long_description: |2
-
-  745
+long_description: "\n745\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5363,9 +4787,7 @@ kinetics:
 ---
 label: A3C2H + H <=> A4 + H
 degeneracy: 1.0
-long_description: |2
-
-  746
+long_description: "\n746\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5382,9 +4804,7 @@ kinetics:
 ---
 label: A4 + O <=> A3- + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  747
+long_description: "\n747\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5401,9 +4821,7 @@ kinetics:
 ---
 label: A4 + H <=> A4- + H2
 degeneracy: 1.0
-long_description: |2
-
-  748
+long_description: "\n748\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5420,9 +4838,7 @@ kinetics:
 ---
 label: A4 + OH <=> A4- + H2O
 degeneracy: 1.0
-long_description: |2
-
-  749
+long_description: "\n749\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5439,9 +4855,7 @@ kinetics:
 ---
 label: A4 + OH <=> A3- + CH2CO
 degeneracy: 1.0
-long_description: |2
-
-  750
+long_description: "\n750\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5458,9 +4872,7 @@ kinetics:
 ---
 label: A4 + CH3 <=> A4- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  751
+long_description: "\n751\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5477,9 +4889,7 @@ kinetics:
 ---
 label: A4- + O2 <=> CO + CO + A3-
 degeneracy: 1.0
-long_description: |2
-
-  752
+long_description: "\n752\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5496,9 +4906,7 @@ kinetics:
 ---
 label: A4- + H <=> A4
 degeneracy: 1.0
-long_description: |2
-
-  753
+long_description: "\n753\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5515,9 +4923,7 @@ kinetics:
 ---
 label: A4- + C2H2 <=> A4C2H + H
 degeneracy: 1.0
-long_description: |2
-
-  754
+long_description: "\n754\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5534,9 +4940,7 @@ kinetics:
 ---
 label: A4C2H + H <=> A4C2H* + H2
 degeneracy: 1.0
-long_description: |2
-
-  755
+long_description: "\n755\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5553,9 +4957,7 @@ kinetics:
 ---
 label: A4C2H + H <=> BGHIF + H
 degeneracy: 1.0
-long_description: |2
-
-  756
+long_description: "\n756\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5572,9 +4974,7 @@ kinetics:
 ---
 label: A4C2H* + H <=> BGHIF
 degeneracy: 1.0
-long_description: |2
-
-  757
+long_description: "\n757\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5591,9 +4991,7 @@ kinetics:
 ---
 label: P2 + C6H <=> C18H11
 degeneracy: 1.0
-long_description: |2
-
-  758
+long_description: "\n758\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5610,9 +5008,7 @@ kinetics:
 ---
 label: P2- + C6H2 <=> BGHIF + H
 degeneracy: 1.0
-long_description: |2
-
-  759
+long_description: "\n759\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5629,9 +5025,7 @@ kinetics:
 ---
 label: P2- + C6H2 <=> C18H11
 degeneracy: 1.0
-long_description: |2
-
-  760
+long_description: "\n760\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5648,9 +5042,7 @@ kinetics:
 ---
 label: A3- + C4H4 <=> C18H12 + H
 degeneracy: 1.0
-long_description: |2
-
-  761
+long_description: "\n761\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5667,9 +5059,7 @@ kinetics:
 ---
 label: A3C2H* + C2H2 <=> BGHIF + H
 degeneracy: 1.0
-long_description: |2
-
-  762
+long_description: "\n762\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5686,9 +5076,7 @@ kinetics:
 ---
 label: A2R5 + C6H2 => BGHIF
 degeneracy: 1.0
-long_description: |2
-
-  763
+long_description: "\n763\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5706,9 +5094,7 @@ kinetics:
 ---
 label: A1C2H- + A2 => BGHIF + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  764
+long_description: "\n764\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5726,9 +5112,7 @@ kinetics:
 ---
 label: A1C2H + A2- => BGHIF + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  765
+long_description: "\n765\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5746,9 +5130,7 @@ kinetics:
 ---
 label: INDENE + INDENYL => C18H12 + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  766
+long_description: "\n766\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5766,9 +5148,7 @@ kinetics:
 ---
 label: INDENYL + INDENYL => BGHIF + H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  767
+long_description: "\n767\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5786,9 +5166,7 @@ kinetics:
 ---
 label: A2 + C8H2 => BGHIF
 degeneracy: 1.0
-long_description: |2
-
-  768
+long_description: "\n768\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5806,9 +5184,7 @@ kinetics:
 ---
 label: A2C2H + A1- <=> C18H12 + H
 degeneracy: 1.0
-long_description: |2
-
-  769
+long_description: "\n769\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5825,9 +5201,7 @@ kinetics:
 ---
 label: A2C2H* + A1 <=> C18H12 + H
 degeneracy: 1.0
-long_description: |2
-
-  770
+long_description: "\n770\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5844,9 +5218,7 @@ kinetics:
 ---
 label: A2R5- + A1 => BGHIF + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  771
+long_description: "\n771\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5864,9 +5236,7 @@ kinetics:
 ---
 label: A3C2H* + C4H4 <=> BAPYR + H
 degeneracy: 1.0
-long_description: |2
-
-  772
+long_description: "\n772\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5883,9 +5253,7 @@ kinetics:
 ---
 label: A4- + C4H4 <=> BAPYR + H
 degeneracy: 1.0
-long_description: |2
-
-  773
+long_description: "\n773\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5902,9 +5270,7 @@ kinetics:
 ---
 label: A4C2H* + C2H2 <=> BAPYR*S
 degeneracy: 1.0
-long_description: |2
-
-  774
+long_description: "\n774\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5921,9 +5287,7 @@ kinetics:
 ---
 label: BAPYR*S + H <=> BAPYR
 degeneracy: 1.0
-long_description: |2
-
-  775
+long_description: "\n775\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5940,9 +5304,7 @@ kinetics:
 ---
 label: P2 + A1C2H- => BAPYR + H2 + H
 degeneracy: 1.0
-long_description: |2
-
-  776
+long_description: "\n776\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5960,9 +5322,7 @@ kinetics:
 ---
 label: P2- + A1C2H3* => BAPYR + H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  777
+long_description: "\n777\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -5980,9 +5340,7 @@ kinetics:
 ---
 label: P2- + n-C8H7 => BAPYR + H2 + H2
 degeneracy: 1.0
-long_description: |2
-
-  778
+long_description: "\n778\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6000,9 +5358,7 @@ kinetics:
 ---
 label: A2R5- + A1C2H- <=> BAPYR
 degeneracy: 1.0
-long_description: |2
-
-  779
+long_description: "\n779\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6019,9 +5375,7 @@ kinetics:
 ---
 label: A2R5 + A1C2H- <=> BAPYR + H
 degeneracy: 1.0
-long_description: |2
-
-  780
+long_description: "\n780\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6038,9 +5392,7 @@ kinetics:
 ---
 label: A2R5- + A1C2H <=> BAPYR + H
 degeneracy: 1.0
-long_description: |2
-
-  781
+long_description: "\n781\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6057,9 +5409,7 @@ kinetics:
 ---
 label: C18H11 + O2 => HCO + CO + A4
 degeneracy: 1.0
-long_description: |2
-
-  782
+long_description: "\n782\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6077,9 +5427,7 @@ kinetics:
 ---
 label: C18H11 + H <=> BGHIF + H2
 degeneracy: 1.0
-long_description: |2
-
-  783
+long_description: "\n783\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6096,9 +5444,7 @@ kinetics:
 ---
 label: C18H11 + C2H => BAPYR
 degeneracy: 1.0
-long_description: |2
-
-  784
+long_description: "\n784\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6116,9 +5462,7 @@ kinetics:
 ---
 label: C18H11 + C2H2 <=> BAPYR + H
 degeneracy: 1.0
-long_description: |2
-
-  785
+long_description: "\n785\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6135,9 +5479,7 @@ kinetics:
 ---
 label: C18H12 + O <=> C18H11 + OH
 degeneracy: 1.0
-long_description: |2
-
-  786
+long_description: "\n786\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6154,9 +5496,7 @@ kinetics:
 ---
 label: C18H12 + H <=> C18H11 + H2
 degeneracy: 1.0
-long_description: |2
-
-  787
+long_description: "\n787\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6173,9 +5513,7 @@ kinetics:
 ---
 label: C18H12 + OH <=> C18H11 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  788
+long_description: "\n788\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6192,9 +5530,7 @@ kinetics:
 ---
 label: BGHIF + O <=> HCCO + A4-
 degeneracy: 1.0
-long_description: |2
-
-  789
+long_description: "\n789\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6211,9 +5547,7 @@ kinetics:
 ---
 label: BGHIF + OH <=> CH2CO + A4-
 degeneracy: 1.0
-long_description: |2
-
-  790
+long_description: "\n790\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6230,9 +5564,7 @@ kinetics:
 ---
 label: BAPYR*S + O2 => HCO + CO + BGHIF
 degeneracy: 1.0
-long_description: |2
-
-  791
+long_description: "\n791\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6250,9 +5582,7 @@ kinetics:
 ---
 label: C4H2 + A4 => BAPYR
 degeneracy: 1.0
-long_description: |2
-
-  792
+long_description: "\n792\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6270,9 +5600,7 @@ kinetics:
 ---
 label: BAPYR + O <=> HCCO + C18H11
 degeneracy: 1.0
-long_description: |2
-
-  793
+long_description: "\n793\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6289,9 +5617,7 @@ kinetics:
 ---
 label: BAPYR + OH => CH2CO + C18H11
 degeneracy: 1.0
-long_description: |2
-
-  794
+long_description: "\n794\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6323,23 +5649,8 @@ kinetics:
     T0:
     - 1.0
     - K
-    comment: |-
-      795
-      796
-      797
-      798
-      799
-      800
-      801
-      802
-      803
-      804
-      805
-      806
-      807
-      808
-      809
-      810
+    comment: "795\n796\n797\n798\n799\n800\n801\n802\n803\n804\n805\n806\n807\n808\n\
+      809\n810"
   - type: Arrhenius
     A:
     - 453000.0
@@ -6355,9 +5666,7 @@ kinetics:
 ---
 label: C5H5 + H2CCCH <=> A1C2H3
 degeneracy: 1.0
-long_description: |2
-
-  812
+long_description: "\n812\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6374,9 +5683,7 @@ kinetics:
 ---
 label: C5H5 + H2CCCCH <=> INDENE
 degeneracy: 1.0
-long_description: |2
-
-  813
+long_description: "\n813\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6393,9 +5700,7 @@ kinetics:
 ---
 label: C5H5 + C5H5 <=> INDENYL + CH3
 degeneracy: 1.0
-long_description: |2
-
-  814
+long_description: "\n814\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6412,9 +5717,7 @@ kinetics:
 ---
 label: C5H6 + CH3 <=> C5H5 + CH4
 degeneracy: 1.0
-long_description: |2
-
-  815
+long_description: "\n815\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6431,11 +5734,7 @@ kinetics:
 ---
 label: n-C8H7 + A1C2H- => A4 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  816
-  C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
-  817
+long_description: "\n816\nC5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00\n817\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6449,16 +5748,11 @@ kinetics:
   T0:
   - 1.0
   - K
-  comment: |-
-    816
-    C5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00
-    817
+  comment: "816\nC5H5+C5H6 = INDENE+CH3 9.630E+13 1.6300 29972.00\n817"
 ---
 label: INDENYL + C5H5 => A3 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  818
+long_description: "\n818\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6476,9 +5770,7 @@ kinetics:
 ---
 label: INDENYL + INDENYL => C18H12 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  819
+long_description: "\n819\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6496,9 +5788,7 @@ kinetics:
 ---
 label: A1C2H3* + A1C2H- <=> A4 + H + H
 degeneracy: 1.0
-long_description: |2
-
-  820
+long_description: "\n820\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6515,9 +5805,7 @@ kinetics:
 ---
 label: A2C2H* + n-C8H7 <=> BAPYR + H + H
 degeneracy: 1.0
-long_description: |2
-
-  821
+long_description: "\n821\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6534,9 +5822,7 @@ kinetics:
 ---
 label: A2C2H* + A1C2H3* <=> BAPYR + H + H
 degeneracy: 1.0
-long_description: |2
-
-  822
+long_description: "\n822\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6553,9 +5839,7 @@ kinetics:
 ---
 label: A2R5- + A1- => BGHIF + H + H
 degeneracy: 1.0
-long_description: |2
-
-  823
+long_description: "\n823\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6573,9 +5857,7 @@ kinetics:
 ---
 label: P2- + A1C2H- => BAPYR + H + H
 degeneracy: 1.0
-long_description: |2
-
-  824
+long_description: "\n824\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6593,9 +5875,7 @@ kinetics:
 ---
 label: A1C2H3 + CH3 <=> A1C2H3* + CH4
 degeneracy: 1.0
-long_description: |2
-
-  825
+long_description: "\n825\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6612,9 +5892,7 @@ kinetics:
 ---
 label: A2R5 + CH3 <=> A2R5- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  826
+long_description: "\n826\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6631,9 +5909,7 @@ kinetics:
 ---
 label: P2 + CH3 <=> P2- + CH4
 degeneracy: 1.0
-long_description: |2
-
-  827
+long_description: "\n827\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6650,9 +5926,7 @@ kinetics:
 ---
 label: A1 + O <=> C5H6 + CO
 degeneracy: 1.0
-long_description: |2
-
-  828
+long_description: "\n828\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6669,9 +5943,7 @@ kinetics:
 ---
 label: A2R5 + OH => A2 + HCCO
 degeneracy: 1.0
-long_description: |2
-
-  829
+long_description: "\n829\n"
 reversible: false
 kinetics:
   type: Arrhenius
@@ -6689,9 +5961,7 @@ kinetics:
 ---
 label: A1C2H3* + CH3 <=> INDENE + H2
 degeneracy: 1.0
-long_description: |2
-
-  830
+long_description: "\n830\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6708,9 +5978,7 @@ kinetics:
 ---
 label: C7H7 + CH3 <=> A1C2H3 + H2
 degeneracy: 1.0
-long_description: |2
-
-  831
+long_description: "\n831\n"
 kinetics:
   type: Arrhenius
   A:

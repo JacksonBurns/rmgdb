@@ -1,112 +1,53 @@
 label: acetone_methyl_criegee
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-  2  *6 O u0 p2 c0 {1,S} {3,S}
-  3  *5 O u0 p2 c0 {2,S} {4,S}
-  4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-  5  *3 O u0 p2 c0 {4,S} {11,S}
-  6  *2 C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}
-  7     C u0 p0 c0 {4,S} {15,S} {16,S} {17,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {1,S}
-  10    H u0 p0 c0 {1,S}
-  11 *4 H u0 p0 c0 {5,S}
-  12    H u0 p0 c0 {6,S}
-  13    H u0 p0 c0 {6,S}
-  14    H u0 p0 c0 {6,S}
-  15    H u0 p0 c0 {7,S}
-  16    H u0 p0 c0 {7,S}
-  17    H u0 p0 c0 {7,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}\n2  *6 O u0 p2 c0 {1,S}\
+  \ {3,S}\n3  *5 O u0 p2 c0 {2,S} {4,S}\n4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}\n\
+  5  *3 O u0 p2 c0 {4,S} {11,S}\n6  *2 C u0 p0 c0 {4,S} {12,S} {13,S} {14,S}\n7  \
+  \   C u0 p0 c0 {4,S} {15,S} {16,S} {17,S}\n8     H u0 p0 c0 {1,S}\n9     H u0 p0\
+  \ c0 {1,S}\n10    H u0 p0 c0 {1,S}\n11 *4 H u0 p0 c0 {5,S}\n12    H u0 p0 c0 {6,S}\n\
+  13    H u0 p0 c0 {6,S}\n14    H u0 p0 c0 {6,S}\n15    H u0 p0 c0 {7,S}\n16    H\
+  \ u0 p0 c0 {7,S}\n17    H u0 p0 c0 {7,S}\n"
 ---
 label: cyclohexanone_methyl_criegee
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-  2  *6 O u0 p2 c0 {1,S} {3,S}
-  3  *5 O u0 p2 c0 {2,S} {4,S}
-  4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}
-  5  *3 O u0 p2 c0 {4,S} {14,S}
-  6  *2 C u0 p0 c0 {4,S} {7,S} {15,S} {16,S}
-  7     C u0 p0 c0 {6,S} {8,S} {17,S} {18,S}
-  8     C u0 p0 c0 {7,S} {9,S} {19,S} {20,S}
-  9     C u0 p0 c0 {8,S} {10,S} {21,S} {22,S}
-  10    C u0 p0 c0 {4,S} {9,S} {23,S} {24,S}
-  11    H u0 p0 c0 {1,S}
-  12    H u0 p0 c0 {1,S}
-  13    H u0 p0 c0 {1,S}
-  14 *4 H u0 p0 c0 {5,S}
-  15    H u0 p0 c0 {6,S}
-  16    H u0 p0 c0 {6,S}
-  17    H u0 p0 c0 {7,S}
-  18    H u0 p0 c0 {7,S}
-  19    H u0 p0 c0 {8,S}
-  20    H u0 p0 c0 {8,S}
-  21    H u0 p0 c0 {9,S}
-  22    H u0 p0 c0 {9,S}
-  23    H u0 p0 c0 {10,S}
-  24    H u0 p0 c0 {10,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}\n2  *6 O u0 p2 c0 {1,S}\
+  \ {3,S}\n3  *5 O u0 p2 c0 {2,S} {4,S}\n4  *1 C u0 p0 c0 {3,S} {5,S} {6,S} {10,S}\n\
+  5  *3 O u0 p2 c0 {4,S} {14,S}\n6  *2 C u0 p0 c0 {4,S} {7,S} {15,S} {16,S}\n7   \
+  \  C u0 p0 c0 {6,S} {8,S} {17,S} {18,S}\n8     C u0 p0 c0 {7,S} {9,S} {19,S} {20,S}\n\
+  9     C u0 p0 c0 {8,S} {10,S} {21,S} {22,S}\n10    C u0 p0 c0 {4,S} {9,S} {23,S}\
+  \ {24,S}\n11    H u0 p0 c0 {1,S}\n12    H u0 p0 c0 {1,S}\n13    H u0 p0 c0 {1,S}\n\
+  14 *4 H u0 p0 c0 {5,S}\n15    H u0 p0 c0 {6,S}\n16    H u0 p0 c0 {6,S}\n17    H\
+  \ u0 p0 c0 {7,S}\n18    H u0 p0 c0 {7,S}\n19    H u0 p0 c0 {8,S}\n20    H u0 p0\
+  \ c0 {8,S}\n21    H u0 p0 c0 {9,S}\n22    H u0 p0 c0 {9,S}\n23    H u0 p0 c0 {10,S}\n\
+  24    H u0 p0 c0 {10,S}\n"
 ---
 label: acetic_acid1
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-  2 *7  C u0 p0 c0 {1,S} {3,D} {4,S}
-  3 *8  O u0 p2 c0 {2,D}
-  4 *9  O u0 p2 c0 {2,S} {8,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {1,S}
-  7     H u0 p0 c0 {1,S}
-  8 *10 H u0 p0 c0 {4,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}\n2 *7  C u0 p0 c0 {1,S}\
+  \ {3,D} {4,S}\n3 *8  O u0 p2 c0 {2,D}\n4 *9  O u0 p2 c0 {2,S} {8,S}\n5     H u0\
+  \ p0 c0 {1,S}\n6     H u0 p0 c0 {1,S}\n7     H u0 p0 c0 {1,S}\n8 *10 H u0 p0 c0\
+  \ {4,S}\n"
 ---
 label: acetic_acid2
-adjacency_list: |-
-  1    C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-  2 *7 C u0 p0 c0 {1,S} {3,D} {4,S}
-  3 *9 O u0 p2 c0 {2,D}
-  4 *8 O u0 p2 c0 {2,S} {8,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {1,S}
-  7    H u0 p0 c0 {1,S}
-  8 *4 H u0 p0 c0 {4,S}
+adjacency_list: "1    C u0 p0 c0 {2,S} {5,S} {6,S} {7,S}\n2 *7 C u0 p0 c0 {1,S} {3,D}\
+  \ {4,S}\n3 *9 O u0 p2 c0 {2,D}\n4 *8 O u0 p2 c0 {2,S} {8,S}\n5    H u0 p0 c0 {1,S}\n\
+  6    H u0 p0 c0 {1,S}\n7    H u0 p0 c0 {1,S}\n8 *4 H u0 p0 c0 {4,S}\n"
 ---
 label: methyl_acetate
-adjacency_list: |-
-  1  *2 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-  2  *5 O u0 p2 c0 {1,S} {3,S}
-  3  *1 C u0 p0 c0 {2,S} {4,D} {5,S}
-  4  *3 O u0 p2 c0 {3,D}
-  5     C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  6     H u0 p0 c0 {1,S}
-  7     H u0 p0 c0 {1,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {5,S}
-  10    H u0 p0 c0 {5,S}
-  11    H u0 p0 c0 {5,S}
+adjacency_list: "1  *2 C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}\n2  *5 O u0 p2 c0 {1,S}\
+  \ {3,S}\n3  *1 C u0 p0 c0 {2,S} {4,D} {5,S}\n4  *3 O u0 p2 c0 {3,D}\n5     C u0\
+  \ p0 c0 {3,S} {9,S} {10,S} {11,S}\n6     H u0 p0 c0 {1,S}\n7     H u0 p0 c0 {1,S}\n\
+  8     H u0 p0 c0 {1,S}\n9     H u0 p0 c0 {5,S}\n10    H u0 p0 c0 {5,S}\n11    H\
+  \ u0 p0 c0 {5,S}\n"
 ---
 label: caprolactone
-adjacency_list: |-
-  1  *1 C u0 p0 c0 {2,D} {3,S} {8,S}
-  2  *3 O u0 p2 c0 {1,D}
-  3  *5 O u0 p2 c0 {1,S} {4,S}
-  4  *2 C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}
-  5     C u0 p0 c0 {4,S} {6,S} {11,S} {12,S}
-  6     C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}
-  7     C u0 p0 c0 {6,S} {8,S} {15,S} {16,S}
-  8     C u0 p0 c0 {1,S} {7,S} {17,S} {18,S}
-  9     H u0 p0 c0 {4,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {5,S}
-  12    H u0 p0 c0 {5,S}
-  13    H u0 p0 c0 {6,S}
-  14    H u0 p0 c0 {6,S}
-  15    H u0 p0 c0 {7,S}
-  16    H u0 p0 c0 {7,S}
-  17    H u0 p0 c0 {8,S}
-  18    H u0 p0 c0 {8,S}
+adjacency_list: "1  *1 C u0 p0 c0 {2,D} {3,S} {8,S}\n2  *3 O u0 p2 c0 {1,D}\n3  *5\
+  \ O u0 p2 c0 {1,S} {4,S}\n4  *2 C u0 p0 c0 {3,S} {5,S} {9,S} {10,S}\n5     C u0\
+  \ p0 c0 {4,S} {6,S} {11,S} {12,S}\n6     C u0 p0 c0 {5,S} {7,S} {13,S} {14,S}\n\
+  7     C u0 p0 c0 {6,S} {8,S} {15,S} {16,S}\n8     C u0 p0 c0 {1,S} {7,S} {17,S}\
+  \ {18,S}\n9     H u0 p0 c0 {4,S}\n10    H u0 p0 c0 {4,S}\n11    H u0 p0 c0 {5,S}\n\
+  12    H u0 p0 c0 {5,S}\n13    H u0 p0 c0 {6,S}\n14    H u0 p0 c0 {6,S}\n15    H\
+  \ u0 p0 c0 {7,S}\n16    H u0 p0 c0 {7,S}\n17    H u0 p0 c0 {8,S}\n18    H u0 p0\
+  \ c0 {8,S}\n"
 ---
 label: methanol
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 *6  O u0 p2 c0 {1,S} {6,S}
-  3     H u0 p0 c0 {1,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6 *10 H u0 p0 c0 {2,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 *6  O u0 p2 c0 {1,S}\
+  \ {6,S}\n3     H u0 p0 c0 {1,S}\n4     H u0 p0 c0 {1,S}\n5     H u0 p0 c0 {1,S}\n\
+  6 *10 H u0 p0 c0 {2,S}\n"

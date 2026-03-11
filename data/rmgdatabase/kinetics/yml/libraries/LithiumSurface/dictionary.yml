@@ -1,148 +1,73 @@
 label: X
-adjacency_list: 1 X u0 p0 c0
+adjacency_list: "1 X u0 p0 c0\n"
 ---
 label: NCCH3
-adjacency_list: |-
-  1 N u0 p1 c0 {2,T}
-  2 C u0 p0 c0 {1,T} {3,S}
-  3 C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4 H u0 p0 c0 {3,S}
-  5 H u0 p0 c0 {3,S}
-  6 H u0 p0 c0 {3,S}
+adjacency_list: "1 N u0 p1 c0 {2,T}\n2 C u0 p0 c0 {1,T} {3,S}\n3 C u0 p0 c0 {2,S}\
+  \ {4,S} {5,S} {6,S}\n4 H u0 p0 c0 {3,S}\n5 H u0 p0 c0 {3,S}\n6 H u0 p0 c0 {3,S}\n"
 ---
 label: CH3X
-adjacency_list: |-
-  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
-  4 H u0 p0 c0 {1,S}
-  5 X u0 p0 c0 {1,S}
+adjacency_list: "1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 H u0 p0 c0 {1,S}\n3 H u0\
+  \ p0 c0 {1,S}\n4 H u0 p0 c0 {1,S}\n5 X u0 p0 c0 {1,S}\n"
 ---
 label: NCX
-adjacency_list: |-
-  1 N u0 p1 c0 {2,T}
-  2 C u0 p0 c0 {1,T} {3,S}
-  3 X u0 p0 c0 {2,S}
+adjacency_list: "1 N u0 p1 c0 {2,T}\n2 C u0 p0 c0 {1,T} {3,S}\n3 X u0 p0 c0 {2,S}\n"
 ---
 label: HX
-adjacency_list: |-
-  1 H u0 p0 c0 {2,S}
-  2 X u0 p0 c0 {1,S}
+adjacency_list: "1 H u0 p0 c0 {2,S}\n2 X u0 p0 c0 {1,S}\n"
 ---
 label: CH2CNX
-adjacency_list: |-
-  1 C u0 p0 c0 {2,S} {3,S} {4,D}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
-  4 C u0 p0 c0 {1,D} {5,D}
-  5 N u0 p1 c0 {4,D} {6,S}
-  6 X u0 p0 c0 {5,S}
+adjacency_list: "1 C u0 p0 c0 {2,S} {3,S} {4,D}\n2 H u0 p0 c0 {1,S}\n3 H u0 p0 c0\
+  \ {1,S}\n4 C u0 p0 c0 {1,D} {5,D}\n5 N u0 p1 c0 {4,D} {6,S}\n6 X u0 p0 c0 {5,S}\n"
 ---
 label: LiOCOOCH2CH2X
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 O u0 p2 c0 {1,S} {3,S}
-  3 C u0 p0 c0 {2,S} {4,D} {5,S}
-  4 O u0 p2 c0 {3,D}
-  5 O u0 p2 c0 {3,S} {6,S}
-  6 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-  7 H u0 p0 c0 {6,S}
-  8 H u0 p0 c0 {6,S}
-  9 C u0 p0 c0 {6,S} {10,S} {11,S} {12,S}
-  10 H u0 p0 c0 {9,S}
-  11 H u0 p0 c0 {9,S}
-  12 X u0 p0 c0 {9,S}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0 {2,S}\
+  \ {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {6,S}\n6 C u0 p0 c0 {5,S}\
+  \ {7,S} {8,S} {9,S}\n7 H u0 p0 c0 {6,S}\n8 H u0 p0 c0 {6,S}\n9 C u0 p0 c0 {6,S}\
+  \ {10,S} {11,S} {12,S}\n10 H u0 p0 c0 {9,S}\n11 H u0 p0 c0 {9,S}\n12 X u0 p0 c0\
+  \ {9,S}\n"
 ---
 label: LiOCH2CH2X
 adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0 {2,S}\
   \ {4,S} {5,S} {6,S}\n4 H u0 p0 c0 {3,S}\n5 H u0 p0 c0 {3,S} \n6 C u0 p0 c0 {3,S}\
-  \ {7,S} {8,S} {9,S}\n7 H u0 p0 c0 {6,S}\n8 H u0 p0 c0 {6,S}\n9 X u0 p0 c0 {6,S}"
+  \ {7,S} {8,S} {9,S}\n7 H u0 p0 c0 {6,S}\n8 H u0 p0 c0 {6,S}\n9 X u0 p0 c0 {6,S}\n"
 ---
 label: CO2
-adjacency_list: |-
-  1 O u0 p2 c0 {2,D}
-  2 C u0 p0 c0 {1,D} {3,D}
-  3 O u0 p2 c0 {2,D}
+adjacency_list: "1 O u0 p2 c0 {2,D}\n2 C u0 p0 c0 {1,D} {3,D}\n3 O u0 p2 c0 {2,D}\n"
 ---
 label: C2H4
-adjacency_list: |-
-  1 C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 C u0 p0 c0 {1,D} {5,S} {6,S}
-  3 H u0 p0 c0 {1,S}
-  4 H u0 p0 c0 {1,S}
-  5 H u0 p0 c0 {2,S}
-  6 H u0 p0 c0 {2,S}
+adjacency_list: "1 C u0 p0 c0 {2,D} {3,S} {4,S}\n2 C u0 p0 c0 {1,D} {5,S} {6,S}\n\
+  3 H u0 p0 c0 {1,S}\n4 H u0 p0 c0 {1,S}\n5 H u0 p0 c0 {2,S}\n6 H u0 p0 c0 {2,S}\n"
 ---
 label: LiOCOOX
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 O u0 p2 c0 {1,S} {3,S}
-  3 C u0 p0 c0 {2,S} {4,D} {5,S}
-  4 O u0 p2 c0 {3,D}
-  5 O u0 p2 c0 {3,S} {6,S}
-  6 X u0 p0 c0 {5,S}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0 {2,S}\
+  \ {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {6,S}\n6 X u0 p0 c0 {5,S}\n"
 ---
 label: LiOX
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 O u0 p2 c0 {1,S} {3,S}
-  3 X u0 p0 c0 {2,S}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 X u0 p0 c0 {2,S}\n"
 ---
 label: LiOCOOCH2CH2OCOOLi
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 O u0 p2 c0 {1,S} {3,S}
-  3 C u0 p0 c0 {2,S} {4,D} {5,S}
-  4 O u0 p2 c0 {3,D}
-  5 O u0 p2 c0 {3,S} {6,S}
-  6 C u0 p0 c0 {5,S} {7,S} {8,S} {9,S}
-  7 H u0 p0 c0 {6,S}
-  8 H u0 p0 c0 {6,S}
-  9 C u0 p0 c0 {6,S} {10,S} {11,S} {12,S}
-  10 H u0 p0 c0 {9,S}
-  11 H u0 p0 c0 {9,S}
-  12 O u0 p2 c0 {9,S} {13,S}
-  13 C u0 p0 c0 {12,S} {14,D} {15,S}
-  14 O u0 p2 c0 {13,D}
-  15 O u0 p2 c0 {13,S} {16,S}
-  16 Li u0 p0 c0 {15,S}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0 {2,S}\
+  \ {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {6,S}\n6 C u0 p0 c0 {5,S}\
+  \ {7,S} {8,S} {9,S}\n7 H u0 p0 c0 {6,S}\n8 H u0 p0 c0 {6,S}\n9 C u0 p0 c0 {6,S}\
+  \ {10,S} {11,S} {12,S}\n10 H u0 p0 c0 {9,S}\n11 H u0 p0 c0 {9,S}\n12 O u0 p2 c0\
+  \ {9,S} {13,S}\n13 C u0 p0 c0 {12,S} {14,D} {15,S}\n14 O u0 p2 c0 {13,D}\n15 O u0\
+  \ p2 c0 {13,S} {16,S}\n16 Li u0 p0 c0 {15,S}\n"
 ---
 label: XOCOOX
-adjacency_list: |-
-  1 X u0 p0 c0 {2,S}
-  2 O u0 p2 c0 {1,S} {3,S}
-  3 C u0 p0 c0 {2,S} {4,D} {5,S}
-  4 O u0 p2 c0 {3,D}
-  5 O u0 p2 c0 {3,S} {6,S}
-  6 X u0 p0 c0 {5,S}
+adjacency_list: "1 X u0 p0 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0 {2,S}\
+  \ {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {6,S}\n6 X u0 p0 c0 {5,S}\n"
 ---
 label: OX
-adjacency_list: |-
-  1 O u0 p2 c0 {2,D}
-  2 X u0 p0 c0 {1,D}
+adjacency_list: "1 O u0 p2 c0 {2,D}\n2 X u0 p0 c0 {1,D}\n"
 ---
 label: LiNCCH3X
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 N u0 p1 c0 {1,S} {3,D}
-  3 C u0 p0 c0 {2,D} {4,S} {5,S}
-  4 X u0 p0 c0 {3,S}
-  5 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-  6 H u0 p0 c0 {5,S}
-  7 H u0 p0 c0 {5,S}
-  8 H u0 p0 c0 {5,S}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 N u0 p1 c0 {1,S} {3,D}\n3 C u0 p0 c0 {2,D}\
+  \ {4,S} {5,S}\n4 X u0 p0 c0 {3,S}\n5 C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}\n6 H u0\
+  \ p0 c0 {5,S}\n7 H u0 p0 c0 {5,S}\n8 H u0 p0 c0 {5,S}\n"
 ---
 label: LiNX
-adjacency_list: |-
-  1 Li u0 p0 c0 {2,S}
-  2 N u0 p1 c0 {1,S} {3,D}
-  3 X u0 p0 c0 {2,D}
+adjacency_list: "1 Li u0 p0 c0 {2,S}\n2 N u0 p1 c0 {1,S} {3,D}\n3 X u0 p0 c0 {2,D}\n"
 ---
 label: CH3CX
-adjacency_list: |-
-  1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
-  4 H u0 p0 c0 {1,S}
-  5 C u0 p0 c0 {1,S} {6,T}
-  6 X u0 p0 c0 {5,T}
+adjacency_list: "1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 H u0 p0 c0 {1,S}\n3 H u0\
+  \ p0 c0 {1,S}\n4 H u0 p0 c0 {1,S}\n5 C u0 p0 c0 {1,S} {6,T}\n6 X u0 p0 c0 {5,T}\n"

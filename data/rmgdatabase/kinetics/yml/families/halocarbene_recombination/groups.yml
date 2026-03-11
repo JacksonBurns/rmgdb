@@ -1,9 +1,5 @@
 label: carbene
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S}
-  3    Val7 u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    Val7 u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -15,11 +11,7 @@ children:
 - CBr
 ---
 label: CF
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S}
-  3    F1s  u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    F1s  u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -27,22 +19,14 @@ children:
 - CF2
 ---
 label: CF2
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S} {4,S}
-  3    F1s  u0 p3 {2,S}
-  4    F1s  u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S} {4,S}\n3    F1s  u0 p3 {2,S}\n4 \
+  \   F1s  u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: CCl
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S}
-  3    Cl1s  u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    Cl1s  u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -50,22 +34,14 @@ children:
 - CCl2
 ---
 label: CCl2
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S} {4,S}
-  3    Cl1s u0 p3 {2,S}
-  4    Cl1s u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S} {4,S}\n3    Cl1s u0 p3 {2,S}\n4 \
+  \   Cl1s u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: CBr
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S}
-  3    Br1s u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    Br1s u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -73,12 +49,8 @@ children:
 - CBr2
 ---
 label: CBr2
-group: |2
-
-  1 *1 R    u1 px
-  2 *2 C2s  u0 p1 {3,S} {4,S}
-  3    Br1s u0 p3 {2,S}
-  4    Br1s u0 p3 {2,S}
+group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S} {4,S}\n3    Br1s u0 p3 {2,S}\n4 \
+  \   Br1s u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []

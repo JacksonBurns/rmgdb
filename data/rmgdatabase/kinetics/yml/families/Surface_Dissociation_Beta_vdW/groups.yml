@@ -1,48 +1,34 @@
 label: Combined
-group: |2
-
-  1 *1 R!H u0 px cx {2,S} {4,S}
-  2 *2 R!H u0 px cx {1,S} {3,S}
-  3 *3 R   u0 {2,S}
-  4 *4 Xo  u0 {1,S}
+group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R!H u0 px cx {1,S} {3,S}\n3 *3 R   u0\
+  \ {2,S}\n4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
 - C
 - O
 - N
-- C=R
-- C=O
 - R-H
 - CR-H
 - C-H
+- C=R
+- C=O
 ---
 label: VacantSite
-group: |2
-
-  1 *5 Xv u0
+group: "\n1 *5 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R-H
-group: |2
-
-  1 *1 R!H u0 {2,S} {4,S}
-  2 *2 R!H u0 {1,S} {3,S}
-  3 *3 H   u0 {2,S}
-  4 *4 Xo  u0 {1,S}
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 R!H u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n4 *4\
+  \ Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-H
-group: |2
-
-  1 *1 R!H u0 {2,S} {4,S}
-  2 *2 C   u0 {1,S} {3,S}
-  3 *3 H   u0 {2,S}
-  4 *4 Xo  u0 {1,S}
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 C   u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n4 *4\
+  \ Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -54,40 +40,26 @@ children:
 - CHR
 ---
 label: CH3
-group: |2
-
-  1 *1 R!H u0 px cx {2,S} {6,S}
-  2 *2 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3 *3 H   u0 p0 c0 {2,S}
-  4    H   u0 p0 c0 {2,S}
-  5    H   u0 p0 c0 {2,S}
-  6 *4 Xo  u0 p0 c0 {1,S}
+group: "\n1 *1 R!H u0 px cx {2,S} {6,S}\n2 *2 C   u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3 *3 H   u0 p0 c0 {2,S}\n4    H   u0 p0 c0 {2,S}\n5    H   u0 p0 c0 {2,S}\n6 *4\
+  \ Xo  u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-H
-group: |2
-
-  1 *1 R!H u0 {2,S} {4,S}
-  2 *2 O   u0 px {1,S} {3,S}
-  3 *3 H   u0 {2,S}
-  4 *4 Xo  u0 {1,S}
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 O   u0 px {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\
+  4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
 - H2O
-- H2O2
 - H2O
+- H2O2
 ---
 label: Bidentate
-group: |2
-
-  1 *1 R!H u0 px cx {2,S} {4,S}
-  2 *2 R!H u0 px cx {1,S} {3,S}
-  3 *3 R   u0 {2,S}
-  4 *4 Xo  u0 {1,S}
-  5    Xo  u0
+group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R!H u0 px cx {1,S} {3,S}\n3 *3 R   u0\
+  \ {2,S}\n4 *4 Xo  u0 {1,S}\n5    Xo  u0\n"
 forbidden: true
 short_description: ''
 long_description: ''

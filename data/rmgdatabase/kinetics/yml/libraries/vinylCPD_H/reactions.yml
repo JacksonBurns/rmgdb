@@ -135,10 +135,7 @@ kinetics:
 ---
 label: product4 <=> product9
 degeneracy: 1.0
-long_description: |2
-
-  / htrans6 too strained 0 rate
-  / htrans7 too strained 0 rate
+long_description: "\n/ htrans6 too strained 0 rate\n/ htrans7 too strained 0 rate\n"
 kinetics:
   type: Arrhenius
   A:
@@ -154,9 +151,7 @@ kinetics:
 ---
 label: addA <=> product1
 degeneracy: 1.0
-long_description: |2
-
-  / ts1 to ts20
+long_description: "\n/ ts1 to ts20\n"
 kinetics:
   type: Arrhenius
   A:
@@ -457,9 +452,7 @@ kinetics:
 ---
 label: product4 <=> product16
 degeneracy: 1.0
-long_description: |2
-
-  / prod4 bscis CC & CH
+long_description: "\n/ prod4 bscis CC & CH\n"
 kinetics:
   type: Arrhenius
   A:
@@ -490,9 +483,7 @@ kinetics:
 ---
 label: addC <=> CPD + C2H3
 degeneracy: 1.0
-long_description: |2
-
-  / ts21 to ts45
+long_description: "\n/ ts21 to ts45\n"
 kinetics:
   type: Arrhenius
   A:
@@ -813,10 +804,7 @@ kinetics:
 ---
 label: product33 <=> product34
 degeneracy: 1.0
-long_description: |2
-
-  / no ts for ts45
-  / ts46 to ts61
+long_description: "\n/ no ts for ts45\n/ ts46 to ts61\n"
 kinetics:
   type: Arrhenius
   A:
@@ -922,9 +910,7 @@ kinetics:
 ---
 label: product37 <=> product13 + H
 degeneracy: 1.0
-long_description: |2
-
-  / ts 53 currently estimated
+long_description: "\n/ ts 53 currently estimated\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1030,9 +1016,7 @@ kinetics:
 ---
 label: product44 <=> product41
 degeneracy: 1.0
-long_description: |2
-
-  / Estimate for H shift
+long_description: "\n/ Estimate for H shift\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1063,9 +1047,7 @@ kinetics:
 ---
 label: product45 <=> product56
 degeneracy: 1.0
-long_description: |2
-
-  / Closing down 1,3 addition /1E4 of RMG estimate
+long_description: "\n/ Closing down 1,3 addition /1E4 of RMG estimate\n"
 kinetics:
   type: Arrhenius
   A:

@@ -1,117 +1,47 @@
 label: BD
-adjacency_list: |-
-  1  C u0 p0 c0 {2,D} {5,S} {6,S}
-  2  C u0 p0 c0 {1,D} {3,S} {7,S}
-  3  C u0 p0 c0 {2,S} {4,D} {8,S}
-  4  C u0 p0 c0 {3,D} {9,S} {10,S}
-  5  H u0 p0 c0 {1,S}
-  6  H u0 p0 c0 {1,S}
-  7  H u0 p0 c0 {2,S}
-  8  H u0 p0 c0 {3,S}
-  9  H u0 p0 c0 {4,S}
-  10 H u0 p0 c0 {4,S}
+adjacency_list: "1  C u0 p0 c0 {2,D} {5,S} {6,S}\n2  C u0 p0 c0 {1,D} {3,S} {7,S}\n\
+  3  C u0 p0 c0 {2,S} {4,D} {8,S}\n4  C u0 p0 c0 {3,D} {9,S} {10,S}\n5  H u0 p0 c0\
+  \ {1,S}\n6  H u0 p0 c0 {1,S}\n7  H u0 p0 c0 {2,S}\n8  H u0 p0 c0 {3,S}\n9  H u0\
+  \ p0 c0 {4,S}\n10 H u0 p0 c0 {4,S}\n"
 ---
 label: CB
-adjacency_list: |-
-  1  C u0 p0 c0 {2,D} {4,S} {5,S}
-  2  C u0 p0 c0 {1,D} {3,S} {6,S}
-  3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}
-  4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}
-  5  H u0 p0 c0 {1,S}
-  6  H u0 p0 c0 {2,S}
-  7  H u0 p0 c0 {3,S}
-  8  H u0 p0 c0 {3,S}
-  9  H u0 p0 c0 {4,S}
-  10 H u0 p0 c0 {4,S}
+adjacency_list: "1  C u0 p0 c0 {2,D} {4,S} {5,S}\n2  C u0 p0 c0 {1,D} {3,S} {6,S}\n\
+  3  C u0 p0 c0 {2,S} {4,S} {7,S} {8,S}\n4  C u0 p0 c0 {1,S} {3,S} {9,S} {10,S}\n\
+  5  H u0 p0 c0 {1,S}\n6  H u0 p0 c0 {2,S}\n7  H u0 p0 c0 {3,S}\n8  H u0 p0 c0 {3,S}\n\
+  9  H u0 p0 c0 {4,S}\n10 H u0 p0 c0 {4,S}\n"
 ---
 label: DVCB
-adjacency_list: |-
-  1  C u0 p0 c0 {2,D} {9,S} {10,S}
-  2  C u0 p0 c0 {1,D} {3,S} {11,S}
-  3  C u0 p0 c0 {2,S} {4,S} {6,S} {12,S}
-  4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
-  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-  6  C u0 p0 c0 {3,S} {5,S} {7,S} {17,S}
-  7  C u0 p0 c0 {6,S} {8,D} {18,S}
-  8  C u0 p0 c0 {7,D} {19,S} {20,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {3,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {5,S}
-  16 H u0 p0 c0 {5,S}
-  17 H u0 p0 c0 {6,S}
-  18 H u0 p0 c0 {7,S}
-  19 H u0 p0 c0 {8,S}
-  20 H u0 p0 c0 {8,S}
+adjacency_list: "1  C u0 p0 c0 {2,D} {9,S} {10,S}\n2  C u0 p0 c0 {1,D} {3,S} {11,S}\n\
+  3  C u0 p0 c0 {2,S} {4,S} {6,S} {12,S}\n4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}\n\
+  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}\n6  C u0 p0 c0 {3,S} {5,S} {7,S} {17,S}\n\
+  7  C u0 p0 c0 {6,S} {8,D} {18,S}\n8  C u0 p0 c0 {7,D} {19,S} {20,S}\n9  H u0 p0\
+  \ c0 {1,S}\n10 H u0 p0 c0 {1,S}\n11 H u0 p0 c0 {2,S}\n12 H u0 p0 c0 {3,S}\n13 H\
+  \ u0 p0 c0 {4,S}\n14 H u0 p0 c0 {4,S}\n15 H u0 p0 c0 {5,S}\n16 H u0 p0 c0 {5,S}\n\
+  17 H u0 p0 c0 {6,S}\n18 H u0 p0 c0 {7,S}\n19 H u0 p0 c0 {8,S}\n20 H u0 p0 c0 {8,S}\n"
 ---
 label: COD
-adjacency_list: |-
-  1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-  2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-  3  C u0 p0 c0 {2,S} {4,D} {13,S}
-  4  C u0 p0 c0 {3,D} {5,S} {14,S}
-  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-  6  C u0 p0 c0 {5,S} {7,S} {17,S} {18,S}
-  7  C u0 p0 c0 {6,S} {8,D} {19,S}
-  8  C u0 p0 c0 {1,S} {7,D} {20,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {2,S}
-  13 H u0 p0 c0 {3,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {5,S}
-  16 H u0 p0 c0 {5,S}
-  17 H u0 p0 c0 {6,S}
-  18 H u0 p0 c0 {6,S}
-  19 H u0 p0 c0 {7,S}
-  20 H u0 p0 c0 {8,S}
+adjacency_list: "1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}\n2  C u0 p0 c0 {1,S} {3,S}\
+  \ {11,S} {12,S}\n3  C u0 p0 c0 {2,S} {4,D} {13,S}\n4  C u0 p0 c0 {3,D} {5,S} {14,S}\n\
+  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}\n6  C u0 p0 c0 {5,S} {7,S} {17,S} {18,S}\n\
+  7  C u0 p0 c0 {6,S} {8,D} {19,S}\n8  C u0 p0 c0 {1,S} {7,D} {20,S}\n9  H u0 p0 c0\
+  \ {1,S}\n10 H u0 p0 c0 {1,S}\n11 H u0 p0 c0 {2,S}\n12 H u0 p0 c0 {2,S}\n13 H u0\
+  \ p0 c0 {3,S}\n14 H u0 p0 c0 {4,S}\n15 H u0 p0 c0 {5,S}\n16 H u0 p0 c0 {5,S}\n17\
+  \ H u0 p0 c0 {6,S}\n18 H u0 p0 c0 {6,S}\n19 H u0 p0 c0 {7,S}\n20 H u0 p0 c0 {8,S}\n"
 ---
 label: VCH
-adjacency_list: |-
-  1  C u0 p0 c0 {2,D} {9,S} {10,S}
-  2  C u0 p0 c0 {1,D} {3,S} {11,S}
-  3  C u0 p0 c0 {2,S} {4,S} {8,S} {12,S}
-  4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}
-  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}
-  6  C u0 p0 c0 {5,S} {7,D} {17,S}
-  7  C u0 p0 c0 {6,D} {8,S} {18,S}
-  8  C u0 p0 c0 {3,S} {7,S} {19,S} {20,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {3,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {5,S}
-  16 H u0 p0 c0 {5,S}
-  17 H u0 p0 c0 {6,S}
-  18 H u0 p0 c0 {7,S}
-  19 H u0 p0 c0 {8,S}
-  20 H u0 p0 c0 {8,S}
+adjacency_list: "1  C u0 p0 c0 {2,D} {9,S} {10,S}\n2  C u0 p0 c0 {1,D} {3,S} {11,S}\n\
+  3  C u0 p0 c0 {2,S} {4,S} {8,S} {12,S}\n4  C u0 p0 c0 {3,S} {5,S} {13,S} {14,S}\n\
+  5  C u0 p0 c0 {4,S} {6,S} {15,S} {16,S}\n6  C u0 p0 c0 {5,S} {7,D} {17,S}\n7  C\
+  \ u0 p0 c0 {6,D} {8,S} {18,S}\n8  C u0 p0 c0 {3,S} {7,S} {19,S} {20,S}\n9  H u0\
+  \ p0 c0 {1,S}\n10 H u0 p0 c0 {1,S}\n11 H u0 p0 c0 {2,S}\n12 H u0 p0 c0 {3,S}\n13\
+  \ H u0 p0 c0 {4,S}\n14 H u0 p0 c0 {4,S}\n15 H u0 p0 c0 {5,S}\n16 H u0 p0 c0 {5,S}\n\
+  17 H u0 p0 c0 {6,S}\n18 H u0 p0 c0 {7,S}\n19 H u0 p0 c0 {8,S}\n20 H u0 p0 c0 {8,S}\n"
 ---
 label: DVT
-adjacency_list: |-
-  1  C u1 p0 c0 {2,S} {3,S} {4,S}
-  2  H u0 p0 c0 {1,S}
-  3  H u0 p0 c0 {1,S}
-  4  C u0 p0 c0 {1,S} {5,D} {13,S}
-  5  C u0 p0 c0 {4,D} {6,S} {14,S}
-  6  C u0 p0 c0 {5,S} {7,S} {15,S} {16,S}
-  7  C u0 p0 c0 {6,S} {8,S} {17,S} {18,S}
-  8  C u0 p0 c0 {7,S} {9,D} {19,S}
-  9  C u0 p0 c0 {8,D} {10,S} {20,S}
-  10 C u1 p0 c0 {9,S} {11,S} {12,S}
-  11 H u0 p0 c0 {10,S}
-  12 H u0 p0 c0 {10,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {5,S}
-  15 H u0 p0 c0 {6,S}
-  16 H u0 p0 c0 {6,S}
-  17 H u0 p0 c0 {7,S}
-  18 H u0 p0 c0 {7,S}
-  19 H u0 p0 c0 {8,S}
-  20 H u0 p0 c0 {9,S}
+adjacency_list: "1  C u1 p0 c0 {2,S} {3,S} {4,S}\n2  H u0 p0 c0 {1,S}\n3  H u0 p0\
+  \ c0 {1,S}\n4  C u0 p0 c0 {1,S} {5,D} {13,S}\n5  C u0 p0 c0 {4,D} {6,S} {14,S}\n\
+  6  C u0 p0 c0 {5,S} {7,S} {15,S} {16,S}\n7  C u0 p0 c0 {6,S} {8,S} {17,S} {18,S}\n\
+  8  C u0 p0 c0 {7,S} {9,D} {19,S}\n9  C u0 p0 c0 {8,D} {10,S} {20,S}\n10 C u1 p0\
+  \ c0 {9,S} {11,S} {12,S}\n11 H u0 p0 c0 {10,S}\n12 H u0 p0 c0 {10,S}\n13 H u0 p0\
+  \ c0 {4,S}\n14 H u0 p0 c0 {5,S}\n15 H u0 p0 c0 {6,S}\n16 H u0 p0 c0 {6,S}\n17 H\
+  \ u0 p0 c0 {7,S}\n18 H u0 p0 c0 {7,S}\n19 H u0 p0 c0 {8,S}\n20 H u0 p0 c0 {9,S}\n"

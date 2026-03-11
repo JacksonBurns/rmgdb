@@ -1,62 +1,57 @@
 label: Root
-group: |2
-
-  1 *3 R!H    u0 {2,S} {3,[S,D]}
-  2 *4 R!H    u0 {1,S} {4,[S,D]}
-  3 *2 R!H    u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 R!H    u0 {2,[S,D]} {6,S}
-  5 *1 R!H    u0 {3,[D,T,B]}
-  6 *6 [H,Li] u0 {4,S}
+group: "\n1 *3 R!H    u0 {2,S} {3,[S,D]}\n2 *4 R!H    u0 {1,S} {4,[S,D]}\n3 *2 R!H\
+  \    u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 R!H    u0 {2,[S,D]} {6,S}\n5 *1 R!H    u0 {3,[D,T,B]}\n\
+  6 *6 [H,Li] u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
-- Root_1NO->O
-- Root_N-1NO->O
+- Root_Ext-3R-R
+- Root_3R->F
+- Root_N-3R->F
+- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+- Root_5CbCdCsHN->Cs
+- Root_N-5CbCdCsHN->Cs
+- Root_Sp-3R!H-2R!H
+- Root_N-Sp-3R!H-2R!H
+- Root_Ext-2R!H-R
+- Root_1R!H-inRing
+- Root_N-1R!H-inRing
+- Root_1COCSCdCdd->Cd
+- Root_N-1COCSCdCdd->Cd
+- Root_5R-inRing
+- Root_N-5R-inRing
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_1R->H
+- Root_N-1R->H
+- Root_4R->N
+- Root_N-4R->N
+- Root_1R!H->N
+- Root_N-1R!H->N
+- Root_4R!H->C
+- Root_N-4R!H->C
 - Root_2ClFH->H
 - Root_N-2ClFH->H
-- Backbone1
-- Backbone2
-- Backbone3
-- Backbone4
-- Backbone5
-- Backbone6
-- Backbone7
-- Backbone8
-- Backbone9
-- Backbone10
+- Root_Ext-2R-R
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_2R->C
+- Root_N-2R->C
+- Root_3R->H
+- Root_N-3R->H
+- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_Ext-1CbCbf-R
+- Root_5Ct-inRing
+- Root_N-5Ct-inRing
 - Root_Ext-1R!H-R
 - Root_Ext-2R!H-R
 - Root_4R->H
 - Root_N-4R->H
-- Root_1COCSCdCdd->Cd
-- Root_N-1COCSCdCdd->Cd
-- Root_1R->H
-- Root_N-1R->H
-- F
-- Cl
-- Br
-- Root_1NO->O
-- Root_N-1NO->O
-- Root_5CbCdCsHN->Cs
-- Root_N-5CbCdCsHN->Cs
-- Root_1R!H->C
-- Root_N-1R!H->C
-- Root_4R!H->C
-- Root_N-4R!H->C
-- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
-- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
-- Root_4R!H->C
-- Root_N-4R!H->C
-- Root_4R->N
-- Root_N-4R->N
-- Root_Ext-5R-R
-- Root_Ext-3R-R
-- Root_1Br1sCl1sF1sH->Cl1s
-- Root_N-1Br1sCl1sF1sH->Cl1s
-- Root_5R-inRing
-- Root_N-5R-inRing
-- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
-- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
+- Root_4R->F
+- Root_N-4R->F
+- Root_1R->O
+- Root_N-1R->O
 - Backbone0
 - Backbone1
 - Backbone2
@@ -68,72 +63,62 @@ children:
 - Backbone9
 - Backbone10
 - Backbone6
-- Root_2ClF->F
-- Root_N-2ClF->F
-- Root_Sp-3R!H-2R!H
-- Root_N-Sp-3R!H-2R!H
-- Root_2R->C
-- Root_N-2R->C
-- Root_Ext-2R-R
-- Root_3R->H
-- Root_N-3R->H
-- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
-- Root_1R->O
-- Root_N-1R->O
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone6
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
 - Root_3R!H->C
 - Root_N-3R!H->C
-- Root_6R->C
-- Root_N-6R->C
-- Root_Ext-2R!H-R
-- Root_1R!H-inRing
-- Root_N-1R!H-inRing
-- Root_Ext-1CbCbf-R
-- Root_5Ct-inRing
-- Root_N-5Ct-inRing
+- Root_2ClF->F
+- Root_N-2ClF->F
 - Root_1R!H->C
 - Root_N-1R!H->C
 - Root_1NO->O
 - Root_N-1NO->O
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_Ext-5R-R
+- Root_Ext-3R-R
+- Root_6R->C
+- Root_N-6R->C
 - Root_1R->H
 - Root_N-1R->H
-- Root_1R!H->N
-- Root_N-1R!H->N
-- Root_Ext-3R-R
-- Root_3R->F
-- Root_N-3R->F
-- Root_1R!H->C
-- Root_N-1R!H->C
+- Root_4R!H->C
+- Root_N-4R!H->C
+- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
+- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
 - Root_4CHNOS->H
 - Root_N-4CHNOS->H
-- Root_4R->F
-- Root_N-4R->F
+- Root_1Br1sCl1sF1sH->Cl1s
+- Root_N-1Br1sCl1sF1sH->Cl1s
+- Root_1R!H->C
+- Root_N-1R!H->C
+- F
+- Cl
+- Br
 ---
 label: Root_4R!H->C
-group: |2
-
-  1 *3 R!H u0 {2,S} {3,[S,D]}
-  2 *4 R!H u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 R!H u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
+group: "\n1 *3 R!H u0 {2,S} {3,[S,D]}\n2 *4 R!H u0 {1,S} {4,[S,D]}\n3 *2 C   u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 R!H u0 {3,[D,T,B]}\n6 *6 H   u0\
+  \ {4,S}\n"
 short_description: ''
 long_description: ''
 children:
-- Root_4R!H->C_1R!H->O
-- Root_4R!H->C_N-1R!H->O
 - Root_4R!H->C_2R!H->N
 - Root_4R!H->C_N-2R!H->N
+- Root_4R!H->C_1R!H->O
+- Root_4R!H->C_N-1R!H->O
 ---
 label: Root_4R!H->C_1R!H->O
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 R!H u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 R!H u0 {3,[D,T,B]}\n6 *6 H   u0\
+  \ {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -142,15 +127,9 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    R!H ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -159,16 +138,9 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,S} {5,[D,T,B]}
-  4 *5 C   u0 {2,S} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {2,[S,D,T,B,Q]}
-  8    R!H ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,S} {5,[D,T,B]}\n4 *5 C   u0 {2,S} {6,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    R!H ux {2,[S,D,T,B,Q]}\n8    R!H ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -176,79 +148,46 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R_Ext-3R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R_Ext-4C-R
-group: |2
-
-  1 *3 O   u0 r0 {2,S} {3,S}
-  2 *4 C   u0 r0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,S} {5,[D,T,B]}
-  4 *5 C   u0 r0 {2,S} {6,S} {9,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 r0 {4,S}
-  7    R!H ux {2,[S,D,T,B,Q]}
-  8    R!H ux {2,[S,D,T,B,Q]}
-  9    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 r0 {2,S} {3,S}\n2 *4 C   u0 r0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,S} {5,[D,T,B]}\n4 *5 C   u0 r0 {2,S} {6,S} {9,[S,D,T,B,Q]}\n5 *1\
+  \ O   u0 {3,[D,T,B]}\n6 *6 H   u0 r0 {4,S}\n7    R!H ux {2,[S,D,T,B,Q]}\n8    R!H\
+  \ ux {2,[S,D,T,B,Q]}\n9    R!H ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R_Ext-3R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,S} {5,D} {9,S}
-  4 *5 C   u0 {2,S} {6,S}
-  5 *1 O   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {2,[S,D,T,B,Q]}
-  8    R!H ux {2,[S,D,T,B,Q]}
-  9    C   u0 {3,S}
+group: "\n1 *3 O   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,S} {5,D} {9,S}\n4 *5 C   u0 {2,S} {6,S}\n5 *1 O   u0 {3,D}\n6 *6\
+  \ H   u0 {4,S}\n7    R!H ux {2,[S,D,T,B,Q]}\n8    R!H ux {2,[S,D,T,B,Q]}\n9    C\
+  \   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R_Ext-3R!H-R_Ext-9R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_Ext-2R!H-R_Ext-3R!H-R_Ext-9R!H-R
-group: |2
-
-  1  *3 O   u0 r0 {2,S} {3,S}
-  2  *4 C   u0 r0 {1,S} {4,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3  *2 C   u0 r0 {1,S} {5,D} {9,S}
-  4  *5 C   u0 r0 {2,S} {6,S}
-  5  *1 O   u0 r0 {3,D}
-  6  *6 H   u0 r0 {4,S}
-  7     R!H ux {2,[S,D,T,B,Q]}
-  8     R!H ux {2,[S,D,T,B,Q]}
-  9     C   u0 r0 {3,S} {10,[S,D,T,B,Q]}
-  10    R!H ux {9,[S,D,T,B,Q]}
+group: "\n1  *3 O   u0 r0 {2,S} {3,S}\n2  *4 C   u0 r0 {1,S} {4,S} {7,[S,D,T,B,Q]}\
+  \ {8,[S,D,T,B,Q]}\n3  *2 C   u0 r0 {1,S} {5,D} {9,S}\n4  *5 C   u0 r0 {2,S} {6,S}\n\
+  5  *1 O   u0 r0 {3,D}\n6  *6 H   u0 r0 {4,S}\n7     R!H ux {2,[S,D,T,B,Q]}\n8  \
+  \   R!H ux {2,[S,D,T,B,Q]}\n9     C   u0 r0 {3,S} {10,[S,D,T,B,Q]}\n10    R!H ux\
+  \ {9,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_7R!H->O
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    O ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -257,16 +196,9 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-3R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    C ux {7,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n8    C ux {7,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -274,17 +206,9 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-4C-R
-group: |2
-
-  1 *3 O u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S} {7,S}
-  3 *2 C u0 {1,S} {5,D}
-  4 *5 C u0 {2,S} {6,S} {9,S}
-  5 *1 O u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    C u0 {2,S} {8,[S,D,T,B,Q]}
-  8    C ux {7,[S,D,T,B,Q]}
-  9    C u0 {4,S}
+group: "\n1 *3 O u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S} {7,S}\n3 *2 C u0 {1,S} {5,D}\n\
+  4 *5 C u0 {2,S} {6,S} {9,S}\n5 *1 O u0 {3,D}\n6 *6 H u0 {4,S}\n7    C u0 {2,S} {8,[S,D,T,B,Q]}\n\
+  8    C ux {7,[S,D,T,B,Q]}\n9    C u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -292,49 +216,26 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-4C-R_N-7C-inRing
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-4C-R_7C-inRing
-group: |2
-
-  1 *3 O u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S} {7,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S} {9,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C u0 r1 {2,S} {8,[S,D,T,B,Q]}
-  8    C ux {7,[S,D,T,B,Q]}
-  9    C u0 {4,S}
+group: "\n1 *3 O u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S} {7,S}\n3 *2 C u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C u0 r0 {2,S} {6,S} {9,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n\
+  7    C u0 r1 {2,S} {8,[S,D,T,B,Q]}\n8    C ux {7,[S,D,T,B,Q]}\n9    C u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-4C-R_N-7C-inRing
-group: |2
-
-  1 *3 O u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S} {7,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S} {9,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C u0 r0 {2,S} {8,[S,D,T,B,Q]}
-  8    C ux {7,[S,D,T,B,Q]}
-  9    C u0 {4,S}
+group: "\n1 *3 O u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S} {7,S}\n3 *2 C u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C u0 r0 {2,S} {6,S} {9,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n\
+  7    C u0 r0 {2,S} {8,[S,D,T,B,Q]}\n8    C ux {7,[S,D,T,B,Q]}\n9    C u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    C   ux {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-  9    R!H ux {8,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    C   ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n8    C   ux {7,[S,D,T,B,Q]}\
+  \ {9,[S,D,T,B,Q]}\n9    R!H ux {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -343,50 +244,27 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_N-Sp-9R!H=8R!H
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_Ext-8R!H-R
-group: |2
-
-  1  *3 O   u0 r0 {2,S} {3,S}
-  2  *4 C   u0 r0 {1,S} {4,S} {7,S}
-  3  *2 C   u0 r0 {1,S} {5,D}
-  4  *5 C   u0 r0 {2,S} {6,S}
-  5  *1 O   u0 r0 {3,D}
-  6  *6 H   u0 r0 {4,S}
-  7     C   u0 {2,S} {8,[S,D,T,B,Q]}
-  8     C   u0 {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]} {10,[S,D,T,B,Q]}
-  9     R!H ux {8,[S,D,T,B,Q]}
-  10    R!H ux {8,[S,D,T,B,Q]}
+group: "\n1  *3 O   u0 r0 {2,S} {3,S}\n2  *4 C   u0 r0 {1,S} {4,S} {7,S}\n3  *2 C\
+  \   u0 r0 {1,S} {5,D}\n4  *5 C   u0 r0 {2,S} {6,S}\n5  *1 O   u0 r0 {3,D}\n6  *6\
+  \ H   u0 r0 {4,S}\n7     C   u0 {2,S} {8,[S,D,T,B,Q]}\n8     C   u0 {7,[S,D,T,B,Q]}\
+  \ {9,[S,D,T,B,Q]} {10,[S,D,T,B,Q]}\n9     R!H ux {8,[S,D,T,B,Q]}\n10    R!H ux {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_Sp-9R!H=8R!H
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    C ux {7,[S,D,T,B,Q]} {9,D}
-  9    C ux {8,D}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {2,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n8    C ux {7,[S,D,T,B,Q]}\
+  \ {9,D}\n9    C ux {8,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_N-Sp-9R!H=8R!H
-group: |2
-
-  1 *3 O u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S} {7,S}
-  3 *2 C u0 {1,S} {5,D}
-  4 *5 C u0 {2,S} {6,S}
-  5 *1 O u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    C u0 {2,S} {8,[S,D,T,B,Q]}
-  8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}
-  9    C u0 {8,[S,B]}
+group: "\n1 *3 O u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S} {7,S}\n3 *2 C u0 {1,S} {5,D}\n\
+  4 *5 C u0 {2,S} {6,S}\n5 *1 O u0 {3,D}\n6 *6 H u0 {4,S}\n7    C u0 {2,S} {8,[S,D,T,B,Q]}\n\
+  8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}\n9    C u0 {8,[S,B]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -394,65 +272,37 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_N-7C-inRing
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_7C-inRing
-group: |2
-
-  1 *3 O u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S} {7,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C u0 r1 {2,S} {8,[S,D,T,B,Q]}
-  8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}
-  9    C u0 {8,[S,B]}
+group: "\n1 *3 O u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S} {7,S}\n3 *2 C u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C u0 r0 {2,S} {6,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n7   \
+  \ C u0 r1 {2,S} {8,[S,D,T,B,Q]}\n8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}\n9    C u0\
+  \ {8,[S,B]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-7C-R_Ext-8R!H-R_N-Sp-9R!H=8R!H_N-7C-inRing
-group: |2
-
-  1 *3 O u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S} {7,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C u0 r0 {2,S} {8,[S,D,T,B,Q]}
-  8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}
-  9    C u0 {8,[S,B]}
+group: "\n1 *3 O u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S} {7,S}\n3 *2 C u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C u0 r0 {2,S} {6,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n7   \
+  \ C u0 r0 {2,S} {8,[S,D,T,B,Q]}\n8    C u0 {7,[S,D,T,B,Q]} {9,[S,B]}\n9    C u0\
+  \ {8,[S,B]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {2,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux {2,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R_Ext-8R!H-R
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {2,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-  9    C u0 {8,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux {2,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\
+  \ {9,[S,D,T,B,Q]}\n9    C u0 {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -460,89 +310,52 @@ children:
 - Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R_Ext-8R!H-R_N-Sp-9R!H-8R!H
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R_Ext-8R!H-R_Sp-9R!H-8R!H
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux r0 {2,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]} {9,S}
-  9    C u0 r0 {8,S}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux r0 {2,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\
+  \ {9,S}\n9    C u0 r0 {8,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-4C-R_Ext-8R!H-R_N-Sp-9R!H-8R!H
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux r0 {2,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]} {9,[B,D,T,Q]}
-  9    C u0 r0 {8,[B,D,T,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux r0 {2,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\
+  \ {9,[B,D,T,Q]}\n9    C u0 r0 {8,[B,D,T,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_Ext-2R!H-R_N-7R!H->O_Ext-3R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]} {8,[S,D,T,B,Q]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux r0 {2,[S,D,T,B,Q]}
-  8    R!H ux {3,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]} {7,[S,D,T,B,Q]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]} {8,[S,D,T,B,Q]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n\
+  5 *1 O   u0 {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux r0 {2,[S,D,T,B,Q]}\n8  \
+  \  R!H ux {3,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_3R!H-inRing
-group: |2
-
-  1 *3 O u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S}
-  3 *2 C u0 r1 {1,S} {5,B}
-  4 *5 C u0 {2,S} {6,S}
-  5 *1 C u0 {3,B}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 O u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S}\n3 *2 C u0 r1 {1,S} {5,B}\n\
+  4 *5 C u0 {2,S} {6,S}\n5 *1 C u0 {3,B}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_3R!H-inRing_Ext-4C-R
 ---
 label: Root_4R!H->C_1R!H->O_3R!H-inRing_Ext-4C-R
-group: |2
-
-  1 *3 O   u0 r0 {2,S} {3,S}
-  2 *4 C   u0 r0 {1,S} {4,S}
-  3 *2 C   u0 r1 {1,S} {5,B}
-  4 *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 C   u0 r1 {3,B}
-  6 *6 H   u0 r0 {4,S}
-  7    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 r0 {2,S} {3,S}\n2 *4 C   u0 r0 {1,S} {4,S}\n3 *2 C   u0 r1 {1,S}\
+  \ {5,B}\n4 *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5 *1 C   u0 r1 {3,B}\n6 *6\
+  \ H   u0 r0 {4,S}\n7    R!H ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 R!H u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 R!H u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -552,15 +365,9 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_N-5R!H->O
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O   u0\
+  \ {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    R!H ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -568,15 +375,9 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_N-7R!H->C
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 r0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -584,29 +385,17 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_7C-inRing
-group: |2
-
-  1 *3 O u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C ux r1 {4,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D}\n\
+  4 *5 C u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n\
+  7    C ux r1 {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux r0 {4,[S,D,T,B,Q]}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 r0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux r0 {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -614,16 +403,10 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-4C-R
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-7C-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    R!H ux {7,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O   u0\
+  \ {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  8    R!H ux {7,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -632,109 +415,63 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-7C-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-7C-R_Ext-4C-R
-group: |2
-
-  1 *3 O   u0 r0 {2,S} {3,S}
-  2 *4 C   u0 r0 {1,S} {4,S}
-  3 *2 C   u0 r0 {1,S} {5,D}
-  4 *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-  5 *1 O   u0 r0 {3,D}
-  6 *6 H   u0 r0 {4,S}
-  7    C   ux r0 {4,[S,D,T,B,Q]} {8,S}
-  8    C   u0 r0 {7,S}
-  9    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 r0 {2,S} {3,S}\n2 *4 C   u0 r0 {1,S} {4,S}\n3 *2 C   u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}\n5 *1 O   u0\
+  \ r0 {3,D}\n6 *6 H   u0 r0 {4,S}\n7    C   ux r0 {4,[S,D,T,B,Q]} {8,S}\n8    C \
+  \  u0 r0 {7,S}\n9    R!H ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-7C-R_Ext-7C-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-  8    R!H ux {7,[S,D,T,B,Q]}
-  9    R!H ux {7,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O   u0\
+  \ {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\
+  \ {9,[S,D,T,B,Q]}\n8    R!H ux {7,[S,D,T,B,Q]}\n9    R!H ux {7,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-7C-R_Ext-8R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    C   ux {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}
-  9    R!H ux {8,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]}\n5 *1 O   u0\
+  \ {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux r0 {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  8    C   ux {7,[S,D,T,B,Q]} {9,[S,D,T,B,Q]}\n9    R!H ux {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_7R!H->C_N-7C-inRing_Ext-4C-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux r0 {4,[S,D,T,B,Q]}
-  8    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n\
+  5 *1 O   u0 {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux r0 {4,[S,D,T,B,Q]}\n8  \
+  \  R!H ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_N-7R!H->C
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {7,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O u0 {4,S}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 r0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {7,S}\n5 *1 O u0 {3,[D,T,B]}\n6 *6 H u0\
+  \ {4,S}\n7    O u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_N-7R!H->C_Ext-7BrClFILiNOPSSi-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-4C-R_N-7R!H->C_Ext-7BrClFILiNOPSSi-R_Ext-8R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {7,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    O   u0 {4,S} {8,S}
-  8    C   u0 r0 {7,S} {9,[S,D,T,B,Q]}
-  9    R!H ux {8,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 r0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {7,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    O   u0 {4,S} {8,S}\n8    C   u0 r0 {7,S} {9,[S,D,T,B,Q]}\n\
+  9    R!H ux {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R
-group: |2
-
-  1 *3 O   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S}
-  3 *2 C   u0 r0 {1,S} {5,D} {7,S}
-  4 *5 C   u0 {2,S} {6,S}
-  5 *1 O   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    R!H u0 {3,S}
+group: "\n1 *3 O   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S}\n3 *2 C   u0 r0 {1,S} {5,D}\
+  \ {7,S}\n4 *5 C   u0 {2,S} {6,S}\n5 *1 O   u0 {3,D}\n6 *6 H   u0 {4,S}\n7    R!H\
+  \ u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -742,101 +479,59 @@ children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_N-7R!H->C
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_7R!H->C
-group: |2
-
-  1 *3 O u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D} {7,S}
-  4 *5 C u0 {2,S} {6,S}
-  5 *1 O u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    C u0 {3,S}
+group: "\n1 *3 O u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D} {7,S}\n\
+  4 *5 C u0 {2,S} {6,S}\n5 *1 O u0 {3,D}\n6 *6 H u0 {4,S}\n7    C u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_7R!H->C_Ext-7C-R
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_7R!H->C_Ext-7C-R
-group: |2
-
-  1 *3 O u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D} {7,S}
-  4 *5 C u0 {2,S} {6,S}
-  5 *1 O u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    C u0 {3,S} {8,S}
-  8    C u0 {7,S}
+group: "\n1 *3 O u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D} {7,S}\n\
+  4 *5 C u0 {2,S} {6,S}\n5 *1 O u0 {3,D}\n6 *6 H u0 {4,S}\n7    C u0 {3,S} {8,S}\n\
+  8    C u0 {7,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_7R!H->C_Ext-7C-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_7R!H->C_Ext-7C-R_Ext-8R!H-R
-group: |2
-
-  1 *3 O   u0 r0 {2,S} {3,S}
-  2 *4 C   u0 r0 {1,S} {4,S}
-  3 *2 C   u0 r0 {1,S} {5,D} {7,S}
-  4 *5 C   u0 r0 {2,S} {6,S}
-  5 *1 O   u0 r0 {3,D}
-  6 *6 H   u0 r0 {4,S}
-  7    C   u0 r0 {3,S} {8,S}
-  8    C   u0 r0 {7,S} {9,[S,D,T,B,Q]}
-  9    R!H ux {8,[S,D,T,B,Q]}
+group: "\n1 *3 O   u0 r0 {2,S} {3,S}\n2 *4 C   u0 r0 {1,S} {4,S}\n3 *2 C   u0 r0 {1,S}\
+  \ {5,D} {7,S}\n4 *5 C   u0 r0 {2,S} {6,S}\n5 *1 O   u0 r0 {3,D}\n6 *6 H   u0 r0\
+  \ {4,S}\n7    C   u0 r0 {3,S} {8,S}\n8    C   u0 r0 {7,S} {9,[S,D,T,B,Q]}\n9   \
+  \ R!H ux {8,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_Ext-3R!H-R_N-7R!H->C
-group: |2
-
-  1 *3 O                         u0 r0 {2,S} {3,S}
-  2 *4 C                         u0 r0 {1,S} {4,S}
-  3 *2 C                         u0 r0 {1,S} {5,D} {7,S}
-  4 *5 C                         u0 r0 {2,S} {6,S}
-  5 *1 O                         u0 r0 {3,D}
-  6 *6 H                         u0 r0 {4,S}
-  7    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {3,S}
+group: "\n1 *3 O                         u0 r0 {2,S} {3,S}\n2 *4 C               \
+  \          u0 r0 {1,S} {4,S}\n3 *2 C                         u0 r0 {1,S} {5,D} {7,S}\n\
+  4 *5 C                         u0 r0 {2,S} {6,S}\n5 *1 O                       \
+  \  u0 r0 {3,D}\n6 *6 H                         u0 r0 {4,S}\n7    [I,P,Br,Cl,N,Si,S,F,Li,O]\
+  \ u0 r0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_5R!H->O
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 r0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_1R!H->O_N-3R!H-inRing_N-5R!H->O
-group: |2
-
-  1 *3 O u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 r0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 C u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 O u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 r0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 C u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]}
-  2 *4 R!H u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 R!H u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]}\n2 *4 R!H u0 {1,S} {4,[S,D]}\n3 *2 C   u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 R!H u0 {3,[D,T,B]}\n6 *6 H   u0\
+  \ {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -844,14 +539,9 @@ children:
 - Root_4R!H->C_N-1R!H->O_N-2R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 R!H u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 R!H u0 {3,[D,T,B]}\n6 *6 H   u0\
+  \ {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -860,15 +550,9 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {1,[S,D,T,B,Q]}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    R!H ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -876,15 +560,8 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N
-group: |2
-
-  1 *3 C u0 {2,S} {3,S} {7,S}
-  2 *4 C u0 {1,S} {4,S}
-  3 *2 C u0 {1,S} {5,D}
-  4 *5 C u0 {2,S} {6,S}
-  5 *1 O u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    N u0 {1,S}
+group: "\n1 *3 C u0 {2,S} {3,S} {7,S}\n2 *4 C u0 {1,S} {4,S}\n3 *2 C u0 {1,S} {5,D}\n\
+  4 *5 C u0 {2,S} {6,S}\n5 *1 O u0 {3,D}\n6 *6 H u0 {4,S}\n7    N u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -892,16 +569,9 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-2C-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-4C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,S} {7,S}
-  2 *4 C   u0 {1,S} {4,S}
-  3 *2 C   u0 {1,S} {5,D}
-  4 *5 C   u0 {2,S} {6,S} {8,S}
-  5 *1 O   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    N   u0 {1,S}
-  8    R!H u0 {4,S}
+group: "\n1 *3 C   u0 {2,S} {3,S} {7,S}\n2 *4 C   u0 {1,S} {4,S}\n3 *2 C   u0 {1,S}\
+  \ {5,D}\n4 *5 C   u0 {2,S} {6,S} {8,S}\n5 *1 O   u0 {3,D}\n6 *6 H   u0 {4,S}\n7\
+  \    N   u0 {1,S}\n8    R!H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -909,46 +579,27 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-4C-R_N-8R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-4C-R_8R!H->C
-group: |2
-
-  1 *3 C u0 r0 {2,S} {3,S} {7,S}
-  2 *4 C u0 r0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S} {8,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    N u0 r0 {1,S}
-  8    C u0 r0 {4,S}
+group: "\n1 *3 C u0 r0 {2,S} {3,S} {7,S}\n2 *4 C u0 r0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C u0 r0 {2,S} {6,S} {8,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n\
+  7    N u0 r0 {1,S}\n8    C u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-4C-R_N-8R!H->C
-group: |2
-
-  1 *3 C                         u0 r0 {2,S} {3,S} {7,S}
-  2 *4 C                         u0 r0 {1,S} {4,S}
-  3 *2 C                         u0 r0 {1,S} {5,D}
-  4 *5 C                         u0 r0 {2,S} {6,S} {8,S}
-  5 *1 O                         u0 r0 {3,D}
-  6 *6 H                         u0 r0 {4,S}
-  7    N                         u0 r0 {1,S}
-  8    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {4,S}
+group: "\n1 *3 C                         u0 r0 {2,S} {3,S} {7,S}\n2 *4 C         \
+  \                u0 r0 {1,S} {4,S}\n3 *2 C                         u0 r0 {1,S} {5,D}\n\
+  4 *5 C                         u0 r0 {2,S} {6,S} {8,S}\n5 *1 O                 \
+  \        u0 r0 {3,D}\n6 *6 H                         u0 r0 {4,S}\n7    N       \
+  \                  u0 r0 {1,S}\n8    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-2C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,S} {7,S}
-  2 *4 C   u0 {1,S} {4,S} {8,S}
-  3 *2 C   u0 {1,S} {5,D}
-  4 *5 C   u0 {2,S} {6,S}
-  5 *1 O   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    N   u0 {1,S}
-  8    R!H u0 {2,S}
+group: "\n1 *3 C   u0 {2,S} {3,S} {7,S}\n2 *4 C   u0 {1,S} {4,S} {8,S}\n3 *2 C   u0\
+  \ {1,S} {5,D}\n4 *5 C   u0 {2,S} {6,S}\n5 *1 O   u0 {3,D}\n6 *6 H   u0 {4,S}\n7\
+  \    N   u0 {1,S}\n8    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -956,45 +607,29 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-2C-R_N-8R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-2C-R_8R!H->C
-group: |2
-
-  1 *3 C u0 r0 {2,S} {3,S} {7,S}
-  2 *4 C u0 r0 {1,S} {4,S} {8,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    N u0 r0 {1,S}
-  8    C u0 r0 {2,S}
+group: "\n1 *3 C u0 r0 {2,S} {3,S} {7,S}\n2 *4 C u0 r0 {1,S} {4,S} {8,S}\n3 *2 C u0\
+  \ r0 {1,S} {5,D}\n4 *5 C u0 r0 {2,S} {6,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n\
+  7    N u0 r0 {1,S}\n8    C u0 r0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_7R!H->N_Ext-2C-R_N-8R!H->C
-group: |2
-
-  1 *3 C                         u0 r0 {2,S} {3,S} {7,S}
-  2 *4 C                         u0 r0 {1,S} {4,S} {8,S}
-  3 *2 C                         u0 r0 {1,S} {5,D}
-  4 *5 C                         u0 r0 {2,S} {6,S}
-  5 *1 O                         u0 r0 {3,D}
-  6 *6 H                         u0 r0 {4,S}
-  7    N                         u0 r0 {1,S}
-  8    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S}
+group: "\n1 *3 C                         u0 r0 {2,S} {3,S} {7,S}\n2 *4 C         \
+  \                u0 r0 {1,S} {4,S} {8,S}\n3 *2 C                         u0 r0 {1,S}\
+  \ {5,D}\n4 *5 C                         u0 r0 {2,S} {6,S}\n5 *1 O              \
+  \           u0 r0 {3,D}\n6 *6 H                         u0 r0 {4,S}\n7    N    \
+  \                     u0 r0 {1,S}\n8    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C                         u0 {1,S} {4,[S,D]}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4\
+  \ C                         u0 {1,S} {4,[S,D]}\n3 *2 C                         u0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]} {6,S}\n5 *1\
+  \ O                         u0 {3,[D,T,B]}\n6 *6 H                         u0 {4,S}\n\
+  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1004,16 +639,12 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_N-7BrCClFILiOPSSi->O
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C                         u0 {1,S} {4,[S,D]}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}
-  8    R!H                       ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4\
+  \ C                         u0 {1,S} {4,[S,D]}\n3 *2 C                         u0\
+  \ {1,[S,D]} {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n\
+  5 *1 O                         u0 {3,[D,T,B]}\n6 *6 H                         u0\
+  \ {4,S}\n7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}\n8    R!H           \
+  \            ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1021,16 +652,10 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_N-7BrCClFILiOPSSi->O
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    O   ux {1,[S,D,T,B,Q]}
-  8    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n\
+  5 *1 O   u0 {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    O   ux {1,[S,D,T,B,Q]}\n8    R!H\
+  \ ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1038,46 +663,26 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_7BrCClFILiOPSSi->O_N-8R!H->N
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_7BrCClFILiOPSSi->O_8R!H->N
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {1,[S,D,T,B,Q]}
-  8    N ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    O ux {1,[S,D,T,B,Q]}\n8    N ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_7BrCClFILiOPSSi->O_N-8R!H->N
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {1,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    O ux {1,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_N-7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    C   ux {1,[S,D,T,B,Q]}
-  8    R!H ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n\
+  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n\
+  5 *1 O   u0 {3,[D,T,B]}\n6 *6 H   u0 {4,S}\n7    C   ux {1,[S,D,T,B,Q]}\n8    R!H\
+  \ ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1085,46 +690,28 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_N-7BrCClFILiOPSSi->O_N-8R!H->N
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_N-7BrCClFILiOPSSi->O_8R!H->N
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {1,[S,D,T,B,Q]}
-  8    N ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux {1,[S,D,T,B,Q]}\n8    N ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-4C-R_N-7BrCClFILiOPSSi->O_N-8R!H->N
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {1,[S,D,T,B,Q]}
-  8    C ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S} {8,[S,D,T,B,Q]}\n5 *1\
+  \ O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n7    C ux {1,[S,D,T,B,Q]}\n8    C ux {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}
-  8    R!H                       ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4\
+  \ C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n3 *2 C         \
+  \                u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]}\
+  \ {6,S}\n5 *1 O                         u0 {3,[D,T,B]}\n6 *6 H                 \
+  \        u0 {4,S}\n7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}\n8    R!H \
+  \                      ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1132,16 +719,12 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_N-8R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_8R!H->C
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}
-  8    C                         ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4\
+  \ C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n3 *2 C         \
+  \                u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]}\
+  \ {6,S}\n5 *1 O                         u0 {3,[D,T,B]}\n6 *6 H                 \
+  \        u0 {4,S}\n7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}\n8    C   \
+  \                      ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1149,46 +732,28 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_8R!H->C_N-7BrCClFILiOPSSi->O
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_8R!H->C_7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {1,[S,D,T,B,Q]}
-  8    C ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    O ux {1,[S,D,T,B,Q]}\n8    C ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_8R!H->C_N-7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {1,[S,D,T,B,Q]}
-  8    C ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {1,[S,D,T,B,Q]}\n8    C ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_N-8R!H->C
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}
-  8    O                         ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4\
+  \ C                         u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n3 *2 C         \
+  \                u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]}\
+  \ {6,S}\n5 *1 O                         u0 {3,[D,T,B]}\n6 *6 H                 \
+  \        u0 {4,S}\n7    [I,P,Br,Cl,C,Si,S,F,Li,O] ux {1,[S,D,T,B,Q]}\n8    O   \
+  \                      ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1196,72 +761,40 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_N-8R!H->C_N-7BrCClFILiOPSSi->O
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_N-8R!H->C_7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {1,[S,D,T,B,Q]}
-  8    O ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    O ux {1,[S,D,T,B,Q]}\n8    O ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_Ext-2C-R_N-8R!H->C_N-7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {1,[S,D,T,B,Q]}
-  8    O ux {2,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]} {8,[S,D,T,B,Q]}\n\
+  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {1,[S,D,T,B,Q]}\n8    O ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    O ux {1,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    O ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_Ext-1C-R_N-7R!H->N_N-7BrCClFILiOPSSi->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C ux {1,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3\
+  \ *2 C u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n\
+  6 *6 H u0 {4,S}\n7    C ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1269,15 +802,9 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-4C-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-2C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]} {7,S}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 O   u0 {3,[D,T,B]}
-  6 *6 H   u0 {4,S}
-  7    R!H u0 {2,S}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]} {7,S}\n3 *2 C \
+  \  u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 O   u0 {3,[D,T,B]}\n\
+  6 *6 H   u0 {4,S}\n7    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1285,43 +812,27 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-2C-R_N-7R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-2C-R_7R!H->C
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]} {7,S}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 O u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
-  7    C u0 r0 {2,S}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]} {7,S}\n3 *2 C u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 O u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n\
+  7    C u0 r0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-2C-R_N-7R!H->C
-group: |2
-
-  1 *3 C                         u0 {2,S} {3,[S,D]}
-  2 *4 C                         u0 {1,S} {4,[S,D]} {7,S}
-  3 *2 C                         u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C                         u0 {2,[S,D]} {6,S}
-  5 *1 O                         u0 {3,[D,T,B]}
-  6 *6 H                         u0 {4,S}
-  7    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S}
+group: "\n1 *3 C                         u0 {2,S} {3,[S,D]}\n2 *4 C              \
+  \           u0 {1,S} {4,[S,D]} {7,S}\n3 *2 C                         u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C                         u0 {2,[S,D]} {6,S}\n5 *1 O       \
+  \                  u0 {3,[D,T,B]}\n6 *6 H                         u0 {4,S}\n7  \
+  \  [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-4C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S}
-  3 *2 C   u0 {1,S} {5,D}
-  4 *5 C   u0 {2,S} {6,S} {7,S}
-  5 *1 O   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    R!H u0 {4,S}
+group: "\n1 *3 C   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S}\n3 *2 C   u0 {1,S} {5,D}\n\
+  4 *5 C   u0 {2,S} {6,S} {7,S}\n5 *1 O   u0 {3,D}\n6 *6 H   u0 {4,S}\n7    R!H u0\
+  \ {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1329,42 +840,26 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-4C-R_N-7R!H->C
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-4C-R_7R!H->C
-group: |2
-
-  1 *3 C u0 r0 {2,S} {3,S}
-  2 *4 C u0 r0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S} {7,S}
-  5 *1 O u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
-  7    C u0 r0 {4,S}
+group: "\n1 *3 C u0 r0 {2,S} {3,S}\n2 *4 C u0 r0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D}\n\
+  4 *5 C u0 r0 {2,S} {6,S} {7,S}\n5 *1 O u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n7    C u0\
+  \ r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_5R!H->O_Ext-4C-R_N-7R!H->C
-group: |2
-
-  1 *3 C                         u0 r0 {2,S} {3,S}
-  2 *4 C                         u0 r0 {1,S} {4,S}
-  3 *2 C                         u0 r0 {1,S} {5,D}
-  4 *5 C                         u0 r0 {2,S} {6,S} {7,S}
-  5 *1 O                         u0 r0 {3,D}
-  6 *6 H                         u0 r0 {4,S}
-  7    [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {4,S}
+group: "\n1 *3 C                         u0 r0 {2,S} {3,S}\n2 *4 C               \
+  \          u0 r0 {1,S} {4,S}\n3 *2 C                         u0 r0 {1,S} {5,D}\n\
+  4 *5 C                         u0 r0 {2,S} {6,S} {7,S}\n5 *1 O                 \
+  \        u0 r0 {3,D}\n6 *6 H                         u0 r0 {4,S}\n7    [I,P,Br,Cl,N,Si,S,F,Li,O]\
+  \ u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]}
-  2 *4 C u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 C u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]}\n2 *4 C u0 {1,S} {4,[S,D]}\n3 *2 C u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 C u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1372,112 +867,65 @@ children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-5C-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R
-group: |2
-
-  1 *3 C u0 {2,S} {3,S}
-  2 *4 C u0 {1,S} {4,S}
-  3 *2 C u0 {1,S} {5,D}
-  4 *5 C u0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 C u0 {3,D}
-  6 *6 H u0 {4,S}
-  7    C ux {4,[S,D,T,B,Q]}
+group: "\n1 *3 C u0 {2,S} {3,S}\n2 *4 C u0 {1,S} {4,S}\n3 *2 C u0 {1,S} {5,D}\n4 *5\
+  \ C u0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5 *1 C u0 {3,D}\n6 *6 H u0 {4,S}\n7    C ux\
+  \ {4,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S}
-  3 *2 C   u0 {1,S} {5,D}
-  4 *5 C   u0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 C   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    R!H u0 {7,[S,D,T,B,Q]}
+group: "\n1 *3 C   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S}\n3 *2 C   u0 {1,S} {5,D}\n\
+  4 *5 C   u0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5 *1 C   u0 {3,D}\n6 *6 H   u0 {4,S}\n\
+  7    C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n8    R!H u0 {7,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,S}
-  2 *4 C   u0 {1,S} {4,S}
-  3 *2 C   u0 {1,S} {5,D}
-  4 *5 C   u0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5 *1 C   u0 {3,D}
-  6 *6 H   u0 {4,S}
-  7    C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  8    R!H u0 {7,[S,D,T,B,Q]} {9,S}
-  9    R!H ux {8,S}
+group: "\n1 *3 C   u0 {2,S} {3,S}\n2 *4 C   u0 {1,S} {4,S}\n3 *2 C   u0 {1,S} {5,D}\n\
+  4 *5 C   u0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5 *1 C   u0 {3,D}\n6 *6 H   u0 {4,S}\n\
+  7    C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n8    R!H u0 {7,[S,D,T,B,Q]} {9,S}\n\
+  9    R!H ux {8,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R_Ext-7R!H-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R_Ext-7R!H-R
-group: |2
-
-  1  *3 C u0 {2,S} {3,S}
-  2  *4 C u0 {1,S} {4,S}
-  3  *2 C u0 {1,S} {5,D}
-  4  *5 C u0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5  *1 C u0 {3,D}
-  6  *6 H u0 {4,S}
-  7     C ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]} {10,D}
-  8     O u0 {7,[S,D,T,B,Q]} {9,S}
-  9     C ux {8,S}
-  10    O u0 {7,D}
+group: "\n1  *3 C u0 {2,S} {3,S}\n2  *4 C u0 {1,S} {4,S}\n3  *2 C u0 {1,S} {5,D}\n\
+  4  *5 C u0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5  *1 C u0 {3,D}\n6  *6 H u0 {4,S}\n7  \
+  \   C ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]} {10,D}\n8     O u0 {7,[S,D,T,B,Q]} {9,S}\n\
+  9     C ux {8,S}\n10    O u0 {7,D}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-5C-R
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-4C-R_Ext-7R!H-R_Ext-8R!H-R_Ext-7R!H-R_Ext-5C-R
-group: |2
-
-  1  *3 C   u0 r0 {2,S} {3,S}
-  2  *4 C   u0 r0 {1,S} {4,S}
-  3  *2 C   u0 r0 {1,S} {5,D}
-  4  *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}
-  5  *1 C   u0 r0 {3,D} {11,[S,D,T,B,Q]}
-  6  *6 H   u0 r0 {4,S}
-  7     C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]} {10,D}
-  8     O   u0 r0 {7,[S,D,T,B,Q]} {9,S}
-  9     C   ux {8,S}
-  10    O   u0 r0 {7,D}
-  11    R!H ux {5,[S,D,T,B,Q]}
+group: "\n1  *3 C   u0 r0 {2,S} {3,S}\n2  *4 C   u0 r0 {1,S} {4,S}\n3  *2 C   u0 r0\
+  \ {1,S} {5,D}\n4  *5 C   u0 r0 {2,S} {6,S} {7,[S,D,T,B,Q]}\n5  *1 C   u0 r0 {3,D}\
+  \ {11,[S,D,T,B,Q]}\n6  *6 H   u0 r0 {4,S}\n7     C   ux {4,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\
+  \ {10,D}\n8     O   u0 r0 {7,[S,D,T,B,Q]} {9,S}\n9     C   ux {8,S}\n10    O   u0\
+  \ r0 {7,D}\n11    R!H ux {5,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_2R!H->C_N-5R!H->O_Ext-5C-R
-group: |2
-
-  1 *3 C   u0 {2,S} {3,[S,D]}
-  2 *4 C   u0 {1,S} {4,[S,D]}
-  3 *2 C   u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C   u0 {2,[S,D]} {6,S}
-  5 *1 C   u0 {3,[D,T,B]} {7,[S,D,T,B,Q]}
-  6 *6 H   u0 {4,S}
-  7    R!H ux {5,[S,D,T,B,Q]}
+group: "\n1 *3 C   u0 {2,S} {3,[S,D]}\n2 *4 C   u0 {1,S} {4,[S,D]}\n3 *2 C   u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C   u0 {2,[S,D]} {6,S}\n5 *1 C   u0 {3,[D,T,B]} {7,[S,D,T,B,Q]}\n\
+  6 *6 H   u0 {4,S}\n7    R!H ux {5,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C
-group: |2
-
-  1 *3 C       u0 {2,S} {3,[S,D]}
-  2 *4 [O,N,S] u0 {1,S} {4,[S,D]}
-  3 *2 C       u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C       u0 {2,[S,D]} {6,S}
-  5 *1 C       u0 {3,[D,T,B]}
-  6 *6 H       u0 {4,S}
+group: "\n1 *3 C       u0 {2,S} {3,[S,D]}\n2 *4 [O,N,S] u0 {1,S} {4,[S,D]}\n3 *2 C\
+  \       u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C       u0 {2,[S,D]} {6,S}\n5 *1 C      \
+  \ u0 {3,[D,T,B]}\n6 *6 H       u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1486,41 +934,23 @@ children:
 - Root_4R!H->C_N-1R!H->O_N-2R!H->C_N-2NOS->S
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C_Ext-1C-R
-group: |2
-
-  1 *3 C       u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}
-  2 *4 [O,N,S] u0 {1,S} {4,[S,D]}
-  3 *2 C       u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C       u0 {2,[S,D]} {6,S}
-  5 *1 C       u0 {3,[D,T,B]}
-  6 *6 H       u0 {4,S}
-  7    R!H     ux {1,[S,D,T,B,Q]}
+group: "\n1 *3 C       u0 {2,S} {3,[S,D]} {7,[S,D,T,B,Q]}\n2 *4 [O,N,S] u0 {1,S} {4,[S,D]}\n\
+  3 *2 C       u0 {1,[S,D]} {5,[D,T,B]}\n4 *5 C       u0 {2,[S,D]} {6,S}\n5 *1 C \
+  \      u0 {3,[D,T,B]}\n6 *6 H       u0 {4,S}\n7    R!H     ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C_2NOS->S
-group: |2
-
-  1 *3 C u0 {2,S} {3,[S,D]}
-  2 *4 S u0 {1,S} {4,[S,D]}
-  3 *2 C u0 {1,[S,D]} {5,[D,T,B]}
-  4 *5 C u0 {2,[S,D]} {6,S}
-  5 *1 C u0 {3,[D,T,B]}
-  6 *6 H u0 {4,S}
+group: "\n1 *3 C u0 {2,S} {3,[S,D]}\n2 *4 S u0 {1,S} {4,[S,D]}\n3 *2 C u0 {1,[S,D]}\
+  \ {5,[D,T,B]}\n4 *5 C u0 {2,[S,D]} {6,S}\n5 *1 C u0 {3,[D,T,B]}\n6 *6 H u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C_N-2NOS->S
-group: |2
-
-  1 *3 C     u0 {2,S} {3,S}
-  2 *4 [O,N] u0 {1,S} {4,S}
-  3 *2 C     u0 {1,S} {5,D}
-  4 *5 C     u0 {2,S} {6,S}
-  5 *1 C     u0 {3,D}
-  6 *6 H     u0 {4,S}
+group: "\n1 *3 C     u0 {2,S} {3,S}\n2 *4 [O,N] u0 {1,S} {4,S}\n3 *2 C     u0 {1,S}\
+  \ {5,D}\n4 *5 C     u0 {2,S} {6,S}\n5 *1 C     u0 {3,D}\n6 *6 H     u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1528,40 +958,24 @@ children:
 - Root_4R!H->C_N-1R!H->O_N-2R!H->C_N-2NOS->S_N-2NO->O
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C_N-2NOS->S_2NO->O
-group: |2
-
-  1 *3 C u0 r0 {2,S} {3,S}
-  2 *4 O u0 r0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S}
-  5 *1 C u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
+group: "\n1 *3 C u0 r0 {2,S} {3,S}\n2 *4 O u0 r0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D}\n\
+  4 *5 C u0 r0 {2,S} {6,S}\n5 *1 C u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_4R!H->C_N-1R!H->O_N-2R!H->C_N-2NOS->S_N-2NO->O
-group: |2
-
-  1 *3 C u0 r0 {2,S} {3,S}
-  2 *4 N u0 r0 {1,S} {4,S}
-  3 *2 C u0 r0 {1,S} {5,D}
-  4 *5 C u0 r0 {2,S} {6,S}
-  5 *1 C u0 r0 {3,D}
-  6 *6 H u0 r0 {4,S}
+group: "\n1 *3 C u0 r0 {2,S} {3,S}\n2 *4 N u0 r0 {1,S} {4,S}\n3 *2 C u0 r0 {1,S} {5,D}\n\
+  4 *5 C u0 r0 {2,S} {6,S}\n5 *1 C u0 r0 {3,D}\n6 *6 H u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R!H->C
-group: |2
-
-  1 *3 R!H                       u0 r0 {2,S} {3,S}
-  2 *4 R!H                       u0 r0 {1,S} {4,S}
-  3 *2 C                         u0 {1,S} {5,[D,T,B]}
-  4 *5 [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S} {6,S}
-  5 *1 R!H                       u0 {3,[D,T,B]}
-  6 *6 [H,Li]                    u0 r0 {4,S}
+group: "\n1 *3 R!H                       u0 r0 {2,S} {3,S}\n2 *4 R!H             \
+  \          u0 r0 {1,S} {4,S}\n3 *2 C                         u0 {1,S} {5,[D,T,B]}\n\
+  4 *5 [I,P,Br,Cl,N,Si,S,F,Li,O] u0 r0 {2,S} {6,S}\n5 *1 R!H                     \
+  \  u0 {3,[D,T,B]}\n6 *6 [H,Li]                    u0 r0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []

@@ -1,7 +1,7 @@
 from sqlalchemy import text
 
 label_pairs_view_sql = text("""CREATE VIEW label_pairs_view AS 
-SELECT p.label as parent_label, c.label as child_label 
+SELECT t.id, p.label as parent_label, c.label as child_label 
 FROM kinetics_family_groups_tree_table t
 JOIN kinetics_family_groups_table c on c.id = t.child_id
 JOIN kinetics_family_groups_table p on p.id = t.parent_id""")
@@ -50,11 +50,8 @@ SELECT
     ) AS overall_kinetics_type,
 
     a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
-    
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
-    
     m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
@@ -63,11 +60,8 @@ SELECT
     
     lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
     lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
-    
     tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
-    
     c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
-    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_library_reactions_table r
@@ -111,11 +105,8 @@ SELECT
     ) AS overall_kinetics_type,
 
     a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
-    
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
-    
     m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
@@ -124,11 +115,8 @@ SELECT
     
     lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
     lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
-    
     tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
-    
     c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
-    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_family_training_reactions_table r
@@ -164,11 +152,8 @@ SELECT
     ) AS overall_kinetics_type,
 
     a.A_val as arr_A_val, a.A_unit as arr_A_unit, a.n as arr_n, a.Ea_val as arr_Ea_val, a.Ea_unit as arr_Ea_unit, a.T0_val as arr_T0_val, a.T0_unit as arr_T0_unit,
-    
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
-    
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
-    
     m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
@@ -177,11 +162,8 @@ SELECT
     
     lind.high_A_val as lind_high_A, lind.high_n as lind_high_n, lind.high_Ea_val as lind_high_Ea,
     lind.low_A_val as lind_low_A, lind.low_n as lind_low_n, lind.low_Ea_val as lind_low_Ea,
-    
     tb.low_A_val as tb_low_A, tb.low_n as tb_low_n, tb.low_Ea_val as tb_low_Ea,
-    
     c.Tmin_val as cheb_Tmin, c.Pmin_val as cheb_Pmin, c.degreeT as cheb_degreeT, c.degreeP as cheb_degreeP,
-    
     pd.id as pdep_id,
     ts.id as solute_ts_id
 FROM kinetics_family_rules_table r
@@ -198,35 +180,31 @@ LEFT JOIN kinetics_pdep_arrhenius_table pd ON pd.family_rule_id = r.id
 LEFT JOIN kinetics_solute_ts_diff_table ts ON ts.family_rule_id = r.id
 """)
 
-# ------------------------------------------------------------------------
-# Standard Meta Views
-# ------------------------------------------------------------------------
-
 kinetics_library_dictionary_view_sql = text("""CREATE VIEW kinetics_library_dictionary_view AS
-SELECT l.name as library_name, d.label, d.adjacency_list
+SELECT d.id, l.name as library_name, d.label, d.adjacency_list
 FROM kinetics_library_dictionary_table d
 JOIN kinetics_libraries_table l ON l.id = d.library_id
 """)
 
 kinetics_family_groups_view_sql = text("""CREATE VIEW kinetics_family_groups_view AS
-SELECT f.name as family_name, g.label, g.group_adj_list, g.short_description, g.long_description
+SELECT g.id, f.name as family_name, g.label, g.group_adj_list, g.short_description, g.long_description
 FROM kinetics_family_groups_table g
 JOIN kinetics_families_table f ON f.id = g.family_id
 """)
 
 kinetics_family_forbidden_groups_view_sql = text("""CREATE VIEW kinetics_family_forbidden_groups_view AS
-SELECT f.name as family_name, g.label, g.group_adj_list, g.short_description, g.long_description
+SELECT g.id, f.name as family_name, g.label, g.group_adj_list, g.short_description, g.long_description
 FROM kinetics_family_forbidden_groups_table g
 JOIN kinetics_families_table f ON f.id = g.family_id
 """)
 
 kinetics_family_training_dictionary_view_sql = text("""CREATE VIEW kinetics_family_training_dictionary_view AS
-SELECT f.name as family_name, d.label, d.adjacency_list
+SELECT d.id, f.name as family_name, d.label, d.adjacency_list
 FROM kinetics_family_training_dictionary_table d
 JOIN kinetics_families_table f ON f.id = d.family_id
 """)
 
 kinetics_families_view_sql = text("""CREATE VIEW kinetics_families_view AS
-SELECT f.name, f.short_description, f.long_description, f.template, f.recipe, f.reversible, f.reverse_map, f.reactant_num, f.product_num, f.auto_generated
+SELECT f.id, f.name, f.short_description, f.long_description, f.template, f.recipe, f.reversible, f.reverse_map, f.reactant_num, f.product_num, f.auto_generated
 FROM kinetics_families_table f
 """)

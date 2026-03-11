@@ -5,79 +5,49 @@ long_description: ''
 children: []
 ---
 label: multiplebond_intra
-group: |2
-
-  1 *2 C         u0 {2,[D,T]}
-  2 *3 [C,O,S2d] u0 c0 {1,[D,T]}
+group: "\n1 *2 C         u0 {2,[D,T]}\n2 *3 [C,O,S2d] u0 c0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra
-group: |2
-
-  1 *1 R!H u0 {2,S}
-  2 *4 H   u0 {1,S}
+group: "\n1 *1 R!H u0 {2,S}\n2 *4 H   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,[S,D,T,B]} {4,S}
-  4 *2 C         u0 {3,S} {5,[D,T]}
-  5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}\n2 *4 H         u0 {1,S}\n3 *5 R!H\
+  \       u0 {1,[S,D,T,B]} {4,S}\n4 *2 C         u0 {3,S} {5,[D,T]}\n5 *3 [C,O,S2d]\
+  \ u0 c0 {4,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4_S
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *2 C         u0 {3,S} {5,[D,T]}
-  5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *2 C         u0 {3,S} {5,[D,T]}\n5 *3 [C,O,S2d] u0 c0 {4,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4_D
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *2 C         u0 {3,S} {5,[D,T]}
-  5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *2 C         u0 {3,S} {5,[D,T]}\n5 *3 [C,O,S2d] u0 c0 {4,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4_T
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *2 C         u0 {3,S} {5,[D,T]}
-  5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *2 C         u0 {3,S} {5,[D,T]}\n5 *3 [C,O,S2d] u0 c0 {4,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4_B
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *2 C         u0 {3,S} {5,[D,T]}
-  5 *3 [C,O,S2d] u0 c0 {4,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *2 C         u0 {3,S} {5,[D,T]}\n5 *3 [C,O,S2d] u0 c0 {4,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -89,92 +59,57 @@ long_description: ''
 children: []
 ---
 label: R5_SS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_SD
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,D}
-  4 *6 R!H       u0 {3,D} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,D}\n4 *6 R!H       u0 {3,D} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_DS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_ST
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,S} {4,T}
-  4 *6 Ct        u0 {3,T} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,S} {4,T}\n4 *6 Ct        u0 {3,T} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_TS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_SB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,S} {4,B}
-  4 *6 Cb        u0 {3,B} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,S} {4,B}\n4 *6 Cb        u0 {3,B} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5_BS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *2 C         u0 {4,S} {6,[D,T]}
-  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *2 C         u0 {4,S} {6,[D,T]}\n\
+  6 *3 [C,O,S2d] u0 c0 {5,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -186,225 +121,130 @@ long_description: ''
 children: []
 ---
 label: R6_RSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,[S,D,T,B]} {4,S}
-  4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
-  5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}\n2 *4 H         u0 {1,S}\n3 *5 R!H\
+  \       u0 {1,[S,D,T,B]} {4,S}\n4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}\n5 *7 R!H\
+  \       u0 {4,[S,D,T,B]} {6,S}\n6 *2 C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]\
+  \ u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_SSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
-  5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}\n5 *7 R!H       u0 {4,[S,D,T,B]}\
+  \ {6,S}\n6 *2 C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_SSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 R!H        u0 {1,S} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[S,D,T,B]}
-  5 *7 [Cd,Ct,Cb] u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C          u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 R!H     \
+  \   u0 {1,S} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[S,D,T,B]}\n5 *7 [Cd,Ct,Cb] u0 {4,[S,D,T,B]}\
+  \ {6,S}\n6 *2 C          u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_SSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *7 R!H       u0 {4,S} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *7 R!H       u0 {4,S} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_DSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
-  5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}\n5 *7 R!H       u0 {4,[S,D,T,B]}\
+  \ {6,S}\n6 *2 C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_DSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *7 R!H       u0 {4,S} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *7 R!H       u0 {4,S} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_DSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,D}
-  2 *4 H          u0 {1,S}
-  3 *5 Cd         u0 {1,D} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *2 C          u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,D}\n2 *4 H          u0 {1,S}\n3 *5 Cd      \
+  \   u0 {1,D} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *2 C          u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_TSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
-  5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}\n5 *7 R!H       u0 {4,[S,D,T,B]}\
+  \ {6,S}\n6 *2 C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_TSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *7 R!H       u0 {4,S} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *7 R!H       u0 {4,S} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_TSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,T}
-  2 *4 H          u0 {1,S}
-  3 *5 Ct         u0 {1,T} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *2 C          u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,T}\n2 *4 H          u0 {1,S}\n3 *5 Ct      \
+  \   u0 {1,T} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *2 C          u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_BSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}
-  5 *7 R!H       u0 {4,[S,D,T,B]} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 R!H       u0 {3,S} {5,[S,D,T,B]}\n5 *7 R!H       u0 {4,[S,D,T,B]}\
+  \ {6,S}\n6 *2 C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_BSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *7 R!H       u0 {4,S} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *7 R!H       u0 {4,S} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_BSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,B}
-  2 *4 H          u0 {1,S}
-  3 *5 Cb         u0 {1,B} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *2 C          u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,B}\n2 *4 H          u0 {1,S}\n3 *5 Cb      \
+  \   u0 {1,B} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *7 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *2 C          u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_SMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-  4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-  5 *7 R!H        u0 {4,S} {6,S}
-  6 *2 C          u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 [Cd,Ct,Cb]\
+  \ u0 {1,S} {4,[D,T,B]}\n4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}\n5 *7 R!H        u0\
+  \ {4,S} {6,S}\n6 *2 C          u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d]  u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_SBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,S} {4,B}
-  4 *6 Cbf       u0 {3,B} {5,B}
-  5 *7 Cb        u0 {4,B} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,S} {4,B}\n4 *6 Cbf       u0 {3,B} {5,B}\n5 *7 Cb        u0 {4,B} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6_BBS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cbf       u0 {1,B} {4,B}
-  4 *6 Cb        u0 {3,B} {5,S}
-  5 *7 R!H       u0 {4,S} {6,S}
-  6 *2 C         u0 {5,S} {7,[D,T]}
-  7 *3 [C,O,S2d] u0 c0 {6,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cbf       u0\
+  \ {1,B} {4,B}\n4 *6 Cb        u0 {3,B} {5,S}\n5 *7 R!H       u0 {4,S} {6,S}\n6 *2\
+  \ C         u0 {5,S} {7,[D,T]}\n7 *3 [C,O,S2d] u0 c0 {6,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -416,735 +256,453 @@ long_description: ''
 children: []
 ---
 label: R7_RSSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,[S,D,T,B]} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}\n2 *4 H         u0 {1,S}\n3 *5 R!H\
+  \       u0 {1,[S,D,T,B]} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0\
+  \ {4,S} {6,[S,D,T,B]}\n6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0\
+  \ {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SSSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}\n\
+  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \ u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SSSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SSSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 R!H        u0 {1,S} {4,S}
-  4 *6 R!H        u0 {3,S} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 R!H     \
+  \   u0 {1,S} {4,S}\n4 *6 R!H        u0 {3,S} {5,S}\n5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}\n\
+  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_DSSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}\n\
+  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \ u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_DSSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_DSSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,D}
-  2 *4 H          u0 {1,S}
-  3 *5 Cd         u0 {1,D} {4,S}
-  4 *6 R!H        u0 {3,S} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,D}\n2 *4 H          u0 {1,S}\n3 *5 Cd      \
+  \   u0 {1,D} {4,S}\n4 *6 R!H        u0 {3,S} {5,S}\n5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}\n\
+  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_TSSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}\n\
+  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \ u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_TSSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_TSSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,T}
-  2 *4 H          u0 {1,S}
-  3 *5 Ct         u0 {1,T} {4,S}
-  4 *6 R!H        u0 {3,S} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,T}\n2 *4 H          u0 {1,S}\n3 *5 Ct      \
+  \   u0 {1,T} {4,S}\n4 *6 R!H        u0 {3,S} {5,S}\n5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}\n\
+  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BSSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}\n\
+  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \ u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BSSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 R!H       u0 {3,S} {5,S}
-  5 *8 R!H       u0 {4,S} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 R!H       u0 {3,S} {5,S}\n5 *8 R!H       u0 {4,S} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BSSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,B}
-  2 *4 H          u0 {1,S}
-  3 *5 Cb         u0 {1,B} {4,S}
-  4 *6 R!H        u0 {3,S} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,B}\n2 *4 H          u0 {1,S}\n3 *5 Cb      \
+  \   u0 {1,B} {4,S}\n4 *6 R!H        u0 {3,S} {5,S}\n5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}\n\
+  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_RSMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,[S,D,T,B]}
-  2 *4 H          u0 {1,S}
-  3 *5 R!H        u0 {1,[S,D,T,B]} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,[S,D,T,B]}\n2 *4 H          u0 {1,S}\n3 *5 R!H\
+  \        u0 {1,[S,D,T,B]} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *8 [Cd,Ct,Cb]\
+  \ u0 {4,[D,T,B]} {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S}\
+  \ {8,[D,T]}\n8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SSMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 R!H        u0 {1,S} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 R!H     \
+  \   u0 {1,S} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3\
+  \ [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_DSMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,D}
-  2 *4 H          u0 {1,S}
-  3 *5 Cd         u0 {1,D} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,D}\n2 *4 H          u0 {1,S}\n3 *5 Cd      \
+  \   u0 {1,D} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3\
+  \ [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_TSMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,T}
-  2 *4 H          u0 {1,S}
-  3 *5 Ct         u0 {1,T} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,T}\n2 *4 H          u0 {1,S}\n3 *5 Ct      \
+  \   u0 {1,T} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3\
+  \ [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BSMS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,B}
-  2 *4 H          u0 {1,S}
-  3 *5 Cb         u0 {1,B} {4,S}
-  4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}
-  5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,B}\n2 *4 H          u0 {1,S}\n3 *5 Cb      \
+  \   u0 {1,B} {4,S}\n4 *6 [Cd,Ct,Cb] u0 {3,S} {5,[D,T,B]}\n5 *8 [Cd,Ct,Cb] u0 {4,[D,T,B]}\
+  \ {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3\
+  \ [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SMSR
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-  4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-  5 *8 R!H        u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H        u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 [Cd,Ct,Cb]\
+  \ u0 {1,S} {4,[D,T,B]}\n4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}\n5 *8 R!H        u0\
+  \ {4,S} {6,[S,D,T,B]}\n6 *7 R!H        u0 {5,[S,D,T,B]} {7,S}\n7 *2 C          u0\
+  \ {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SMSS
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-  4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-  5 *8 R!H        u0 {4,S} {6,S}
-  6 *7 R!H        u0 {5,S} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 [Cd,Ct,Cb]\
+  \ u0 {1,S} {4,[D,T,B]}\n4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}\n5 *8 R!H        u0\
+  \ {4,S} {6,S}\n6 *7 R!H        u0 {5,S} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n\
+  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SMSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3 *5 [Cd,Ct,Cb] u0 {1,S} {4,[D,T,B]}
-  4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3 *5 [Cd,Ct,Cb]\
+  \ u0 {1,S} {4,[D,T,B]}\n4 *6 [Cd,Ct,Cb] u0 {3,[D,T,B]} {5,S}\n5 *8 [Cd,Ct,Cb] u0\
+  \ {4,S} {6,[D,T,B]}\n6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S}\
+  \ {8,[D,T]}\n8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BBSR
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cbf       u0 {1,B} {4,B}
-  4 *6 Cb        u0 {3,B} {5,S}
-  5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}
-  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cbf       u0\
+  \ {1,B} {4,B}\n4 *6 Cb        u0 {3,B} {5,S}\n5 *8 R!H       u0 {4,S} {6,[S,D,T,B]}\n\
+  6 *7 R!H       u0 {5,[S,D,T,B]} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \ u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BBSS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cbf       u0 {1,B} {4,B}
-  4 *6 Cb        u0 {3,B} {5,S}
-  5 *8 R!H       u0 {4,S} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cbf       u0\
+  \ {1,B} {4,B}\n4 *6 Cb        u0 {3,B} {5,S}\n5 *8 R!H       u0 {4,S} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BBSM
-group: |2
-
-  1 *1 R!H        u0 {2,S} {3,B}
-  2 *4 H          u0 {1,S}
-  3 *5 Cbf        u0 {1,B} {4,B}
-  4 *6 Cb         u0 {3,B} {5,S}
-  5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}
-  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}
-  7 *2 C          u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d]  u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H        u0 {2,S} {3,B}\n2 *4 H          u0 {1,S}\n3 *5 Cbf     \
+  \   u0 {1,B} {4,B}\n4 *6 Cb         u0 {3,B} {5,S}\n5 *8 [Cd,Ct,Cb] u0 {4,S} {6,[D,T,B]}\n\
+  6 *7 [Cd,Ct,Cb] u0 {5,[D,T,B]} {7,S}\n7 *2 C          u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d]\
+  \  u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_RSBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,[S,D,T,B]} {4,S}
-  4 *6 Cb        u0 {3,S} {5,B}
-  5 *8 Cbf       u0 {4,B} {6,B}
-  6 *7 Cb        u0 {5,B} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,[S,D,T,B]}\n2 *4 H         u0 {1,S}\n3 *5 R!H\
+  \       u0 {1,[S,D,T,B]} {4,S}\n4 *6 Cb        u0 {3,S} {5,B}\n5 *8 Cbf       u0\
+  \ {4,B} {6,B}\n6 *7 Cb        u0 {5,B} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n\
+  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SSBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 R!H       u0 {1,S} {4,S}
-  4 *6 Cb        u0 {3,S} {5,B}
-  5 *8 Cbf       u0 {4,B} {6,B}
-  6 *7 Cb        u0 {5,B} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 R!H       u0\
+  \ {1,S} {4,S}\n4 *6 Cb        u0 {3,S} {5,B}\n5 *8 Cbf       u0 {4,B} {6,B}\n6 *7\
+  \ Cb        u0 {5,B} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_DSBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,D}
-  2 *4 H         u0 {1,S}
-  3 *5 Cd        u0 {1,D} {4,S}
-  4 *6 Cb        u0 {3,S} {5,B}
-  5 *8 Cbf       u0 {4,B} {6,B}
-  6 *7 Cb        u0 {5,B} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,D}\n2 *4 H         u0 {1,S}\n3 *5 Cd        u0\
+  \ {1,D} {4,S}\n4 *6 Cb        u0 {3,S} {5,B}\n5 *8 Cbf       u0 {4,B} {6,B}\n6 *7\
+  \ Cb        u0 {5,B} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_TSBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,T}
-  2 *4 H         u0 {1,S}
-  3 *5 Ct        u0 {1,T} {4,S}
-  4 *6 Cb        u0 {3,S} {5,B}
-  5 *8 Cbf       u0 {4,B} {6,B}
-  6 *7 Cb        u0 {5,B} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,T}\n2 *4 H         u0 {1,S}\n3 *5 Ct        u0\
+  \ {1,T} {4,S}\n4 *6 Cb        u0 {3,S} {5,B}\n5 *8 Cbf       u0 {4,B} {6,B}\n6 *7\
+  \ Cb        u0 {5,B} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_BSBB
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,B}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,B} {4,S}
-  4 *6 Cb        u0 {3,S} {5,B}
-  5 *8 Cbf       u0 {4,B} {6,B}
-  6 *7 Cb        u0 {5,B} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,B}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,B} {4,S}\n4 *6 Cb        u0 {3,S} {5,B}\n5 *8 Cbf       u0 {4,B} {6,B}\n6 *7\
+  \ Cb        u0 {5,B} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7_SBBS
-group: |2
-
-  1 *1 R!H       u0 {2,S} {3,S}
-  2 *4 H         u0 {1,S}
-  3 *5 Cb        u0 {1,S} {4,B}
-  4 *6 Cbf       u0 {3,B} {5,B}
-  5 *8 Cb        u0 {4,B} {6,S}
-  6 *7 R!H       u0 {5,S} {7,S}
-  7 *2 C         u0 {6,S} {8,[D,T]}
-  8 *3 [C,O,S2d] u0 c0 {7,[D,T]}
+group: "\n1 *1 R!H       u0 {2,S} {3,S}\n2 *4 H         u0 {1,S}\n3 *5 Cb        u0\
+  \ {1,S} {4,B}\n4 *6 Cbf       u0 {3,B} {5,B}\n5 *8 Cb        u0 {4,B} {6,S}\n6 *7\
+  \ R!H       u0 {5,S} {7,S}\n7 *2 C         u0 {6,S} {8,[D,T]}\n8 *3 [C,O,S2d] u0\
+  \ c0 {7,[D,T]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: doublebond_intra
-group: |2
-
-  1 *2 Cd u0 {2,D}
-  2 *3 Cd u0 c0 {1,D}
+group: "\n1 *2 Cd u0 {2,D}\n2 *3 Cd u0 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: doublebond_intra_2H
-group: |2
-
-  1 *2 Cd u0 {2,D}
-  2 *3 Cd u0 c0 {1,D} {3,S} {4,S}
-  3    H  u0 {2,S}
-  4    H  u0 {2,S}
+group: "\n1 *2 Cd u0 {2,D}\n2 *3 Cd u0 c0 {1,D} {3,S} {4,S}\n3    H  u0 {2,S}\n4 \
+  \   H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: doublebond_intra_2H_secDe
-group: |2
-
-  1 *2 Cd               u0 {2,D} {3,S}
-  2 *3 Cd               u0 c0 {1,D} {4,S} {5,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    H                u0 {2,S}
-  5    H                u0 {2,S}
+group: "\n1 *2 Cd               u0 {2,D} {3,S}\n2 *3 Cd               u0 c0 {1,D}\
+  \ {4,S} {5,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    H                u0 {2,S}\n\
+  5    H                u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: doublebond_intra_2H_secNd
-group: |2
-
-  1 *2 Cd         u0 {2,D} {3,S}
-  2 *3 Cd         u0 c0 {1,D} {4,S} {5,S}
-  3    [Cs,O,S2s] u0 {1,S}
-  4    H          u0 {2,S}
-  5    H          u0 {2,S}
+group: "\n1 *2 Cd         u0 {2,D} {3,S}\n2 *3 Cd         u0 c0 {1,D} {4,S} {5,S}\n\
+  3    [Cs,O,S2s] u0 {1,S}\n4    H          u0 {2,S}\n5    H          u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: doublebond_intra_2H_pri
-group: |2
-
-  1 *2 Cd u0 {2,D} {3,S}
-  2 *3 Cd u0 c0 {1,D} {4,S} {5,S}
-  3    H  u0 {1,S}
-  4    H  u0 {2,S}
-  5    H  u0 {2,S}
+group: "\n1 *2 Cd u0 {2,D} {3,S}\n2 *3 Cd u0 c0 {1,D} {4,S} {5,S}\n3    H  u0 {1,S}\n\
+  4    H  u0 {2,S}\n5    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: triplebond_intra
-group: |2
-
-  1 *2 Ct u0 {2,T}
-  2 *3 Ct u0 c0 {1,T}
+group: "\n1 *2 Ct u0 {2,T}\n2 *3 Ct u0 c0 {1,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: triplebond_intra_H
-group: |2
-
-  1 *2 Ct u0 {2,T}
-  2 *3 Ct u0 c0 {1,T} {3,S}
-  3    H  u0 {2,S}
+group: "\n1 *2 Ct u0 {2,T}\n2 *3 Ct u0 c0 {1,T} {3,S}\n3    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: double_bond_intra
-group: |2
-
-  1 *2 CO  u0 {2,D}
-  2 *3 O2d u0 p2 c0 {1,D}
+group: "\n1 *2 CO  u0 {2,D}\n2 *3 O2d u0 p2 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: double_bond_intra_De
-group: |2
-
-  1 *2 CO               u0 {2,D} {3,S}
-  2 *3 O2d              u0 p2 c0 {1,D}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *2 CO               u0 {2,D} {3,S}\n2 *3 O2d              u0 p2 c0 {1,D}\n\
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: double_bond_intra_Nd
-group: |2
-
-  1 *2 CO         u0 {2,D} {3,S}
-  2 *3 O2d        u0 p2 c0 {1,D}
-  3    [Cs,O,S2s] u0 c0 {1,S}
+group: "\n1 *2 CO         u0 {2,D} {3,S}\n2 *3 O2d        u0 p2 c0 {1,D}\n3    [Cs,O,S2s]\
+  \ u0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: double_bond_intra_H
-group: |2
-
-  1 *2 CO  u0 {2,D} {3,S}
-  2 *3 O2d u0 p2 c0 {1,D}
-  3    H   u0 {1,S}
+group: "\n1 *2 CO  u0 {2,D} {3,S}\n2 *3 O2d u0 p2 c0 {1,D}\n3    H   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: double_bond_intraS
-group: |2
-
-  1 *2 CS  u0 {2,D}
-  2 *3 S2d u0 p2 c0 {1,D}
+group: "\n1 *2 CS  u0 {2,D}\n2 *3 S2d u0 p2 c0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cs
-group: |2
-
-  1 *1 Cs u0 {2,S}
-  2 *4 H  u0 {1,S}
+group: "\n1 *1 Cs u0 {2,S}\n2 *4 H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_csNdNd
-group: |2
-
-  1 *1 Cs         u0 {2,S} {3,S} {4,S}
-  2 *4 H          u0 {1,S}
-  3    [Cs,O,S2s] u0 {1,S}
-  4    [Cs,O,S2s] u0 {1,S}
+group: "\n1 *1 Cs         u0 {2,S} {3,S} {4,S}\n2 *4 H          u0 {1,S}\n3    [Cs,O,S2s]\
+  \ u0 {1,S}\n4    [Cs,O,S2s] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_csNdDe
-group: |2
-
-  1 *1 Cs               u0 {2,S} {3,S} {4,S}
-  2 *4 H                u0 {1,S}
-  3    [Cs,O,S2s]       u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 Cs               u0 {2,S} {3,S} {4,S}\n2 *4 H                u0 {1,S}\n\
+  3    [Cs,O,S2s]       u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_csDeDe
-group: |2
-
-  1 *1 Cs               u0 {2,S} {3,S} {4,S}
-  2 *4 H                u0 {1,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 Cs               u0 {2,S} {3,S} {4,S}\n2 *4 H                u0 {1,S}\n\
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cs2H
-group: |2
-
-  1 *1 Cs u0 {2,S} {3,S}
-  2 *4 H  u0 {1,S}
-  3    H  u0 {1,S}
+group: "\n1 *1 Cs u0 {2,S} {3,S}\n2 *4 H  u0 {1,S}\n3    H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_csHHNd
-group: |2
-
-  1 *1 Cs         u0 {2,S} {3,S} {4,S}
-  2 *4 H          u0 {1,S}
-  3    [Cs,O,S2s] u0 {1,S}
-  4    H          u0 {1,S}
+group: "\n1 *1 Cs         u0 {2,S} {3,S} {4,S}\n2 *4 H          u0 {1,S}\n3    [Cs,O,S2s]\
+  \ u0 {1,S}\n4    H          u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_csHHDe
-group: |2
-
-  1 *1 Cs               u0 {2,S} {3,S} {4,S}
-  2 *4 H                u0 {1,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    H                u0 {1,S}
+group: "\n1 *1 Cs               u0 {2,S} {3,S} {4,S}\n2 *4 H                u0 {1,S}\n\
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    H                u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_O
-group: |2
-
-  1 *1 O u0 {2,S}
-  2 *4 H u0 {1,S}
+group: "\n1 *1 O u0 {2,S}\n2 *4 H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_Cb
-group: |2
-
-  1 *1 Cb u0 {2,S}
-  2 *4 H  u0 {1,S}
+group: "\n1 *1 Cb u0 {2,S}\n2 *4 H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cdsingle
-group: |2
-
-  1 *1 Cd u0 {2,S} {3,S}
-  2 *4 H  u0 {1,S}
-  3    R  u0 {1,S}
+group: "\n1 *1 Cd u0 {2,S} {3,S}\n2 *4 H  u0 {1,S}\n3    R  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cdsingleH
-group: |2
-
-  1 *1 Cd u0 {2,S} {3,S}
-  2 *4 H  u0 {1,S}
-  3    H  u0 {1,S}
+group: "\n1 *1 Cd u0 {2,S} {3,S}\n2 *4 H  u0 {1,S}\n3    H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cdsingleNd
-group: |2
-
-  1 *1 Cd         u0 {2,S} {3,S}
-  2 *4 H          u0 {1,S}
-  3    [Cs,O,S2s] u0 {1,S}
+group: "\n1 *1 Cd         u0 {2,S} {3,S}\n2 *4 H          u0 {1,S}\n3    [Cs,O,S2s]\
+  \ u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cdsingleDe
-group: |2
-
-  1 *1 Cd               u0 {2,S} {3,S}
-  2 *4 H                u0 {1,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *1 Cd               u0 {2,S} {3,S}\n2 *4 H                u0 {1,S}\n3\
+  \    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_cddouble
-group: |2
-
-  1 *1 Cd  u0 {2,S} {3,D}
-  2 *4 H   u0 {1,S}
-  3    R!H u0 {1,D}
+group: "\n1 *1 Cd  u0 {2,S} {3,D}\n2 *4 H   u0 {1,S}\n3    R!H u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_CO
-group: |2
-
-  1 *1 CO u0 {2,S} {3,D}
-  2 *4 H  u0 {1,S}
-  3    O  u0 {1,D}
+group: "\n1 *1 CO u0 {2,S} {3,D}\n2 *4 H  u0 {1,S}\n3    O  u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: radadd_intra_Ct
-group: |2
-
-  1 *1 Ct u0 {2,S}
-  2 *4 H  u0 {1,S}
+group: "\n1 *1 Ct u0 {2,S}\n2 *4 H  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []

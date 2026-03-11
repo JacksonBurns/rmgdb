@@ -9,154 +9,83 @@ children:
 - cyclohexene_4inring
 ---
 label: cyclohexene_1inring
-group: |2
-
-  1  *1 R!H u0 c0 {2,S} {6,S} {8,S} {9,S}
-  2  *2 R!H u0 c0 {1,S} {3,D}
-  3  *3 R!H u0 c0 {2,D} {4,S}
-  4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {10,S}
-  5  *5 R!H u0 c0 {4,S} {6,S} {7,S}
-  6  *6 R!H u0 c0 {1,S} {5,S}
-  7     R!H u0 {4,S} {5,S}
-  8  *7 R   u0 {1,S}
-  9  *8 R   u0 {1,S}
-  10 *9 R   u0 {4,S}
+group: "\n1  *1 R!H u0 c0 {2,S} {6,S} {8,S} {9,S}\n2  *2 R!H u0 c0 {1,S} {3,D}\n3\
+  \  *3 R!H u0 c0 {2,D} {4,S}\n4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {10,S}\n5  *5 R!H\
+  \ u0 c0 {4,S} {6,S} {7,S}\n6  *6 R!H u0 c0 {1,S} {5,S}\n7     R!H u0 {4,S} {5,S}\n\
+  8  *7 R   u0 {1,S}\n9  *8 R   u0 {1,S}\n10 *9 R   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cyclohexene_2inring
-group: |2
-
-  1  *1 R!H u0 c0 {2,S} {6,S} {9,S} {10,S}
-  2  *2 R!H u0 c0 {1,S} {3,D}
-  3  *3 R!H u0 c0 {2,D} {4,S}
-  4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {11,S}
-  5  *5 R!H u0 c0 {4,S} {6,S} {8,S}
-  6  *6 R!H u0 c0 {1,S} {5,S}
-  7     R!H u0 {4,S} {8,[S,D]}
-  8     R!H u0 {5,S} {7,[S,D]}
-  9  *7 R   u0 {1,S}
-  10 *8 R   u0 {1,S}
-  11 *9 R   u0 {4,S}
+group: "\n1  *1 R!H u0 c0 {2,S} {6,S} {9,S} {10,S}\n2  *2 R!H u0 c0 {1,S} {3,D}\n\
+  3  *3 R!H u0 c0 {2,D} {4,S}\n4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {11,S}\n5  *5 R!H\
+  \ u0 c0 {4,S} {6,S} {8,S}\n6  *6 R!H u0 c0 {1,S} {5,S}\n7     R!H u0 {4,S} {8,[S,D]}\n\
+  8     R!H u0 {5,S} {7,[S,D]}\n9  *7 R   u0 {1,S}\n10 *8 R   u0 {1,S}\n11 *9 R  \
+  \ u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cyclohexene_3inring
-group: |2
-
-  1  *1 R!H u0 c0 {2,S} {6,S} {10,S} {11,S}
-  2  *2 R!H u0 c0 {1,S} {3,D}
-  3  *3 R!H u0 c0 {2,D} {4,S}
-  4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {12,S}
-  5  *5 R!H u0 c0 {4,S} {6,S} {9,S}
-  6  *6 R!H u0 c0 {1,S} {5,S}
-  7     R!H u0 {4,S} {8,[S,D]}
-  8     R!H u0 {7,[S,D]} {9,[S,D]}
-  9     R!H u0 {5,S} {8,[S,D]}
-  10 *7 R   u0 {1,S}
-  11 *8 R   u0 {1,S}
-  12 *9 R   u0 {4,S}
+group: "\n1  *1 R!H u0 c0 {2,S} {6,S} {10,S} {11,S}\n2  *2 R!H u0 c0 {1,S} {3,D}\n\
+  3  *3 R!H u0 c0 {2,D} {4,S}\n4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {12,S}\n5  *5 R!H\
+  \ u0 c0 {4,S} {6,S} {9,S}\n6  *6 R!H u0 c0 {1,S} {5,S}\n7     R!H u0 {4,S} {8,[S,D]}\n\
+  8     R!H u0 {7,[S,D]} {9,[S,D]}\n9     R!H u0 {5,S} {8,[S,D]}\n10 *7 R   u0 {1,S}\n\
+  11 *8 R   u0 {1,S}\n12 *9 R   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cyclohexene_4inring
-group: |2
-
-  1  *1 R!H u0 c0 {2,S} {6,S} {11,S} {12,S}
-  2  *2 R!H u0 c0 {1,S} {3,D}
-  3  *3 R!H u0 c0 {2,D} {4,S}
-  4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {13,S}
-  5  *5 R!H u0 c0 {4,S} {6,S} {10,S}
-  6  *6 R!H u0 c0 {1,S} {5,S}
-  7     R!H u0 {4,S} {8,[S,D]}
-  8     R!H u0 {7,[S,D]} {9,[S,D]}
-  9     R!H u0 {8,[S,D]} {10,[S,D]}
-  10    R!H u0 {5,S} {9,[S,D]}
-  11 *7 R   u0 {1,S}
-  12 *8 R   u0 {1,S}
-  13 *9 R   u0 {4,S}
+group: "\n1  *1 R!H u0 c0 {2,S} {6,S} {11,S} {12,S}\n2  *2 R!H u0 c0 {1,S} {3,D}\n\
+  3  *3 R!H u0 c0 {2,D} {4,S}\n4  *4 R!H u0 c0 {3,S} {5,S} {7,S} {13,S}\n5  *5 R!H\
+  \ u0 c0 {4,S} {6,S} {10,S}\n6  *6 R!H u0 c0 {1,S} {5,S}\n7     R!H u0 {4,S} {8,[S,D]}\n\
+  8     R!H u0 {7,[S,D]} {9,[S,D]}\n9     R!H u0 {8,[S,D]} {10,[S,D]}\n10    R!H u0\
+  \ {5,S} {9,[S,D]}\n11 *7 R   u0 {1,S}\n12 *8 R   u0 {1,S}\n13 *9 R   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: bicyclohepta13diene
-group: |2
-
-  1 *3 R!H u0 {2,[D,T]} {4,S}
-  2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}
-  3 *1 R!H u0 {2,S} {7,S}
-  4 *4 R!H u0 {1,S} {5,[D,T]}
-  5 *5 R!H u0 {4,[D,T]} {6,S} {7,S}
-  6    R!H u0 {2,S} {5,S}
-  7 *6 R!H u0 {3,S} {5,S}
+group: "\n1 *3 R!H u0 {2,[D,T]} {4,S}\n2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}\n3 *1 R!H\
+  \ u0 {2,S} {7,S}\n4 *4 R!H u0 {1,S} {5,[D,T]}\n5 *5 R!H u0 {4,[D,T]} {6,S} {7,S}\n\
+  6    R!H u0 {2,S} {5,S}\n7 *6 R!H u0 {3,S} {5,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: bicyclohepta13diene_prod
-group: |2
-
-  1 *3 R!H u0 {2,S} {4,[D,T]}
-  2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}
-  3 *1 R!H u0 {2,[D,T]}
-  4 *4 R!H u0 {1,[D,T]} {5,S}
-  5 *5 R!H u0 {4,S} {6,S} {7,[D,T]}
-  6    R!H u0 {2,S} {5,S}
-  7 *6 R!H u0 {5,[D,T]}
+group: "\n1 *3 R!H u0 {2,S} {4,[D,T]}\n2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}\n3 *1 R!H\
+  \ u0 {2,[D,T]}\n4 *4 R!H u0 {1,[D,T]} {5,S}\n5 *5 R!H u0 {4,S} {6,S} {7,[D,T]}\n\
+  6    R!H u0 {2,S} {5,S}\n7 *6 R!H u0 {5,[D,T]}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: bicyclohepta13diene_rad
-group: |2
-
-  1 *3 R!H u0 {2,[D,T]} {4,S}
-  2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}
-  3 *1 R!H u0 {2,S} {7,S}
-  4 *4 R!H u0 {1,S} {5,[D,T]}
-  5 *5 R!H u0 {4,[D,T]} {6,S} {7,S}
-  6    R!H u1 {2,S} {5,S}
-  7 *6 R!H u0 {3,S} {5,S}
+group: "\n1 *3 R!H u0 {2,[D,T]} {4,S}\n2 *2 R!H u0 {1,[D,T]} {3,S} {6,S}\n3 *1 R!H\
+  \ u0 {2,S} {7,S}\n4 *4 R!H u0 {1,S} {5,[D,T]}\n5 *5 R!H u0 {4,[D,T]} {6,S} {7,S}\n\
+  6    R!H u1 {2,S} {5,S}\n7 *6 R!H u0 {3,S} {5,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: bicyclohepta13diene_rad_prod
-group: |2
-
-  1 *3 R!H u0 {2,S} {4,[D,T]}
-  2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}
-  3 *1 R!H u0 {2,[D,T]}
-  4 *4 R!H u0 {1,[D,T]} {5,S}
-  5 *5 R!H u0 {4,S} {6,S} {7,[D,T]}
-  6    R!H u1 {2,S} {5,S}
-  7 *6 R!H u0 {5,[D,T]}
+group: "\n1 *3 R!H u0 {2,S} {4,[D,T]}\n2 *2 R!H u0 {1,S} {3,[D,T]} {6,S}\n3 *1 R!H\
+  \ u0 {2,[D,T]}\n4 *4 R!H u0 {1,[D,T]} {5,S}\n5 *5 R!H u0 {4,S} {6,S} {7,[D,T]}\n\
+  6    R!H u1 {2,S} {5,S}\n7 *6 R!H u0 {5,[D,T]}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: two5rings
-group: |2
-
-  1     C u0 {2,S} {4,S} {5,S} {10,S}
-  2  *4 C u0 {1,S} {3,S} {16,S}
-  3  *3 C u0 {2,S} {6,S} {11,D}
-  4     H u0 {1,S}
-  5     H u0 {1,S}
-  6     H u0 {3,S}
-  7  *1 C u0 {8,S} {11,S} {12,S}
-  8  *6 C u0 {7,S} {9,S} {13,S}
-  9  *5 C u0 {8,S} {10,S} {14,S}
-  10    C u0 {1,S} {9,S} {11,S} {15,S}
-  11 *2 C u0 {3,D} {7,S} {10,S}
-  12    H u0 {7,S}
-  13    H u0 {8,S}
-  14    H u0 {9,S}
-  15    H u0 {10,S}
-  16    H u0 {2,S}
+group: "\n1     C u0 {2,S} {4,S} {5,S} {10,S}\n2  *4 C u0 {1,S} {3,S} {16,S}\n3  *3\
+  \ C u0 {2,S} {6,S} {11,D}\n4     H u0 {1,S}\n5     H u0 {1,S}\n6     H u0 {3,S}\n\
+  7  *1 C u0 {8,S} {11,S} {12,S}\n8  *6 C u0 {7,S} {9,S} {13,S}\n9  *5 C u0 {8,S}\
+  \ {10,S} {14,S}\n10    C u0 {1,S} {9,S} {11,S} {15,S}\n11 *2 C u0 {3,D} {7,S} {10,S}\n\
+  12    H u0 {7,S}\n13    H u0 {8,S}\n14    H u0 {9,S}\n15    H u0 {10,S}\n16    H\
+  \ u0 {2,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''

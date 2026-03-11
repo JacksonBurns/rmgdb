@@ -1,30 +1,20 @@
 label: CarbonateRing
-group: |2
-
-  1     O u0 p2 {2,D}
-  2     C u0 p0 {1,D} {3,S} {4,S}
-  3     O u0 p2 {2,S} {5,S}
-  4     O u0 p2 {2,S} {6,S}
-  5  *1 R!H u0 px cx {6,[S,D]} {3,S} {8,S}
-  6  *2 R!H u0 px cx {5,[S,D]} {4,S} {7,S}
-  7  *3 F   u0 p3 c0 {6,S}
-  8  *4 F   u0 p3 c0 {5,S}
+group: "\n1     O u0 p2 {2,D}\n2     C u0 p0 {1,D} {3,S} {4,S}\n3     O u0 p2 {2,S}\
+  \ {5,S}\n4     O u0 p2 {2,S} {6,S}\n5  *1 R!H u0 px cx {6,[S,D]} {3,S} {8,S}\n6\
+  \  *2 R!H u0 px cx {5,[S,D]} {4,S} {7,S}\n7  *3 F   u0 p3 c0 {6,S}\n8  *4 F   u0\
+  \ p3 c0 {5,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: SurfaceSite1
-group: |2
-
-  1  *5 Xv  u0 p0 c0
+group: "\n1  *5 Xv  u0 p0 c0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: SurfaceSite2
-group: |2
-
-  1  *6 Xv  u0 p0 c0
+group: "\n1  *6 Xv  u0 p0 c0\n"
 short_description: ''
 long_description: ''
 children: []

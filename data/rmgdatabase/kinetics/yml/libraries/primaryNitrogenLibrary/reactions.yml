@@ -1,18 +1,15 @@
 label: N + NO <=> O + N2
 degeneracy: 1.0
 short_description: '[Hanson1990b]'
-long_description: |2
-
-  Part of the "Thermal (Zeldovich) NO" mechanism
-  See [Hanson1990b] R1; p. 856
-  Uncertainty: +/-20% at 1400 K to +/- 10% at 3500 K
-  [DeanBozz2000] recommend using [Hanson1990b]'s value, sicne its shock-tube measurements are in close agreement with 5 other studies (see Fig 2.1 in [DeanBozz2000] p. 142)
-  [GRI] fitted to the data of 3 of the sources in [DeanBozz2000]
-  Also available in RMG's libraries as:
-  [DeanBozz2000] *reverse direction given: A = 2e+14 cm^3/(mol*s); n = 0; Ea = 76774 cal/mol
-  [GlarZha]  A = 2.1e13 cm^3/(mol*s); n = 0; Ea = 0
-  [GlarGim]  A = 3.3e12 cm^3/(mol*s); n = 0.3; Ea = 0 cal/mol
-  [GRI]      A = 2.7e13 cm^3/(mol*s); n = 0; Ea = 355 cal/mol
+long_description: "\nPart of the \"Thermal (Zeldovich) NO\" mechanism\nSee [Hanson1990b]\
+  \ R1; p. 856\nUncertainty: +/-20% at 1400 K to +/- 10% at 3500 K\n[DeanBozz2000]\
+  \ recommend using [Hanson1990b]'s value, sicne its shock-tube measurements are in\
+  \ close agreement with 5 other studies (see Fig 2.1 in [DeanBozz2000] p. 142)\n\
+  [GRI] fitted to the data of 3 of the sources in [DeanBozz2000]\nAlso available in\
+  \ RMG's libraries as:\n[DeanBozz2000] *reverse direction given: A = 2e+14 cm^3/(mol*s);\
+  \ n = 0; Ea = 76774 cal/mol\n[GlarZha]  A = 2.1e13 cm^3/(mol*s); n = 0; Ea = 0\n\
+  [GlarGim]  A = 3.3e12 cm^3/(mol*s); n = 0.3; Ea = 0 cal/mol\n[GRI]      A = 2.7e13\
+  \ cm^3/(mol*s); n = 0; Ea = 355 cal/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -35,17 +32,13 @@ kinetics:
 label: N + O2 <=> NO + O
 degeneracy: 1.0
 short_description: '[Baulch1994]'
-long_description: |2
-
-  Part of the "Thermal (Zeldovich) NO" mechanism
-  See [Baulch1994] p. 859
-  [DeanBozz2000] (p. 230) cite [Cohen1992], which I couldn't access.
-  [GRI] gives an identical rate based on [Baulch1994].
-  Also available in RMG's libraries as:
-  [DeanBozz2000] A = 9e+09 cm^3/(mol*s); n = 1; Ea = 6494 cal/mol
-  [GlarZha]  A = 6.4e9 cm^3/(mol*s); n = 1; Ea = 6280 cal/mol
-  [GlarGim]  A = 6.4e9 cm^3/(mol*s); n = 1; Ea = 6280 cal/mol
-  [GRI]      A = 9e+09 cm^3/(mol*s); n = 1; Ea = 6500 cal/mol
+long_description: "\nPart of the \"Thermal (Zeldovich) NO\" mechanism\nSee [Baulch1994]\
+  \ p. 859\n[DeanBozz2000] (p. 230) cite [Cohen1992], which I couldn't access.\n[GRI]\
+  \ gives an identical rate based on [Baulch1994].\nAlso available in RMG's libraries\
+  \ as:\n[DeanBozz2000] A = 9e+09 cm^3/(mol*s); n = 1; Ea = 6494 cal/mol\n[GlarZha]\
+  \  A = 6.4e9 cm^3/(mol*s); n = 1; Ea = 6280 cal/mol\n[GlarGim]  A = 6.4e9 cm^3/(mol*s);\
+  \ n = 1; Ea = 6280 cal/mol\n[GRI]      A = 9e+09 cm^3/(mol*s); n = 1; Ea = 6500\
+  \ cal/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -68,25 +61,28 @@ kinetics:
 label: NO + H <=> N + OH
 degeneracy: 1.0
 short_description: '[Hanson1984c]'
-long_description: |2
-
-  Part of the "Thermal (Zeldovich) NO" mechanism
-  5.4 on p. 398
-  T range: 1750-4200 K
-  Also available from Han 2008 (https://doi.org/10.1142/S021963360800399X)
-  [DeanBozz2000] (p. 231) give A = 6.4e+12 cm^3/(mol*s); n = 0.1; Ea = 21300 cal/mol, citing [Cohen1991]
-  But [Cohen1991] says that this rate "cannot be fixed more precisely" than an upper boundary of 4.1e+10 (p. 95, k2a)
-  [GRI] used a fit to low and high T expressions from Atkinson et al., (1989) J. Phys. Chem. Ref. Data 18 88 and Hanson et al., Combustion Chemistry , Springer-Verlag, N.Y., p. 361
-  [GRI] optimized this rate and recommended 59% of the fit's A factor.
-  [GlarGim] has a ridiculously long citation chain:
-  Skreiberg et al, Combust. Flame 136, 501-518 (2004) <-- P. Glarborg et al., Combust. Flame 115 (1998) 1-27 <-- P. Glarborg et al., Int. J. Chem. Kinet., 27 (1995), p. 1207 <-- P. Glarborg et al., Int. J. Chem. Kinet., 26, 421 (1994) <-- J.A. Miller, C. T. Bowman, Prog. Energy and Comb. Sci., 15, 287 (1989) <-- J.A. Miller et al., 20th Symp. (Int.) Combust., pp. 673-684, The Combustion Institute, Pittsburgh (1985) <-- W.L. Flower et al., Comb. Sci. Tech. 15, 115 (1977).
-  The origin of the data is in shock tube experiments by [Flower1977] (p. 14, Fig. 7)
-  Also available in other RMG libraries as:
-  [DeanBozz2000] *reverse direction given: A = 1.1e+14 cm^3/(mol*s); n = 0; Ea = 1122 cal/mol
-  [GlarZha]  *reverse direction given: A = 3.8e+13 cm^3/(mol*s); n = 0; Ea = 0 cal/mol
-  [GlarGim]  *reverse direction given: A = 3.8e+13 cm^3/(mol*s); n = 0; Ea = 0 cal/mol
-  [GRI]      *reverse direction given: A = 3.36e+13 cm^3/(mol*s); n = 0; Ea = 385 cal/mol
-  [Flower1977]                         A = 2.22e+14 cm^3/(mol*s), n = 0; Ea = 50500 cal/mol
+long_description: "\nPart of the \"Thermal (Zeldovich) NO\" mechanism\n5.4 on p. 398\n\
+  T range: 1750-4200 K\nAlso available from Han 2008 (https://doi.org/10.1142/S021963360800399X)\n\
+  [DeanBozz2000] (p. 231) give A = 6.4e+12 cm^3/(mol*s); n = 0.1; Ea = 21300 cal/mol,\
+  \ citing [Cohen1991]\nBut [Cohen1991] says that this rate \"cannot be fixed more\
+  \ precisely\" than an upper boundary of 4.1e+10 (p. 95, k2a)\n[GRI] used a fit to\
+  \ low and high T expressions from Atkinson et al., (1989) J. Phys. Chem. Ref. Data\
+  \ 18 88 and Hanson et al., Combustion Chemistry , Springer-Verlag, N.Y., p. 361\n\
+  [GRI] optimized this rate and recommended 59% of the fit's A factor.\n[GlarGim]\
+  \ has a ridiculously long citation chain:\nSkreiberg et al, Combust. Flame 136,\
+  \ 501-518 (2004) <-- P. Glarborg et al., Combust. Flame 115 (1998) 1-27 <-- P. Glarborg\
+  \ et al., Int. J. Chem. Kinet., 27 (1995), p. 1207 <-- P. Glarborg et al., Int.\
+  \ J. Chem. Kinet., 26, 421 (1994) <-- J.A. Miller, C. T. Bowman, Prog. Energy and\
+  \ Comb. Sci., 15, 287 (1989) <-- J.A. Miller et al., 20th Symp. (Int.) Combust.,\
+  \ pp. 673-684, The Combustion Institute, Pittsburgh (1985) <-- W.L. Flower et al.,\
+  \ Comb. Sci. Tech. 15, 115 (1977).\nThe origin of the data is in shock tube experiments\
+  \ by [Flower1977] (p. 14, Fig. 7)\nAlso available in other RMG libraries as:\n[DeanBozz2000]\
+  \ *reverse direction given: A = 1.1e+14 cm^3/(mol*s); n = 0; Ea = 1122 cal/mol\n\
+  [GlarZha]  *reverse direction given: A = 3.8e+13 cm^3/(mol*s); n = 0; Ea = 0 cal/mol\n\
+  [GlarGim]  *reverse direction given: A = 3.8e+13 cm^3/(mol*s); n = 0; Ea = 0 cal/mol\n\
+  [GRI]      *reverse direction given: A = 3.36e+13 cm^3/(mol*s); n = 0; Ea = 385\
+  \ cal/mol\n[Flower1977]                         A = 2.22e+14 cm^3/(mol*s), n = 0;\
+  \ Ea = 50500 cal/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -109,43 +105,39 @@ kinetics:
 label: CH + N2 <=> NCN + H
 degeneracy: 1.0
 short_description: '[Lin2013b]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism. This is the MAIN Prompt NO reaction
-  calculated at the CCSD(T)/CBS//B3LYP/6-311++G(3df,2p) level of theory
-  k_A&B on p. 5782
-  T range: 800-4000 K, 1 atm
-  This mechanism was first suggested by Fenimore in 1971 (C.P. Fenimore, Symposium (International) on Combustion 13(1) 1971, 373-380)
-  He found that 'post-flame' NO profiles extrapolated to zero at the burner surface
-  for H2 and CO flames, but had non-zero intercepts in all the hydrocarbon flames.
-  He named it `prompt NO`, since it was apparently formed in the primary reaction zones of the hydrocarbon flames.
-  He suggested that this prompt NO was due to the reaction of molecular nitrogen with a hydrocarbon free radical,
-  the products of which were rapidly oxidized to NO.
-  The well-known thermal (Zeldovich) NO mechanism was felt to be too slow to account for the non-zero intercepts.
-  Fenimore suggested the following reactions:
-  CH+N2=HCN+N
-  C2+N2=CN+CN
-  Although criticized, the idea gained acceptance, and Miller and Bowman (J.A. Miller, C.T. Bowman, Progress in Energy and Combustion Science, 15(4) 1989 287-338)
-  that the only plausible candidate for the prompt-NO reaction was:
-  CH+N2=HCN+N
-  with possibly some contribution from:
-  C+N2=CN+N
-  at very high temperatures.
-  The problem with CH+N2=HCN+N is that it does not conserve electron spin (CH's ground state is a doublet).
-  The final piece to the puzzle has apparently been put into place by Moskaleva and Lin (L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute 28(2) 2000, 2393-2401),
-  who realized that the only way that everyone could be correct was if there was another reaction path and a different set of products.
-  The cyanonitrene (NCN) radical was suggested as the product of this reaction.
-  In the end, it appears that Fenimore's prompt NO is due to a reaction between CH and N2,
-  as he suggested. However, the reaction does conserve electron spin, producing NCN+H rather than HCN + N.
-  More info available in Miller & Troe 2005 (J.A. Miller, M.J. Pillingb, J. Troe, Proceedings of the Combustion Institute 30(1) 2005, 43-88).
-  Also available from [Lin2000a]:
-      kinetics = Arrhenius(A=(2.22e+07, 'cm^3/(mol*s)'), n=1.48, Ea=(23367, 'cal/mol'), T0=(1, 'K')),
-  k3 in [Lin2000a], also first on p. 2397, T range: 1500-4000 K, Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-  Also available from [Miller2008]:
-      kinetics = Arrhenius(A=(4.10e+08, 'cm^3/(mol*s)'), n=1.122, Ea=(17525, 'cal/mol'), T0=(1, 'K')),
-  calculated at the CASPT2,CAS+1+2+QC,CCSD-(T)/aug-cc-pvtz levels of theory, T range: 400-3000
-
-  A rate for the NCN(S) <=> NCN(T) trnasition can be found in [Friedrichs2015]
+long_description: "\nPart of the \"Prompt NO\" mechanism. This is the MAIN Prompt\
+  \ NO reaction\ncalculated at the CCSD(T)/CBS//B3LYP/6-311++G(3df,2p) level of theory\n\
+  k_A&B on p. 5782\nT range: 800-4000 K, 1 atm\nThis mechanism was first suggested\
+  \ by Fenimore in 1971 (C.P. Fenimore, Symposium (International) on Combustion 13(1)\
+  \ 1971, 373-380)\nHe found that 'post-flame' NO profiles extrapolated to zero at\
+  \ the burner surface\nfor H2 and CO flames, but had non-zero intercepts in all the\
+  \ hydrocarbon flames.\nHe named it `prompt NO`, since it was apparently formed in\
+  \ the primary reaction zones of the hydrocarbon flames.\nHe suggested that this\
+  \ prompt NO was due to the reaction of molecular nitrogen with a hydrocarbon free\
+  \ radical,\nthe products of which were rapidly oxidized to NO.\nThe well-known thermal\
+  \ (Zeldovich) NO mechanism was felt to be too slow to account for the non-zero intercepts.\n\
+  Fenimore suggested the following reactions:\nCH+N2=HCN+N\nC2+N2=CN+CN\nAlthough\
+  \ criticized, the idea gained acceptance, and Miller and Bowman (J.A. Miller, C.T.\
+  \ Bowman, Progress in Energy and Combustion Science, 15(4) 1989 287-338)\nthat the\
+  \ only plausible candidate for the prompt-NO reaction was:\nCH+N2=HCN+N\nwith possibly\
+  \ some contribution from:\nC+N2=CN+N\nat very high temperatures.\nThe problem with\
+  \ CH+N2=HCN+N is that it does not conserve electron spin (CH's ground state is a\
+  \ doublet).\nThe final piece to the puzzle has apparently been put into place by\
+  \ Moskaleva and Lin (L.V Moskaleva, M.C. Lin, Proceedings of the Combustion Institute\
+  \ 28(2) 2000, 2393-2401),\nwho realized that the only way that everyone could be\
+  \ correct was if there was another reaction path and a different set of products.\n\
+  The cyanonitrene (NCN) radical was suggested as the product of this reaction.\n\
+  In the end, it appears that Fenimore's prompt NO is due to a reaction between CH\
+  \ and N2,\nas he suggested. However, the reaction does conserve electron spin, producing\
+  \ NCN+H rather than HCN + N.\nMore info available in Miller & Troe 2005 (J.A. Miller,\
+  \ M.J. Pillingb, J. Troe, Proceedings of the Combustion Institute 30(1) 2005, 43-88).\n\
+  Also available from [Lin2000a]:\n    kinetics = Arrhenius(A=(2.22e+07, 'cm^3/(mol*s)'),\
+  \ n=1.48, Ea=(23367, 'cal/mol'), T0=(1, 'K')),\nk3 in [Lin2000a], also first on\
+  \ p. 2397, T range: 1500-4000 K, Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level\
+  \ of theory\nAlso available from [Miller2008]:\n    kinetics = Arrhenius(A=(4.10e+08,\
+  \ 'cm^3/(mol*s)'), n=1.122, Ea=(17525, 'cal/mol'), T0=(1, 'K')),\ncalculated at\
+  \ the CASPT2,CAS+1+2+QC,CCSD-(T)/aug-cc-pvtz levels of theory, T range: 400-3000\n\
+  \nA rate for the NCN(S) <=> NCN(T) trnasition can be found in [Friedrichs2015]\n"
 kinetics:
   type: Arrhenius
   A:
@@ -168,12 +160,9 @@ kinetics:
 label: CH + N2 <=> HNCN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism\nSee Table 1 on p. 2397 in\
+  \ [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p) level\
+  \ of theory\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -197,12 +186,9 @@ kinetics:
 label: CH2(S) + N2 <=> CH2N2
 degeneracy: 1.0
 short_description: '[Lin2010a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  k1 in [Lin2010a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism\nk1 in [Lin2010a]\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of\
+  \ theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -266,15 +252,13 @@ kinetics:
 label: CH2(S) + N2 <=> CHN2 + H
 degeneracy: 1.0
 short_description: '[Lin2010a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  k2 and k4 in [Lin2010a]
-  T range: 500-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
-  The rates of  two PDepArrhenius reactions were summed-up, and an Arrhenius expression was fitted and given here (for each P seperately).
-  The two reactions differ only by the transition state (diazomethane vs. 3H-diazirine)
-  for each pressure with coefficients of determination ranging 0.9967 to 0.9988 (improving as pressure increases).
+long_description: "\nPart of the \"Prompt NO\" mechanism\nk2 and k4 in [Lin2010a]\n\
+  T range: 500-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\nThe rates of  two PDepArrhenius reactions were summed-up, and\
+  \ an Arrhenius expression was fitted and given here (for each P seperately).\nThe\
+  \ two reactions differ only by the transition state (diazomethane vs. 3H-diazirine)\n\
+  for each pressure with coefficients of determination ranging 0.9967 to 0.9988 (improving\
+  \ as pressure increases).\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -338,12 +322,9 @@ kinetics:
 label: CH2(S) + N2 <=> cN2CH2
 degeneracy: 1.0
 short_description: '[Lin2010a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  k3 in [Lin2010a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism\nk3 in [Lin2010a]\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of\
+  \ theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -407,12 +388,9 @@ kinetics:
 label: CH2(S) + N2 <=> HCN + NH
 degeneracy: 1.0
 short_description: '[Lin2010a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  k5 in [Lin2010a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism\nk5 in [Lin2010a]\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of\
+  \ theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -435,12 +413,9 @@ kinetics:
 label: CH2(S) + N2 <=> CNNH + H
 degeneracy: 1.0
 short_description: '[Lin2010a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  k6 in [Lin2010a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism\nk6 in [Lin2010a]\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of\
+  \ theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -463,13 +438,9 @@ kinetics:
 label: C(T) + N2 <=> CN + N
 degeneracy: 1.0
 short_description: '[Baulch2009]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  [Baulch2009] p. 860
-  Uncertainty: +/- 20%
-  T range: 2000-5000 K
-  Also available by Hanson 1991 (10.1016/S0082-0784(06)80268-7) shock tube
+long_description: "\nPart of the \"Prompt NO\" mechanism\n[Baulch2009] p. 860\nUncertainty:\
+  \ +/- 20%\nT range: 2000-5000 K\nAlso available by Hanson 1991 (10.1016/S0082-0784(06)80268-7)\
+  \ shock tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -492,11 +463,8 @@ kinetics:
 label: C(T) + NO <=> CO + N
 degeneracy: 1.0
 short_description: '[Hanson1991a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  T range: 1330-4000 K
-  Shock tube measurement, no T dependence
+long_description: "\nPart of the \"Prompt NO\" mechanism\nT range: 1330-4000 K\nShock\
+  \ tube measurement, no T dependence\n"
 kinetics:
   type: Arrhenius
   A:
@@ -519,11 +487,8 @@ kinetics:
 label: C(T) + NO <=> CN + O
 degeneracy: 1.0
 short_description: '[Hanson1991a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  T range: 1330-4000 K
-  Shock tube measurement, no T dependence
+long_description: "\nPart of the \"Prompt NO\" mechanism\nT range: 1330-4000 K\nShock\
+  \ tube measurement, no T dependence\n"
 kinetics:
   type: Arrhenius
   A:
@@ -546,11 +511,8 @@ kinetics:
 label: CH + NO <=> HCN + O
 degeneracy: 1.0
 short_description: '[Hanson1991a]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  T range: 1330-4000 K
-  Shock tube measurement, no T dependence
+long_description: "\nPart of the \"Prompt NO\" mechanism\nT range: 1330-4000 K\nShock\
+  \ tube measurement, no T dependence\n"
 kinetics:
   type: Arrhenius
   A:
@@ -573,12 +535,8 @@ kinetics:
 label: CH3 + N <=> H2CN + H
 degeneracy: 1.0
 short_description: '[Hanson1991b]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  T range: 1600-2000 K
-  Uncertainty: +/- 35%
-  Shock tube measurement, no T dependence
+long_description: "\nPart of the \"Prompt NO\" mechanism\nT range: 1600-2000 K\nUncertainty:\
+  \ +/- 35%\nShock tube measurement, no T dependence\n"
 kinetics:
   type: Arrhenius
   A:
@@ -601,12 +559,9 @@ kinetics:
 label: C2O + N2 <=> cNCN + CO
 degeneracy: 1.0
 short_description: '[Lin2010b]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism in C2 or higher hydrocarbons
-  k3 in [Lin2010b] (p. 124)
-  T range: 800-3000 K
-  Done at the CCSD(T)/6-311+G(3df)//B3LYP/6-311+G(3df) level of theory
+long_description: "\nPart of the \"Prompt NO\" mechanism in C2 or higher hydrocarbons\n\
+  k3 in [Lin2010b] (p. 124)\nT range: 800-3000 K\nDone at the CCSD(T)/6-311+G(3df)//B3LYP/6-311+G(3df)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -659,12 +614,9 @@ kinetics:
 label: HNCN <=> H + NCN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -680,12 +632,9 @@ kinetics:
 label: NCN <=> N + CN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -701,12 +650,9 @@ kinetics:
 label: NCN + H <=> HCN + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -729,12 +675,9 @@ kinetics:
 label: CH2(T) + NCN <=> CH2CN + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -757,12 +700,9 @@ kinetics:
 label: CH2(T) + NCN <=> CH2NC + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -785,13 +725,10 @@ kinetics:
 label: CH2(T) + NCN <=> CH2NCN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  Excited: Both CH2NCN products (ground + excited states) were taken into account, summing-up their rates
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nExcited: Both CH2NCN products (ground + excited states)\
+  \ were taken into account, summing-up their rates\nT range: 2000-4000 K\nDone at\
+  \ the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -834,12 +771,9 @@ kinetics:
 label: CH2(T) + NCN <=> H2CN + CN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -862,12 +796,9 @@ kinetics:
 label: CH2(T) + NCN <=> HCN + HNC
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -890,12 +821,9 @@ kinetics:
 label: CH + NCN <=> HCCN + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -918,12 +846,9 @@ kinetics:
 label: CH + NCN <=> HCN + CN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -946,14 +871,11 @@ kinetics:
 label: NCN + CN <=> C2N2 + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-  In the original paper this reaction appears as "CN + NCN = (CN)2", which is not stoichiometric.
-  10.1016/j.combustflame.2015.11.007 Table 5 entree 11 cites [Lin2000a] and reports this reaction as "NCN + CN = C2N2 + N"
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\nIn the original paper this reaction appears as \"CN + NCN = (CN)2\"\
+  , which is not stoichiometric.\n10.1016/j.combustflame.2015.11.007 Table 5 entree\
+  \ 11 cites [Lin2000a] and reports this reaction as \"NCN + CN = C2N2 + N\"\n"
 kinetics:
   type: Arrhenius
   A:
@@ -976,13 +898,9 @@ kinetics:
 label: NCN + CN <=> NCNCN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-
-  Note: This rate exceeds the collision limit at 1000 K, 1 bar!
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory\n\nNote:\
+  \ This rate exceeds the collision limit at 1000 K, 1 bar!\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1006,12 +924,9 @@ kinetics:
 label: CH3 + NCN <=> CH3CN + N
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1034,11 +949,8 @@ kinetics:
 label: NCN + NCN <=> CN + CN + N2
 degeneracy: 1.0
 short_description: '[Friedrichs2012]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  T range: 965-1900 K, 0.14-1.9 bar
-  Shock tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nT range: 965-1900\
+  \ K, 0.14-1.9 bar\nShock tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1061,11 +973,8 @@ kinetics:
 label: NCN <=> C(T) + N2
 degeneracy: 1.0
 short_description: '[Friedrichs2012]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  T range: 2012-3248 K, 0.703-2.204 bar
-  Shock tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nT range: 2012-3248\
+  \ K, 0.703-2.204 bar\nShock tube\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -1081,14 +990,9 @@ kinetics:
 label: CH3 + NCN <=> CH2NH + CN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
-
-  Note: This rate exceeds the collision limit at 1000 K, 1 bar!
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n\nNote: This rate exceeds the collision limit at 1000 K, 1 bar!\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -1112,12 +1016,9 @@ kinetics:
 label: NCN + N <=> N2 + CN
 degeneracy: 1.0
 short_description: '[Lin2000a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See Table 1 on p. 2397 in [Lin2000a]
-  T range: 2000-4000 K
-  Done at the G2M(RCC2)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee Table 1\
+  \ on p. 2397 in [Lin2000a]\nT range: 2000-4000 K\nDone at the G2M(RCC2)//B3LYP/6-311G(d,p)\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1140,11 +1041,8 @@ kinetics:
 label: C(T) + NCN <=> CN + CN
 degeneracy: 1.0
 short_description: '[Friedrichs2012]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  T range: 2000-4000 K
-  [Lin2000a] said k = 1e+13 (Table 1 on p. 2397)
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nT range: 2000-4000\
+  \ K\n[Lin2000a] said k = 1e+13 (Table 1 on p. 2397)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1227,11 +1125,8 @@ kinetics:
 label: NCN + O <=> CO + N2
 degeneracy: 1.0
 short_description: '[Lin2007a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k1
-  T range: 200-3000 K
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk1\nT range:\
+  \ 200-3000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1254,12 +1149,9 @@ kinetics:
 label: NCN + O <=> CN + NO
 degeneracy: 1.0
 short_description: '[Lin2007a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k2 and k3
-  T range: 200-3000 K
-  Measured rate constant is also available by [Friedrichs2011] and [Friedrichs2012]
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk2 and k3\n\
+  T range: 200-3000 K\nMeasured rate constant is also available by [Friedrichs2011]\
+  \ and [Friedrichs2012]\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -1302,12 +1194,8 @@ kinetics:
 label: CN + NO <=> NCO + N
 degeneracy: 1.0
 short_description: '[Lin1993]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k1
-  T range: 2200-2810 K
-  Shock Tube + BAC-MP4
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk1\nT range:\
+  \ 2200-2810 K\nShock Tube + BAC-MP4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1330,12 +1218,8 @@ kinetics:
 label: CN + NO <=> CO + N2
 degeneracy: 1.0
 short_description: '[Lin1993]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k2
-  T range: 2200-2810 K
-  Shock Tube + BAC-MP4
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk2\nT range:\
+  \ 2200-2810 K\nShock Tube + BAC-MP4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1358,11 +1242,8 @@ kinetics:
 label: NCN + O <=> N + NCO
 degeneracy: 1.0
 short_description: '[Lin2007a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k4
-  T range: 200-3000 K
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk4\nT range:\
+  \ 200-3000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1385,13 +1266,9 @@ kinetics:
 label: NCN + NO <=> CN + N2O
 degeneracy: 1.0
 short_description: '[Friedrichs2011]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k10
-  rate expression on p. 14386
-  Experimental T range: 764-1944 K
-  Uncertainty estimate: +/- 7%; activation energy uncertainty: +/- 380 cal/mol
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk10\nrate expression\
+  \ on p. 14386\nExperimental T range: 764-1944 K\nUncertainty estimate: +/- 7%; activation\
+  \ energy uncertainty: +/- 380 cal/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1414,13 +1291,9 @@ kinetics:
 label: NCN + NO2 <=> NCNO + NO
 degeneracy: 1.0
 short_description: '[Friedrichs2011]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k11
-  rate expression on p. 14388
-  Experimental T range: 704-1659 K
-  Uncertainty estimate: +/- 19%; activation energy uncertainty: +/- 910 cal/mol
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk11\nrate expression\
+  \ on p. 14388\nExperimental T range: 704-1659 K\nUncertainty estimate: +/- 19%;\
+  \ activation energy uncertainty: +/- 910 cal/mol\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1443,12 +1316,9 @@ kinetics:
 label: HNCN + OH <=> OHNHCN
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k1 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk1 (see reactions\
+  \ on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1512,29 +1382,27 @@ kinetics:
 label: HNCN + OH <=> HCN + HNO
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k3 and k6 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
-  Since this reaction principally has a degeneracy of 2 (already taken into account in the above rate),
-  The rates of the two PDepArrhenius reactions were summed-up.
-  Since k3 is almost independent on pressure, and k6 is more than an order of magnitude lower,
-  the overall rate had an almost insignificant pressure dependent rate:
-      kinetics = PDepArrhenius(
-          pressures = ([1, 10, 100, 300, 760, 7600], 'torr'),
-          arrhenius = [
-              Arrhenius(A=(1.76e+11, 'cm^3/(mol*s)'), n=0, Ea=(14377, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(1.78e+11, 'cm^3/(mol*s)'), n=0, Ea=(14389, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(1.76e+11, 'cm^3/(mol*s)'), n=0, Ea=(14385, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(1.78e+11, 'cm^3/(mol*s)'), n=0, Ea=(14389, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(1.77e+11, 'cm^3/(mol*s)'), n=0, Ea=(14387, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(1.77e+11, 'cm^3/(mol*s)'), n=0, Ea=(14395, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-          ],
-      ),
-  (This was calculated by fitting an Arrhenius expression to the sum of the rates with a coefficient of determination = 0.9993)
-  Hence, the final fitted rate is the average of the above PDepArrhenius rates.
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk3 and k6 (see\
+  \ reactions on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the\
+  \ CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory\nSince this reaction\
+  \ principally has a degeneracy of 2 (already taken into account in the above rate),\n\
+  The rates of the two PDepArrhenius reactions were summed-up.\nSince k3 is almost\
+  \ independent on pressure, and k6 is more than an order of magnitude lower,\nthe\
+  \ overall rate had an almost insignificant pressure dependent rate:\n    kinetics\
+  \ = PDepArrhenius(\n        pressures = ([1, 10, 100, 300, 760, 7600], 'torr'),\n\
+  \        arrhenius = [\n            Arrhenius(A=(1.76e+11, 'cm^3/(mol*s)'), n=0,\
+  \ Ea=(14377, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n  \
+  \          Arrhenius(A=(1.78e+11, 'cm^3/(mol*s)'), n=0, Ea=(14389, 'cal/mol'), T0\
+  \ = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n            Arrhenius(A=(1.76e+11,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(14385, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000,\
+  \ 'K')),\n            Arrhenius(A=(1.78e+11, 'cm^3/(mol*s)'), n=0, Ea=(14389, 'cal/mol'),\
+  \ T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n            Arrhenius(A=(1.77e+11,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(14387, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000,\
+  \ 'K')),\n            Arrhenius(A=(1.77e+11, 'cm^3/(mol*s)'), n=0, Ea=(14395, 'cal/mol'),\
+  \ T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n        ],\n    ),\n(This\
+  \ was calculated by fitting an Arrhenius expression to the sum of the rates with\
+  \ a coefficient of determination = 0.9993)\nHence, the final fitted rate is the\
+  \ average of the above PDepArrhenius rates.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1557,12 +1425,9 @@ kinetics:
 label: HNCN + OH <=> HONCNH
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k4 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk4 (see reactions\
+  \ on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1626,17 +1491,15 @@ kinetics:
 label: HNCN + OH <=> NH2 + NCO
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k5 and k10 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 500-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
-  Since this reaction proncipally has a degeneracy of 2 (already taken into account in the above rate),
-  The rates of the two PDepArrhenius reactions were summed-up, and an Arrhenius expression was fitted
-  with coefficients of determination ranging 0.9981 to practically 1 (improving as pressure increases).
-  It is noted that the deviation was higher at T < 500 K,since at lower temperatures k5 becomes
-  significant relative to k10; therefore this reaction was fitted at the 500-3000 K range.
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk5 and k10 (see\
+  \ reactions on p. 6735, and rates on p. 6738)\nT range: 500-3000 K\nDone at the\
+  \ CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory\nSince this reaction\
+  \ proncipally has a degeneracy of 2 (already taken into account in the above rate),\n\
+  The rates of the two PDepArrhenius reactions were summed-up, and an Arrhenius expression\
+  \ was fitted\nwith coefficients of determination ranging 0.9981 to practically 1\
+  \ (improving as pressure increases).\nIt is noted that the deviation was higher\
+  \ at T < 500 K,since at lower temperatures k5 becomes\nsignificant relative to k10;\
+  \ therefore this reaction was fitted at the 500-3000 K range.\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1700,26 +1563,22 @@ kinetics:
 label: HNCN + OH <=> H2O + NCN
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k7 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
-  Excited: This rate represents the reaction with NCN(T) as the product.
-  Kinetics for producing NCN(S) were also given from the same source:
-      kinetics = PDepArrhenius(
-          pressures = ([1, 10, 100, 300, 760, 7600], 'torr'),
-          arrhenius = [
-              Arrhenius(A=(2.37e+01, 'cm^3/(mol*s)'), n=2.99, Ea=(-346, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(2.92e+01, 'cm^3/(mol*s)'), n=2.97, Ea=(-284, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(2.99e+01, 'cm^3/(mol*s)'), n=2.97, Ea=(-284, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(3.28e+01, 'cm^3/(mol*s)'), n=2.95, Ea=(-264, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(4.16e+01, 'cm^3/(mol*s)'), n=2.92, Ea=(-203, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-              Arrhenius(A=(2.79e+02, 'cm^3/(mol*s)'), n=2.69, Ea=(-344, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),
-          ],
-      ),
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk7 (see reactions\
+  \ on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\nExcited: This rate represents the reaction with NCN(T) as the\
+  \ product.\nKinetics for producing NCN(S) were also given from the same source:\n\
+  \    kinetics = PDepArrhenius(\n        pressures = ([1, 10, 100, 300, 760, 7600],\
+  \ 'torr'),\n        arrhenius = [\n            Arrhenius(A=(2.37e+01, 'cm^3/(mol*s)'),\
+  \ n=2.99, Ea=(-346, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n\
+  \            Arrhenius(A=(2.92e+01, 'cm^3/(mol*s)'), n=2.97, Ea=(-284, 'cal/mol'),\
+  \ T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n            Arrhenius(A=(2.99e+01,\
+  \ 'cm^3/(mol*s)'), n=2.97, Ea=(-284, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'),\
+  \ Tmax=(3000, 'K')),\n            Arrhenius(A=(3.28e+01, 'cm^3/(mol*s)'), n=2.95,\
+  \ Ea=(-264, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n   \
+  \         Arrhenius(A=(4.16e+01, 'cm^3/(mol*s)'), n=2.92, Ea=(-203, 'cal/mol'),\
+  \ T0 = (1, 'K'), Tmin=(300, 'K'), Tmax=(3000, 'K')),\n            Arrhenius(A=(2.79e+02,\
+  \ 'cm^3/(mol*s)'), n=2.69, Ea=(-344, 'cal/mol'), T0 = (1, 'K'), Tmin=(300, 'K'),\
+  \ Tmax=(3000, 'K')),\n        ],\n    ),\nAdded as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1742,12 +1601,9 @@ kinetics:
 label: HNCN + OH <=> NCOHNH
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k8 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk8 (see reactions\
+  \ on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1811,12 +1667,9 @@ kinetics:
 label: HNCN + OH <=> NCOH + NH
 degeneracy: 1.0
 short_description: '[Lin2007b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k9 (see reactions on p. 6735, and rates on p. 6738)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk9 (see reactions\
+  \ on p. 6735, and rates on p. 6738)\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -1880,13 +1733,11 @@ kinetics:
 label: NCN + OH <=> HCN + NO
 degeneracy: 1.0
 short_description: '[Lin2005b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  from [Lin2005b] as reported by B.A. Williams et al., Proceedings of the Combustion Institute 2009, 32(1), 343-350, doi: 10.1016/j.proci.2008.06.175
-  See Table 1 (p. 345) in B.A. Williams et al.
-  (Note that in Table 1 in B.A. Williams et al. the Ea values are stated to be in kcal/mol, but are actually in cal/mol)
-  T range: 200-3000 K
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nfrom [Lin2005b]\
+  \ as reported by B.A. Williams et al., Proceedings of the Combustion Institute 2009,\
+  \ 32(1), 343-350, doi: 10.1016/j.proci.2008.06.175\nSee Table 1 (p. 345) in B.A.\
+  \ Williams et al.\n(Note that in Table 1 in B.A. Williams et al. the Ea values are\
+  \ stated to be in kcal/mol, but are actually in cal/mol)\nT range: 200-3000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1909,12 +1760,9 @@ kinetics:
 label: HNCN + O <=> NO + HNC
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k1 in [Lin2009a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk1 in [Lin2009a]\n\
+  T range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level\
+  \ of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -1937,12 +1785,9 @@ kinetics:
 label: HNCN + O <=> NH + NCO
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k2 and k9 in [Lin2009a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk2 and k9 in\
+  \ [Lin2009a]\nT range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p)\
+  \ level of theory\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -1985,13 +1830,10 @@ kinetics:
 label: HNCN + O <=> OH + NCN
 degeneracy: 4.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k3, k5, k7, and k8 (all form the exact same products, degeneracy = 4)
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
-  Added as a training reaction to H_Abstraction (k8 only)
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk3, k5, k7,\
+  \ and k8 (all form the exact same products, degeneracy = 4)\nT range: 300-3000 K\n\
+  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory\nAdded as\
+  \ a training reaction to H_Abstraction (k8 only)\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -2068,12 +1910,9 @@ kinetics:
 label: HNCN + O <=> HN(O)CN
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k4 in [Lin2009a]
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk4 in [Lin2009a]\n\
+  T range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level\
+  \ of theory\n"
 elementary_high_p: false
 kinetics:
   type: Arrhenius
@@ -2097,12 +1936,8 @@ kinetics:
 label: HNCN + O <=> CN + HNO
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k6
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk6\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2125,12 +1960,8 @@ kinetics:
 label: HNCN + O2 <=> OH + NCNO
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k10
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk10\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2153,13 +1984,9 @@ kinetics:
 label: HNCN + O2 <=> HO2 + NCN
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k11 and k13
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
-  Added as a training reaction to H_Abstraction (k13 only)
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk11 and k13\n\
+  T range: 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level\
+  \ of theory\nAdded as a training reaction to H_Abstraction (k13 only)\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -2202,12 +2029,8 @@ kinetics:
 label: HNCN + O2 <=> HNC(O)N + O
 degeneracy: 1.0
 short_description: '[Lin2009a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k12
-  T range: 300-3000 K
-  Done at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk12\nT range:\
+  \ 300-3000 K\nDone at the CCSD(T)/6-311+G(3df,2p)//CCSD/6-311++G(d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2230,18 +2053,13 @@ kinetics:
 label: CN + NCO <=> NCN + CO
 degeneracy: 1.0
 short_description: '[Lin2009b]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  See p. 6324 in [Lin2000a]
-  T range: 1000-3000 K
-  Excited: Because k_triplet is much less than k_singlet by a factor of 20-80,
-  the contribution of the triplet channel to the NCO(T) + CN reaction is negligible.
-  Several levels of theory were used:
-  G2M//B3LYP/6-311+G(d), QCISD(T)/6-311+G(3df)//QCISD/6-311+G(d), CCSD(T)/6-311+G(3df)//CCSD/6-311+G(d),
-  CASPT2(10,10)/6-311+G(d)//CAS(10,10)/6-311+G(d).
-
-  Note: This rate exceeds the collision limit at 1000 K, 1 bar!
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nSee p. 6324\
+  \ in [Lin2000a]\nT range: 1000-3000 K\nExcited: Because k_triplet is much less than\
+  \ k_singlet by a factor of 20-80,\nthe contribution of the triplet channel to the\
+  \ NCO(T) + CN reaction is negligible.\nSeveral levels of theory were used:\nG2M//B3LYP/6-311+G(d),\
+  \ QCISD(T)/6-311+G(3df)//QCISD/6-311+G(d), CCSD(T)/6-311+G(3df)//CCSD/6-311+G(d),\n\
+  CASPT2(10,10)/6-311+G(d)//CAS(10,10)/6-311+G(d).\n\nNote: This rate exceeds the\
+  \ collision limit at 1000 K, 1 bar!\n"
 allow_max_rate_violation: true
 kinetics:
   type: Arrhenius
@@ -2265,12 +2083,8 @@ kinetics:
 label: C2N2 + O <=> CN + NCO
 degeneracy: 1.0
 short_description: '[Hanson1984a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k2
-  T range: 1920-2110 K
-  Shock Tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk2\nT range:\
+  \ 1920-2110 K\nShock Tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2293,12 +2107,8 @@ kinetics:
 label: CN + HCN <=> C2N2 + H
 degeneracy: 1.0
 short_description: '[Hanson1996]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  T range: 300-3000 K
-  k2 Table 1, p. 249
-  Shock Tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nT range: 300-3000\
+  \ K\nk2 Table 1, p. 249\nShock Tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2321,12 +2131,8 @@ kinetics:
 label: CN + O <=> CO + N
 degeneracy: 1.0
 short_description: '[Hanson1984a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k3
-  T range: 1920-2110 K
-  Shock Tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk3\nT range:\
+  \ 1920-2110 K\nShock Tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2349,12 +2155,8 @@ kinetics:
 label: CN + O2 <=> NCO + O
 degeneracy: 1.0
 short_description: '[Hanson1984a]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  k4
-  T range: 1920-2110 K
-  Shock Tube
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nk4\nT range:\
+  \ 1920-2110 K\nShock Tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2377,13 +2179,10 @@ kinetics:
 label: HNCO + H <=> NCO + H2
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-
-  Also available in reverse from [Perry1985], k6, Ea uncertainty: 17%, Shock Tube:
-      kinetics = Arrhenius(A=(8.61e+12, 'cm^3/(mol*s)','+|-',1.46e+12), n=0, Ea=(9000, 'cal/mol'), T0=(1, 'K'), Tmin=(592, 'K'), Tmax=(2000, 'K')),
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nCCSD(T)/cc-pVTZ\
+  \ and cc-pVQZ // M062X/6-311++G(d,p)\n\nAlso available in reverse from [Perry1985],\
+  \ k6, Ea uncertainty: 17%, Shock Tube:\n    kinetics = Arrhenius(A=(8.61e+12, 'cm^3/(mol*s)','+|-',1.46e+12),\
+  \ n=0, Ea=(9000, 'cal/mol'), T0=(1, 'K'), Tmin=(592, 'K'), Tmax=(2000, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2399,17 +2198,11 @@ kinetics:
 ---
 label: N2O <=> N2 + O
 short_description: '[Lin2020]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  CCSD(T)/CBS(TQ5)//CCSD(T)/aug-cc-pVTZ+d
-
-  Also available from D&B
-  Originally took the rate from:
-  Johnsson, J.E., Glarborg, P., & Dam-Johansen, K. (1992). 24th Symposium (International) on Combustion, p. 917
-  see 2.5.3 on p. 143
-  Measured in a flow reactor with Ar as bath gas.
-  T range: 1000-3000 K
+long_description: "\nPart of the \"N2O Pathway\"\nCCSD(T)/CBS(TQ5)//CCSD(T)/aug-cc-pVTZ+d\n\
+  \nAlso available from D&B\nOriginally took the rate from:\nJohnsson, J.E., Glarborg,\
+  \ P., & Dam-Johansen, K. (1992). 24th Symposium (International) on Combustion, p.\
+  \ 917\nsee 2.5.3 on p. 143\nMeasured in a flow reactor with Ar as bath gas.\nT range:\
+  \ 1000-3000 K\n"
 kinetics:
   type: Lindemann
   arrheniusHigh:
@@ -2434,14 +2227,10 @@ kinetics:
 label: N2O + O <=> N2 + O2
 degeneracy: 1.0
 short_description: '[Lin2020]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  k3
-
-  Also available from D&B, originally taken from:
-  Davidson, D.E, DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991). 18th International Symposium on Shock Waves, Sendai, p. 813
-  As reported by Dean & Bozzelli, see 2.5.4 on p. 145
+long_description: "\nPart of the \"N2O Pathway\"\nk3\n\nAlso available from D&B, originally\
+  \ taken from:\nDavidson, D.E, DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991).\
+  \ 18th International Symposium on Shock Waves, Sendai, p. 813\nAs reported by Dean\
+  \ & Bozzelli, see 2.5.4 on p. 145\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2464,12 +2253,10 @@ kinetics:
 label: N2O + O <=> NO + NO
 degeneracy: 1.0
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  Rate taken from:
-  Davidson, D.E, DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991). 18th International Symposium on Shock Waves, Sendai, p. 813
-  As reported by Dean & Bozzelli, see 2.5.4 on p. 145
+long_description: "\nPart of the \"N2O Pathway\"\nRate taken from:\nDavidson, D.E,\
+  \ DiRosa, M.D., Chang, A.Y., & Hanson, R.K. (1991). 18th International Symposium\
+  \ on Shock Waves, Sendai, p. 813\nAs reported by Dean & Bozzelli, see 2.5.4 on p.\
+  \ 145\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2485,10 +2272,8 @@ kinetics:
 ---
 label: HNNO <=> NH + NO
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
+long_description: "\nPart of the \"N2O Pathway\"\nSee [DeanBozz2000] 2.6.3, p. 158,\
+  \ and Table 2.6 on p. 163\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -2504,10 +2289,8 @@ kinetics:
 label: HNNO <=> N2 + OH
 degeneracy: 1.0
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
+long_description: "\nPart of the \"N2O Pathway\"\nSee [DeanBozz2000] 2.6.3, p. 158,\
+  \ and Table 2.6 on p. 163\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -2523,12 +2306,8 @@ kinetics:
 label: N2O + NO <=> N2 + NO2
 degeneracy: 1.0
 short_description: '[Lin1996b]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  k1 on p. 695
-  T range: 300-5000 K
-  calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"N2O Pathway\"\nk1 on p. 695\nT range: 300-5000\
+  \ K\ncalculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2551,14 +2330,11 @@ kinetics:
 label: N2O + OH <=> N2 + HO2
 degeneracy: 1.0
 short_description: '[Lin1996b]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  k2A on p. 702
-  T range: 1000-5000 K
-  calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-  For the low T range (300-1000 K) the recommended rate for both "N2O + OH <=> N2 + HO2" and "N2O + OH <=> HNO + NO" is:
-      kinetics = Arrhenius(A=(2.87e+08, 'cm^3/(mol*s)'), n=0, Ea=(20436, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"N2O Pathway\"\nk2A on p. 702\nT range: 1000-5000\
+  \ K\ncalculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\n\
+  For the low T range (300-1000 K) the recommended rate for both \"N2O + OH <=> N2\
+  \ + HO2\" and \"N2O + OH <=> HNO + NO\" is:\n    kinetics = Arrhenius(A=(2.87e+08,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(20436, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2581,12 +2357,8 @@ kinetics:
 label: N2O + OH <=> HNO + NO
 degeneracy: 1.0
 short_description: '[Lin1996b]'
-long_description: |2
-
-  Part of the "N2O Pathway"
-  k2B on p. 702
-  T range: 1000-5000 K
-  calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
+long_description: "\nPart of the \"N2O Pathway\"\nk2B on p. 702\nT range: 1000-5000\
+  \ K\ncalculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2609,10 +2381,8 @@ kinetics:
 label: HNNO <=> NNH + O
 degeneracy: 1.0
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  See [DeanBozz2000] 2.6.3, p. 158, and Table 2.6 on p. 163
+long_description: "\nPart of the \"NNH Pathway\"\nSee [DeanBozz2000] 2.6.3, p. 158,\
+  \ and Table 2.6 on p. 163\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -2628,13 +2398,11 @@ kinetics:
 label: NNH + O <=> N2O + H
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
-  Also available from [Bozzelli1994]:
-      kinetics = Arrhenius(A=(5.5e+18, 'cm^3/(mol*s)'), n=-1.06, Ea=(47300, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(4000, 'K')),
-  T range: 300-4000 K, k1d, QRRK
+long_description: "\nPart of the \"NNH Pathway\"\ncalculated at the (CCSD(T) and QCISD(T))\
+  \ and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations\
+  \ level\nAlso available from [Bozzelli1994]:\n    kinetics = Arrhenius(A=(5.5e+18,\
+  \ 'cm^3/(mol*s)'), n=-1.06, Ea=(47300, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'),\
+  \ Tmax=(4000, 'K')),\nT range: 300-4000 K, k1d, QRRK\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2657,10 +2425,9 @@ kinetics:
 label: NNH + O <=> N2 + OH
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+long_description: "\nPart of the \"NNH Pathway\"\ncalculated at the (CCSD(T) and QCISD(T))\
+  \ and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2683,13 +2450,11 @@ kinetics:
 label: NNH + O <=> NH + NO
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
-  Also available from [DeRuyck2001]:
-      kinetics = Arrhenius(A=(2e+14, 'cm^3/(mol*s)'), n=0, Ea=(4015, 'cal/mol'), T0=(1, 'K'), Tmin=(1200, 'K'), Tmax=(2500, 'K')),
-  k1, T range: 1200-2500 K, Uncertainty: A 50%, Ea 25%
+long_description: "\nPart of the \"NNH Pathway\"\ncalculated at the (CCSD(T) and QCISD(T))\
+  \ and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations\
+  \ level\nAlso available from [DeRuyck2001]:\n    kinetics = Arrhenius(A=(2e+14,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(4015, 'cal/mol'), T0=(1, 'K'), Tmin=(1200, 'K'), Tmax=(2500,\
+  \ 'K')),\nk1, T range: 1200-2500 K, Uncertainty: A 50%, Ea 25%\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2712,13 +2477,10 @@ kinetics:
 label: NNH <=> N2 + H
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-
-  Also available in reverse from [Varandas2005], reaction -3:
-      kinetics = Arrhenius(A=(7.6e+15, 'cm^3/(mol*s)'), n=-0.64, Ea=(15333, 'cal/mol'), T0=(1, 'K'),
-                           Tmin=(300, 'K'), Tmax=(25000, 'K')),
+long_description: "\nPart of the \"NNH Pathway\"\n\nAlso available in reverse from\
+  \ [Varandas2005], reaction -3:\n    kinetics = Arrhenius(A=(7.6e+15, 'cm^3/(mol*s)'),\
+  \ n=-0.64, Ea=(15333, 'cal/mol'), T0=(1, 'K'),\n                         Tmin=(300,\
+  \ 'K'), Tmax=(25000, 'K')),\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2742,12 +2504,10 @@ kinetics:
 label: N + NH <=> N2 + H
 degeneracy: 1.0
 short_description: '[Varandas2005]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  reaction 1 in [Varandas2005]
-  Fits to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27), scaled by the DMBE-SEC
-  method to account for excitations higher than singles and doubles and the incompleteness of the one-electron basis set.
+long_description: "\nPart of the \"NNH Pathway\"\nreaction 1 in [Varandas2005]\nFits\
+  \ to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27),\
+  \ scaled by the DMBE-SEC\nmethod to account for excitations higher than singles\
+  \ and doubles and the incompleteness of the one-electron basis set.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2764,13 +2524,11 @@ kinetics:
 label: NNH + O2 <=> N2 + HO2
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  p. 776 shows a different values, perhaps a mistake?
-  Taken from Table 2 Reaction 39 and from SI: "NNH+O2=N2+HO2 5.6E14 -0.385 -13 ! pw"
-  T range: 200-2400 K
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
+long_description: "\nPart of the \"NNH Pathway\"\np. 776 shows a different values,\
+  \ perhaps a mistake?\nTaken from Table 2 Reaction 39 and from SI: \"NNH+O2=N2+HO2\
+  \ 5.6E14 -0.385 -13 ! pw\"\nT range: 200-2400 K\ncalculated at the (CCSD(T) and\
+  \ QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure\
+  \ calculations level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2793,11 +2551,7 @@ kinetics:
 label: NNH + H <=> H2 + N2
 degeneracy: 1.0
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  reaction 28c, p. 237
-  DHT estimate
+long_description: "\nPart of the \"NNH Pathway\"\nreaction 28c, p. 237\nDHT estimate\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2814,11 +2568,8 @@ kinetics:
 label: NNH + OH <=> N2 + H2O
 degeneracy: 1.0
 short_description: '[DeanBozz2000]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  reaction 28d1 and 28d2, p. 237-238
-  calculated using  QRRK / DHT
+long_description: "\nPart of the \"NNH Pathway\"\nreaction 28d1 and 28d2, p. 237-238\n\
+  calculated using  QRRK / DHT\n"
 kinetics:
   type: MultiArrhenius
   arrhenius:
@@ -2896,14 +2647,11 @@ kinetics:
 label: NH2 + H <=> NH + H2
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "NHx" subset
-  Table 6 (given in s^-1 units, probably an error?)
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-
-  Also available from [Hanson1990a], R9 in Table 1, p. 521:
-      kinetics = Arrhenius(A=(4.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(3650, 'cal/mol'), T0=(1, 'K'), Tmin=(2200, 'K'), Tmax=(2800, 'K')),
+long_description: "\nPart of the \"NHx\" subset\nTable 6 (given in s^-1 units, probably\
+  \ an error?)\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n\nAlso available\
+  \ from [Hanson1990a], R9 in Table 1, p. 521:\n    kinetics = Arrhenius(A=(4.00e+13,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(3650, 'cal/mol'), T0=(1, 'K'), Tmin=(2200, 'K'), Tmax=(2800,\
+  \ 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -2920,13 +2668,8 @@ kinetics:
 label: HNCO <=> NH + CO
 degeneracy: 1.0
 short_description: '[Hanson1989]'
-long_description: |2
-
-  Part of the "NHx" subset
-  T range: 1830-3340 K
-  Shock Tube
-  k1a
-  Measured in Ar
+long_description: "\nPart of the \"NHx\" subset\nT range: 1830-3340 K\nShock Tube\n\
+  k1a\nMeasured in Ar\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -2942,17 +2685,15 @@ kinetics:
 label: NCO + H <=> HNCO
 degeneracy: 1.0
 short_description: '[Klippenstein2009b]'
-long_description: |2
-
-  Part of the "NHx" subset
-  T range: 200-2500 K
-  Table 2, p. 154
-  The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 80%.
-  calculated at the multi-reference configuration interaction (MR-CI) CASSCF level
-  The isomerization barrier between HNCO and HOCN is well below the H + NCO asymptote. Thus, a rapid isomerization between
-  the initial adducts is expected and the distinction between the initial addition sites should be largely irrelevant to
-  the overall kinetics. The contributions from the triplet additions are quite minor, increasing to only 10% at 2500 K.
-  Added as a training reaction to R_Recombination
+long_description: "\nPart of the \"NHx\" subset\nT range: 200-2500 K\nTable 2, p.\
+  \ 154\nThe reported branching ratio is 80% HNCO 20% NCOH; the original rates were\
+  \ multiplied here by 80%.\ncalculated at the multi-reference configuration interaction\
+  \ (MR-CI) CASSCF level\nThe isomerization barrier between HNCO and HOCN is well\
+  \ below the H + NCO asymptote. Thus, a rapid isomerization between\nthe initial\
+  \ adducts is expected and the distinction between the initial addition sites should\
+  \ be largely irrelevant to\nthe overall kinetics. The contributions from the triplet\
+  \ additions are quite minor, increasing to only 10% at 2500 K.\nAdded as a training\
+  \ reaction to R_Recombination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -2976,17 +2717,15 @@ kinetics:
 label: NCO + H <=> NCOH
 degeneracy: 1.0
 short_description: '[Klippenstein2009b]'
-long_description: |2
-
-  Part of the "NHx" subset
-  T range: 200-2500 K
-  Table 2, p. 154
-  The reported branching ratio is 80% HNCO 20% NCOH; the original rates were multiplied here by 20%.
-  calculated at the multi-reference configuration interaction (MR-CI) CASSCF level
-  The isomerization barrier between HNCO and HOCN is well below the H + NCO asymptote. Thus, a rapid isomerization between
-  the initial adducts is expected and the distinction between the initial addition sites should be largely irrelevant to
-  the overall kinetics. The contributions from the triplet additions are quite minor, increasing to only 10% at 2500 K.
-  Added as a training reaction to R_Recombination
+long_description: "\nPart of the \"NHx\" subset\nT range: 200-2500 K\nTable 2, p.\
+  \ 154\nThe reported branching ratio is 80% HNCO 20% NCOH; the original rates were\
+  \ multiplied here by 20%.\ncalculated at the multi-reference configuration interaction\
+  \ (MR-CI) CASSCF level\nThe isomerization barrier between HNCO and HOCN is well\
+  \ below the H + NCO asymptote. Thus, a rapid isomerization between\nthe initial\
+  \ adducts is expected and the distinction between the initial addition sites should\
+  \ be largely irrelevant to\nthe overall kinetics. The contributions from the triplet\
+  \ additions are quite minor, increasing to only 10% at 2500 K.\nAdded as a training\
+  \ reaction to R_Recombination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -3010,13 +2749,8 @@ kinetics:
 label: NH <=> N + H
 degeneracy: 1.0
 short_description: '[Hanson1989]'
-long_description: |2
-
-  Part of the "NHx" subset
-  T range: 3140-3320 K
-  Shock Tube
-  k3
-  Measured in Ar
+long_description: "\nPart of the \"NHx\" subset\nT range: 3140-3320 K\nShock Tube\n\
+  k3\nMeasured in Ar\n"
 kinetics:
   type: ThirdBody
   efficiencies:
@@ -3034,14 +2768,13 @@ kinetics:
 label: NH + N <=> N + N + H
 degeneracy: 1.0
 short_description: '[Varandas2005]'
-long_description: |2
-
-  Part of the "NNH Pathway"
-  reaction 1 in [Varandas2005]
-  Fits to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27), scaled by the DMBE-SEC
-  method to account for excitations higher than singles and doubles and the incompleteness of the one-electron basis set.
-  The fragmentation channel (N + NH <=> N + N + H) opens up at ~3000 K, and even at very high T (25000 K) its rate is
-  an order of magnitude lower than N + NH <=> N2 + H. Although probably insignificant, it is brought here for completeness.
+long_description: "\nPart of the \"NNH Pathway\"\nreaction 1 in [Varandas2005]\nFits\
+  \ to a total of 972 MRCI energies (based on the aug-cc-pVQZ basis set of Dunning27),\
+  \ scaled by the DMBE-SEC\nmethod to account for excitations higher than singles\
+  \ and doubles and the incompleteness of the one-electron basis set.\nThe fragmentation\
+  \ channel (N + NH <=> N + N + H) opens up at ~3000 K, and even at very high T (25000\
+  \ K) its rate is\nan order of magnitude lower than N + NH <=> N2 + H. Although probably\
+  \ insignificant, it is brought here for completeness.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3058,14 +2791,10 @@ kinetics:
 label: N2H4 + NO <=> N2H3 + HNO
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (1), p. 78
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (1), p. 78\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\nAdded as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3088,13 +2817,10 @@ kinetics:
 label: N2H4 + NO <=> NH2 + NH2NO
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (2), p. 78
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (2), p. 78\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3116,14 +2842,10 @@ kinetics:
 ---
 label: N2H4 + NO2 <=> N2H3 + HNO2
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (4), p. 78
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (4), p. 78\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\nAdded as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3146,13 +2868,10 @@ kinetics:
 label: N2H3 + HNO <=> NH2NHNO + H
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (9), p. 79
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (9), p. 79\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3175,13 +2894,10 @@ kinetics:
 label: N2H3 + HNO <=> N2H2 + NHOH
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (10), p. 79
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (10), p. 79\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3204,13 +2920,10 @@ kinetics:
 label: N2H3 + HONO <=> NH2NHNO + OH
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (11), p. 79
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (11), p. 79\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3233,13 +2946,10 @@ kinetics:
 label: N2H3 + HONO <=> N2H2 + H2O + NO
 degeneracy: 1.0
 short_description: '[Lin2014a]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  reaction (12), p. 79
-  T range: 300-2000 K
-  calculations done at the CCSD(T)/CBS//CCSD level of theoty,
-  and the moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p) level
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nreaction (12), p. 79\nT range:\
+  \ 300-2000 K\ncalculations done at the CCSD(T)/CBS//CCSD level of theoty,\nand the\
+  \ moment of inertia and harmonic vibrational frequencies were obtained by the CCSD/6-31G(d,p)\
+  \ level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3514,12 +3224,8 @@ kinetics:
 label: N2H4 + N2O4 <=> HONO + NH2NHNO2
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  p. 271
-  T range: 200-2500 K
-  calculations done at the G2M(CC3)//B3LYP level of theoty
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\np. 271\nT range: 200-2500\
+  \ K\ncalculations done at the G2M(CC3)//B3LYP level of theoty\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3542,15 +3248,11 @@ kinetics:
 label: N2H4 + ONONO2 <=> HNO3 + NH2NHNO
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  p. 272
-  calculations done at the G2M(CC3)//B3LYP level of theoty
-  Reaction has a negligible T dependence in the explored range
-  uncertainty: +/- 13%
-  conformer-dup: The T-dependency of both cis-ONONO2 and trans-ONONO2 reacting with N2H4
-  in this pathway is negligable. The summation of the two constant rate coefficients is taken here.
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\np. 272\ncalculations done\
+  \ at the G2M(CC3)//B3LYP level of theoty\nReaction has a negligible T dependence\
+  \ in the explored range\nuncertainty: +/- 13%\nconformer-dup: The T-dependency of\
+  \ both cis-ONONO2 and trans-ONONO2 reacting with N2H4\nin this pathway is negligable.\
+  \ The summation of the two constant rate coefficients is taken here.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3598,14 +3300,10 @@ kinetics:
 label: N2H3 + NO2 <=> N2H2 + HONO
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  k5, p. 278
-  T range: 800-3000 K, P = 1 atm
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theoty
-  The Low T (300-800 K) rate is:
-      kinetics = Arrhenius(A=(4.99e+46, 'cm^3/(mol*s)'), n=-11.8, Ea=(6055, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nk5, p. 278\nT range: 800-3000\
+  \ K, P = 1 atm\ncalculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p)\
+  \ level of theoty\nThe Low T (300-800 K) rate is:\n    kinetics = Arrhenius(A=(4.99e+46,\
+  \ 'cm^3/(mol*s)'), n=-11.8, Ea=(6055, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3628,14 +3326,10 @@ kinetics:
 label: N2H3 + NO2 <=> N2H2 + HNO2
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  k7 p. 278
-  T range: 1500-3000 K, P = 1 atm
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theoty
-  The Low T (300-1500 K) rate is:
-      kinetics = Arrhenius(A=(4.07e+08, 'cm^3/(mol*s)'), n=0.5, Ea=(-2395, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nk7 p. 278\nT range: 1500-3000\
+  \ K, P = 1 atm\ncalculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p)\
+  \ level of theoty\nThe Low T (300-1500 K) rate is:\n    kinetics = Arrhenius(A=(4.07e+08,\
+  \ 'cm^3/(mol*s)'), n=0.5, Ea=(-2395, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3658,14 +3352,10 @@ kinetics:
 label: N2H3 + NO2 <=> N2H3O + NO
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  k6, p. 278
-  T range: 1000-3000 K, P = 1 atm
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theoty
-  The Low T (300-1000 K) rate is:
-      kinetics = Arrhenius(A=(1.08e+20, 'cm^3/(mol*s)'), n=-2.9, Ea=(792.3, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nk6, p. 278\nT range: 1000-3000\
+  \ K, P = 1 atm\ncalculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p)\
+  \ level of theoty\nThe Low T (300-1000 K) rate is:\n    kinetics = Arrhenius(A=(1.08e+20,\
+  \ 'cm^3/(mol*s)'), n=-2.9, Ea=(792.3, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -3997,9 +3687,7 @@ kinetics:
 ---
 label: N2H2 + O <=> NNH + OH
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4016,12 +3704,9 @@ kinetics:
 label: N2H2 + OH <=> NNH + H2O
 degeneracy: 1.0
 short_description: '[Lin2014b]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  k21 and k22, p. 292
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6311++G(3df,2p) level of theory
-  conformer-dup: rates summed for trans/cis-N2H2
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\nk21 and k22, p. 292\ncalculations\
+  \ done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6311++G(3df,2p) level of theory\n\
+  conformer-dup: rates summed for trans/cis-N2H2\n"
 kinetics:
   type: MultiArrhenius
   arrhenius:
@@ -4063,12 +3748,9 @@ kinetics:
 label: N2O4 + H2O <=> HONO + HNO3
 degeneracy: 1.0
 short_description: '[Lin2012]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  p. 4469
-  T range: 200-2500 K
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theory
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\np. 4469\nT range: 200-2500\
+  \ K\ncalculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level\
+  \ of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4091,13 +3773,10 @@ kinetics:
 label: ONONO2 + H2O <=> HONO + HNO3
 degeneracy: 1.0
 short_description: '[Lin2012]'
-long_description: |2
-
-  Part of the "N2H4 + N2O4" subset
-  p. 4469
-  T range: 200-2500 K
-  calculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level of theory
-  conformer-dup: Taken as the sum of the trans-HONO and cis-HONO rates (k2+k3, as reported)
+long_description: "\nPart of the \"N2H4 + N2O4\" subset\np. 4469\nT range: 200-2500\
+  \ K\ncalculations done at the CCSD(T)/6-311++G(3df,2p)//B3LYP/6-311++G(3df,2p) level\
+  \ of theory\nconformer-dup: Taken as the sum of the trans-HONO and cis-HONO rates\
+  \ (k2+k3, as reported)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4120,14 +3799,10 @@ kinetics:
 label: CH3NO2 <=> CH3 + NO2
 degeneracy: 1.0
 short_description: '[Lin2013a]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 7311
-  T range: 500-3000 K
-  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
-  The high pressure limit rate is giving here. A 1 atm rate is also available from the same source.
-  Added as a training reaction to R_Recombination
+long_description: "\nPart of the \"CH3NO2\" subset\np. 7311\nT range: 500-3000 K\n\
+  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory\n\
+  The high pressure limit rate is giving here. A 1 atm rate is also available from\
+  \ the same source.\nAdded as a training reaction to R_Recombination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4151,11 +3826,8 @@ kinetics:
 label: CH3NO2 <=> CH3ONO
 degeneracy: 1.0
 short_description: '[Lin2013a]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 7311
-  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 7311\ncalculations done at\
+  \ the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -4171,12 +3843,9 @@ kinetics:
 label: CH3NO2 <=> CH3O + NO
 degeneracy: 1.0
 short_description: '[Lin2013a]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 7311
-  T range: 300-3000 K, valid for 10e-5 to 760 torr
-  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 7311\nT range: 300-3000 K,\
+  \ valid for 10e-5 to 760 torr\ncalculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 elementary_high_p: false
 kinetics:
   type: Arrhenius
@@ -4200,12 +3869,9 @@ kinetics:
 label: CH3NO2 <=> CH2O + HNO
 degeneracy: 1.0
 short_description: '[Lin2013a]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 7311
-  T range: 300-3000 K, valid for 10e-5 to 760 torr
-  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 7311\nT range: 300-3000 K,\
+  \ valid for 10e-5 to 760 torr\ncalculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p)\
+  \ level of theory\n"
 elementary_high_p: false
 kinetics:
   type: Arrhenius
@@ -4229,15 +3895,11 @@ kinetics:
 label: CH3ONO <=> CH3O + NO
 degeneracy: 1.0
 short_description: '[Lin2013a]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 7311
-  T range: 300-3000 K
-  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory
-  The high pressure limit rate is giving here. A 1 atm rate is akso available from the same source.
-  Added as a training reaction to R_Recombination
-  Reported rate was divided by 2 due to a 50% branching ratio (Fig. 7 in the manuscript).
+long_description: "\nPart of the \"CH3NO2\" subset\np. 7311\nT range: 300-3000 K\n\
+  calculations done at the UCCSD(T)/CBS//UB3LYP/6-311+G(3df,2p) level of theory\n\
+  The high pressure limit rate is giving here. A 1 atm rate is akso available from\
+  \ the same source.\nAdded as a training reaction to R_Recombination\nReported rate\
+  \ was divided by 2 due to a 50% branching ratio (Fig. 7 in the manuscript).\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4261,12 +3923,8 @@ kinetics:
 label: CH3 + NO2 <=> CH2(T) + HNO2
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4283,12 +3941,8 @@ kinetics:
 label: CH3 + NO2 <=> CH2(T) + HONO
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4305,10 +3959,7 @@ kinetics:
 label: CH3 + NO2 <=> CH3O + NO
 degeneracy: 1.0
 short_description: '[Miller1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  T: 1000 - 1400 K
+long_description: "\nPart of the \"CH3NO2\" subset\nT: 1000 - 1400 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4325,12 +3976,8 @@ kinetics:
 label: CH3O + CH4 <=> CH3OH + CH3
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4347,12 +3994,8 @@ kinetics:
 label: CH3O + NO2 <=> CH2O + HNO2
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4369,12 +4012,8 @@ kinetics:
 label: CH3O + NO <=> CH2O + HNO
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4391,12 +4030,8 @@ kinetics:
 label: CH4 + NO <=> CH3 + HNO
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4413,12 +4048,8 @@ kinetics:
 label: CH4 + NO <=> CH3 + HON
 degeneracy: 1.0
 short_description: '[Yamaguchi1999]'
-long_description: |2
-
-  Part of the "CH3NO2" subset
-  p. 8275, Table 3
-  T: 800 K
-  calculations done at the MP2(frozen core)/6-311++G(2d,p) level of theory
+long_description: "\nPart of the \"CH3NO2\" subset\np. 8275, Table 3\nT: 800 K\ncalculations\
+  \ done at the MP2(frozen core)/6-311++G(2d,p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4456,15 +4087,12 @@ kinetics:
 ---
 label: NH2 + NO <=> N2 + H2O
 short_description: '[Glarborg2021]'
-long_description: |2
-
-  Reaction 5b, Table 2. Experimental work re-interpreted using direct measurements from [Altinay&Macdonald2015].
-  Original information taken from [Song&Golden2001]. Shock tube experiments were performed behind reflected shockwaves
-  in a stainless steel shock tube. Rates were calculated using their branching ratio results data and the overall rate
-  coefficient.
-
-  Also available from [Lin1999a].
-  Part of the "Thermal de-NOx" mechanism
+long_description: "\nReaction 5b, Table 2. Experimental work re-interpreted using\
+  \ direct measurements from [Altinay&Macdonald2015].\nOriginal information taken\
+  \ from [Song&Golden2001]. Shock tube experiments were performed behind reflected\
+  \ shockwaves\nin a stainless steel shock tube. Rates were calculated using their\
+  \ branching ratio results data and the overall rate\ncoefficient.\n\nAlso available\
+  \ from [Lin1999a].\nPart of the \"Thermal de-NOx\" mechanism\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4481,14 +4109,11 @@ kinetics:
 label: NH2 + NO <=> N2O + H2
 degeneracy: 1.0
 short_description: '[Klippenstein2000]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-
-  Fitted to a three-param Arrhenius expression manually from Fig. 12 in [Klippenstein2000]
-
-  Also available from [Hanson1981], k2, Uncertainty: +100%, -70%, Shocktube measurement (ref 35 in [Klippenstein2000]),
-  but [Klippenstein2000] claim that the [Hanson1981] rate is too high by 2-3 orders of magnitude.
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\n\nFitted to a three-param\
+  \ Arrhenius expression manually from Fig. 12 in [Klippenstein2000]\n\nAlso available\
+  \ from [Hanson1981], k2, Uncertainty: +100%, -70%, Shocktube measurement (ref 35\
+  \ in [Klippenstein2000]),\nbut [Klippenstein2000] claim that the [Hanson1981] rate\
+  \ is too high by 2-3 orders of magnitude.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4505,15 +4130,13 @@ kinetics:
 label: NH + NO <=> N2O + H
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-
-  Miller2011 applied VRC-TST with CASPT2(7e,6o)/aug-cc-pVDZ energies:
-      kinetics = Arrhenius(A=(1.8e+14, 'cm^3/(mol*s)','*|/',3), n=-0.351, Ea=(-244, 'cal/mol'), T0=(1, 'K')),
-  Also available from [Hanson1981], k3, Shock Tube, Uncertainty: +200%, -70%, T range: 1680-2850 K:
-      kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(29400, 'cal/mol'), T0=(1, 'K'), Tmin=(1680, 'K'), Tmax=(2850, 'K')),
-  Also available from [Baulch2005], p. 937
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\n\nMiller2011 applied\
+  \ VRC-TST with CASPT2(7e,6o)/aug-cc-pVDZ energies:\n    kinetics = Arrhenius(A=(1.8e+14,\
+  \ 'cm^3/(mol*s)','*|/',3), n=-0.351, Ea=(-244, 'cal/mol'), T0=(1, 'K')),\nAlso available\
+  \ from [Hanson1981], k3, Shock Tube, Uncertainty: +200%, -70%, T range: 1680-2850\
+  \ K:\n    kinetics = Arrhenius(A=(8e+13, 'cm^3/(mol*s)'), n=0, Ea=(29400, 'cal/mol'),\
+  \ T0=(1, 'K'), Tmin=(1680, 'K'), Tmax=(2850, 'K')),\nAlso available from [Baulch2005],\
+  \ p. 937\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4530,13 +4153,11 @@ kinetics:
 label: NH + NO <=> N2 + OH
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
-  Also availabvle from [Bozzelli1994]:
-      kinetics = Arrhenius(A=(6.1e+13, 'cm^3/(mol*s)'), n=-0.50, Ea=(120, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(4000, 'K')),
-  T range: 300-4000 K, k2a, QRRK
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\ncalculated at the (CCSD(T)\
+  \ and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level\nAlso availabvle\
+  \ from [Bozzelli1994]:\n    kinetics = Arrhenius(A=(6.1e+13, 'cm^3/(mol*s)'), n=-0.50,\
+  \ Ea=(120, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(4000, 'K')),\nT range:\
+  \ 300-4000 K, k2a, QRRK\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4553,10 +4174,8 @@ kinetics:
 label: NH2 + O2 <=> NH2O + O
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-      Part of the "Thermal de-NOx" mechanism
-      calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
+long_description: "\n    Part of the \"Thermal de-NOx\" mechanism\n    calculated\
+  \ at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4573,10 +4192,8 @@ kinetics:
 label: NH2 + O2 <=> HNO + OH
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-      Part of the "Thermal de-NOx" mechanism
-      calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level
+long_description: "\n    Part of the \"Thermal de-NOx\" mechanism\n    calculated\
+  \ at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4593,13 +4210,8 @@ kinetics:
 label: NH2OH <=> NH2 + OH
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 450-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 450-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 elementary_high_p: true
 kinetics:
   type: Troe
@@ -4632,16 +4244,12 @@ kinetics:
 label: NH2 + OH <=> NH + H2O
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-
-  Both [Sarathy2020] and [Klippenstein2009a] reduced Ea by 2 kcal/mol
-  since the computed rates were significantly lower than experimental data.
-
-  Also available from [Klippenstein2009a], Table 3, p. 10245, calculated at the CCSD(T) and CAS+1+2+QC level:
-      kinetics = Arrhenius(A=(2.84e+06, 'cm^3/(mol*s)'), n=1.97, Ea=(-2246, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nCCSD(T)/cc-pVTZ and\
+  \ cc-pVQZ // M062X/6-311++G(d,p)\n\nBoth [Sarathy2020] and [Klippenstein2009a] reduced\
+  \ Ea by 2 kcal/mol\nsince the computed rates were significantly lower than experimental\
+  \ data.\n\nAlso available from [Klippenstein2009a], Table 3, p. 10245, calculated\
+  \ at the CCSD(T) and CAS+1+2+QC level:\n    kinetics = Arrhenius(A=(2.84e+06, 'cm^3/(mol*s)'),\
+  \ n=1.97, Ea=(-2246, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4692,13 +4300,8 @@ kinetics:
 label: NH2OH + OH <=> NHOH + H2O
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 300-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4721,13 +4324,8 @@ kinetics:
 label: NH2OH + OH <=> NH2O + H2O
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 300-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4750,13 +4348,8 @@ kinetics:
 label: NH2OH + NH2 <=> NHOH + NH3
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 300-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4779,13 +4372,8 @@ kinetics:
 label: NH2OH + NH2 <=> NH2O + NH3
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 300-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4808,13 +4396,8 @@ kinetics:
 label: NH2OH + NH <=> NHOH + NH2
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 400-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 400-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4837,12 +4420,8 @@ kinetics:
 label: NH2OH + NH <=> NH2O + NH2
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 400-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 400-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4865,13 +4444,9 @@ kinetics:
 label: NH + NH <=> N2H2
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 200-2500 K, high pressure limit
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 200-2500 K, high pressure limit\ncalculated at the (CCSD(T) and CAS+1+2+QC\
+  \ level\nTrain!\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -4895,13 +4470,8 @@ kinetics:
 label: NH + NH <=> NH2 + N
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
-  Train!
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  T range: 300-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -4924,13 +4494,8 @@ kinetics:
 label: NH2 + NH2 <=> N2H2 + H2
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  N2H4 PES
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 500-2500 K
-  calculated at the CCSD(T) and CAS+1+2+QC level
+long_description: "\nN2H4 PES\nPart of the \"Thermal de-NOx\" mechanism\nTable 3,\
+  \ p. 10245\nT range: 500-2500 K\ncalculated at the CCSD(T) and CAS+1+2+QC level\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -4946,13 +4511,8 @@ kinetics:
 label: NH2 + NH2 <=> H2NN(S) + H2
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  N2H4 PES
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 500-2500 K
-  calculated at the (CCSD(T) and CAS+1+2+QC level
+long_description: "\nN2H4 PES\nPart of the \"Thermal de-NOx\" mechanism\nTable 3,\
+  \ p. 10245\nT range: 500-2500 K\ncalculated at the (CCSD(T) and CAS+1+2+QC level\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -4968,19 +4528,13 @@ kinetics:
 label: NH2 + NH2 <=> NH3 + NH
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  N2H4 PES
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  T range: 300-2500 K
-  calculated at the CCSD(T) and CAS+1+2+QC level
-  Also available from [Hanson1990a]:
-      kinetics = Arrhenius(A=(5.00e+13, 'cm^3/(mol*s)'), n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),
-  R12 in Table 1, p. 521, T range: 2200-2800 K, Shock Tube
-  Also available from [Klippenstein2009a] in reverse direction:
-      kinetics = Arrhenius(A=(5.14e+01, 'cm^3/(mol*s)'), n=3.41, Ea=(14606, 'cal/mol'), T0=(1, 'K')),
-  Train both!!!
+long_description: "\nN2H4 PES\nPart of the \"Thermal de-NOx\" mechanism\nTable 3,\
+  \ p. 10245\nT range: 300-2500 K\ncalculated at the CCSD(T) and CAS+1+2+QC level\n\
+  Also available from [Hanson1990a]:\n    kinetics = Arrhenius(A=(5.00e+13, 'cm^3/(mol*s)'),\
+  \ n=0, Ea=(10000, 'cal/mol'), T0=(1, 'K')),\nR12 in Table 1, p. 521, T range: 2200-2800\
+  \ K, Shock Tube\nAlso available from [Klippenstein2009a] in reverse direction:\n\
+  \    kinetics = Arrhenius(A=(5.14e+01, 'cm^3/(mol*s)'), n=3.41, Ea=(14606, 'cal/mol'),\
+  \ T0=(1, 'K')),\nTrain both!!!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5052,12 +4606,9 @@ kinetics:
 label: NH3 + NO2 <=> NH2 + HNO2
 degeneracy: 1.0
 short_description: '[Lin1996a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  k2a on p. 7524
-  T range: 300-5000 K
-  calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nk2a on p. 7524\nT range:\
+  \ 300-5000 K\ncalculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level\
+  \ of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5079,25 +4630,16 @@ kinetics:
 ---
 label: NH2 + HONO <=> NH3 + NO2
 short_description: '[Glarborg2022]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Also available from [Lin1997c]
-  Glarborg slightly adjusted the rate by Lin to agree with a rate experiment
-
-  Available in reverse from [Lin1996a]
-      kinetics = MultiArrhenius(
-          arrhenius = [
-              Arrhenius(A=(2.36e+01, 'cm^3/(mol*s)'), n=3.41, Ea=(22290, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-              Arrhenius(A=(1.88e+01, 'cm^3/(mol*s)'), n=3.52, Ea=(32598, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-          ],
-      ),
-  k2b, k2c on p. 7523-7524
-  T range: 300-5000 K
-  calculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory
-  NH3+NO2 can give (2a) NH2 + HNO2 (see above), (2b) NH2 + cis-HONO, (2c) NH2 + trans-HONO.
-  k2c has tunneling correction
-  conformer-dup: cis/trans-HONO
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nAlso available from\
+  \ [Lin1997c]\nGlarborg slightly adjusted the rate by Lin to agree with a rate experiment\n\
+  \nAvailable in reverse from [Lin1996a]\n    kinetics = MultiArrhenius(\n       \
+  \ arrhenius = [\n            Arrhenius(A=(2.36e+01, 'cm^3/(mol*s)'), n=3.41, Ea=(22290,\
+  \ 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),\n            Arrhenius(A=(1.88e+01,\
+  \ 'cm^3/(mol*s)'), n=3.52, Ea=(32598, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'),\
+  \ Tmax=(5000, 'K')),\n        ],\n    ),\nk2b, k2c on p. 7523-7524\nT range: 300-5000\
+  \ K\ncalculations done at the UMP2/6-311G-(d,p)//UMP2/6-311G(d,p) level of theory\n\
+  NH3+NO2 can give (2a) NH2 + HNO2 (see above), (2b) NH2 + cis-HONO, (2c) NH2 + trans-HONO.\n\
+  k2c has tunneling correction\nconformer-dup: cis/trans-HONO\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5120,13 +4662,9 @@ kinetics:
 label: NH3 + NO3 <=> HNO3 + NH2
 degeneracy: 1.0
 short_description: '[Lin2010c]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  k-1 p. 76
-  T range 200-3000 K
-  calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
-  k-1 was addopted here due to the strange T dependence of k+1
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nk-1 p. 76\nT range\
+  \ 200-3000 K\ncalculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p)\
+  \ level of theory\nk-1 was addopted here due to the strange T dependence of k+1\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -5190,12 +4728,9 @@ kinetics:
 label: HNO3 + NH2 <=> NH2O + HONO
 degeneracy: 1.0
 short_description: '[Lin2010c]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  k3 p. 76
-  T range 200-3000 K
-  calculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level of theory
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nk3 p. 76\nT range 200-3000\
+  \ K\ncalculations done at the CCSD(T)/6-311+G(3df,2p)//B3LYP/6-311+G(3df,2p) level\
+  \ of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -5360,12 +4895,8 @@ kinetics:
 label: NO2 <=> NO + O
 degeneracy: 1.0
 short_description: '[Hanson1997]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 1350-2100 K
-  Shock tube measurement
-  Added as a training reaction to Birad_R_Recombination
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 1350-2100\
+  \ K\nShock tube measurement\nAdded as a training reaction to Birad_R_Recombination\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -5391,11 +4922,8 @@ kinetics:
 label: NO2 + NO2 <=> NO + NO + O2
 degeneracy: 1.0
 short_description: '[Lin1998b]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 625-2100 K
-  Shock tube measurement by [Hanson1997], and rate improvement by [Lin1998b]
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 625-2100 K\n\
+  Shock tube measurement by [Hanson1997], and rate improvement by [Lin1998b]\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5418,11 +4946,8 @@ kinetics:
 label: NO2 + NO2 <=> NO3 + NO
 degeneracy: 1.0
 short_description: '[Hanson1997]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 1350-2100 K
-  Shock tube measurement
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 1350-2100\
+  \ K\nShock tube measurement\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5445,14 +4970,11 @@ kinetics:
 label: HONO + NO2 <=> HNO3 + NO
 degeneracy: 1.0
 short_description: '[Lin2000b]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 300-3000 K
-  calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
-  conformer-dup: rate is for both cis-HONO and trans-HONO reactants
-  Also available from [Lin1998b] (although cited as "unpublished work"):
-      kinetics = Arrhenius(A=(2.00e+11, 'cm^3/(mol*s)'), n=0, Ea=(32700, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 300-3000 K\n\
+  calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory\n\
+  conformer-dup: rate is for both cis-HONO and trans-HONO reactants\nAlso available\
+  \ from [Lin1998b] (although cited as \"unpublished work\"):\n    kinetics = Arrhenius(A=(2.00e+11,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(32700, 'cal/mol'), T0=(1, 'K')),\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -5495,16 +5017,12 @@ kinetics:
 label: HNO + NO2 <=> HONO + NO
 degeneracy: 1.0
 short_description: '[Luo2019]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  Based on a shock tube measurement
-
-  Also available from [Lin1998f]
-      kinetics = Arrhenius(A=(4.42e+04, 'cm^3/(mol*s)'), n=2.64, Ea=(4042, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-  T range: 300-5000 K
-  calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
-  This route produces the cis-HONO, two other routes that produce the trans-HONO product exist, yet their rates are much smaller
+long_description: "\nPart of the \"NO2 decomposition\" subset\nBased on a shock tube\
+  \ measurement\n\nAlso available from [Lin1998f]\n    kinetics = Arrhenius(A=(4.42e+04,\
+  \ 'cm^3/(mol*s)'), n=2.64, Ea=(4042, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000,\
+  \ 'K')),\nT range: 300-5000 K\ncalculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p)\
+  \ level of theory\nThis route produces the cis-HONO, two other routes that produce\
+  \ the trans-HONO product exist, yet their rates are much smaller\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5527,13 +5045,11 @@ kinetics:
 label: N2O + H <=> N2 + OH
 degeneracy: 1.0
 short_description: '[Miller2011]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  calculated at the (CCSD(T) and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure calculations level
-  Also available from [Herron1991]:
-      kinetics = Arrhenius(A=(9.6e+13, 'cm^3/(mol*s)'), n=0, Ea=(15100, 'cal/mol'), T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2500, 'K')),
-  T range: 700-2500 K, Review and recommendation, p. 660, 14,4
+long_description: "\nPart of the \"NO2 decomposition\" subset\ncalculated at the (CCSD(T)\
+  \ and QCISD(T)) and multireference CASPT2 and CAS + 1 + 2 + QC electronic structure\
+  \ calculations level\nAlso available from [Herron1991]:\n    kinetics = Arrhenius(A=(9.6e+13,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(15100, 'cal/mol'), T0=(1, 'K'), Tmin=(700, 'K'), Tmax=(2500,\
+  \ 'K')),\nT range: 700-2500 K, Review and recommendation, p. 660, 14,4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5550,11 +5066,8 @@ kinetics:
 label: N2O + CO <=> N2 + CO2
 degeneracy: 1.0
 short_description: '[Herron1991]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 700-2500 K
-  Review and recommendation, p. 662, 14,8
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 700-2500 K\n\
+  Review and recommendation, p. 662, 14,8\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5577,11 +5090,8 @@ kinetics:
 label: NO2 + HCO <=> CO + HONO
 degeneracy: 1.0
 short_description: '[Lin1990]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 300-2000 K
-  k2, p. 471
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 300-2000 K\n\
+  k2, p. 471\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5604,12 +5114,8 @@ kinetics:
 label: HONO + H <=> H2 + NO2
 degeneracy: 1.0
 short_description: '[Lin1997a]'
-long_description: |2
-
-  Part of the "NO2 decomposition" subset
-  T range: 300-3500 K
-  G2 and BAC-MP4
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"NO2 decomposition\" subset\nT range: 300-3500 K\n\
+  G2 and BAC-MP4\nAdded as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5632,12 +5138,9 @@ kinetics:
 label: NO <=> N + O
 degeneracy: 1.0
 short_description: '[Herron1991]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 2400-6200 K
-  Shock tube measurement by Thielen and Roth 1984, as reported by [Herron1991]
-  This reaction is not expected to be important except at the highest temperatures
+long_description: "\nPart of the \"NOx\" subset\nT range: 2400-6200 K\nShock tube\
+  \ measurement by Thielen and Roth 1984, as reported by [Herron1991]\nThis reaction\
+  \ is not expected to be important except at the highest temperatures\n"
 kinetics:
   type: ThirdBody
   efficiencies:
@@ -5656,11 +5159,7 @@ kinetics:
 label: NO2 + HCO <=> H + CO2 + NO
 degeneracy: 1.0
 short_description: '[Lin1990]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-2000 K
-  k2, p. 471
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-2000 K\nk2, p. 471\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5683,11 +5182,7 @@ kinetics:
 label: HONO + H <=> OH + HNO
 degeneracy: 1.0
 short_description: '[Lin1997a]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3500 K
-  G2 and BAC-MP4
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3500 K\nG2 and BAC-MP4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5710,11 +5205,7 @@ kinetics:
 label: HONO + HONO <=> H2O + NO2 + NO
 degeneracy: 1.0
 short_description: '[Lin1998c]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-5000 K
-  G2M
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-5000 K\nG2M\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5737,12 +5228,8 @@ kinetics:
 label: HNO3 + H <=> H2 + NO3
 degeneracy: 1.0
 short_description: '[Lin1997b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  CTST
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\nCTST\nAdded\
+  \ as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5765,12 +5252,8 @@ kinetics:
 label: HNO3 + H <=> OH + HONO
 degeneracy: 1.0
 short_description: '[Lin1997b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  The product is the cis-HONO conformer
-  RRKM
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\nThe product\
+  \ is the cis-HONO conformer\nRRKM\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5793,11 +5276,7 @@ kinetics:
 label: HNO3 + H <=> H2O + NO2
 degeneracy: 1.0
 short_description: '[Lin1997b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  RRKM
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\nRRKM\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5884,11 +5363,8 @@ kinetics:
 label: NO2 + NH <=> HNO + NO
 degeneracy: 1.0
 short_description: '[Lin1998d]'
-long_description: |2
-
-  Part of the "NOx" subset
-  calculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p) level of theory
-  k4, p. 8894
+long_description: "\nPart of the \"NOx\" subset\ncalculations done at the B3LYP/6-311D(d,p)//B3LYP/6-311D(d,p)\
+  \ level of theory\nk4, p. 8894\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5911,12 +5387,8 @@ kinetics:
 label: HCO + HNO <=> CH2O + NO
 degeneracy: 1.0
 short_description: '[Lin2004]'
-long_description: |2
-
-  Part of the "NOx" subset
-  calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
-  k1, p. 211
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"NOx\" subset\ncalculations done at the G2M//BH&HLYP/6-311G(d,\
+  \ p) level of theory\nk1, p. 211\nAdded as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5939,12 +5411,8 @@ kinetics:
 label: HCO + HNO <=> NH2O + CO
 degeneracy: 1.0
 short_description: '[Lin2004]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 200-3000 K
-  calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
-  k2, p. 211
+long_description: "\nPart of the \"NOx\" subset\nT range: 200-3000 K\ncalculations\
+  \ done at the G2M//BH&HLYP/6-311G(d, p) level of theory\nk2, p. 211\n"
 kinetics:
   type: Arrhenius
   A:
@@ -5967,17 +5435,12 @@ kinetics:
 label: HCO + HNO <=> NHOH + CO
 degeneracy: 1.0
 short_description: '[Lin2004]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 1000-3000 K
-  calculations done at the G2M//BH&HLYP/6-311G(d, p) level of theory
-  k4(NHOH+CO), p. 213
-  The Low T (200-400 K) rate is:
-      kinetics = Arrhenius(A=(1.04e-07, 'cm^3/(mol*s)'), n=6.23, Ea=(-3291, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(400, 'K')),
-
-  The Low T (400-1000 K) rate is:
-      kinetics = Arrhenius(A=(2.16e+08, 'cm^3/(mol*s)'), n=1.19, Ea=(914, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(1000, 'K')),
+long_description: "\nPart of the \"NOx\" subset\nT range: 1000-3000 K\ncalculations\
+  \ done at the G2M//BH&HLYP/6-311G(d, p) level of theory\nk4(NHOH+CO), p. 213\nThe\
+  \ Low T (200-400 K) rate is:\n    kinetics = Arrhenius(A=(1.04e-07, 'cm^3/(mol*s)'),\
+  \ n=6.23, Ea=(-3291, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(400, 'K')),\n\
+  \nThe Low T (400-1000 K) rate is:\n    kinetics = Arrhenius(A=(2.16e+08, 'cm^3/(mol*s)'),\
+  \ n=1.19, Ea=(914, 'cal/mol'), T0=(1, 'K'), Tmin=(400, 'K'), Tmax=(1000, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6000,14 +5463,10 @@ kinetics:
 label: HCO + NO <=> HNO + CO
 degeneracy: 1.0
 short_description: '[Lin2005c]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 500-3000 K
-  calculations done at the G2M(CC5)//B3LYP/6-311G(d, p) level of theory
-  k(HNO+CO), p. 234308-10
-  The Low T (200-500 K) rate is:
-      kinetics = Arrhenius(A=(1.85e+12, 'cm^3/(mol*s)'), n=0.10, Ea=(-481, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(500, 'K')),
+long_description: "\nPart of the \"NOx\" subset\nT range: 500-3000 K\ncalculations\
+  \ done at the G2M(CC5)//B3LYP/6-311G(d, p) level of theory\nk(HNO+CO), p. 234308-10\n\
+  The Low T (200-500 K) rate is:\n    kinetics = Arrhenius(A=(1.85e+12, 'cm^3/(mol*s)'),\
+  \ n=0.10, Ea=(-481, 'cal/mol'), T0=(1, 'K'), Tmin=(200, 'K'), Tmax=(500, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6030,11 +5489,8 @@ kinetics:
 label: NH3 + HNO3 <=> H2NNO2 + H2O
 degeneracy: 1.0
 short_description: '[Lin1998e]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  calculations done at the G2M//PMP4/6-311G(d, p) level of theory
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\ncalculations\
+  \ done at the G2M//PMP4/6-311G(d, p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6057,11 +5513,8 @@ kinetics:
 label: NH3 + HNO3 <=> H2NONO + H2O
 degeneracy: 1.0
 short_description: '[Lin1998e]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  calculations done at the G2M//PMP4/6-311G(d, p) level of theory
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\ncalculations\
+  \ done at the G2M//PMP4/6-311G(d, p) level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6136,12 +5589,9 @@ kinetics:
 label: HONO + O3 <=> HNO3 + O2
 degeneracy: 1.0
 short_description: '[Lin2000b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  calculations done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory
-  conformer-dup: rate are for both cis-HONO and trans-HONO reactants
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\ncalculations\
+  \ done at the B3LYP/6-311G-(d,p)//B3LYP/6-311G(d,p) level of theory\nconformer-dup:\
+  \ rate are for both cis-HONO and trans-HONO reactants\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -6184,11 +5634,7 @@ kinetics:
 label: O3 <=> O2 + O
 degeneracy: 1.0
 short_description: '[Hindelang1993]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  Shock Tube
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\nShock Tube\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -6204,12 +5650,9 @@ kinetics:
 label: HONO + NH3 <=> NH2NO + H2O
 degeneracy: 1.0
 short_description: '[Lin2000c]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 300-3000 K
-  calculations done at the QCISD(T)/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-  conformer-dup: rate are for both cis-HONO and trans-HONO reactants
+long_description: "\nPart of the \"NOx\" subset\nT range: 300-3000 K\ncalculations\
+  \ done at the QCISD(T)/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\nconformer-dup:\
+  \ rate are for both cis-HONO and trans-HONO reactants\n"
 duplicate: true
 kinetics:
   type: MultiArrhenius
@@ -6252,13 +5695,9 @@ kinetics:
 label: HNO3 + OH <=> H2O + NO3
 degeneracy: 1.0
 short_description: '[Lin2001]'
-long_description: |2
-
-  Part of the "NOx" subset
-  kNO3 on p. 4530
-  T range: 750-1500 K
-  calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-  Added as a training reaction to H_Abstraction
+long_description: "\nPart of the \"NOx\" subset\nkNO3 on p. 4530\nT range: 750-1500\
+  \ K\ncalculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\n\
+  Added as a training reaction to H_Abstraction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6280,12 +5719,11 @@ kinetics:
 ---
 label: NO2 + OH <=> HNO3
 short_description: '[Lin2003b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  Also available from [Lin1998a] at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory, T range: 300-2000 K (k_inf_a on p. 44):
-      kinetics = Arrhenius(A=(1.45e+13, 'cm^3/(mol*s)'), n=0, Ea=(-477, 'cal/mol'), T0=(1, 'K')),
-  Also available from J. Troe, J. Phys. Chem. A, 2012, 116(24), 6387-6393, doi: 10.1021/jp212095n for 220-430 K
+long_description: "\nPart of the \"NOx\" subset\nAlso available from [Lin1998a] at\
+  \ the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory, T range: 300-2000 K\
+  \ (k_inf_a on p. 44):\n    kinetics = Arrhenius(A=(1.45e+13, 'cm^3/(mol*s)'), n=0,\
+  \ Ea=(-477, 'cal/mol'), T0=(1, 'K')),\nAlso available from J. Troe, J. Phys. Chem.\
+  \ A, 2012, 116(24), 6387-6393, doi: 10.1021/jp212095n for 220-430 K\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -6311,11 +5749,8 @@ kinetics:
 label: NO2 + OH <=> HOONO
 degeneracy: 1.0
 short_description: '[Lin2003b]'
-long_description: |2
-
-  Part of the "NOx" subset
-  k_inf_a on p. 44
-  T range: 200-2000 K
+long_description: "\nPart of the \"NOx\" subset\nk_inf_a on p. 44\nT range: 200-2000\
+  \ K\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -6341,19 +5776,14 @@ kinetics:
 label: NO2 + OH <=> NO + HO2
 degeneracy: 1.0
 short_description: '[Lin1998a]'
-long_description: |2
-
-  Part of the "NOx" subset
-  Table 3 on p. 46
-  T range: 300-2000 K
-  calculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory
-  The 3-parameter Arrhenius parameters were fitted from the data in the table using Excel.
-  Probably not the best fit... but deviated only by ~5% above 1000 K (larger deviation at T < 1000 K)
-
-  Also available from [Troe1975]:
-      kinetics = Arrhenius(A=(4.5e+12, 'cm^3/(mol*s)','+|-',1e+12), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin=(1350, 'K'), Tmax=(1700, 'K')),
-
-  Also available from Baulch et al., J.Phys. Chem. Ref. Data, 2005, 34: 757-1397
+long_description: "\nPart of the \"NOx\" subset\nTable 3 on p. 46\nT range: 300-2000\
+  \ K\ncalculations done at the B3LYP/6-311G(d,p)//B3LYP/6-311G(d,p) level of theory\n\
+  The 3-parameter Arrhenius parameters were fitted from the data in the table using\
+  \ Excel.\nProbably not the best fit... but deviated only by ~5% above 1000 K (larger\
+  \ deviation at T < 1000 K)\n\nAlso available from [Troe1975]:\n    kinetics = Arrhenius(A=(4.5e+12,\
+  \ 'cm^3/(mol*s)','+|-',1e+12), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K'), Tmin=(1350,\
+  \ 'K'), Tmax=(1700, 'K')),\n\nAlso available from Baulch et al., J.Phys. Chem. Ref.\
+  \ Data, 2005, 34: 757-1397\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6376,11 +5806,7 @@ kinetics:
 label: NO2 + CO <=> NO + CO2
 degeneracy: 1.0
 short_description: '[Palmer1977]'
-long_description: |2
-
-  Part of the "NOx" subset
-  T range: 500-2000 K
-  Shock tube measurement
+long_description: "\nPart of the \"NOx\" subset\nT range: 500-2000 K\nShock tube measurement\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6402,10 +5828,8 @@ kinetics:
 ---
 label: HNCO + O <=> NCO + OH
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nCCSD(T)/cc-pVTZ\
+  \ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6452,12 +5876,8 @@ kinetics:
 ---
 label: N2O5 + H2O <=> HNO3 + HNO3
 short_description: '[Marshall2014]'
-long_description: |2
-
-  Part of the "NOx" subset
-  p. 11413
-  T range: 180-1800 K
-  calculations done at the CCSD(T)-F12a/cc-pVTZ-F12//M06-2X/MG3S level of theory
+long_description: "\nPart of the \"NOx\" subset\np. 11413\nT range: 180-1800 K\ncalculations\
+  \ done at the CCSD(T)-F12a/cc-pVTZ-F12//M06-2X/MG3S level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6480,12 +5900,8 @@ kinetics:
 label: CN + OH <=> NCO + H
 degeneracy: 1.0
 short_description: '[Hanson1996]'
-long_description: |2
-
-  Part of the "HCN" subset
-  T range: 1250-1863 K
-  k1 Table 1, p. 249
-  Shock Tube
+long_description: "\nPart of the \"HCN\" subset\nT range: 1250-1863 K\nk1 Table 1,\
+  \ p. 249\nShock Tube\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6508,11 +5924,8 @@ kinetics:
 label: HCN + O <=> NH + CO
 degeneracy: 1.0
 short_description: '[Herron1991]'
-long_description: |2
-
-  Part of the "HCN" subset
-  T range: 500-2500 K
-  Review and reccomendation, p. 653, 13,3(b)
+long_description: "\nPart of the \"HCN\" subset\nT range: 500-2500 K\nReview and reccomendation,\
+  \ p. 653, 13,3(b)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6535,12 +5948,9 @@ kinetics:
 label: HCN + H <=> CN + H2
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "HCN" subset
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-
-  Also available from [Herron1991], Reviewed by Bailch et al. 1981, as reported by [Herron1991] p. 654
+long_description: "\nPart of the \"HCN\" subset\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n\
+  \nAlso available from [Herron1991], Reviewed by Bailch et al. 1981, as reported\
+  \ by [Herron1991] p. 654\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6557,12 +5967,8 @@ kinetics:
 label: HCN + OH <=> CN + H2O
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "HCN" subset
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
-
-  Also available from [Herron1991], review and recommendation, p. 656, 13,5(a)
+long_description: "\nPart of the \"HCN\" subset\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n\
+  \nAlso available from [Herron1991], review and recommendation, p. 656, 13,5(a)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6579,9 +5985,7 @@ kinetics:
 label: HCN + HO2 <=> CN + H2O2
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6598,9 +6002,7 @@ kinetics:
 label: HCN + O2 <=> CN + HO2
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6617,10 +6019,8 @@ kinetics:
 label: HNCO + OH <=> NCO + H2O
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "Prompt NO, NCN subset" mechanism
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nPart of the \"Prompt NO, NCN subset\" mechanism\nCCSD(T)/cc-pVTZ\
+  \ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6637,11 +6037,8 @@ kinetics:
 label: HCN + OH <=> NCOH + H
 degeneracy: 1.0
 short_description: '[Herron1991]'
-long_description: |2
-
-  Part of the "HCN" subset
-  T range: 298-2840 K
-  Review and reccomendation, p. 656, 13,5(b)
+long_description: "\nPart of the \"HCN\" subset\nT range: 298-2840 K\nReview and reccomendation,\
+  \ p. 656, 13,5(b)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6664,13 +6061,10 @@ kinetics:
 label: HCN + OH <=> NH2 + CO
 degeneracy: 1.0
 short_description: '[Hanson1996]'
-long_description: |2
-
-  Part of the "HCN" subset
-  T range: 500-2500 K
-  BAC-MP4
-  J.A. Miller, C.F. Melius, Symposium (International) on Combustion, 1988, 21(1), 919-927, doi: 10.1016/S0082-0784(88)80324-2
-  as reported by [Hanson1996] (4d in Table 1, p. 249)
+long_description: "\nPart of the \"HCN\" subset\nT range: 500-2500 K\nBAC-MP4\nJ.A.\
+  \ Miller, C.F. Melius, Symposium (International) on Combustion, 1988, 21(1), 919-927,\
+  \ doi: 10.1016/S0082-0784(88)80324-2\nas reported by [Hanson1996] (4d in Table 1,\
+  \ p. 249)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6693,11 +6087,8 @@ kinetics:
 label: HCN + OH <=> HNCO + H
 degeneracy: 1.0
 short_description: '[Herron1991]'
-long_description: |2
-
-  Part of the "HCN" subset
-  T range: 298-2840 K
-  Review and reccomendation, p. 656, 13,5(c)
+long_description: "\nPart of the \"HCN\" subset\nT range: 298-2840 K\nReview and reccomendation,\
+  \ p. 656, 13,5(c)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6720,10 +6111,8 @@ kinetics:
 label: HCN + O <=> CN + OH
 degeneracy: 1.0
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "Prompt NO" mechanism
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nPart of the \"Prompt NO\" mechanism\nCCSD(T)/cc-pVTZ and cc-pVQZ\
+  \ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6739,10 +6128,7 @@ kinetics:
 ---
 label: HCN <=> HNC
 short_description: '[Sarathy2020]'
-long_description: |2
-
-  Part of the "HCN" subset
-  CCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)
+long_description: "\nPart of the \"HCN\" subset\nCCSD(T)/cc-pVTZ and cc-pVQZ // M062X/6-311++G(d,p)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6759,16 +6145,11 @@ kinetics:
 label: CH4 + NO2 <=> HONO + CH3
 degeneracy: 1.0
 short_description: '[Yang2012]'
-long_description: |2
-
-  Part of the "C1-oxygenates" subset
-  k1a + k1b
-  originally given for 400-4000 K in a custom Arrhenius form with T-dependent Ea.
-  Manually converted to a normal modified Arrhenius form here for a smaller T range with coefficients of determination 0.9985
-  T range: 500-1650 K
-  calculated at the B3LYP/6-311G(2d,d,p)//M06-2X/MG3S level of theory
-  conformer-dup: rates summed for trans/cis-HONO
-  Train!
+long_description: "\nPart of the \"C1-oxygenates\" subset\nk1a + k1b\noriginally given\
+  \ for 400-4000 K in a custom Arrhenius form with T-dependent Ea.\nManually converted\
+  \ to a normal modified Arrhenius form here for a smaller T range with coefficients\
+  \ of determination 0.9985\nT range: 500-1650 K\ncalculated at the B3LYP/6-311G(2d,d,p)//M06-2X/MG3S\
+  \ level of theory\nconformer-dup: rates summed for trans/cis-HONO\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6791,15 +6172,11 @@ kinetics:
 label: CH4 + NO2 <=> HNO2 + CH3
 degeneracy: 1.0
 short_description: '[Yang2012]'
-long_description: |2
-
-  Part of the "C1-oxygenates" subset
-  k1c
-  originally given for 400-4000 K in a custom Arrhenius form with T-dependent Ea.
-  Manually converted to a normal modified Arrhenius form here for a smaller T range with coefficients of determination 0.9995
-  T range: 500-1650 K
-  calculated at the B3LYP/6-311G(2d,d,p)//M06-2X/MG3S level of theory
-  Train!
+long_description: "\nPart of the \"C1-oxygenates\" subset\nk1c\noriginally given for\
+  \ 400-4000 K in a custom Arrhenius form with T-dependent Ea.\nManually converted\
+  \ to a normal modified Arrhenius form here for a smaller T range with coefficients\
+  \ of determination 0.9995\nT range: 500-1650 K\ncalculated at the B3LYP/6-311G(2d,d,p)//M06-2X/MG3S\
+  \ level of theory\nTrain!\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6822,38 +6199,22 @@ kinetics:
 label: C2H5ONO <=> CH3CHO + HNO
 degeneracy: 1.0
 short_description: estimated by alongd
-long_description: |2
-
-  This is the RTS reaction from [Green2014]
-
-  Here, the rate was estimated as follows:
-
-  The A factor is taken from the reaction C2H5ONO <=> C2H5O + NO
-  The latter is given in reverse in the Nitrogen_Glarborg_Zhang_et_al library:
-      entry(
-          label = "CH3CH2O + NO <=> CH3CH2ONO",
-          degeneracy = 1,
-          kinetics = Troe(
-              arrheniusHigh = Arrhenius(A=(1.2e+13, 'cm^3/(mol*s)'), n=0, Ea=(-143, 'cal/mol'), T0=(1, 'K')),
-              arrheniusLow = Arrhenius(A=(9.43e+19, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),
-              alpha = 0.6,
-              T3 = (1e-30, 'K'),
-              T1 = (1e+30, 'K'),
-              T2 = (1e+30, 'K'),
-              efficiencies = {},
-          ),
-      )
-  Reversing the high-P limit rate of this reaction using thermo for CH3CH2O from FFCM-1, NO from NitrogenCurran,
-  and CH3CH2ONO from NitrogenCurran gives in 300-2000 K:
-  K(T) = 9.85E+15 * exp(46 kcal/mol / RT)  s^-1   (negative Ea)
-  A = 9.85E+15 s^-1
-
-  The Ea is taken as the bond energy of C2H5O-NO
-  Ea = H(NO) + H(C2H5O) - H(CH3CH2ONO)     (values taken at 1000 K)
-  Ea = 26.93 + 14.52 - (-0.31) = 41.76 kcal/mol
-
-  This is in agreement with the rate reported by [Green2014] (probably estimated similarly)::
-  K(T) = 1.0E+16 * exp(-42 kcal/mol / RT)  s^-1
+long_description: "\nThis is the RTS reaction from [Green2014]\n\nHere, the rate was\
+  \ estimated as follows:\n\nThe A factor is taken from the reaction C2H5ONO <=> C2H5O\
+  \ + NO\nThe latter is given in reverse in the Nitrogen_Glarborg_Zhang_et_al library:\n\
+  \    entry(\n        label = \"CH3CH2O + NO <=> CH3CH2ONO\",\n        degeneracy\
+  \ = 1,\n        kinetics = Troe(\n            arrheniusHigh = Arrhenius(A=(1.2e+13,\
+  \ 'cm^3/(mol*s)'), n=0, Ea=(-143, 'cal/mol'), T0=(1, 'K')),\n            arrheniusLow\
+  \ = Arrhenius(A=(9.43e+19, 'cm^6/(mol^2*s)'), n=0, Ea=(0, 'cal/mol'), T0=(1, 'K')),\n\
+  \            alpha = 0.6,\n            T3 = (1e-30, 'K'),\n            T1 = (1e+30,\
+  \ 'K'),\n            T2 = (1e+30, 'K'),\n            efficiencies = {},\n      \
+  \  ),\n    )\nReversing the high-P limit rate of this reaction using thermo for\
+  \ CH3CH2O from FFCM-1, NO from NitrogenCurran,\nand CH3CH2ONO from NitrogenCurran\
+  \ gives in 300-2000 K:\nK(T) = 9.85E+15 * exp(46 kcal/mol / RT)  s^-1   (negative\
+  \ Ea)\nA = 9.85E+15 s^-1\n\nThe Ea is taken as the bond energy of C2H5O-NO\nEa =\
+  \ H(NO) + H(C2H5O) - H(CH3CH2ONO)     (values taken at 1000 K)\nEa = 26.93 + 14.52\
+  \ - (-0.31) = 41.76 kcal/mol\n\nThis is in agreement with the rate reported by [Green2014]\
+  \ (probably estimated similarly)::\nK(T) = 1.0E+16 * exp(-42 kcal/mol / RT)  s^-1\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -6877,11 +6238,8 @@ kinetics:
 label: HCCO + NO <=> HCNO + CO
 degeneracy: 1.0
 short_description: '[Carl2002]'
-long_description: |2
-
-  Experimental + RRKM
-  P = 720 Pa
-  x5 slower than the respective Dean & Bozzelli rate
+long_description: "\nExperimental + RRKM\nP = 720 Pa\nx5 slower than the respective\
+  \ Dean & Bozzelli rate\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6904,13 +6262,12 @@ kinetics:
 label: HCCO + NO <=> HCN + CO2
 degeneracy: 1.0
 short_description: '[Lin2003a]'
-long_description: |2
-
-  Calculated at the QCISD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p) level of theory
-  Overall HCCO + NO rate is k = 1.37e+16 * T^(-0.98) * exp(-190/T) cm^3/(mol*s)
-  and the branching ratio to the HCN + CO2 products is: 0.5 * exp(-T/67.1) + 0.3 * exp(-T/2592) in the 250-2500 range
-  Arrhenius was calculated by alongd from the above data, uncertainty reflects fitting error only
-  x4 slower than the respective Dean & Bozzelli rate at 1000 K
+long_description: "\nCalculated at the QCISD(T)/6-311+G(3df,2p)//B3LYP/6-311G(d,p)\
+  \ level of theory\nOverall HCCO + NO rate is k = 1.37e+16 * T^(-0.98) * exp(-190/T)\
+  \ cm^3/(mol*s)\nand the branching ratio to the HCN + CO2 products is: 0.5 * exp(-T/67.1)\
+  \ + 0.3 * exp(-T/2592) in the 250-2500 range\nArrhenius was calculated by alongd\
+  \ from the above data, uncertainty reflects fitting error only\nx4 slower than the\
+  \ respective Dean & Bozzelli rate at 1000 K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6933,11 +6290,8 @@ kinetics:
 label: C3H8 + NO2 <=> iC3H7 + HONO
 degeneracy: 2.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
-  Rate for trans-HONO was taken
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\nRate for trans-HONO\
+  \ was taken\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6960,10 +6314,7 @@ kinetics:
 label: C3H8 + NO2 <=> iC3H7 + HNO2
 degeneracy: 2.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\n"
 kinetics:
   type: Arrhenius
   A:
@@ -6986,11 +6337,8 @@ kinetics:
 label: tC4H10 + NO2 <=> tC4H9 + HONO
 degeneracy: 1.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
-  Rate for trans-HONO was taken
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\nRate for trans-HONO\
+  \ was taken\n"
 kinetics:
   type: Arrhenius
   A:
@@ -7013,10 +6361,7 @@ kinetics:
 label: tC4H10 + NO2 <=> tC4H9 + HNO2
 degeneracy: 1.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\n"
 kinetics:
   type: Arrhenius
   A:
@@ -7039,11 +6384,8 @@ kinetics:
 label: C6H6 + NO2 <=> C6H5 + HONO
 degeneracy: 1.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
-  Rate for trans-HONO was taken
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\nRate for trans-HONO\
+  \ was taken\n"
 kinetics:
   type: Arrhenius
   A:
@@ -7066,10 +6408,7 @@ kinetics:
 label: C6H6 + NO2 <=> C6H5 + HNO2
 degeneracy: 1.0
 short_description: '[Pritchard2001]'
-long_description: |2
-
-  Calculated at BHandHLYP/6-311G**
-  Table 2
+long_description: "\nCalculated at BHandHLYP/6-311G**\nTable 2\n"
 kinetics:
   type: Arrhenius
   A:
@@ -7091,13 +6430,9 @@ kinetics:
 ---
 label: N2H4 + NH <=> N2H3 + NH2
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1330)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to H-Abstraction
+long_description: "\nCalculated by alongd (xq1330)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to H-Abstraction\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7120,12 +6455,8 @@ kinetics:
 ---
 label: N2H4 + H2NN(S) <=> N4
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1340)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1340)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7148,12 +6479,8 @@ kinetics:
 ---
 label: N2H4 + H2NN(S) <=> N4c23
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1341)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1341)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7176,13 +6503,9 @@ kinetics:
 ---
 label: N4 <=> NH3 + NH2NHN
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1343)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,2_NH3_elimination
+long_description: "\nCalculated by alongd (xq1343)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,2_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7205,13 +6528,9 @@ kinetics:
 ---
 label: N4c23 <=> NH3 + NH2NNH
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1344)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,2_NH3_elimination
+long_description: "\nCalculated by alongd (xq1344)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,2_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7234,12 +6553,8 @@ kinetics:
 ---
 label: N2H3 + N2H3 <=> N2H4 + H2NN(S)
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1342b)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1342b)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7262,13 +6577,9 @@ kinetics:
 ---
 label: NH2NHN <=> NH3 + N2
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1444)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,2_NH3_elimination
+long_description: "\nCalculated by alongd (xq1444)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,2_NH3_elimination\n"
 allow_max_rate_violation: true
 elementary_high_p: true
 kinetics:
@@ -7292,13 +6603,9 @@ kinetics:
 ---
 label: NH2NNH <=> NH3 + N2
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1445)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,3_NH3_elimination
+long_description: "\nCalculated by alongd (xq1445)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,3_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7321,13 +6628,9 @@ kinetics:
 ---
 label: N3 <=> H2NN(S) + NH3
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1457)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,2_NH3_elimination
+long_description: "\nCalculated by alongd (xq1457)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,2_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7350,12 +6653,8 @@ kinetics:
 ---
 label: NH2NHN <=> NH2NNH
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1458)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1458)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7378,13 +6677,9 @@ kinetics:
 ---
 label: N3 <=> N2H2 + NH3
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1460)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,3_NH3_elimination
+long_description: "\nCalculated by alongd (xq1460)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,3_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7407,12 +6702,8 @@ kinetics:
 ---
 label: N3c <=> N2H2 + NH3
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1463)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1463)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7435,12 +6726,8 @@ kinetics:
 ---
 label: N3 <=> N3c
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1465)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1465)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7463,13 +6750,9 @@ kinetics:
 ---
 label: N4 <=> NH2NNH + NH3
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1472)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
-  Added as training reaction to 1,3_NH3_elimination
+long_description: "\nCalculated by alongd (xq1472)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\nAdded as training\
+  \ reaction to 1,3_NH3_elimination\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7492,9 +6775,8 @@ kinetics:
 ---
 label: H2NN(T) <=> H2NN(S)
 short_description: est.
-long_description: |2
-
-  An estimated rate for the fast H2NN(T) transition into the stable H2NN(S) form
+long_description: "\nAn estimated rate for the fast H2NN(T) transition into the stable\
+  \ H2NN(S) form\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7511,11 +6793,8 @@ kinetics:
 ---
 label: H2NN(S) <=> N2H2
 short_description: CCSD(T)-F12a/cc-pVTZ//B3LYP/6-311G(2d,d,p)
-long_description: |2
-
-  Calculated by alongd (xc1097)
-  opt, freq: B3LYP/6-311G(2d,d,p)
-  sp: CCSD(T)-F12/cc-pVTZ
+long_description: "\nCalculated by alongd (xc1097)\nopt, freq: B3LYP/6-311G(2d,d,p)\n\
+  sp: CCSD(T)-F12/cc-pVTZ\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7538,12 +6817,8 @@ kinetics:
 ---
 label: N4c12 <=> N4c23
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1476)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1476)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7566,12 +6841,8 @@ kinetics:
 ---
 label: N4 <=> N4c12
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1476)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1476)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7594,12 +6865,8 @@ kinetics:
 ---
 label: NH2NNH <=> NHNHNH
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1481)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1481)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7622,12 +6889,8 @@ kinetics:
 ---
 label: cN3H3 <=> NHNHNH
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1481)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1481)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7782,15 +7045,10 @@ kinetics:
 ---
 label: NH3NH <=> N2H2 + H2
 short_description: '[Bozzelli2010]'
-long_description: |2
-
-      N2H4 PES
-  CCSD(T)//CBS-QB3
-  See Table 3, R6
-  Employed the reaction path to trans-N2H2.
-  Also, the reaction path to cis-N2H2 was calculated (Table 3, R7).
-      kinetics = Arrhenius(A=(5.75e+10, 's^-1'), n=1.01, Ea=(34.3, 'kcal/mol'),
-          T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),
+long_description: "\n    N2H4 PES\nCCSD(T)//CBS-QB3\nSee Table 3, R6\nEmployed the\
+  \ reaction path to trans-N2H2.\nAlso, the reaction path to cis-N2H2 was calculated\
+  \ (Table 3, R7).\n    kinetics = Arrhenius(A=(5.75e+10, 's^-1'), n=1.01, Ea=(34.3,\
+  \ 'kcal/mol'),\n        T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2000, 'K')),\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7813,11 +7071,7 @@ kinetics:
 ---
 label: NH3NH <=> N2H3 + H
 short_description: '[Bozzelli2010]'
-long_description: |2
-
-      N2H4 PES
-  CCSD(T)//CBS-QB3
-  See Table 3, R8
+long_description: "\n    N2H4 PES\nCCSD(T)//CBS-QB3\nSee Table 3, R8\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7840,11 +7094,8 @@ kinetics:
 ---
 label: N2H2 + H2 <=> N2 + H2 + H2
 short_description: '[Bozzelli2010]'
-long_description: |2
-
-  CCSD(T)//CBS-QB3
-  See Table 3, R9
-  cis-N2H2 and H2 forms a six-membered ring structure in transition state.
+long_description: "\nCCSD(T)//CBS-QB3\nSee Table 3, R9\ncis-N2H2 and H2 forms a six-membered\
+  \ ring structure in transition state.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -7866,10 +7117,7 @@ kinetics:
 ---
 label: NH3NH + H2 <=> NH3 + NH3
 short_description: '[Hwang2003]'
-long_description: |2
-
-  Calculated at G2M(MP2)//MP2/6-31G
-  See Table 4, R12
+long_description: "\nCalculated at G2M(MP2)//MP2/6-31G\nSee Table 4, R12\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7892,12 +7140,8 @@ kinetics:
 ---
 label: NH2 + N2H2(T) <=> NH + N2H3
 short_description: CCSD(T)-F12a/aug-cc-pVTZ//wB97x-D3/6-311++G(3df,3pd)
-long_description: |2
-
-  Calculated by alongd (xq1485)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1485)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -7920,12 +7164,8 @@ kinetics:
 ---
 label: H2NN(S) + NH3 <=> N2H2 + NH3
 short_description: '[GrinbergDana2019]'
-long_description: |2
-
-  Calculated by alongd (xq1507)
-  opt, freq: wB97x-D3/6-311++G(3df,3pd)
-  sp: CCSD(T)-F12a/aug-cc-pVTZ
-  rotors: B3LYP/6-311++G(3df,3pd)
+long_description: "\nCalculated by alongd (xq1507)\nopt, freq: wB97x-D3/6-311++G(3df,3pd)\n\
+  sp: CCSD(T)-F12a/aug-cc-pVTZ\nrotors: B3LYP/6-311++G(3df,3pd)\n"
 elementary_high_p: true
 kinetics:
   type: Arrhenius
@@ -8016,10 +7256,8 @@ kinetics:
 ---
 label: NH2O + O2 <=> HNO(T) + HO2
 short_description: '[Sarathy2022]'
-long_description: |2
-
-  Table S2, Reaction R2, quartet surface.
-  Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+long_description: "\nTable S2, Reaction R2, quartet surface.\nOptimized and characterized\
+  \ the stationary points of the PESs with the CCSD method (Detailed in Table 1).\n"
 duplicate: true
 kinetics:
   type: Arrhenius
@@ -8042,16 +7280,11 @@ kinetics:
 ---
 label: NH2 + HO2 <=> NH3 + O2
 short_description: '[Sarathy2022]'
-long_description: |2
-
-  W3X-L
-
-  Also available from [Klippenstein2022]:
-  kinetics=MultiArrhenius(
-  arrhenius=[Arrhenius(A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(306, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),
-             Arrhenius(A=(5.91e+07, 'cm^3/(mol*s)'), n=1.59, Ea=(-1373, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K'))]),
-  R1a
-  CASPT2/CBS//CASPT2/cc-pVTZ-F12
+long_description: "\nW3X-L\n\nAlso available from [Klippenstein2022]:\nkinetics=MultiArrhenius(\n\
+  arrhenius=[Arrhenius(A=(6.04e+18, 'cm^3/(mol*s)'), n=-1.91, Ea=(306, 'cal/mol'),\
+  \ T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(2500, 'K')),\n           Arrhenius(A=(5.91e+07,\
+  \ 'cm^3/(mol*s)'), n=1.59, Ea=(-1373, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'),\
+  \ Tmax=(2500, 'K'))]),\nR1a\nCASPT2/CBS//CASPT2/cc-pVTZ-F12\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8073,16 +7306,11 @@ kinetics:
 ---
 label: NH2 + HO2 <=> NH2O + OH
 short_description: '[Klippenstein2022]'
-long_description: |2
-
-  R1c
-  CASPT2/CBS//CASPT2/cc-pVTZ-F12
-
-  Also available from [Sarathy2022]:
-  kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),
-                           T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),
-  Table S2, Reaction R5, triplet surface.
-  Optimized and characterized the stationary points of the PESs with the CCSD(T) method (Detailed in Table 1).
+long_description: "\nR1c\nCASPT2/CBS//CASPT2/cc-pVTZ-F12\n\nAlso available from [Sarathy2022]:\n\
+  kinetics = Arrhenius(A=(3.489e+03, 'cm^3/(mol*s)'), n=2.639, Ea=(23938, 'cal/mol'),\n\
+  \                         T0=(1, 'K'), Tmin=(500, 'K'), Tmax=(3000, 'K')),\nTable\
+  \ S2, Reaction R5, triplet surface.\nOptimized and characterized the stationary\
+  \ points of the PESs with the CCSD(T) method (Detailed in Table 1).\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8104,10 +7332,8 @@ kinetics:
 ---
 label: NH2 + HO2 <=> NH3 + O2(S)
 short_description: '[Sarathy2022]'
-long_description: |2
-
-  Table S2, Reaction R6, singlet surface.
-  Optimized and characterized the stationary points of the PESs with the CCSD method (Detailed in Table 1).
+long_description: "\nTable S2, Reaction R6, singlet surface.\nOptimized and characterized\
+  \ the stationary points of the PESs with the CCSD method (Detailed in Table 1).\n"
 duplicate: true
 kinetics:
   type: Arrhenius
@@ -8130,10 +7356,8 @@ kinetics:
 ---
 label: NO + HO2 <=> HNO3
 short_description: '[Lin2003d]'
-long_description: |2
-
-  Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
-  He was used as the 3rd body collider in these computations.
+long_description: "\nCalculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory\
+  \ using RRKM.\nHe was used as the 3rd body collider in these computations.\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -8158,10 +7382,8 @@ kinetics:
 ---
 label: NO + HO2 <=> HOONO
 short_description: '[Lin2003d]'
-long_description: |2
-
-  Calculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory using RRKM.
-  He was used as the 3rd body collider in these computations.
+long_description: "\nCalculated at the G2(CC)//B3LYP/6-311+G(3df,2p) level of theory\
+  \ using RRKM.\nHe was used as the 3rd body collider in these computations.\n"
 elementary_high_p: true
 kinetics:
   type: Lindemann
@@ -8186,10 +7408,8 @@ kinetics:
 ---
 label: CH3NHNH2 + H <=> CH3NHNH + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8211,10 +7431,8 @@ kinetics:
 ---
 label: CH3NHNH2 + H <=> CH3NNH2 + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8236,10 +7454,8 @@ kinetics:
 ---
 label: CH3NHNH2 + H <=> CH2NHNH2 + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8261,10 +7477,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH2 <=> CH3NHNH + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8286,10 +7500,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH2 <=> CH3NNH2 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8311,10 +7523,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH2 <=> CH2NHNH2 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8336,10 +7546,8 @@ kinetics:
 ---
 label: CH3NHNH2 + CH3 <=> CH3NHNH + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8361,10 +7569,8 @@ kinetics:
 ---
 label: CH3NHNH2 + CH3 <=> CH3NNH2 + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8386,10 +7592,8 @@ kinetics:
 ---
 label: CH3NHNH2 + CH3 <=> CH2NHNH2 + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8411,10 +7615,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH <=> CH3NHNH + NH2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8436,10 +7638,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH <=> CH3NNH2 + NH2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8461,10 +7661,8 @@ kinetics:
 ---
 label: CH3NHNH2 + NH <=> CH2NHNH2 + NH2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8486,10 +7684,8 @@ kinetics:
 ---
 label: CH3NHNH2 <=> CH3NH + NH2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Troe
   alpha: 0.375
@@ -8527,10 +7723,8 @@ kinetics:
 ---
 label: CH3NNH + H <=> CH3NN + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8552,10 +7746,8 @@ kinetics:
 ---
 label: CH3NNH + CH3 <=> CH3NN + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8577,10 +7769,8 @@ kinetics:
 ---
 label: CH3NNH + NH2 <=> CH3NN + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8602,10 +7792,8 @@ kinetics:
 ---
 label: CH3NNH + H <=> CH2NNH + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8627,10 +7815,8 @@ kinetics:
 ---
 label: CH3NNH + CH3 <=> CH2NNH + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8652,10 +7838,8 @@ kinetics:
 ---
 label: CH3NNH + NH2 <=> CH2NNH + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8677,10 +7861,8 @@ kinetics:
 ---
 label: CH2NNH2 + H <=> CH2NNH + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8702,10 +7884,8 @@ kinetics:
 ---
 label: CH2NNH2 + CH3 <=> CH2NNH + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8727,10 +7907,8 @@ kinetics:
 ---
 label: CH2NNH2 + NH2 <=> CH2NNH + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8752,10 +7930,8 @@ kinetics:
 ---
 label: CH2NNH2 + H <=> CHNNH2 + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8777,10 +7953,8 @@ kinetics:
 ---
 label: CH2NNH2 + CH3 <=> CHNNH2 + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8802,10 +7976,8 @@ kinetics:
 ---
 label: CH2NNH2 + NH2 <=> CHNNH2 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -8827,10 +7999,8 @@ kinetics:
 ---
 label: CH3NH <=> CH2NH + H
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Troe
   alpha: 0.608
@@ -8868,10 +8038,8 @@ kinetics:
 ---
 label: CH2NH2 <=> CH2NH + H
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Troe
   alpha: 0.599
@@ -8909,10 +8077,8 @@ kinetics:
 ---
 label: CH3NH <=> CH2NH2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -8975,10 +8141,8 @@ kinetics:
 ---
 label: CH2NH + H <=> CHNH + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9000,11 +8164,8 @@ kinetics:
 ---
 label: N2H3 + H <=> N2H2 + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  N2H4 PES
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nN2H4 PES\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9026,11 +8187,8 @@ kinetics:
 ---
 label: N2H3 + H <=> H2NN(S) + H2
 short_description: '[Dievart2020]'
-long_description: |2
-
-  N2H4 PES
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nN2H4 PES\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9052,10 +8210,8 @@ kinetics:
 ---
 label: N2H3 + CH3 <=> N2H2 + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9077,10 +8233,8 @@ kinetics:
 ---
 label: N2H3 + CH3 <=> H2NN(S) + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9102,10 +8256,8 @@ kinetics:
 ---
 label: N2H3 + NH2 <=> N2H2 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9127,10 +8279,8 @@ kinetics:
 ---
 label: N2H3 + NH2 <=> H2NN(S) + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 duplicate: true
 kinetics:
   type: Arrhenius
@@ -9174,10 +8324,8 @@ kinetics:
 ---
 label: N2H2 + CH3 <=> NNH + CH4
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9199,10 +8347,8 @@ kinetics:
 ---
 label: N2H2 + NH2 <=> NNH + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9224,15 +8370,11 @@ kinetics:
 ---
 label: CH4 + NH2 <=> CH3 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
-  Part of the "Thermal de-NOx" mechanism
-
-  Another source: [Lin1999b]
-      kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'), T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),
-  G2M//B3LYP/6-311G(d,p) level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\nPart of the \"Thermal de-NOx\" mechanism\n\nAnother source: [Lin1999b]\n\
+  \    kinetics = Arrhenius(A=(1.36e+04, 'cm^3/(mol*s)'), n=2.87, Ea=(10691, 'cal/mol'),\
+  \ T0=(1, 'K'), Tmin=(300, 'K'), Tmax=(5000, 'K')),\nG2M//B3LYP/6-311G(d,p) level\
+  \ of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9254,10 +8396,8 @@ kinetics:
 ---
 label: C2H6 + NH2 <=> C2H5 + NH3
 short_description: '[Dievart2020]'
-long_description: |2
-
-  Table 9
-  Calculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ level of theory
+long_description: "\nTable 9\nCalculated at the CCSD(T)/CSB//M06-2x-D3/aug-cc-pVTZ\
+  \ level of theory\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9378,15 +8518,10 @@ kinetics:
 ---
 label: NH2O + OH <=> HNO + H2O
 short_description: '[Klippenstein2022]'
-long_description: |2
-
-  p. 6
-  CASPT2/CBS//CASPT2/cc-pVTZ-F12
-
-  Also available from [Glarborg2022]
-  Based on an experimental measurement at 298-373 K from https://doi.org/10.1002/kin.550240805
-      kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(-520, 'cal/mol'),
-                           T0=(1, 'K'), Tmin=(298, 'K'), Tmax=(373, 'K')),
+long_description: "\np. 6\nCASPT2/CBS//CASPT2/cc-pVTZ-F12\n\nAlso available from [Glarborg2022]\n\
+  Based on an experimental measurement at 298-373 K from https://doi.org/10.1002/kin.550240805\n\
+  \    kinetics = Arrhenius(A=(1.7e+12, 'cm^3/(mol*s)'), n=0.0, Ea=(-520, 'cal/mol'),\n\
+  \                         T0=(1, 'K'), Tmin=(298, 'K'), Tmax=(373, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -9408,10 +8543,8 @@ kinetics:
 ---
 label: NH2O + OH <=> NH2OOH
 short_description: '[Klippenstein2022]'
-long_description: |2
-
-  CASPT2/CBS//CASPT2/cc-pVTZ-F12
-  (The rate expression at 300 bar may be of limited validity due to the effect of non-binary collisions)
+long_description: "\nCASPT2/CBS//CASPT2/cc-pVTZ-F12\n(The rate expression at 300 bar\
+  \ may be of limited validity due to the effect of non-binary collisions)\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -9465,9 +8598,7 @@ kinetics:
 ---
 label: NO + OH <=> HONO
 short_description: '[Troe1998]'
-long_description: |2
-
-  Fit to experimental measurement
+long_description: "\nFit to experimental measurement\n"
 kinetics:
   type: Troe
   alpha: 0.75
@@ -9506,10 +8637,8 @@ kinetics:
 label: NO + H <=> HNO
 degeneracy: 1.0
 short_description: '[Glarborg2022]'
-long_description: |2
-
-  Recommended rate by Glarborg2022 (also by the NOx2018 library)
-  based on: https://doi.org/10.1002/kin.10137
+long_description: "\nRecommended rate by Glarborg2022 (also by the NOx2018 library)\n\
+  based on: https://doi.org/10.1002/kin.10137\n"
 elementary_high_p: true
 kinetics:
   type: Troe
@@ -9547,9 +8676,7 @@ kinetics:
 ---
 label: NO2 + H <=> NO + OH
 short_description: '[Glarborg2022]'
-long_description: |2
-
-  Recommended by Glarborg2022 (also by the NOx2018 library)
+long_description: "\nRecommended by Glarborg2022 (also by the NOx2018 library)\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11292,10 +10419,7 @@ kinetics:
 ---
 label: NH2 + O <=> HNO + H
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Table 5
+long_description: "\nANL1\nTable 5\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11317,10 +10441,7 @@ kinetics:
 ---
 label: NH2 + O <=> NH + OH
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Table 5
+long_description: "\nANL1\nTable 5\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11342,10 +10463,7 @@ kinetics:
 ---
 label: NH2 + O <=> NO + H2
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Table 5
+long_description: "\nANL1\nTable 5\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11367,14 +10485,8 @@ kinetics:
 ---
 label: NH + OH <=> HNO + H
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Part of the "Thermal de-NOx" mechanism
-  Table 5
-
-  Also available from Klippenstein2009a
-  Table 3, p. 10245
+long_description: "\nANL1\nPart of the \"Thermal de-NOx\" mechanism\nTable 5\n\nAlso\
+  \ available from Klippenstein2009a\nTable 3, p. 10245\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11396,10 +10508,7 @@ kinetics:
 ---
 label: NH + OH <=> NO + H2
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Table 5
+long_description: "\nANL1\nTable 5\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11421,17 +10530,11 @@ kinetics:
 ---
 label: NH + OH <=> H2O + N
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  ANL1
-  Table 5
-
-  Also available from Klippenstein2009a:
-  Table 3, p. 10245
-      kinetics = ThirdBody(
-          arrheniusLow = Arrhenius(A=(1.59e+07, 'cm^6/(mol^2*s)'), n=1.737, Ea=(-576, 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K'))),
-  calculated at the (CCSD(T) and CAS+1+2+QC level
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nANL1\nTable 5\n\nAlso\
+  \ available from Klippenstein2009a:\nTable 3, p. 10245\n    kinetics = ThirdBody(\n\
+  \        arrheniusLow = Arrhenius(A=(1.59e+07, 'cm^6/(mol^2*s)'), n=1.737, Ea=(-576,\
+  \ 'cal/mol'), T0 = (1, 'K'), Tmin=(200, 'K'), Tmax=(2500, 'K'))),\ncalculated at\
+  \ the (CCSD(T) and CAS+1+2+QC level\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11453,16 +10556,11 @@ kinetics:
 ---
 label: HNO + H <=> NO + H2
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "NOx" subset
-  ANL1
-  Table 5
-
-  Also available from Page1992:
-  calculations done at the CASSCF//(CASSCF and CISD) levels of theory
-  Also available (in reverse direction) from Tando and Asaba 1976, as reported by [Herron1991] in T range: 2020-3250 K:
-      kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'), n=0, Ea=(56500, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nPart of the \"NOx\" subset\nANL1\nTable 5\n\nAlso available from\
+  \ Page1992:\ncalculations done at the CASSCF//(CASSCF and CISD) levels of theory\n\
+  Also available (in reverse direction) from Tando and Asaba 1976, as reported by\
+  \ [Herron1991] in T range: 2020-3250 K:\n    kinetics = Arrhenius(A=(1.4e+13, 'cm^3/(mol*s)'),\
+  \ n=0, Ea=(56500, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11484,11 +10582,7 @@ kinetics:
 ---
 label: HNO + H <=> NHOH
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "NOx" subset
-  ANL1
-  Table 5
+long_description: "\nPart of the \"NOx\" subset\nANL1\nTable 5\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -11542,14 +10636,9 @@ kinetics:
 ---
 label: HNO + H <=> NH2O
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  ANL1
-  Table 5
-
-  Also available from Glarborg2022:
-  arrheniusHigh is based on a 1993 calculation from https://doi.org/10.1063/1.465700
-  arrheniusLow is based on [DeanBozz2000]
+long_description: "\nANL1\nTable 5\n\nAlso available from Glarborg2022:\narrheniusHigh\
+  \ is based on a 1993 calculation from https://doi.org/10.1063/1.465700\narrheniusLow\
+  \ is based on [DeanBozz2000]\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -11603,11 +10692,7 @@ kinetics:
 ---
 label: NHOH <=> NO + H2
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "NOx" subset
-  ANL1
-  Table 5
+long_description: "\nPart of the \"NOx\" subset\nANL1\nTable 5\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -11661,11 +10746,7 @@ kinetics:
 ---
 label: NHOH <=> NH2O
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "NOx" subset
-  ANL1
-  Table 5
+long_description: "\nPart of the \"NOx\" subset\nANL1\nTable 5\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -11719,11 +10800,7 @@ kinetics:
 ---
 label: NH2O <=> NO + H2
 short_description: '[Klippenstein2023]'
-long_description: |2
-
-  Part of the "NOx" subset
-  ANL1
-  Table 5
+long_description: "\nPart of the \"NOx\" subset\nANL1\nTable 5\n"
 kinetics:
   type: PDepArrhenius
   pressures:
@@ -11777,10 +10854,7 @@ kinetics:
 ---
 label: NH2O + HO2 <=> HNO + H2O2
 short_description: '[Cavallotti2023]'
-long_description: |2
-
-  CASPT2
-  Table 4
+long_description: "\nCASPT2\nTable 4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11802,10 +10876,7 @@ kinetics:
 ---
 label: NH2O + NO2 <=> HNO + HONO
 short_description: '[Cavallotti2023]'
-long_description: |2
-
-  CASPT2
-  Table 4
+long_description: "\nCASPT2\nTable 4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11827,13 +10898,8 @@ kinetics:
 ---
 label: NH2O + O2 <=> HNO + HO2
 short_description: '[Cavallotti2023]'
-long_description: |2
-
-  CASPT2
-  Table 4
-
-  Also available from NOx2018:
-      kinetics=Arrhenius(A=(2.3e02, 'cm^3/(mol*s)'), n=2.994, Ea=(18900, 'cal/mol'), T0=(1, 'K')),
+long_description: "\nCASPT2\nTable 4\n\nAlso available from NOx2018:\n    kinetics=Arrhenius(A=(2.3e02,\
+  \ 'cm^3/(mol*s)'), n=2.994, Ea=(18900, 'cal/mol'), T0=(1, 'K')),\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11855,10 +10921,7 @@ kinetics:
 ---
 label: NH2O + NH2 <=> HNO + NH3
 short_description: '[Cavallotti2023]'
-long_description: |2
-
-  CASPT2
-  Table 4
+long_description: "\nCASPT2\nTable 4\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11880,9 +10943,7 @@ kinetics:
 ---
 label: HNO <=> HNO(T)
 short_description: est.
-long_description: |2
-
-  RMG estimates this spin-forbidden reaction with a high rate coefficient
+long_description: "\nRMG estimates this spin-forbidden reaction with a high rate coefficient\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11898,9 +10959,7 @@ kinetics:
 ---
 label: HNO + HNO <=> HNO + HNO(T)
 short_description: est.
-long_description: |2
-
-  RMG estimates this spin-forbidden reaction with a high rate coefficient
+long_description: "\nRMG estimates this spin-forbidden reaction with a high rate coefficient\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11916,9 +10975,7 @@ kinetics:
 ---
 label: HNO + HNO <=> HNO(T) + HNO(T)
 short_description: est.
-long_description: |2
-
-  RMG estimates this spin-forbidden reaction with a high rate coefficient
+long_description: "\nRMG estimates this spin-forbidden reaction with a high rate coefficient\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11934,9 +10991,7 @@ kinetics:
 ---
 label: HNO + HNO(T) <=> HNO(T) + HNO(T)
 short_description: est.
-long_description: |2
-
-  RMG estimates this spin-forbidden reaction with a high rate coefficient
+long_description: "\nRMG estimates this spin-forbidden reaction with a high rate coefficient\n"
 kinetics:
   type: Arrhenius
   A:
@@ -11952,9 +11007,7 @@ kinetics:
 ---
 label: HNO + NHOH <=> HNO(T) + NHOH
 short_description: est.
-long_description: |2
-
-  RMG estimates this spin-forbidden reaction with a high rate coefficient
+long_description: "\nRMG estimates this spin-forbidden reaction with a high rate coefficient\n"
 kinetics:
   type: Arrhenius
   A:
@@ -12232,10 +11285,7 @@ kinetics:
 ---
 label: NH2 + HNO <=> NH3 + NO
 short_description: '[Lin2009c]'
-long_description: |2
-
-  k3, Table II
-  CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
+long_description: "\nk3, Table II\nCCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)\n"
 elementary_high_p: true
 duplicate: true
 kinetics:
@@ -12300,10 +11350,7 @@ kinetics:
 ---
 label: NH2 + HNO <=> NH2NO + H
 short_description: '[Lin2009c]'
-long_description: |2
-
-  k5, Table II
-  CCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)
+long_description: "\nk5, Table II\nCCSD(T)/6-311+G(3df.2p)//CCSD/6-311++G(d,p)\n"
 elementary_high_p: true
 duplicate: true
 kinetics:
@@ -12412,12 +11459,11 @@ kinetics:
 ---
 label: N2H2 <=> NNH + H
 short_description: '[Mei2019]'
-long_description: |2
-
-  Reinterpreted rate coefficient based on the Miller and Bowman's work (https://doi.org/10.1016/0360-1285(89)90017-8)
-  with updated energies by Klippenstein et al. [Klippenstein2009a].
-  Actual rate is in their SI:
-  N2H2+M=NNH+H+M  3.80E+13 1.2 70100 ! PW ZXY_20190214 estimated from 1979 Miller PECS and the PES calculated by SJK2009 JPCA
+long_description: "\nReinterpreted rate coefficient based on the Miller and Bowman's\
+  \ work (https://doi.org/10.1016/0360-1285(89)90017-8)\nwith updated energies by\
+  \ Klippenstein et al. [Klippenstein2009a].\nActual rate is in their SI:\nN2H2+M=NNH+H+M\
+  \  3.80E+13 1.2 70100 ! PW ZXY_20190214 estimated from 1979 Miller PECS and the\
+  \ PES calculated by SJK2009 JPCA\n"
 kinetics:
   type: ThirdBody
   arrheniusLow:
@@ -12456,12 +11502,9 @@ kinetics:
 label: NH2 + NH <=> NH3 + N
 degeneracy: 1.0
 short_description: '[Klippenstein2009a]'
-long_description: |2
-
-  Part of the "Thermal de-NOx" mechanism
-  Table 3, p. 10245
-  calculated at the CCSD(T) and CAS+1+2+QC levels
-  This is a direct H abstraction on the quartet surface.
+long_description: "\nPart of the \"Thermal de-NOx\" mechanism\nTable 3, p. 10245\n\
+  calculated at the CCSD(T) and CAS+1+2+QC levels\nThis is a direct H abstraction\
+  \ on the quartet surface.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -12676,10 +11719,8 @@ kinetics:
 ---
 label: NNH + H2 <=> N2H2 + H
 short_description: '[Keslin2024]'
-long_description: |2
-
-  CCSDT(Q)/aug-cc-pVTZ//B2PLYPD3/aug-cc-pVTZ
-  N2H2 here considers both the cis and trans isomers
+long_description: "\nCCSDT(Q)/aug-cc-pVTZ//B2PLYPD3/aug-cc-pVTZ\nN2H2 here considers\
+  \ both the cis and trans isomers\n"
 kinetics:
   type: Chebyshev
   Tmin:

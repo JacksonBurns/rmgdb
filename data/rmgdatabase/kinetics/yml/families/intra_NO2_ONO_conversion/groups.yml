@@ -1,25 +1,15 @@
 label: RNO2
-group: |2
-
-  1 *1 R    u0 p0 c0 {2,S}
-  2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}
-  3 *3 O0sc u0 p3 c-1 {2,S}
-  4    O2d  u0 p2 c0 {2,D}
+group: "\n1 *1 R    u0 p0 c0 {2,S}\n2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}\n3 *3 O0sc\
+  \ u0 p3 c-1 {2,S}\n4    O2d  u0 p2 c0 {2,D}\n"
 short_description: ''
 long_description: ''
 children:
 - CH3NO2
 ---
 label: CH3NO2
-group: |2
-
-  1 *1 Cs   u0 p0 c0 {2,S} {5,S} {6,S} {7,S}
-  2 *2 N5dc u0 p0 c+1 {1,S} {3,S} {4,D}
-  3 *3 O0sc u0 p3 c-1 {2,S}
-  4    O2d  u0 p2 c0 {2,D}
-  5    H    u0 p0 c0 {1,S}
-  6    H    u0 p0 c0 {1,S}
-  7    H    u0 p0 c0 {1,S}
+group: "\n1 *1 Cs   u0 p0 c0 {2,S} {5,S} {6,S} {7,S}\n2 *2 N5dc u0 p0 c+1 {1,S} {3,S}\
+  \ {4,D}\n3 *3 O0sc u0 p3 c-1 {2,S}\n4    O2d  u0 p2 c0 {2,D}\n5    H    u0 p0 c0\
+  \ {1,S}\n6    H    u0 p0 c0 {1,S}\n7    H    u0 p0 c0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []

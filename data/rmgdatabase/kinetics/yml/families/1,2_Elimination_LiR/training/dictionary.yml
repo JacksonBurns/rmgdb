@@ -1,193 +1,103 @@
 label: CH2LiO2
-adjacency_list: |-
-  multiplicity 2
-  1 *3 O  u0 p2 c0 {3,S} {6,S}
-  2 *1 O  u0 p2 c0 {3,S} {4,S}
-  3 *2 C  u1 p0 c0 {1,S} {2,S} {5,S}
-  4 *4 Li u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {3,S}
-  6    H  u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *3 O  u0 p2 c0 {3,S} {6,S}\n2 *1 O  u0 p2 c0 {3,S}\
+  \ {4,S}\n3 *2 C  u1 p0 c0 {1,S} {2,S} {5,S}\n4 *4 Li u0 p0 c0 {2,S}\n5    H  u0\
+  \ p0 c0 {3,S}\n6    H  u0 p0 c0 {1,S}\n"
 ---
 label: CHO
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O u0 p2 c0 {2,D}
-  2 *2 C u1 p0 c0 {1,D} {3,S}
-  3    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *1 O u0 p2 c0 {2,D}\n2 *2 C u1 p0 c0 {1,D} {3,S}\n\
+  3    H u0 p0 c0 {2,S}\n"
 ---
 label: HLiO
-adjacency_list: |-
-  1 *3 O  u0 p2 c0 {2,S} {3,S}
-  2 *4 Li u0 p0 c0 {1,S}
-  3    H  u0 p0 c0 {1,S}
+adjacency_list: "1 *3 O  u0 p2 c0 {2,S} {3,S}\n2 *4 Li u0 p0 c0 {1,S}\n3    H  u0\
+  \ p0 c0 {1,S}\n"
 ---
 label: C3H4LiO3
-adjacency_list: |-
-  multiplicity 2
-  1  *3 O  u0 p2 c0 {4,S} {6,S}
-  2  *1 O  u0 p2 c0 {6,S} {7,S}
-  3     O  u0 p2 c0 {6,D}
-  4     C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-  5     C  u1 p0 c0 {4,S} {10,S} {11,S}
-  6  *2 C  u0 p0 c0 {1,S} {2,S} {3,D}
-  7  *4 Li u0 p0 c0 {2,S}
-  8     H  u0 p0 c0 {4,S}
-  9     H  u0 p0 c0 {4,S}
-  10    H  u0 p0 c0 {5,S}
-  11    H  u0 p0 c0 {5,S}
+adjacency_list: "multiplicity 2\n1  *3 O  u0 p2 c0 {4,S} {6,S}\n2  *1 O  u0 p2 c0\
+  \ {6,S} {7,S}\n3     O  u0 p2 c0 {6,D}\n4     C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}\n\
+  5     C  u1 p0 c0 {4,S} {10,S} {11,S}\n6  *2 C  u0 p0 c0 {1,S} {2,S} {3,D}\n7  *4\
+  \ Li u0 p0 c0 {2,S}\n8     H  u0 p0 c0 {4,S}\n9     H  u0 p0 c0 {4,S}\n10    H \
+  \ u0 p0 c0 {5,S}\n11    H  u0 p0 c0 {5,S}\n"
 ---
 label: CO2
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {3,D}
-  2    O u0 p2 c0 {3,D}
-  3 *2 C u0 p0 c0 {1,D} {2,D}
+adjacency_list: "1 *1 O u0 p2 c0 {3,D}\n2    O u0 p2 c0 {3,D}\n3 *2 C u0 p0 c0 {1,D}\
+  \ {2,D}\n"
 ---
 label: C2H4LiO
-adjacency_list: |-
-  multiplicity 2
-  1 *3 O  u0 p2 c0 {2,S} {4,S}
-  2    C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-  3    C  u1 p0 c0 {2,S} {7,S} {8,S}
-  4 *4 Li u0 p0 c0 {1,S}
-  5    H  u0 p0 c0 {2,S}
-  6    H  u0 p0 c0 {2,S}
-  7    H  u0 p0 c0 {3,S}
-  8    H  u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1 *3 O  u0 p2 c0 {2,S} {4,S}\n2    C  u0 p0 c0 {1,S}\
+  \ {3,S} {5,S} {6,S}\n3    C  u1 p0 c0 {2,S} {7,S} {8,S}\n4 *4 Li u0 p0 c0 {1,S}\n\
+  5    H  u0 p0 c0 {2,S}\n6    H  u0 p0 c0 {2,S}\n7    H  u0 p0 c0 {3,S}\n8    H \
+  \ u0 p0 c0 {3,S}\n"
 ---
 label: C2H3LiO3
-adjacency_list: |-
-  1 *3 O  u0 p2 c0 {4,S} {5,S}
-  2 *1 O  u0 p2 c0 {5,S} {6,S}
-  3    O  u0 p2 c0 {5,D}
-  4    C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}
-  5 *2 C  u0 p0 c0 {1,S} {2,S} {3,D}
-  6 *4 Li u0 p0 c0 {2,S}
-  7    H  u0 p0 c0 {4,S}
-  8    H  u0 p0 c0 {4,S}
-  9    H  u0 p0 c0 {4,S}
+adjacency_list: "1 *3 O  u0 p2 c0 {4,S} {5,S}\n2 *1 O  u0 p2 c0 {5,S} {6,S}\n3   \
+  \ O  u0 p2 c0 {5,D}\n4    C  u0 p0 c0 {1,S} {7,S} {8,S} {9,S}\n5 *2 C  u0 p0 c0\
+  \ {1,S} {2,S} {3,D}\n6 *4 Li u0 p0 c0 {2,S}\n7    H  u0 p0 c0 {4,S}\n8    H  u0\
+  \ p0 c0 {4,S}\n9    H  u0 p0 c0 {4,S}\n"
 ---
 label: CH3LiO
-adjacency_list: |-
-  1 *3 O  u0 p2 c0 {2,S} {3,S}
-  2    C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-  3 *4 Li u0 p0 c0 {1,S}
-  4    H  u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {2,S}
-  6    H  u0 p0 c0 {2,S}
+adjacency_list: "1 *3 O  u0 p2 c0 {2,S} {3,S}\n2    C  u0 p0 c0 {1,S} {4,S} {5,S}\
+  \ {6,S}\n3 *4 Li u0 p0 c0 {1,S}\n4    H  u0 p0 c0 {2,S}\n5    H  u0 p0 c0 {2,S}\n\
+  6    H  u0 p0 c0 {2,S}\n"
 ---
 label: CH3LiO2
-adjacency_list: |-
-  1 *1 O  u0 p2 c0 {3,S} {4,S}
-  2 *3 O  u0 p2 c0 {3,S} {7,S}
-  3 *2 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
-  4 *4 Li u0 p0 c0 {1,S}
-  5    H  u0 p0 c0 {3,S}
-  6    H  u0 p0 c0 {3,S}
-  7    H  u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O  u0 p2 c0 {3,S} {4,S}\n2 *3 O  u0 p2 c0 {3,S} {7,S}\n3 *2\
+  \ C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}\n4 *4 Li u0 p0 c0 {1,S}\n5    H  u0 p0 c0\
+  \ {3,S}\n6    H  u0 p0 c0 {3,S}\n7    H  u0 p0 c0 {2,S}\n"
 ---
 label: CH2O
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}\n3    H\
+  \ u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: CH2FLiO
-adjacency_list: |-
-  1 *3 F  u0 p3 c0 {3,S}
-  2 *1 O  u0 p2 c0 {3,S} {4,S}
-  3 *2 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
-  4 *4 Li u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {3,S}
-  6    H  u0 p0 c0 {3,S}
+adjacency_list: "1 *3 F  u0 p3 c0 {3,S}\n2 *1 O  u0 p2 c0 {3,S} {4,S}\n3 *2 C  u0\
+  \ p0 c0 {1,S} {2,S} {5,S} {6,S}\n4 *4 Li u0 p0 c0 {2,S}\n5    H  u0 p0 c0 {3,S}\n\
+  6    H  u0 p0 c0 {3,S}\n"
 ---
 label: FLi
-adjacency_list: |-
-  1 *3 F  u0 p3 c0 {2,S}
-  2 *4 Li u0 p0 c0 {1,S}
+adjacency_list: "1 *3 F  u0 p3 c0 {2,S}\n2 *4 Li u0 p0 c0 {1,S}\n"
 ---
 label: CH2ClLiO
-adjacency_list: |-
-  1 *3 Cl u0 p3 c0 {3,S}
-  2 *1 O  u0 p2 c0 {3,S} {4,S}
-  3 *2 C  u0 p0 c0 {1,S} {2,S} {5,S} {6,S}
-  4 *4 Li u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {3,S}
-  6    H  u0 p0 c0 {3,S}
+adjacency_list: "1 *3 Cl u0 p3 c0 {3,S}\n2 *1 O  u0 p2 c0 {3,S} {4,S}\n3 *2 C  u0\
+  \ p0 c0 {1,S} {2,S} {5,S} {6,S}\n4 *4 Li u0 p0 c0 {2,S}\n5    H  u0 p0 c0 {3,S}\n\
+  6    H  u0 p0 c0 {3,S}\n"
 ---
 label: ClLi
-adjacency_list: |-
-  1 *3 Cl u0 p3 c0 {2,S}
-  2 *4 Li u0 p0 c0 {1,S}
+adjacency_list: "1 *3 Cl u0 p3 c0 {2,S}\n2 *4 Li u0 p0 c0 {1,S}\n"
 ---
 label: Li2O
-adjacency_list: |-
-  1 *3 O  u0 p2 c0 {2,S} {3,S}
-  2    Li u0 p0 c0 {1,S}
-  3 *4 Li u0 p0 c0 {1,S}
+adjacency_list: "1 *3 O  u0 p2 c0 {2,S} {3,S}\n2    Li u0 p0 c0 {1,S}\n3 *4 Li u0\
+  \ p0 c0 {1,S}\n"
 ---
 label: CH2Li2O2
-adjacency_list: |-
-  1 *1 O  u0 p2 c0 {3,S} {5,S}
-  2 *3 O  u0 p2 c0 {3,S} {4,S}
-  3 *2 C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
-  4    Li u0 p0 c0 {2,S}
-  5 *4 Li u0 p0 c0 {1,S}
-  6    H  u0 p0 c0 {3,S}
-  7    H  u0 p0 c0 {3,S}
+adjacency_list: "1 *1 O  u0 p2 c0 {3,S} {5,S}\n2 *3 O  u0 p2 c0 {3,S} {4,S}\n3 *2\
+  \ C  u0 p0 c0 {1,S} {2,S} {6,S} {7,S}\n4    Li u0 p0 c0 {2,S}\n5 *4 Li u0 p0 c0\
+  \ {1,S}\n6    H  u0 p0 c0 {3,S}\n7    H  u0 p0 c0 {3,S}\n"
 ---
 label: C2H5Li
-adjacency_list: |-
-  1 *1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  3 *4 Li u0 p0 c0 {1,S}
-  4    H  u0 p0 c0 {1,S}
-  5    H  u0 p0 c0 {1,S}
-  6 *3 H  u0 p0 c0 {2,S}
-  7    H  u0 p0 c0 {2,S}
-  8    H  u0 p0 c0 {2,S}
+adjacency_list: "1 *1 C  u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 *2 C  u0 p0 c0 {1,S}\
+  \ {6,S} {7,S} {8,S}\n3 *4 Li u0 p0 c0 {1,S}\n4    H  u0 p0 c0 {1,S}\n5    H  u0\
+  \ p0 c0 {1,S}\n6 *3 H  u0 p0 c0 {2,S}\n7    H  u0 p0 c0 {2,S}\n8    H  u0 p0 c0\
+  \ {2,S}\n"
 ---
 label: C2H4
-adjacency_list: |-
-  1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 *1 C u0 p0 c0 {1,D} {5,S} {6,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 C u0 p0 c0 {2,D} {3,S} {4,S}\n2 *1 C u0 p0 c0 {1,D} {5,S} {6,S}\n\
+  3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {2,S}\n6    H u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: HLi
-adjacency_list: |-
-  1 *4 Li u0 p0 c0 {2,S}
-  2 *3 H  u0 p0 c0 {1,S}
+adjacency_list: "1 *4 Li u0 p0 c0 {2,S}\n2 *3 H  u0 p0 c0 {1,S}\n"
 ---
 label: CH4LiN
-adjacency_list: |-
-  1 *1 N  u0 p1 c0 {2,S} {3,S} {7,S}
-  2 *2 C  u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-  3 *4 Li u0 p0 c0 {1,S}
-  4 *3 H  u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {2,S}
-  6    H  u0 p0 c0 {2,S}
-  7    H  u0 p0 c0 {1,S}
+adjacency_list: "1 *1 N  u0 p1 c0 {2,S} {3,S} {7,S}\n2 *2 C  u0 p0 c0 {1,S} {4,S}\
+  \ {5,S} {6,S}\n3 *4 Li u0 p0 c0 {1,S}\n4 *3 H  u0 p0 c0 {2,S}\n5    H  u0 p0 c0\
+  \ {2,S}\n6    H  u0 p0 c0 {2,S}\n7    H  u0 p0 c0 {1,S}\n"
 ---
 label: CH3N
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,D} {5,S}
-  2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {1,S}
+adjacency_list: "1 *1 N u0 p1 c0 {2,D} {5,S}\n2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {1,S}\n"
 ---
 label: C2H4LiO2
-adjacency_list: |-
-  multiplicity 2
-  1 *3 O  u0 p2 c0 {3,S} {4,S}
-  2 *1 O  u0 p2 c0 {4,S} {5,S}
-  3    C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  4 *2 C  u1 p0 c0 {1,S} {2,S} {9,S}
-  5 *4 Li u0 p0 c0 {2,S}
-  6    H  u0 p0 c0 {3,S}
-  7    H  u0 p0 c0 {3,S}
-  8    H  u0 p0 c0 {3,S}
-  9    H  u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1 *3 O  u0 p2 c0 {3,S} {4,S}\n2 *1 O  u0 p2 c0 {4,S}\
+  \ {5,S}\n3    C  u0 p0 c0 {1,S} {6,S} {7,S} {8,S}\n4 *2 C  u1 p0 c0 {1,S} {2,S}\
+  \ {9,S}\n5 *4 Li u0 p0 c0 {2,S}\n6    H  u0 p0 c0 {3,S}\n7    H  u0 p0 c0 {3,S}\n\
+  8    H  u0 p0 c0 {3,S}\n9    H  u0 p0 c0 {4,S}\n"

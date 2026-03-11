@@ -1,969 +1,480 @@
 label: F2
-adjacency_list: |-
-  1 *1 F u0 p3 c0 {2,S}
-  2 *2 F u0 p3 c0 {1,S}
+adjacency_list: "1 *1 F u0 p3 c0 {2,S}\n2 *2 F u0 p3 c0 {1,S}\n"
 ---
 label: CF3
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {4,S}
-  2    F u0 p3 c0 {4,S}
-  3    F u0 p3 c0 {4,S}
-  4 *3 C u1 p0 c0 {1,S} {2,S} {3,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {4,S}\n2    F u0 p3 c0 {4,S}\n3 \
+  \   F u0 p3 c0 {4,S}\n4 *3 C u1 p0 c0 {1,S} {2,S} {3,S}\n"
 ---
 label: CF4_p23
-adjacency_list: |-
-  1    F u0 p3 c0 {5,S}
-  2    F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4 *2 F u0 p3 c0 {5,S}
-  5 *3 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+adjacency_list: "1    F u0 p3 c0 {5,S}\n2    F u0 p3 c0 {5,S}\n3    F u0 p3 c0 {5,S}\n\
+  4 *2 F u0 p3 c0 {5,S}\n5 *3 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}\n"
 ---
 label: F_p1
-adjacency_list: |-
-  multiplicity 2
-  1 *1 F u1 p3 c0
+adjacency_list: "multiplicity 2\n1 *1 F u1 p3 c0\n"
 ---
 label: CH3
-adjacency_list: |-
-  multiplicity 2
-  1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}
-  2    H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *3 C u1 p0 c0 {2,S} {3,S} {4,S}\n2    H u0 p0 c0\
+  \ {1,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n"
 ---
 label: CH3F_p23
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *3 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *3 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: '[OH]_r3'
-adjacency_list: |-
-  multiplicity 2
-  1 *3 O u1 p2 c0 {2,S}
-  2    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *3 O u1 p2 c0 {2,S}\n2    H u0 p0 c0 {1,S}\n"
 ---
 label: FC(Cl)(Cl)Cl_r12
-adjacency_list: |-
-  1    Cl u0 p3 c0 {5,S}
-  2    Cl u0 p3 c0 {5,S}
-  3    Cl u0 p3 c0 {5,S}
-  4 *2 F  u0 p3 c0 {5,S}
-  5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+adjacency_list: "1    Cl u0 p3 c0 {5,S}\n2    Cl u0 p3 c0 {5,S}\n3    Cl u0 p3 c0\
+  \ {5,S}\n4 *2 F  u0 p3 c0 {5,S}\n5 *1 C  u0 p0 c0 {1,S} {2,S} {3,S} {4,S}\n"
 ---
 label: Cl[C](Cl)Cl_p1
-adjacency_list: |-
-  multiplicity 2
-  1    Cl u0 p3 c0 {4,S}
-  2    Cl u0 p3 c0 {4,S}
-  3    Cl u0 p3 c0 {4,S}
-  4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}
+adjacency_list: "multiplicity 2\n1    Cl u0 p3 c0 {4,S}\n2    Cl u0 p3 c0 {4,S}\n\
+  3    Cl u0 p3 c0 {4,S}\n4 *1 C  u1 p0 c0 {1,S} {2,S} {3,S}\n"
 ---
 label: OF_p23
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *3 O u0 p2 c0 {1,S} {3,S}
-  3    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *3 O u0 p2 c0 {1,S} {3,S}\n3    H u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: '[CH2]F_r12'
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 C u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {2,S}\n2 *1 C u1 p0 c0 {1,S} {3,S}\
+  \ {4,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: '[CH2]_p1'
-adjacency_list: |-
-  multiplicity 3
-  1 *1 C u2 p0 c0 {2,S} {3,S}
-  2    H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1 *1 C u2 p0 c0 {2,S} {3,S}\n2    H u0 p0 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n"
 ---
 label: OOF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,S} {4,S}
-  3 *1 O u0 p2 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,S} {4,S}\n3 *1 O u0 p2\
+  \ c0 {1,S} {2,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: '[O]O_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,S} {3,S}
-  2 *1 O u1 p2 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,S} {3,S}\n2 *1 O u1 p2 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n"
 ---
 label: '[O]O_r3'
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,S} {3,S}
-  2 *3 O u1 p2 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,S} {3,S}\n2 *3 O u1 p2 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n"
 ---
 label: HF
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 H u0 p0 c0 {1,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *1 H u0 p0 c0 {1,S}\n"
 ---
 label: '[H]_p1'
-adjacency_list: |-
-  multiplicity 2
-  1 *1 H u1 p0 c0
+adjacency_list: "multiplicity 2\n1 *1 H u1 p0 c0\n"
 ---
 label: OOF_p23
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,S} {4,S}
-  3 *3 O u0 p2 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,S} {4,S}\n3 *3 O u0 p2\
+  \ c0 {1,S} {2,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: C[C](C)F_r12
-adjacency_list: |-
-  multiplicity 2
-  1  *2 F u0 p3 c0 {4,S}
-  2     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-  3     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
-  4  *1 C u1 p0 c0 {1,S} {2,S} {3,S}
-  5     H u0 p0 c0 {2,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1  *2 F u0 p3 c0 {4,S}\n2     C u0 p0 c0 {4,S} {5,S}\
+  \ {6,S} {7,S}\n3     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}\n4  *1 C u1 p0 c0 {1,S}\
+  \ {2,S} {3,S}\n5     H u0 p0 c0 {2,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0 c0\
+  \ {2,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {3,S}\n"
 ---
 label: C[C]C_p1
-adjacency_list: |-
-  multiplicity 3
-  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  2    C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-  3 *1 C u2 p0 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {1,S}
-  7    H u0 p0 c0 {2,S}
-  8    H u0 p0 c0 {2,S}
-  9    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 3\n1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n2    C u0\
+  \ p0 c0 {3,S} {7,S} {8,S} {9,S}\n3 *1 C u2 p0 c0 {1,S} {2,S}\n4    H u0 p0 c0 {1,S}\n\
+  5    H u0 p0 c0 {1,S}\n6    H u0 p0 c0 {1,S}\n7    H u0 p0 c0 {2,S}\n8    H u0 p0\
+  \ c0 {2,S}\n9    H u0 p0 c0 {2,S}\n"
 ---
 label: CDC(C)F_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}
-  3 *1 C u0 p0 c0 {1,S} {2,S} {4,D}
-  4    C u0 p0 c0 {3,D} {8,S} {9,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {2,S}
-  8    H u0 p0 c0 {4,S}
-  9    H u0 p0 c0 {4,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,S} {5,S} {6,S} {7,S}\n\
+  3 *1 C u0 p0 c0 {1,S} {2,S} {4,D}\n4    C u0 p0 c0 {3,D} {8,S} {9,S}\n5    H u0\
+  \ p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {2,S}\n8    H u0 p0 c0 {4,S}\n\
+  9    H u0 p0 c0 {4,S}\n"
 ---
 label: CD[C]C_p1
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  2    C u0 p0 c0 {3,D} {7,S} {8,S}
-  3 *1 C u1 p0 c0 {1,S} {2,D}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {1,S}
-  7    H u0 p0 c0 {2,S}
-  8    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n2    C u0\
+  \ p0 c0 {3,D} {7,S} {8,S}\n3 *1 C u1 p0 c0 {1,S} {2,D}\n4    H u0 p0 c0 {1,S}\n\
+  5    H u0 p0 c0 {1,S}\n6    H u0 p0 c0 {1,S}\n7    H u0 p0 c0 {2,S}\n8    H u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: CDCF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,D} {4,S} {5,S}
-  3 *1 C u0 p0 c0 {1,S} {2,D} {6,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,D} {4,S} {5,S}\n3 *1 C\
+  \ u0 p0 c0 {1,S} {2,D} {6,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n6  \
+  \  H u0 p0 c0 {3,S}\n"
 ---
 label: '[CH]DC_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 *1 C u1 p0 c0 {1,D} {5,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,D} {3,S} {4,S}\n2 *1 C u1 p0 c0\
+  \ {1,D} {5,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: COF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 O u0 p2 c0 {1,S} {3,S}
-  3    C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *1 O u0 p2 c0 {1,S} {3,S}\n3    C u0 p0\
+  \ c0 {2,S} {4,S} {5,S} {6,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {3,S}\n6  \
+  \  H u0 p0 c0 {3,S}\n"
 ---
 label: C[O]_p1
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O u1 p2 c0 {2,S}
-  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *1 O u1 p2 c0 {2,S}\n2    C u0 p0 c0 {1,S} {3,S}\
+  \ {4,S} {5,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: OD[C]F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 C u1 p0 c0 {1,S} {2,D}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,D}\n3 *1\
+  \ C u1 p0 c0 {1,S} {2,D}\n"
 ---
 label: '[C]DO_p1'
-adjacency_list: |-
-  multiplicity 3
-  1    O u0 p2 c0 {2,D}
-  2 *1 C u2 p0 c0 {1,D}
+adjacency_list: "multiplicity 3\n1    O u0 p2 c0 {2,D}\n2 *1 C u2 p0 c0 {1,D}\n"
 ---
 label: FCCl_r12
-adjacency_list: |-
-  1    Cl u0 p3 c0 {3,S}
-  2 *2 F  u0 p3 c0 {3,S}
-  3 *1 C  u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4    H  u0 p0 c0 {3,S}
-  5    H  u0 p0 c0 {3,S}
+adjacency_list: "1    Cl u0 p3 c0 {3,S}\n2 *2 F  u0 p3 c0 {3,S}\n3 *1 C  u0 p0 c0\
+  \ {1,S} {2,S} {4,S} {5,S}\n4    H  u0 p0 c0 {3,S}\n5    H  u0 p0 c0 {3,S}\n"
 ---
 label: '[CH2]Cl_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    Cl u0 p3 c0 {2,S}
-  2 *1 C  u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H  u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    Cl u0 p3 c0 {2,S}\n2 *1 C  u1 p0 c0 {1,S} {3,S}\
+  \ {4,S}\n3    H  u0 p0 c0 {2,S}\n4    H  u0 p0 c0 {2,S}\n"
 ---
 label: CC(C)F_r12
-adjacency_list: |-
-  1  *2 F u0 p3 c0 {2,S}
-  2  *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3     C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-  4     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-  5     H u0 p0 c0 {2,S}
-  6     H u0 p0 c0 {3,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {4,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
+adjacency_list: "1  *2 F u0 p3 c0 {2,S}\n2  *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3     C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}\n4     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}\n\
+  5     H u0 p0 c0 {2,S}\n6     H u0 p0 c0 {3,S}\n7     H u0 p0 c0 {3,S}\n8     H\
+  \ u0 p0 c0 {3,S}\n9     H u0 p0 c0 {4,S}\n10    H u0 p0 c0 {4,S}\n11    H u0 p0\
+  \ c0 {4,S}\n"
 ---
 label: C[CH]C_p1
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  2     C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-  3  *1 C u1 p0 c0 {1,S} {2,S} {10,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {1,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {2,S}
-  10    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n2     C\
+  \ u0 p0 c0 {3,S} {7,S} {8,S} {9,S}\n3  *1 C u1 p0 c0 {1,S} {2,S} {10,S}\n4     H\
+  \ u0 p0 c0 {1,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {1,S}\n7     H u0 p0\
+  \ c0 {2,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {2,S}\n10    H u0 p0 c0 {3,S}\n"
 ---
 label: '[O]_r3'
-adjacency_list: |-
-  multiplicity 3
-  1 *3 O u2 p2 c0
+adjacency_list: "multiplicity 3\n1 *3 O u2 p2 c0\n"
 ---
 label: '[O]F_p23'
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {2,S}
-  2 *3 O u1 p2 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {2,S}\n2 *3 O u1 p2 c0 {1,S}\n"
 ---
 label: O[CH]F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,S} {5,S}
-  3 *1 C u1 p0 c0 {1,S} {2,S} {4,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,S} {5,S}\n\
+  3 *1 C u1 p0 c0 {1,S} {2,S} {4,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: '[CH]O_p1'
-adjacency_list: |-
-  multiplicity 3
-  1    O u0 p2 c0 {2,S} {3,S}
-  2 *1 C u2 p0 c0 {1,S} {4,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 3\n1    O u0 p2 c0 {2,S} {3,S}\n2 *1 C u2 p0 c0 {1,S}\
+  \ {4,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: CCF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *1 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n\
+  3 *1 C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0 c0 {3,S}\n"
 ---
 label: C[CH2]_p1
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 *1 C u1 p0 c0 {1,S} {6,S} {7,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 *1 C u1\
+  \ p0 c0 {1,S} {6,S} {7,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H\
+  \ u0 p0 c0 {1,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {2,S}\n"
 ---
 label: C[CH]F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *1 C u1 p0 c0 {1,S} {2,S} {7,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,S} {4,S}\
+  \ {5,S} {6,S}\n3 *1 C u1 p0 c0 {1,S} {2,S} {7,S}\n4    H u0 p0 c0 {2,S}\n5    H\
+  \ u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n"
 ---
 label: '[CH]C_p1'
-adjacency_list: |-
-  multiplicity 3
-  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 *1 C u2 p0 c0 {1,S} {6,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 3\n1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 *1 C u2\
+  \ p0 c0 {1,S} {6,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0\
+  \ c0 {1,S}\n6    H u0 p0 c0 {2,S}\n"
 ---
 label: '[O]F_r12'
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 O u1 p2 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {2,S}\n2 *1 O u1 p2 c0 {1,S}\n"
 ---
 label: '[O]_p1'
-adjacency_list: |-
-  multiplicity 3
-  1 *1 O u2 p2 c0
+adjacency_list: "multiplicity 3\n1 *1 O u2 p2 c0\n"
 ---
 label: OCF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,S} {6,S}
-  3 *1 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,S} {6,S}\n3 *1 C u0 p0\
+  \ c0 {1,S} {2,S} {4,S} {5,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {3,S}\n6  \
+  \  H u0 p0 c0 {2,S}\n"
 ---
 label: '[CH2]O_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,S} {5,S}
-  2 *1 C u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,S} {5,S}\n2 *1 C u1 p0 c0 {1,S}\
+  \ {3,S} {4,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {1,S}\n"
 ---
 label: CDCDCF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {4,D} {5,S} {6,S}
-  3 *1 C u0 p0 c0 {1,S} {4,D} {7,S}
-  4    C u0 p0 c0 {2,D} {3,D}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {4,D} {5,S} {6,S}\n3 *1 C\
+  \ u0 p0 c0 {1,S} {4,D} {7,S}\n4    C u0 p0 c0 {2,D} {3,D}\n5    H u0 p0 c0 {2,S}\n\
+  6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n"
 ---
 label: '[CH]DCDC_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,D} {4,S} {5,S}
-  2    C u0 p0 c0 {1,D} {3,D}
-  3 *1 C u1 p0 c0 {2,D} {6,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,D} {4,S} {5,S}\n2    C u0 p0 c0\
+  \ {1,D} {3,D}\n3 *1 C u1 p0 c0 {2,D} {6,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0\
+  \ c0 {1,S}\n6    H u0 p0 c0 {3,S}\n"
 ---
 label: C[C](O)F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {4,S}
-  2    O u0 p2 c0 {4,S} {8,S}
-  3    C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-  4 *1 C u1 p0 c0 {1,S} {2,S} {3,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {4,S}\n2    O u0 p2 c0 {4,S} {8,S}\n\
+  3    C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}\n4 *1 C u1 p0 c0 {1,S} {2,S} {3,S}\n5  \
+  \  H u0 p0 c0 {3,S}\n6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: C[C]O_p1
-adjacency_list: |-
-  multiplicity 3
-  1    O u0 p2 c0 {3,S} {7,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *1 C u2 p0 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1    O u0 p2 c0 {3,S} {7,S}\n2    C u0 p0 c0 {3,S}\
+  \ {4,S} {5,S} {6,S}\n3 *1 C u2 p0 c0 {1,S} {2,S}\n4    H u0 p0 c0 {2,S}\n5    H\
+  \ u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {1,S}\n"
 ---
 label: CD[C]F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,D} {4,S} {5,S}
-  3 *1 C u1 p0 c0 {1,S} {2,D}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,D} {4,S}\
+  \ {5,S}\n3 *1 C u1 p0 c0 {1,S} {2,D}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: '[C]DC_p1'
-adjacency_list: |-
-  multiplicity 3
-  1    C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 *1 C u2 p0 c0 {1,D}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1    C u0 p0 c0 {2,D} {3,S} {4,S}\n2 *1 C u2 p0 c0\
+  \ {1,D}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n"
 ---
 label: CCCF_r12
-adjacency_list: |-
-  1  *2 F u0 p3 c0 {4,S}
-  2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  4  *1 C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
-  5     H u0 p0 c0 {2,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
+adjacency_list: "1  *2 F u0 p3 c0 {4,S}\n2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n\
+  3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n4  *1 C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}\n\
+  5     H u0 p0 c0 {2,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0 c0 {3,S}\n8     H\
+  \ u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {4,S}\n11    H u0 p0\
+  \ c0 {4,S}\n"
 ---
 label: '[CH2]CC_p1'
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  3  *1 C u1 p0 c0 {1,S} {9,S} {10,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2     C\
+  \ u0 p0 c0 {1,S} {6,S} {7,S} {8,S}\n3  *1 C u1 p0 c0 {1,S} {9,S} {10,S}\n4     H\
+  \ u0 p0 c0 {1,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0\
+  \ c0 {2,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {3,S}\n"
 ---
 label: CC(C)CF_r12
-adjacency_list: |-
-  1  *2 F u0 p3 c0 {5,S}
-  2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  4     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-  5  *1 C u0 p0 c0 {1,S} {2,S} {13,S} {14,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
-  12    H u0 p0 c0 {4,S}
-  13    H u0 p0 c0 {5,S}
-  14    H u0 p0 c0 {5,S}
+adjacency_list: "1  *2 F u0 p3 c0 {5,S}\n2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n\
+  3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n4     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}\n\
+  5  *1 C u0 p0 c0 {1,S} {2,S} {13,S} {14,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0\
+  \ c0 {3,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {4,S}\n\
+  11    H u0 p0 c0 {4,S}\n12    H u0 p0 c0 {4,S}\n13    H u0 p0 c0 {5,S}\n14    H\
+  \ u0 p0 c0 {5,S}\n"
 ---
 label: '[CH2]C(C)C_p1'
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  3     C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}
-  4  *1 C u1 p0 c0 {1,S} {12,S} {13,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {3,S}
-  11    H u0 p0 c0 {3,S}
-  12    H u0 p0 c0 {4,S}
-  13    H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2     C\
+  \ u0 p0 c0 {1,S} {6,S} {7,S} {8,S}\n3     C u0 p0 c0 {1,S} {9,S} {10,S} {11,S}\n\
+  4  *1 C u1 p0 c0 {1,S} {12,S} {13,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {2,S}\n\
+  7     H u0 p0 c0 {2,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {3,S}\n10    H\
+  \ u0 p0 c0 {3,S}\n11    H u0 p0 c0 {3,S}\n12    H u0 p0 c0 {4,S}\n13    H u0 p0\
+  \ c0 {4,S}\n"
 ---
 label: C#CF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,T} {4,S}
-  3 *1 C u0 p0 c0 {1,S} {2,T}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,T} {4,S}\n3 *1 C u0 p0\
+  \ c0 {1,S} {2,T}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: '[C]#C_p1'
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,T} {3,S}
-  2 *1 C u1 p0 c0 {1,T}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,T} {3,S}\n2 *1 C u1 p0 c0 {1,T}\n\
+  3    H u0 p0 c0 {1,S}\n"
 ---
 label: CC(O)F_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,S} {9,S}
-  3 *1 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {4,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
-  9    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,S} {9,S}\n3 *1 C u0 p0\
+  \ c0 {1,S} {2,S} {4,S} {5,S}\n4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}\n5    H u0\
+  \ p0 c0 {3,S}\n6    H u0 p0 c0 {4,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {4,S}\n\
+  9    H u0 p0 c0 {2,S}\n"
 ---
 label: C[CH]O_p1
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {3,S} {8,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *1 C u1 p0 c0 {1,S} {2,S} {7,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {3,S} {8,S}\n2    C u0 p0 c0 {3,S}\
+  \ {4,S} {5,S} {6,S}\n3 *1 C u1 p0 c0 {1,S} {2,S} {7,S}\n4    H u0 p0 c0 {2,S}\n\
+  5    H u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0\
+  \ c0 {1,S}\n"
 ---
 label: O[C](O)F_r12
-adjacency_list: |-
-  multiplicity 2
-  1 *2 F u0 p3 c0 {4,S}
-  2    O u0 p2 c0 {4,S} {5,S}
-  3    O u0 p2 c0 {4,S} {6,S}
-  4 *1 C u1 p0 c0 {1,S} {2,S} {3,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1 *2 F u0 p3 c0 {4,S}\n2    O u0 p2 c0 {4,S} {5,S}\n\
+  3    O u0 p2 c0 {4,S} {6,S}\n4 *1 C u1 p0 c0 {1,S} {2,S} {3,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {3,S}\n"
 ---
 label: O[C]O_p1
-adjacency_list: |-
-  multiplicity 3
-  1    O u0 p2 c0 {3,S} {4,S}
-  2    O u0 p2 c0 {3,S} {5,S}
-  3 *1 C u2 p0 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 3\n1    O u0 p2 c0 {3,S} {4,S}\n2    O u0 p2 c0 {3,S}\
+  \ {5,S}\n3 *1 C u2 p0 c0 {1,S} {2,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: C#COF_r12
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 O u0 p2 c0 {1,S} {3,S}
-  3    C u0 p0 c0 {2,S} {4,T}
-  4    C u0 p0 c0 {3,T} {5,S}
-  5    H u0 p0 c0 {4,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *1 O u0 p2 c0 {1,S} {3,S}\n3    C u0 p0\
+  \ c0 {2,S} {4,T}\n4    C u0 p0 c0 {3,T} {5,S}\n5    H u0 p0 c0 {4,S}\n"
 ---
 label: C#C[O]_p1
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O u1 p2 c0 {3,S}
-  2    C u0 p0 c0 {3,T} {4,S}
-  3    C u0 p0 c0 {1,S} {2,T}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *1 O u1 p2 c0 {3,S}\n2    C u0 p0 c0 {3,T} {4,S}\n\
+  3    C u0 p0 c0 {1,S} {2,T}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: H2CCFCF3
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {5,S}
-  2    F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4    F u0 p3 c0 {6,S}
-  5 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
-  6    C u0 p0 c0 {4,S} {5,S} {7,D}
-  7    C u0 p0 c0 {6,D} {8,S} {9,S}
-  8    H u0 p0 c0 {7,S}
-  9    H u0 p0 c0 {7,S}
+adjacency_list: "1 *2 F u0 p3 c0 {5,S}\n2    F u0 p3 c0 {5,S}\n3    F u0 p3 c0 {5,S}\n\
+  4    F u0 p3 c0 {6,S}\n5 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}\n6    C u0 p0 c0\
+  \ {4,S} {5,S} {7,D}\n7    C u0 p0 c0 {6,D} {8,S} {9,S}\n8    H u0 p0 c0 {7,S}\n\
+  9    H u0 p0 c0 {7,S}\n"
 ---
 label: H2CCFCF2
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {4,S}
-  2    F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4    C u0 p0 c0 {1,S} {5,S} {6,D}
-  5 *1 C u1 p0 c0 {2,S} {3,S} {4,S}
-  6    C u0 p0 c0 {4,D} {7,S} {8,S}
-  7    H u0 p0 c0 {6,S}
-  8    H u0 p0 c0 {6,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {4,S}\n2    F u0 p3 c0 {5,S}\n3 \
+  \   F u0 p3 c0 {5,S}\n4    C u0 p0 c0 {1,S} {5,S} {6,D}\n5 *1 C u1 p0 c0 {2,S} {3,S}\
+  \ {4,S}\n6    C u0 p0 c0 {4,D} {7,S} {8,S}\n7    H u0 p0 c0 {6,S}\n8    H u0 p0\
+  \ c0 {6,S}\n"
 ---
 label: CH2F2
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    F u0 p3 c0 {3,S}
-  3 *1 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    F u0 p3 c0 {3,S}\n3 *1 C u0 p0 c0 {1,S}\
+  \ {2,S} {4,S} {5,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {3,S}\n"
 ---
 label: CHO
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,D}
-  2 *3 C u1 p0 c0 {1,D} {3,S}
-  3    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,D}\n2 *3 C u1 p0 c0 {1,D} {3,S}\n\
+  3    H u0 p0 c0 {2,S}\n"
 ---
 label: CHFO
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 C u0 p0 c0 {1,S} {2,D} {4,S}
-  4    H u0 p0 c0 {3,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,D}\n3 *1 C u0 p0 c0 {1,S}\
+  \ {2,D} {4,S}\n4    H u0 p0 c0 {3,S}\n"
 ---
 label: CH2F
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {2,S}
-  2 *3 C u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {2,S}\n2 *3 C u1 p0 c0 {1,S} {3,S}\
+  \ {4,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: CH3F
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: H
-adjacency_list: |-
-  multiplicity 2
-  1 *3 H u1 p0 c0
+adjacency_list: "multiplicity 2\n1 *3 H u1 p0 c0\n"
 ---
 label: C2H4F2
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {4,S}
-  2    F u0 p3 c0 {4,S}
-  3    C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-  4 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {4,S}
+adjacency_list: "1 *2 F u0 p3 c0 {4,S}\n2    F u0 p3 c0 {4,S}\n3    C u0 p0 c0 {4,S}\
+  \ {5,S} {6,S} {7,S}\n4 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}\n5    H u0 p0 c0 {3,S}\n\
+  6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0 c0 {4,S}\n"
 ---
 label: C2H4F
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {3,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *3 C u1 p0 c0 {1,S} {2,S} {7,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {3,S}\n2    C u0 p0 c0 {3,S} {4,S}\
+  \ {5,S} {6,S}\n3 *3 C u1 p0 c0 {1,S} {2,S} {7,S}\n4    H u0 p0 c0 {2,S}\n5    H\
+  \ u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n"
 ---
 label: C2F4O
-adjacency_list: |-
-  1    F u0 p3 c0 {6,S}
-  2    F u0 p3 c0 {6,S}
-  3    F u0 p3 c0 {6,S}
-  4 *2 F u0 p3 c0 {7,S}
-  5    O u0 p2 c0 {7,D}
-  6    C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
-  7 *1 C u0 p0 c0 {4,S} {5,D} {6,S}
+adjacency_list: "1    F u0 p3 c0 {6,S}\n2    F u0 p3 c0 {6,S}\n3    F u0 p3 c0 {6,S}\n\
+  4 *2 F u0 p3 c0 {7,S}\n5    O u0 p2 c0 {7,D}\n6    C u0 p0 c0 {1,S} {2,S} {3,S}\
+  \ {7,S}\n7 *1 C u0 p0 c0 {4,S} {5,D} {6,S}\n"
 ---
 label: C2F3O
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {5,S}
-  2    F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4    O u0 p2 c0 {6,D}
-  5    C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}
-  6 *3 C u1 p0 c0 {4,D} {5,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {5,S}\n2    F u0 p3 c0 {5,S}\n3 \
+  \   F u0 p3 c0 {5,S}\n4    O u0 p2 c0 {6,D}\n5    C u0 p0 c0 {1,S} {2,S} {3,S} {6,S}\n\
+  6 *3 C u1 p0 c0 {4,D} {5,S}\n"
 ---
 label: CH2Cl
-adjacency_list: |-
-  multiplicity 2
-  1    Cl u0 p3 c0 {2,S}
-  2 *3 C  u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H  u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    Cl u0 p3 c0 {2,S}\n2 *3 C  u1 p0 c0 {1,S} {3,S}\
+  \ {4,S}\n3    H  u0 p0 c0 {2,S}\n4    H  u0 p0 c0 {2,S}\n"
 ---
 label: FHO
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {2,S}
-  2 *1 O u0 p2 c0 {1,S} {3,S}
-  3    H u0 p0 c0 {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {2,S}\n2 *1 O u0 p2 c0 {1,S} {3,S}\n3    H u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: C2H5
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2 *3 C u1 p0 c0 {1,S} {6,S} {7,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 *3 C u1\
+  \ p0 c0 {1,S} {6,S} {7,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H\
+  \ u0 p0 c0 {1,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {2,S}\n"
 ---
 label: F
-adjacency_list: |-
-  multiplicity 2
-  1 *3 F u1 p3 c0
+adjacency_list: "multiplicity 2\n1 *3 F u1 p3 c0\n"
 ---
 label: CH3O
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,S} {5,S}
-  2 *3 C u1 p0 c0 {1,S} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,S} {5,S}\n2 *3 C u1 p0 c0 {1,S}\
+  \ {3,S} {4,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {1,S}\n"
 ---
 label: C3H6F
-adjacency_list: |-
-  multiplicity 2
-  1     F u0 p3 c0 {4,S}
-  2     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  4  *3 C u1 p0 c0 {1,S} {2,S} {10,S}
-  5     H u0 p0 c0 {2,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1     F u0 p3 c0 {4,S}\n2     C u0 p0 c0 {3,S} {4,S}\
+  \ {5,S} {6,S}\n3     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n4  *3 C u1 p0 c0 {1,S}\
+  \ {2,S} {10,S}\n5     H u0 p0 c0 {2,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0 c0\
+  \ {3,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {4,S}\n"
 ---
 label: C3H6F2
-adjacency_list: |-
-  1     F u0 p3 c0 {4,S}
-  2  *2 F u0 p3 c0 {4,S}
-  3     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-  4  *1 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
-  5     C u0 p0 c0 {3,S} {9,S} {10,S} {11,S}
-  6     H u0 p0 c0 {3,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {4,S}
-  9     H u0 p0 c0 {5,S}
-  10    H u0 p0 c0 {5,S}
-  11    H u0 p0 c0 {5,S}
+adjacency_list: "1     F u0 p3 c0 {4,S}\n2  *2 F u0 p3 c0 {4,S}\n3     C u0 p0 c0\
+  \ {4,S} {5,S} {6,S} {7,S}\n4  *1 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}\n5     C u0\
+  \ p0 c0 {3,S} {9,S} {10,S} {11,S}\n6     H u0 p0 c0 {3,S}\n7     H u0 p0 c0 {3,S}\n\
+  8     H u0 p0 c0 {4,S}\n9     H u0 p0 c0 {5,S}\n10    H u0 p0 c0 {5,S}\n11    H\
+  \ u0 p0 c0 {5,S}\n"
 ---
 label: C2H3
-adjacency_list: |-
-  multiplicity 2
-  1    C u0 p0 c0 {2,D} {3,S} {4,S}
-  2 *3 C u1 p0 c0 {1,D} {5,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1    C u0 p0 c0 {2,D} {3,S} {4,S}\n2 *3 C u1 p0 c0\
+  \ {1,D} {5,S}\n3    H u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: CH3O-2
-adjacency_list: |-
-  multiplicity 2
-  1 *3 O u1 p2 c0 {2,S}
-  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
+adjacency_list: "multiplicity 2\n1 *3 O u1 p2 c0 {2,S}\n2    C u0 p0 c0 {1,S} {3,S}\
+  \ {4,S} {5,S}\n3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n"
 ---
 label: CHF2
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {3,S}
-  2    F u0 p3 c0 {3,S}
-  3 *3 C u1 p0 c0 {1,S} {2,S} {4,S}
-  4    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {3,S}\n2    F u0 p3 c0 {3,S}\n3 *3\
+  \ C u1 p0 c0 {1,S} {2,S} {4,S}\n4    H u0 p0 c0 {3,S}\n"
 ---
 label: CHF3
-adjacency_list: |-
-  1    F u0 p3 c0 {4,S}
-  2    F u0 p3 c0 {4,S}
-  3 *2 F u0 p3 c0 {4,S}
-  4 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}
-  5    H u0 p0 c0 {4,S}
+adjacency_list: "1    F u0 p3 c0 {4,S}\n2    F u0 p3 c0 {4,S}\n3 *2 F u0 p3 c0 {4,S}\n\
+  4 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {5,S}\n5    H u0 p0 c0 {4,S}\n"
 ---
 label: C3H7
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  2     C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-  3  *3 C u1 p0 c0 {1,S} {2,S} {10,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {1,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {2,S}
-  10    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}\n2     C\
+  \ u0 p0 c0 {3,S} {7,S} {8,S} {9,S}\n3  *3 C u1 p0 c0 {1,S} {2,S} {10,S}\n4     H\
+  \ u0 p0 c0 {1,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {1,S}\n7     H u0 p0\
+  \ c0 {2,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {2,S}\n10    H u0 p0 c0 {3,S}\n"
 ---
 label: C2F5
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {6,S}
-  2    F u0 p3 c0 {6,S}
-  3    F u0 p3 c0 {6,S}
-  4    F u0 p3 c0 {7,S}
-  5    F u0 p3 c0 {7,S}
-  6    C u0 p0 c0 {1,S} {2,S} {3,S} {7,S}
-  7 *3 C u1 p0 c0 {4,S} {5,S} {6,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {6,S}\n2    F u0 p3 c0 {6,S}\n3 \
+  \   F u0 p3 c0 {6,S}\n4    F u0 p3 c0 {7,S}\n5    F u0 p3 c0 {7,S}\n6    C u0 p0\
+  \ c0 {1,S} {2,S} {3,S} {7,S}\n7 *3 C u1 p0 c0 {4,S} {5,S} {6,S}\n"
 ---
 label: C2F6
-adjacency_list: |-
-  1    F u0 p3 c0 {7,S}
-  2    F u0 p3 c0 {7,S}
-  3 *2 F u0 p3 c0 {7,S}
-  4    F u0 p3 c0 {8,S}
-  5    F u0 p3 c0 {8,S}
-  6    F u0 p3 c0 {8,S}
-  7 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {8,S}
-  8    C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
+adjacency_list: "1    F u0 p3 c0 {7,S}\n2    F u0 p3 c0 {7,S}\n3 *2 F u0 p3 c0 {7,S}\n\
+  4    F u0 p3 c0 {8,S}\n5    F u0 p3 c0 {8,S}\n6    F u0 p3 c0 {8,S}\n7 *1 C u0 p0\
+  \ c0 {1,S} {2,S} {3,S} {8,S}\n8    C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}\n"
 ---
 label: CFO
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *3 C u1 p0 c0 {1,S} {2,D}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {3,S}\n2    O u0 p2 c0 {3,D}\n3 *3\
+  \ C u1 p0 c0 {1,S} {2,D}\n"
 ---
 label: CF2O
-adjacency_list: |-
-  1    F u0 p3 c0 {4,S}
-  2 *2 F u0 p3 c0 {4,S}
-  3    O u0 p2 c0 {4,D}
-  4 *1 C u0 p0 c0 {1,S} {2,S} {3,D}
+adjacency_list: "1    F u0 p3 c0 {4,S}\n2 *2 F u0 p3 c0 {4,S}\n3    O u0 p2 c0 {4,D}\n\
+  4 *1 C u0 p0 c0 {1,S} {2,S} {3,D}\n"
 ---
 label: C3H7-2
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}
-  2     C u0 p0 c0 {1,S} {6,S} {7,S} {8,S}
-  3  *3 C u1 p0 c0 {1,S} {9,S} {10,S}
-  4     H u0 p0 c0 {1,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2     C\
+  \ u0 p0 c0 {1,S} {6,S} {7,S} {8,S}\n3  *3 C u1 p0 c0 {1,S} {9,S} {10,S}\n4     H\
+  \ u0 p0 c0 {1,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {2,S}\n7     H u0 p0\
+  \ c0 {2,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {3,S}\n10    H u0 p0 c0 {3,S}\n"
 ---
 label: C2H4F2-2
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    F u0 p3 c0 {4,S}
-  3 *1 C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-  4    C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    F u0 p3 c0 {4,S}\n3 *1 C u0 p0 c0 {1,S}\
+  \ {4,S} {5,S} {6,S}\n4    C u0 p0 c0 {2,S} {3,S} {7,S} {8,S}\n5    H u0 p0 c0 {3,S}\n\
+  6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {4,S}\n"
 ---
 label: C2H4F-2
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {2,S}
-  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3 *3 C u1 p0 c0 {2,S} {6,S} {7,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {2,S}\n2    C u0 p0 c0 {1,S} {3,S}\
+  \ {4,S} {5,S}\n3 *3 C u1 p0 c0 {2,S} {6,S} {7,S}\n4    H u0 p0 c0 {2,S}\n5    H\
+  \ u0 p0 c0 {2,S}\n6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {3,S}\n"
 ---
 label: CF2
-adjacency_list: |-
-  1 *2 F u0 p3 c0 {3,S}
-  2    F u0 p3 c0 {3,S}
-  3 *1 C u0 p1 c0 {1,S} {2,S}
+adjacency_list: "1 *2 F u0 p3 c0 {3,S}\n2    F u0 p3 c0 {3,S}\n3 *1 C u0 p1 c0 {1,S}\
+  \ {2,S}\n"
 ---
 label: CF
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {2,S}
-  2 *3 C u1 p1 c0 {1,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {2,S}\n2 *3 C u1 p1 c0 {1,S}\n"
 ---
 label: C2H4O
-adjacency_list: |-
-  multiplicity 3
-  1    O u0 p2 c0 {3,S} {7,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3 *3 C u2 p0 c0 {1,S} {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1    O u0 p2 c0 {3,S} {7,S}\n2    C u0 p0 c0 {3,S}\
+  \ {4,S} {5,S} {6,S}\n3 *3 C u2 p0 c0 {1,S} {2,S}\n4    H u0 p0 c0 {2,S}\n5    H\
+  \ u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {1,S}\n"
 ---
 label: C4H9
-adjacency_list: |-
-  multiplicity 2
-  1     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}
-  2     C u0 p0 c0 {4,S} {8,S} {9,S} {10,S}
-  3     C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}
-  4  *3 C u1 p0 c0 {1,S} {2,S} {3,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {1,S}
-  7     H u0 p0 c0 {1,S}
-  8     H u0 p0 c0 {2,S}
-  9     H u0 p0 c0 {2,S}
-  10    H u0 p0 c0 {2,S}
-  11    H u0 p0 c0 {3,S}
-  12    H u0 p0 c0 {3,S}
-  13    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1     C u0 p0 c0 {4,S} {5,S} {6,S} {7,S}\n2     C\
+  \ u0 p0 c0 {4,S} {8,S} {9,S} {10,S}\n3     C u0 p0 c0 {4,S} {11,S} {12,S} {13,S}\n\
+  4  *3 C u1 p0 c0 {1,S} {2,S} {3,S}\n5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {1,S}\n\
+  7     H u0 p0 c0 {1,S}\n8     H u0 p0 c0 {2,S}\n9     H u0 p0 c0 {2,S}\n10    H\
+  \ u0 p0 c0 {2,S}\n11    H u0 p0 c0 {3,S}\n12    H u0 p0 c0 {3,S}\n13    H u0 p0\
+  \ c0 {3,S}\n"
 ---
 label: C4H9F
-adjacency_list: |-
-  1  *2 F u0 p3 c0 {2,S}
-  2  *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3     C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-  4     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-  5     C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-  6     H u0 p0 c0 {3,S}
-  7     H u0 p0 c0 {3,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {4,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
-  12    H u0 p0 c0 {5,S}
-  13    H u0 p0 c0 {5,S}
-  14    H u0 p0 c0 {5,S}
+adjacency_list: "1  *2 F u0 p3 c0 {2,S}\n2  *1 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3     C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}\n4     C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}\n\
+  5     C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}\n6     H u0 p0 c0 {3,S}\n7     H u0\
+  \ p0 c0 {3,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {4,S}\n10    H u0 p0 c0\
+  \ {4,S}\n11    H u0 p0 c0 {4,S}\n12    H u0 p0 c0 {5,S}\n13    H u0 p0 c0 {5,S}\n\
+  14    H u0 p0 c0 {5,S}\n"
 ---
 label: CF4
-adjacency_list: |-
-  1    F u0 p3 c0 {5,S}
-  2    F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4 *2 F u0 p3 c0 {5,S}
-  5 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}
+adjacency_list: "1    F u0 p3 c0 {5,S}\n2    F u0 p3 c0 {5,S}\n3    F u0 p3 c0 {5,S}\n\
+  4 *2 F u0 p3 c0 {5,S}\n5 *1 C u0 p0 c0 {1,S} {2,S} {3,S} {4,S}\n"
 ---
 label: C2H3F3
-adjacency_list: |-
-  1    F u0 p3 c0 {4,S}
-  2 *2 F u0 p3 c0 {5,S}
-  3    F u0 p3 c0 {5,S}
-  4    C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}
-  5 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}
-  6    H u0 p0 c0 {4,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {5,S}
+adjacency_list: "1    F u0 p3 c0 {4,S}\n2 *2 F u0 p3 c0 {5,S}\n3    F u0 p3 c0 {5,S}\n\
+  4    C u0 p0 c0 {1,S} {5,S} {6,S} {7,S}\n5 *1 C u0 p0 c0 {2,S} {3,S} {4,S} {8,S}\n\
+  6    H u0 p0 c0 {4,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {5,S}\n"
 ---
 label: C2H3F2
-adjacency_list: |-
-  multiplicity 2
-  1    F u0 p3 c0 {3,S}
-  2    F u0 p3 c0 {4,S}
-  3    C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-  4 *3 C u1 p0 c0 {2,S} {3,S} {7,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1    F u0 p3 c0 {3,S}\n2    F u0 p3 c0 {4,S}\n3 \
+  \   C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}\n4 *3 C u1 p0 c0 {2,S} {3,S} {7,S}\n5   \
+  \ H u0 p0 c0 {3,S}\n6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {4,S}\n"
 ---
 label: CH2
-adjacency_list: |-
-  multiplicity 3
-  1 *3 C u2 p0 c0 {2,S} {3,S}
-  2    H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1 *3 C u2 p0 c0 {2,S} {3,S}\n2    H u0 p0 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n"
 ---
 label: ClF
-adjacency_list: |-
-  1 *1 Cl u0 p3 c0 {2,S}
-  2 *2 F  u0 p3 c0 {1,S}
+adjacency_list: "1 *1 Cl u0 p3 c0 {2,S}\n2 *2 F  u0 p3 c0 {1,S}\n"
 ---
 label: Cl
-adjacency_list: |-
-  multiplicity 2
-  1 *3 Cl u1 p3 c0
+adjacency_list: "multiplicity 2\n1 *3 Cl u1 p3 c0\n"
 ---
 label: CCl3
-adjacency_list: |-
-  multiplicity 2
-  1    Cl u0 p3 c0 {4,S}
-  2    Cl u0 p3 c0 {4,S}
-  3    Cl u0 p3 c0 {4,S}
-  4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}
+adjacency_list: "multiplicity 2\n1    Cl u0 p3 c0 {4,S}\n2    Cl u0 p3 c0 {4,S}\n\
+  3    Cl u0 p3 c0 {4,S}\n4 *3 C  u1 p0 c0 {1,S} {2,S} {3,S}\n"

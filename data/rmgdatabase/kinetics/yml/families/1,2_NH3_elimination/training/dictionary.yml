@@ -1,82 +1,42 @@
 label: NH3
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}
-  2 *4 H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {1,S}
+adjacency_list: "1 *1 N u0 p1 c0 {2,S} {3,S} {4,S}\n2 *4 H u0 p0 c0 {1,S}\n3    H\
+  \ u0 p0 c0 {1,S}\n4    H u0 p0 c0 {1,S}\n"
 ---
 label: N4
-adjacency_list: |-
-  1  *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-  2  *2 N u0 p1 c0 {1,S} {3,S} {7,S}
-  3  *3 N u0 p1 c0 {2,S} {4,S} {8,S}
-  4     N u0 p1 c0 {3,S} {9,S} {10,S}
-  5     H u0 p0 c0 {1,S}
-  6     H u0 p0 c0 {1,S}
-  7  *4 H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {4,S}
-  10    H u0 p0 c0 {4,S}
+adjacency_list: "1  *1 N u0 p1 c0 {2,S} {5,S} {6,S}\n2  *2 N u0 p1 c0 {1,S} {3,S}\
+  \ {7,S}\n3  *3 N u0 p1 c0 {2,S} {4,S} {8,S}\n4     N u0 p1 c0 {3,S} {9,S} {10,S}\n\
+  5     H u0 p0 c0 {1,S}\n6     H u0 p0 c0 {1,S}\n7  *4 H u0 p0 c0 {2,S}\n8     H\
+  \ u0 p0 c0 {3,S}\n9     H u0 p0 c0 {4,S}\n10    H u0 p0 c0 {4,S}\n"
 ---
 label: N4c
-adjacency_list: |-
-  1  *1 N u0 p1 c0 {2,S} {7,S} {8,S}
-  2  *2 N u0 p0 c+1 {1,S} {3,S} {4,S} {5,S}
-  3  *4 H u0 p0 c0 {2,S}
-  4     H u0 p0 c0 {2,S}
-  5  *3 N u0 p2 c-1 {2,S} {6,S}
-  6     N u0 p1 c0 {5,S} {9,S} {10,S}
-  7     H u0 p0 c0 {1,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {6,S}
-  10    H u0 p0 c0 {6,S}
+adjacency_list: "1  *1 N u0 p1 c0 {2,S} {7,S} {8,S}\n2  *2 N u0 p0 c+1 {1,S} {3,S}\
+  \ {4,S} {5,S}\n3  *4 H u0 p0 c0 {2,S}\n4     H u0 p0 c0 {2,S}\n5  *3 N u0 p2 c-1\
+  \ {2,S} {6,S}\n6     N u0 p1 c0 {5,S} {9,S} {10,S}\n7     H u0 p0 c0 {1,S}\n8  \
+  \   H u0 p0 c0 {1,S}\n9     H u0 p0 c0 {6,S}\n10    H u0 p0 c0 {6,S}\n"
 ---
 label: NH2NHN_r
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}
-  2 *2 N u0 p0 c+1 {1,S} {3,S} {4,D}
-  3 *4 H u0 p0 c0 {2,S}
-  4 *3 N u0 p2 c-1 {2,D}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {1,S}
+adjacency_list: "1 *1 N u0 p1 c0 {2,S} {5,S} {6,S}\n2 *2 N u0 p0 c+1 {1,S} {3,S} {4,D}\n\
+  3 *4 H u0 p0 c0 {2,S}\n4 *3 N u0 p2 c-1 {2,D}\n5    H u0 p0 c0 {1,S}\n6    H u0\
+  \ p0 c0 {1,S}\n"
 ---
 label: NH2NHN_p
-adjacency_list: |-
-  1    N u0 p1 c0 {2,S} {5,S} {6,S}
-  2 *3 N u0 p0 c+1 {1,S} {3,S} {4,D}
-  3    H u0 p0 c0 {2,S}
-  4 *2 N u0 p2 c-1 {2,D}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {1,S}
+adjacency_list: "1    N u0 p1 c0 {2,S} {5,S} {6,S}\n2 *3 N u0 p0 c+1 {1,S} {3,S} {4,D}\n\
+  3    H u0 p0 c0 {2,S}\n4 *2 N u0 p2 c-1 {2,D}\n5    H u0 p0 c0 {1,S}\n6    H u0\
+  \ p0 c0 {1,S}\n"
 ---
 label: NH2NNH
-adjacency_list: |-
-  1    N u0 p1 c0 {2,S} {4,S} {5,S}
-  2 *3 N u0 p1 c0 {1,S} {3,D}
-  3 *2 N u0 p1 c0 {2,D} {6,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6    H u0 p0 c0 {3,S}
+adjacency_list: "1    N u0 p1 c0 {2,S} {4,S} {5,S}\n2 *3 N u0 p1 c0 {1,S} {3,D}\n\
+  3 *2 N u0 p1 c0 {2,D} {6,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {1,S}\n6   \
+  \ H u0 p0 c0 {3,S}\n"
 ---
 label: N2
-adjacency_list: |-
-  1 *2 N u0 p1 c0 {2,T}
-  2 *3 N u0 p1 c0 {1,T}
+adjacency_list: "1 *2 N u0 p1 c0 {2,T}\n2 *3 N u0 p1 c0 {1,T}\n"
 ---
 label: N3
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,S} {4,S} {5,S}
-  2 *2 N u0 p1 c0 {1,S} {3,S} {6,S}
-  3 *3 N u0 p1 c0 {2,S} {7,S} {8,S}
-  4    H u0 p0 c0 {1,S}
-  5    H u0 p0 c0 {1,S}
-  6 *4 H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {3,S}
+adjacency_list: "1 *1 N u0 p1 c0 {2,S} {4,S} {5,S}\n2 *2 N u0 p1 c0 {1,S} {3,S} {6,S}\n\
+  3 *3 N u0 p1 c0 {2,S} {7,S} {8,S}\n4    H u0 p0 c0 {1,S}\n5    H u0 p0 c0 {1,S}\n\
+  6 *4 H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0 c0 {3,S}\n"
 ---
 label: H2NN(S)
-adjacency_list: |-
-  1 *3 N u0 p0 c+1 {2,S} {3,S} {4,D}
-  2    H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
-  4 *2 N u0 p2 c-1 {1,D}
+adjacency_list: "1 *3 N u0 p0 c+1 {2,S} {3,S} {4,D}\n2    H u0 p0 c0 {1,S}\n3    H\
+  \ u0 p0 c0 {1,S}\n4 *2 N u0 p2 c-1 {1,D}\n"

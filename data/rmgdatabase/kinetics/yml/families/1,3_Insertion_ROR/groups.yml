@@ -17,11 +17,8 @@ long_description: ''
 children: []
 ---
 label: Cd_Cdd
-group: |2
-
-  1 *2 Cdd       u0 {2,D} {3,D}
-  2 *1 Cd        u0 {1,D}
-  3    [O2d,S2d] u0 {1,D}
+group: "\n1 *2 Cdd       u0 {2,D} {3,D}\n2 *1 Cd        u0 {1,D}\n3    [O2d,S2d] u0\
+  \ {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -33,83 +30,53 @@ children:
 - cco_De2
 ---
 label: cco_2H
-group: |2
-
-  1 *1 Cd        u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd       u0 {1,D} {5,D}
-  3    H         u0 {1,S}
-  4    H         u0 {1,S}
-  5    [O2d,S2d] u0 {2,D}
+group: "\n1 *1 Cd        u0 {2,D} {3,S} {4,S}\n2 *2 Cdd       u0 {1,D} {5,D}\n3  \
+  \  H         u0 {1,S}\n4    H         u0 {1,S}\n5    [O2d,S2d] u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cco_HNd
-group: |2
-
-  1 *1 Cd        u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd       u0 {1,D} {5,D}
-  3    H         u0 {1,S}
-  4    [Cs,O,S]  u0 {1,S}
-  5    [O2d,S2d] u0 {2,D}
+group: "\n1 *1 Cd        u0 {2,D} {3,S} {4,S}\n2 *2 Cdd       u0 {1,D} {5,D}\n3  \
+  \  H         u0 {1,S}\n4    [Cs,O,S]  u0 {1,S}\n5    [O2d,S2d] u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cco_HDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd              u0 {1,D} {5,D}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [O2d,S2d]        u0 {2,D}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cdd              u0 {1,D}\
+  \ {5,D}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n5    [O2d,S2d]\
+  \        u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cco_Nd2
-group: |2
-
-  1 *1 Cd        u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd       u0 {1,D} {5,D}
-  3    [Cs,O,S]  u0 {1,S}
-  4    [Cs,O,S]  u0 {1,S}
-  5    [O2d,S2d] u0 {2,D}
+group: "\n1 *1 Cd        u0 {2,D} {3,S} {4,S}\n2 *2 Cdd       u0 {1,D} {5,D}\n3  \
+  \  [Cs,O,S]  u0 {1,S}\n4    [Cs,O,S]  u0 {1,S}\n5    [O2d,S2d] u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cco_NdDe
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd              u0 {1,D} {5,D}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [O2d,S2d]        u0 {2,D}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cdd              u0 {1,D}\
+  \ {5,D}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n5    [O2d,S2d]\
+  \        u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: cco_De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cdd              u0 {1,D} {5,D}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [O2d,S2d]        u0 {2,D}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cdd              u0 {1,D}\
+  \ {5,D}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n5    [O2d,S2d]\
+  \        u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd
-group: |2
-
-  1 *1 Cdd       u0 {2,D} {3,D}
-  2 *2 Cd        u0 {1,D}
-  3    [O2d,S2d] u0 {1,D}
+group: "\n1 *1 Cdd       u0 {2,D} {3,D}\n2 *2 Cd        u0 {1,D}\n3    [O2d,S2d] u0\
+  \ {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -121,86 +88,53 @@ children:
 - Cdd_Cd_De2
 ---
 label: Cdd_Cd_2H
-group: |2
-
-  1 *1 Cdd       u0 {2,D} {3,D}
-  2 *2 Cd        u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d] u0 {1,D}
-  4    H         u0 {2,S}
-  5    H         u0 {2,S}
+group: "\n1 *1 Cdd       u0 {2,D} {3,D}\n2 *2 Cd        u0 {1,D} {4,S} {5,S}\n3  \
+  \  [O2d,S2d] u0 {1,D}\n4    H         u0 {2,S}\n5    H         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd_HNd
-group: |2
-
-  1 *1 Cdd       u0 {2,D} {3,D}
-  2 *2 Cd        u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d] u0 {1,D}
-  4    H         u0 {2,S}
-  5    [Cs,O,S]  u0 {2,S}
+group: "\n1 *1 Cdd       u0 {2,D} {3,D}\n2 *2 Cd        u0 {1,D} {4,S} {5,S}\n3  \
+  \  [O2d,S2d] u0 {1,D}\n4    H         u0 {2,S}\n5    [Cs,O,S]  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd_HDe
-group: |2
-
-  1 *1 Cdd              u0 {2,D} {3,D}
-  2 *2 Cd               u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d]        u0 {1,D}
-  4    H                u0 {2,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cdd              u0 {2,D} {3,D}\n2 *2 Cd               u0 {1,D} {4,S}\
+  \ {5,S}\n3    [O2d,S2d]        u0 {1,D}\n4    H                u0 {2,S}\n5    [Cd,Ct,Cb,CO,CS]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd_Nd2
-group: |2
-
-  1 *1 Cdd       u0 {2,D} {3,D}
-  2 *2 Cd        u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d] u0 {1,D}
-  4    [Cs,O,S]  u0 {2,S}
-  5    [Cs,O,S]  u0 {2,S}
+group: "\n1 *1 Cdd       u0 {2,D} {3,D}\n2 *2 Cd        u0 {1,D} {4,S} {5,S}\n3  \
+  \  [O2d,S2d] u0 {1,D}\n4    [Cs,O,S]  u0 {2,S}\n5    [Cs,O,S]  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd_NdDe
-group: |2
-
-  1 *1 Cdd              u0 {2,D} {3,D}
-  2 *2 Cd               u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d]        u0 {1,D}
-  4    [Cs,O,S]         u0 {2,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cdd              u0 {2,D} {3,D}\n2 *2 Cd               u0 {1,D} {4,S}\
+  \ {5,S}\n3    [O2d,S2d]        u0 {1,D}\n4    [Cs,O,S]         u0 {2,S}\n5    [Cd,Ct,Cb,CO,CS]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cdd_Cd_De2
-group: |2
-
-  1 *1 Cdd              u0 {2,D} {3,D}
-  2 *2 Cd               u0 {1,D} {4,S} {5,S}
-  3    [O2d,S2d]        u0 {1,D}
-  4    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cdd              u0 {2,D} {3,D}\n2 *2 Cd               u0 {1,D} {4,S}\
+  \ {5,S}\n3    [O2d,S2d]        u0 {1,D}\n4    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n5    [Cd,Ct,Cb,CO,CS]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd_Cd
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2 *2 Cd u0 {1,D} {5,S} {6,S}
-  3    R  u0 {1,S}
-  4    R  u0 {1,S}
-  5    R  u0 {2,S}
-  6    R  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    R  u0 {1,S}\n\
+  4    R  u0 {1,S}\n5    R  u0 {2,S}\n6    R  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -215,27 +149,15 @@ children:
 - Cd/disub_Cd/disub
 ---
 label: Cd/unsub_Cd/unsub
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2 *2 Cd u0 {1,D} {5,S} {6,S}
-  3    H  u0 {1,S}
-  4    H  u0 {1,S}
-  5    H  u0 {2,S}
-  6    H  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    H  u0 {1,S}\n\
+  4    H  u0 {1,S}\n5    H  u0 {2,S}\n6    H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/unsub_Cd/monosub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    H   u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    H   u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -243,40 +165,24 @@ children:
 - Cd/H2_Cd/H/De
 ---
 label: Cd/H2_Cd/H/Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    H        u0 {1,S}
-  5    H        u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    H        u0 {1,S}\n5    H        u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H2_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/monosub_Cd/unsub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {2,S}
-  6    H   u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    H   u0 {2,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -284,40 +190,24 @@ children:
 - Cd/H/De_Cd/H2
 ---
 label: Cd/H/Nd_Cd/H2
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    H        u0 {2,S}
-  6    H        u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    H        u0 {2,S}\n6    H \
+  \       u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/H2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    H                u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    H                u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/unsub_Cd/disub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -326,53 +216,32 @@ children:
 - Cd/H2_Cd/De2
 ---
 label: Cd/H2_Cd/Nd2
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    H        u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    H        u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H2_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H2_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    H                u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    H                u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/disub_Cd/unsub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    R!H u0 {1,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {2,S}
-  6    H   u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    R!H u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    H   u0 {2,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -381,53 +250,32 @@ children:
 - Cd/De2_Cd/H2
 ---
 label: Cd/Nd2_Cd/H2
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    H        u0 {2,S}
-  6    H        u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    [Cs,O,S] u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    H        u0 {2,S}\n6    H \
+  \       u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/NdDe_Cd/H2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    H                u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    H                u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/H2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    H                u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    H                u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/monosub_Cd/monosub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    H   u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -437,124 +285,74 @@ children:
 - Cd/H/De_Cd/H/De
 ---
 label: Cd/H/Nd_Cd/H/Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    H        u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    H        u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/Nd_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Cd/H/S_Cd/H/Cd
 ---
 label: Cd/H/S_Cd/H/Cd
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2 *2 Cd u0 {1,D} {5,S} {6,S}
-  3    H  u0 {1,S}
-  4    S  u0 {1,S}
-  5    H  u0 {2,S}
-  6    Cd u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    H  u0 {1,S}\n\
+  4    S  u0 {1,S}\n5    H  u0 {2,S}\n6    Cd u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Thiophene3
 ---
 label: Thiophene3
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {6,S}
-  2 *2 Cd u0 {1,D} {4,S} {7,S}
-  3    S  u0 {1,S} {5,S}
-  4    Cd u0 {2,S} {5,D}
-  5    C  u0 {3,S} {4,D}
-  6    H  u0 {1,S}
-  7    H  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {6,S}\n2 *2 Cd u0 {1,D} {4,S} {7,S}\n3    S  u0 {1,S}\
+  \ {5,S}\n4    Cd u0 {2,S} {5,D}\n5    C  u0 {3,S} {4,D}\n6    H  u0 {1,S}\n7   \
+  \ H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/H/Nd
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Cd/H/Cd_Cd/H/S
 ---
 label: Cd/H/Cd_Cd/H/S
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2 *2 Cd u0 {1,D} {5,S} {6,S}
-  3    H  u0 {1,S}
-  4    Cd u0 {1,S}
-  5    H  u0 {2,S}
-  6    S  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    H  u0 {1,S}\n\
+  4    Cd u0 {1,S}\n5    H  u0 {2,S}\n6    S  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Thiophene2
 ---
 label: Thiophene2
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {6,S}
-  2 *2 Cd u0 {1,D} {4,S} {7,S}
-  3    Cd u0 {1,S} {5,D}
-  4    S  u0 {2,S} {5,S}
-  5    C  u0 {3,D} {4,S}
-  6    H  u0 {1,S}
-  7    H  u0 {2,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {6,S}\n2 *2 Cd u0 {1,D} {4,S} {7,S}\n3    Cd u0 {1,S}\
+  \ {5,D}\n4    S  u0 {2,S} {5,S}\n5    C  u0 {3,D} {4,S}\n6    H  u0 {1,S}\n7   \
+  \ H  u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/monosub_Cd/disub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -566,92 +364,56 @@ children:
 - Cd/H/De_Cd/De2
 ---
 label: Cd/H/Nd_Cd/Nd2
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    H        u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/Nd_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/Nd_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/Nd2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/H/De_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/disub_Cd/monosub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    R!H u0 {1,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    R!H u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    H   u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -663,92 +425,56 @@ children:
 - Cd/Nd/De_Cd/H/De
 ---
 label: Cd/Nd2_Cd/H/Nd
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    H        u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    [Cs,O,S] u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    H        u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd2_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/H/Nd
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd/De_Cd/H/Nd
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd/De_Cd/H/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    H                u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    H                u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/disub_Cd/disub
-group: |2
-
-  1 *1 Cd  u0 {2,D} {3,S} {4,S}
-  2 *2 Cd  u0 {1,D} {5,S} {6,S}
-  3    R!H u0 {1,S}
-  4    R!H u0 {1,S}
-  5    R!H u0 {2,S}
-  6    R!H u0 {2,S}
+group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    R!H u0\
+  \ {1,S}\n4    R!H u0 {1,S}\n5    R!H u0 {2,S}\n6    R!H u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -763,118 +489,73 @@ children:
 - Cd/De2_Cd/De2
 ---
 label: Cd/Nd2_Cd/Nd2
-group: |2
-
-  1 *1 Cd       u0 {2,D} {3,S} {4,S}
-  2 *2 Cd       u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
-  5    [Cs,O,S] u0 {2,S}
-  6    [Cs,O,S] u0 {2,S}
+group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
+  3    [Cs,O,S] u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n5    [Cs,O,S] u0 {2,S}\n6    [Cs,O,S]\
+  \ u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd2_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd2_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cs,O,S]         u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cs,O,S]         u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd/De_Cd/Nd2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd/De_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/Nd/De_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/Nd2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cs,O,S]         u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cs,O,S]         u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/Nd/De
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cs,O,S]         u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cs,O,S]         u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd/De2_Cd/De2
-group: |2
-
-  1 *1 Cd               u0 {2,D} {3,S} {4,S}
-  2 *2 Cd               u0 {1,D} {5,S} {6,S}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}
-  6    [Cd,Ct,Cb,CO,CS] u0 {2,S}
+group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
+  \ {5,S} {6,S}\n3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n\
+  5    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n6    [Cd,Ct,Cb,CO,CS] u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -888,11 +569,7 @@ children:
 - Sd_Cds
 ---
 label: Sd_Cdd
-group: |2
-
-  1 *2 Cdd u0 {2,D} {3,D}
-  2 *1 S2d u0 {1,D}
-  3    R!H u0 {1,D}
+group: "\n1 *2 Cdd u0 {2,D} {3,D}\n2 *1 S2d u0 {1,D}\n3    R!H u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
@@ -900,32 +577,20 @@ children:
 - Sd_Cdd/O2d
 ---
 label: Sd_Cdd/Cd
-group: |2
-
-  1 *1 S2d u0 {2,D}
-  2 *2 Cdd u0 {1,D} {3,D}
-  3    Cd  u0 {2,D}
+group: "\n1 *1 S2d u0 {2,D}\n2 *2 Cdd u0 {1,D} {3,D}\n3    Cd  u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cdd/O2d
-group: |2
-
-  1 *2 Cdd u0 {2,D} {3,D}
-  2 *1 S2d u0 {1,D}
-  3    O2d u0 {1,D}
+group: "\n1 *2 Cdd u0 {2,D} {3,D}\n2 *1 S2d u0 {1,D}\n3    O2d u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cds
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    R   u0 {1,S}
-  4    R   u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    R   u0 {1,S}\n4 \
+  \   R   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -934,23 +599,15 @@ children:
 - Sd_Cd/disub
 ---
 label: Sd_Cd/unsub
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    H   u0 {1,S}\n4 \
+  \   H   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/monosub
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    H   u0 {1,S}
-  4    R!H u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    H   u0 {1,S}\n4 \
+  \   R!H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -958,23 +615,15 @@ children:
 - Sd_Cd/H/De
 ---
 label: Sd_Cd/H/Nd
-group: |2
-
-  1 *2 CS       u0 {2,D} {3,S} {4,S}
-  2 *1 S2d      u0 {1,D}
-  3    H        u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
+group: "\n1 *2 CS       u0 {2,D} {3,S} {4,S}\n2 *1 S2d      u0 {1,D}\n3    H     \
+  \   u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/H/De
-group: |2
-
-  1 *2 CS               u0 {2,D} {3,S} {4,S}
-  2 *1 S2d              u0 {1,D}
-  3    H                u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *2 CS               u0 {2,D} {3,S} {4,S}\n2 *1 S2d              u0 {1,D}\n\
+  3    H                u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -982,34 +631,22 @@ children:
 - Sd_Cd/H/Cb
 ---
 label: Sd_Cd/H/Cd
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    H   u0 {1,S}
-  4    Cd  u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    H   u0 {1,S}\n4 \
+  \   Cd  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/H/Cb
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    H   u0 {1,S}
-  4    Cb  u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    H   u0 {1,S}\n4 \
+  \   Cb  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/disub
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    R!H u0 {1,S}
-  4    R!H u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    R!H u0 {1,S}\n4 \
+  \   R!H u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1018,12 +655,8 @@ children:
 - Sd_Cd/De2
 ---
 label: Sd_Cd/Nd2
-group: |2
-
-  1 *2 CS       u0 {2,D} {3,S} {4,S}
-  2 *1 S2d      u0 {1,D}
-  3    [Cs,O,S] u0 {1,S}
-  4    [Cs,O,S] u0 {1,S}
+group: "\n1 *2 CS       u0 {2,D} {3,S} {4,S}\n2 *1 S2d      u0 {1,D}\n3    [Cs,O,S]\
+  \ u0 {1,S}\n4    [Cs,O,S] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1031,75 +664,49 @@ children:
 - Sd_Cd/CsOs
 ---
 label: Sd_Cd/CsCs
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    Cs  u0 {1,S}
-  4    Cs  u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    Cs  u0 {1,S}\n4 \
+  \   Cs  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/CsOs
-group: |2
-
-  1 *2 CS  u0 {2,D} {3,S} {4,S}
-  2 *1 S2d u0 {1,D}
-  3    Cs  u0 {1,S}
-  4    O   u0 {1,S}
+group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    Cs  u0 {1,S}\n4 \
+  \   O   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/Nd/De
-group: |2
-
-  1 *2 CS               u0 {2,D} {3,S} {4,S}
-  2 *1 S2d              u0 {1,D}
-  3    [Cs,O,S]         u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *2 CS               u0 {2,D} {3,S} {4,S}\n2 *1 S2d              u0 {1,D}\n\
+  3    [Cs,O,S]         u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Sd_Cd/De2
-group: |2
-
-  1 *2 CS               u0 {2,D} {3,S} {4,S}
-  2 *1 S2d              u0 {1,D}
-  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}
-  4    [Cd,Ct,Cb,CO,CS] u0 {1,S}
+group: "\n1 *2 CS               u0 {2,D} {3,S} {4,S}\n2 *1 S2d              u0 {1,D}\n\
+  3    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n4    [Cd,Ct,Cb,CO,CS] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N1dc_N5ddc
-group: |2
-
-  1 *1 N1dc  u0 p2 c-1 {2,D}
-  2 *2 N5ddc u0 p0 c+1 {1,D} {3,D}
-  3    O2d   u0 {2,D}
+group: "\n1 *1 N1dc  u0 p2 c-1 {2,D}\n2 *2 N5ddc u0 p0 c+1 {1,D} {3,D}\n3    O2d \
+  \  u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N3d_Cd
-group: |2
-
-  1 *1 N3d u0 {2,D}
-  2 *2 Cdd u0 {1,D} {3,D}
-  3    O2d u0 {2,D}
+group: "\n1 *1 N3d u0 {2,D}\n2 *2 Cdd u0 {1,D} {3,D}\n3    O2d u0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OR
-group: |2
-
-  1 *4 O2s                 u0 {2,S} {3,S}
-  2 *3 H                   u0 {1,S}
-  3    [H,Cs,Cd,Sis,Sid,N] u0 {1,S}
+group: "\n1 *4 O2s                 u0 {2,S} {3,S}\n2 *3 H                   u0 {1,S}\n\
+  3    [H,Cs,Cd,Sis,Sid,N] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1108,21 +715,13 @@ children:
 - H_OCd
 ---
 label: H_OH
-group: |2
-
-  1 *4 O2s u0 {2,S} {3,S}
-  2 *3 H   u0 {1,S}
-  3    H   u0 {1,S}
+group: "\n1 *4 O2s u0 {2,S} {3,S}\n2 *3 H   u0 {1,S}\n3    H   u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCs
-group: |2
-
-  1 *4 O2s u0 {2,S} {3,S}
-  2 *3 H   u0 {1,S}
-  3    Cs  u0 {1,S}
+group: "\n1 *4 O2s u0 {2,S} {3,S}\n2 *3 H   u0 {1,S}\n3    Cs  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1132,63 +731,35 @@ children:
 - H_OCter
 ---
 label: H_OCmethyl
-group: |2
-
-  1    Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s u0 {1,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    H   u0 {1,S}
-  6 *3 H   u0 {2,S}
+group: "\n1    Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s u0 {1,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    H   u0 {1,S}\n6 *3 H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCpri
-group: |2
-
-  1 *3 H   u0 {2,S}
-  2 *4 O2s u0 {1,S} {3,S}
-  3    Cs  u0 {2,S} {4,S} {5,S} {6,S}
-  4    H   u0 {3,S}
-  5    H   u0 {3,S}
-  6    C   u0 {3,S}
+group: "\n1 *3 H   u0 {2,S}\n2 *4 O2s u0 {1,S} {3,S}\n3    Cs  u0 {2,S} {4,S} {5,S}\
+  \ {6,S}\n4    H   u0 {3,S}\n5    H   u0 {3,S}\n6    C   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCsec
-group: |2
-
-  1 *3 H   u0 {2,S}
-  2 *4 O2s u0 {1,S} {3,S}
-  3    Cs  u0 {2,S} {4,S} {5,S} {6,S}
-  4    H   u0 {3,S}
-  5    C   u0 {3,S}
-  6    C   u0 {3,S}
+group: "\n1 *3 H   u0 {2,S}\n2 *4 O2s u0 {1,S} {3,S}\n3    Cs  u0 {2,S} {4,S} {5,S}\
+  \ {6,S}\n4    H   u0 {3,S}\n5    C   u0 {3,S}\n6    C   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCter
-group: |2
-
-  1 *3 H   u0 {2,S}
-  2 *4 O2s u0 {1,S} {3,S}
-  3    Cs  u0 {2,S} {4,S} {5,S} {6,S}
-  4    C   u0 {3,S}
-  5    C   u0 {3,S}
-  6    C   u0 {3,S}
+group: "\n1 *3 H   u0 {2,S}\n2 *4 O2s u0 {1,S} {3,S}\n3    Cs  u0 {2,S} {4,S} {5,S}\
+  \ {6,S}\n4    C   u0 {3,S}\n5    C   u0 {3,S}\n6    C   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCd
-group: |2
-
-  1 *4 O2s u0 {2,S} {3,S}
-  2 *3 H   u0 {1,S}
-  3    Cd  u0 {1,S}
+group: "\n1 *4 O2s u0 {2,S} {3,S}\n2 *3 H   u0 {1,S}\n3    Cd  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1196,35 +767,22 @@ children:
 - H_OCdsec
 ---
 label: H_OCdpri
-group: |2
-
-  1 *3 H   u0 {2,S}
-  2 *4 O2s u0 {1,S} {3,S}
-  3    Cd  u0 {2,S} {4,D} {5,S}
-  4    Cd  u0 {3,D}
-  5    H   u0 {3,S}
+group: "\n1 *3 H   u0 {2,S}\n2 *4 O2s u0 {1,S} {3,S}\n3    Cd  u0 {2,S} {4,D} {5,S}\n\
+  4    Cd  u0 {3,D}\n5    H   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: H_OCdsec
-group: |2
-
-  1 *3 H   u0 {2,S}
-  2 *4 O2s u0 {1,S} {3,S}
-  3    Cd  u0 {2,S} {4,D} {5,S}
-  4    Cd  u0 {3,D}
-  5    C   u0 {3,S}
+group: "\n1 *3 H   u0 {2,S}\n2 *4 O2s u0 {1,S} {3,S}\n3    Cd  u0 {2,S} {4,D} {5,S}\n\
+  4    Cd  u0 {3,D}\n5    C   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R_OH
-group: |2
-
-  1 *4 O2s               u0 {2,S} {3,S}
-  2 *3 [Cs,Cd,Sis,Sid,N] u0 {1,S}
-  3    H                 u0 {1,S}
+group: "\n1 *4 O2s               u0 {2,S} {3,S}\n2 *3 [Cs,Cd,Sis,Sid,N] u0 {1,S}\n\
+  3    H                 u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1232,13 +790,8 @@ children:
 - Cs_OH
 ---
 label: Cd_OH
-group: |2
-
-  1 *3 Cd  u0 {2,D} {3,S} {4,S}
-  2    Cd  u0 {1,D}
-  3 *4 O2s u0 {1,S} {5,S}
-  4    R   u0 {1,S}
-  5    H   u0 {3,S}
+group: "\n1 *3 Cd  u0 {2,D} {3,S} {4,S}\n2    Cd  u0 {1,D}\n3 *4 O2s u0 {1,S} {5,S}\n\
+  4    R   u0 {1,S}\n5    H   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1246,38 +799,22 @@ children:
 - Cd_sec_OH
 ---
 label: Cd_pri_OH
-group: |2
-
-  1 *3 Cd  u0 {2,D} {3,S} {4,S}
-  2    Cd  u0 {1,D}
-  3 *4 O2s u0 {1,S} {5,S}
-  4    H   u0 {1,S}
-  5    H   u0 {3,S}
+group: "\n1 *3 Cd  u0 {2,D} {3,S} {4,S}\n2    Cd  u0 {1,D}\n3 *4 O2s u0 {1,S} {5,S}\n\
+  4    H   u0 {1,S}\n5    H   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cd_sec_OH
-group: |2
-
-  1 *3 Cd  u0 {2,D} {3,S} {4,S}
-  2    Cd  u0 {1,D}
-  3 *4 O2s u0 {1,S} {5,S}
-  4    R!H u0 {1,S}
-  5    H   u0 {3,S}
+group: "\n1 *3 Cd  u0 {2,D} {3,S} {4,S}\n2    Cd  u0 {1,D}\n3 *4 O2s u0 {1,S} {5,S}\n\
+  4    R!H u0 {1,S}\n5    H   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Cs_OH
-group: |2
-
-  1 *3 Cs     u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s    u0 {1,S} {6,S}
-  3    [Cs,H] u0 {1,S}
-  4    [Cs,H] u0 {1,S}
-  5    [Cs,H] u0 {1,S}
-  6    H      u0 {2,S}
+group: "\n1 *3 Cs     u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s    u0 {1,S} {6,S}\n3  \
+  \  [Cs,H] u0 {1,S}\n4    [Cs,H] u0 {1,S}\n5    [Cs,H] u0 {1,S}\n6    H      u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -1287,53 +824,29 @@ children:
 - C_ter_OH
 ---
 label: CH3OH
-group: |2
-
-  1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s u0 {1,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    H   u0 {1,S}
-  6    H   u0 {2,S}
+group: "\n1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s u0 {1,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    H   u0 {1,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C_pri_OH
-group: |2
-
-  1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s u0 {1,S} {6,S}
-  3    H   u0 {1,S}
-  4    H   u0 {1,S}
-  5    Cs  u0 {1,S}
-  6    H   u0 {2,S}
+group: "\n1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s u0 {1,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    H   u0 {1,S}\n5    Cs  u0 {1,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C_sec_OH
-group: |2
-
-  1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s u0 {1,S} {6,S}
-  3    H   u0 {1,S}
-  4    Cs  u0 {1,S}
-  5    Cs  u0 {1,S}
-  6    H   u0 {2,S}
+group: "\n1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s u0 {1,S} {6,S}\n3    H   u0\
+  \ {1,S}\n4    Cs  u0 {1,S}\n5    Cs  u0 {1,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C_ter_OH
-group: |2
-
-  1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2 *4 O2s u0 {1,S} {6,S}
-  3    Cs  u0 {1,S}
-  4    Cs  u0 {1,S}
-  5    Cs  u0 {1,S}
-  6    H   u0 {2,S}
+group: "\n1 *3 Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2 *4 O2s u0 {1,S} {6,S}\n3    Cs  u0\
+  \ {1,S}\n4    Cs  u0 {1,S}\n5    Cs  u0 {1,S}\n6    H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []

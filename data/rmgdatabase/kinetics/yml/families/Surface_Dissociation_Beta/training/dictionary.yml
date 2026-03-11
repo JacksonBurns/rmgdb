@@ -1,35 +1,21 @@
 label: HCO*
-adjacency_list: |-
-  1 *3 O u0 p2 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4 *1 X u0 p0 c0 {2,S}
+adjacency_list: "1 *3 O u0 p2 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}\n3    H\
+  \ u0 p0 c0 {2,S}\n4 *1 X u0 p0 c0 {2,S}\n"
 ---
 label: H*
-adjacency_list: |-
-  1 *4 H u0 p0 c0 {2,S}
-  2 *5 X u0 p0 c0 {1,S}
+adjacency_list: "1 *4 H u0 p0 c0 {2,S}\n2 *5 X u0 p0 c0 {1,S}\n"
 ---
 label: HCOH*
-adjacency_list: |-
-  1 *3 O u0 p2 c0 {2,S} {4,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,D}
-  3    H u0 p0 c0 {2,S}
-  4 *4 H u0 p0 c0 {1,S}
-  5 *1 X u0 p0 c0 {2,D}
+adjacency_list: "1 *3 O u0 p2 c0 {2,S} {4,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,D}\n\
+  3    H u0 p0 c0 {2,S}\n4 *4 H u0 p0 c0 {1,S}\n5 *1 X u0 p0 c0 {2,D}\n"
 ---
 label: Cu
-adjacency_list: 1 *5 X u0 p0 c0
+adjacency_list: "1 *5 X u0 p0 c0\n"
 ---
 label: CO*
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,D}
-  3 *3 O u0 p2 c0 {2,D}
+adjacency_list: "1 *1 X u0 p0 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,D}\n3 *3 O u0 p2\
+  \ c0 {2,D}\n"
 ---
 label: COH*
-adjacency_list: |-
-  1 *1 X u0 p0 c0 {2,T}
-  2 *2 C u0 p0 c0 {1,T} {3,S}
-  3 *3 O u0 p2 c0 {2,S} {4,S}
-  4 *4 H u0 p0 c0 {3,S}
+adjacency_list: "1 *1 X u0 p0 c0 {2,T}\n2 *2 C u0 p0 c0 {1,T} {3,S}\n3 *3 O u0 p2\
+  \ c0 {2,S} {4,S}\n4 *4 H u0 p0 c0 {3,S}\n"

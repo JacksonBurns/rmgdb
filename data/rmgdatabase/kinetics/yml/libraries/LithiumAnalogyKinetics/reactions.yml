@@ -1,8 +1,6 @@
 label: O1CCO[C]1OC2(O[Li])OCCO2 <=> O1CCOC1(O[Li])OC(=O)OC[CH2]
 degeneracy: 1.0
-long_description: |2
-
-  analogy to [Li]O[C]1OCCO1 <=> [Li]OC[=O]OC[CH2]
+long_description: "\nanalogy to [Li]O[C]1OCCO1 <=> [Li]OC[=O]OC[CH2]\n"
 kinetics:
   type: Arrhenius
   A:
@@ -24,9 +22,7 @@ kinetics:
 ---
 label: '[Li]OC(=O)OC[CH2] + [Li]OC(=O)OC[CH2] <=> C=C + [Li]OC(=O)OCCOC(=O)O[Li]'
 degeneracy: 1.0
-long_description: |2
-
-  analogy to  [Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC
+long_description: "\nanalogy to  [Li]OC(=O)OC[CH2] + C[CH2] <=> C=C + [Li]OC(=O)OCC\n"
 kinetics:
   type: Arrhenius
   A:
@@ -50,9 +46,7 @@ kinetics:
 ---
 label: O1CCO[C]1OC2(O[Li])OCCO2 <=> O=C1OCCO1 + [Li]O[C]1OCCO1
 degeneracy: 1.0
-long_description: |2
-
-  Higher up rule Root_Ext-3R-R_5R!H->C in 1,2_Elimination_LiR
+long_description: "\nHigher up rule Root_Ext-3R-R_5R!H->C in 1,2_Elimination_LiR\n"
 kinetics:
   type: ArrheniusBM
   A:
@@ -71,6 +65,5 @@ kinetics:
   Tmax:
   - 1500.0
   - K
-  comment: |-
-    BM rule fitted to 3 training reactions at node Root_Ext-3R-R_5R!H->C
-            Total Standard Deviation in ln(k): 10.091746105650293
+  comment: "BM rule fitted to 3 training reactions at node Root_Ext-3R-R_5R!H->C\n\
+    \        Total Standard Deviation in ln(k): 10.091746105650293"

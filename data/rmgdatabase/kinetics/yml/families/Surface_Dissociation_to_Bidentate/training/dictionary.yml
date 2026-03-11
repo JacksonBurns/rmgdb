@@ -1,56 +1,44 @@
 label: Pt_5
-adjacency_list: 1 *5 X u0 p0 c0
+adjacency_list: "1 *5 X u0 p0 c0\n"
 ---
 label: Pt_6
-adjacency_list: 1 *6 X u0 p0 c0
+adjacency_list: "1 *6 X u0 p0 c0\n"
 ---
 label: H2CCH3_X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {8,S}\n2    H u0 p0 {1,S}\n3    H\
   \ u0 p0 {1,S}\n4 *2 C u0 p0 {1,S} {5,S} {6,S} {7,S} \n5    H u0 p0 {4,S}\n6    H\
-  \ u0 p0 {4,S}\n7 *3 H u0 p0 {4,S}\n8 *4 X u0 p0 {1,S}"
+  \ u0 p0 {4,S}\n7 *3 H u0 p0 {4,S}\n8 *4 X u0 p0 {1,S}\n"
 ---
 label: H2CCH2_2X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {7,S}\n2    H u0 p0 {1,S}\n3    H\
   \ u0 p0 {1,S}\n4 *2 C u0 p0 {1,S} {5,S} {6,S} {8,S} \n5    H u0 p0 {4,S}\n6    H\
-  \ u0 p0 {4,S}\n7 *4 X u0 p0 {1,S}\n8 *5 X u0 p0 {4,S}"
+  \ u0 p0 {4,S}\n7 *4 X u0 p0 {1,S}\n8 *5 X u0 p0 {4,S}\n"
 ---
 label: H_X
-adjacency_list: |-
-  1 *3 H u0 p0 {2,S}
-  2 *6 X u0 p0 {1,S}
+adjacency_list: "1 *3 H u0 p0 {2,S}\n2 *6 X u0 p0 {1,S}\n"
 ---
 label: HCCH3_X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {7,D}\n2    H u0 p0 {1,S}\n3 *2 C u0 p0\
   \ {1,S} {4,S} {5,S} {6,S} \n4    H u0 p0 {3,S}\n5    H u0 p0 {3,S}\n6 *3 H u0 p0\
-  \ {3,S}\n7 *4 X u0 p0 {1,D}"
+  \ {3,S}\n7 *4 X u0 p0 {1,D}\n"
 ---
 label: HCCH2_2X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {6,D}\n2    H u0 p0 {1,S}\n3 *2 C u0 p0\
   \ {1,S} {4,S} {5,S} {7,S} \n4    H u0 p0 {3,S}\n5    H u0 p0 {3,S}\n6 *4 X u0 p0\
-  \ {1,D}\n7 *5 X u0 p0 {3,S}"
+  \ {1,D}\n7 *5 X u0 p0 {3,S}\n"
 ---
 label: H2COH_X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {6,S}\n2    H u0 p0 {1,S}\n3    H\
-  \ u0 p0 {1,S}\n4 *2 O u0 p2 {1,S} {5,S}  \n5 *3 H u0 p0 {4,S}\n6 *4 X u0 p0 {1,S}"
+  \ u0 p0 {1,S}\n4 *2 O u0 p2 {1,S} {5,S}  \n5 *3 H u0 p0 {4,S}\n6 *4 X u0 p0 {1,S}\n"
 ---
 label: H2CO_2X
 adjacency_list: "1 *1 C u0 p0 {2,S} {3,S} {4,S} {5,S}\n2    H u0 p0 {1,S}\n3    H\
-  \ u0 p0 {1,S}\n4 *2 O u0 p2 {1,S} {6,S}  \n5 *4 X u0 p0 {1,S}\n6 *5 X u0 p0 {4,S}"
+  \ u0 p0 {1,S}\n4 *2 O u0 p2 {1,S} {6,S}  \n5 *4 X u0 p0 {1,S}\n6 *5 X u0 p0 {4,S}\n"
 ---
 label: XCXCH2
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {5,T}
-  2 *2 C u0 p0 {1,S} {3,S} {4,S} {6,S}
-  3    H u0 p0 {2,S}
-  4    H u0 p0 {2,S}
-  5 *4 X u0 p0 {1,T}
-  6 *5 X u0 p0 {2,S}
+adjacency_list: "1 *1 C u0 p0 {2,S} {5,T}\n2 *2 C u0 p0 {1,S} {3,S} {4,S} {6,S}\n\
+  3    H u0 p0 {2,S}\n4    H u0 p0 {2,S}\n5 *4 X u0 p0 {1,T}\n6 *5 X u0 p0 {2,S}\n"
 ---
 label: XCCH3
-adjacency_list: |-
-  1 *1 C u0 p0 {2,S} {6,T}
-  2 *2 C u0 p0 {1,S} {3,S} {4,S} {5,S}
-  3 *3 H u0 p0 {2,S}
-  4    H u0 p0 {2,S}
-  5    H u0 p0 {2,S}
-  6 *4 X u0 p0 {1,T}
+adjacency_list: "1 *1 C u0 p0 {2,S} {6,T}\n2 *2 C u0 p0 {1,S} {3,S} {4,S} {5,S}\n\
+  3 *3 H u0 p0 {2,S}\n4    H u0 p0 {2,S}\n5    H u0 p0 {2,S}\n6 *4 X u0 p0 {1,T}\n"

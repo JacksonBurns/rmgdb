@@ -1,100 +1,53 @@
 label: NH
-adjacency_list: |-
-  multiplicity 3
-  1 *2 N u2 p1 c0 {2,S}
-  2    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 3\n1 *2 N u2 p1 c0 {2,S}\n2    H u0 p0 c0 {1,S}\n"
 ---
 label: CH3CH2OO
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O u0 p2 c0 {2,S} {3,S}
-  2 *2 O u1 p2 c0 {1,S}
-  3    C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}
-  4    C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
-  9    H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1 *1 O u0 p2 c0 {2,S} {3,S}\n2 *2 O u1 p2 c0 {1,S}\n\
+  3    C u0 p0 c0 {1,S} {4,S} {5,S} {6,S}\n4    C u0 p0 c0 {3,S} {7,S} {8,S} {9,S}\n\
+  5    H u0 p0 c0 {3,S}\n6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0\
+  \ c0 {4,S}\n9    H u0 p0 c0 {4,S}\n"
 ---
 label: 'NO'
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p2 c0 {2,D}
-  2 *1 N u1 p1 c0 {1,D}
+adjacency_list: "multiplicity 2\n1    O u0 p2 c0 {2,D}\n2 *1 N u1 p1 c0 {1,D}\n"
 ---
 label: SNO
-adjacency_list: |-
-  multiplicity 2
-  1 *2 S u1 p2 c0 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 N u0 p1 c0 {1,S} {2,D}
+adjacency_list: "multiplicity 2\n1 *2 S u1 p2 c0 {3,S}\n2    O u0 p2 c0 {3,D}\n3 *1\
+  \ N u0 p1 c0 {1,S} {2,D}\n"
 ---
 label: CH3CH2O
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O u1 p2 c0 {3,S}
-  2    C u0 p0 c0 {3,S} {4,S} {5,S} {6,S}
-  3    C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {2,S}
-  7    H u0 p0 c0 {3,S}
-  8    H u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1 *1 O u1 p2 c0 {3,S}\n2    C u0 p0 c0 {3,S} {4,S}\
+  \ {5,S} {6,S}\n3    C u0 p0 c0 {1,S} {2,S} {7,S} {8,S}\n4    H u0 p0 c0 {2,S}\n\
+  5    H u0 p0 c0 {2,S}\n6    H u0 p0 c0 {2,S}\n7    H u0 p0 c0 {3,S}\n8    H u0 p0\
+  \ c0 {3,S}\n"
 ---
 label: NO2_p
-adjacency_list: |-
-  multiplicity 2
-  1 *2 O u1 p2 c0 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 N u0 p1 c0 {1,S} {2,D}
+adjacency_list: "multiplicity 2\n1 *2 O u1 p2 c0 {3,S}\n2    O u0 p2 c0 {3,D}\n3 *1\
+  \ N u0 p1 c0 {1,S} {2,D}\n"
 ---
 label: O
-adjacency_list: |-
-  multiplicity 3
-  1 *2 O u2 p2 c0
+adjacency_list: "multiplicity 3\n1 *2 O u2 p2 c0\n"
 ---
 label: NO2_r
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p3 c-1 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 N u1 p0 c+1 {1,S} {2,D}
+adjacency_list: "multiplicity 2\n1    O u0 p3 c-1 {3,S}\n2    O u0 p2 c0 {3,D}\n3\
+  \ *1 N u1 p0 c+1 {1,S} {2,D}\n"
 ---
 label: S
-adjacency_list: |-
-  multiplicity 3
-  1 *2 S u2 p2 c0
+adjacency_list: "multiplicity 3\n1 *2 S u2 p2 c0\n"
 ---
 label: HNNO2
-adjacency_list: |-
-  multiplicity 2
-  1    O u0 p3 c-1 {3,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 N u0 p0 c+1 {1,S} {2,D} {4,S}
-  4 *2 N u1 p1 c0 {3,S} {5,S}
-  5    H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1    O u0 p3 c-1 {3,S}\n2    O u0 p2 c0 {3,D}\n3\
+  \ *1 N u0 p0 c+1 {1,S} {2,D} {4,S}\n4 *2 N u1 p1 c0 {3,S} {5,S}\n5    H u0 p0 c0\
+  \ {4,S}\n"
 ---
 label: H
-adjacency_list: |-
-  multiplicity 2
-  1 *1 H u1 p0 c0
+adjacency_list: "multiplicity 2\n1 *1 H u1 p0 c0\n"
 ---
 label: HO
-adjacency_list: |-
-  multiplicity 2
-  1 *2 O u1 p2 c0 {2,S}
-  2 *1 H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *2 O u1 p2 c0 {2,S}\n2 *1 H u0 p0 c0 {1,S}\n"
 ---
 label: HS
-adjacency_list: |-
-  multiplicity 2
-  1 *2 S u1 p2 c0 {2,S}
-  2 *1 H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *2 S u1 p2 c0 {2,S}\n2 *1 H u0 p0 c0 {1,S}\n"
 ---
 label: H2N
-adjacency_list: |-
-  multiplicity 2
-  1 *2 N u1 p1 c0 {2,S} {3,S}
-  2 *1 H u0 p0 c0 {1,S}
-  3    H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 *2 N u1 p1 c0 {2,S} {3,S}\n2 *1 H u0 p0 c0 {1,S}\n\
+  3    H u0 p0 c0 {1,S}\n"

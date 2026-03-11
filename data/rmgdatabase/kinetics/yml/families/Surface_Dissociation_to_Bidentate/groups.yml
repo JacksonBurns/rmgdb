@@ -1,35 +1,26 @@
 label: Combined
-group: |2+
-
-  1 *1 R!H u0 {2,[S,D,T]} {4,[S,D,T]}
-  2 *2 R!H u0 {1,[S,D,T]} {3,[S]}
-  3 *3 H   u0 {2,[S]}
-  4 *4 Xo  u0 {1,[S,D,T]}
-
+group: "\n1 *1 R!H u0 {2,[S,D,T]} {4,[S,D,T]}\n2 *2 R!H u0 {1,[S,D,T]} {3,[S]}\n3\
+  \ *3 H   u0 {2,[S]}\n4 *4 Xo  u0 {1,[S,D,T]}\n\n"
 short_description: ''
 long_description: ''
 children:
 - C
 - O
 - N
-- C=R
-- C=O
 - R-H
 - CR-H
 - C-H
+- C=R
+- C=O
 ---
 label: VacantSite1
-group: |2
-
-  1 *5 Xv u0
+group: "\n1 *5 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: VacantSite2
-group: |2
-
-  1 *6 Xv u0
+group: "\n1 *6 Xv u0\n"
 short_description: ''
 long_description: ''
 children: []

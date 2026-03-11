@@ -1,33 +1,20 @@
 label: H
-adjacency_list: 1 *4 H u0 p0 c+1
+adjacency_list: "1 *4 H u0 p0 c+1\n"
 ---
 label: e
-adjacency_list: 1 * e u0 p0 c-1
+adjacency_list: "1 * e u0 p0 c-1\n"
 ---
 label: CO2X
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,D}
-  3    O u0 p2 c0 {2,D}
-  4 *3 X u0 p0 c0
+adjacency_list: "1 *1 O u0 p2 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,D}\n3    O u0 p2\
+  \ c0 {2,D}\n4 *3 X u0 p0 c0\n"
 ---
 label: CO2HX
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {4,S}
-  2 *2 C u0 p0 c0 {1,S} {3,D} {5,S}
-  3    O u0 p2 c0 {2,D}
-  4 *4 H u0 p0 c0 {1,S}
-  5 *3 X u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {4,S}\n2 *2 C u0 p0 c0 {1,S} {3,D} {5,S}\n\
+  3    O u0 p2 c0 {2,D}\n4 *4 H u0 p0 c0 {1,S}\n5 *3 X u0 p0 c0 {2,S}\n"
 ---
 label: N2X
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,T}
-  2 *2 N u0 p1 c0 {1,T}
-  3 *3 X u0 p0 c0
+adjacency_list: "1 *1 N u0 p1 c0 {2,T}\n2 *2 N u0 p1 c0 {1,T}\n3 *3 X u0 p0 c0\n"
 ---
 label: HNNX
-adjacency_list: |-
-  1 *1 N u0 p1 c0 {2,D} {3,S}
-  2 *2 N u0 p1 c0 {1,D} {4,S}
-  3 *4 H u0 p0 c0 {1,S}
-  4 *3 X u0 p0 c0 {2,S}
+adjacency_list: "1 *1 N u0 p1 c0 {2,D} {3,S}\n2 *2 N u0 p1 c0 {1,D} {4,S}\n3 *4 H\
+  \ u0 p0 c0 {1,S}\n4 *3 X u0 p0 c0 {2,S}"

@@ -1,8 +1,7 @@
 label: O2 + DMSOH <=> DMSO + OOH
 degeneracy: 2.0
-long_description: |2
-
-  Value at 298K reported by Ravishankara et al in "Reaction of OH with Dimethyl Sulfide. 2. Products and Mechanisms
+long_description: "\nValue at 298K reported by Ravishankara et al in \"Reaction of\
+  \ OH with Dimethyl Sulfide. 2. Products and Mechanisms\n"
 kinetics:
   type: Arrhenius
   A:
@@ -18,9 +17,7 @@ kinetics:
 ---
 label: OH + DMS  <=> DMSOH
 degeneracy: 1.0
-long_description: |2
-
-  Experimentally observed by Atkinson at 298K
+long_description: "\nExperimentally observed by Atkinson at 298K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -36,9 +33,7 @@ kinetics:
 ---
 label: OH + DMS  <=> H2O + DMSrad
 degeneracy: 1.0
-long_description: |2
-
-  Experimentally observed by Atkinson at 298K
+long_description: "\nExperimentally observed by Atkinson at 298K\n"
 kinetics:
   type: Arrhenius
   A:
@@ -54,9 +49,7 @@ kinetics:
 ---
 label: O2 + DMSO2H <=> DMSO2 + OOH
 degeneracy: 2.0
-long_description: |2
-
-  Calculation by Ryan Gillis in July 2019
+long_description: "\nCalculation by Ryan Gillis in July 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -108,9 +101,7 @@ kinetics:
 ---
 label: DMSO2H <=> CH3 + CS(=O)OH
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019
+long_description: "\nCalculation by Ryan Gillis in Sept 2019\n"
 kinetics:
   type: Arrhenius
   A:
@@ -126,16 +117,11 @@ kinetics:
 ---
 label: DMSO2 <=> CS(=O)Orad + CH3
 degeneracy: 1.0
-long_description: |2
-
-  Author(s):   Busfield, W.K.; Ivin, K.J.
-  Title:   The thermochemistry of some sulphones. Part 1. The kinetics of decomposition of dimethyl sulphone, benzyl methyl sulphone and allyl methyl sulphone. The dissociation energies of the bonds R-SO2CH3
-  Journal:   Trans. Faraday Soc.
-  Volume:   57
-  Page(s):   1044 - 1053
-  Year:   1961
-
-  Near the collision limit for the reverse reaction
+long_description: "\nAuthor(s):   Busfield, W.K.; Ivin, K.J.\nTitle:   The thermochemistry\
+  \ of some sulphones. Part 1. The kinetics of decomposition of dimethyl sulphone,\
+  \ benzyl methyl sulphone and allyl methyl sulphone. The dissociation energies of\
+  \ the bonds R-SO2CH3\nJournal:   Trans. Faraday Soc.\nVolume:   57\nPage(s):   1044\
+  \ - 1053\nYear:   1961\n\nNear the collision limit for the reverse reaction\n"
 kinetics:
   type: Arrhenius
   A:
@@ -151,10 +137,10 @@ kinetics:
 ---
 label: CSCOOrad + CSCOOrad  <=> CSCOrad + CSCOrad + O2
 degeneracy: 1.0
-long_description: |2
-
-  by comparison to HOCOO rates given in Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F, Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J.
-  Title: Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry reaction for COOrad + COOrad -> COrad + COrad + O2
+long_description: "\nby comparison to HOCOO rates given in Atkinson, R.; Baulch, D.L.;\
+  \ Cox, R.A.; Crowley, J.N.; Hampson, R.F, Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J.\n\
+  Title: Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry\
+  \ reaction for COOrad + COOrad -> COrad + COrad + O2\n"
 kinetics:
   type: Arrhenius
   A:
@@ -170,10 +156,10 @@ kinetics:
 ---
 label: CSCOOrad + CSCOOrad  <=> CSCOH + MTF + O2
 degeneracy: 1.0
-long_description: |2
-
-  by comparison to HOCOO rates given in Atkinson, R.; Baulch, D.L.; Cox, R.A.; Crowley, J.N.; Hampson, R.F, Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J.
-  Title: Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry reaction for COOrad + COOrad -> COrad + COrad + O2
+long_description: "\nby comparison to HOCOO rates given in Atkinson, R.; Baulch, D.L.;\
+  \ Cox, R.A.; Crowley, J.N.; Hampson, R.F, Jr.; Kerr, J.A.; Rossi, M.J.; Troe, J.\n\
+  Title: Summary of Evaluated Kinetic and Photochemical Data for Atmospheric Chemistry\
+  \ reaction for COOrad + COOrad -> COrad + COrad + O2\n"
 kinetics:
   type: Arrhenius
   A:
@@ -189,9 +175,8 @@ kinetics:
 ---
 label: MTF + CH3 <=> MTFrad + CH4
 degeneracy: 1.0
-long_description: |2
-
-  Thynne, J.C.j.; Reaction of alkyl radicals. Part 1. - Methyl radical photosensitized decomposition of ethyl formate, analogy from COC=O
+long_description: "\nThynne, J.C.j.; Reaction of alkyl radicals. Part 1. - Methyl\
+  \ radical photosensitized decomposition of ethyl formate, analogy from COC=O\n"
 kinetics:
   type: Arrhenius
   A:
@@ -207,9 +192,7 @@ kinetics:
 ---
 label: MTF + OH <=> MTFrad + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Good and Jeong, 1999
+long_description: "\nCalculation by Good and Jeong, 1999\n"
 kinetics:
   type: Arrhenius
   A:
@@ -225,9 +208,7 @@ kinetics:
 ---
 label: CSrad + O2 <=> CSOOrad
 degeneracy: 1.0
-long_description: |2
-
-  Bozelli high pressure number.
+long_description: "\nBozelli high pressure number.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -243,9 +224,7 @@ kinetics:
 ---
 label: CSrad + O2 <=> CH2=S + OOH
 degeneracy: 1.0
-long_description: |2
-
-  Bozelli high pressure number.
+long_description: "\nBozelli high pressure number.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -261,9 +240,7 @@ kinetics:
 ---
 label: CSrad + O2 <=> CSOrad + O
 degeneracy: 1.0
-long_description: |2
-
-  Bozelli high pressure number.
+long_description: "\nBozelli high pressure number.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -279,9 +256,7 @@ kinetics:
 ---
 label: CSrad + O2 <=> CH3 + SO2
 degeneracy: 1.0
-long_description: |2
-
-  Bozelli high pressure number.
+long_description: "\nBozelli high pressure number.\n"
 kinetics:
   type: Arrhenius
   A:
@@ -332,9 +307,7 @@ kinetics:
 ---
 label: CSCOOrad + OOH <=> CSCOOH + O2
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -350,9 +323,7 @@ kinetics:
 ---
 label: DMS + OOH <=> DMSO + OH
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -368,9 +339,7 @@ kinetics:
 ---
 label: DMSO + OOH <=> DMSO2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -386,9 +355,7 @@ kinetics:
 ---
 label: DMSO + HOOH <=> DMSO2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -404,9 +371,7 @@ kinetics:
 ---
 label: DMSO + O2 <=> DMSO2 + O
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -422,9 +387,7 @@ kinetics:
 ---
 label: DMSOHOO <=> DMSO2 + OH
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - m06-2x
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - m06-2x\n"
 kinetics:
   type: Arrhenius
   A:
@@ -440,9 +403,7 @@ kinetics:
 ---
 label: DMSO3H2 <=> DMSO2 + H2O
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -458,9 +419,7 @@ kinetics:
 ---
 label: DMSOHOOH <=> DMSO3H2
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -476,9 +435,7 @@ kinetics:
 ---
 label: DMSOHOO <=> DMSO3H
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -494,9 +451,7 @@ kinetics:
 ---
 label: DMSO4H <=> DMSO2 + OOH
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:
@@ -512,9 +467,7 @@ kinetics:
 ---
 label: CSOOrad <=> CS(=O)Orad
 degeneracy: 1.0
-long_description: |2
-
-  Calculation by Ryan Gillis in Sept 2019 - CBS-QB3
+long_description: "\nCalculation by Ryan Gillis in Sept 2019 - CBS-QB3\n"
 kinetics:
   type: Arrhenius
   A:

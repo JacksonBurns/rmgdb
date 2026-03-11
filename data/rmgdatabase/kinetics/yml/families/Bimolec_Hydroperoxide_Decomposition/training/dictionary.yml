@@ -1,309 +1,135 @@
 label: H2O
-adjacency_list: |-
-  1 O u0 p2 c0 {2,S} {3,S}
-  2 H u0 p0 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
+adjacency_list: "1 O u0 p2 c0 {2,S} {3,S}\n2 H u0 p0 c0 {1,S}\n3 H u0 p0 c0 {1,S}\n"
 ---
 label: HOOH-1
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {3,S}
-  2 *2 O u0 p2 c0 {1,S} {4,S}
-  3    H u0 p0 c0 {1,S}
-  4    H u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {3,S}\n2 *2 O u0 p2 c0 {1,S} {4,S}\n3    H\
+  \ u0 p0 c0 {1,S}\n4    H u0 p0 c0 {2,S}\n"
 ---
 label: HOOH-2
-adjacency_list: |-
-  1   O u0 p2 c0 {2,S} {3,S}
-  2 *4 O u0 p2 c0 {1,S} {4,S}
-  3    H u0 p0 c0 {1,S}
-  4 *3 H u0 p0 c0 {2,S}
+adjacency_list: "1   O u0 p2 c0 {2,S} {3,S}\n2 *4 O u0 p2 c0 {1,S} {4,S}\n3    H u0\
+  \ p0 c0 {1,S}\n4 *3 H u0 p0 c0 {2,S}\n"
 ---
 label: HOOrad
-adjacency_list: |-
-  multiplicity 2
-  1 O u0 p2 c0 {2,S} {3,S}
-  2 O u1 p2 c0 {1,S}
-  3 H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {3,S}\n2 O u1 p2 c0 {1,S}\n3 H\
+  \ u0 p0 c0 {1,S}\n"
 ---
 label: HOrad
-adjacency_list: |-
-  multiplicity 2
-  1 O u1 p2 c0 {2,S}
-  2 H u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 H u0 p0 c0 {1,S}\n"
 ---
 label: Me3COOH-1
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  2     C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-  4     C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-  5  *1 O u0 p2 c0 {2,S} {6,S}
-  6  *2 O u0 p2 c0 {5,S} {16,S}
-  7     H u0 p0 c0 {1,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {1,S}
-  10    H u0 p0 c0 {3,S}
-  11    H u0 p0 c0 {3,S}
-  12    H u0 p0 c0 {3,S}
-  13    H u0 p0 c0 {4,S}
-  14    H u0 p0 c0 {4,S}
-  15    H u0 p0 c0 {4,S}
-  16    H u0 p0 c0 {6,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {4,S} {5,S}\n3     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}\n4     C u0 p0\
+  \ c0 {2,S} {13,S} {14,S} {15,S}\n5  *1 O u0 p2 c0 {2,S} {6,S}\n6  *2 O u0 p2 c0\
+  \ {5,S} {16,S}\n7     H u0 p0 c0 {1,S}\n8     H u0 p0 c0 {1,S}\n9     H u0 p0 c0\
+  \ {1,S}\n10    H u0 p0 c0 {3,S}\n11    H u0 p0 c0 {3,S}\n12    H u0 p0 c0 {3,S}\n\
+  13    H u0 p0 c0 {4,S}\n14    H u0 p0 c0 {4,S}\n15    H u0 p0 c0 {4,S}\n16    H\
+  \ u0 p0 c0 {6,S}\n"
 ---
 label: Me3COOH-2
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  2     C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-  4     C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-  5     O u0 p2 c0 {2,S} {6,S}
-  6  *4 O u0 p2 c0 {5,S} {16,S}
-  7     H u0 p0 c0 {1,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {1,S}
-  10    H u0 p0 c0 {3,S}
-  11    H u0 p0 c0 {3,S}
-  12    H u0 p0 c0 {3,S}
-  13    H u0 p0 c0 {4,S}
-  14    H u0 p0 c0 {4,S}
-  15    H u0 p0 c0 {4,S}
-  16 *3 H u0 p0 c0 {6,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {4,S} {5,S}\n3     C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}\n4     C u0 p0\
+  \ c0 {2,S} {13,S} {14,S} {15,S}\n5     O u0 p2 c0 {2,S} {6,S}\n6  *4 O u0 p2 c0\
+  \ {5,S} {16,S}\n7     H u0 p0 c0 {1,S}\n8     H u0 p0 c0 {1,S}\n9     H u0 p0 c0\
+  \ {1,S}\n10    H u0 p0 c0 {3,S}\n11    H u0 p0 c0 {3,S}\n12    H u0 p0 c0 {3,S}\n\
+  13    H u0 p0 c0 {4,S}\n14    H u0 p0 c0 {4,S}\n15    H u0 p0 c0 {4,S}\n16 *3 H\
+  \ u0 p0 c0 {6,S}\n"
 ---
 label: Me3COOrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-  4  C u0 p0 c0 {2,S} {13,S} {14,S} {15,S}
-  5  O u0 p2 c0 {2,S} {6,S}
-  6  O u1 p2 c0 {5,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {3,S}
-  11 H u0 p0 c0 {3,S}
-  12 H u0 p0 c0 {3,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,S} {4,S} {5,S}\n3  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}\n4  C u0\
+  \ p0 c0 {2,S} {13,S} {14,S} {15,S}\n5  O u0 p2 c0 {2,S} {6,S}\n6  O u1 p2 c0 {5,S}\n\
+  7  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {1,S}\n10 H u0 p0 c0 {3,S}\n\
+  11 H u0 p0 c0 {3,S}\n12 H u0 p0 c0 {3,S}\n13 H u0 p0 c0 {4,S}\n14 H u0 p0 c0 {4,S}\n\
+  15 H u0 p0 c0 {4,S}\n"
 ---
 label: Me3COrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}
-  2  C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}
-  4  C u0 p0 c0 {2,S} {12,S} {13,S} {14,S}
-  5  O u1 p2 c0 {2,S}
-  6  H u0 p0 c0 {1,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {3,S}
-  10 H u0 p0 c0 {3,S}
-  11 H u0 p0 c0 {3,S}
-  12 H u0 p0 c0 {4,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {6,S} {7,S} {8,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,S} {4,S} {5,S}\n3  C u0 p0 c0 {2,S} {9,S} {10,S} {11,S}\n4  C u0 p0\
+  \ c0 {2,S} {12,S} {13,S} {14,S}\n5  O u1 p2 c0 {2,S}\n6  H u0 p0 c0 {1,S}\n7  H\
+  \ u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {3,S}\n10 H u0 p0 c0 {3,S}\n\
+  11 H u0 p0 c0 {3,S}\n12 H u0 p0 c0 {4,S}\n13 H u0 p0 c0 {4,S}\n14 H u0 p0 c0 {4,S}\n"
 ---
 label: EtMe2COOH-1
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-  2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-  3     C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4     C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
-  5     C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
-  6  *1 O u0 p2 c0 {3,S} {7,S}
-  7  *2 O u0 p2 c0 {6,S} {19,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {1,S}
-  10    H u0 p0 c0 {1,S}
-  11    H u0 p0 c0 {2,S}
-  12    H u0 p0 c0 {2,S}
-  13    H u0 p0 c0 {4,S}
-  14    H u0 p0 c0 {4,S}
-  15    H u0 p0 c0 {4,S}
-  16    H u0 p0 c0 {5,S}
-  17    H u0 p0 c0 {5,S}
-  18    H u0 p0 c0 {5,S}
-  19    H u0 p0 c0 {7,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {11,S} {12,S}\n3     C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}\n4     C u0 p0 c0\
+  \ {3,S} {13,S} {14,S} {15,S}\n5     C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}\n6  *1\
+  \ O u0 p2 c0 {3,S} {7,S}\n7  *2 O u0 p2 c0 {6,S} {19,S}\n8     H u0 p0 c0 {1,S}\n\
+  9     H u0 p0 c0 {1,S}\n10    H u0 p0 c0 {1,S}\n11    H u0 p0 c0 {2,S}\n12    H\
+  \ u0 p0 c0 {2,S}\n13    H u0 p0 c0 {4,S}\n14    H u0 p0 c0 {4,S}\n15    H u0 p0\
+  \ c0 {4,S}\n16    H u0 p0 c0 {5,S}\n17    H u0 p0 c0 {5,S}\n18    H u0 p0 c0 {5,S}\n\
+  19    H u0 p0 c0 {7,S}\n"
 ---
 label: EtMe2COOH-2
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-  2     C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-  3     C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4     C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
-  5     C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
-  6     O u0 p2 c0 {3,S} {7,S}
-  7  *4 O u0 p2 c0 {6,S} {19,S}
-  8     H u0 p0 c0 {1,S}
-  9     H u0 p0 c0 {1,S}
-  10    H u0 p0 c0 {1,S}
-  11    H u0 p0 c0 {2,S}
-  12    H u0 p0 c0 {2,S}
-  13    H u0 p0 c0 {4,S}
-  14    H u0 p0 c0 {4,S}
-  15    H u0 p0 c0 {4,S}
-  16    H u0 p0 c0 {5,S}
-  17    H u0 p0 c0 {5,S}
-  18    H u0 p0 c0 {5,S}
-  19 *3 H u0 p0 c0 {7,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {11,S} {12,S}\n3     C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}\n4     C u0 p0 c0\
+  \ {3,S} {13,S} {14,S} {15,S}\n5     C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}\n6   \
+  \  O u0 p2 c0 {3,S} {7,S}\n7  *4 O u0 p2 c0 {6,S} {19,S}\n8     H u0 p0 c0 {1,S}\n\
+  9     H u0 p0 c0 {1,S}\n10    H u0 p0 c0 {1,S}\n11    H u0 p0 c0 {2,S}\n12    H\
+  \ u0 p0 c0 {2,S}\n13    H u0 p0 c0 {4,S}\n14    H u0 p0 c0 {4,S}\n15    H u0 p0\
+  \ c0 {4,S}\n16    H u0 p0 c0 {5,S}\n17    H u0 p0 c0 {5,S}\n18    H u0 p0 c0 {5,S}\n\
+  19 *3 H u0 p0 c0 {7,S}\n"
 ---
 label: EtMe2COOrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}
-  2  C u0 p0 c0 {1,S} {3,S} {11,S} {12,S}
-  3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4  C u0 p0 c0 {3,S} {13,S} {14,S} {15,S}
-  5  C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}
-  6  O u0 p2 c0 {3,S} {7,S}
-  7  O u1 p2 c0 {6,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {2,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {4,S}
-  16 H u0 p0 c0 {5,S}
-  17 H u0 p0 c0 {5,S}
-  18 H u0 p0 c0 {5,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {8,S} {9,S} {10,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,S} {11,S} {12,S}\n3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}\n4  C u0 p0\
+  \ c0 {3,S} {13,S} {14,S} {15,S}\n5  C u0 p0 c0 {3,S} {16,S} {17,S} {18,S}\n6  O\
+  \ u0 p2 c0 {3,S} {7,S}\n7  O u1 p2 c0 {6,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0\
+  \ {1,S}\n10 H u0 p0 c0 {1,S}\n11 H u0 p0 c0 {2,S}\n12 H u0 p0 c0 {2,S}\n13 H u0\
+  \ p0 c0 {4,S}\n14 H u0 p0 c0 {4,S}\n15 H u0 p0 c0 {4,S}\n16 H u0 p0 c0 {5,S}\n17\
+  \ H u0 p0 c0 {5,S}\n18 H u0 p0 c0 {5,S}\n"
 ---
 label: EtMe2COrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}
-  2  C u0 p0 c0 {1,S} {3,S} {10,S} {11,S}
-  3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4  C u0 p0 c0 {3,S} {12,S} {13,S} {14,S}
-  5  C u0 p0 c0 {3,S} {15,S} {16,S} {17,S}
-  6  O u1 p2 c0 {3,S}
-  7  H u0 p0 c0 {1,S}
-  8  H u0 p0 c0 {1,S}
-  9  H u0 p0 c0 {1,S}
-  10 H u0 p0 c0 {2,S}
-  11 H u0 p0 c0 {2,S}
-  12 H u0 p0 c0 {4,S}
-  13 H u0 p0 c0 {4,S}
-  14 H u0 p0 c0 {4,S}
-  15 H u0 p0 c0 {5,S}
-  16 H u0 p0 c0 {5,S}
-  17 H u0 p0 c0 {5,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {7,S} {8,S} {9,S}\n2  C u0 p0\
+  \ c0 {1,S} {3,S} {10,S} {11,S}\n3  C u0 p0 c0 {2,S} {4,S} {5,S} {6,S}\n4  C u0 p0\
+  \ c0 {3,S} {12,S} {13,S} {14,S}\n5  C u0 p0 c0 {3,S} {15,S} {16,S} {17,S}\n6  O\
+  \ u1 p2 c0 {3,S}\n7  H u0 p0 c0 {1,S}\n8  H u0 p0 c0 {1,S}\n9  H u0 p0 c0 {1,S}\n\
+  10 H u0 p0 c0 {2,S}\n11 H u0 p0 c0 {2,S}\n12 H u0 p0 c0 {4,S}\n13 H u0 p0 c0 {4,S}\n\
+  14 H u0 p0 c0 {4,S}\n15 H u0 p0 c0 {5,S}\n16 H u0 p0 c0 {5,S}\n17 H u0 p0 c0 {5,S}\n"
 ---
 label: Me/MecychexOOH-1
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-  2     C u0 p0 c0 {1,S} {3,S} {10,S} {14,S}
-  3     C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
-  4     C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
-  5     C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}
-  6     C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}
-  7  *1 O u0 p2 c0 {5,S} {8,S}
-  8  *2 O u0 p2 c0 {7,S} {22,S}
-  9     C u0 p0 c0 {5,S} {10,S} {23,S} {24,S}
-  10    C u0 p0 c0 {2,S} {9,S} {25,S} {26,S}
-  11    H u0 p0 c0 {1,S}
-  12    H u0 p0 c0 {1,S}
-  13    H u0 p0 c0 {1,S}
-  14    H u0 p0 c0 {2,S}
-  15    H u0 p0 c0 {3,S}
-  16    H u0 p0 c0 {3,S}
-  17    H u0 p0 c0 {4,S}
-  18    H u0 p0 c0 {4,S}
-  19    H u0 p0 c0 {6,S}
-  20    H u0 p0 c0 {6,S}
-  21    H u0 p0 c0 {6,S}
-  22    H u0 p0 c0 {8,S}
-  23    H u0 p0 c0 {9,S}
-  24    H u0 p0 c0 {9,S}
-  25    H u0 p0 c0 {10,S}
-  26    H u0 p0 c0 {10,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {10,S} {14,S}\n3     C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}\n4     C u0 p0\
+  \ c0 {3,S} {5,S} {17,S} {18,S}\n5     C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}\n6    \
+  \ C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}\n7  *1 O u0 p2 c0 {5,S} {8,S}\n8  *2 O u0\
+  \ p2 c0 {7,S} {22,S}\n9     C u0 p0 c0 {5,S} {10,S} {23,S} {24,S}\n10    C u0 p0\
+  \ c0 {2,S} {9,S} {25,S} {26,S}\n11    H u0 p0 c0 {1,S}\n12    H u0 p0 c0 {1,S}\n\
+  13    H u0 p0 c0 {1,S}\n14    H u0 p0 c0 {2,S}\n15    H u0 p0 c0 {3,S}\n16    H\
+  \ u0 p0 c0 {3,S}\n17    H u0 p0 c0 {4,S}\n18    H u0 p0 c0 {4,S}\n19    H u0 p0\
+  \ c0 {6,S}\n20    H u0 p0 c0 {6,S}\n21    H u0 p0 c0 {6,S}\n22    H u0 p0 c0 {8,S}\n\
+  23    H u0 p0 c0 {9,S}\n24    H u0 p0 c0 {9,S}\n25    H u0 p0 c0 {10,S}\n26    H\
+  \ u0 p0 c0 {10,S}\n"
 ---
 label: Me/MecychexOOH-2
-adjacency_list: |-
-  1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-  2     C u0 p0 c0 {1,S} {3,S} {10,S} {14,S}
-  3     C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
-  4     C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
-  5     C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}
-  6     C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}
-  7     O u0 p2 c0 {5,S} {8,S}
-  8  *4 O u0 p2 c0 {7,S} {22,S}
-  9     C u0 p0 c0 {5,S} {10,S} {23,S} {24,S}
-  10    C u0 p0 c0 {2,S} {9,S} {25,S} {26,S}
-  11    H u0 p0 c0 {1,S}
-  12    H u0 p0 c0 {1,S}
-  13    H u0 p0 c0 {1,S}
-  14    H u0 p0 c0 {2,S}
-  15    H u0 p0 c0 {3,S}
-  16    H u0 p0 c0 {3,S}
-  17    H u0 p0 c0 {4,S}
-  18    H u0 p0 c0 {4,S}
-  19    H u0 p0 c0 {6,S}
-  20    H u0 p0 c0 {6,S}
-  21    H u0 p0 c0 {6,S}
-  22 *3 H u0 p0 c0 {8,S}
-  23    H u0 p0 c0 {9,S}
-  24    H u0 p0 c0 {9,S}
-  25    H u0 p0 c0 {10,S}
-  26    H u0 p0 c0 {10,S}
+adjacency_list: "1     C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}\n2     C u0 p0 c0 {1,S}\
+  \ {3,S} {10,S} {14,S}\n3     C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}\n4     C u0 p0\
+  \ c0 {3,S} {5,S} {17,S} {18,S}\n5     C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}\n6    \
+  \ C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}\n7     O u0 p2 c0 {5,S} {8,S}\n8  *4 O u0\
+  \ p2 c0 {7,S} {22,S}\n9     C u0 p0 c0 {5,S} {10,S} {23,S} {24,S}\n10    C u0 p0\
+  \ c0 {2,S} {9,S} {25,S} {26,S}\n11    H u0 p0 c0 {1,S}\n12    H u0 p0 c0 {1,S}\n\
+  13    H u0 p0 c0 {1,S}\n14    H u0 p0 c0 {2,S}\n15    H u0 p0 c0 {3,S}\n16    H\
+  \ u0 p0 c0 {3,S}\n17    H u0 p0 c0 {4,S}\n18    H u0 p0 c0 {4,S}\n19    H u0 p0\
+  \ c0 {6,S}\n20    H u0 p0 c0 {6,S}\n21    H u0 p0 c0 {6,S}\n22 *3 H u0 p0 c0 {8,S}\n\
+  23    H u0 p0 c0 {9,S}\n24    H u0 p0 c0 {9,S}\n25    H u0 p0 c0 {10,S}\n26    H\
+  \ u0 p0 c0 {10,S}\n"
 ---
 label: Me/MecychexOOrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}
-  2  C u0 p0 c0 {1,S} {3,S} {10,S} {14,S}
-  3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}
-  4  C u0 p0 c0 {3,S} {5,S} {17,S} {18,S}
-  5  C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}
-  6  C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}
-  7  O u0 p2 c0 {5,S} {8,S}
-  8  O u1 p2 c0 {7,S}
-  9  C u0 p0 c0 {5,S} {10,S} {22,S} {23,S}
-  10 C u0 p0 c0 {2,S} {9,S} {24,S} {25,S}
-  11 H u0 p0 c0 {1,S}
-  12 H u0 p0 c0 {1,S}
-  13 H u0 p0 c0 {1,S}
-  14 H u0 p0 c0 {2,S}
-  15 H u0 p0 c0 {3,S}
-  16 H u0 p0 c0 {3,S}
-  17 H u0 p0 c0 {4,S}
-  18 H u0 p0 c0 {4,S}
-  19 H u0 p0 c0 {6,S}
-  20 H u0 p0 c0 {6,S}
-  21 H u0 p0 c0 {6,S}
-  22 H u0 p0 c0 {9,S}
-  23 H u0 p0 c0 {9,S}
-  24 H u0 p0 c0 {10,S}
-  25 H u0 p0 c0 {10,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {11,S} {12,S} {13,S}\n2  C u0\
+  \ p0 c0 {1,S} {3,S} {10,S} {14,S}\n3  C u0 p0 c0 {2,S} {4,S} {15,S} {16,S}\n4  C\
+  \ u0 p0 c0 {3,S} {5,S} {17,S} {18,S}\n5  C u0 p0 c0 {4,S} {6,S} {7,S} {9,S}\n6 \
+  \ C u0 p0 c0 {5,S} {19,S} {20,S} {21,S}\n7  O u0 p2 c0 {5,S} {8,S}\n8  O u1 p2 c0\
+  \ {7,S}\n9  C u0 p0 c0 {5,S} {10,S} {22,S} {23,S}\n10 C u0 p0 c0 {2,S} {9,S} {24,S}\
+  \ {25,S}\n11 H u0 p0 c0 {1,S}\n12 H u0 p0 c0 {1,S}\n13 H u0 p0 c0 {1,S}\n14 H u0\
+  \ p0 c0 {2,S}\n15 H u0 p0 c0 {3,S}\n16 H u0 p0 c0 {3,S}\n17 H u0 p0 c0 {4,S}\n18\
+  \ H u0 p0 c0 {4,S}\n19 H u0 p0 c0 {6,S}\n20 H u0 p0 c0 {6,S}\n21 H u0 p0 c0 {6,S}\n\
+  22 H u0 p0 c0 {9,S}\n23 H u0 p0 c0 {9,S}\n24 H u0 p0 c0 {10,S}\n25 H u0 p0 c0 {10,S}\n"
 ---
 label: Me/MecychexOrad
-adjacency_list: |-
-  multiplicity 2
-  1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}
-  2  C u0 p0 c0 {1,S} {3,S} {9,S} {13,S}
-  3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}
-  4  C u0 p0 c0 {3,S} {5,S} {16,S} {17,S}
-  5  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}
-  6  C u0 p0 c0 {5,S} {18,S} {19,S} {20,S}
-  7  O u1 p2 c0 {5,S}
-  8  C u0 p0 c0 {5,S} {9,S} {21,S} {22,S}
-  9  C u0 p0 c0 {2,S} {8,S} {23,S} {24,S}
-  10 H u0 p0 c0 {1,S}
-  11 H u0 p0 c0 {1,S}
-  12 H u0 p0 c0 {1,S}
-  13 H u0 p0 c0 {2,S}
-  14 H u0 p0 c0 {3,S}
-  15 H u0 p0 c0 {3,S}
-  16 H u0 p0 c0 {4,S}
-  17 H u0 p0 c0 {4,S}
-  18 H u0 p0 c0 {6,S}
-  19 H u0 p0 c0 {6,S}
-  20 H u0 p0 c0 {6,S}
-  21 H u0 p0 c0 {8,S}
-  22 H u0 p0 c0 {8,S}
-  23 H u0 p0 c0 {9,S}
-  24 H u0 p0 c0 {9,S}
+adjacency_list: "multiplicity 2\n1  C u0 p0 c0 {2,S} {10,S} {11,S} {12,S}\n2  C u0\
+  \ p0 c0 {1,S} {3,S} {9,S} {13,S}\n3  C u0 p0 c0 {2,S} {4,S} {14,S} {15,S}\n4  C\
+  \ u0 p0 c0 {3,S} {5,S} {16,S} {17,S}\n5  C u0 p0 c0 {4,S} {6,S} {7,S} {8,S}\n6 \
+  \ C u0 p0 c0 {5,S} {18,S} {19,S} {20,S}\n7  O u1 p2 c0 {5,S}\n8  C u0 p0 c0 {5,S}\
+  \ {9,S} {21,S} {22,S}\n9  C u0 p0 c0 {2,S} {8,S} {23,S} {24,S}\n10 H u0 p0 c0 {1,S}\n\
+  11 H u0 p0 c0 {1,S}\n12 H u0 p0 c0 {1,S}\n13 H u0 p0 c0 {2,S}\n14 H u0 p0 c0 {3,S}\n\
+  15 H u0 p0 c0 {3,S}\n16 H u0 p0 c0 {4,S}\n17 H u0 p0 c0 {4,S}\n18 H u0 p0 c0 {6,S}\n\
+  19 H u0 p0 c0 {6,S}\n20 H u0 p0 c0 {6,S}\n21 H u0 p0 c0 {8,S}\n22 H u0 p0 c0 {8,S}\n\
+  23 H u0 p0 c0 {9,S}\n24 H u0 p0 c0 {9,S}\n"

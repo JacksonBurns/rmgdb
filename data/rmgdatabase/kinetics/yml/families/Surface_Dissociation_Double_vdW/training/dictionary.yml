@@ -1,37 +1,22 @@
 label: O*
-adjacency_list: |-
-  1 *2 O u0 p2 c0 {2,D}
-  2 *1 X u0 p0 c0 {1,D}
+adjacency_list: "1 *2 O u0 p2 c0 {2,D}\n2 *1 X u0 p0 c0 {1,D}\n"
 ---
 label: CO*
-adjacency_list: |-
-  1    O u0 p2 c0 {2,D}
-  2 *3 C u0 p0 c0 {1,D} {3,D}
-  3 *4 X u0 p0 c0 {2,D}
+adjacency_list: "1    O u0 p2 c0 {2,D}\n2 *3 C u0 p0 c0 {1,D} {3,D}\n3 *4 X u0 p0\
+  \ c0 {2,D}\n"
 ---
 label: CO2*
-adjacency_list: |-
-  1    O u0 p2 c0 {3,D}
-  2 *2 O u0 p2 c0 {3,D}
-  3 *3 C u0 p0 c0 {1,D} {2,D}
-  4 *1 X u0 p0 c0
+adjacency_list: "1    O u0 p2 c0 {3,D}\n2 *2 O u0 p2 c0 {3,D}\n3 *3 C u0 p0 c0 {1,D}\
+  \ {2,D}\n4 *1 X u0 p0 c0\n"
 ---
 label: X_4
-adjacency_list: 1 *4 X u0 p0 c0
+adjacency_list: "1 *4 X u0 p0 c0\n"
 ---
 label: HCOOH*
-adjacency_list: |-
-  1    O u0 p2 c0 {3,S} {5,S}
-  2 *2 O u0 p2 c0 {3,D}
-  3 *3 C u0 p0 c0 {1,S} {2,D} {4,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {1,S}
-  6 *1 X u0 p0 c0
+adjacency_list: "1    O u0 p2 c0 {3,S} {5,S}\n2 *2 O u0 p2 c0 {3,D}\n3 *3 C u0 p0\
+  \ c0 {1,S} {2,D} {4,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {1,S}\n6 *1 X u0\
+  \ p0 c0\n"
 ---
 label: HCOH*
-adjacency_list: |-
-  1    O u0 p2 c0 {2,S} {4,S}
-  2 *3 C u0 p0 c0 {1,S} {3,S} {5,D}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {1,S}
-  5 *4 X u0 p0 c0 {2,D}
+adjacency_list: "1    O u0 p2 c0 {2,S} {4,S}\n2 *3 C u0 p0 c0 {1,S} {3,S} {5,D}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {1,S}\n5 *4 X u0 p0 c0 {2,D}\n"

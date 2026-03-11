@@ -30,9 +30,7 @@ kinetics:
 ---
 label: adductd <=> pdt7
 degeneracy: 1.0
-long_description: |2
-
-  /ts9
+long_description: "\n/ts9\n"
 kinetics:
   type: Arrhenius
   A:
@@ -202,9 +200,7 @@ kinetics:
 ---
 label: pdt15 <=> pdt16
 degeneracy: 1.0
-long_description: |2
-
-  / Rate limiting step on BMK, -2 kcal/mol based on CCSD(t)-f12/avdz
+long_description: "\n/ Rate limiting step on BMK, -2 kcal/mol based on CCSD(t)-f12/avdz\n"
 kinetics:
   type: Arrhenius
   A:
@@ -371,9 +367,7 @@ kinetics:
 ---
 label: pdt23 <=> pdt30 + H
 degeneracy: 1.0
-long_description: |2
-
-  / ts31
+long_description: "\n/ ts31\n"
 kinetics:
   type: Arrhenius
   A:
@@ -514,9 +508,7 @@ kinetics:
 ---
 label: pdt16 <=> pdt20
 degeneracy: 1.0
-long_description: |2
-
-  /ts41
+long_description: "\n/ts41\n"
 kinetics:
   type: Arrhenius
   A:
@@ -592,9 +584,7 @@ kinetics:
 ---
 label: pdt16 <=> pdt33
 degeneracy: 1.0
-long_description: |2
-
-  /ts46
+long_description: "\n/ts46\n"
 kinetics:
   type: Arrhenius
   A:
@@ -610,9 +600,7 @@ kinetics:
 ---
 label: pdt33 <=> pdt20
 degeneracy: 1.0
-long_description: |2
-
-  /ts47
+long_description: "\n/ts47\n"
 kinetics:
   type: Arrhenius
   A:
@@ -628,9 +616,7 @@ kinetics:
 ---
 label: pdt33 <=> pdt29
 degeneracy: 1.0
-long_description: |2
-
-  /ts48
+long_description: "\n/ts48\n"
 kinetics:
   type: Arrhenius
   A:
@@ -646,10 +632,7 @@ kinetics:
 ---
 label: pdt31 + H <=> pdt29
 degeneracy: 1.0
-long_description: |2
-
-  / Estimates for ts49 to ts51 are within 50%
-  /ts49
+long_description: "\n/ Estimates for ts49 to ts51 are within 50%\n/ts49\n"
 kinetics:
   type: Arrhenius
   A:
@@ -665,9 +648,7 @@ kinetics:
 ---
 label: pdt30 + H <=> pdt29
 degeneracy: 1.0
-long_description: |2
-
-  /ts50
+long_description: "\n/ts50\n"
 kinetics:
   type: Arrhenius
   A:
@@ -683,9 +664,7 @@ kinetics:
 ---
 label: pdt35 + H <=> pdt29
 degeneracy: 1.0
-long_description: |2
-
-  /ts51
+long_description: "\n/ts51\n"
 kinetics:
   type: Arrhenius
   A:
@@ -701,9 +680,7 @@ kinetics:
 ---
 label: pdt10bis <=> pdt37
 degeneracy: 1.0
-long_description: |2
-
-  / ts52
+long_description: "\n/ ts52\n"
 kinetics:
   type: Arrhenius
   A:
@@ -719,9 +696,8 @@ kinetics:
 ---
 label: pdt38 + H <=> pdt37
 degeneracy: 1.0
-long_description: |2
-
-  /pdt37 = pdt38 + H             2.11E+09        1.35    27.3 0.0 0.0 0.0
+long_description: "\n/pdt37 = pdt38 + H             2.11E+09        1.35    27.3 0.0\
+  \ 0.0 0.0\n"
 kinetics:
   type: Arrhenius
   A:
@@ -737,9 +713,7 @@ kinetics:
 ---
 label: pdt15 <=> pdt39
 degeneracy: 1.0
-long_description: |2
-
-  / ts54
+long_description: "\n/ ts54\n"
 kinetics:
   type: Arrhenius
   A:
@@ -755,10 +729,8 @@ kinetics:
 ---
 label: pdt39 <=> pdt33
 degeneracy: 1.0
-long_description: |2
-
-  /ts55, BMK/cbsb7
-  /pdt39 = pdt33                 1.58E+11        0.8     41.8 0.0 0.0 0.0
+long_description: "\n/ts55, BMK/cbsb7\n/pdt39 = pdt33                 1.58E+11   \
+  \     0.8     41.8 0.0 0.0 0.0\n"
 kinetics:
   type: Arrhenius
   A:
@@ -774,9 +746,7 @@ kinetics:
 ---
 label: pdt14 <=> pdt57
 degeneracy: 1.0
-long_description: |2
-
-  /ts85 & ts86
+long_description: "\n/ts85 & ts86\n"
 kinetics:
   type: Arrhenius
   A:
@@ -807,9 +777,7 @@ kinetics:
 ---
 label: adductd <=> pdt55
 degeneracy: 1.0
-long_description: |2
-
-  /ts82, 83, 84, 87
+long_description: "\n/ts82, 83, 84, 87\n"
 kinetics:
   type: Arrhenius
   A:
@@ -870,9 +838,7 @@ kinetics:
 ---
 label: INDENYL <=> INDENYL_ADD
 degeneracy: 1.0
-long_description: |2
-
-  /Block indenyl to odd products
+long_description: "\n/Block indenyl to odd products\n"
 kinetics:
   type: Arrhenius
   A:

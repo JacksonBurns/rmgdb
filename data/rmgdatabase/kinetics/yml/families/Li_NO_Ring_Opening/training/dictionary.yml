@@ -1,170 +1,80 @@
 label: C2H4LiO
-adjacency_list: |-
-  multiplicity 2
-  1 *1 O  u0 p2 c0 {2,S} {4,S}
-  2    C  u0 p0 c0 {1,S} {3,S} {5,S} {6,S}
-  3 *2 C  u1 p0 c0 {2,S} {7,S} {8,S}
-  4 *3 Li u0 p0 c0 {1,S}
-  5    H  u0 p0 c0 {2,S}
-  6    H  u0 p0 c0 {2,S}
-  7    H  u0 p0 c0 {3,S}
-  8    H  u0 p0 c0 {3,S}
+adjacency_list: "multiplicity 2\n1 *1 O  u0 p2 c0 {2,S} {4,S}\n2    C  u0 p0 c0 {1,S}\
+  \ {3,S} {5,S} {6,S}\n3 *2 C  u1 p0 c0 {2,S} {7,S} {8,S}\n4 *3 Li u0 p0 c0 {1,S}\n\
+  5    H  u0 p0 c0 {2,S}\n6    H  u0 p0 c0 {2,S}\n7    H  u0 p0 c0 {3,S}\n8    H \
+  \ u0 p0 c0 {3,S}\n"
 ---
 label: C2H4O
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {3,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {3,S}
-  7    H u0 p0 c0 {3,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {3,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3    C u0 p0 c0 {1,S} {2,S} {6,S} {7,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {3,S}\n7    H u0 p0 c0 {3,S}\n"
 ---
 label: Li
-adjacency_list: |-
-  multiplicity 2
-  1 *3 Li u1 p0 c0
+adjacency_list: "multiplicity 2\n1 *3 Li u1 p0 c0\n"
 ---
 label: C4H9LiN
-adjacency_list: |-
-  multiplicity 2
-  1  *1 N  u0 p1 c0 {4,S} {6,S} {15,S}
-  2     C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
-  3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-  4     C  u0 p0 c0 {1,S} {2,S} {11,S} {12,S}
-  5  *2 C  u1 p0 c0 {3,S} {13,S} {14,S}
-  6  *3 Li u0 p0 c0 {1,S}
-  7     H  u0 p0 c0 {2,S}
-  8     H  u0 p0 c0 {2,S}
-  9     H  u0 p0 c0 {3,S}
-  10    H  u0 p0 c0 {3,S}
-  11    H  u0 p0 c0 {4,S}
-  12    H  u0 p0 c0 {4,S}
-  13    H  u0 p0 c0 {5,S}
-  14    H  u0 p0 c0 {5,S}
-  15    H  u0 p0 c0 {1,S}
+adjacency_list: "multiplicity 2\n1  *1 N  u0 p1 c0 {4,S} {6,S} {15,S}\n2     C  u0\
+  \ p0 c0 {3,S} {4,S} {7,S} {8,S}\n3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}\n4 \
+  \    C  u0 p0 c0 {1,S} {2,S} {11,S} {12,S}\n5  *2 C  u1 p0 c0 {3,S} {13,S} {14,S}\n\
+  6  *3 Li u0 p0 c0 {1,S}\n7     H  u0 p0 c0 {2,S}\n8     H  u0 p0 c0 {2,S}\n9   \
+  \  H  u0 p0 c0 {3,S}\n10    H  u0 p0 c0 {3,S}\n11    H  u0 p0 c0 {4,S}\n12    H\
+  \  u0 p0 c0 {4,S}\n13    H  u0 p0 c0 {5,S}\n14    H  u0 p0 c0 {5,S}\n15    H  u0\
+  \ p0 c0 {1,S}\n"
 ---
 label: C4H9N
-adjacency_list: |-
-  1  *1 N u0 p1 c0 {4,S} {5,S} {14,S}
-  2     C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-  3     C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-  4  *2 C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
-  5     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
-  12    H u0 p0 c0 {5,S}
-  13    H u0 p0 c0 {5,S}
-  14    H u0 p0 c0 {1,S}
+adjacency_list: "1  *1 N u0 p1 c0 {4,S} {5,S} {14,S}\n2     C u0 p0 c0 {3,S} {4,S}\
+  \ {6,S} {7,S}\n3     C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}\n4  *2 C u0 p0 c0 {1,S}\
+  \ {2,S} {10,S} {11,S}\n5     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}\n6     H u0 p0\
+  \ c0 {2,S}\n7     H u0 p0 c0 {2,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n\
+  10    H u0 p0 c0 {4,S}\n11    H u0 p0 c0 {4,S}\n12    H u0 p0 c0 {5,S}\n13    H\
+  \ u0 p0 c0 {5,S}\n14    H u0 p0 c0 {1,S}\n"
 ---
 label: C6H12LiO
-adjacency_list: |-
-  multiplicity 2
-  1  *1 O  u0 p2 c0 {6,S} {8,S}
-  2     C  u0 p0 c0 {3,S} {4,S} {11,S} {12,S}
-  3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-  4     C  u0 p0 c0 {2,S} {6,S} {13,S} {14,S}
-  5     C  u0 p0 c0 {3,S} {7,S} {15,S} {16,S}
-  6     C  u0 p0 c0 {1,S} {4,S} {17,S} {18,S}
-  7  *2 C  u1 p0 c0 {5,S} {19,S} {20,S}
-  8  *3 Li u0 p0 c0 {1,S}
-  9     H  u0 p0 c0 {3,S}
-  10    H  u0 p0 c0 {3,S}
-  11    H  u0 p0 c0 {2,S}
-  12    H  u0 p0 c0 {2,S}
-  13    H  u0 p0 c0 {4,S}
-  14    H  u0 p0 c0 {4,S}
-  15    H  u0 p0 c0 {5,S}
-  16    H  u0 p0 c0 {5,S}
-  17    H  u0 p0 c0 {6,S}
-  18    H  u0 p0 c0 {6,S}
-  19    H  u0 p0 c0 {7,S}
-  20    H  u0 p0 c0 {7,S}
+adjacency_list: "multiplicity 2\n1  *1 O  u0 p2 c0 {6,S} {8,S}\n2     C  u0 p0 c0\
+  \ {3,S} {4,S} {11,S} {12,S}\n3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}\n4     C\
+  \  u0 p0 c0 {2,S} {6,S} {13,S} {14,S}\n5     C  u0 p0 c0 {3,S} {7,S} {15,S} {16,S}\n\
+  6     C  u0 p0 c0 {1,S} {4,S} {17,S} {18,S}\n7  *2 C  u1 p0 c0 {5,S} {19,S} {20,S}\n\
+  8  *3 Li u0 p0 c0 {1,S}\n9     H  u0 p0 c0 {3,S}\n10    H  u0 p0 c0 {3,S}\n11  \
+  \  H  u0 p0 c0 {2,S}\n12    H  u0 p0 c0 {2,S}\n13    H  u0 p0 c0 {4,S}\n14    H\
+  \  u0 p0 c0 {4,S}\n15    H  u0 p0 c0 {5,S}\n16    H  u0 p0 c0 {5,S}\n17    H  u0\
+  \ p0 c0 {6,S}\n18    H  u0 p0 c0 {6,S}\n19    H  u0 p0 c0 {7,S}\n20    H  u0 p0\
+  \ c0 {7,S}\n"
 ---
 label: C6H12O
-adjacency_list: |-
-  1  *1 O u0 p2 c0 {6,S} {7,S}
-  2     C u0 p0 c0 {3,S} {4,S} {10,S} {11,S}
-  3     C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}
-  4     C u0 p0 c0 {2,S} {6,S} {8,S} {9,S}
-  5     C u0 p0 c0 {3,S} {7,S} {14,S} {15,S}
-  6  *2 C u0 p0 c0 {1,S} {4,S} {16,S} {17,S}
-  7     C u0 p0 c0 {1,S} {5,S} {18,S} {19,S}
-  8     H u0 p0 c0 {4,S}
-  9     H u0 p0 c0 {4,S}
-  10    H u0 p0 c0 {2,S}
-  11    H u0 p0 c0 {2,S}
-  12    H u0 p0 c0 {3,S}
-  13    H u0 p0 c0 {3,S}
-  14    H u0 p0 c0 {5,S}
-  15    H u0 p0 c0 {5,S}
-  16    H u0 p0 c0 {6,S}
-  17    H u0 p0 c0 {6,S}
-  18    H u0 p0 c0 {7,S}
-  19    H u0 p0 c0 {7,S}
+adjacency_list: "1  *1 O u0 p2 c0 {6,S} {7,S}\n2     C u0 p0 c0 {3,S} {4,S} {10,S}\
+  \ {11,S}\n3     C u0 p0 c0 {2,S} {5,S} {12,S} {13,S}\n4     C u0 p0 c0 {2,S} {6,S}\
+  \ {8,S} {9,S}\n5     C u0 p0 c0 {3,S} {7,S} {14,S} {15,S}\n6  *2 C u0 p0 c0 {1,S}\
+  \ {4,S} {16,S} {17,S}\n7     C u0 p0 c0 {1,S} {5,S} {18,S} {19,S}\n8     H u0 p0\
+  \ c0 {4,S}\n9     H u0 p0 c0 {4,S}\n10    H u0 p0 c0 {2,S}\n11    H u0 p0 c0 {2,S}\n\
+  12    H u0 p0 c0 {3,S}\n13    H u0 p0 c0 {3,S}\n14    H u0 p0 c0 {5,S}\n15    H\
+  \ u0 p0 c0 {5,S}\n16    H u0 p0 c0 {6,S}\n17    H u0 p0 c0 {6,S}\n18    H u0 p0\
+  \ c0 {7,S}\n19    H u0 p0 c0 {7,S}\n"
 ---
 label: C4H8LiO
-adjacency_list: |-
-  multiplicity 2
-  1  *1 O  u0 p2 c0 {4,S} {6,S}
-  2     C  u0 p0 c0 {3,S} {4,S} {7,S} {8,S}
-  3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}
-  4     C  u0 p0 c0 {1,S} {2,S} {11,S} {12,S}
-  5  *2 C  u1 p0 c0 {3,S} {13,S} {14,S}
-  6  *3 Li u0 p0 c0 {1,S}
-  7     H  u0 p0 c0 {2,S}
-  8     H  u0 p0 c0 {2,S}
-  9     H  u0 p0 c0 {3,S}
-  10    H  u0 p0 c0 {3,S}
-  11    H  u0 p0 c0 {4,S}
-  12    H  u0 p0 c0 {4,S}
-  13    H  u0 p0 c0 {5,S}
-  14    H  u0 p0 c0 {5,S}
+adjacency_list: "multiplicity 2\n1  *1 O  u0 p2 c0 {4,S} {6,S}\n2     C  u0 p0 c0\
+  \ {3,S} {4,S} {7,S} {8,S}\n3     C  u0 p0 c0 {2,S} {5,S} {9,S} {10,S}\n4     C \
+  \ u0 p0 c0 {1,S} {2,S} {11,S} {12,S}\n5  *2 C  u1 p0 c0 {3,S} {13,S} {14,S}\n6 \
+  \ *3 Li u0 p0 c0 {1,S}\n7     H  u0 p0 c0 {2,S}\n8     H  u0 p0 c0 {2,S}\n9    \
+  \ H  u0 p0 c0 {3,S}\n10    H  u0 p0 c0 {3,S}\n11    H  u0 p0 c0 {4,S}\n12    H \
+  \ u0 p0 c0 {4,S}\n13    H  u0 p0 c0 {5,S}\n14    H  u0 p0 c0 {5,S}\n"
 ---
 label: C4H8O
-adjacency_list: |-
-  1  *1 O u0 p2 c0 {4,S} {5,S}
-  2     C u0 p0 c0 {3,S} {4,S} {6,S} {7,S}
-  3     C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}
-  4  *2 C u0 p0 c0 {1,S} {2,S} {10,S} {11,S}
-  5     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}
-  6     H u0 p0 c0 {2,S}
-  7     H u0 p0 c0 {2,S}
-  8     H u0 p0 c0 {3,S}
-  9     H u0 p0 c0 {3,S}
-  10    H u0 p0 c0 {4,S}
-  11    H u0 p0 c0 {4,S}
-  12    H u0 p0 c0 {5,S}
-  13    H u0 p0 c0 {5,S}
+adjacency_list: "1  *1 O u0 p2 c0 {4,S} {5,S}\n2     C u0 p0 c0 {3,S} {4,S} {6,S}\
+  \ {7,S}\n3     C u0 p0 c0 {2,S} {5,S} {8,S} {9,S}\n4  *2 C u0 p0 c0 {1,S} {2,S}\
+  \ {10,S} {11,S}\n5     C u0 p0 c0 {1,S} {3,S} {12,S} {13,S}\n6     H u0 p0 c0 {2,S}\n\
+  7     H u0 p0 c0 {2,S}\n8     H u0 p0 c0 {3,S}\n9     H u0 p0 c0 {3,S}\n10    H\
+  \ u0 p0 c0 {4,S}\n11    H u0 p0 c0 {4,S}\n12    H u0 p0 c0 {5,S}\n13    H u0 p0\
+  \ c0 {5,S}\n"
 ---
 label: C3H4O3
-adjacency_list: |-
-  1  *1 O u0 p2 c0 {4,S} {6,S}
-  2     O u0 p2 c0 {5,S} {6,S}
-  3     O u0 p2 c0 {6,D}
-  4  *2 C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}
-  5     C u0 p0 c0 {2,S} {4,S} {9,S} {10,S}
-  6     C u0 p0 c0 {1,S} {2,S} {3,D}
-  7     H u0 p0 c0 {4,S}
-  8     H u0 p0 c0 {4,S}
-  9     H u0 p0 c0 {5,S}
-  10    H u0 p0 c0 {5,S}
+adjacency_list: "1  *1 O u0 p2 c0 {4,S} {6,S}\n2     O u0 p2 c0 {5,S} {6,S}\n3   \
+  \  O u0 p2 c0 {6,D}\n4  *2 C u0 p0 c0 {1,S} {5,S} {7,S} {8,S}\n5     C u0 p0 c0\
+  \ {2,S} {4,S} {9,S} {10,S}\n6     C u0 p0 c0 {1,S} {2,S} {3,D}\n7     H u0 p0 c0\
+  \ {4,S}\n8     H u0 p0 c0 {4,S}\n9     H u0 p0 c0 {5,S}\n10    H u0 p0 c0 {5,S}\n"
 ---
 label: C3H4LiO3
-adjacency_list: |-
-  multiplicity 2
-  1     O  u0 p2 c0 {4,S} {6,S}
-  2  *1 O  u0 p2 c0 {6,S} {7,S}
-  3     O  u0 p2 c0 {6,D}
-  4     C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}
-  5  *2 C  u1 p0 c0 {4,S} {10,S} {11,S}
-  6     C  u0 p0 c0 {1,S} {2,S} {3,D}
-  7  *3 Li u0 p0 c0 {2,S}
-  8     H  u0 p0 c0 {4,S}
-  9     H  u0 p0 c0 {4,S}
-  10    H  u0 p0 c0 {5,S}
-  11    H  u0 p0 c0 {5,S}
+adjacency_list: "multiplicity 2\n1     O  u0 p2 c0 {4,S} {6,S}\n2  *1 O  u0 p2 c0\
+  \ {6,S} {7,S}\n3     O  u0 p2 c0 {6,D}\n4     C  u0 p0 c0 {1,S} {5,S} {8,S} {9,S}\n\
+  5  *2 C  u1 p0 c0 {4,S} {10,S} {11,S}\n6     C  u0 p0 c0 {1,S} {2,S} {3,D}\n7  *3\
+  \ Li u0 p0 c0 {2,S}\n8     H  u0 p0 c0 {4,S}\n9     H  u0 p0 c0 {4,S}\n10    H \
+  \ u0 p0 c0 {5,S}\n11    H  u0 p0 c0 {5,S}\n"

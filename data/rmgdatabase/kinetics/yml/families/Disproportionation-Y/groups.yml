@@ -1,60 +1,57 @@
 label: Root
-group: |2
-
-  1 *2 R!H             u0         {2,[S,D,B]} {3,S}
-  2 *3 R!H             u[1,2]     {1,[S,D,B]}
-  3 *4 [F1s,Cl1s,Br1s] u0         {1,S}
-  4 *1 R               u[1,2,3,4]
+group: "\n1 *2 R!H             u0         {2,[S,D,B]} {3,S}\n2 *3 R!H            \
+  \ u[1,2]     {1,[S,D,B]}\n3 *4 [F1s,Cl1s,Br1s] u0         {1,S}\n4 *1 R        \
+  \       u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
-- Root_1NO->O
-- Root_N-1NO->O
+- Root_Ext-3R-R
+- Root_3R->F
+- Root_N-3R->F
+- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
+- Root_5CbCdCsHN->Cs
+- Root_N-5CbCdCsHN->Cs
+- Root_Sp-3R!H-2R!H
+- Root_N-Sp-3R!H-2R!H
+- Root_Ext-2R!H-R
+- Root_1R!H-inRing
+- Root_N-1R!H-inRing
+- Root_1COCSCdCdd->Cd
+- Root_N-1COCSCdCdd->Cd
+- Root_5R-inRing
+- Root_N-5R-inRing
+- Root_1R!H->C
+- Root_N-1R!H->C
+- Root_1R->H
+- Root_N-1R->H
+- Root_4R->N
+- Root_N-4R->N
+- Root_1R!H->N
+- Root_N-1R!H->N
+- Root_4R!H->C
+- Root_N-4R!H->C
 - Root_2ClFH->H
 - Root_N-2ClFH->H
-- Backbone1
-- Backbone2
-- Backbone3
-- Backbone4
-- Backbone5
-- Backbone6
-- Backbone7
-- Backbone8
-- Backbone9
-- Backbone10
+- Root_Ext-2R-R
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_2R->C
+- Root_N-2R->C
+- Root_3R->H
+- Root_N-3R->H
+- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
+- Root_Ext-1CbCbf-R
+- Root_5Ct-inRing
+- Root_N-5Ct-inRing
 - Root_Ext-1R!H-R
 - Root_Ext-2R!H-R
 - Root_4R->H
 - Root_N-4R->H
-- Root_1COCSCdCdd->Cd
-- Root_N-1COCSCdCdd->Cd
-- Root_1R->H
-- Root_N-1R->H
-- F
-- Cl
-- Br
-- Root_1NO->O
-- Root_N-1NO->O
-- Root_5CbCdCsHN->Cs
-- Root_N-5CbCdCsHN->Cs
-- Root_1R!H->C
-- Root_N-1R!H->C
-- Root_4R!H->C
-- Root_N-4R!H->C
-- Root_5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
-- Root_N-5COCSCdCddCtN3dN3tN5dcN5tcO2dS2dS4dS4tS6dS6tS6tdS6tt->Cd
-- Root_4R!H->C
-- Root_N-4R!H->C
-- Root_4R->N
-- Root_N-4R->N
-- Root_Ext-5R-R
-- Root_Ext-3R-R
-- Root_1Br1sCl1sF1sH->Cl1s
-- Root_N-1Br1sCl1sF1sH->Cl1s
-- Root_5R-inRing
-- Root_N-5R-inRing
-- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
-- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
+- Root_4R->F
+- Root_N-4R->F
+- Root_1R->O
+- Root_N-1R->O
 - Backbone0
 - Backbone1
 - Backbone2
@@ -66,77 +63,65 @@ children:
 - Backbone9
 - Backbone10
 - Backbone6
-- Root_2ClF->F
-- Root_N-2ClF->F
-- Root_Sp-3R!H-2R!H
-- Root_N-Sp-3R!H-2R!H
-- Root_2R->C
-- Root_N-2R->C
-- Root_Ext-2R-R
-- Root_3R->H
-- Root_N-3R->H
-- Root_Ext-3R-R_Ext-5R!H-R_Ext-5R!H-R_Ext-3R-R
-- Root_1R->O
-- Root_N-1R->O
+- Backbone1
+- Backbone2
+- Backbone3
+- Backbone4
+- Backbone5
+- Backbone6
+- Backbone7
+- Backbone8
+- Backbone9
+- Backbone10
 - Root_3R!H->C
 - Root_N-3R!H->C
-- Root_6R->C
-- Root_N-6R->C
-- Root_Ext-2R!H-R
-- Root_1R!H-inRing
-- Root_N-1R!H-inRing
-- Root_Ext-1CbCbf-R
-- Root_5Ct-inRing
-- Root_N-5Ct-inRing
+- Root_2ClF->F
+- Root_N-2ClF->F
 - Root_1R!H->C
 - Root_N-1R!H->C
 - Root_1NO->O
 - Root_N-1NO->O
+- Root_1NO->O
+- Root_N-1NO->O
+- Root_Ext-5R-R
+- Root_Ext-3R-R
+- Root_6R->C
+- Root_N-6R->C
 - Root_1R->H
 - Root_N-1R->H
-- Root_1R!H->N
-- Root_N-1R!H->N
-- Root_Ext-3R-R
-- Root_3R->F
-- Root_N-3R->F
-- Root_1R!H->C
-- Root_N-1R!H->C
+- Root_4R!H->C
+- Root_N-4R!H->C
+- Root_Ext-3C-R_Ext-4R!H-R_Sp-4R!H-1C
+- Root_Ext-3C-R_Ext-4R!H-R_N-Sp-4R!H-1C
 - Root_4CHNOS->H
 - Root_N-4CHNOS->H
-- Root_4R->F
-- Root_N-4R->F
+- Root_1Br1sCl1sF1sH->Cl1s
+- Root_N-1Br1sCl1sF1sH->Cl1s
+- Root_1R!H->C
+- Root_N-1R!H->C
+- F
+- Cl
+- Br
 ---
 label: Root_4R->F
-group: |2
-
-  1 *2 C   u0         {2,S} {3,S}
-  2 *3 R!H u[1,2]     {1,S}
-  3 *4 F1s u0         {1,S}
-  4 *1 F   u[1,2,3,4]
+group: "\n1 *2 C   u0         {2,S} {3,S}\n2 *3 R!H u[1,2]     {1,S}\n3 *4 F1s u0\
+  \         {1,S}\n4 *1 F   u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
 - Root_4R->F_Ext-1R!H-R
 ---
 label: Root_4R->F_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0         {2,S} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 R!H u[1,2]     {1,S}
-  3 *4 F1s u0         {1,S}
-  4 *1 F   u[1,2,3,4]
-  5    R!H ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0         {2,S} {3,S} {5,[S,D,T,B,Q]}\n2 *3 R!H u[1,2]     {1,S}\n\
+  3 *4 F1s u0         {1,S}\n4 *1 F   u[1,2,3,4]\n5    R!H ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F
-group: |2
-
-  1 *2 C                        u0         {2,[S,D,B]} {3,S}
-  2 *3 R!H                      u[1,2]     {1,[S,D,B]}
-  3 *4 [F1s,Cl1s,Br1s]          u0         {1,S}
-  4 *1 [C,N,P,H,Si,I,Br,Cl,O,S] u[1,2,3,4]
+group: "\n1 *2 C                        u0         {2,[S,D,B]} {3,S}\n2 *3 R!H   \
+  \                   u[1,2]     {1,[S,D,B]}\n3 *4 [F1s,Cl1s,Br1s]          u0   \
+  \      {1,S}\n4 *1 [C,N,P,H,Si,I,Br,Cl,O,S] u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -144,12 +129,9 @@ children:
 - Root_N-4R->F_N-4BrCClHINOPSSi->H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H
-group: |2
-
-  1 *2 C               u0         {2,[S,D,B]} {3,S}
-  2 *3 R!H             u[1,2]     {1,[S,D,B]}
-  3 *4 [F1s,Cl1s,Br1s] u0         {1,S}
-  4 *1 H               u[1,2,3,4]
+group: "\n1 *2 C               u0         {2,[S,D,B]} {3,S}\n2 *3 R!H            \
+  \ u[1,2]     {1,[S,D,B]}\n3 *4 [F1s,Cl1s,Br1s] u0         {1,S}\n4 *1 H        \
+  \       u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -157,12 +139,8 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S}
-  2 *3 C    u[1,2]     {1,[S,D,B]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S}\n2 *3 C    u[1,2]     {1,[S,D,B]}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -172,13 +150,9 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    R!H  ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]\
+  \     {1,[S,D,B]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    R!H  ux\
+  \         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -186,13 +160,9 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_N-5R!H->Cl
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]\
+  \     {1,[S,D,B]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux\
+  \         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -202,58 +172,38 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-1R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    Cl   ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}\n\
+  2 *3 C    u[1,2]     {1,[S,D,B]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n\
+  5    Cl   ux         {1,[S,D,T,B,Q]}\n6    Cl   ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-1R!H-R_Ext-2R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-1R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]} {7,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    Cl   ux         {1,[S,D,T,B,Q]}
-  7    R!H  ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}\n\
+  2 *3 C    u[1,2]     {1,[S,D,B]} {7,[S,D,T,B,Q]}\n3 *4 Cl1s u0         {1,S}\n4\
+  \ *1 H    u[1,2,3,4]\n5    Cl   ux         {1,[S,D,T,B,Q]}\n6    Cl   ux       \
+  \  {1,[S,D,T,B,Q]}\n7    R!H  ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-1R!H-R_Ext-2R!H-R_Ext-2R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-1R!H-R_Ext-2R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    Cl   ux         {1,[S,D,T,B,Q]}
-  7    R!H  ux         {2,[S,D,T,B,Q]}
-  8    R!H  ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}\n\
+  2 *3 C    u[1,2]     {1,[S,D,B]} {7,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n3 *4 Cl1s u0 \
+  \        {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux         {1,[S,D,T,B,Q]}\n6  \
+  \  Cl   ux         {1,[S,D,T,B,Q]}\n7    R!H  ux         {2,[S,D,T,B,Q]}\n8    R!H\
+  \  ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,[S,D,B]} {6,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    R!H  ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]\
+  \     {1,[S,D,B]} {6,[S,D,T,B,Q]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n\
+  5    Cl   ux         {1,[S,D,T,B,Q]}\n6    R!H  ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -262,89 +212,55 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-2R!H-R_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-2R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0 r0 {2,[S,D,B]} {3,S} {5,S}
-  2 *3 C    u1 r0 {1,[S,D,B]} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-  3 *4 Cl1s u0 r0 {1,S}
-  4 *1 H    u1 r0
-  5    Cl   u0 r0 {1,S}
-  6    R!H  ux {2,[S,D,T,B,Q]}
-  7    R!H  ux {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0 r0 {2,[S,D,B]} {3,S} {5,S}\n2 *3 C    u1 r0 {1,[S,D,B]} {6,[S,D,T,B,Q]}\
+  \ {7,[S,D,T,B,Q]}\n3 *4 Cl1s u0 r0 {1,S}\n4 *1 H    u1 r0\n5    Cl   u0 r0 {1,S}\n\
+  6    R!H  ux {2,[S,D,T,B,Q]}\n7    R!H  ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-2R!H-R_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,S} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,S} {6,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    Cl   ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,S} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]     {1,S}\
+  \ {6,[S,D,T,B,Q]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux\
+  \         {1,[S,D,T,B,Q]}\n6    Cl   ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Ext-2R!H-R_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,D} {6,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
-  6    Cl   ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]     {1,D}\
+  \ {6,[S,D,T,B,Q]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux\
+  \         {1,[S,D,T,B,Q]}\n6    Cl   ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,S} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,S}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,S} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]     {1,S}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_5R!H->Cl_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,D}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]     {1,D}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-1R!H-R_N-5R!H->Cl
-group: |2
-
-  1 *2 C                     u0 r0 {2,[S,D,B]} {3,S} {5,S}
-  2 *3 C                     u1 r0 {1,[S,D,B]}
-  3 *4 Cl1s                  u0 r0 {1,S}
-  4 *1 H                     u1 r0
-  5    [C,N,P,Si,F,I,Br,O,S] u0 r0 {1,S}
+group: "\n1 *2 C                     u0 r0 {2,[S,D,B]} {3,S} {5,S}\n2 *3 C       \
+  \              u1 r0 {1,[S,D,B]}\n3 *4 Cl1s                  u0 r0 {1,S}\n4 *1 H\
+  \                     u1 r0\n5    [C,N,P,Si,F,I,Br,O,S] u0 r0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0         {2,[S,D,B]} {3,S}
-  2 *3 C    u[1,2]     {1,[S,D,B]} {5,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    R!H  ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,[S,D,B]} {3,S}\n2 *3 C    u[1,2]     {1,[S,D,B]}\
+  \ {5,[S,D,T,B,Q]}\n3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    R!H  ux\
+  \         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -353,71 +269,44 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0 r0 {2,[S,D,B]} {3,S}
-  2 *3 C    u1 r0 {1,[S,D,B]} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  3 *4 Cl1s u0 r0 {1,S}
-  4 *1 H    u1 r0
-  5    R!H  ux {2,[S,D,T,B,Q]}
-  6    R!H  ux {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0 r0 {2,[S,D,B]} {3,S}\n2 *3 C    u1 r0 {1,[S,D,B]} {5,[S,D,T,B,Q]}\
+  \ {6,[S,D,T,B,Q]}\n3 *4 Cl1s u0 r0 {1,S}\n4 *1 H    u1 r0\n5    R!H  ux {2,[S,D,T,B,Q]}\n\
+  6    R!H  ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,S} {3,S}
-  2 *3 C    u[1,2]     {1,S} {5,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,S} {3,S}\n2 *3 C    u[1,2]     {1,S} {5,[S,D,T,B,Q]}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S}
-  2 *3 C    u[1,2]     {1,D} {5,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
-  5    Cl   ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,D} {3,S}\n2 *3 C    u[1,2]     {1,D} {5,[S,D,T,B,Q]}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 H    u[1,2,3,4]\n5    Cl   ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,S} {3,S}
-  2 *3 C    u[1,2]     {1,S}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
+group: "\n1 *2 C    u0         {2,S} {3,S}\n2 *3 C    u[1,2]     {1,S}\n3 *4 Cl1s\
+  \ u0         {1,S}\n4 *1 H    u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S}
-  2 *3 C    u[1,2]     {1,D}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 H    u[1,2,3,4]
+group: "\n1 *2 C    u0         {2,D} {3,S}\n2 *3 C    u[1,2]     {1,D}\n3 *4 Cl1s\
+  \ u0         {1,S}\n4 *1 H    u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s
-group: |2
-
-  1 *2 C          u0         {2,[S,D,B]} {3,S}
-  2 *3 R!H        u[1,2]     {1,[S,D,B]}
-  3 *4 [F1s,Br1s] u0         {1,S}
-  4 *1 H          u[1,2,3,4]
+group: "\n1 *2 C          u0         {2,[S,D,B]} {3,S}\n2 *3 R!H        u[1,2]   \
+  \  {1,[S,D,B]}\n3 *4 [F1s,Br1s] u0         {1,S}\n4 *1 H          u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -426,13 +315,9 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R
-group: |2
-
-  1 *2 C          u0         {2,[S,D,B]} {3,S}
-  2 *3 C          u[1,2]     {1,[S,D,B]} {5,[S,D,T,B,Q]}
-  3 *4 [F1s,Br1s] u0         {1,S}
-  4 *1 H          u[1,2,3,4]
-  5    R!H        ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C          u0         {2,[S,D,B]} {3,S}\n2 *3 C          u[1,2]   \
+  \  {1,[S,D,B]} {5,[S,D,T,B,Q]}\n3 *4 [F1s,Br1s] u0         {1,S}\n4 *1 H       \
+  \   u[1,2,3,4]\n5    R!H        ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -440,13 +325,9 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C          u0         {2,S} {3,S}
-  2 *3 C          u[1,2]     {1,S} {5,[S,D,T,B,Q]}
-  3 *4 [F1s,Br1s] u0         {1,S}
-  4 *1 H          u[1,2,3,4]
-  5    R!H        ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C          u0         {2,S} {3,S}\n2 *3 C          u[1,2]     {1,S}\
+  \ {5,[S,D,T,B,Q]}\n3 *4 [F1s,Br1s] u0         {1,S}\n4 *1 H          u[1,2,3,4]\n\
+  5    R!H        ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -454,14 +335,10 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-2R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R
-group: |2
-
-  1 *2 C          u0         {2,S} {3,S} {6,[S,D,T,B,Q]}
-  2 *3 C          u[1,2]     {1,S} {5,[S,D,T,B,Q]}
-  3 *4 [F1s,Br1s] u0         {1,S}
-  4 *1 H          u[1,2,3,4]
-  5    R!H        ux         {2,[S,D,T,B,Q]}
-  6    R!H        ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C          u0         {2,S} {3,S} {6,[S,D,T,B,Q]}\n2 *3 C         \
+  \ u[1,2]     {1,S} {5,[S,D,T,B,Q]}\n3 *4 [F1s,Br1s] u0         {1,S}\n4 *1 H   \
+  \       u[1,2,3,4]\n5    R!H        ux         {2,[S,D,T,B,Q]}\n6    R!H       \
+  \ ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -469,14 +346,9 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_N-3Br1sF1s->F1s
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s
-group: |2
-
-  1 *2 C   u0         {2,S} {3,S} {6,[S,D,T,B,Q]}
-  2 *3 C   u[1,2]     {1,S} {5,[S,D,T,B,Q]}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    R!H ux         {2,[S,D,T,B,Q]}
-  6    R!H ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0         {2,S} {3,S} {6,[S,D,T,B,Q]}\n2 *3 C   u[1,2]     {1,S}\
+  \ {5,[S,D,T,B,Q]}\n3 *4 F1s u0         {1,S}\n4 *1 H   u[1,2,3,4]\n5    R!H ux \
+  \        {2,[S,D,T,B,Q]}\n6    R!H ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -484,83 +356,49 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s_Ext-2R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0 {2,S} {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-  2 *3 C   u1 {1,S} {5,[S,D,T,B,Q]}
-  3 *4 F1s u0 {1,S}
-  4 *1 H   u1
-  5    R!H ux {2,[S,D,T,B,Q]}
-  6    R!H ux {1,[S,D,T,B,Q]}
-  7    R!H ux {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 {2,S} {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}\n2 *3 C   u1 {1,S}\
+  \ {5,[S,D,T,B,Q]}\n3 *4 F1s u0 {1,S}\n4 *1 H   u1\n5    R!H ux {2,[S,D,T,B,Q]}\n\
+  6    R!H ux {1,[S,D,T,B,Q]}\n7    R!H ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s_Ext-1R!H-R_Ext-2R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s_Ext-1R!H-R_Ext-2R!H-R
-group: |2
-
-  1 *2 C   u0 r0 {2,S} {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-  2 *3 C   u1 r0 {1,S} {5,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
-  5    R!H ux {2,[S,D,T,B,Q]}
-  6    R!H ux {1,[S,D,T,B,Q]}
-  7    R!H ux {1,[S,D,T,B,Q]}
-  8    R!H ux {2,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 r0 {2,S} {3,S} {6,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}\n2 *3 C   u1\
+  \ r0 {1,S} {5,[S,D,T,B,Q]} {8,[S,D,T,B,Q]}\n3 *4 F1s u0 r0 {1,S}\n4 *1 H   u1 r0\n\
+  5    R!H ux {2,[S,D,T,B,Q]}\n6    R!H ux {1,[S,D,T,B,Q]}\n7    R!H ux {1,[S,D,T,B,Q]}\n\
+  8    R!H ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_3Br1sF1s->F1s_Ext-2R!H-R
-group: |2
-
-  1 *2 C   u0         {2,S} {3,S} {6,[S,D,T,B,Q]}
-  2 *3 C   u[1,2]     {1,S} {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    R!H ux         {2,[S,D,T,B,Q]}
-  6    F   ux         {1,[S,D,T,B,Q]}
-  7    R!H ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0         {2,S} {3,S} {6,[S,D,T,B,Q]}\n2 *3 C   u[1,2]     {1,S}\
+  \ {5,[S,D,T,B,Q]} {7,[S,D,T,B,Q]}\n3 *4 F1s u0         {1,S}\n4 *1 H   u[1,2,3,4]\n\
+  5    R!H ux         {2,[S,D,T,B,Q]}\n6    F   ux         {1,[S,D,T,B,Q]}\n7    R!H\
+  \ ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-1R!H-R_N-3Br1sF1s->F1s
-group: |2
-
-  1 *2 C    u0 r0 {2,S} {3,S} {6,S}
-  2 *3 C    u1 r0 {1,S} {5,S}
-  3 *4 Br1s u0 r0 {1,S}
-  4 *1 H    u1 r0
-  5    F    u0 r0 {2,S}
-  6    F    u0 r0 {1,S}
+group: "\n1 *2 C    u0 r0 {2,S} {3,S} {6,S}\n2 *3 C    u1 r0 {1,S} {5,S}\n3 *4 Br1s\
+  \ u0 r0 {1,S}\n4 *1 H    u1 r0\n5    F    u0 r0 {2,S}\n6    F    u0 r0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_Sp-2R!H-1R!H_Ext-2R!H-R
-group: |2
-
-  1 *2 C   u0 r0 {2,S} {3,S}
-  2 *3 C   u1 r0 {1,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
-  5    R!H ux {2,[S,D,T,B,Q]}
-  6    R!H ux {2,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 r0 {2,S} {3,S}\n2 *3 C   u1 r0 {1,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}\n\
+  3 *4 F1s u0 r0 {1,S}\n4 *1 H   u1 r0\n5    R!H ux {2,[S,D,T,B,Q]}\n6    R!H ux {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C   u0         {2,D} {3,S}
-  2 *3 C   u[1,2]     {1,D} {5,[S,D,T,B,Q]}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    R!H ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0         {2,D} {3,S}\n2 *3 C   u[1,2]     {1,D} {5,[S,D,T,B,Q]}\n\
+  3 *4 F1s u0         {1,S}\n4 *1 H   u[1,2,3,4]\n5    R!H ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -568,50 +406,30 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H_N-5R!H->C
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H_5R!H->C
-group: |2
-
-  1 *2 C   u0         {2,D} {3,S}
-  2 *3 C   u[1,2]     {1,D} {5,[S,D,T,B,Q]}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    C   ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0         {2,D} {3,S}\n2 *3 C   u[1,2]     {1,D} {5,[S,D,T,B,Q]}\n\
+  3 *4 F1s u0         {1,S}\n4 *1 H   u[1,2,3,4]\n5    C   ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H_N-5R!H->C
-group: |2
-
-  1 *2 C   u0 {2,D} {3,S}
-  2 *3 C   u1 {1,D} {5,S}
-  3 *4 F1s u0 {1,S}
-  4 *1 H   u1
-  5    F   u0 {2,S}
+group: "\n1 *2 C   u0 {2,D} {3,S}\n2 *3 C   u1 {1,D} {5,S}\n3 *4 F1s u0 {1,S}\n4 *1\
+  \ H   u1\n5    F   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H_N-5R!H->C_Ext-1R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Ext-2R!H-R_N-Sp-2R!H-1R!H_N-5R!H->C_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0 r0 {2,D} {3,S} {6,[S,D,T,B,Q]}
-  2 *3 C   u1 r0 {1,D} {5,S}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
-  5    F   u0 r0 {2,S}
-  6    R!H ux {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 r0 {2,D} {3,S} {6,[S,D,T,B,Q]}\n2 *3 C   u1 r0 {1,D} {5,S}\n\
+  3 *4 F1s u0 r0 {1,S}\n4 *1 H   u1 r0\n5    F   u0 r0 {2,S}\n6    R!H ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C   u0 {2,S} {3,S}
-  2 *3 R!H u1 {1,S}
-  3 *4 F1s u0 {1,S}
-  4 *1 H   u1
+group: "\n1 *2 C   u0 {2,S} {3,S}\n2 *3 R!H u1 {1,S}\n3 *4 F1s u0 {1,S}\n4 *1 H  \
+  \ u1\n"
 short_description: ''
 long_description: ''
 children:
@@ -619,74 +437,47 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_N-2R!H->C
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_2R!H->C
-group: |2
-
-  1 *2 C   u0 {2,S} {3,S}
-  2 *3 C   u1 {1,S}
-  3 *4 F1s u0 {1,S}
-  4 *1 H   u1
+group: "\n1 *2 C   u0 {2,S} {3,S}\n2 *3 C   u1 {1,S}\n3 *4 F1s u0 {1,S}\n4 *1 H  \
+  \ u1\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_2R!H->C_Ext-1R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_2R!H->C_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0 {2,S} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C   u1 {1,S}
-  3 *4 F1s u0 {1,S}
-  4 *1 H   u1
-  5    R!H ux {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 {2,S} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C   u1 {1,S}\n3 *4 F1s u0\
+  \ {1,S}\n4 *1 H   u1\n5    R!H ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_2R!H->C_Ext-1R!H-R_Ext-1R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_2R!H->C_Ext-1R!H-R_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0 r0 {2,S} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}
-  2 *3 C   u1 r0 {1,S}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
-  5    R!H ux {1,[S,D,T,B,Q]}
-  6    R!H ux {1,[S,D,T,B,Q]}
+group: "\n1 *2 C   u0 r0 {2,S} {3,S} {5,[S,D,T,B,Q]} {6,[S,D,T,B,Q]}\n2 *3 C   u1\
+  \ r0 {1,S}\n3 *4 F1s u0 r0 {1,S}\n4 *1 H   u1 r0\n5    R!H ux {1,[S,D,T,B,Q]}\n\
+  6    R!H ux {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_Sp-2R!H-1R!H_N-2R!H->C
-group: |2
-
-  1 *2 C   u0 r0 {2,S} {3,S}
-  2 *3 O   u1 r0 {1,S}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
+group: "\n1 *2 C   u0 r0 {2,S} {3,S}\n2 *3 O   u1 r0 {1,S}\n3 *4 F1s u0 r0 {1,S}\n\
+  4 *1 H   u1 r0\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C   u0         {2,D} {3,S}
-  2 *3 C   u[1,2]     {1,D}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
+group: "\n1 *2 C   u0         {2,D} {3,S}\n2 *3 C   u[1,2]     {1,D}\n3 *4 F1s u0\
+  \         {1,S}\n4 *1 H   u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H_Ext-1R!H-R
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H_Ext-1R!H-R
-group: |2
-
-  1 *2 C   u0         {2,D} {3,S} {5,S}
-  2 *3 C   u[1,2]     {1,D}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    R!H u0         {1,S}
+group: "\n1 *2 C   u0         {2,D} {3,S} {5,S}\n2 *3 C   u[1,2]     {1,D}\n3 *4 F1s\
+  \ u0         {1,S}\n4 *1 H   u[1,2,3,4]\n5    R!H u0         {1,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -694,36 +485,22 @@ children:
 - Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H_Ext-1R!H-R_N-5R!H->C
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H_Ext-1R!H-R_5R!H->C
-group: |2
-
-  1 *2 C   u0         {2,D} {3,S} {5,S}
-  2 *3 C   u[1,2]     {1,D}
-  3 *4 F1s u0         {1,S}
-  4 *1 H   u[1,2,3,4]
-  5    C   u0         r0 {1,S}
+group: "\n1 *2 C   u0         {2,D} {3,S} {5,S}\n2 *3 C   u[1,2]     {1,D}\n3 *4 F1s\
+  \ u0         {1,S}\n4 *1 H   u[1,2,3,4]\n5    C   u0         r0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_4BrCClHINOPSSi->H_N-3Br1sCl1sF1s->Cl1s_N-Sp-2R!H-1R!H_Ext-1R!H-R_N-5R!H->C
-group: |2
-
-  1 *2 C   u0 r0 {2,D} {3,S} {5,S}
-  2 *3 C   u1 r0 {1,D}
-  3 *4 F1s u0 r0 {1,S}
-  4 *1 H   u1 r0
-  5    F   u0 r0 {1,S}
+group: "\n1 *2 C   u0 r0 {2,D} {3,S} {5,S}\n2 *3 C   u1 r0 {1,D}\n3 *4 F1s u0 r0 {1,S}\n\
+  4 *1 H   u1 r0\n5    F   u0 r0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H
-group: |2
-
-  1 *2 C         u0         {2,[S,D,B]} {3,S}
-  2 *3 C         u[1,2]     {1,[S,D,B]}
-  3 *4 Cl1s      u0         {1,S}
-  4 *1 [Br,O,Cl] u[1,2,3,4]
+group: "\n1 *2 C         u0         {2,[S,D,B]} {3,S}\n2 *3 C         u[1,2]     {1,[S,D,B]}\n\
+  3 *4 Cl1s      u0         {1,S}\n4 *1 [Br,O,Cl] u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -731,12 +508,8 @@ children:
 - Root_N-4R->F_N-4BrCClHINOPSSi->H_N-Sp-2R!H-1R!H
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C         u0         {2,S} {3,S}
-  2 *3 C         u[1,2]     {1,S}
-  3 *4 Cl1s      u0         {1,S}
-  4 *1 [Br,O,Cl] u[1,2,3,4]
+group: "\n1 *2 C         u0         {2,S} {3,S}\n2 *3 C         u[1,2]     {1,S}\n\
+  3 *4 Cl1s      u0         {1,S}\n4 *1 [Br,O,Cl] u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -744,34 +517,22 @@ children:
 - Root_N-4R->F_N-4BrCClHINOPSSi->H_Sp-2R!H-1R!H_N-4BrClO->Br
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_Sp-2R!H-1R!H_4BrClO->Br
-group: |2
-
-  1 *2 C    u0         {2,S} {3,S}
-  2 *3 C    u[1,2]     {1,S}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 Br   u[1,2,3,4]
+group: "\n1 *2 C    u0         {2,S} {3,S}\n2 *3 C    u[1,2]     {1,S}\n3 *4 Cl1s\
+  \ u0         {1,S}\n4 *1 Br   u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_Sp-2R!H-1R!H_N-4BrClO->Br
-group: |2
-
-  1 *2 C      u0         {2,S} {3,S}
-  2 *3 C      u[1,2]     {1,S}
-  3 *4 Cl1s   u0         {1,S}
-  4 *1 [O,Cl] u[1,2,3,4]
+group: "\n1 *2 C      u0         {2,S} {3,S}\n2 *3 C      u[1,2]     {1,S}\n3 *4 Cl1s\
+  \   u0         {1,S}\n4 *1 [O,Cl] u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_N-Sp-2R!H-1R!H
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S}
-  2 *3 C    u[1,2]     {1,D}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 O    u[1,2,3,4]
+group: "\n1 *2 C    u0         {2,D} {3,S}\n2 *3 C    u[1,2]     {1,D}\n3 *4 Cl1s\
+  \ u0         {1,S}\n4 *1 O    u[1,2,3,4]\n"
 short_description: ''
 long_description: ''
 children:
@@ -779,92 +540,61 @@ children:
 - Root_N-4R->F_N-4BrCClHINOPSSi->H_N-Sp-2R!H-1R!H_Ext-2R!H-R
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_N-Sp-2R!H-1R!H_Ext-1R!H-R
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}
-  2 *3 C    u[1,2]     {1,D}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 O    u[1,2,3,4]
-  5    R!H  ux         {1,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,D} {3,S} {5,[S,D,T,B,Q]}\n2 *3 C    u[1,2]     {1,D}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 O    u[1,2,3,4]\n5    R!H  ux         {1,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Root_N-4R->F_N-4BrCClHINOPSSi->H_N-Sp-2R!H-1R!H_Ext-2R!H-R
-group: |2
-
-  1 *2 C    u0         {2,D} {3,S}
-  2 *3 C    u[1,2]     {1,D} {5,[S,D,T,B,Q]}
-  3 *4 Cl1s u0         {1,S}
-  4 *1 O    u[1,2,3,4]
-  5    R!H  ux         {2,[S,D,T,B,Q]}
+group: "\n1 *2 C    u0         {2,D} {3,S}\n2 *3 C    u[1,2]     {1,D} {5,[S,D,T,B,Q]}\n\
+  3 *4 Cl1s u0         {1,S}\n4 *1 O    u[1,2,3,4]\n5    R!H  ux         {2,[S,D,T,B,Q]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C_quintet
-group: |2
-
-  1 C u4 p0 c0
+group: "\n1 C u4 p0 c0\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: O2d
-group: |2
-
-  1 *2 O u0 {2,D}
-  2 *3 O u0 {1,D}
+group: "\n1 *2 O u0 {2,D}\n2 *3 O u0 {1,D}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: OS_XH_birad_singlet
-group: |2
-
-  1 *3 [O,S]    u0 p3 {2,[S,D,T]}
-  2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}
-  3 *4 Val7     u0 {2,S}
+group: "\n1 *3 [O,S]    u0 p3 {2,[S,D,T]}\n2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}\n3 *4\
+  \ Val7     u0 {2,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: O_Srad
-group: |2
-
-  1 *2 [O,S] u0 p2 {2,S} {3,S}
-  2 *3 [O,S] u1 p2 {1,S}
-  3 *4 Val7  u0 {1,S}
+group: "\n1 *2 [O,S] u0 p2 {2,S} {3,S}\n2 *3 [O,S] u1 p2 {1,S}\n3 *4 Val7  u0 {1,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: XH_N_birad_singlet
-group: |2
-
-  1 *3 N        u0 p2 {2,[S,D]}
-  2 *2 R!H!Val7 ux {1,[S,D]} {3,S}
-  3 *4 Val7     u0 {2,S}
+group: "\n1 *3 N        u0 p2 {2,[S,D]}\n2 *2 R!H!Val7 ux {1,[S,D]} {3,S}\n3 *4 Val7\
+  \     u0 {2,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: XH_birad_singlet
-group: |2
-
-  1 *3 [C,Si]   u0 p1 {2,[S,D,T]}
-  2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}
-  3 *4 Val7     u0 {2,S}
+group: "\n1 *3 [C,Si]   u0 p1 {2,[S,D,T]}\n2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}\n3 *4\
+  \ Val7     u0 {2,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: XH_quadrad_singlet
-group: |2
-
-  1 *3 [C,Si]   u0 p2 {2,[S,D,T]}
-  2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}
-  3 *4 Val7     u0 {2,S}
+group: "\n1 *3 [C,Si]   u0 p2 {2,[S,D,T]}\n2 *2 R!H!Val7 ux {1,[S,D,T]} {3,S}\n3 *4\
+  \ Val7     u0 {2,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''

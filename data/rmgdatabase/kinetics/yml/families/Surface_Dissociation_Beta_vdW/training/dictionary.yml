@@ -1,153 +1,81 @@
 label: X_5
-adjacency_list: 1 *5 X u0 p0 c0
+adjacency_list: "1 *5 X u0 p0 c0\n"
 ---
 label: COOH*
-adjacency_list: |-
-  1 *2 O u0 p2 c0 {3,S} {4,S}
-  2    O u0 p2 c0 {3,D}
-  3 *1 C u0 p0 c0 {1,S} {2,D} {5,S}
-  4 *3 H u0 p0 c0 {1,S}
-  5 *4 X u0 p0 c0 {3,S}
+adjacency_list: "1 *2 O u0 p2 c0 {3,S} {4,S}\n2    O u0 p2 c0 {3,D}\n3 *1 C u0 p0\
+  \ c0 {1,S} {2,D} {5,S}\n4 *3 H u0 p0 c0 {1,S}\n5 *4 X u0 p0 c0 {3,S}\n"
 ---
 label: CO2_2*
-adjacency_list: |-
-  1 *2 O u0 p2 c0 {3,D}
-  2    O u0 p2 c0 {3,D}
-  3 *1 C u0 p0 c0 {1,D} {2,D}
-  4 *4 X u0 p0 c0
+adjacency_list: "1 *2 O u0 p2 c0 {3,D}\n2    O u0 p2 c0 {3,D}\n3 *1 C u0 p0 c0 {1,D}\
+  \ {2,D}\n4 *4 X u0 p0 c0\n"
 ---
 label: H*
-adjacency_list: |-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *3 H u0 p0 c0 {1,S}
+adjacency_list: "1 *5 X u0 p0 c0 {2,S}\n2 *3 H u0 p0 c0 {1,S}\n"
 ---
 label: HCOO*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {3,S} {5,S}
-  2    O u0 p2 c0 {3,D}
-  3 *2 C u0 p0 c0 {1,S} {2,D} {4,S}
-  4 *3 H u0 p0 c0 {3,S}
-  5 *4 X u0 p0 c0 {1,S}
+adjacency_list: "1 *1 O u0 p2 c0 {3,S} {5,S}\n2    O u0 p2 c0 {3,D}\n3 *2 C u0 p0\
+  \ c0 {1,S} {2,D} {4,S}\n4 *3 H u0 p0 c0 {3,S}\n5 *4 X u0 p0 c0 {1,S}\n"
 ---
 label: CO2*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {3,D}
-  2    O u0 p2 c0 {3,D}
-  3 *2 C u0 p0 c0 {1,D} {2,D}
-  4 *4 X u0 p0 c0
+adjacency_list: "1 *1 O u0 p2 c0 {3,D}\n2    O u0 p2 c0 {3,D}\n3 *2 C u0 p0 c0 {1,D}\
+  \ {2,D}\n4 *4 X u0 p0 c0\n"
 ---
 label: HCOOH*
-adjacency_list: |-
-  1    O u0 p2 c0 {3,S} {5,S}
-  2 *1 O u0 p2 c0 {3,D}
-  3 *2 C u0 p0 c0 {1,S} {2,D} {4,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {1,S}
-  6 *4 X u0 p0 c0
+adjacency_list: "1    O u0 p2 c0 {3,S} {5,S}\n2 *1 O u0 p2 c0 {3,D}\n3 *2 C u0 p0\
+  \ c0 {1,S} {2,D} {4,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {1,S}\n6 *4 X u0\
+  \ p0 c0\n"
 ---
 label: CH3O2_2*
-adjacency_list: |-
-  1    O u0 p2 c0 {3,S} {6,S}
-  2 *1 O u0 p2 c0 {3,S} {7,S}
-  3 *2 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4 *3 H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {1,S}
-  7 *4 X u0 p0 c0 {2,S}
+adjacency_list: "1    O u0 p2 c0 {3,S} {6,S}\n2 *1 O u0 p2 c0 {3,S} {7,S}\n3 *2 C\
+  \ u0 p0 c0 {1,S} {2,S} {4,S} {5,S}\n4 *3 H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {3,S}\n\
+  6    H u0 p0 c0 {1,S}\n7 *4 X u0 p0 c0 {2,S}\n"
 ---
 label: CH3O2*
-adjacency_list: |-
-  1 *3 O u0 p2 c0 {3,S} {6,S}
-  2 *1 O u0 p2 c0 {3,S} {7,S}
-  3 *2 C u0 p0 c0 {1,S} {2,S} {4,S} {5,S}
-  4    H u0 p0 c0 {3,S}
-  5    H u0 p0 c0 {3,S}
-  6    H u0 p0 c0 {1,S}
-  7 *4 X u0 p0 c0 {2,S}
+adjacency_list: "1 *3 O u0 p2 c0 {3,S} {6,S}\n2 *1 O u0 p2 c0 {3,S} {7,S}\n3 *2 C\
+  \ u0 p0 c0 {1,S} {2,S} {4,S} {5,S}\n4    H u0 p0 c0 {3,S}\n5    H u0 p0 c0 {3,S}\n\
+  6    H u0 p0 c0 {1,S}\n7 *4 X u0 p0 c0 {2,S}\n"
 ---
 label: CH2O*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5 *4 X u0 p0 c0
+adjacency_list: "1 *1 O u0 p2 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,S} {4,S}\n3    H\
+  \ u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5 *4 X u0 p0 c0\n"
 ---
 label: OH*
-adjacency_list: |-
-  1 *3 O u0 p2 c0 {2,S} {3,S}
-  2    H u0 p0 c0 {1,S}
-  3 *5 X u0 p0 c0 {1,S}
+adjacency_list: "1 *3 O u0 p2 c0 {2,S} {3,S}\n2    H u0 p0 c0 {1,S}\n3 *5 X u0 p0\
+  \ c0 {1,S}\n"
 ---
 label: CH3O_1*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {6,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3 *3 H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6 *4 X u0 p0 c0 {1,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {6,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3 *3 H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n6 *4 X u0 p0\
+  \ c0 {1,S}\n"
 ---
 label: CH2O_2*
-adjacency_list: |-
-  1 *2 O u0 p2 c0 {2,D}
-  2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5 *4 X u0 p0 c0
+adjacency_list: "1 *2 O u0 p2 c0 {2,D}\n2 *1 C u0 p0 c0 {1,D} {3,S} {4,S}\n3    H\
+  \ u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5 *4 X u0 p0 c0\n"
 ---
 label: CH2OH*
-adjacency_list: |-
-  1 *2 O u0 p2 c0 {2,S} {5,S}
-  2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5 *3 H u0 p0 c0 {1,S}
-  6 *4 X u0 p0 c0 {2,S}
+adjacency_list: "1 *2 O u0 p2 c0 {2,S} {5,S}\n2 *1 C u0 p0 c0 {1,S} {3,S} {4,S} {6,S}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5 *3 H u0 p0 c0 {1,S}\n6 *4 X u0 p0\
+  \ c0 {2,S}\n"
 ---
 label: CH3O_5*
-adjacency_list: |-
-  1 *3 O u0 p2 c0 {2,S} {6,S}
-  2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
-  5    H u0 p0 c0 {2,S}
-  6 *5 X u0 p0 c0 {1,S}
+adjacency_list: "1 *3 O u0 p2 c0 {2,S} {6,S}\n2    C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n\
+  3    H u0 p0 c0 {2,S}\n4    H u0 p0 c0 {2,S}\n5    H u0 p0 c0 {2,S}\n6 *5 X u0 p0\
+  \ c0 {1,S}\n"
 ---
 label: H2COOCH3*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {9,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
-  3 *3 O u0 p2 c0 {2,S} {4,S}
-  4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {4,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
-  9 *4 X u0 p0 c0 {1,S}
-  10   H u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {9,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}\n\
+  3 *3 O u0 p2 c0 {2,S} {4,S}\n4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}\n5    H u0\
+  \ p0 c0 {2,S}\n6    H u0 p0 c0 {4,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {4,S}\n\
+  9 *4 X u0 p0 c0 {1,S}\n10   H u0 p0 c0 {2,S}\n"
 ---
 label: HCOOCH3*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,D}
-  2 *2 C u0 p0 c0 {1,D} {3,S} {5,S}
-  3    O u0 p2 c0 {2,S} {4,S}
-  4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-  5    H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {4,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
-  9 *4 X u0 p0 c0
+adjacency_list: "1 *1 O u0 p2 c0 {2,D}\n2 *2 C u0 p0 c0 {1,D} {3,S} {5,S}\n3    O\
+  \ u0 p2 c0 {2,S} {4,S}\n4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}\n5    H u0 p0 c0\
+  \ {2,S}\n6    H u0 p0 c0 {4,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {4,S}\n9\
+  \ *4 X u0 p0 c0\n"
 ---
 label: H2COOCH3_2*
-adjacency_list: |-
-  1 *1 O u0 p2 c0 {2,S} {9,S}
-  2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}
-  3    O u0 p2 c0 {2,S} {4,S}
-  4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}
-  5 *3 H u0 p0 c0 {2,S}
-  6    H u0 p0 c0 {4,S}
-  7    H u0 p0 c0 {4,S}
-  8    H u0 p0 c0 {4,S}
-  9 *4 X u0 p0 c0 {1,S}
-  10   H u0 p0 c0 {2,S}
+adjacency_list: "1 *1 O u0 p2 c0 {2,S} {9,S}\n2 *2 C u0 p0 c0 {1,S} {3,S} {5,S} {10,S}\n\
+  3    O u0 p2 c0 {2,S} {4,S}\n4    C u0 p0 c0 {3,S} {6,S} {7,S} {8,S}\n5 *3 H u0\
+  \ p0 c0 {2,S}\n6    H u0 p0 c0 {4,S}\n7    H u0 p0 c0 {4,S}\n8    H u0 p0 c0 {4,S}\n\
+  9 *4 X u0 p0 c0 {1,S}\n10   H u0 p0 c0 {2,S}\n"

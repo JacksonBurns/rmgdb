@@ -1,99 +1,64 @@
 label: Donating
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 R!H  u0 px cx {3,S}
-  3 *3 R  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 R!H  u0 px cx {3,S}\n3 *3 R  u0\
+  \ px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Abstracting
-group: |2
-
-  1 *5 X   u0 p0 c0 {2,S}
-  2 *4 R!H ux px cx {1,S}
+group: "\n1 *5 X   u0 p0 c0 {2,S}\n2 *4 R!H ux px cx {1,S}\n"
 short_description: ''
 long_description: ''
 children:
-- OH
 - C
 - N
 - O
 - C
 - O
+- OH
 - O
 ---
 label: O-R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 cx {3,S}
-  3 *3 R  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 cx {3,S}\n3 *3 R  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-H
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 H  u0 p0 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 H  u0 p0\
+  \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - H2O
-- H2O2
 - H2O
+- H2O2
 ---
 label: H2O
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S} {4,S}
-  3 *3 H  u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S} {4,S}\n3 *3 H\
+  \  u0 p0 c0 {2,S}\n4    H  u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-O
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 O  u0 p2 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 O  u0 p2\
+  \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: HO-OH
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S} {5,S}
-  3 *3 O  u0 p2 c0 {2,S} {4,S}
-  4    H  u0 p0 c0 {3,S}
-  5    H  u0 p0 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S} {5,S}\n3 *3 O\
+  \  u0 p2 c0 {2,S} {4,S}\n4    H  u0 p0 c0 {3,S}\n5    H  u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-N
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 N  u0 p1 c0 {2,S} {4,[S,D]}
-  4    R  u0 px cx {3,[S,D]}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 N  u0 p1\
+  \ c0 {2,S} {4,[S,D]}\n4    R  u0 px cx {3,[S,D]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -101,51 +66,29 @@ children:
 - O-N=O
 ---
 label: O-N-2R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
-  4    R  u0 px cx {3,S}
-  5    R  u0 px cx {3,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 N  u0 p1\
+  \ c0 {2,S} {4,S} {5,S}\n4    R  u0 px cx {3,S}\n5    R  u0 px cx {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-NHH
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 N  u0 p1 c0 {2,S} {4,S} {5,S}
-  4    H  u0 p0 c0 {3,S}
-  5    H  u0 p0 c0 {3,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 N  u0 p1\
+  \ c0 {2,S} {4,S} {5,S}\n4    H  u0 p0 c0 {3,S}\n5    H  u0 p0 c0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-N=R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv  u0 p0 c0
-  2 *2 O   u0 p2 c0 {3,S}
-  3 *3 N   u0 p1 c0 {2,S} {4,D}
-  4    R!H u0 px cx {3,D}
+group: "\nmultiplicity [1]\n1 *1 Xv  u0 p0 c0\n2 *2 O   u0 p2 c0 {3,S}\n3 *3 N   u0\
+  \ p1 c0 {2,S} {4,D}\n4    R!H u0 px cx {3,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-C
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 C  u0 p0 c0 {2,S} {4,[S,D,T]}
-  4    R  u0 px cx {3,[S,D,T]}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0 p0\
+  \ c0 {2,S} {4,[S,D,T]}\n4    R  u0 px cx {3,[S,D,T]}\n"
 short_description: ''
 long_description: ''
 children:
@@ -153,74 +96,45 @@ children:
 - O-C=O
 ---
 label: O-C-3R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 O  u0 p2 c0 {3,S}
-  3 *3 C  u0 p0 c0 {2,S} {4,S} {5,S} {6,S}
-  4    R  u0 px cx {3,S}
-  5    R  u0 px cx {3,S}
-  6    R  u0 px cx {3,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0 p0\
+  \ c0 {2,S} {4,S} {5,S} {6,S}\n4    R  u0 px cx {3,S}\n5    R  u0 px cx {3,S}\n6\
+  \    R  u0 px cx {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-C=R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv  u0 p0 c0
-  2 *2 O   u0 p2 c0 {3,S}
-  3 *3 C   u0 p0 c0 {2,S} {4,D} {5,S}
-  4    R!H u0 px cx {3,D}
-  5    R   u0 px cx {3,S}
+group: "\nmultiplicity [1]\n1 *1 Xv  u0 p0 c0\n2 *2 O   u0 p2 c0 {3,S}\n3 *3 C   u0\
+  \ p0 c0 {2,S} {4,D} {5,S}\n4    R!H u0 px cx {3,D}\n5    R   u0 px cx {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: O-C#R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv  u0 p0 c0
-  2 *2 O   u0 p2 c0 {3,S}
-  3 *3 C   u0 p0 c0 {2,S} {4,T}
-  4    R!H u0 px cx {3,T}
+group: "\nmultiplicity [1]\n1 *1 Xv  u0 p0 c0\n2 *2 O   u0 p2 c0 {3,S}\n3 *3 C   u0\
+  \ p0 c0 {2,S} {4,T}\n4    R!H u0 px cx {3,T}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 C  u0 px cx {3,S}
-  3 *3 R  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 R  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-C
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 C  u0 px cx {3,S}
-  3 *3 C  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 C  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - C2H6
 ---
 label: C-O
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 C  u0 px cx {3,S}
-  3 *3 O  u0 p2 cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0 p2\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children:
@@ -228,135 +142,84 @@ children:
 - C-OH
 ---
 label: C-OH
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 C  u0 px cx {3,S}
-  3 *3 O  u0 p2 c0 {2,S} {4,S}
-  4    H  u0 p0 c0 {3,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0 p2\
+  \ c0 {2,S} {4,S}\n4    H  u0 p0 c0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-N
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 C  u0 px cx {3,S}
-  3 *3 N  u0 p1 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 N  u0 p1\
+  \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - CH3NH2
 ---
 label: N-R
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 px cx {3,S}
-  3 *3 R  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 R  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N-H
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 px cx {3,S}
-  3 *3 H  u0 p0 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 H  u0 p0\
+  \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: NH3
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 p1 c0 {3,S} {4,S} {5,S}
-  3 *3 H  u0 p0 c0 {2,S}
-  4    H  u0 p0 c0 {2,S}
-  5    H  u0 p0 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 p1 c0 {3,S} {4,S} {5,S}\n\
+  3 *3 H  u0 p0 c0 {2,S}\n4    H  u0 p0 c0 {2,S}\n5    H  u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: N-N
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 px cx {3,S}
-  3 *3 N  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 N  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - N2H4
 ---
 label: N-O
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 px cx {3,S}
-  3 *3 O  u0 p2 c0 {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 O  u0 p2\
+  \ c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
 - H3NO
 ---
 label: N-C
-group: |2
-
-  multiplicity [1]
-  1 *1 Xv u0 p0 c0
-  2 *2 N  u0 px cx {3,S}
-  3 *3 C  u0 px cx {2,S}
+group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 C  u0 px\
+  \ cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*O'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 O u0 p2 c0 {1,S} {3,S}
-  3    R ux px cx {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 O u0 p2 c0 {1,S} {3,S}\n3    R ux px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*O-H'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 O u0 p2 c0 {1,S} {3,S}
-  3    H u0 p0 c0 {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 O u0 p2 c0 {1,S} {3,S}\n3    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*O-O'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 O u0 p2 c0 {1,S} {3,S}
-  3    O ux px cx {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 O u0 p2 c0 {1,S} {3,S}\n3    O ux px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*O-N'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 O u0 p2 c0 {1,S} {3,S}
-  3    N ux px cx {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 O u0 p2 c0 {1,S} {3,S}\n3    N ux px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -372,108 +235,70 @@ children:
 - '*nC8'
 ---
 label: '*C=R'
-group: |2
-
-  1 *5 X   u0 p0 c0 {2,S}
-  2 *4 C   ux px cx {1,S} {3,D}
-  3    R!H ux px cx {2,D}
+group: "\n1 *5 X   u0 p0 c0 {2,S}\n2 *4 C   ux px cx {1,S} {3,D}\n3    R!H ux px cx\
+  \ {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*C-3R'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}
-  3    R ux px cx {2,S}
-  4    R ux px cx {2,S}
-  5    R ux px cx {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 C u0 p0 c0 {1,S} {3,S} {4,S} {5,S}\n3    R ux\
+  \ px cx {2,S}\n4    R ux px cx {2,S}\n5    R ux px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N ux px cx {1,S} {3,[S,D]}
-  3    R ux px cx {2,[S,D]}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N ux px cx {1,S} {3,[S,D]}\n3    R ux px cx\
+  \ {2,[S,D]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N=R'
-group: |2
-
-  1 *5 X   u0 p0 c0 {2,S}
-  2 *4 N   u0 p1 c0 {1,S} {3,D}
-  3    R!H ux px cx {2,D}
+group: "\n1 *5 X   u0 p0 c0 {2,S}\n2 *4 N   u0 p1 c0 {1,S} {3,D}\n3    R!H ux px cx\
+  \ {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N=O'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,D}
-  3    O u0 p2 c0 {2,D}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,D}\n3    O u0 p2 c0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N=N'
-group: |2
-
-  multiplicity [1]
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,D}
-  3    N u0 p1 c0 {2,D}
+group: "\nmultiplicity [1]\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,D}\n3\
+  \    N u0 p1 c0 {2,D}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*N-2R'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}
-  3    R ux px cx {2,S}
-  4    R ux px cx {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}\n3    R ux px cx\
+  \ {2,S}\n4    R ux px cx {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*NH2'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}
-  3    H u0 p0 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}\n3    H u0 p0 c0\
+  \ {2,S}\n4    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*NH-O'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}
-  3    O u0 p2 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}\n3    O u0 p2 c0\
+  \ {2,S}\n4    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: '*NH-N'
-group: |2
-
-  1 *5 X u0 p0 c0 {2,S}
-  2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}
-  3    N u0 p1 c0 {2,S}
-  4    H u0 p0 c0 {2,S}
+group: "\n1 *5 X u0 p0 c0 {2,S}\n2 *4 N u0 p1 c0 {1,S} {3,S} {4,S}\n3    N u0 p1 c0\
+  \ {2,S}\n4    H u0 p0 c0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []

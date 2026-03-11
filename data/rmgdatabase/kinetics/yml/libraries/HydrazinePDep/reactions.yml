@@ -102,11 +102,9 @@ kinetics:
   coeffs: []
 ---
 label: N2H3 + NH2 <=> N2H2 + NH3
-long_description: |2
-
-  Taken from https://doi.org/10.1021/acs.jpca.0c03144
-  Also available from D&B (the same rate appears in the NOx2018 library)
-  D&B estimated this rate of the direct hydrogen transfer reaction (not including the well-skipping rate)
+long_description: "\nTaken from https://doi.org/10.1021/acs.jpca.0c03144\nAlso available\
+  \ from D&B (the same rate appears in the NOx2018 library)\nD&B estimated this rate\
+  \ of the direct hydrogen transfer reaction (not including the well-skipping rate)\n"
 duplicate: true
 kinetics:
   type: Arrhenius
@@ -175,15 +173,14 @@ kinetics:
 ---
 label: N2H3 + NH2 <=> H2NN(S) + NH3
 short_description: estimated
-long_description: |2
-
-  This is the direct non-PDep route.
-  Estimated by alongd as having the same A factor as 'N2H3 + NH2 <=> H2NN(T) + NH3' with Ea = 0 (barrierless)
-  The A factor was refitted into a classical (non-modified) Arrhenius form:
-  Arrhenius(A=(1.03198e+12,'cm^3/(mol*s)'), n=0, Ea=(20.0354,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'),
-  Fitted to 51 data points; dA = *|/ 1.18263, dn = +|- 0, dEa = +|- 1.27006 kJ/mol
-  Note that the 'N2H3 + NH2 <=> H2NN(T) + NH3' reaction has a barrier of ~5 kJ/mol in the forward direction although
-  it's Ea in the modified Arrhenius form is negative: Arrhenius(A=(1.65e+00, 'cm^3/(mol*s)'), n=3.41, Ea=(-4.0, 'kJ/mol')
+long_description: "\nThis is the direct non-PDep route.\nEstimated by alongd as having\
+  \ the same A factor as 'N2H3 + NH2 <=> H2NN(T) + NH3' with Ea = 0 (barrierless)\n\
+  The A factor was refitted into a classical (non-modified) Arrhenius form:\nArrhenius(A=(1.03198e+12,'cm^3/(mol*s)'),\
+  \ n=0, Ea=(20.0354,'kJ/mol'), T0=(1,'K'), Tmin=(300,'K'), Tmax=(3000,'K'),\nFitted\
+  \ to 51 data points; dA = *|/ 1.18263, dn = +|- 0, dEa = +|- 1.27006 kJ/mol\nNote\
+  \ that the 'N2H3 + NH2 <=> H2NN(T) + NH3' reaction has a barrier of ~5 kJ/mol in\
+  \ the forward direction although\nit's Ea in the modified Arrhenius form is negative:\
+  \ Arrhenius(A=(1.65e+00, 'cm^3/(mol*s)'), n=3.41, Ea=(-4.0, 'kJ/mol')\n"
 duplicate: true
 kinetics:
   type: Arrhenius

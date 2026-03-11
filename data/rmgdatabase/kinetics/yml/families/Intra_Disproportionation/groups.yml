@@ -5,9 +5,7 @@ long_description: ''
 children: []
 ---
 label: Y_rad
-group: |2
-
-  1 *1 R!H u1
+group: "\n1 *1 R!H u1\n"
 short_description: The abstracting radical
 long_description: ''
 children:
@@ -31,22 +29,14 @@ children:
 - Cs_rad
 ---
 label: XH_Rrad
-group: |2
-
-  1 *3 R!H u1 {2,S}
-  2 *2 R!H u0 {1,S} {3,S}
-  3 *4 H   u0 {2,S}
+group: "\n1 *3 R!H u1 {2,S}\n2 *2 R!H u0 {1,S} {3,S}\n3 *4 H   u0 {2,S}\n"
 short_description: The site with a free hydrogen on an atom adjacent to a radical
 long_description: ''
 children: []
 ---
 label: R2radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B]}
-  2 *2 R!H u0 {1,[S,D,B]} {3,S} {4,S}
-  3 *3 R!H u1 {2,S}
-  4 *4 H   u0 {2,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B]}\n2 *2 R!H u0 {1,[S,D,B]} {3,S} {4,S}\n3 *3 R!H u1\
+  \ {2,S}\n4 *4 H   u0 {2,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -68,13 +58,8 @@ long_description: "\nAaron Vandeputte notes:\nIt is assumed that the other radic
 children: []
 ---
 label: R3radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B]}
-  3 *2 R!H u0 {2,[S,D,B]} {4,S} {5,S}
-  4 *3 R!H u1 {3,S}
-  5 *4 H   u0 {3,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B]}\n3 *2 R!H\
+  \ u0 {2,[S,D,B]} {4,S} {5,S}\n4 *3 R!H u1 {3,S}\n5 *4 H   u0 {3,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -86,26 +71,16 @@ long_description: ''
 children: []
 ---
 label: R4radEndo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *3 R!H u1 {2,[S,D,B,T]} {4,S}
-  4 *2 R!H u0 {3,S} {5,S}
-  5 *4 H   u0 {4,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *3\
+  \ R!H u1 {2,[S,D,B,T]} {4,S}\n4 *2 R!H u0 {3,S} {5,S}\n5 *4 H   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R4radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *6 R!H u0 {2,[S,D,B,T]} {4,[S,D,B]}
-  4 *2 R!H u0 {3,[S,D,B]} {5,S} {6,S}
-  5 *3 R!H u1 {4,S}
-  6 *4 H   u0 {4,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *6\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B]}\n4 *2 R!H u0 {3,[S,D,B]} {5,S} {6,S}\n5 *3 R!H\
+  \ u1 {4,S}\n6 *4 H   u0 {4,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -117,28 +92,17 @@ long_description: ''
 children: []
 ---
 label: R5radEndo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *6 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *3 R!H u1 {3,[S,D,B,T]} {5,S}
-  5 *2 R!H u0 {4,S} {6,S}
-  6 *4 H   u0 {5,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *6\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *3 R!H u1 {3,[S,D,B,T]} {5,S}\n5 *2 R!H\
+  \ u0 {4,S} {6,S}\n6 *4 H   u0 {5,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R5radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B]}
-  5 *2 R!H u0 {4,[S,D,B]} {6,S} {7,S}
-  6 *3 R!H u1 {5,S}
-  7 *4 H   u0 {5,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *7\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B]}\n5 *2\
+  \ R!H u0 {4,[S,D,B]} {6,S} {7,S}\n6 *3 R!H u1 {5,S}\n7 *4 H   u0 {5,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -150,30 +114,18 @@ long_description: ''
 children: []
 ---
 label: R6radEndo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-  5 *3 R!H u1 {4,[S,D,B,T]} {6,S}
-  6 *2 R!H u0 {5,S} {7,S}
-  7 *4 H   u0 {6,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *7\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *6 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}\n\
+  5 *3 R!H u1 {4,[S,D,B,T]} {6,S}\n6 *2 R!H u0 {5,S} {7,S}\n7 *4 H   u0 {6,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R6radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-  5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B]}
-  6 *2 R!H u0 {5,[S,D,B]} {7,S} {8,S}
-  7 *3 R!H u1 {6,S}
-  8 *4 H   u0 {6,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *7\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}\n\
+  5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B]}\n6 *2 R!H u0 {5,[S,D,B]} {7,S} {8,S}\n7 *3\
+  \ R!H u1 {6,S}\n8 *4 H   u0 {6,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -185,132 +137,78 @@ long_description: ''
 children: []
 ---
 label: R7radEndo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-  5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
-  6 *3 R!H u1 {5,[S,D,B,T]} {7,S}
-  7 *2 R!H u0 {6,S} {8,S}
-  8 *4 H   u0 {7,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *7\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}\n\
+  5 *6 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}\n6 *3 R!H u1 {5,[S,D,B,T]} {7,S}\n7 *2 R!H\
+  \ u0 {6,S} {8,S}\n8 *4 H   u0 {7,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: R7radExo
-group: |2
-
-  1 *1 R!H u1 {2,[S,D,B,T]}
-  2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}
-  3 *7 R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}
-  4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}
-  5 *9 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}
-  6 *6 R!H u0 {5,[S,D,B,T]} {7,[S,D,B]}
-  7 *2 R!H u0 {6,[S,D,B]} {8,S} {9,S}
-  8 *3 R!H u1 {7,S}
-  9 *4 H   u0 {7,S}
+group: "\n1 *1 R!H u1 {2,[S,D,B,T]}\n2 *5 R!H u0 {1,[S,D,B,T]} {3,[S,D,B,T]}\n3 *7\
+  \ R!H u0 {2,[S,D,B,T]} {4,[S,D,B,T]}\n4 *8 R!H u0 {3,[S,D,B,T]} {5,[S,D,B,T]}\n\
+  5 *9 R!H u0 {4,[S,D,B,T]} {6,[S,D,B,T]}\n6 *6 R!H u0 {5,[S,D,B,T]} {7,[S,D,B]}\n\
+  7 *2 R!H u0 {6,[S,D,B]} {8,S} {9,S}\n8 *3 R!H u1 {7,S}\n9 *4 H   u0 {7,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Y_rad_NDe
-group: |2
-
-  1 *1 R!H          u1 {2,S}
-  2    [Cs,O2s,S2s] u0 {1,S}
+group: "\n1 *1 R!H          u1 {2,S}\n2    [Cs,O2s,S2s] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: Y_rad_De
-group: |2
-
-  1 *1 R!H                  u1 {2,[S,D]}
-  2    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
+group: "\n1 *1 R!H                  u1 {2,[S,D]}\n2    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: XH_Rrad_NDe
-group: |2
-
-  1 *3 R!H          u1 {2,S} {4,S}
-  2 *2 R!H          u0 {1,S} {3,S}
-  3 *4 H            u0 {2,S}
-  4    [Cs,O2s,S2s] u0 {1,S}
+group: "\n1 *3 R!H          u1 {2,S} {4,S}\n2 *2 R!H          u0 {1,S} {3,S}\n3 *4\
+  \ H            u0 {2,S}\n4    [Cs,O2s,S2s] u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: XH_Rrad_De
-group: |2
-
-  1 *3 R!H                  u1 {2,S} {4,[S,D]}
-  2 *2 R!H                  u0 {1,S} {3,S}
-  3 *4 H                    u0 {2,S}
-  4    [Cd,Cdd,Ct,CO,CS,Cb] u0 {1,[S,D]}
+group: "\n1 *3 R!H                  u1 {2,S} {4,[S,D]}\n2 *2 R!H                 \
+  \ u0 {1,S} {3,S}\n3 *4 H                    u0 {2,S}\n4    [Cd,Cdd,Ct,CO,CS,Cb]\
+  \ u0 {1,[S,D]}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: fused5rings_1
-group: |2
-
-  1 C u1 {2,S} {5,S}
-  2 C u0 {1,S} {3,S}
-  3 C u0 {2,S} {4,S}
-  4 C u0 {3,S} {5,S} {8,S}
-  5 C u0 {1,S} {4,S} {6,S}
-  6 C u1 {5,S} {7,S}
-  7 C u0 {6,S} {8,S}
-  8 C u0 {4,S} {7,S}
+group: "\n1 C u1 {2,S} {5,S}\n2 C u0 {1,S} {3,S}\n3 C u0 {2,S} {4,S}\n4 C u0 {3,S}\
+  \ {5,S} {8,S}\n5 C u0 {1,S} {4,S} {6,S}\n6 C u1 {5,S} {7,S}\n7 C u0 {6,S} {8,S}\n\
+  8 C u0 {4,S} {7,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: fused5rings_2
-group: |2
-
-  1 C u1 {2,S} {5,S}
-  2 C u0 {1,S} {3,S}
-  3 C u0 {2,S} {4,S}
-  4 C u0 {3,S} {5,S} {8,S}
-  5 C u0 {1,S} {4,S} {6,S}
-  6 C u0 {5,S} {7,S}
-  7 C u1 {6,S} {8,S}
-  8 C u0 {4,S} {7,S}
+group: "\n1 C u1 {2,S} {5,S}\n2 C u0 {1,S} {3,S}\n3 C u0 {2,S} {4,S}\n4 C u0 {3,S}\
+  \ {5,S} {8,S}\n5 C u0 {1,S} {4,S} {6,S}\n6 C u0 {5,S} {7,S}\n7 C u1 {6,S} {8,S}\n\
+  8 C u0 {4,S} {7,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: fused5rings_3
-group: |2
-
-  1 C u1 {2,S} {5,S}
-  2 C u0 {1,S} {3,S}
-  3 C u0 {2,S} {4,S}
-  4 C u0 {3,S} {5,S} {8,S}
-  5 C u0 {1,S} {4,S} {6,S}
-  6 C u0 {5,S} {7,S}
-  7 C u0 {6,S} {8,S}
-  8 C u1 {4,S} {7,S}
+group: "\n1 C u1 {2,S} {5,S}\n2 C u0 {1,S} {3,S}\n3 C u0 {2,S} {4,S}\n4 C u0 {3,S}\
+  \ {5,S} {8,S}\n5 C u0 {1,S} {4,S} {6,S}\n6 C u0 {5,S} {7,S}\n7 C u0 {6,S} {8,S}\n\
+  8 C u1 {4,S} {7,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
 label: fused5rings_4
-group: |2
-
-  1 C u0 {2,S} {5,S}
-  2 C u1 {1,S} {3,S}
-  3 C u0 {2,S} {4,S}
-  4 C u0 {3,S} {5,S} {8,S}
-  5 C u0 {1,S} {4,S} {6,S}
-  6 C u0 {5,S} {7,S}
-  7 C u1 {6,S} {8,S}
-  8 C u0 {4,S} {7,S}
+group: "\n1 C u0 {2,S} {5,S}\n2 C u1 {1,S} {3,S}\n3 C u0 {2,S} {4,S}\n4 C u0 {3,S}\
+  \ {5,S} {8,S}\n5 C u0 {1,S} {4,S} {6,S}\n6 C u0 {5,S} {7,S}\n7 C u1 {6,S} {8,S}\n\
+  8 C u0 {4,S} {7,S}\n"
 forbidden: true
 short_description: ''
 long_description: ''
