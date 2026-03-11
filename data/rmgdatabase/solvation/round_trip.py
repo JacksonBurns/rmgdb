@@ -23,7 +23,6 @@ yaml.add_representer(np.float32, lambda dumper, data: dumper.represent_float(flo
 yaml.add_representer(np.int64, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
 yaml.add_representer(np.int32, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
 
-
 def clean_dict(d):
     cleaned = {}
     for k, v in d.items():
@@ -102,7 +101,6 @@ def dump_db():
             if rows:
                 with open(f"yml/groups/{name}.yml", "w") as f: yaml.dump_all(rows, f, yaml.SafeDumper, sort_keys=False)
 
-
 def gen_db():
     engine = create_engine("sqlite:///solvation.db", echo=False)
     Session = sessionmaker(bind=engine)
@@ -117,11 +115,14 @@ def gen_db():
                 for row in yaml.safe_load_all(fl):
                     mol = repr(row["molecule"]) if isinstance(row.get("molecule"), list) else row.get("molecule", "")
                     
-                    if "solvent" in row:
+                    # Fix: Explicitly check file stem for solvents, since they may only have a dataCount
+                    if f.stem == "solvent" or "solvent" in row:
                         session.add(SolventLibraries(id=counts["solvent_lib"], name=f.stem, label=row["label"], molecule=mol, short_description=row.get("short_description", ""), long_description=row.get("long_description", "")))
-                        sd = row["solvent"]
-                        session.add(SolventData(id=counts["solvent_data"], solvent_library_parent_id=counts["solvent_lib"], **sd))
-                        counts["solvent_data"] += 1
+                        
+                        if "solvent" in row:
+                            sd = row["solvent"]
+                            session.add(SolventData(id=counts["solvent_data"], solvent_library_parent_id=counts["solvent_lib"], **sd))
+                            counts["solvent_data"] += 1
                         
                         if "dataCount" in row:
                             dc = row["dataCount"]
