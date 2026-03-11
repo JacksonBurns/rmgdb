@@ -1,31 +1,21 @@
 label: Ring
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R u0
+group: "\n1 * R u0\n"
 children: []
 ---
 label: Aromatic
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cb u0
+group: "\n1 * Cb u0\n"
 children: []
 solute: Benzene
 ---
 label: Benzene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cb u0 {2,B} {6,B}
-  2   Cb u0 {1,B} {3,B}
-  3   Cb u0 {2,B} {4,B}
-  4   Cb u0 {3,B} {5,B}
-  5   Cb u0 {4,B} {6,B}
-  6   Cb u0 {1,B} {5,B}
+group: "\n1 * Cb u0 {2,B} {6,B}\n2   Cb u0 {1,B} {3,B}\n3   Cb u0 {2,B} {4,B}\n4 \
+  \  Cb u0 {3,B} {5,B}\n5   Cb u0 {4,B} {6,B}\n6   Cb u0 {1,B} {5,B}\n"
 children: []
 solute:
   S: -0.08211
@@ -43,22 +33,15 @@ dataCount:
 label: ThreeMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D,T]} {3,[S,D]}
-  2   R!H u0 {1,[S,D,T]} {3,[S,D]}
-  3   R!H u0 {1,[S,D]} {2,[S,D]}
+group: "\n1 * R!H u0 {2,[S,D,T]} {3,[S,D]}\n2   R!H u0 {1,[S,D,T]} {3,[S,D]}\n3  \
+  \ R!H u0 {1,[S,D]} {2,[S,D]}\n"
 children: []
 solute: Cyclopropane
 ---
 label: Cyclopropane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cs u0 {2,S} {3,S}
-  2   Cs u0 {1,S} {3,S}
-  3   Cs u0 {1,S} {2,S}
+group: "\n1 * Cs u0 {2,S} {3,S}\n2   Cs u0 {1,S} {3,S}\n3   Cs u0 {1,S} {2,S}\n"
 children: []
 solute:
   S: 0.08944
@@ -76,11 +59,8 @@ dataCount:
 label: Ethylene_oxide
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O2s    u0 {2,S} {3,S}
-  2   [Cs,N] u0 {1,S} {3,S}
-  3   [Cs,N] u0 {1,S} {2,S}
+group: "\n1 * O2s    u0 {2,S} {3,S}\n2   [Cs,N] u0 {1,S} {3,S}\n3   [Cs,N] u0 {1,S}\
+  \ {2,S}\n"
 children: []
 solute:
   S: 0.26498
@@ -98,11 +78,8 @@ dataCount:
 label: Ethyleneimine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N       u0 {2,S} {3,S}
-  2   [Cs,N,S]  u0 {1,S} {3,S}
-  3   [Cs,N,S]  u0 {1,S} {2,S}
+group: "\n1 * N       u0 {2,S} {3,S}\n2   [Cs,N,S]  u0 {1,S} {3,S}\n3   [Cs,N,S] \
+  \ u0 {1,S} {2,S}\n"
 children: []
 solute:
   S: 0.0714
@@ -120,24 +97,16 @@ dataCount:
 label: FourMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D]} {4,[S,D]}
-  2   R!H u0 {1,[S,D]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D]}
-  4   R!H u0 {1,[S,D]} {3,[S,D]}
+group: "\n1 * R!H u0 {2,[S,D]} {4,[S,D]}\n2   R!H u0 {1,[S,D]} {3,[S,D]}\n3   R!H\
+  \ u0 {2,[S,D]} {4,[S,D]}\n4   R!H u0 {1,[S,D]} {3,[S,D]}\n"
 children: []
 solute: Cyclobutane
 ---
 label: Cyclobutane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {4,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {1,S} {3,S}
+group: "\n1 * C  u0 {2,S} {4,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {1,S} {3,S}\n"
 children: []
 solute:
   S: 0.05047
@@ -155,12 +124,8 @@ dataCount:
 label: Oxetane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O2s  u0 {2,S} {4,S}
-  2   C    u0 {1,S} {3,S}
-  3   C    u0 {2,S} {4,S}
-  4   C    u0 {1,S} {3,S}
+group: "\n1 * O2s  u0 {2,S} {4,S}\n2   C    u0 {1,S} {3,S}\n3   C    u0 {2,S} {4,S}\n\
+  4   C    u0 {1,S} {3,S}\n"
 children: []
 solute:
   S: 0.07828
@@ -178,12 +143,8 @@ dataCount:
 label: Beta-Propiolactone
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O2s      u0 {2,S} {4,S}
-  2   C        u0 {1,S} {3,S}
-  3   C        u0 {2,S} {4,S}
-  4   [CO,CS]  u0 {1,S} {3,S}
+group: "\n1 * O2s      u0 {2,S} {4,S}\n2   C        u0 {1,S} {3,S}\n3   C        u0\
+  \ {2,S} {4,S}\n4   [CO,CS]  u0 {1,S} {3,S}\n"
 children: []
 solute:
   S: 0.03077
@@ -201,12 +162,8 @@ dataCount:
 label: Azetidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N       u0 {4,S} {2,S}
-  2   [Cs,N,O,S]  u0 {1,S} {3,S}
-  3   [Cs,N,O,S]  u0 {2,S} {4,S}
-  4   [Cs,N,O,S]  u0 {3,S} {1,S}
+group: "\n1 * N       u0 {4,S} {2,S}\n2   [Cs,N,O,S]  u0 {1,S} {3,S}\n3   [Cs,N,O,S]\
+  \  u0 {2,S} {4,S}\n4   [Cs,N,O,S]  u0 {3,S} {1,S}\n"
 children: []
 solute:
   S: 0.05099
@@ -224,26 +181,17 @@ dataCount:
 label: FiveMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D,T]} {5,[S,D]}
-  2   R!H u0 {1,[S,D,T]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D]}
-  4   R!H u0 {3,[S,D]} {5,[S,D,T]}
-  5   R!H u0 {1,[S,D]} {4,[S,D,T]}
+group: "\n1 * R!H u0 {2,[S,D,T]} {5,[S,D]}\n2   R!H u0 {1,[S,D,T]} {3,[S,D]}\n3  \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4   R!H u0 {3,[S,D]} {5,[S,D,T]}\n5   R!H u0 {1,[S,D]}\
+  \ {4,[S,D,T]}\n"
 children: []
 solute: Cyclopentane
 ---
 label: five-0double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {5,S}
-  2   R!H u0 {1,S} {3,S}
-  3   R!H u0 {2,S} {4,S}
-  4   R!H u0 {3,S} {5,S}
-  5   R!H u0 {1,S} {4,S}
+group: "\n1 * R!H u0 {2,S} {5,S}\n2   R!H u0 {1,S} {3,S}\n3   R!H u0 {2,S} {4,S}\n\
+  4   R!H u0 {3,S} {5,S}\n5   R!H u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: -0.04857
@@ -261,13 +209,8 @@ dataCount:
 label: Cyclopentane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * C  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.02389
@@ -285,13 +228,8 @@ dataCount:
 label: Cyclopentanone
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * CO  u0 {2,S} {5,S}
-  2   Cs  u0 {1,S} {3,S}
-  3   Cs  u0 {2,S} {4,S}
-  4   Cs  u0 {3,S} {5,S}
-  5   Cs  u0 {1,S} {4,S}
+group: "\n1 * CO  u0 {2,S} {5,S}\n2   Cs  u0 {1,S} {3,S}\n3   Cs  u0 {2,S} {4,S}\n\
+  4   Cs  u0 {3,S} {5,S}\n5   Cs  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.04966
@@ -329,14 +267,9 @@ dataCount:
 label: methylenecyclopentane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cd     u0 {2,S} {5,S} {6,D}
-  2   Cs     u0 {1,S} {3,S}
-  3   Cs     u0 {2,S} {4,S}
-  4   Cs     u0 {3,S} {5,S}
-  5   Cs     u0 {1,S} {4,S}
-  6   [Cd,N] u0 {1,D}
+group: "\n1 * Cd     u0 {2,S} {5,S} {6,D}\n2   Cs     u0 {1,S} {3,S}\n3   Cs     u0\
+  \ {2,S} {4,S}\n4   Cs     u0 {3,S} {5,S}\n5   Cs     u0 {1,S} {4,S}\n6   [Cd,N]\
+  \ u0 {1,D}\n"
 children: []
 solute:
   S: 0.02089
@@ -354,13 +287,8 @@ dataCount:
 label: Tetrahydrofuran
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * O  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.00107
@@ -378,13 +306,8 @@ dataCount:
 label: butyrolactone
 short_description: ''
 long_description: ''
-group: |2
-
-  1   CO   u0 {2,S} {5,S}
-  2 * O2s  u0 {1,S} {3,S}
-  3   Cs   u0 {2,S} {4,S}
-  4   Cs   u0 {3,S} {5,S}
-  5   Cs   u0 {1,S} {4,S}
+group: "\n1   CO   u0 {2,S} {5,S}\n2 * O2s  u0 {1,S} {3,S}\n3   Cs   u0 {2,S} {4,S}\n\
+  4   Cs   u0 {3,S} {5,S}\n5   Cs   u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.09798
@@ -402,27 +325,16 @@ dataCount:
 label: Pyrrolidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute: Pyrrolidine(N-R)
 ---
 label: Pyrrolidine(N-H)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
-  6   H  u0 {1,S}
+group: "\n1 * N  u0 {2,S} {5,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n\
+  4   C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n6   H  u0 {1,S}\n"
 children: []
 solute:
   S: 0.11593
@@ -440,14 +352,8 @@ dataCount:
 label: Pyrrolidine(N-R)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N    u0 {2,S} {5,S} {6,S}
-  2   C    u0 {1,S} {3,S}
-  3   C    u0 {2,S} {4,S}
-  4   C    u0 {3,S} {5,S}
-  5   C    u0 {1,S} {4,S}
-  6   R!H  u0 {1,S}
+group: "\n1 * N    u0 {2,S} {5,S} {6,S}\n2   C    u0 {1,S} {3,S}\n3   C    u0 {2,S}\
+  \ {4,S}\n4   C    u0 {3,S} {5,S}\n5   C    u0 {1,S} {4,S}\n6   R!H  u0 {1,S}\n"
 children: []
 solute:
   S: 0.0264
@@ -465,13 +371,8 @@ dataCount:
 label: 1,3-Dioxolane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C      u0 {2,S} {5,S}
-  2   O      u0 {1,S} {3,S}
-  3   C      u0 {2,S} {4,S}
-  4   C      u0 {3,S} {5,S}
-  5   O      u0 {1,S} {4,S}
+group: "\n1 * C      u0 {2,S} {5,S}\n2   O      u0 {1,S} {3,S}\n3   C      u0 {2,S}\
+  \ {4,S}\n4   C      u0 {3,S} {5,S}\n5   O      u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.10708
@@ -489,13 +390,8 @@ dataCount:
 label: thiolane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S u0 {2,S} {5,S}
-  2   C u0 {1,S} {3,S}
-  3   C u0 {2,S} {4,S}
-  4   C u0 {3,S} {5,S}
-  5   C u0 {1,S} {4,S}
+group: "\n1 * S u0 {2,S} {5,S}\n2   C u0 {1,S} {3,S}\n3   C u0 {2,S} {4,S}\n4   C\
+  \ u0 {3,S} {5,S}\n5   C u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.00514
@@ -513,26 +409,16 @@ dataCount:
 label: Imidazolidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N u0 {2,S} {5,S}
-  2   C u0 {1,S} {3,S}
-  3   N u0 {2,S} {4,S}
-  4   C u0 {3,S} {5,S}
-  5   C u0 {1,S} {4,S}
+group: "\n1 * N u0 {2,S} {5,S}\n2   C u0 {1,S} {3,S}\n3   N u0 {2,S} {4,S}\n4   C\
+  \ u0 {3,S} {5,S}\n5   C u0 {1,S} {4,S}\n"
 children: []
 solute: imidazolidine-2,4-dione
 ---
 label: imidazolidine-2,4-dione
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   CO u0 {1,S} {3,S}
-  3   N  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   CO u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   CO u0 {1,S} {3,S}\n3   N  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   CO u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.11276
@@ -550,13 +436,8 @@ dataCount:
 label: five-1double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {5,S}
-  2   R!H u0 {1,S} {3,D}
-  3   R!H u0 {2,D} {4,S}
-  4   R!H u0 {3,S} {5,S}
-  5   R!H u0 {1,S} {4,S}
+group: "\n1 * R!H u0 {2,S} {5,S}\n2   R!H u0 {1,S} {3,D}\n3   R!H u0 {2,D} {4,S}\n\
+  4   R!H u0 {3,S} {5,S}\n5   R!H u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: -0.01665
@@ -574,13 +455,8 @@ dataCount:
 label: Cyclopentene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * C  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.06054
@@ -598,13 +474,8 @@ dataCount:
 label: 2-pyrroline
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.02913
@@ -622,13 +493,8 @@ dataCount:
 label: 3-pyrroline
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   N  u0 {1,S} {4,S}
+group: "\n1 * C  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   N  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.05384
@@ -646,13 +512,8 @@ dataCount:
 label: 2-pyrazoline
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   N  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   N  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: -0.14489
@@ -670,13 +531,8 @@ dataCount:
 label: 2-imidazoline
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   N  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   N  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.15325
@@ -694,13 +550,8 @@ dataCount:
 label: five-N1NC=CC1
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   N  u0 {1,S} {4,S}
+group: "\n1 * N  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   N  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.02465
@@ -718,26 +569,16 @@ dataCount:
 label: 2,5-Dihydrofuran
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   O  u0 {1,S} {4,S}
+group: "\n1 * C  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   O  u0 {1,S} {4,S}\n"
 children: []
 solute: 5H-furan-2-one
 ---
 label: 5H-furan-2-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {5,S}
-  2   C  u0 {1,S} {3,D}
-  3   C  u0 {2,D} {4,S}
-  4   CO u0 {3,S} {5,S}
-  5   O  u0 {1,S} {4,S}
+group: "\n1 * C  u0 {2,S} {5,S}\n2   C  u0 {1,S} {3,D}\n3   C  u0 {2,D} {4,S}\n4 \
+  \  CO u0 {3,S} {5,S}\n5   O  u0 {1,S} {4,S}\n"
 children: []
 solute:
   S: 0.1477
@@ -755,26 +596,16 @@ dataCount:
 label: five-2double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {5,S}
-  2   R!H u0 {1,S} {3,D}
-  3   R!H u0 {2,D} {4,S}
-  4   R!H u0 {3,S} {5,D}
-  5   R!H u0 {1,S} {4,D}
+group: "\n1 * R!H u0 {2,S} {5,S}\n2   R!H u0 {1,S} {3,D}\n3   R!H u0 {2,D} {4,S}\n\
+  4   R!H u0 {3,S} {5,D}\n5   R!H u0 {1,S} {4,D}\n"
 children: []
 solute: Furan
 ---
 label: Cyclopentadiene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C     u0 {2,S} {5,S}
-  2   Cd    u0 {1,S} {3,D}
-  3   Cd    u0 {2,D} {4,S}
-  4   Cd    u0 {3,S} {5,D}
-  5   Cd    u0 {1,S} {4,D}
+group: "\n1 * C     u0 {2,S} {5,S}\n2   Cd    u0 {1,S} {3,D}\n3   Cd    u0 {2,D} {4,S}\n\
+  4   Cd    u0 {3,S} {5,D}\n5   Cd    u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: -0.03717
@@ -792,13 +623,8 @@ dataCount:
 label: Furan
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * O      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.02936
@@ -816,13 +642,8 @@ dataCount:
 label: 1H-Pyrrole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.09574
@@ -840,13 +661,8 @@ dataCount:
 label: Thiophene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S    u0 {2,S} {5,S}
-  2   Cd   u0 {1,S} {3,D}
-  3   Cd   u0 {2,D} {4,S}
-  4   Cd   u0 {3,S} {5,D}
-  5   Cd   u0 {1,S} {4,D}
+group: "\n1 * S    u0 {2,S} {5,S}\n2   Cd   u0 {1,S} {3,D}\n3   Cd   u0 {2,D} {4,S}\n\
+  4   Cd   u0 {3,S} {5,D}\n5   Cd   u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: -0.00182
@@ -864,13 +680,8 @@ dataCount:
 label: Pyrazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.05857
@@ -888,13 +699,8 @@ dataCount:
 label: Imidazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   N      u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   N      u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.00875
@@ -912,16 +718,9 @@ dataCount:
 label: 2-Nitroimidazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D} {6,S}
-  3   N      u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
-  6   N5dc   u0 {2,S} {7,D} {8,S}
-  7   O2d    u0 {6,D}
-  8   O0sc   u0 {6,S}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D} {6,S}\n3   N      u0\
+  \ {2,D} {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n6   N5dc  \
+  \ u0 {2,S} {7,D} {8,S}\n7   O2d    u0 {6,D}\n8   O0sc   u0 {6,S}\n"
 children: []
 solute:
   S: 0.05294
@@ -939,13 +738,8 @@ dataCount:
 label: 1,2,4-Triazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   N      u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   N      u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.11808
@@ -963,13 +757,8 @@ dataCount:
 label: Tetrazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   N      u0 {2,D} {4,S}
-  4   N      u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   N      u0 {2,D}\
+  \ {4,S}\n4   N      u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: -0.02691
@@ -987,13 +776,8 @@ dataCount:
 label: 2H-Tetrazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   N      u0 {3,S} {5,D}
-  5   N      u0 {1,S} {4,D}
+group: "\n1 * N      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   N      u0 {3,S} {5,D}\n5   N      u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.18461
@@ -1011,13 +795,8 @@ dataCount:
 label: Oxazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   N      u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * O      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   N      u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.03086
@@ -1035,13 +814,8 @@ dataCount:
 label: Isoxazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * O      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.09827
@@ -1059,13 +833,8 @@ dataCount:
 label: Thiazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   N      u0 {2,D} {4,S}
-  4   Cd     u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * S      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   N      u0 {2,D}\
+  \ {4,S}\n4   Cd     u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: 0.21117
@@ -1083,13 +852,8 @@ dataCount:
 label: 1,2,4-Thiadiazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S      u0 {2,S} {5,S}
-  2   N      u0 {1,S} {3,D}
-  3   Cd     u0 {2,D} {4,S}
-  4   N      u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * S      u0 {2,S} {5,S}\n2   N      u0 {1,S} {3,D}\n3   Cd     u0 {2,D}\
+  \ {4,S}\n4   N      u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: -0.01544
@@ -1107,13 +871,8 @@ dataCount:
 label: 1,3,4-Thiadiazole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S      u0 {2,S} {5,S}
-  2   Cd     u0 {1,S} {3,D}
-  3   N      u0 {2,D} {4,S}
-  4   N      u0 {3,S} {5,D}
-  5   Cd     u0 {1,S} {4,D}
+group: "\n1 * S      u0 {2,S} {5,S}\n2   Cd     u0 {1,S} {3,D}\n3   N      u0 {2,D}\
+  \ {4,S}\n4   N      u0 {3,S} {5,D}\n5   Cd     u0 {1,S} {4,D}\n"
 children: []
 solute:
   S: -0.05576
@@ -1131,28 +890,17 @@ dataCount:
 label: SixMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D,T]} {6,[S,D]}
-  2   R!H u0 {1,[S,D,T]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D,T]}
-  4   R!H u0 {3,[S,D,T]} {5,[S,D]}
-  5   R!H u0 {4,[S,D]} {6,[S,D,T]}
-  6   R!H u0 {1,[S,D]} {5,[S,D,T]}
+group: "\n1 * R!H u0 {2,[S,D,T]} {6,[S,D]}\n2   R!H u0 {1,[S,D,T]} {3,[S,D]}\n3  \
+  \ R!H u0 {2,[S,D]} {4,[S,D,T]}\n4   R!H u0 {3,[S,D,T]} {5,[S,D]}\n5   R!H u0 {4,[S,D]}\
+  \ {6,[S,D,T]}\n6   R!H u0 {1,[S,D]} {5,[S,D,T]}\n"
 children: []
 solute: Cyclohexane
 ---
 label: six-0double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H  u0 {2,S} {6,S}
-  2   R!H  u0 {1,S} {3,S}
-  3   R!H  u0 {2,S} {4,S}
-  4   R!H  u0 {3,S} {5,S}
-  5   R!H  u0 {4,S} {6,S}
-  6   R!H  u0 {1,S} {5,S}
+group: "\n1 * R!H  u0 {2,S} {6,S}\n2   R!H  u0 {1,S} {3,S}\n3   R!H  u0 {2,S} {4,S}\n\
+  4   R!H  u0 {3,S} {5,S}\n5   R!H  u0 {4,S} {6,S}\n6   R!H  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.00862
@@ -1170,14 +918,8 @@ dataCount:
 label: Cyclohexane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
+group: "\n1 * C  u0 {2,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.02883
@@ -1195,14 +937,8 @@ dataCount:
 label: Cyclohexanone
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * CO u0 {2,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
+group: "\n1 * CO u0 {2,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.00752
@@ -1220,16 +956,9 @@ dataCount:
 label: Cyclohexanol
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cs  u0 {2,S} {6,S} {7,S}
-  2   Cs  u0 {1,S} {3,S}
-  3   Cs  u0 {2,S} {4,S}
-  4   Cs  u0 {3,S} {5,S}
-  5   Cs  u0 {4,S} {6,S}
-  6   Cs  u0 {1,S} {5,S}
-  7   O2s u0 {1,S} {8,S}
-  8   H   u0 {7,S}
+group: "\n1 * Cs  u0 {2,S} {6,S} {7,S}\n2   Cs  u0 {1,S} {3,S}\n3   Cs  u0 {2,S} {4,S}\n\
+  4   Cs  u0 {3,S} {5,S}\n5   Cs  u0 {4,S} {6,S}\n6   Cs  u0 {1,S} {5,S}\n7   O2s\
+  \ u0 {1,S} {8,S}\n8   H   u0 {7,S}\n"
 children: []
 solute:
   S: 0.07636
@@ -1247,21 +976,10 @@ dataCount:
 label: N-Cyclohexylacetamide
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cs  u0 {2,S} {6,S} {7,S}
-  2   Cs  u0 {1,S} {3,S}
-  3   Cs  u0 {2,S} {4,S}
-  4   Cs  u0 {3,S} {5,S}
-  5   Cs  u0 {4,S} {6,S}
-  6   Cs  u0 {1,S} {5,S}
-  7   N3s u0 {1,S} {8,S} {10,S}
-  8   CO  u0 {7,S} {9,S}
-  9   Cs  u0 {8,S} {11,S} {12,S} {13,S}
-  10  H   u0 {7,S}
-  11  H   u0 {9,S}
-  12  H   u0 {9,S}
-  13  H   u0 {9,S}
+group: "\n1 * Cs  u0 {2,S} {6,S} {7,S}\n2   Cs  u0 {1,S} {3,S}\n3   Cs  u0 {2,S} {4,S}\n\
+  4   Cs  u0 {3,S} {5,S}\n5   Cs  u0 {4,S} {6,S}\n6   Cs  u0 {1,S} {5,S}\n7   N3s\
+  \ u0 {1,S} {8,S} {10,S}\n8   CO  u0 {7,S} {9,S}\n9   Cs  u0 {8,S} {11,S} {12,S}\
+  \ {13,S}\n10  H   u0 {7,S}\n11  H   u0 {9,S}\n12  H   u0 {9,S}\n13  H   u0 {9,S}\n"
 children: []
 solute:
   S: 0.10298
@@ -1279,14 +997,8 @@ dataCount:
 label: 1,3-Dioxane
 short_description: ''
 long_description: ''
-group: |2
-
-  1   O2s u0 {2,S} {6,S}
-  2 * Cs u0 {1,S} {3,S}
-  3   O2s u0 {2,S} {4,S}
-  4   Cs u0 {3,S} {5,S}
-  5   Cs u0 {4,S} {6,S}
-  6   Cs u0 {1,S} {5,S}
+group: "\n1   O2s u0 {2,S} {6,S}\n2 * Cs u0 {1,S} {3,S}\n3   O2s u0 {2,S} {4,S}\n\
+  4   Cs u0 {3,S} {5,S}\n5   Cs u0 {4,S} {6,S}\n6   Cs u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.15619
@@ -1304,14 +1016,8 @@ dataCount:
 label: 1,4-Dioxane
 short_description: ''
 long_description: ''
-group: |2
-
-  1   Cs u0 {2,S} {6,S}
-  2   Cs u0 {1,S} {3,S}
-  3 * O2s u0 {2,S} {4,S}
-  4   Cs u0 {3,S} {5,S}
-  5   Cs u0 {4,S} {6,S}
-  6   O2s u0 {1,S} {5,S}
+group: "\n1   Cs u0 {2,S} {6,S}\n2   Cs u0 {1,S} {3,S}\n3 * O2s u0 {2,S} {4,S}\n4\
+  \   Cs u0 {3,S} {5,S}\n5   Cs u0 {4,S} {6,S}\n6   O2s u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.02654
@@ -1329,14 +1035,8 @@ dataCount:
 label: 1,3,5-Trioxane
 short_description: ''
 long_description: ''
-group: |2
-
-  1   Cs u0 {2,S} {6,S}
-  2   O2s u0 {1,S} {3,S}
-  3   Cs u0 {2,S} {4,S}
-  4 * O2s u0 {3,S} {5,S}
-  5   Cs u0 {4,S} {6,S}
-  6   O2s u0 {1,S} {5,S}
+group: "\n1   Cs u0 {2,S} {6,S}\n2   O2s u0 {1,S} {3,S}\n3   Cs u0 {2,S} {4,S}\n4\
+  \ * O2s u0 {3,S} {5,S}\n5   Cs u0 {4,S} {6,S}\n6   O2s u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.07825
@@ -1354,14 +1054,8 @@ dataCount:
 label: Oxane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C   u0 {2,S} {6,S}
-  2   O2s u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * C   u0 {2,S} {6,S}\n2   O2s u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.05249
@@ -1379,16 +1073,9 @@ dataCount:
 label: 4-Hydroxyoxan-2-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * CO  u0 {2,S} {6,S}
-  2   O2s u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S} {7,S}
-  6   C   u0 {1,S} {5,S}
-  7   O   u0 {5,S} {8,S}
-  8   H   u0 {7,S}
+group: "\n1 * CO  u0 {2,S} {6,S}\n2   O2s u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S} {7,S}\n6   C   u0 {1,S} {5,S}\n7\
+  \   O   u0 {5,S} {8,S}\n8   H   u0 {7,S}\n"
 children: []
 solute:
   S: 0.03292
@@ -1406,29 +1093,16 @@ dataCount:
 label: Piperidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
+group: "\n1 * N  u0 {2,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n"
 children: []
 solute: Piperidine(N-R)
 ---
 label: Piperidine(N-H)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {6,S} {7,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
-  7   H  u0 {1,S}
+group: "\n1 * N  u0 {2,S} {6,S} {7,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n\
+  4   C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n7   H  u0 {1,S}\n"
 children: []
 solute:
   S: 0.06484
@@ -1446,15 +1120,9 @@ dataCount:
 label: Piperidine(N-R)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   R!H u0 {1,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7   R!H\
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: 0.00587
@@ -1472,15 +1140,9 @@ dataCount:
 label: 1-Piperidinecarboxaldehyde
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   CO  u0 {1,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7   CO \
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: -0.06312
@@ -1498,15 +1160,9 @@ dataCount:
 label: Piperidine-2,6-dione
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   CO  u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   CO  u0 {1,S} {5,S}
-  7   R!H u0 {1,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   CO  u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   CO  u0 {1,S} {5,S}\n7   R!H\
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: -0.06255
@@ -1524,30 +1180,17 @@ dataCount:
 label: Piperazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   N   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   N   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: Piperazine(N-R,N-R)
 ---
 label: Piperazine(N-H,N-H)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   N   u0 {3,S} {5,S} {8,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   H   u0 {1,S}
-  8   H   u0 {4,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   N   u0 {3,S} {5,S} {8,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7\
+  \   H   u0 {1,S}\n8   H   u0 {4,S}\n"
 children: []
 solute:
   S: 0.06403
@@ -1565,16 +1208,9 @@ dataCount:
 label: Piperazine(N-H,N-R)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   N   u0 {3,S} {5,S} {8,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   H   u0 {1,S}
-  8   R!H u0 {4,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   N   u0 {3,S} {5,S} {8,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7\
+  \   H   u0 {1,S}\n8   R!H u0 {4,S}\n"
 children: []
 solute:
   S: -0.04453
@@ -1592,16 +1228,9 @@ dataCount:
 label: Piperazine(N-R,N-R)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   N   u0 {3,S} {5,S} {8,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   R!H u0 {1,S}
-  8   R!H u0 {4,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   N   u0 {3,S} {5,S} {8,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7\
+  \   R!H u0 {1,S}\n8   R!H u0 {4,S}\n"
 children: []
 solute:
   S: -0.16121
@@ -1619,29 +1248,17 @@ dataCount:
 label: Morpholine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   O   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   O   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: Morpholine(N-R)
 ---
 label: Morpholine(N-H)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   O   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   H   u0 {1,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   O   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7   H  \
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: 0.01327
@@ -1659,15 +1276,9 @@ dataCount:
 label: Morpholine(N-R)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   O   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
-  7   R!H u0 {1,S}
+group: "\n1 * N   u0 {2,S} {6,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   O   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n7   R!H\
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: 0.05837
@@ -1685,28 +1296,16 @@ dataCount:
 label: 1,3-Diazinane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   C   u0 {1,S} {3,S}
-  3   N   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   C   u0 {1,S} {3,S}\n3   N   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: 1,3-Diazinane-2,4,6-trione
 ---
 label: 1,3-Diazinane-2,4,6-trione
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   CO  u0 {1,S} {3,S}
-  3   N   u0 {2,S} {4,S}
-  4   CO  u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   CO  u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   CO  u0 {1,S} {3,S}\n3   N   u0 {2,S} {4,S}\n\
+  4   CO  u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   CO  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.09205
@@ -1724,14 +1323,8 @@ dataCount:
 label: 2-Sulfanylidene-1,3-diazinane-4,6-dione
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   CS  u0 {1,S} {3,S}
-  3   N   u0 {2,S} {4,S}
-  4   CO  u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   CO  u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   CS  u0 {1,S} {3,S}\n3   N   u0 {2,S} {4,S}\n\
+  4   CO  u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   CO  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.03277
@@ -1749,14 +1342,8 @@ dataCount:
 label: 1,3,5-Triazinane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   C   u0 {1,S} {3,S}
-  3   N   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   N   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   C   u0 {1,S} {3,S}\n3   N   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   N   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.04044
@@ -1774,29 +1361,17 @@ dataCount:
 label: 1,3,2-Dioxaphosphorinane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * P   u0 {2,S} {6,S}
-  2   O   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   O   u0 {1,S} {5,S}
+group: "\n1 * P   u0 {2,S} {6,S}\n2   O   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   O   u0 {1,S} {5,S}\n"
 children: []
 solute: 1,3,2-Dioxaphosphorinane-2-oxide
 ---
 label: 1,3,2-Dioxaphosphorinane-2-oxide
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * P5d u0 {2,S} {6,S} {7,D}
-  2   O   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   O   u0 {1,S} {5,S}
-  7   O2d u0 {1,D}
+group: "\n1 * P5d u0 {2,S} {6,S} {7,D}\n2   O   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   O   u0 {1,S} {5,S}\n7   O2d\
+  \ u0 {1,D}\n"
 children: []
 solute:
   S: 0.28243
@@ -1814,14 +1389,8 @@ dataCount:
 label: six-1double
 short_description: ''
 long_description: ''
-group: |2
-
-  1   R!H  u0 {2,S} {6,S}
-  2 * R!H  u0 {1,S} {3,D}
-  3   R!H  u0 {2,D} {4,S}
-  4   R!H  u0 {3,S} {5,S}
-  5   R!H  u0 {4,S} {6,S}
-  6   R!H  u0 {1,S} {5,S}
+group: "\n1   R!H  u0 {2,S} {6,S}\n2 * R!H  u0 {1,S} {3,D}\n3   R!H  u0 {2,D} {4,S}\n\
+  4   R!H  u0 {3,S} {5,S}\n5   R!H  u0 {4,S} {6,S}\n6   R!H  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.06432
@@ -1839,14 +1408,8 @@ dataCount:
 label: Cyclohexene
 short_description: ''
 long_description: ''
-group: |2
-
-  1   C  u0 {2,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3 * Cd u0 {2,S} {4,D}
-  4   Cd u0 {3,D} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
+group: "\n1   C  u0 {2,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3 * Cd u0 {2,S} {4,D}\n4 \
+  \  Cd u0 {3,D} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.02591
@@ -1864,28 +1427,16 @@ dataCount:
 label: Tetrahydropyrimidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1   N  u0 {2,S} {6,S}
-  2   C  u0 {1,S} {3,S}
-  3 * Cd u0 {2,S} {4,D}
-  4   Cd u0 {3,D} {5,S}
-  5   N  u0 {4,S} {6,S}
-  6   C  u0 {1,S} {5,S}
+group: "\n1   N  u0 {2,S} {6,S}\n2   C  u0 {1,S} {3,S}\n3 * Cd u0 {2,S} {4,D}\n4 \
+  \  Cd u0 {3,D} {5,S}\n5   N  u0 {4,S} {6,S}\n6   C  u0 {1,S} {5,S}\n"
 children: []
 solute: Uracil
 ---
 label: Uracil
 short_description: ''
 long_description: ''
-group: |2
-
-  1   N  u0 {2,S} {6,S}
-  2   CO u0 {1,S} {3,S}
-  3 * Cd u0 {2,S} {4,D}
-  4   Cd u0 {3,D} {5,S}
-  5   N  u0 {4,S} {6,S}
-  6   CO u0 {1,S} {5,S}
+group: "\n1   N  u0 {2,S} {6,S}\n2   CO u0 {1,S} {3,S}\n3 * Cd u0 {2,S} {4,D}\n4 \
+  \  Cd u0 {3,D} {5,S}\n5   N  u0 {4,S} {6,S}\n6   CO u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.06262
@@ -1903,14 +1454,8 @@ dataCount:
 label: 1,2,3,6-Tetrahydropyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1   N   u0 {2,S} {6,S}
-  2   C   u0 {1,S} {3,S}
-  3 * Cd  u0 {2,S} {4,D}
-  4   Cd  u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1   N   u0 {2,S} {6,S}\n2   C   u0 {1,S} {3,S}\n3 * Cd  u0 {2,S} {4,D}\n\
+  4   Cd  u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.00389
@@ -1928,28 +1473,16 @@ dataCount:
 label: 1,4,5,6-Tetrahydropyridazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1   C   u0 {2,S} {6,S}
-  2   N3s u0 {1,S} {3,S}
-  3 * N3d u0 {2,S} {4,D}
-  4   Cd  u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1   C   u0 {2,S} {6,S}\n2   N3s u0 {1,S} {3,S}\n3 * N3d u0 {2,S} {4,D}\n\
+  4   Cd  u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: 4,5-Dihydro-2H-pyridazin-3-one
 ---
 label: 4,5-Dihydro-2H-pyridazin-3-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1   CO  u0 {2,S} {6,S}
-  2   N3s u0 {1,S} {3,S}
-  3 * N3d u0 {2,S} {4,D}
-  4   Cd  u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1   CO  u0 {2,S} {6,S}\n2   N3s u0 {1,S} {3,S}\n3 * N3d u0 {2,S} {4,D}\n\
+  4   Cd  u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.0239
@@ -1967,28 +1500,16 @@ dataCount:
 label: six-2double-1,3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H  u0 {2,S} {6,S}
-  2   R!H  u0 {1,S} {3,D}
-  3   R!H  u0 {2,D} {4,S}
-  4   R!H  u0 {3,S} {5,D}
-  5   R!H  u0 {4,D} {6,S}
-  6   R!H  u0 {1,S} {5,S}
+group: "\n1 * R!H  u0 {2,S} {6,S}\n2   R!H  u0 {1,S} {3,D}\n3   R!H  u0 {2,D} {4,S}\n\
+  4   R!H  u0 {3,S} {5,D}\n5   R!H  u0 {4,D} {6,S}\n6   R!H  u0 {1,S} {5,S}\n"
 children: []
 solute: 1,3-Cyclohexadiene
 ---
 label: 1,3-Cyclohexadiene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   Cd  u0 {4,D} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * C   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   Cd  u0 {4,D} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: -0.0354
@@ -2006,14 +1527,8 @@ dataCount:
 label: 1,2-Dihydropyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   Cd  u0 {4,D} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   Cd  u0 {4,D} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.02281
@@ -2031,42 +1546,24 @@ dataCount:
 label: 2,3-Dihydropyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C   u0 {2,S} {6,S}
-  2   N   u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   Cd  u0 {4,D} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * C   u0 {2,S} {6,S}\n2   N   u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   Cd  u0 {4,D} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: 1,2-Dihydropyridine
 ---
 label: 1,2-Dihydropyrimidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   N   u0 {4,D} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   N   u0 {4,D} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: 1H-Pyrimidin-2-one
 ---
 label: 1H-Pyrimidin-2-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   N   u0 {4,D} {6,S}
-  6   CO  u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   N   u0 {4,D} {6,S}\n6   CO  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.00569
@@ -2084,28 +1581,16 @@ dataCount:
 label: N1C=NC=CC1
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   N   u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   Cd  u0 {4,D} {6,S}
-  6   C   u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   N   u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   Cd  u0 {4,D} {6,S}\n6   C   u0 {1,S} {5,S}\n"
 children: []
 solute: 3H-Pyrimidin-4-one
 ---
 label: 3H-Pyrimidin-4-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   N   u0 {2,D} {4,S}
-  4   Cd  u0 {3,S} {5,D}
-  5   Cd  u0 {4,D} {6,S}
-  6   CO  u0 {1,S} {5,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   N   u0 {2,D} {4,S}\n\
+  4   Cd  u0 {3,S} {5,D}\n5   Cd  u0 {4,D} {6,S}\n6   CO  u0 {1,S} {5,S}\n"
 children: []
 solute:
   S: 0.06823
@@ -2123,28 +1608,16 @@ dataCount:
 label: six-2double-1,4
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H  u0 {2,S} {6,S}
-  2   R!H  u0 {1,S} {3,D}
-  3   R!H  u0 {2,D} {4,S}
-  4   R!H  u0 {3,S} {5,S}
-  5   R!H  u0 {4,S} {6,D}
-  6   R!H  u0 {1,S} {5,D}
+group: "\n1 * R!H  u0 {2,S} {6,S}\n2   R!H  u0 {1,S} {3,D}\n3   R!H  u0 {2,D} {4,S}\n\
+  4   R!H  u0 {3,S} {5,S}\n5   R!H  u0 {4,S} {6,D}\n6   R!H  u0 {1,S} {5,D}\n"
 children: []
 solute: 1,4-Dihydropyridine
 ---
 label: 1,4-Cyclohexadiene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {6,S}
-  2   Cd u0 {1,S} {3,D}
-  3   Cd u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   Cd u0 {4,S} {6,D}
-  6   Cd u0 {1,S} {5,D}
+group: "\n1 * C  u0 {2,S} {6,S}\n2   Cd u0 {1,S} {3,D}\n3   Cd u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   Cd u0 {4,S} {6,D}\n6   Cd u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: 0.01625
@@ -2162,14 +1635,8 @@ dataCount:
 label: p-Benzoquinone
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * CO  u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S}
-  4   CO  u0 {3,S} {5,S}
-  5   Cd  u0 {4,S} {6,D}
-  6   Cd  u0 {1,S} {5,D}
+group: "\n1 * CO  u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S}\n\
+  4   CO  u0 {3,S} {5,S}\n5   Cd  u0 {4,S} {6,D}\n6   Cd  u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: -0.26091
@@ -2187,14 +1654,8 @@ dataCount:
 label: 1,4-Dihydropyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {6,S}
-  2   Cd u0 {1,S} {3,D}
-  3   Cd u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   Cd u0 {4,S} {6,D}
-  6   Cd u0 {1,S} {5,D}
+group: "\n1 * N  u0 {2,S} {6,S}\n2   Cd u0 {1,S} {3,D}\n3   Cd u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   Cd u0 {4,S} {6,D}\n6   Cd u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: -0.02787
@@ -2212,16 +1673,9 @@ dataCount:
 label: 3,4-Dihydroxypyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,S} {6,S}
-  2   Cd  u0 {1,S} {3,D}
-  3   Cd  u0 {2,D} {4,S} {7,S}
-  4   CO  u0 {3,S} {5,S}
-  5   Cd  u0 {4,S} {6,D}
-  6   Cd  u0 {1,S} {5,D}
-  7   O2s u0 {3,S} {8,S}
-  8   H   u0 {7,S}
+group: "\n1 * N   u0 {2,S} {6,S}\n2   Cd  u0 {1,S} {3,D}\n3   Cd  u0 {2,D} {4,S} {7,S}\n\
+  4   CO  u0 {3,S} {5,S}\n5   Cd  u0 {4,S} {6,D}\n6   Cd  u0 {1,S} {5,D}\n7   O2s\
+  \ u0 {3,S} {8,S}\n8   H   u0 {7,S}\n"
 children: []
 solute:
   S: 0.07515
@@ -2239,14 +1693,8 @@ dataCount:
 label: 4H-Pyran
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O  u0 {2,S} {6,S}
-  2   Cd u0 {1,S} {3,D}
-  3   Cd u0 {2,D} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   Cd u0 {4,S} {6,D}
-  6   Cd u0 {1,S} {5,D}
+group: "\n1 * O  u0 {2,S} {6,S}\n2   Cd u0 {1,S} {3,D}\n3   Cd u0 {2,D} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   Cd u0 {4,S} {6,D}\n6   Cd u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: 0.03439
@@ -2264,16 +1712,9 @@ dataCount:
 label: 3-Hydroxypyran-4-one
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O  u0 {2,S} {6,S}
-  2   Cd u0 {1,S} {3,D}
-  3   Cd u0 {2,D} {4,S}
-  4   CO u0 {3,S} {5,S}
-  5   Cd u0 {4,S} {6,D} {7,S}
-  6   Cd u0 {1,S} {5,D}
-  7   O  u0 {5,S} {8,S}
-  8   H  u0 {7,S}
+group: "\n1 * O  u0 {2,S} {6,S}\n2   Cd u0 {1,S} {3,D}\n3   Cd u0 {2,D} {4,S}\n4 \
+  \  CO u0 {3,S} {5,S}\n5   Cd u0 {4,S} {6,D} {7,S}\n6   Cd u0 {1,S} {5,D}\n7   O\
+  \  u0 {5,S} {8,S}\n8   H  u0 {7,S}\n"
 children: []
 solute:
   S: 0.04191
@@ -2291,28 +1732,16 @@ dataCount:
 label: six-3double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H  u0 {2,D} {6,S}
-  2   R!H  u0 {1,D} {3,S}
-  3   R!H  u0 {2,S} {4,D}
-  4   R!H  u0 {3,D} {5,S}
-  5   R!H  u0 {4,S} {6,D}
-  6   R!H  u0 {1,S} {5,D}
+group: "\n1 * R!H  u0 {2,D} {6,S}\n2   R!H  u0 {1,D} {3,S}\n3   R!H  u0 {2,S} {4,D}\n\
+  4   R!H  u0 {3,D} {5,S}\n5   R!H  u0 {4,S} {6,D}\n6   R!H  u0 {1,S} {5,D}\n"
 children: []
 solute: Pyridine
 ---
 label: Pyridine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: -0.04652
@@ -2330,15 +1759,9 @@ dataCount:
 label: Pyridine-N-oxide
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N5dc  u0 {2,D} {6,S} {7,S}
-  2   C     u0 {1,D} {3,S}
-  3   C     u0 {2,S} {4,D}
-  4   C     u0 {3,D} {5,S}
-  5   C     u0 {4,S} {6,D}
-  6   C     u0 {1,S} {5,D}
-  7   O0sc  u0 {1,S}
+group: "\n1 * N5dc  u0 {2,D} {6,S} {7,S}\n2   C     u0 {1,D} {3,S}\n3   C     u0 {2,S}\
+  \ {4,D}\n4   C     u0 {3,D} {5,S}\n5   C     u0 {4,S} {6,D}\n6   C     u0 {1,S}\
+  \ {5,D}\n7   O0sc  u0 {1,S}\n"
 children: []
 solute:
   S: -0.01816
@@ -2356,16 +1779,9 @@ dataCount:
 label: Isonicotinamide
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S} {7,S}
-  5   C   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
-  7   CO  u0 {4,S} {8,S}
-  8   N3s u0 {7,S}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S} {7,S}\n5   C   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n7\
+  \   CO  u0 {4,S} {8,S}\n8   N3s u0 {7,S}\n"
 children: []
 solute:
   S: 0.00166
@@ -2383,16 +1799,9 @@ dataCount:
 label: NicotinicAcidEster
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,D} {7,S}
-  6   C   u0 {1,S} {5,D}
-  7   CO  u0 {5,S} {8,S}
-  8   O2s u0 {7,S}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,D} {7,S}\n6   C   u0 {1,S} {5,D}\n7\
+  \   CO  u0 {5,S} {8,S}\n8   O2s u0 {7,S}\n"
 children: []
 solute:
   S: -0.07264
@@ -2410,14 +1819,8 @@ dataCount:
 label: Pyridazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,D}
-  6   N   u0 {1,S} {5,D}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,D}\n6   N   u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: 0.11794
@@ -2435,14 +1838,8 @@ dataCount:
 label: Pyrimidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   N   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   N   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: 0.06005
@@ -2460,14 +1857,8 @@ dataCount:
 label: Pyrazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   C   u0 {2,S} {4,D}
-  4   N   u0 {3,D} {5,S}
-  5   C   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   C   u0 {2,S} {4,D}\n\
+  4   N   u0 {3,D} {5,S}\n5   C   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n"
 children: []
 solute:
   S: 0.04189
@@ -2485,30 +1876,17 @@ dataCount:
 label: 1,3,5-Triazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S}
-  3   N   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   N   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S}\n3   N   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   N   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n"
 children: []
 solute: 2-Methylsulfanyl-1,3,5-triazine
 ---
 label: 2-Methylsulfanyl-1,3,5-triazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S} {7,S}
-  3   N   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   N   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
-  7   S2s u0 {2,S} {8,S}
-  8   Cs  u0 {7,S}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S} {7,S}\n3   N   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   N   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n7   S2s\
+  \ u0 {2,S} {8,S}\n8   Cs  u0 {7,S}\n"
 children: []
 solute:
   S: 0.02772
@@ -2526,16 +1904,9 @@ dataCount:
 label: 2-Methoxy-1,3,5-triazine
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N   u0 {2,D} {6,S}
-  2   C   u0 {1,D} {3,S} {7,S}
-  3   N   u0 {2,S} {4,D}
-  4   C   u0 {3,D} {5,S}
-  5   N   u0 {4,S} {6,D}
-  6   C   u0 {1,S} {5,D}
-  7   O2s u0 {2,S} {8,S}
-  8   Cs  u0 {7,S}
+group: "\n1 * N   u0 {2,D} {6,S}\n2   C   u0 {1,D} {3,S} {7,S}\n3   N   u0 {2,S} {4,D}\n\
+  4   C   u0 {3,D} {5,S}\n5   N   u0 {4,S} {6,D}\n6   C   u0 {1,S} {5,D}\n7   O2s\
+  \ u0 {2,S} {8,S}\n8   Cs  u0 {7,S}\n"
 children: []
 solute:
   S: -0.04153
@@ -2553,30 +1924,18 @@ dataCount:
 label: SevenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D,T]} {7,[S,D]}
-  2   R!H u0 {1,[S,D,T]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D]}
-  4   R!H u0 {3,[S,D]} {5,[S,D]}
-  5   R!H u0 {4,[S,D]} {6,[S,D]}
-  6   R!H u0 {5,[S,D]} {7,[S,D]}
-  7   R!H u0 {1,[S,D]} {6,[S,D]}
+group: "\n1 * R!H u0 {2,[S,D,T]} {7,[S,D]}\n2   R!H u0 {1,[S,D,T]} {3,[S,D]}\n3  \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4   R!H u0 {3,[S,D]} {5,[S,D]}\n5   R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6   R!H u0 {5,[S,D]} {7,[S,D]}\n7   R!H u0 {1,[S,D]} {6,[S,D]}\n"
 children: []
 solute: Cycloheptane
 ---
 label: seven-0double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {7,S}
-  2   R!H u0 {1,S} {3,S}
-  3   R!H u0 {2,S} {4,S}
-  4   R!H u0 {3,S} {5,S}
-  5   R!H u0 {4,S} {6,S}
-  6   R!H u0 {5,S} {7,S}
-  7   R!H u0 {1,S} {6,S}
+group: "\n1 * R!H u0 {2,S} {7,S}\n2   R!H u0 {1,S} {3,S}\n3   R!H u0 {2,S} {4,S}\n\
+  4   R!H u0 {3,S} {5,S}\n5   R!H u0 {4,S} {6,S}\n6   R!H u0 {5,S} {7,S}\n7   R!H\
+  \ u0 {1,S} {6,S}\n"
 children: []
 solute:
   S: 0.03666
@@ -2594,15 +1953,9 @@ dataCount:
 label: Cycloheptane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {7,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {1,S} {6,S}
+group: "\n1 * C  u0 {2,S} {7,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {1,S}\
+  \ {6,S}\n"
 children: []
 solute:
   S: 0.03156
@@ -2620,15 +1973,9 @@ dataCount:
 label: Oxepane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O2s u0 {2,S} {7,S}
-  2   C   u0 {1,S} {3,S}
-  3   C   u0 {2,S} {4,S}
-  4   C   u0 {3,S} {5,S}
-  5   C   u0 {4,S} {6,S}
-  6   C   u0 {5,S} {7,S}
-  7   C   u0 {1,S} {6,S}
+group: "\n1 * O2s u0 {2,S} {7,S}\n2   C   u0 {1,S} {3,S}\n3   C   u0 {2,S} {4,S}\n\
+  4   C   u0 {3,S} {5,S}\n5   C   u0 {4,S} {6,S}\n6   C   u0 {5,S} {7,S}\n7   C  \
+  \ u0 {1,S} {6,S}\n"
 children: []
 solute:
   S: 0.00354
@@ -2646,15 +1993,9 @@ dataCount:
 label: seven-0double_N
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {7,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {1,S} {6,S}
+group: "\n1 * N  u0 {2,S} {7,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {1,S}\
+  \ {6,S}\n"
 children: []
 solute:
   S: -0.05043
@@ -2672,15 +2013,9 @@ dataCount:
 label: seven-1double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {7,S}
-  2   R!H u0 {1,S} {3,S}
-  3   R!H u0 {2,S} {4,S}
-  4   R!H u0 {3,S} {5,D}
-  5   R!H u0 {4,D} {6,S}
-  6   R!H u0 {5,S} {7,S}
-  7   R!H u0 {1,S} {6,S}
+group: "\n1 * R!H u0 {2,S} {7,S}\n2   R!H u0 {1,S} {3,S}\n3   R!H u0 {2,S} {4,S}\n\
+  4   R!H u0 {3,S} {5,D}\n5   R!H u0 {4,D} {6,S}\n6   R!H u0 {5,S} {7,S}\n7   R!H\
+  \ u0 {1,S} {6,S}\n"
 children: []
 solute:
   S: -0.13718
@@ -2698,15 +2033,9 @@ dataCount:
 label: Cycloheptene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {7,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   Cd u0 {3,S} {5,D}
-  5   Cd u0 {4,D} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {1,S} {6,S}
+group: "\n1 * C  u0 {2,S} {7,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  Cd u0 {3,S} {5,D}\n5   Cd u0 {4,D} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {1,S}\
+  \ {6,S}\n"
 children: []
 solute:
   S: -0.01654
@@ -2724,15 +2053,9 @@ dataCount:
 label: seven-2double-1,3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {7,S}
-  2   R!H u0 {1,S} {3,S}
-  3   R!H u0 {2,S} {4,D}
-  4   R!H u0 {3,D} {5,S}
-  5   R!H u0 {4,S} {6,D}
-  6   R!H u0 {5,D} {7,S}
-  7   R!H u0 {1,S} {6,S}
+group: "\n1 * R!H u0 {2,S} {7,S}\n2   R!H u0 {1,S} {3,S}\n3   R!H u0 {2,S} {4,D}\n\
+  4   R!H u0 {3,D} {5,S}\n5   R!H u0 {4,S} {6,D}\n6   R!H u0 {5,D} {7,S}\n7   R!H\
+  \ u0 {1,S} {6,S}\n"
 children: []
 solute:
   S: 0.03404
@@ -2750,30 +2073,18 @@ dataCount:
 label: seven-3double-1,3,5
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {7,S}
-  2   R!H u0 {1,S} {3,D}
-  3   R!H u0 {2,D} {4,S}
-  4   R!H u0 {3,S} {5,D}
-  5   R!H u0 {4,D} {6,S}
-  6   R!H u0 {5,S} {7,D}
-  7   R!H u0 {1,S} {6,D}
+group: "\n1 * R!H u0 {2,S} {7,S}\n2   R!H u0 {1,S} {3,D}\n3   R!H u0 {2,D} {4,S}\n\
+  4   R!H u0 {3,S} {5,D}\n5   R!H u0 {4,D} {6,S}\n6   R!H u0 {5,S} {7,D}\n7   R!H\
+  \ u0 {1,S} {6,D}\n"
 children: []
 solute: 1,3,5-Cycloheptatriene
 ---
 label: 1,3,5-Cycloheptatriene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {7,S}
-  2   Cd u0 {1,S} {3,D}
-  3   Cd u0 {2,D} {4,S}
-  4   Cd u0 {3,S} {5,D}
-  5   Cd u0 {4,D} {6,S}
-  6   Cd u0 {5,S} {7,D}
-  7   Cd u0 {1,S} {6,D}
+group: "\n1 * C  u0 {2,S} {7,S}\n2   Cd u0 {1,S} {3,D}\n3   Cd u0 {2,D} {4,S}\n4 \
+  \  Cd u0 {3,S} {5,D}\n5   Cd u0 {4,D} {6,S}\n6   Cd u0 {5,S} {7,D}\n7   Cd u0 {1,S}\
+  \ {6,D}\n"
 children: []
 solute:
   S: 0.05462
@@ -2791,48 +2102,28 @@ dataCount:
 label: EightMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D]} {8,[S,D]}
-  2   R!H u0 {1,[S,D]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D]}
-  4   R!H u0 {3,[S,D]} {5,[S,D]}
-  5   R!H u0 {4,[S,D]} {6,[S,D]}
-  6   R!H u0 {5,[S,D]} {7,[S,D]}
-  7   R!H u0 {6,[S,D]} {8,[S,D]}
-  8   R!H u0 {1,[S,D]} {7,[S,D]}
+group: "\n1 * R!H u0 {2,[S,D]} {8,[S,D]}\n2   R!H u0 {1,[S,D]} {3,[S,D]}\n3   R!H\
+  \ u0 {2,[S,D]} {4,[S,D]}\n4   R!H u0 {3,[S,D]} {5,[S,D]}\n5   R!H u0 {4,[S,D]} {6,[S,D]}\n\
+  6   R!H u0 {5,[S,D]} {7,[S,D]}\n7   R!H u0 {6,[S,D]} {8,[S,D]}\n8   R!H u0 {1,[S,D]}\
+  \ {7,[S,D]}\n"
 children: []
 solute: Cyclooctane
 ---
 label: eight-0double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,S} {8,S}
-  2   R!H u0 {1,S} {3,S}
-  3   R!H u0 {2,S} {4,S}
-  4   R!H u0 {3,S} {5,S}
-  5   R!H u0 {4,S} {6,S}
-  6   R!H u0 {5,S} {7,S}
-  7   R!H u0 {6,S} {8,S}
-  8   R!H u0 {1,S} {7,S}
+group: "\n1 * R!H u0 {2,S} {8,S}\n2   R!H u0 {1,S} {3,S}\n3   R!H u0 {2,S} {4,S}\n\
+  4   R!H u0 {3,S} {5,S}\n5   R!H u0 {4,S} {6,S}\n6   R!H u0 {5,S} {7,S}\n7   R!H\
+  \ u0 {6,S} {8,S}\n8   R!H u0 {1,S} {7,S}\n"
 children: []
 solute: Cyclooctane
 ---
 label: Cyclooctane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {8,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {1,S} {7,S}
+group: "\n1 * C  u0 {2,S} {8,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {1,S} {7,S}\n"
 children: []
 solute:
   S: -0.08204
@@ -2850,16 +2141,9 @@ dataCount:
 label: Azocane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N  u0 {2,S} {8,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {1,S} {7,S}
+group: "\n1 * N  u0 {2,S} {8,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {1,S} {7,S}\n"
 children: []
 solute:
   S: 0.04326
@@ -2877,16 +2161,9 @@ dataCount:
 label: Octasulfur
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * S2s u0 {2,S} {8,S}
-  2   S2s u0 {1,S} {3,S}
-  3   S2s u0 {2,S} {4,S}
-  4   S2s u0 {3,S} {5,S}
-  5   S2s u0 {4,S} {6,S}
-  6   S2s u0 {5,S} {7,S}
-  7   S2s u0 {6,S} {8,S}
-  8   S2s u0 {1,S} {7,S}
+group: "\n1 * S2s u0 {2,S} {8,S}\n2   S2s u0 {1,S} {3,S}\n3   S2s u0 {2,S} {4,S}\n\
+  4   S2s u0 {3,S} {5,S}\n5   S2s u0 {4,S} {6,S}\n6   S2s u0 {5,S} {7,S}\n7   S2s\
+  \ u0 {6,S} {8,S}\n8   S2s u0 {1,S} {7,S}\n"
 children: []
 solute:
   S: 0.01041
@@ -2904,32 +2181,18 @@ dataCount:
 label: eight-1double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H  u0 {2,D} {8,S}
-  2   R!H  u0 {1,D} {3,S}
-  3   R!H  u0 {2,S} {4,S}
-  4   R!H  u0 {3,S} {5,S}
-  5   R!H  u0 {4,S} {6,S}
-  6   R!H  u0 {5,S} {7,S}
-  7   R!H  u0 {6,S} {8,S}
-  8   R!H  u0 {1,S} {7,S}
+group: "\n1 * R!H  u0 {2,D} {8,S}\n2   R!H  u0 {1,D} {3,S}\n3   R!H  u0 {2,S} {4,S}\n\
+  4   R!H  u0 {3,S} {5,S}\n5   R!H  u0 {4,S} {6,S}\n6   R!H  u0 {5,S} {7,S}\n7   R!H\
+  \  u0 {6,S} {8,S}\n8   R!H  u0 {1,S} {7,S}\n"
 children: []
 solute: Cyclooctene
 ---
 label: Cyclooctene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cd u0 {2,D} {8,S}
-  2   Cd u0 {1,D} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {1,S} {7,S}
+group: "\n1 * Cd u0 {2,D} {8,S}\n2   Cd u0 {1,D} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {1,S} {7,S}\n"
 children: []
 solute:
   S: -0.00706
@@ -2947,64 +2210,36 @@ dataCount:
 label: eight-2double-1,3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,D} {8,S}
-  2   R!H u0 {1,D} {3,S}
-  3   R!H u0 {2,S} {4,D}
-  4   R!H u0 {3,D} {5,S}
-  5   R!H u0 {4,S} {6,S}
-  6   R!H u0 {5,S} {7,S}
-  7   R!H u0 {6,S} {8,S}
-  8   R!H u0 {1,S} {7,S}
+group: "\n1 * R!H u0 {2,D} {8,S}\n2   R!H u0 {1,D} {3,S}\n3   R!H u0 {2,S} {4,D}\n\
+  4   R!H u0 {3,D} {5,S}\n5   R!H u0 {4,S} {6,S}\n6   R!H u0 {5,S} {7,S}\n7   R!H\
+  \ u0 {6,S} {8,S}\n8   R!H u0 {1,S} {7,S}\n"
 children: []
 solute: 1,3-cyclooctadiene
 ---
 label: 1,3-cyclooctadiene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cd u0 {2,D} {8,S}
-  2   Cd u0 {1,D} {3,S}
-  3   Cd u0 {2,S} {4,D}
-  4   Cd u0 {3,D} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {1,S} {7,S}
+group: "\n1 * Cd u0 {2,D} {8,S}\n2   Cd u0 {1,D} {3,S}\n3   Cd u0 {2,S} {4,D}\n4 \
+  \  Cd u0 {3,D} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {1,S} {7,S}\n"
 children: []
 solute: 1,5-cyclooctadiene
 ---
 label: eight-2double-1,5
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,D} {8,S}
-  2   R!H u0 {1,D} {3,S}
-  3   R!H u0 {2,S} {4,S}
-  4   R!H u0 {3,S} {5,S}
-  5   R!H u0 {4,S} {6,D}
-  6   R!H u0 {5,D} {7,S}
-  7   R!H u0 {6,S} {8,S}
-  8   R!H u0 {1,S} {7,S}
+group: "\n1 * R!H u0 {2,D} {8,S}\n2   R!H u0 {1,D} {3,S}\n3   R!H u0 {2,S} {4,S}\n\
+  4   R!H u0 {3,S} {5,S}\n5   R!H u0 {4,S} {6,D}\n6   R!H u0 {5,D} {7,S}\n7   R!H\
+  \ u0 {6,S} {8,S}\n8   R!H u0 {1,S} {7,S}\n"
 children: []
 solute: 1,5-cyclooctadiene
 ---
 label: 1,5-cyclooctadiene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cd u0 {2,D} {8,S}
-  2   Cd u0 {1,D} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   Cd u0 {4,S} {6,D}
-  6   Cd u0 {5,D} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {1,S} {7,S}
+group: "\n1 * Cd u0 {2,D} {8,S}\n2   Cd u0 {1,D} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   Cd u0 {4,S} {6,D}\n6   Cd u0 {5,D} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {1,S} {7,S}\n"
 children: []
 solute:
   S: 0.00474
@@ -3022,32 +2257,18 @@ dataCount:
 label: eight-4double
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,D} {8,S}
-  2   R!H u0 {1,D} {3,S}
-  3   R!H u0 {2,S} {4,D}
-  4   R!H u0 {3,D} {5,S}
-  5   R!H u0 {4,S} {6,D}
-  6   R!H u0 {5,D} {7,S}
-  7   R!H u0 {6,S} {8,D}
-  8   R!H u0 {1,S} {7,D}
+group: "\n1 * R!H u0 {2,D} {8,S}\n2   R!H u0 {1,D} {3,S}\n3   R!H u0 {2,S} {4,D}\n\
+  4   R!H u0 {3,D} {5,S}\n5   R!H u0 {4,S} {6,D}\n6   R!H u0 {5,D} {7,S}\n7   R!H\
+  \ u0 {6,S} {8,D}\n8   R!H u0 {1,S} {7,D}\n"
 children: []
 solute: Cyclooctatetraene
 ---
 label: Cyclooctatetraene
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cd u0 {2,D} {8,S}
-  2   Cd u0 {1,D} {3,S}
-  3   Cd u0 {2,S} {4,D}
-  4   Cd u0 {3,D} {5,S}
-  5   Cd u0 {4,S} {6,D}
-  6   Cd u0 {5,D} {7,S}
-  7   Cd u0 {6,S} {8,D}
-  8   Cd u0 {1,S} {7,D}
+group: "\n1 * Cd u0 {2,D} {8,S}\n2   Cd u0 {1,D} {3,S}\n3   Cd u0 {2,S} {4,D}\n4 \
+  \  Cd u0 {3,D} {5,S}\n5   Cd u0 {4,S} {6,D}\n6   Cd u0 {5,D} {7,S}\n7   Cd u0 {6,S}\
+  \ {8,D}\n8   Cd u0 {1,S} {7,D}\n"
 children: []
 solute:
   S: -0.04873
@@ -3065,34 +2286,19 @@ dataCount:
 label: NineMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R!H u0 {2,[S,D]} {9,[S,D]}
-  2   R!H u0 {1,[S,D]} {3,[S,D]}
-  3   R!H u0 {2,[S,D]} {4,[S,D]}
-  4   R!H u0 {3,[S,D]} {5,[S,D]}
-  5   R!H u0 {4,[S,D]} {6,[S,D]}
-  6   R!H u0 {5,[S,D]} {7,[S,D]}
-  7   R!H u0 {6,[S,D]} {8,[S,D]}
-  8   R!H u0 {7,[S,D]} {9,[S,D]}
-  9   R!H u0 {1,[S,D]} {8,[S,D]}
+group: "\n1 * R!H u0 {2,[S,D]} {9,[S,D]}\n2   R!H u0 {1,[S,D]} {3,[S,D]}\n3   R!H\
+  \ u0 {2,[S,D]} {4,[S,D]}\n4   R!H u0 {3,[S,D]} {5,[S,D]}\n5   R!H u0 {4,[S,D]} {6,[S,D]}\n\
+  6   R!H u0 {5,[S,D]} {7,[S,D]}\n7   R!H u0 {6,[S,D]} {8,[S,D]}\n8   R!H u0 {7,[S,D]}\
+  \ {9,[S,D]}\n9   R!H u0 {1,[S,D]} {8,[S,D]}\n"
 children: []
 solute: Cyclononane
 ---
 label: Cyclononane
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C  u0 {2,S} {9,S}
-  2   C  u0 {1,S} {3,S}
-  3   C  u0 {2,S} {4,S}
-  4   C  u0 {3,S} {5,S}
-  5   C  u0 {4,S} {6,S}
-  6   C  u0 {5,S} {7,S}
-  7   C  u0 {6,S} {8,S}
-  8   C  u0 {7,S} {9,S}
-  9   C  u0 {1,S} {8,S}
+group: "\n1 * C  u0 {2,S} {9,S}\n2   C  u0 {1,S} {3,S}\n3   C  u0 {2,S} {4,S}\n4 \
+  \  C  u0 {3,S} {5,S}\n5   C  u0 {4,S} {6,S}\n6   C  u0 {5,S} {7,S}\n7   C  u0 {6,S}\
+  \ {8,S}\n8   C  u0 {7,S} {9,S}\n9   C  u0 {1,S} {8,S}\n"
 children: []
 solute:
   S: 0.01787
@@ -3110,18 +2316,11 @@ dataCount:
 label: TenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {10,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {1,[S,D]} {9,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {10,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {1,[S,D]}\
+  \ {9,[S,D]}\n"
 children: []
 solute:
   S: 0.03628
@@ -3139,18 +2338,10 @@ dataCount:
 label: Cyclodecane
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * C  u0 {2,S} {10,S}
-  2    C  u0 {1,S} {3,S}
-  3    C  u0 {2,S} {4,S}
-  4    C  u0 {3,S} {5,S}
-  5    C  u0 {4,S} {6,S}
-  6    C  u0 {5,S} {7,S}
-  7    C  u0 {6,S} {8,S}
-  8    C  u0 {7,S} {9,S}
-  9    C  u0 {8,S} {10,S}
-  10   C  u0 {1,S} {9,S}
+group: "\n1  * C  u0 {2,S} {10,S}\n2    C  u0 {1,S} {3,S}\n3    C  u0 {2,S} {4,S}\n\
+  4    C  u0 {3,S} {5,S}\n5    C  u0 {4,S} {6,S}\n6    C  u0 {5,S} {7,S}\n7    C \
+  \ u0 {6,S} {8,S}\n8    C  u0 {7,S} {9,S}\n9    C  u0 {8,S} {10,S}\n10   C  u0 {1,S}\
+  \ {9,S}\n"
 children: []
 solute:
   S: -0.0446
@@ -3168,19 +2359,11 @@ dataCount:
 label: ElevenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {11,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {1,[S,D]} {10,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {11,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {1,[S,D]} {10,[S,D]}\n"
 children: []
 solute:
   S: -0.07953
@@ -3198,20 +2381,11 @@ dataCount:
 label: TwelveMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {12,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {1,[S,D]} {11,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {12,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {1,[S,D]} {11,[S,D]}\n"
 children: []
 solute:
   S: -0.07121
@@ -3229,21 +2403,12 @@ dataCount:
 label: ThirteenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {13,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {1,[S,D]} {12,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {13,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {1,[S,D]} {12,[S,D]}\n"
 children: []
 solute:
   S: -0.082
@@ -3261,22 +2426,12 @@ dataCount:
 label: FourteenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {14,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {12,[S,D]} {14,[S,D]}
-  14   R!H u0 {1,[S,D]} {13,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {14,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {12,[S,D]} {14,[S,D]}\n14   R!H u0 {1,[S,D]} {13,[S,D]}\n"
 children: []
 solute:
   S: -0.07302
@@ -3294,23 +2449,13 @@ dataCount:
 label: FifteenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {15,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {12,[S,D]} {14,[S,D]}
-  14   R!H u0 {13,[S,D]} {15,[S,D]}
-  15   R!H u0 {1,[S,D]} {14,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {15,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {12,[S,D]} {14,[S,D]}\n14   R!H u0 {13,[S,D]} {15,[S,D]}\n15   R!H u0\
+  \ {1,[S,D]} {14,[S,D]}\n"
 children: []
 solute:
   S: -0.13937
@@ -3328,24 +2473,13 @@ dataCount:
 label: SixteenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {16,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {12,[S,D]} {14,[S,D]}
-  14   R!H u0 {13,[S,D]} {15,[S,D]}
-  15   R!H u0 {14,[S,D]} {16,[S,D]}
-  16   R!H u0 {1,[S,D]} {15,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {16,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {12,[S,D]} {14,[S,D]}\n14   R!H u0 {13,[S,D]} {15,[S,D]}\n15   R!H u0\
+  \ {14,[S,D]} {16,[S,D]}\n16   R!H u0 {1,[S,D]} {15,[S,D]}\n"
 children: []
 solute:
   S: -0.18716
@@ -3363,26 +2497,14 @@ dataCount:
 label: EighteenMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {18,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {12,[S,D]} {14,[S,D]}
-  14   R!H u0 {13,[S,D]} {15,[S,D]}
-  15   R!H u0 {14,[S,D]} {16,[S,D]}
-  16   R!H u0 {15,[S,D]} {17,[S,D]}
-  17   R!H u0 {16,[S,D]} {18,[S,D]}
-  18   R!H u0 {1,[S,D]} {17,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {18,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {12,[S,D]} {14,[S,D]}\n14   R!H u0 {13,[S,D]} {15,[S,D]}\n15   R!H u0\
+  \ {14,[S,D]} {16,[S,D]}\n16   R!H u0 {15,[S,D]} {17,[S,D]}\n17   R!H u0 {16,[S,D]}\
+  \ {18,[S,D]}\n18   R!H u0 {1,[S,D]} {17,[S,D]}\n"
 children: []
 solute:
   S: 0.03458
@@ -3400,32 +2522,17 @@ dataCount:
 label: TwentyfourMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {2,[S,D]} {24,[S,D]}
-  2    R!H u0 {1,[S,D]} {3,[S,D]}
-  3    R!H u0 {2,[S,D]} {4,[S,D]}
-  4    R!H u0 {3,[S,D]} {5,[S,D]}
-  5    R!H u0 {4,[S,D]} {6,[S,D]}
-  6    R!H u0 {5,[S,D]} {7,[S,D]}
-  7    R!H u0 {6,[S,D]} {8,[S,D]}
-  8    R!H u0 {7,[S,D]} {9,[S,D]}
-  9    R!H u0 {8,[S,D]} {10,[S,D]}
-  10   R!H u0 {9,[S,D]} {11,[S,D]}
-  11   R!H u0 {10,[S,D]} {12,[S,D]}
-  12   R!H u0 {11,[S,D]} {13,[S,D]}
-  13   R!H u0 {12,[S,D]} {14,[S,D]}
-  14   R!H u0 {13,[S,D]} {15,[S,D]}
-  15   R!H u0 {14,[S,D]} {16,[S,D]}
-  16   R!H u0 {15,[S,D]} {17,[S,D]}
-  17   R!H u0 {16,[S,D]} {18,[S,D]}
-  18   R!H u0 {17,[S,D]} {19,[S,D]}
-  19   R!H u0 {18,[S,D]} {20,[S,D]}
-  20   R!H u0 {19,[S,D]} {21,[S,D]}
-  21   R!H u0 {20,[S,D]} {22,[S,D]}
-  22   R!H u0 {21,[S,D]} {23,[S,D]}
-  23   R!H u0 {22,[S,D]} {24,[S,D]}
-  24   R!H u0 {1,[S,D]} {23,[S,D]}
+group: "\n1  * R!H u0 {2,[S,D]} {24,[S,D]}\n2    R!H u0 {1,[S,D]} {3,[S,D]}\n3   \
+  \ R!H u0 {2,[S,D]} {4,[S,D]}\n4    R!H u0 {3,[S,D]} {5,[S,D]}\n5    R!H u0 {4,[S,D]}\
+  \ {6,[S,D]}\n6    R!H u0 {5,[S,D]} {7,[S,D]}\n7    R!H u0 {6,[S,D]} {8,[S,D]}\n\
+  8    R!H u0 {7,[S,D]} {9,[S,D]}\n9    R!H u0 {8,[S,D]} {10,[S,D]}\n10   R!H u0 {9,[S,D]}\
+  \ {11,[S,D]}\n11   R!H u0 {10,[S,D]} {12,[S,D]}\n12   R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13   R!H u0 {12,[S,D]} {14,[S,D]}\n14   R!H u0 {13,[S,D]} {15,[S,D]}\n15   R!H u0\
+  \ {14,[S,D]} {16,[S,D]}\n16   R!H u0 {15,[S,D]} {17,[S,D]}\n17   R!H u0 {16,[S,D]}\
+  \ {18,[S,D]}\n18   R!H u0 {17,[S,D]} {19,[S,D]}\n19   R!H u0 {18,[S,D]} {20,[S,D]}\n\
+  20   R!H u0 {19,[S,D]} {21,[S,D]}\n21   R!H u0 {20,[S,D]} {22,[S,D]}\n22   R!H u0\
+  \ {21,[S,D]} {23,[S,D]}\n23   R!H u0 {22,[S,D]} {24,[S,D]}\n24   R!H u0 {1,[S,D]}\
+  \ {23,[S,D]}\n"
 children: []
 solute:
   S: 0.093
@@ -3443,93 +2550,39 @@ dataCount:
 label: ThirtythreeMember
 short_description: ''
 long_description: ''
-group: |2
-
-  1  * R!H u0 {13,[S,D]} {14,[S,D]}
-  2  R!H u0 {15,[S,D]} {16,[S,D]}
-  3  R!H u0 {17,[S,D]} {18,[S,D]}
-  4  R!H u0 {19,[S,D]} {20,[S,D]}
-  5  R!H u0 {21,[S,D]} {22,[S,D]}
-  6  R!H u0 {23,[S,D]} {24,[S,D]}
-  7  R!H u0 {25,[S,D]} {26,[S,D]}
-  8  R!H u0 {27,[S,D]} {28,[S,D]}
-  9  R!H u0 {29,[S,D]} {30,[S,D]}
-  10 R!H u0 {31,[S,D]} {32,[S,D]}
-  11 R!H u0 {12,[S,D]} {33,[S,D]}
-  12 R!H u0 {11,[S,D]} {13,[S,D]}
-  13 R!H u0 {1,[S,D]} {12,[S,D]}
-  14 R!H u0 {1,[S,D]} {15,[S,D]}
-  15 R!H u0 {2,[S,D]} {14,[S,D]}
-  16 R!H u0 {2,[S,D]} {17,[S,D]}
-  17 R!H u0 {3,[S,D]} {16,[S,D]}
-  18 R!H u0 {3,[S,D]} {19,[S,D]}
-  19 R!H u0 {4,[S,D]} {18,[S,D]}
-  20 R!H u0 {4,[S,D]} {21,[S,D]}
-  21 R!H u0 {5,[S,D]} {20,[S,D]}
-  22 R!H u0 {5,[S,D]} {23,[S,D]}
-  23 R!H u0 {6,[S,D]} {22,[S,D]}
-  24 R!H u0 {6,[S,D]} {25,[S,D]}
-  25 R!H u0 {7,[S,D]} {24,[S,D]}
-  26 R!H u0 {7,[S,D]} {27,[S,D]}
-  27 R!H u0 {8,[S,D]} {26,[S,D]}
-  28 R!H u0 {8,[S,D]} {29,[S,D]}
-  29 R!H u0 {9,[S,D]} {28,[S,D]}
-  30 R!H u0 {9,[S,D]} {31,[S,D]}
-  31 R!H u0 {10,[S,D]} {30,[S,D]}
-  32 R!H u0 {10,[S,D]} {33,[S,D]}
-  33 R!H u0 {11,[S,D]} {32,[S,D]}
+group: "\n1  * R!H u0 {13,[S,D]} {14,[S,D]}\n2  R!H u0 {15,[S,D]} {16,[S,D]}\n3  R!H\
+  \ u0 {17,[S,D]} {18,[S,D]}\n4  R!H u0 {19,[S,D]} {20,[S,D]}\n5  R!H u0 {21,[S,D]}\
+  \ {22,[S,D]}\n6  R!H u0 {23,[S,D]} {24,[S,D]}\n7  R!H u0 {25,[S,D]} {26,[S,D]}\n\
+  8  R!H u0 {27,[S,D]} {28,[S,D]}\n9  R!H u0 {29,[S,D]} {30,[S,D]}\n10 R!H u0 {31,[S,D]}\
+  \ {32,[S,D]}\n11 R!H u0 {12,[S,D]} {33,[S,D]}\n12 R!H u0 {11,[S,D]} {13,[S,D]}\n\
+  13 R!H u0 {1,[S,D]} {12,[S,D]}\n14 R!H u0 {1,[S,D]} {15,[S,D]}\n15 R!H u0 {2,[S,D]}\
+  \ {14,[S,D]}\n16 R!H u0 {2,[S,D]} {17,[S,D]}\n17 R!H u0 {3,[S,D]} {16,[S,D]}\n18\
+  \ R!H u0 {3,[S,D]} {19,[S,D]}\n19 R!H u0 {4,[S,D]} {18,[S,D]}\n20 R!H u0 {4,[S,D]}\
+  \ {21,[S,D]}\n21 R!H u0 {5,[S,D]} {20,[S,D]}\n22 R!H u0 {5,[S,D]} {23,[S,D]}\n23\
+  \ R!H u0 {6,[S,D]} {22,[S,D]}\n24 R!H u0 {6,[S,D]} {25,[S,D]}\n25 R!H u0 {7,[S,D]}\
+  \ {24,[S,D]}\n26 R!H u0 {7,[S,D]} {27,[S,D]}\n27 R!H u0 {8,[S,D]} {26,[S,D]}\n28\
+  \ R!H u0 {8,[S,D]} {29,[S,D]}\n29 R!H u0 {9,[S,D]} {28,[S,D]}\n30 R!H u0 {9,[S,D]}\
+  \ {31,[S,D]}\n31 R!H u0 {10,[S,D]} {30,[S,D]}\n32 R!H u0 {10,[S,D]} {33,[S,D]}\n\
+  33 R!H u0 {11,[S,D]} {32,[S,D]}\n"
 children: []
 solute: Cyclosporin
 ---
 label: Cyclosporin
 short_description: ''
 long_description: ''
-group: |2
-
-  1  O u0 {34,D}
-  2  O u0 {35,D}
-  3  O u0 {36,D}
-  4  O u0 {37,D}
-  5  O u0 {38,D}
-  6  O u0 {39,D}
-  7  O u0 {40,D}
-  8  O u0 {41,D}
-  9  O u0 {42,D}
-  10 O u0 {43,D}
-  11 O u0 {44,D}
-  12 N u0 {24,S} {34,S}
-  13 N u0 {25,S} {35,S}
-  14 N u0 {26,S} {36,S}
-  15 N u0 {27,S} {37,S}
-  16 N u0 {28,S} {38,S}
-  17 N u0 {29,S} {39,S}
-  18 N u0 {30,S} {40,S}
-  19 N u0 {31,S} {41,S}
-  20 N u0 {32,S} {42,S}
-  21 N u0 {33,S} {43,S}
-  22 N u0 {23,S} {44,S}
-  23 * C u0 {22,S} {34,S}
-  24 C u0 {12,S} {35,S}
-  25 C u0 {13,S} {36,S}
-  26 C u0 {14,S} {37,S}
-  27 C u0 {15,S} {38,S}
-  28 C u0 {16,S} {39,S}
-  29 C u0 {17,S} {40,S}
-  30 C u0 {18,S} {41,S}
-  31 C u0 {19,S} {42,S}
-  32 C u0 {20,S} {43,S}
-  33 C u0 {21,S} {44,S}
-  34 CO u0 {1,D} {12,S} {23,S}
-  35 CO u0 {2,D} {13,S} {24,S}
-  36 CO u0 {3,D} {14,S} {25,S}
-  37 CO u0 {4,D} {15,S} {26,S}
-  38 CO u0 {5,D} {16,S} {27,S}
-  39 CO u0 {6,D} {17,S} {28,S}
-  40 CO u0 {7,D} {18,S} {29,S}
-  41 CO u0 {8,D} {19,S} {30,S}
-  42 CO u0 {9,D} {20,S} {31,S}
-  43 CO u0 {10,D} {21,S} {32,S}
-  44 CO u0 {11,D} {22,S} {33,S}
+group: "\n1  O u0 {34,D}\n2  O u0 {35,D}\n3  O u0 {36,D}\n4  O u0 {37,D}\n5  O u0\
+  \ {38,D}\n6  O u0 {39,D}\n7  O u0 {40,D}\n8  O u0 {41,D}\n9  O u0 {42,D}\n10 O u0\
+  \ {43,D}\n11 O u0 {44,D}\n12 N u0 {24,S} {34,S}\n13 N u0 {25,S} {35,S}\n14 N u0\
+  \ {26,S} {36,S}\n15 N u0 {27,S} {37,S}\n16 N u0 {28,S} {38,S}\n17 N u0 {29,S} {39,S}\n\
+  18 N u0 {30,S} {40,S}\n19 N u0 {31,S} {41,S}\n20 N u0 {32,S} {42,S}\n21 N u0 {33,S}\
+  \ {43,S}\n22 N u0 {23,S} {44,S}\n23 * C u0 {22,S} {34,S}\n24 C u0 {12,S} {35,S}\n\
+  25 C u0 {13,S} {36,S}\n26 C u0 {14,S} {37,S}\n27 C u0 {15,S} {38,S}\n28 C u0 {16,S}\
+  \ {39,S}\n29 C u0 {17,S} {40,S}\n30 C u0 {18,S} {41,S}\n31 C u0 {19,S} {42,S}\n\
+  32 C u0 {20,S} {43,S}\n33 C u0 {21,S} {44,S}\n34 CO u0 {1,D} {12,S} {23,S}\n35 CO\
+  \ u0 {2,D} {13,S} {24,S}\n36 CO u0 {3,D} {14,S} {25,S}\n37 CO u0 {4,D} {15,S} {26,S}\n\
+  38 CO u0 {5,D} {16,S} {27,S}\n39 CO u0 {6,D} {17,S} {28,S}\n40 CO u0 {7,D} {18,S}\
+  \ {29,S}\n41 CO u0 {8,D} {19,S} {30,S}\n42 CO u0 {9,D} {20,S} {31,S}\n43 CO u0 {10,D}\
+  \ {21,S} {32,S}\n44 CO u0 {11,D} {22,S} {33,S}\n"
 children: []
 solute:
   S: 0.05579

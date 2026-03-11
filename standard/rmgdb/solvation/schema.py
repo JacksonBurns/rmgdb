@@ -39,10 +39,6 @@ class SolventLibraries(SCHEMA_BASE):
     label = Column(String)
     molecule = Column(String)
 
-for table in [Groups, SoluteLibraries, SolventLibraries]:
-    event.listen(table, "before_insert", check_short_desc)
-    event.listen(table, "before_insert", delete_empty_desc)
-
 class SoluteData(SCHEMA_BASE):
     __tablename__ = "solute_data_table"
     id = Column(Integer, primary_key=True)
@@ -71,7 +67,9 @@ class DataCountSolvent(SCHEMA_BASE):
     __tablename__ = "data_count_solvent_table"
     id = Column(Integer, primary_key=True)
     solvent_library_parent_id = mapped_column(ForeignKey("solvent_libraries_table.id"))
-    dGsolvCount = Column(Integer)
-    dGsolvMAE_val = Column(Float); dGsolvMAE_unit = Column(String)
-    dHsolvCount = Column(Integer)
-    dHsolvMAE_val = Column(Float); dHsolvMAE_unit = Column(String)
+    dGsolvCount = Column(Integer); dGsolvMAE_val = Column(Float); dGsolvMAE_unit = Column(String)
+    dHsolvCount = Column(Integer); dHsolvMAE_val = Column(Float); dHsolvMAE_unit = Column(String)
+
+for table in [Groups, SoluteLibraries, SolventLibraries]:
+    event.listen(table, "before_insert", check_short_desc)
+    event.listen(table, "before_insert", delete_empty_desc)

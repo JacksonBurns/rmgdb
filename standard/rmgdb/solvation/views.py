@@ -1,10 +1,10 @@
 from sqlalchemy import text
 
 label_pairs_view_sql = text("""CREATE VIEW label_pairs_view AS 
-SELECT parent_lookup.label as parent_label, child_lookup.label as child_label 
-FROM groups_tree_table
-JOIN groups_table child_lookup on child_lookup.id == groups_tree_table.child_id
-JOIN groups_table parent_lookup on parent_lookup.id == groups_tree_table.parent_id""")
+SELECT t.id, p.name as name, p.label as parent_label, c.label as child_label 
+FROM groups_tree_table t
+JOIN groups_table c on c.id = t.child_id
+JOIN groups_table p on p.id = t.parent_id""")
 
 solute_libraries_view_sql = text("""CREATE VIEW solute_libraries_view AS 
 SELECT 
@@ -28,12 +28,11 @@ LEFT JOIN solvent_data_table sd ON sd.solvent_library_parent_id = l.id
 LEFT JOIN data_count_solvent_table dcs ON dcs.solvent_library_parent_id = l.id
 """)
 
-solute_groups_view_sql = text("""CREATE VIEW solute_groups_view AS 
-SELECT 
-    g.id, g.name, g.short_description, g.long_description, g.label, g."group", g.solute_pointer,
-    sd.S as solute_S, sd.B as solute_B, sd.E as solute_E, sd.L as solute_L, sd.A as solute_A, sd.V as solute_V,
-    dc.S as count_S, dc.B as count_B, dc.E as count_E, dc.L as count_L, dc.A as count_A
+solute_groups_view_sql = text("""CREATE VIEW solute_groups_view AS
+SELECT g.id, g.name, g.label, g."group", g.short_description, g.long_description, 
+       g.solute_pointer, s.S as solute_S, s.B as solute_B, s.E as solute_E, s.L as solute_L, s.A as solute_A, s.V as solute_V,
+       c.S as count_S, c.B as count_B, c.E as count_E, c.L as count_L, c.A as count_A
 FROM groups_table g
-LEFT JOIN solute_data_table sd ON sd.group_parent_id = g.id
-LEFT JOIN data_count_gav_table dc ON dc.group_parent_id = g.id
+LEFT JOIN solute_data_table s ON s.group_parent_id = g.id
+LEFT JOIN data_count_gav_table c ON c.group_parent_id = g.id
 """)

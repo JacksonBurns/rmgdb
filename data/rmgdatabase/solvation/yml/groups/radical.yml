@@ -1,26 +1,19 @@
 label: R_rad
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R u1
+group: "\n1 * R u1\n"
 children: []
 ---
 label: O_rad
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O u1 p2
+group: "\n1 * O u1 p2\n"
 children: []
 ---
 label: ROJ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O u1 p2 c0 {2,S}
-  2   R u0 {1,S}
+group: "\n1 * O u1 p2 c0 {2,S}\n2   R u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -32,11 +25,7 @@ solute:
 label: ROOJ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O u1 p2 c0 {2,S}
-  2   O u0 p2 {1,S} {3,S}
-  3   R u0 {2,S}
+group: "\n1 * O u1 p2 c0 {2,S}\n2   O u0 p2 {1,S} {3,S}\n3   R u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -48,12 +37,8 @@ solute:
 label: RC(O)OJ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O u1 p2 c0 {2,S}
-  2   C u0 p0 {1,S} {3,D} {4,S}
-  3   O u0 p2 {2,D}
-  4   R u0 {2,S}
+group: "\n1 * O u1 p2 c0 {2,S}\n2   C u0 p0 {1,S} {3,D} {4,S}\n3   O u0 p2 {2,D}\n\
+  4   R u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -77,13 +62,8 @@ solute:
 label: N3_pyrrole
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 {2,S} {3,S}
-  2   Cb  u0 {1,S} {4,B}
-  3   Cb  u0 {1,S} {5,B}
-  4   Cb  u0 {2,B} {5,B}
-  5   Cb  u0 {3,B} {4,B}
+group: "\n1 * N3s u1 p1 {2,S} {3,S}\n2   Cb  u0 {1,S} {4,B}\n3   Cb  u0 {1,S} {5,B}\n\
+  4   Cb  u0 {2,B} {5,B}\n5   Cb  u0 {3,B} {4,B}\n"
 children: []
 solute:
   S: 0.0
@@ -95,10 +75,7 @@ solute:
 label: phenoxy
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O  u1 p2 c0 {2,S}
-  2   Cb u0 {1,S}
+group: "\n1 * O  u1 p2 c0 {2,S}\n2   Cb u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -110,16 +87,9 @@ solute:
 label: N3_aniline
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 c0 {2,S} {3,S}
-  2   H   u0 p0 c0 {1,S}
-  3   Cb  u0 {1,S} {4,B} {5,B}
-  4   Cb  u0 {3,B} {6,B}
-  5   Cb  u0 {3,B} {7,B}
-  6   Cb  u0 {4,B} {8,B}
-  7   Cb  u0 {5,B} {8,B}
-  8   Cb  u0 {6,B} {7,B}
+group: "\n1 * N3s u1 p1 c0 {2,S} {3,S}\n2   H   u0 p0 c0 {1,S}\n3   Cb  u0 {1,S} {4,B}\
+  \ {5,B}\n4   Cb  u0 {3,B} {6,B}\n5   Cb  u0 {3,B} {7,B}\n6   Cb  u0 {4,B} {8,B}\n\
+  7   Cb  u0 {5,B} {8,B}\n8   Cb  u0 {6,B} {7,B}\n"
 children: []
 solute:
   S: 0.0
@@ -131,12 +101,8 @@ solute:
 label: N3_amide_pri
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 c0 {2,S} {3,S}
-  2   H   u0 p0 c0 {1,S}
-  3   CO  u0 {1,S} {4,D}
-  4   O   u0 p2 {3,D}
+group: "\n1 * N3s u1 p1 c0 {2,S} {3,S}\n2   H   u0 p0 c0 {1,S}\n3   CO  u0 {1,S} {4,D}\n\
+  4   O   u0 p2 {3,D}\n"
 children: []
 solute:
   S: 0.0
@@ -148,12 +114,8 @@ solute:
 label: N3_amide_sec
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 c0 {2,S} {3,S}
-  2   R!H u0 {1,S}
-  3   CO  u0 {1,S} {4,D}
-  4   O   u0 p2 {3,D}
+group: "\n1 * N3s u1 p1 c0 {2,S} {3,S}\n2   R!H u0 {1,S}\n3   CO  u0 {1,S} {4,D}\n\
+  4   O   u0 p2 {3,D}\n"
 children: []
 solute:
   S: 0.0
@@ -178,14 +140,8 @@ solute:
 label: N3_urea_pri
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 c0 {2,S} {3,S}
-  2   R!H u0 p0 c0 {1,S}
-  3   CO  u0 {1,S} {4,D} {5,S}
-  4   O   u0 p2 {3,D}
-  5   N3s u0 p1 {3,S} {6,S}
-  6   H   u0 p0 c0 {5,S}
+group: "\n1 * N3s u1 p1 c0 {2,S} {3,S}\n2   R!H u0 p0 c0 {1,S}\n3   CO  u0 {1,S} {4,D}\
+  \ {5,S}\n4   O   u0 p2 {3,D}\n5   N3s u0 p1 {3,S} {6,S}\n6   H   u0 p0 c0 {5,S}\n"
 children: []
 solute:
   S: 0.0
@@ -197,15 +153,9 @@ solute:
 label: N3_urea_sec
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u1 p1 c0 {2,S} {3,S}
-  2   R!H u0 p0 c0 {1,S}
-  3   CO  u0 {1,S} {4,D} {5,S}
-  4   O   u0 p2 {3,D}
-  5   N3s u0 p1 {3,S} {6,S} {7,S}
-  6   R!H u0 {5,S}
-  7   R!H u0 {5,S}
+group: "\n1 * N3s u1 p1 c0 {2,S} {3,S}\n2   R!H u0 p0 c0 {1,S}\n3   CO  u0 {1,S} {4,D}\
+  \ {5,S}\n4   O   u0 p2 {3,D}\n5   N3s u0 p1 {3,S} {6,S} {7,S}\n6   R!H u0 {5,S}\n\
+  7   R!H u0 {5,S}\n"
 children: []
 solute:
   S: 0.0
@@ -217,16 +167,9 @@ solute:
 label: N3d_guanidine
 short_description: ''
 long_description: ''
-group: |2
-
-  1   Cd  u0 {2,D} {3,S} {4,S}
-  2 * N3d u1 {1,D}
-  3   N3s u0 {1,S} {5,S} {6,S}
-  4   N3s u0 {1,S} {7,S} {8,S}
-  5   H   u0 {3,S}
-  6   H   u0 {3,S}
-  7   H   u0 {4,S}
-  8   H   u0 {4,S}
+group: "\n1   Cd  u0 {2,D} {3,S} {4,S}\n2 * N3d u1 {1,D}\n3   N3s u0 {1,S} {5,S} {6,S}\n\
+  4   N3s u0 {1,S} {7,S} {8,S}\n5   H   u0 {3,S}\n6   H   u0 {3,S}\n7   H   u0 {4,S}\n\
+  8   H   u0 {4,S}\n"
 children: []
 solute:
   S: 0.0

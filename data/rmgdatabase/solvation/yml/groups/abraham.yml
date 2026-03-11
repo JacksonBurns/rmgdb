@@ -1,34 +1,17 @@
 label: R
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * R u0
+group: "\n1 * R u0\n"
 children:
 - C
 - O
 - N
 - S
-- CO
-- Cs(OssH)Cs(OssH)
-- CbCsOssH
-- OssH
-- phenol
-- OxRing
-- N3sH2-benz
-- N3sHCd(O2d)N3sH
-- Cd(O2d)NH2
-- Cd(O2d)NHR
-- N3sCd(O2d)N3sH
-- CdsNdNsNs
-- SdOdOdN
 ---
 label: C
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * C u0
+group: "\n1 * C u0\n"
 children:
 - Cbf
 - Css
@@ -42,9 +25,7 @@ children:
 label: Cbf
 short_description: Platts' fragment 8 fused aromatic
 long_description: ''
-group: |2
-
-  1 * Cbf u0
+group: "\n1 * Cbf u0\n"
 children:
 - Cbf-noH
 solute:
@@ -57,9 +38,7 @@ solute:
 label: Css
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cs u0
+group: "\n1 * Cs u0\n"
 children:
 - CssH3
 - CssH2
@@ -69,13 +48,8 @@ children:
 label: CssH3
 short_description: Platts fragment 1 sp3 CH3
 long_description: ''
-group: |2
-
-  1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
-  2   H  u0 {1,S}
-  3   H  u0 {1,S}
-  4   H  u0 {1,S}
-  5   R  u0 {1,S}
+group: "\n1 * Cs u0 {2,S} {3,S} {4,S} {5,S}\n2   H  u0 {1,S}\n3   H  u0 {1,S}\n4 \
+  \  H  u0 {1,S}\n5   R  u0 {1,S}\n"
 children: []
 solute:
   S: -0.075
@@ -87,13 +61,8 @@ solute:
 label: CssH2
 short_description: Platts fragment 2 sp3 >CH2
 long_description: ''
-group: |2
-
-  1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2   H   u0 {1,S}
-  3   H   u0 {1,S}
-  4   R!H u0 {1,S}
-  5   R!H u0 {1,S}
+group: "\n1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2   H   u0 {1,S}\n3   H   u0 {1,S}\n\
+  4   R!H u0 {1,S}\n5   R!H u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -105,13 +74,8 @@ solute:
 label: CssH
 short_description: Platts fragment 3 sp3 >CH-
 long_description: ''
-group: |2
-
-  1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2   H   u0 {1,S}
-  3   R!H u0 {1,S}
-  4   R!H u0 {1,S}
-  5   R!H u0 {1,S}
+group: "\n1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2   H   u0 {1,S}\n3   R!H u0 {1,S}\n\
+  4   R!H u0 {1,S}\n5   R!H u0 {1,S}\n"
 children: []
 solute:
   S: 0.036
@@ -123,13 +87,8 @@ solute:
 label: Css-noH
 short_description: Platts fragment 4 sp3 >C<
 long_description: ''
-group: |2
-
-  1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}
-  2   R!H u0 {1,S}
-  3   R!H u0 {1,S}
-  4   R!H u0 {1,S}
-  5   R!H u0 {1,S}
+group: "\n1 * Cs  u0 {2,S} {3,S} {4,S} {5,S}\n2   R!H u0 {1,S}\n3   R!H u0 {1,S}\n\
+  4   R!H u0 {1,S}\n5   R!H u0 {1,S}\n"
 children: []
 solute:
   S: 0.071
@@ -141,9 +100,7 @@ solute:
 label: Cds
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * [Cd,CO] u0
+group: "\n1 * [Cd,CO] u0\n"
 children:
 - CdsH2
 - CdsH
@@ -152,12 +109,8 @@ children:
 label: CdsH2
 short_description: Platts' fragment 5 sp2 =CH2
 long_description: ''
-group: |2
-
-  1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
-  2   H       u0 {1,S}
-  3   H       u0 {1,S}
-  4   R!H     u0 {1,D}
+group: "\n1 * [Cd,CO] u0 {2,S} {3,S} {4,D}\n2   H       u0 {1,S}\n3   H       u0 {1,S}\n\
+  4   R!H     u0 {1,D}\n"
 children: []
 solute:
   S: -0.085
@@ -169,12 +122,8 @@ solute:
 label: CdsH
 short_description: Platts' fragment 6 sp2 =CH-
 long_description: ''
-group: |2
-
-  1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
-  2   H       u0 {1,S}
-  3   R!H     u0 {1,S}
-  4   R!H     u0 {1,D}
+group: "\n1 * [Cd,CO] u0 {2,S} {3,S} {4,D}\n2   H       u0 {1,S}\n3   R!H     u0 {1,S}\n\
+  4   R!H     u0 {1,D}\n"
 children: []
 solute:
   S: 0.05
@@ -186,12 +135,8 @@ solute:
 label: Cds-noH
 short_description: Platts' fragment 7 sp2 =C<
 long_description: ''
-group: |2
-
-  1 * [Cd,CO] u0 {2,S} {3,S} {4,D}
-  2   R!H     u0 {1,S}
-  3   R!H     u0 {1,S}
-  4   R!H     u0 {1,D}
+group: "\n1 * [Cd,CO] u0 {2,S} {3,S} {4,D}\n2   R!H     u0 {1,S}\n3   R!H     u0 {1,S}\n\
+  4   R!H     u0 {1,D}\n"
 children: []
 solute:
   S: 0.101
@@ -203,9 +148,7 @@ solute:
 label: Ct
 short_description: Platts' fragment 9 sp
 long_description: ''
-group: |2
-
-  1 * Ct u0
+group: "\n1 * Ct u0\n"
 children: []
 solute:
   S: 0.034
@@ -217,10 +160,7 @@ solute:
 label: CtOt
 short_description: Fake value for C#O that corresponds to its resonance isomer
 long_description: ''
-group: |2
-
-  1 * C2tc u0 p1 c-1 {2,T}
-  2   O4tc u0 p1 c+1 {1,T}
+group: "\n1 * C2tc u0 p1 c-1 {2,T}\n2   O4tc u0 p1 c+1 {1,T}\n"
 children: []
 solute:
   S: -0.085
@@ -232,9 +172,7 @@ solute:
 label: Cdd
 short_description: Platts' fragment 7 nonfused aromatic =C<
 long_description: ''
-group: |2
-
-  1 * Cdd u0
+group: "\n1 * Cdd u0\n"
 children: []
 solute:
   S: 0.101
@@ -246,9 +184,7 @@ solute:
 label: Cb
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * Cb u0
+group: "\n1 * Cb u0\n"
 children:
 - Cb-H
 - Cb-noHnoRing
@@ -256,12 +192,8 @@ children:
 label: Cbf-noH
 short_description: same as Platts group 7
 long_description: ''
-group: |2
-
-  1 * Cbf u0 {2,B} {3,B} {4,B}
-  2   R!H u0 {1,B}
-  3   R!H  u0 {1,B}
-  4   R!H  u0 {1,B}
+group: "\n1 * Cbf u0 {2,B} {3,B} {4,B}\n2   R!H u0 {1,B}\n3   R!H  u0 {1,B}\n4   R!H\
+  \  u0 {1,B}\n"
 children: []
 solute:
   S: 0.101
@@ -273,12 +205,8 @@ solute:
 label: Cb-H
 short_description: same as Platts group 6
 long_description: ''
-group: |2
-
-  1 * Cb  u0 {2,B} {3,B} {4,S}
-  2   R!H u0 {1,B}
-  3   R!H u0 {1,B}
-  4   H   u0 {1,S}
+group: "\n1 * Cb  u0 {2,B} {3,B} {4,S}\n2   R!H u0 {1,B}\n3   R!H u0 {1,B}\n4   H\
+  \   u0 {1,S}\n"
 children: []
 solute:
   S: 0.05
@@ -289,15 +217,10 @@ solute:
 ---
 label: Cb-noHnoRing
 short_description: same as Platts group 7
-long_description: |2
-
-  Cb is attached to a 3rd R group that isn't in the ring,as in phenol.
-group: |2
-
-  1 * Cb  u0 {2,B} {3,B} {4,S}
-  2   R!H u0 {1,B}
-  3   R!H u0 {1,B}
-  4   R!H u0 {1,S}
+long_description: "\nCb is attached to a 3rd R group that isn't in the ring,as in\
+  \ phenol.\n"
+group: "\n1 * Cb  u0 {2,B} {3,B} {4,S}\n2   R!H u0 {1,B}\n3   R!H u0 {1,B}\n4   R!H\
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: 0.101
@@ -309,18 +232,14 @@ solute:
 label: C_singlet
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * [C2s,C2d] u0 p1
+group: "\n1 * [C2s,C2d] u0 p1\n"
 children: []
 solute: CssH2
 ---
 label: O
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * [O2s,O2d,O4tc] u0
+group: "\n1 * [O2s,O2d,O4tc] u0\n"
 children:
 - Oss
 - O2d
@@ -329,9 +248,7 @@ children:
 label: Oss
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * O2s u0
+group: "\n1 * O2s u0\n"
 children:
 - OssH
 - Oss-noncyclic
@@ -339,10 +256,7 @@ children:
 label: OssH
 short_description: Platts fragment 26 -OH
 long_description: ''
-group: |2
-
-  1 * O2s u0 {2,S}
-  2   H  u0 {1,S}
+group: "\n1 * O2s u0 {2,S}\n2   H  u0 {1,S}\n"
 children: []
 solute:
   S: 0.247
@@ -354,11 +268,7 @@ solute:
 label: Oss-noncyclic
 short_description: Platts fragment 27 noncyclic -O-
 long_description: ''
-group: |2
-
-  1 * O2s  u0 {2,S} {3,S}
-  2   R!H u0 {1,S}
-  3   R!H u0 {1,S}
+group: "\n1 * O2s  u0 {2,S} {3,S}\n2   R!H u0 {1,S}\n3   R!H u0 {1,S}\n"
 children: []
 solute:
   S: 0.185
@@ -370,9 +280,7 @@ solute:
 label: O2d
 short_description: Platts fragment 30 sp2 =O
 long_description: ''
-group: |2
-
-  1 * O2d u0
+group: "\n1 * O2d u0\n"
 children: []
 solute:
   S: 0.37
@@ -384,10 +292,7 @@ solute:
 label: OtCt
 short_description: Fake value for C#O that corresponds to resonance isomer
 long_description: ''
-group: |2
-
-  1 * O4tc u0 p1 c+1 {2,T}
-  2   C2tc u0 p1 c-1 {1,T}
+group: "\n1 * O4tc u0 p1 c+1 {2,T}\n2   C2tc u0 p1 c-1 {1,T}\n"
 children: []
 solute:
   S: 0.37
@@ -399,9 +304,7 @@ solute:
 label: N
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N u0
+group: "\n1 * N u0\n"
 children:
 - N3s
 - N3d
@@ -411,9 +314,7 @@ children:
 label: N3s
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s u0
+group: "\n1 * N3s u0\n"
 children:
 - NO2
 - N3sH2
@@ -423,12 +324,8 @@ children:
 label: NO2
 short_description: Platts fragment 23 -NO2
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   R   u0 {1,S}
-  3   O2s  u0 {1,S}
-  4   O2s  u0 {1,S}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   R   u0 {1,S}\n3   O2s  u0 {1,S}\n4   O2s\
+  \  u0 {1,S}\n"
 children:
 - NO2-aromatic
 - ONO2
@@ -442,12 +339,8 @@ solute:
 label: NO2-aromatic
 short_description: Platts fragment 24
 long_description: ''
-group: |2
-
-  1 * N3s      u0 {2,S} {3,S} {4,S}
-  2   O2s       u0 {1,S}
-  3   O2s       u0 {1,S}
-  4   [Cb,N3b] u0 {1,S}
+group: "\n1 * N3s      u0 {2,S} {3,S} {4,S}\n2   O2s       u0 {1,S}\n3   O2s     \
+  \  u0 {1,S}\n4   [Cb,N3b] u0 {1,S}\n"
 children: []
 solute:
   S: -0.231
@@ -459,12 +352,8 @@ solute:
 label: ONO2
 short_description: Platts fragment 25 nitrate
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   O2s  u0 {1,S}
-  3   O2s  u0 {1,S}
-  4   O2s  u0 {1,S}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   O2s  u0 {1,S}\n3   O2s  u0 {1,S}\n4  \
+  \ O2s  u0 {1,S}\n"
 children: []
 solute:
   S: -0.476
@@ -476,11 +365,7 @@ solute:
 label: N3sH2
 short_description: Platts fragment 10 -NH2-aliphatic
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S}
-  2   H   u0 {1,S}
-  3   H   u0 {1,S}
+group: "\n1 * N3s u0 {2,S} {3,S}\n2   H   u0 {1,S}\n3   H   u0 {1,S}\n"
 children:
 - N3sH2-aromatic
 solute:
@@ -507,43 +392,25 @@ solute:
 label: N3sH2-Cb
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s      u0 {2,S} {3,S} {4,S}
-  2   H        u0 {1,S}
-  3   H        u0 {1,S}
-  4   Cb       u0 {1,S} {5,B} {6,B}
-  5   [Cb,N3b] u0 {4,B} {7,B}
-  6   [Cb,N3b] u0 {4,B} {8,B}
-  7   [Cb,N3b] u0 {5,B} {9,B}
-  8   [Cb,N3b] u0 {6,B} {9,B}
-  9   [Cb,N3b] u0 {7,B} {8,B}
+group: "\n1 * N3s      u0 {2,S} {3,S} {4,S}\n2   H        u0 {1,S}\n3   H        u0\
+  \ {1,S}\n4   Cb       u0 {1,S} {5,B} {6,B}\n5   [Cb,N3b] u0 {4,B} {7,B}\n6   [Cb,N3b]\
+  \ u0 {4,B} {8,B}\n7   [Cb,N3b] u0 {5,B} {9,B}\n8   [Cb,N3b] u0 {6,B} {9,B}\n9  \
+  \ [Cb,N3b] u0 {7,B} {8,B}\n"
 children: []
 ---
 label: N3sH2-N5ring
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s      u0 {2,S} {3,S} {4,S}
-  2   H        u0 {1,S}
-  3   H        u0 {1,S}
-  4   N3s      u0 {1,S} {5,S} {6,S}
-  5   [Cb,N3b] u0 {4,S} {7,B}
-  6   [Cb,N3b] u0 {4,S} {8,B}
-  7   [Cb,N3b] u0 {5,B} {8,B}
-  8   [Cb,N3b] u0 {6,B} {7,B}
+group: "\n1 * N3s      u0 {2,S} {3,S} {4,S}\n2   H        u0 {1,S}\n3   H        u0\
+  \ {1,S}\n4   N3s      u0 {1,S} {5,S} {6,S}\n5   [Cb,N3b] u0 {4,S} {7,B}\n6   [Cb,N3b]\
+  \ u0 {4,S} {8,B}\n7   [Cb,N3b] u0 {5,B} {8,B}\n8   [Cb,N3b] u0 {6,B} {7,B}\n"
 children: []
 ---
 label: N3sH
 short_description: Platts fragment 12 >NH (fragment 5 for A)
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   H   u0 {1,S}
-  3   R!H u0 {1,S}
-  4   R!H u0 {1,S}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   H   u0 {1,S}\n3   R!H u0 {1,S}\n4   R!H\
+  \ u0 {1,S}\n"
 children:
 - N3sH-aromatic
 solute:
@@ -556,12 +423,8 @@ solute:
 label: N3sH-aromatic
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s      u0 {2,S} {3,S} {4,S}
-  2   H        u0 {1,S}
-  3   [Cb,N3b] u0 {1,S}
-  4   [Cb,N3b] u0 {1,S}
+group: "\n1 * N3s      u0 {2,S} {3,S} {4,S}\n2   H        u0 {1,S}\n3   [Cb,N3b] u0\
+  \ {1,S}\n4   [Cb,N3b] u0 {1,S}\n"
 children:
 - N3sH-pyrrole
 solute:
@@ -574,14 +437,8 @@ solute:
 label: N3sH-pyrrole
 short_description: Platts fragment 14 pyrrole (fragment 8 for A)
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   H   u0 {1,S}
-  3   Cb  u0 {1,S} {5,B}
-  4   Cb  u0 {1,S} {6,B}
-  5   Cb  u0 {3,B} {6,B}
-  6   Cb  u0 {4,B} {5,B}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   H   u0 {1,S}\n3   Cb  u0 {1,S} {5,B}\n\
+  4   Cb  u0 {1,S} {6,B}\n5   Cb  u0 {3,B} {6,B}\n6   Cb  u0 {4,B} {5,B}\n"
 children: []
 solute:
   S: 0.221
@@ -593,12 +450,8 @@ solute:
 label: N3s-noH
 short_description: Platts fragment 15 >N-
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   R!H u0 {1,S}
-  3   R!H u0 {1,S}
-  4   R!H u0 {1,S}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   R!H u0 {1,S}\n3   R!H u0 {1,S}\n4   R!H\
+  \ u0 {1,S}\n"
 children:
 - N3s-noH-aromatic
 solute:
@@ -611,12 +464,8 @@ solute:
 label: N3s-noH-aromatic
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3s      u0 {2,S} {3,S} {4,S}
-  2   R!H      u0 {1,S}
-  3   [Cb,N3b] u0 {1,S}
-  4   [Cb,N3b] u0 {1,S}
+group: "\n1 * N3s      u0 {2,S} {3,S} {4,S}\n2   R!H      u0 {1,S}\n3   [Cb,N3b] u0\
+  \ {1,S}\n4   [Cb,N3b] u0 {1,S}\n"
 children:
 - N3s-noH-pyrrole
 solute:
@@ -629,14 +478,8 @@ solute:
 label: N3s-noH-pyrrole
 short_description: Platts fragment 17 pyrrole
 long_description: ''
-group: |2
-
-  1 * N3s u0 {2,S} {3,S} {4,S}
-  2   R!H u0 {1,S}
-  3   Cb  u0 {1,S} {5,B}
-  4   Cb  u0 {1,S} {6,B}
-  5   Cb  u0 {3,B} {6,B}
-  6   Cb  u0 {4,B} {5,B}
+group: "\n1 * N3s u0 {2,S} {3,S} {4,S}\n2   R!H u0 {1,S}\n3   Cb  u0 {1,S} {5,B}\n\
+  4   Cb  u0 {1,S} {6,B}\n5   Cb  u0 {3,B} {6,B}\n6   Cb  u0 {4,B} {5,B}\n"
 children: []
 solute:
   S: 0.265
@@ -648,9 +491,7 @@ solute:
 label: N3d
 short_description: Platts fragment 18 =N
 long_description: ''
-group: |2
-
-  1 * N3d u0
+group: "\n1 * N3d u0\n"
 children: []
 solute:
   S: 0.125
@@ -662,10 +503,7 @@ solute:
 label: N3t
 short_description: Platts fragment 21 N#C-
 long_description: ''
-group: |2
-
-  1 * N3t u0 {2,T}
-  2   Ct  u0 {1,T}
+group: "\n1 * N3t u0 {2,T}\n2   Ct  u0 {1,T}\n"
 children:
 - N3t-aromatic
 solute:
@@ -692,33 +530,21 @@ solute:
 label: N3t-Cb
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3t u0 {2,T}
-  2   Ct  u0 {1,T} {3,S}
-  3   Cb  u0 {2,S}
+group: "\n1 * N3t u0 {2,T}\n2   Ct  u0 {1,T} {3,S}\n3   Cb  u0 {2,S}\n"
 children: []
 ---
 label: N3t-N5ring
 short_description: ''
 long_description: ''
-group: |2
-
-  1 * N3t      u0 {2,T}
-  2   Ct       u0 {1,T} {3,S}
-  3   N3s      u0 {2,S} {4,S} {5,S}
-  4   [Cb,N3b] u0 {3,S} {6,B}
-  5   [Cb,N3b] u0 {3,S} {7,B}
-  6   [Cb,N3b] u0 {4,B} {7,B}
-  7   [Cb,N3b] u0 {5,B} {6,B}
+group: "\n1 * N3t      u0 {2,T}\n2   Ct       u0 {1,T} {3,S}\n3   N3s      u0 {2,S}\
+  \ {4,S} {5,S}\n4   [Cb,N3b] u0 {3,S} {6,B}\n5   [Cb,N3b] u0 {3,S} {7,B}\n6   [Cb,N3b]\
+  \ u0 {4,B} {7,B}\n7   [Cb,N3b] u0 {5,B} {6,B}\n"
 children: []
 ---
 label: N3b
 short_description: Platts group 19 =N sp2 cyclic
 long_description: ''
-group: |2
-
-  1 * N3b u0
+group: "\n1 * N3b u0\n"
 children:
 - N3bpyr
 solute:
@@ -731,14 +557,8 @@ solute:
 label: N3bpyr
 short_description: Platts group 20 pyridine
 long_description: ''
-group: |2
-
-  1 * N3b u0 {2,B} {6,B}
-  2   Cb  u0 {1,B} {3,B}
-  3   Cb  u0 {2,B} {4,B}
-  4   Cb  u0 {3,B} {5,B}
-  5   Cb  u0 {4,B} {6,B}
-  6   Cb  u0 {1,B} {5,B}
+group: "\n1 * N3b u0 {2,B} {6,B}\n2   Cb  u0 {1,B} {3,B}\n3   Cb  u0 {2,B} {4,B}\n\
+  4   Cb  u0 {3,B} {5,B}\n5   Cb  u0 {4,B} {6,B}\n6   Cb  u0 {1,B} {5,B}\n"
 children: []
 solute:
   S: 0.223
@@ -750,9 +570,7 @@ solute:
 label: S
 short_description: Platts fragment 36 (any other sulfur)
 long_description: ''
-group: |2
-
-  1 * S u0 px
+group: "\n1 * S u0 px\n"
 children:
 - S2s
 - S2d
@@ -768,9 +586,7 @@ solute:
 label: S2s
 short_description: Platts fragment 31 -S- sp3
 long_description: ''
-group: |2
-
-  1 * S2s u0 p2
+group: "\n1 * S2s u0 p2\n"
 children:
 - S2s-aromatic
 solute:
@@ -783,13 +599,8 @@ solute:
 label: S2s-aromatic
 short_description: Platts fragment 32 -S- aromatic
 long_description: ''
-group: |2
-
-  1 * S2s      u0 p2 {2,S} {5,S}
-  2   Cb       u0    {1,S} {3,B}
-  3   [Cb,N3b] u0    {2,B} {4,B}
-  4   [Cb,N3b] u0    {3,B} {5,B}
-  5   Cb       u0    {1,S} {4,B}
+group: "\n1 * S2s      u0 p2 {2,S} {5,S}\n2   Cb       u0    {1,S} {3,B}\n3   [Cb,N3b]\
+  \ u0    {2,B} {4,B}\n4   [Cb,N3b] u0    {3,B} {5,B}\n5   Cb       u0    {1,S} {4,B}\n"
 children: []
 solute:
   S: 0.0
@@ -801,9 +612,7 @@ solute:
 label: S2d
 short_description: Platts fragment 33 =S sp2
 long_description: ''
-group: |2
-
-  1 * S2d u0 p2
+group: "\n1 * S2d u0 p2\n"
 children: []
 solute:
   S: 0.618
@@ -815,11 +624,7 @@ solute:
 label: S4d
 short_description: Platts fragment 34 >S=
 long_description: ''
-group: |2
-
-  1 * S4d u0 p1 {2,S} {3,S}
-  2   R   u0    {1,S}
-  3   R   u0    {1,S}
+group: "\n1 * S4d u0 p1 {2,S} {3,S}\n2   R   u0    {1,S}\n3   R   u0    {1,S}\n"
 children: []
 solute:
   S: 1.065
@@ -831,13 +636,8 @@ solute:
 label: S6dd-OdOdOR
 short_description: Platts fragment 35 sulfonate
 long_description: ''
-group: |2
-
-  1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}
-  2   O2d   u0 p2 {1,D}
-  3   O2d   u0 p2 {1,D}
-  4   O2s   u0 p2 {1,S}
-  5   R    u0    {1,S}
+group: "\n1 * S6dd u0 p0 {2,D} {3,D} {4,S} {5,S}\n2   O2d   u0 p2 {1,D}\n3   O2d \
+  \  u0 p2 {1,D}\n4   O2s   u0 p2 {1,S}\n5   R    u0    {1,S}\n"
 children: []
 solute:
   S: -0.505

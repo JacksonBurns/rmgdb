@@ -1,56 +1,27 @@
 label: R
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 R u0
-children:
-- C
-- O
-- N
-- S
-- CO
-- Cs(OssH)Cs(OssH)
-- CbCsOssH
-- OssH
-- phenol
-- OxRing
-- N3sH2-benz
-- N3sHCd(O2d)N3sH
-- Cd(O2d)NH2
-- Cd(O2d)NHR
-- N3sCd(O2d)N3sH
-- CdsNdNsNs
-- SdOdOdN
+group: "\n1 *1 R u0\n"
+children: []
 ---
 label: int14_gauche
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 [Cs,O2s,Cd,S2s] u0 {2,S}
-  2 *2 Cs u0 {1,S}
+group: "\n1 *1 [Cs,O2s,Cd,S2s] u0 {2,S}\n2 *2 Cs u0 {1,S}\n"
 children: []
 ---
 label: CsCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S}
-  2 *2 Cs u0 {1,S}
+group: "\n1 *1 Cs u0 {2,S}\n2 *2 Cs u0 {1,S}\n"
 children: []
 ---
 label: CsCs-P
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S}
-  3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S}\n3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -68,13 +39,9 @@ dataCount:
 label: CsCs-S
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S}
-  3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  5   Cs u0 {1,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S}\n3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n5   Cs u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -92,16 +59,11 @@ dataCount:
 label: CsCs-SS
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n6   Cs                         u0 {2,S}\n7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {2,S}\n8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -119,16 +81,11 @@ dataCount:
 label: CsCs-ST
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n6   Cs                         u0 {2,S}\n7   Cs                    \
+  \     u0 {2,S}\n8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -146,16 +103,11 @@ dataCount:
 label: CsCs-SQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   Cs                         u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n6   Cs                         u0 {2,S}\n7   Cs                    \
+  \     u0 {2,S}\n8   Cs                         u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -173,13 +125,9 @@ dataCount:
 label: CsCs-T
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S}
-  3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  4   Cs u0 {1,S}
-  5   Cs u0 {1,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S}\n3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n4   Cs\
+  \ u0 {1,S}\n5   Cs u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -197,16 +145,11 @@ dataCount:
 label: CsCs-TT
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   Cs                         u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n6   Cs                         u0 {2,S}\n7   Cs                    \
+  \     u0 {2,S}\n8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -224,22 +167,15 @@ dataCount:
 label: CsCs-T(TTP)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S} {9,S} {10,S} {11,S}
-  4   Cs                         u0 {1,S} {12,S} {13,S} {14,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  9   Cs                         u0 {3,S}
-  10   Cs                         u0 {3,S}
-  11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
-  12   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  13   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S} {9,S} {10,S} {11,S}\n4   Cs                         u0 {1,S} {12,S}\
+  \ {13,S} {14,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n6   Cs              \
+  \           u0 {2,S}\n7   Cs                         u0 {2,S}\n8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {2,S}\n9   Cs                         u0 {3,S}\n10   Cs                   \
+  \      u0 {3,S}\n11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}\n12   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {4,S}\n13   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {4,S}\n"
 children: []
 solute:
   S: 0.0
@@ -257,22 +193,14 @@ dataCount:
 label: CsCs-T(TTS)
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S} {9,S} {10,S} {11,S}
-  4   Cs                         u0 {1,S} {12,S} {13,S} {14,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  9   Cs                         u0 {3,S}
-  10   Cs                         u0 {3,S}
-  11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}
-  12   Cs u0 {4,S}
-  13   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S} {9,S} {10,S} {11,S}\n4   Cs                         u0 {1,S} {12,S}\
+  \ {13,S} {14,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n6   Cs              \
+  \           u0 {2,S}\n7   Cs                         u0 {2,S}\n8   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {2,S}\n9   Cs                         u0 {3,S}\n10   Cs                   \
+  \      u0 {3,S}\n11   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {3,S}\n12   Cs u0 {4,S}\n13\
+  \   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n14   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n"
 children: []
 solute:
   S: 0.0
@@ -290,16 +218,11 @@ dataCount:
 label: CsCs-TQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {1,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   Cs                         u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   Cs                         u0 {1,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n6   Cs                         u0 {2,S}\n7   Cs                    \
+  \     u0 {2,S}\n8   Cs                         u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -317,13 +240,8 @@ dataCount:
 label: CsCs-Q
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S}
-  3   Cs u0 {1,S}
-  4   Cs u0 {1,S}
-  5   Cs u0 {1,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S}\n3   Cs u0 {1,S}\n4   Cs u0 {1,S}\n5   Cs u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -341,16 +259,11 @@ dataCount:
 label: CsCs-QQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}
-  2 *2 Cs                         u0 {1,S} {6,S} {7,S} {8,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {1,S}
-  5   Cs                         u0 {1,S}
-  6   Cs                         u0 {2,S}
-  7   Cs                         u0 {2,S}
-  8   Cs                         u0 {2,S}
+group: "\n1 *1 Cs                         u0 {2,S} {3,S} {4,S} {5,S}\n2 *2 Cs    \
+  \                     u0 {1,S} {6,S} {7,S} {8,S}\n3   Cs                       \
+  \  u0 {1,S}\n4   Cs                         u0 {1,S}\n5   Cs                   \
+  \      u0 {1,S}\n6   Cs                         u0 {2,S}\n7   Cs               \
+  \          u0 {2,S}\n8   Cs                         u0 {2,S}\n"
 children: []
 solute:
   S: 0.0
@@ -368,20 +281,14 @@ dataCount:
 label: OsCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s u0 {2,S}
-  2 *2 Cs u0 {1,S}
+group: "\n1 *1 O2s u0 {2,S}\n2 *2 Cs u0 {1,S}\n"
 children: []
 ---
 label: OsCs-P
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S}
-  3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S}\n3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -399,11 +306,8 @@ dataCount:
 label: OsCs-S
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S}
-  3    Cs                         u0 {1,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S}\n3    Cs                         u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -421,14 +325,10 @@ dataCount:
 label: OsCs-SP
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-  3   Cs                         u0 {1,S}
-  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S} {4,S} {5,S} {6,S}\n3   Cs                         u0 {1,S}\n\
+  4   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n\
+  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.05053
@@ -446,14 +346,10 @@ dataCount:
 label: OsCs-SS
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {2,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
-  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S} {4,S} {5,S} {6,S}\n3   Cs                         u0 {1,S}\n\
+  4   Cs                         u0 {2,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n\
+  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.01821
@@ -471,14 +367,10 @@ dataCount:
 label: OsCs-ST
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {2,S}
-  5   Cs                         u0 {2,S}
-  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S} {4,S} {5,S} {6,S}\n3   Cs                         u0 {1,S}\n\
+  4   Cs                         u0 {2,S}\n5   Cs                         u0 {2,S}\n\
+  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {2,S}\n"
 children: []
 solute:
   S: 0.03351
@@ -496,14 +388,10 @@ dataCount:
 label: OsCs-SQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 O2s                         u0 {2,S} {3,S}
-  2 *2 Cs                         u0 {1,S} {4,S} {5,S} {6,S}
-  3   Cs                         u0 {1,S}
-  4   Cs                         u0 {2,S}
-  5   Cs                         u0 {2,S}
-  6   Cs                         u0 {2,S}
+group: "\n1 *1 O2s                         u0 {2,S} {3,S}\n2 *2 Cs               \
+  \          u0 {1,S} {4,S} {5,S} {6,S}\n3   Cs                         u0 {1,S}\n\
+  4   Cs                         u0 {2,S}\n5   Cs                         u0 {2,S}\n\
+  6   Cs                         u0 {2,S}\n"
 children: []
 solute:
   S: 0.0321
@@ -521,22 +409,14 @@ dataCount:
 label: CdCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S}
-  2   Cd u0 {1,D}
-  3 *2 Cs u0 {1,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S}\n2   Cd u0 {1,D}\n3 *2 Cs u0 {1,S}\n"
 children: []
 ---
 label: CdCs-P
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
-  4 *2 Cs u0 {1,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {1,S}\n4 *2 Cs u0 {1,S}\n"
 children: []
 solute:
   S: 0.0366
@@ -554,12 +434,8 @@ dataCount:
 label: CdCs-S
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   Cs u0 {1,S}
-  4 *2 Cs u0 {1,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   Cs u0 {1,S}\n4 *2 Cs\
+  \ u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -577,15 +453,9 @@ dataCount:
 label: CdCs-SP
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   Cs u0 {1,S}
-  4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-  5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   Cs u0 {1,S}\n4 *2 Cs\
+  \ u0 {1,S} {5,S} {6,S} {7,S}\n5   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {4,S}\n7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n"
 children: []
 solute:
   S: -0.06923
@@ -603,15 +473,9 @@ dataCount:
 label: CdCs-SS
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   Cs u0 {1,S}
-  4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-  5   Cs                         u0 {4,S}
-  6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
-  7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   Cs u0 {1,S}\n4 *2 Cs\
+  \ u0 {1,S} {5,S} {6,S} {7,S}\n5   Cs                         u0 {4,S}\n6   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H]\
+  \ u0 {4,S}\n7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n"
 children: []
 solute:
   S: -0.02028
@@ -629,15 +493,9 @@ dataCount:
 label: CdCs-ST
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   Cs u0 {1,S}
-  4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-  5   Cs                         u0 {4,S}
-  6   Cs                         u0 {4,S}
-  7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   Cs u0 {1,S}\n4 *2 Cs\
+  \ u0 {1,S} {5,S} {6,S} {7,S}\n5   Cs                         u0 {4,S}\n6   Cs  \
+  \                       u0 {4,S}\n7   [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {4,S}\n"
 children: []
 solute:
   S: -0.02097
@@ -655,15 +513,9 @@ dataCount:
 label: CdCs-SQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cd u0 {2,D} {3,S} {4,S}
-  2   Cd u0 {1,D}
-  3   Cs u0 {1,S}
-  4 *2 Cs u0 {1,S} {5,S} {6,S} {7,S}
-  5   Cs                         u0 {4,S}
-  6   Cs                         u0 {4,S}
-  7   Cs                         u0 {4,S}
+group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2   Cd u0 {1,D}\n3   Cs u0 {1,S}\n4 *2 Cs\
+  \ u0 {1,S} {5,S} {6,S} {7,S}\n5   Cs                         u0 {4,S}\n6   Cs  \
+  \                       u0 {4,S}\n7   Cs                         u0 {4,S}\n"
 children: []
 solute:
   S: -0.00597
@@ -681,47 +533,25 @@ dataCount:
 label: int15
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S}
-  2    [Cs,O2s,S2s] u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S}\n2    [Cs,O2s,S2s] u0 {1,S} {3,S}\n3 *2 Cs\
+  \ u0 {2,S} {6,S} {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n\
+  7    Cs u0 {3,S}\n8    Cs u0 {3,S}\n"
 children: []
 ---
 label: CsCsCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S}
-  2    Cs u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S}\n2    Cs u0 {1,S} {3,S}\n3 *2 Cs u0 {2,S} {6,S}\
+  \ {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n7    Cs u0\
+  \ {3,S}\n8    Cs u0 {3,S}\n"
 children: []
 ---
 label: CsCsCs-TQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
-  2    Cs u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
-  9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}\n2    Cs u0 {1,S} {3,S}\n3 *2 Cs u0 {2,S}\
+  \ {6,S} {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n7   \
+  \ Cs u0 {3,S}\n8    Cs u0 {3,S}\n9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n"
 children: []
 solute:
   S: 0.0
@@ -739,17 +569,9 @@ dataCount:
 label: CsCsCs-QQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
-  2    Cs u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {1,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
-  9    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}\n2    Cs u0 {1,S} {3,S}\n3 *2 Cs u0 {2,S}\
+  \ {7,S} {8,S} {9,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {1,S}\n7   \
+  \ Cs u0 {3,S}\n8    Cs u0 {3,S}\n9    Cs u0 {3,S}\n"
 children: []
 solute:
   S: 0.0
@@ -767,32 +589,17 @@ dataCount:
 label: CsOsCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S}
-  2    O2s u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S}\n2    O2s u0 {1,S} {3,S}\n3 *2 Cs u0 {2,S}\
+  \ {6,S} {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n7   \
+  \ Cs u0 {3,S}\n8    Cs u0 {3,S}\n"
 children: []
 ---
 label: CsOsCs-TQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}
-  2    O2s u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
-  9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S} {9,S}\n2    O2s u0 {1,S} {3,S}\n3 *2 Cs u0\
+  \ {2,S} {6,S} {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n\
+  7    Cs u0 {3,S}\n8    Cs u0 {3,S}\n9    [Cd,Cdd,Ct,Cb,Cbf,O2s,CO,H] u0 {1,S}\n"
 children: []
 solute:
   S: -0.00592
@@ -810,17 +617,9 @@ dataCount:
 label: CsOsCs-QQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
-  2    O2s u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {1,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
-  9    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}\n2    O2s u0 {1,S} {3,S}\n3 *2 Cs u0\
+  \ {2,S} {7,S} {8,S} {9,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {1,S}\n\
+  7    Cs u0 {3,S}\n8    Cs u0 {3,S}\n9    Cs u0 {3,S}\n"
 children: []
 solute:
   S: 0.0
@@ -838,32 +637,17 @@ dataCount:
 label: CsSsCs
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S}
-  2    S2s u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {6,S} {7,S} {8,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {3,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S}\n2    S2s u0 {1,S} {3,S}\n3 *2 Cs u0 {2,S}\
+  \ {6,S} {7,S} {8,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {3,S}\n7   \
+  \ Cs u0 {3,S}\n8    Cs u0 {3,S}\n"
 children: []
 ---
 label: CsSsCs-QQ
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}
-  2    S2s u0 {1,S} {3,S}
-  3 *2 Cs u0 {2,S} {7,S} {8,S} {9,S}
-  4    Cs u0 {1,S}
-  5    Cs u0 {1,S}
-  6    Cs u0 {1,S}
-  7    Cs u0 {3,S}
-  8    Cs u0 {3,S}
-  9    Cs u0 {3,S}
+group: "\n1 *1 Cs u0 {2,S} {4,S} {5,S} {6,S}\n2    S2s u0 {1,S} {3,S}\n3 *2 Cs u0\
+  \ {2,S} {7,S} {8,S} {9,S}\n4    Cs u0 {1,S}\n5    Cs u0 {1,S}\n6    Cs u0 {1,S}\n\
+  7    Cs u0 {3,S}\n8    Cs u0 {3,S}\n9    Cs u0 {3,S}\n"
 children: []
 solute:
   S: 0.01584

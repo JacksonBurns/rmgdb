@@ -1,8 +1,9 @@
 import yaml
 import ast
 import pandas as pd
+import numpy as np
 from pathlib import Path
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 
 from rmgdb.solvation.schema import (
@@ -15,14 +16,19 @@ from rmgdb.solvation.views import (
 )
 
 yaml.SafeDumper.org_represent_str = yaml.SafeDumper.represent_str
-repr_str = lambda dumper, data: dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|") if "\n" in data else dumper.org_represent_str(data)
+repr_str = lambda dumper, data: dumper.represent_scalar("tag:yaml.org,2002:str", data, style="|+") if "\n" in data else dumper.org_represent_str(data)
 yaml.add_representer(str, repr_str, Dumper=yaml.SafeDumper)
+yaml.add_representer(np.float64, lambda dumper, data: dumper.represent_float(float(data)), Dumper=yaml.SafeDumper)
+yaml.add_representer(np.float32, lambda dumper, data: dumper.represent_float(float(data)), Dumper=yaml.SafeDumper)
+yaml.add_representer(np.int64, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
+yaml.add_representer(np.int32, lambda dumper, data: dumper.represent_int(int(data)), Dumper=yaml.SafeDumper)
+
 
 def clean_dict(d):
     cleaned = {}
     for k, v in d.items():
         if v is None: continue
-        if isinstance(v, float) and pd.isna(v): continue
+        if isinstance(v, (float, np.floating)) and pd.isna(v): continue
         cleaned[k] = v
     return cleaned
 
@@ -30,7 +36,7 @@ def dump_db():
     for f in ["yml/libraries", "yml/groups"]: Path(f).mkdir(parents=True, exist_ok=True)
     engine = create_engine("sqlite:///solvation.db", echo=False)
 
-    df_solute = pd.read_sql("SELECT * FROM solute_libraries_view", engine)
+    df_solute = pd.read_sql("SELECT * FROM solute_libraries_view ORDER BY id", engine)
     if not df_solute.empty:
         for name, grp in df_solute.groupby("name"):
             rows = []
@@ -45,7 +51,7 @@ def dump_db():
             if rows:
                 with open(f"yml/libraries/{name}.yml", "w") as f: yaml.dump_all(rows, f, yaml.SafeDumper, sort_keys=False)
 
-    df_solvent = pd.read_sql("SELECT * FROM solvent_libraries_view", engine)
+    df_solvent = pd.read_sql("SELECT * FROM solvent_libraries_view ORDER BY id", engine)
     if not df_solvent.empty:
         for name, grp in df_solvent.groupby("name"):
             rows = []
@@ -71,14 +77,17 @@ def dump_db():
             if rows:
                 with open(f"yml/libraries/{name}.yml", "w") as f: yaml.dump_all(rows, f, yaml.SafeDumper, sort_keys=False)
 
-    df_groups = pd.read_sql("SELECT * FROM solute_groups_view", engine)
+    df_groups = pd.read_sql("SELECT * FROM solute_groups_view ORDER BY id", engine)
     if not df_groups.empty:
         for name, grp in df_groups.groupby("name"):
             rows = []
             for _, r in grp.iterrows():
                 d = clean_dict({"label": r.label, "short_description": r.short_description, "long_description": r.long_description, "group": r.group})
-                ch = pd.read_sql(f"SELECT child_label FROM label_pairs_view WHERE parent_label='{r.label}'", engine)
+                
+                # Filter specifically by the exact file (name) to block crossover
+                ch = pd.read_sql(text("SELECT child_label FROM label_pairs_view WHERE parent_label=:lbl AND name=:name ORDER BY id"), engine, params={"lbl": r.label, "name": name})
                 d["children"] = ch["child_label"].tolist() if not ch.empty else []
+                
                 if pd.notna(r.solute_pointer) and r.solute_pointer:
                     d["solute"] = r.solute_pointer
                 elif pd.notna(r.solute_S):
@@ -93,6 +102,7 @@ def dump_db():
             if rows:
                 with open(f"yml/groups/{name}.yml", "w") as f: yaml.dump_all(rows, f, yaml.SafeDumper, sort_keys=False)
 
+
 def gen_db():
     engine = create_engine("sqlite:///solvation.db", echo=False)
     Session = sessionmaker(bind=engine)
@@ -100,10 +110,9 @@ def gen_db():
     SCHEMA_BASE.metadata.create_all(engine)
 
     counts = {"group": 0, "solute_lib": 0, "solvent_lib": 0, "solute_data": 0, "solvent_data": 0, "count_gav": 0, "count_solvent": 0, "tree": 0}
-    label_to_id = {}
 
     if Path("yml/libraries").exists():
-        for f in Path("yml/libraries").glob("*.yml"):
+        for f in sorted(Path("yml/libraries").glob("*.yml")):
             with open(f, "r") as fl:
                 for row in yaml.safe_load_all(fl):
                     mol = repr(row["molecule"]) if isinstance(row.get("molecule"), list) else row.get("molecule", "")
@@ -131,9 +140,13 @@ def gen_db():
                         counts["solute_lib"] += 1
 
     if Path("yml/groups").exists():
-        for f in Path("yml/groups").glob("*.yml"):
+        for f in sorted(Path("yml/groups").glob("*.yml")):
+            # Tightly scoped dictionary per file
+            label_to_id = {}
             with open(f, "r") as fl:
                 all_rows = list(yaml.safe_load_all(fl))
+                
+                # First pass: Create entities and gather PK mappings
                 for row in all_rows:
                     label_to_id[row["label"]] = counts["group"]
                     ptr = row["solute"] if isinstance(row.get("solute"), str) else None
@@ -147,6 +160,7 @@ def gen_db():
                         counts["count_gav"] += 1
                     counts["group"] += 1
 
+                # Second pass: Build strictly linked tree relationships
                 for row in all_rows:
                     for child in row.get("children", []):
                         if child in label_to_id:

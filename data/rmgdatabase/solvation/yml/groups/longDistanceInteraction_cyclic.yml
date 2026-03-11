@@ -1,59 +1,27 @@
 label: R
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 R u0
-children:
-- C
-- O
-- N
-- S
-- CO
-- Cs(OssH)Cs(OssH)
-- CbCsOssH
-- OssH
-- phenol
-- OxRing
-- N3sH2-benz
-- N3sHCd(O2d)N3sH
-- Cd(O2d)NH2
-- Cd(O2d)NHR
-- N3sCd(O2d)N3sH
-- CdsNdNsNs
-- SdOdOdN
+group: "\n1 *1 R u0\n"
+children: []
 ---
 label: aromatic-ortho
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B}
-  2 *2 Cb u0 {1,B}
+group: "\n1 *1 Cb u0 {2,B}\n2 *2 Cb u0 {1,B}\n"
 children: []
 ---
 label: o_OH
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B}
-  3    O u0 {1,S} {4,S}
-  4    H u0 {3,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B}\n3    O u0 {1,S} {4,S}\n4    H\
+  \ u0 {3,S}\n"
 children: []
 ---
 label: o_OH_OH
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {5,S}
-  3    O u0 {1,S} {4,S}
-  4    H u0 {3,S}
-  5    O u0 {2,S} {6,S}
-  6    H u0 {5,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {5,S}\n3    O u0 {1,S} {4,S}\n\
+  4    H u0 {3,S}\n5    O u0 {2,S} {6,S}\n6    H u0 {5,S}\n"
 children: []
 solute:
   S: -0.0125
@@ -71,17 +39,9 @@ dataCount:
 label: o_OH_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {5,S}
-  3    O u0 {1,S} {4,S}
-  4    H u0 {3,S}
-  5    O u0 {2,S} {6,S}
-  6    C u0 {5,S} {7,S} {8,S} {9,S}
-  7    H u0 {6,S}
-  8    H u0 {6,S}
-  9    H u0 {6,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {5,S}\n3    O u0 {1,S} {4,S}\n\
+  4    H u0 {3,S}\n5    O u0 {2,S} {6,S}\n6    C u0 {5,S} {7,S} {8,S} {9,S}\n7   \
+  \ H u0 {6,S}\n8    H u0 {6,S}\n9    H u0 {6,S}\n"
 children: []
 solute:
   S: -0.04689
@@ -99,15 +59,8 @@ dataCount:
 label: o_OH_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {5,S}
-  3    O u0 {1,S} {4,S}
-  4    H u0 {3,S}
-  5    C u0 {2,S} {6,S} {7,D}
-  6    H u0 {5,S}
-  7    O u0 {5,D}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {5,S}\n3    O u0 {1,S} {4,S}\n\
+  4    H u0 {3,S}\n5    C u0 {2,S} {6,S} {7,D}\n6    H u0 {5,S}\n7    O u0 {5,D}\n"
 children: []
 solute:
   S: -0.00219
@@ -125,28 +78,16 @@ dataCount:
 label: o_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B}
-  3    C u0 {1,S} {4,S} {5,D}
-  4    H u0 {3,S}
-  5    O u0 {3,D}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B}\n3    C u0 {1,S} {4,S} {5,D}\n\
+  4    H u0 {3,S}\n5    O u0 {3,D}\n"
 children: []
 ---
 label: o_CHO_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {5,S}
-  3    C u0 {1,S} {4,S} {8,D}
-  4    H u0 {3,S}
-  5    C u0 {2,S} {6,S} {7,D}
-  6    H u0 {5,S}
-  7    O u0 {5,D}
-  8    O u0 {3,D}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {5,S}\n3    C u0 {1,S} {4,S} {8,D}\n\
+  4    H u0 {3,S}\n5    C u0 {2,S} {6,S} {7,D}\n6    H u0 {5,S}\n7    O u0 {5,D}\n\
+  8    O u0 {3,D}\n"
 children: []
 solute:
   S: -0.02599
@@ -164,17 +105,9 @@ dataCount:
 label: o_CHO_CH3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {6,S}
-  3    C u0 {1,S} {4,S} {5,D}
-  4    H u0 {3,S}
-  5    O u0 {3,D}
-  6    C u0 {2,S} {7,S} {8,S} {9,S}
-  7    H u0 {6,S}
-  8    H u0 {6,S}
-  9    H u0 {6,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {6,S}\n3    C u0 {1,S} {4,S} {5,D}\n\
+  4    H u0 {3,S}\n5    O u0 {3,D}\n6    C u0 {2,S} {7,S} {8,S} {9,S}\n7    H u0 {6,S}\n\
+  8    H u0 {6,S}\n9    H u0 {6,S}\n"
 children: []
 solute:
   S: -0.02032
@@ -192,18 +125,9 @@ dataCount:
 label: o_CHO_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {6,S}
-  3    C u0 {1,S} {4,S} {5,D}
-  4    H u0 {3,S}
-  5    O u0 {3,D}
-  6    O u0 {2,S} {7,S}
-  7    C u0 {6,S} {8,S} {9,S} {10,S}
-  8    H u0 {7,S}
-  9    H u0 {7,S}
-  10   H u0 {7,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {6,S}\n3    C u0 {1,S} {4,S} {5,D}\n\
+  4    H u0 {3,S}\n5    O u0 {3,D}\n6    O u0 {2,S} {7,S}\n7    C u0 {6,S} {8,S} {9,S}\
+  \ {10,S}\n8    H u0 {7,S}\n9    H u0 {7,S}\n10   H u0 {7,S}\n"
 children: []
 solute:
   S: -0.00691
@@ -221,33 +145,17 @@ dataCount:
 label: o_vinyl
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B}
-  3    C u0 {1,S} {4,S} {5,D}
-  4    H u0 {3,S}
-  5    C u0 {3,D} {6,S} {7,S}
-  6   H u0 {5,S}
-  7   H u0 {5,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B}\n3    C u0 {1,S} {4,S} {5,D}\n\
+  4    H u0 {3,S}\n5    C u0 {3,D} {6,S} {7,S}\n6   H u0 {5,S}\n7   H u0 {5,S}\n"
 children: []
 ---
 label: o_vinyl_CH3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {8,S}
-  3    C u0 {1,S} {4,S} {5,D}
-  4    H u0 {3,S}
-  5    C u0 {3,D} {6,S} {7,S}
-  6    H u0 {5,S}
-  7    H u0 {5,S}
-  8    C u0 {2,S} {9,S} {10,S} {11,S}
-  9    H u0 {8,S}
-  10   H u0 {8,S}
-  11   H u0 {8,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {8,S}\n3    C u0 {1,S} {4,S} {5,D}\n\
+  4    H u0 {3,S}\n5    C u0 {3,D} {6,S} {7,S}\n6    H u0 {5,S}\n7    H u0 {5,S}\n\
+  8    C u0 {2,S} {9,S} {10,S} {11,S}\n9    H u0 {8,S}\n10   H u0 {8,S}\n11   H u0\
+  \ {8,S}\n"
 children: []
 solute:
   S: 0.00322
@@ -265,34 +173,17 @@ dataCount:
 label: o_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B}
-  3    O u0 {1,S} {4,S}
-  4    C u0 {3,S} {5,S} {6,S} {7,S}
-  5    H u0 {4,S}
-  6    H u0 {4,S}
-  7    H u0 {4,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B}\n3    O u0 {1,S} {4,S}\n4    C\
+  \ u0 {3,S} {5,S} {6,S} {7,S}\n5    H u0 {4,S}\n6    H u0 {4,S}\n7    H u0 {4,S}\n"
 children: []
 ---
 label: o_MeO_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {8,S}
-  3    O u0 {1,S} {4,S}
-  4    C u0 {3,S} {5,S} {6,S} {7,S}
-  5    H u0 {4,S}
-  6    H u0 {4,S}
-  7    H u0 {4,S}
-  8    O u0 {2,S} {9,S}
-  9    C u0 {8,S} {10,S} {11,S} {12,S}
-  10   H u0 {9,S}
-  11   H u0 {9,S}
-  12   H u0 {9,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {8,S}\n3    O u0 {1,S} {4,S}\n\
+  4    C u0 {3,S} {5,S} {6,S} {7,S}\n5    H u0 {4,S}\n6    H u0 {4,S}\n7    H u0 {4,S}\n\
+  8    O u0 {2,S} {9,S}\n9    C u0 {8,S} {10,S} {11,S} {12,S}\n10   H u0 {9,S}\n11\
+  \   H u0 {9,S}\n12   H u0 {9,S}\n"
 children: []
 solute:
   S: 0.00232
@@ -310,31 +201,16 @@ dataCount:
 label: o_CH3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B}
-  3    C u0 {1,S} {4,S} {5,S} {6,S}
-  4    H u0 {3,S}
-  5    H u0 {3,S}
-  6    H u0 {3,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B}\n3    C u0 {1,S} {4,S} {5,S} {6,S}\n\
+  4    H u0 {3,S}\n5    H u0 {3,S}\n6    H u0 {3,S}\n"
 children: []
 ---
 label: o_CH3_CH3
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {7,S}
-  3    C u0 {1,S} {4,S} {5,S} {6,S}
-  4    H u0 {3,S}
-  5    H u0 {3,S}
-  6    H u0 {3,S}
-  7    C u0 {2,S} {8,S} {9,S} {10,S}
-  8    H u0 {7,S}
-  9    H u0 {7,S}
-  10    H u0 {7,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {7,S}\n3    C u0 {1,S} {4,S} {5,S}\
+  \ {6,S}\n4    H u0 {3,S}\n5    H u0 {3,S}\n6    H u0 {3,S}\n7    C u0 {2,S} {8,S}\
+  \ {9,S} {10,S}\n8    H u0 {7,S}\n9    H u0 {7,S}\n10    H u0 {7,S}\n"
 children: []
 solute:
   S: 0.00252
@@ -352,21 +228,10 @@ dataCount:
 label: o_CH3_C2H5
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {3,S}
-  2 *2 Cb u0 {1,B} {7,S}
-  3    C u0 {1,S} {4,S} {5,S} {6,S}
-  4    H u0 {3,S}
-  5    H u0 {3,S}
-  6    H u0 {3,S}
-  7    C u0 {2,S} {8,S} {9,S} {10,S}
-  8    H u0 {7,S}
-  9    H u0 {7,S}
-  10   C u0 {7,S} {11,S} {12,S} {13,S}
-  11   H u0 {10,S}
-  12   H u0 {10,S}
-  13   H u0 {10,S}
+group: "\n1 *1 Cb u0 {2,B} {3,S}\n2 *2 Cb u0 {1,B} {7,S}\n3    C u0 {1,S} {4,S} {5,S}\
+  \ {6,S}\n4    H u0 {3,S}\n5    H u0 {3,S}\n6    H u0 {3,S}\n7    C u0 {2,S} {8,S}\
+  \ {9,S} {10,S}\n8    H u0 {7,S}\n9    H u0 {7,S}\n10   C u0 {7,S} {11,S} {12,S}\
+  \ {13,S}\n11   H u0 {10,S}\n12   H u0 {10,S}\n13   H u0 {10,S}\n"
 children: []
 solute:
   S: 0.02407
@@ -384,66 +249,37 @@ dataCount:
 label: aromatic-meta
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B}
-  2    Cb u0 {1,B} {3,B}
-  3 *2 Cb u0 {2,B}
+group: "\n1 *1 Cb u0 {2,B}\n2    Cb u0 {1,B} {3,B}\n3 *2 Cb u0 {2,B}\n"
 children: []
 ---
 label: m_CHO_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {4,S}
-  2    Cb u0 {1,B} {3,B}
-  3 *2 Cb u0 {2,B} {7,S}
-  4    C  u0 {1,S} {5,D} {6,S}
-  5    O  u0 {4,D}
-  6    H  u0 {4,S}
-  7    C  u0 {3,S} {8,D} {9,S}
-  8    O  u0 {7,D}
-  9    H  u0 {7,S}
+group: "\n1 *1 Cb u0 {2,B} {4,S}\n2    Cb u0 {1,B} {3,B}\n3 *2 Cb u0 {2,B} {7,S}\n\
+  4    C  u0 {1,S} {5,D} {6,S}\n5    O  u0 {4,D}\n6    H  u0 {4,S}\n7    C  u0 {3,S}\
+  \ {8,D} {9,S}\n8    O  u0 {7,D}\n9    H  u0 {7,S}\n"
 children: []
 ---
 label: aromatic-para
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B}
+group: "\n1 *1 Cb u0 {2,B}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n4 *2 Cb\
+  \ u0 {3,B}\n"
 children: []
 ---
 label: p_OH
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B}
-  5    O u0 {1,S} {6,S}
-  6    H u0 {5,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B}\n5    O u0 {1,S} {6,S}\n6    H u0 {5,S}\n"
 children: []
 ---
 label: p_OH_OH
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    O u0 {1,S} {6,S}
-  6    H u0 {5,S}
-  7    O u0 {4,S} {8,S}
-  8    H u0 {7,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    O u0 {1,S} {6,S}\n6    H u0 {5,S}\n7    O u0 {4,S}\
+  \ {8,S}\n8    H u0 {7,S}\n"
 children: []
 solute:
   S: -0.01768
@@ -461,19 +297,10 @@ dataCount:
 label: p_OH_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    O u0 {1,S} {6,S}
-  6    H u0 {5,S}
-  7    O u0 {4,S} {8,S}
-  8    C u0 {7,S} {9,S} {10,S} {11,S}
-  9    H u0 {8,S}
-  10   H u0 {8,S}
-  11   H u0 {8,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    O u0 {1,S} {6,S}\n6    H u0 {5,S}\n7    O u0 {4,S}\
+  \ {8,S}\n8    C u0 {7,S} {9,S} {10,S} {11,S}\n9    H u0 {8,S}\n10   H u0 {8,S}\n\
+  11   H u0 {8,S}\n"
 children: []
 solute:
   S: 0.05626
@@ -491,17 +318,9 @@ dataCount:
 label: p_OH_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    O u0 {1,S} {6,S}
-  6    H u0 {5,S}
-  7    C u0 {4,S} {8,D} {9,S}
-  8    O u0 {7,D}
-  9    H u0 {7,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    O u0 {1,S} {6,S}\n6    H u0 {5,S}\n7    C u0 {4,S}\
+  \ {8,D} {9,S}\n8    O u0 {7,D}\n9    H u0 {7,S}\n"
 children: []
 solute:
   S: -0.00084
@@ -519,38 +338,18 @@ dataCount:
 label: p_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B}
-  5    O u0 {1,S} {6,S}
-  6    C u0 {5,S} {7,S} {8,S} {9,S}
-  7    H u0 {6,S}
-  8    H u0 {6,S}
-  9    H u0 {6,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B}\n5    O u0 {1,S} {6,S}\n6    C u0 {5,S} {7,S} {8,S} {9,S}\n7  \
+  \  H u0 {6,S}\n8    H u0 {6,S}\n9    H u0 {6,S}\n"
 children: []
 ---
 label: p_MeO_MeO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    O u0 {1,S} {6,S}
-  6    C u0 {5,S} {12,S} {13,S} {14,S}
-  7    O u0 {4,S} {8,S}
-  8    C u0 {7,S} {9,S} {10,S} {11,S}
-  9    H u0 {8,S}
-  10   H u0 {8,S}
-  11   H u0 {8,S}
-  12   H u0 {6,S}
-  13   H u0 {6,S}
-  14   H u0 {6,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    O u0 {1,S} {6,S}\n6    C u0 {5,S} {12,S} {13,S} {14,S}\n\
+  7    O u0 {4,S} {8,S}\n8    C u0 {7,S} {9,S} {10,S} {11,S}\n9    H u0 {8,S}\n10\
+  \   H u0 {8,S}\n11   H u0 {8,S}\n12   H u0 {6,S}\n13   H u0 {6,S}\n14   H u0 {6,S}\n"
 children: []
 solute:
   S: 0.01741
@@ -568,20 +367,10 @@ dataCount:
 label: p_MeO_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    O u0 {1,S} {6,S}
-  6    C u0 {5,S} {10,S} {11,S} {12,S}
-  7    C u0 {4,S} {8,D} {9,S}
-  8    O u0 {7,D}
-  9    H u0 {7,S}
-  10   H u0 {6,S}
-  11   H u0 {6,S}
-  12   H u0 {6,S}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    O u0 {1,S} {6,S}\n6    C u0 {5,S} {10,S} {11,S} {12,S}\n\
+  7    C u0 {4,S} {8,D} {9,S}\n8    O u0 {7,D}\n9    H u0 {7,S}\n10   H u0 {6,S}\n\
+  11   H u0 {6,S}\n12   H u0 {6,S}\n"
 children: []
 solute:
   S: 0.03761
@@ -599,32 +388,16 @@ dataCount:
 label: p_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B}
-  5    C u0 {1,S} {6,S} {7,D}
-  6    H u0 {5,S}
-  7    O u0 {5,D}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B}\n5    C u0 {1,S} {6,S} {7,D}\n6    H u0 {5,S}\n7    O u0 {5,D}\n"
 children: []
 ---
 label: p_CHO_CHO
 short_description: ''
 long_description: ''
-group: |2
-
-  1 *1 Cb u0 {2,B} {5,S}
-  2    Cb u0 {1,B} {3,B}
-  3    Cb u0 {2,B} {4,B}
-  4 *2 Cb u0 {3,B} {7,S}
-  5    C u0 {1,S} {6,S} {10,D}
-  6    H u0 {5,S}
-  7    C u0 {4,S} {8,D} {9,S}
-  8    O u0 {7,D}
-  9    H u0 {7,S}
-  10   O u0 {5,D}
+group: "\n1 *1 Cb u0 {2,B} {5,S}\n2    Cb u0 {1,B} {3,B}\n3    Cb u0 {2,B} {4,B}\n\
+  4 *2 Cb u0 {3,B} {7,S}\n5    C u0 {1,S} {6,S} {10,D}\n6    H u0 {5,S}\n7    C u0\
+  \ {4,S} {8,D} {9,S}\n8    O u0 {7,D}\n9    H u0 {7,S}\n10   O u0 {5,D}\n"
 children: []
 solute:
   S: -0.03508

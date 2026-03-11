@@ -387,10 +387,8 @@ dataCount:
 ---
 label: 1,1-dichloroethane
 short_description: ''
-long_description: |2
-
-  The source of the Abarham and Mintz parameters is unknown.
-  Viscosity parameters (A, B, C, D, E): the DIPPR
+long_description: "\nThe source of the Abarham and Mintz parameters is unknown.\n\
+  Viscosity parameters (A, B, C, D, E): the DIPPR\n"
 molecule: CC(Cl)Cl
 solvent:
   s_g: 1.436
@@ -1001,10 +999,8 @@ solvent:
 ---
 label: acetonitrile_40_water_60
 short_description: ''
-long_description: |2
-
-  [JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06
-  [Gagliardi2007]: DOI: 10.1021/je700055p
+long_description: "\n[JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06\n[Gagliardi2007]:\
+  \ DOI: 10.1021/je700055p\n"
 molecule:
 - CC#N
 - O
@@ -1019,10 +1015,8 @@ solvent:
 ---
 label: acetonitrile_60_water_40
 short_description: ''
-long_description: |2
-
-  [JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06
-  [Gagliardi2007]: DOI: 10.1021/je700055p
+long_description: "\n[JIRKAL2016]: DOI: 10.1556/1326.2016.28.1.06\n[Gagliardi2007]:\
+  \ DOI: 10.1021/je700055p\n"
 molecule:
 - CC#N
 - O
@@ -5677,11 +5671,10 @@ dataCount:
 ---
 label: ethylene carbonate dimethyl carbonate 50:50
 short_description: ''
-long_description: |2
-
-  Abraham and Mintz parameters: fitted by Matt Johnson
-  Viscosity parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-  Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+long_description: "\nAbraham and Mintz parameters: fitted by Matt Johnson\nViscosity\
+  \ parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D.\
+  \ S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,\nRani, K. Y. (2007) Viscosity\
+  \ of Liquids. Springer, The Netherlands: Dordrecht.\n"
 molecule:
 - C1COC(=O)O1
 - COC(=O)OC
@@ -5717,11 +5710,10 @@ dataCount:
 ---
 label: ethylene carbonate
 short_description: ''
-long_description: |2
-
-  Abraham and Mintz parameters: fitted by Matt Johnson
-  Viscosity parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D. S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,
-  Rani, K. Y. (2007) Viscosity of Liquids. Springer, The Netherlands: Dordrecht.
+long_description: "\nAbraham and Mintz parameters: fitted by Matt Johnson\nViscosity\
+  \ parameters are those of diethyl carbonate from (A, B, C, D, E): Viswanath, D.\
+  \ S., Ghosh, T. K., Prasad, D. H. L., Dutt, N. V. K.,\nRani, K. Y. (2007) Viscosity\
+  \ of Liquids. Springer, The Netherlands: Dordrecht.\n"
 molecule: C1COC(=O)O1
 solvent:
   s_g: 2.4387439563279862
