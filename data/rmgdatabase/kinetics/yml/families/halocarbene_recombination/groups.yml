@@ -9,12 +9,20 @@ children:
 - CF
 - CCl
 - CBr
+- CF
+- CCl
+- CBr
+- CF
+- CCl
+- CBr
 ---
 label: CF
 group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    F1s  u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
+- CF2
+- CF2
 - CF2
 - CF2
 ---
@@ -32,6 +40,8 @@ long_description: ''
 children:
 - CCl2
 - CCl2
+- CCl2
+- CCl2
 ---
 label: CCl2
 group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S} {4,S}\n3    Cl1s u0 p3 {2,S}\n4 \
@@ -45,6 +55,8 @@ group: "\n1 *1 R    u1 px\n2 *2 C2s  u0 p1 {3,S}\n3    Br1s u0 p3 {2,S}\n"
 short_description: ''
 long_description: ''
 children:
+- CBr2
+- CBr2
 - CBr2
 - CBr2
 ---

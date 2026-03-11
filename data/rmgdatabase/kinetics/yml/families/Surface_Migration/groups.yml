@@ -5,6 +5,8 @@ short_description: ''
 long_description: ''
 children:
 - '*C'
+- '*C'
+- '*C'
 ---
 label: '*C'
 group: "\n1 *1 X ux px cx {2,S}\n2 *2 C ux px cx {1,S} {3,[S,D]}\n3 *3 C ux px cx\

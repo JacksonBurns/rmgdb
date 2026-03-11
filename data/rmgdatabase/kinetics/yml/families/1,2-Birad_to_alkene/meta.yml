@@ -19,5 +19,4 @@ recipe:
     - '*2'
     - '1'
 reversible: false
-reverse_map: {}
 auto_generated: false

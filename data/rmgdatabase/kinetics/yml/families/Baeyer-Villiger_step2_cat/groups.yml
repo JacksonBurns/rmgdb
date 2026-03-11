@@ -7,6 +7,8 @@ long_description: ''
 children:
 - 6_membered_ring
 - 6_membered_ring
+- 6_membered_ring
+- 6_membered_ring
 ---
 label: acid
 group: "\n1     R u0 {2,S}\n2 *7  C u0 {1,S} {3,D} {4,S}\n3 *8  O u0 {2,D}\n4 *9 \

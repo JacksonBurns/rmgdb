@@ -22,6 +22,8 @@ long_description: ''
 children:
 - CO2
 - CO2
+- CO2
+- CO2
 ---
 label: CO2
 group: "\nmultiplicity [1]\n1    O  u0 p2 c0 {3,D}\n2 *2 O  u0 p2 c0 {3,D}\n3 *3 C\
@@ -43,6 +45,8 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *3 N  u0 px cx {3,D}\n3 *2 O  u0
 short_description: ''
 long_description: ''
 children:
+- ONR
+- ONR
 - ONR
 - ONR
 ---

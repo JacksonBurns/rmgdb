@@ -9,6 +9,12 @@ children:
 - Sd_Cd
 - N1dc_N5ddc
 - N3d_Cd
+- Cd_Cdd
+- Cdd_Cd
+- Cd_Cd
+- Sd_Cd
+- N1dc_N5ddc
+- N3d_Cd
 ---
 label: R_SR
 group: OR{H_SR, R_SH}
@@ -22,6 +28,12 @@ group: "\n1 *2 Cdd       u0 {2,D} {3,D}\n2 *1 Cd        u0 {1,D}\n3    [O2d,S2d]
 short_description: ''
 long_description: ''
 children:
+- cco_2H
+- cco_HNd
+- cco_HDe
+- cco_Nd2
+- cco_NdDe
+- cco_De2
 - cco_2H
 - cco_HNd
 - cco_HDe
@@ -80,6 +92,12 @@ group: "\n1 *1 Cdd       u0 {2,D} {3,D}\n2 *2 Cd        u0 {1,D}\n3    [O2d,S2d]
 short_description: ''
 long_description: ''
 children:
+- Cdd_Cd_2H
+- Cdd_Cd_HNd
+- Cdd_Cd_HDe
+- Cdd_Cd_Nd2
+- Cdd_Cd_NdDe
+- Cdd_Cd_De2
 - Cdd_Cd_2H
 - Cdd_Cd_HNd
 - Cdd_Cd_HDe
@@ -147,6 +165,15 @@ children:
 - Cd/monosub_Cd/disub
 - Cd/disub_Cd/monosub
 - Cd/disub_Cd/disub
+- Cd/unsub_Cd/unsub
+- Cd/unsub_Cd/monosub
+- Cd/monosub_Cd/unsub
+- Cd/unsub_Cd/disub
+- Cd/disub_Cd/unsub
+- Cd/monosub_Cd/monosub
+- Cd/monosub_Cd/disub
+- Cd/disub_Cd/monosub
+- Cd/disub_Cd/disub
 ---
 label: Cd/unsub_Cd/unsub
 group: "\n1 *1 Cd u0 {2,D} {3,S} {4,S}\n2 *2 Cd u0 {1,D} {5,S} {6,S}\n3    H  u0 {1,S}\n\
@@ -161,6 +188,8 @@ group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H  
 short_description: ''
 long_description: ''
 children:
+- Cd/H2_Cd/H/Nd
+- Cd/H2_Cd/H/De
 - Cd/H2_Cd/H/Nd
 - Cd/H2_Cd/H/De
 ---
@@ -188,6 +217,8 @@ long_description: ''
 children:
 - Cd/H/Nd_Cd/H2
 - Cd/H/De_Cd/H2
+- Cd/H/Nd_Cd/H2
+- Cd/H/De_Cd/H2
 ---
 label: Cd/H/Nd_Cd/H2
 group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
@@ -211,6 +242,9 @@ group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H  
 short_description: ''
 long_description: ''
 children:
+- Cd/H2_Cd/Nd2
+- Cd/H2_Cd/Nd/De
+- Cd/H2_Cd/De2
 - Cd/H2_Cd/Nd2
 - Cd/H2_Cd/Nd/De
 - Cd/H2_Cd/De2
@@ -255,6 +289,9 @@ children:
 - Cd/Nd2_Cd/H2
 - Cd/NdDe_Cd/H2
 - Cd/De2_Cd/H2
+- Cd/Nd2_Cd/H2
+- Cd/NdDe_Cd/H2
+- Cd/De2_Cd/H2
 ---
 label: Cd/Nd2_Cd/H2
 group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
@@ -290,6 +327,10 @@ children:
 - Cd/H/Nd_Cd/H/De
 - Cd/H/De_Cd/H/Nd
 - Cd/H/De_Cd/H/De
+- Cd/H/Nd_Cd/H/Nd
+- Cd/H/Nd_Cd/H/De
+- Cd/H/De_Cd/H/Nd
+- Cd/H/De_Cd/H/De
 ---
 label: Cd/H/Nd_Cd/H/Nd
 group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
@@ -315,6 +356,7 @@ short_description: ''
 long_description: ''
 children:
 - Cd/H/S_Cd/H/Cd
+- Cd/H/S_Cd/H/Cd
 ---
 label: Cd/H/De_Cd/H/Nd
 group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {1,D}\
@@ -323,6 +365,7 @@ group: "\n1 *1 Cd               u0 {2,D} {3,S} {4,S}\n2 *2 Cd               u0 {
 short_description: ''
 long_description: ''
 children:
+- Cd/H/Cd_Cd/H/S
 - Cd/H/Cd_Cd/H/S
 ---
 label: Cd/H/De_Cd/H/De
@@ -339,6 +382,12 @@ group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    H  
 short_description: ''
 long_description: ''
 children:
+- Cd/H/Nd_Cd/Nd2
+- Cd/H/Nd_Cd/Nd/De
+- Cd/H/Nd_Cd/De2
+- Cd/H/De_Cd/Nd2
+- Cd/H/De_Cd/Nd/De
+- Cd/H/De_Cd/De2
 - Cd/H/Nd_Cd/Nd2
 - Cd/H/Nd_Cd/Nd/De
 - Cd/H/Nd_Cd/De2
@@ -406,6 +455,12 @@ children:
 - Cd/De2_Cd/H/De
 - Cd/Nd/De_Cd/H/Nd
 - Cd/Nd/De_Cd/H/De
+- Cd/Nd2_Cd/H/Nd
+- Cd/Nd2_Cd/H/De
+- Cd/De2_Cd/H/Nd
+- Cd/De2_Cd/H/De
+- Cd/Nd/De_Cd/H/Nd
+- Cd/Nd/De_Cd/H/De
 ---
 label: Cd/Nd2_Cd/H/Nd
 group: "\n1 *1 Cd       u0 {2,D} {3,S} {4,S}\n2 *2 Cd       u0 {1,D} {5,S} {6,S}\n\
@@ -461,6 +516,15 @@ group: "\n1 *1 Cd  u0 {2,D} {3,S} {4,S}\n2 *2 Cd  u0 {1,D} {5,S} {6,S}\n3    R!H
 short_description: ''
 long_description: ''
 children:
+- Cd/Nd2_Cd/Nd2
+- Cd/Nd2_Cd/Nd/De
+- Cd/Nd2_Cd/De2
+- Cd/Nd/De_Cd/Nd2
+- Cd/Nd/De_Cd/Nd/De
+- Cd/Nd/De_Cd/De2
+- Cd/De2_Cd/Nd2
+- Cd/De2_Cd/Nd/De
+- Cd/De2_Cd/De2
 - Cd/Nd2_Cd/Nd2
 - Cd/Nd2_Cd/Nd/De
 - Cd/Nd2_Cd/De2
@@ -660,12 +724,20 @@ long_description: ''
 children:
 - Sd_Cdd
 - Sd_Cds
+- Sd_Cdd
+- Sd_Cds
+- Sd_Cdd
+- Sd_Cds
 ---
 label: Sd_Cdd
 group: "\n1 *2 Cdd u0 {2,D} {3,D}\n2 *1 S2d u0 {1,D}\n3    R!H u0 {1,D}\n"
 short_description: ''
 long_description: ''
 children:
+- Sd_Cdd/Cd
+- Sd_Cdd/O2d
+- Sd_Cdd/Cd
+- Sd_Cdd/O2d
 - Sd_Cdd/Cd
 - Sd_Cdd/O2d
 ---
@@ -675,6 +747,9 @@ group: "\n1 *2 CS  u0 {2,D} {3,S} {4,S}\n2 *1 S2d u0 {1,D}\n3    R   u0 {1,S}\n4
 short_description: ''
 long_description: ''
 children:
+- Sd_Cd/unsub
+- Sd_Cd/monosub
+- Sd_Cd/disub
 - Sd_Cd/unsub
 - Sd_Cd/monosub
 - Sd_Cd/disub
@@ -694,6 +769,8 @@ long_description: ''
 children:
 - Sd_Cd/H/Nd
 - Sd_Cd/H/De
+- Sd_Cd/H/Nd
+- Sd_Cd/H/De
 ---
 label: Sd_Cd/H/Nd
 group: "\n1 *1 S2d      u0 {2,D}\n2 *2 CS       u0 {1,D} {3,S} {4,S}\n3    H     \
@@ -710,6 +787,8 @@ long_description: ''
 children:
 - Sd_Cd/H/Cd
 - Sd_Cd/H/Cb
+- Sd_Cd/H/Cd
+- Sd_Cd/H/Cb
 ---
 label: Sd_Cd/disub
 group: "\n1 *1 S2d u0 {2,D}\n2 *2 CS  u0 {1,D} {3,S} {4,S}\n3    R!H u0 {2,S}\n4 \
@@ -720,6 +799,9 @@ children:
 - Sd_Cd/Nd2
 - Sd_Cd/Nd/De
 - Sd_Cd/De2
+- Sd_Cd/Nd2
+- Sd_Cd/Nd/De
+- Sd_Cd/De2
 ---
 label: Sd_Cd/Nd2
 group: "\n1 *1 S2d      u0 {2,D}\n2 *2 CS       u0 {1,D} {3,S} {4,S}\n3    [Cs,O,S]\
@@ -727,6 +809,8 @@ group: "\n1 *1 S2d      u0 {2,D}\n2 *2 CS       u0 {1,D} {3,S} {4,S}\n3    [Cs,O
 short_description: ''
 long_description: ''
 children:
+- Sd_Cd/CsCs
+- Sd_Cd/CsOs
 - Sd_Cd/CsCs
 - Sd_Cd/CsOs
 ---

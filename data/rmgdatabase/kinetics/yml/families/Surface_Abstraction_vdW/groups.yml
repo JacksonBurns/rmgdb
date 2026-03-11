@@ -14,6 +14,8 @@ short_description: ''
 long_description: ''
 children:
 - '*C'
+- '*C'
+- '*C'
 ---
 label: O-R
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 cx {3,S}\n3 *3 R  u0 px\
@@ -155,6 +157,8 @@ long_description: ''
 children:
 - O-N=O
 - O-N=O
+- O-N=O
+- O-N=O
 ---
 label: O-C
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0 p0\
@@ -162,6 +166,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 O  u0 p2 c0 {3,S}\n3 *3 C  u0
 short_description: ''
 long_description: ''
 children:
+- O-CH3
 - O-CH3
 - O-C=O
 ---
@@ -215,6 +220,8 @@ short_description: ''
 long_description: ''
 children:
 - C2H6
+- C2H6
+- C2H6
 ---
 label: C-O
 group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0 p2\
@@ -222,6 +229,12 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 C  u0 px cx {3,S}\n3 *3 O  u0
 short_description: ''
 long_description: ''
 children:
+- CH3OH
+- C-OH
+- CH3OH
+- C-OH
+- CH3OH
+- C-OH
 - CH3OH
 - C-OH
 ---
@@ -246,6 +259,7 @@ group: "\nmultiplicity [1]\n1 *1 Xv u0 p0 c0\n2 *2 N  u0 px cx {3,S}\n3 *3 N  u0
 short_description: ''
 long_description: ''
 children:
+- N2H4
 - N2H4
 ---
 label: N-O

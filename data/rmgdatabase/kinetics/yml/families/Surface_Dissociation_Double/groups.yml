@@ -7,6 +7,54 @@ children:
 - C
 - O
 - N
+- C-H
+- C=O
+- C
+- O
+- N
+- C-H
+- C=O
+- C
+- O
+- N
+- R-H
+- CR-H
+- C-H
+- C=O
+- C
+- O
+- N
+- R-H
+- CR-H
+- C-H
+- C=O
+- C
+- O
+- N
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
+- R-H
+- CR-H
+- C-H
+- C=R
+- C=O
+- C
+- O
+- N
 - R-H
 - CR-H
 - C-H
@@ -34,6 +82,8 @@ long_description: ''
 children:
 - CH2O
 - CO2
+- CH2O
+- CO2
 ---
 label: C=C
 group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 C  u0 px c0 {1,D}\n3 *3 Xo u0 p0\
@@ -41,6 +91,8 @@ group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 C  u0 px c0 {1,D}\n3 *3 Xo u0 p
 short_description: ''
 long_description: ''
 children:
+- C2H4
+- C2H4
 - C2H4
 ---
 label: AdsorbateVdW
