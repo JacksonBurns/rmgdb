@@ -1,4 +1,4 @@
-label: O + H2 <=> H + OH
+label: O(T) + H2 <=> H + OH
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -13,7 +13,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + HO2 <=> OH + O2
+label: O(T) + HO2 <=> OH + O2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -28,7 +28,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + H2O2 <=> OH + HO2
+label: O(T) + H2O2 <=> OH + HO2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -43,7 +43,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH <=> H + CO
+label: O(T) + CH <=> H + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -58,7 +58,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2 <=> H + HCO
+label: O(T) + CH2(T) <=> H + HCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -73,7 +73,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2(S) <=> H2 + CO
+label: O(T) + CH2(S) <=> H2 + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -88,7 +88,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2(S) <=> H + HCO
+label: O(T) + CH2(S) <=> H + HCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -103,7 +103,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3 <=> H + CH2O
+label: O(T) + CH3 <=> H + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -118,7 +118,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH4 <=> OH + CH3
+label: O(T) + CH4 <=> OH + CH3
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -133,7 +133,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + HCO <=> OH + CO
+label: O(T) + HCO <=> OH + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -148,7 +148,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + HCO <=> H + CO2
+label: O(T) + HCO <=> H + CO2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -163,7 +163,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2O <=> OH + HCO
+label: O(T) + CH2O <=> OH + HCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -178,7 +178,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2OH <=> OH + CH2O
+label: O(T) + CH2OH <=> OH + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -193,7 +193,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3O <=> OH + CH2O
+label: O(T) + CH3O <=> OH + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -208,7 +208,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3OH <=> OH + CH2OH
+label: O(T) + CH3OH <=> OH + CH2OH
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -223,7 +223,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3OH <=> OH + CH3O
+label: O(T) + CH3OH <=> OH + CH3O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -238,7 +238,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H <=> CH + CO
+label: O(T) + C2H <=> CH + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -253,7 +253,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H2 <=> H + HCCO
+label: O(T) + C2H2 <=> H + HCCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -268,7 +268,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H2 <=> OH + C2H
+label: O(T) + C2H2 <=> OH + C2H
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -283,7 +283,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H2 <=> CO + CH2
+label: O(T) + C2H2 <=> CO + CH2(T)
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -298,7 +298,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H3 <=> H + CH2CO
+label: O(T) + C2H3 <=> H + CH2CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -313,7 +313,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H4 <=> CH3 + HCO
+label: O(T) + C2H4 <=> CH3 + HCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -328,7 +328,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H5 <=> CH3 + CH2O
+label: O(T) + C2H5 <=> CH3 + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -343,7 +343,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H6 <=> OH + C2H5
+label: O(T) + C2H6 <=> OH + C2H5
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -358,7 +358,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + HCCO <=> H + CO + CO
+label: O(T) + HCCO <=> H + CO + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -373,7 +373,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2CO <=> OH + HCCO
+label: O(T) + CH2CO <=> OH + HCCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -388,7 +388,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2CO <=> CH2 + CO2
+label: O(T) + CH2CO <=> CH2(T) + CO2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -403,7 +403,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O2 + CO <=> O + CO2
+label: O2 + CO <=> O(T) + CO2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -463,7 +463,22 @@ kinetics:
   - 1.0
   - K
 ---
-label: H + O2 <=> O + OH
+label: H + O2 + N2 <=> HO2 + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2.6e+19
+  - cm^6/(mol^2*s)
+  n: -1.24
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: H + O2 <=> O(T) + OH
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -523,7 +538,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: H + HO2 <=> O + H2O
+label: H + HO2 <=> O(T) + H2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -598,7 +613,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: H + CH <=> C + H2
+label: H + CH <=> C(T) + H2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -943,7 +958,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: OH + OH <=> O + H2O
+label: OH + OH <=> O(T) + H2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1016,7 +1031,7 @@ kinetics:
     - 1.0
     - K
 ---
-label: OH + C <=> H + CO
+label: OH + C(T) <=> H + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1046,7 +1061,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: OH + CH2 <=> H + CH2O
+label: OH + CH2(T) <=> H + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1061,7 +1076,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: OH + CH2 <=> CH + H2O
+label: OH + CH2(T) <=> CH + H2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1091,7 +1106,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: OH + CH3 <=> CH2 + H2O
+label: OH + CH3 <=> CH2(T) + H2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1405,7 +1420,7 @@ kinetics:
     - 1.0
     - K
 ---
-label: HO2 + CH2 <=> OH + CH2O
+label: HO2 + CH2(T) <=> OH + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1480,7 +1495,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: C + O2 <=> O + CO
+label: C(T) + O2 <=> O(T) + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1495,7 +1510,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: C + CH2 <=> H + C2H
+label: C(T) + CH2(T) <=> H + C2H
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1510,7 +1525,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: C + CH3 <=> H + C2H2
+label: C(T) + CH3 <=> H + C2H2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1525,7 +1540,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH + O2 <=> O + HCO
+label: CH + O2 <=> O(T) + HCO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1540,7 +1555,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH + H2 <=> H + CH2
+label: CH + H2 <=> H + CH2(T)
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1570,7 +1585,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH + CH2 <=> H + C2H2
+label: CH + CH2(T) <=> H + C2H2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1660,7 +1675,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + O2 => OH + H + CO
+label: CH2(T) + O2 => OH + H + CO
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -1676,7 +1691,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + H2 <=> H + CH3
+label: CH2(T) + H2 <=> H + CH3
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1691,7 +1706,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + CH2 <=> H2 + C2H2
+label: CH2(T) + CH2(T) <=> H2 + C2H2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1706,7 +1721,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + CH3 <=> H + C2H4
+label: CH2(T) + CH3 <=> H + C2H4
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1721,7 +1736,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + CH4 <=> CH3 + CH3
+label: CH2(T) + CH4 <=> CH3 + CH3
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1736,7 +1751,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + HCCO <=> C2H3 + CO
+label: CH2(T) + HCCO <=> C2H3 + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1746,6 +1761,21 @@ kinetics:
   n: 0.0
   Ea:
   - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(S) + N2 <=> CH2(T) + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 15000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 600.0
   - cal/mol
   T0:
   - 1.0
@@ -1796,7 +1826,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2(S) + H2O <=> CH2 + H2O
+label: CH2(S) + H2O <=> CH2(T) + H2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1841,7 +1871,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2(S) + CO <=> CH2 + CO
+label: CH2(S) + CO <=> CH2(T) + CO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1856,7 +1886,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2(S) + CO2 <=> CH2 + CO2
+label: CH2(S) + CO2 <=> CH2(T) + CO2
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -1901,7 +1931,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH3 + O2 <=> O + CH3O
+label: CH3 + O2 <=> O(T) + CH3O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2201,7 +2231,1464 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3 => H + H2 + CO
+label: N + NO <=> N2 + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 27000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 355.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N + O2 <=> NO + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 9000000000.0
+  - cm^3/(mol*s)
+  n: 1.0
+  Ea:
+  - 6500.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N + OH <=> NO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 33600000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 385.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N2O + O(T) <=> N2 + O2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1400000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 10810.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N2O + O(T) <=> NO + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 29000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 23150.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N2O + H <=> N2 + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 387000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 18880.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N2O + OH <=> N2 + HO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 21060.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HO2 + NO <=> NO2 + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2110000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - -480.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NO2 + O(T) <=> NO + O2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3900000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - -240.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NO2 + H <=> NO + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 132000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 360.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + O(T) <=> NO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + H <=> N + H2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 32000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 330.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + OH <=> HNO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + OH <=> N + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000.0
+  - cm^3/(mol*s)
+  n: 1.2
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + O2 <=> HNO + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 461000.0
+  - cm^3/(mol*s)
+  n: 2.0
+  Ea:
+  - 6500.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + O2 <=> NO + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1280000.0
+  - cm^3/(mol*s)
+  n: 1.5
+  Ea:
+  - 100.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + N <=> N2 + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 15000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + H2O <=> HNO + H2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 13850.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + NO <=> N2 + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 21600000000000.0
+  - cm^3/(mol*s)
+  n: -0.23
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + NO <=> N2O + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 365000000000000.0
+  - cm^3/(mol*s)
+  n: -0.45
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH2 + O(T) <=> OH + NH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH2 + O(T) <=> H + HNO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 39000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH2 + H <=> NH + H2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 3650.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH2 + OH <=> NH + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 90000000.0
+  - cm^3/(mol*s)
+  n: 1.5
+  Ea:
+  - -460.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH <=> N2 + H
+degeneracy: 1.0
+elementary_high_p: true
+duplicate: true
+kinetics:
+  type: Arrhenius
+  A:
+  - 330000000.0
+  - s^-1
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + O2 <=> HO2 + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 5000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + O(T) <=> OH + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 25000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + O(T) <=> NH + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 70000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + H <=> H2 + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + OH <=> H2O + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NNH + CH3 <=> CH4 + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 25000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNO + O(T) <=> NO + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 25000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNO + H <=> H2 + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 900000000000.0
+  - cm^3/(mol*s)
+  n: 0.72
+  Ea:
+  - 660.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNO + OH <=> NO + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 13000000.0
+  - cm^3/(mol*s)
+  n: 1.9
+  Ea:
+  - -950.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNO + O2 <=> HO2 + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 13000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + O(T) <=> CO + N
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 77000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + OH <=> NCO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 40000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + H2O <=> HCN + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 8000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 7460.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + O2 <=> NCO + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 6140000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - -440.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + H2 <=> HCN + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 295000.0
+  - cm^3/(mol*s)
+  n: 2.45
+  Ea:
+  - 2240.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + O(T) <=> NO + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 23500000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + H <=> NH + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 54000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + OH <=> NO + H + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2500000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + N <=> N2 + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + O2 <=> NO + CO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 20000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + NO <=> N2O + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1.9e+17
+  - cm^3/(mol*s)
+  n: -1.52
+  Ea:
+  - 740.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + NO <=> N2 + CO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.8e+18
+  - cm^3/(mol*s)
+  n: -2.0
+  Ea:
+  - 800.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + O(T) <=> NCO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20300.0
+  - cm^3/(mol*s)
+  n: 2.64
+  Ea:
+  - 4980.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + O(T) <=> NH + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 5070.0
+  - cm^3/(mol*s)
+  n: 2.64
+  Ea:
+  - 4980.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + O(T) <=> CN + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3910000000.0
+  - cm^3/(mol*s)
+  n: 1.58
+  Ea:
+  - 26600.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + OH <=> HOCN + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1100000.0
+  - cm^3/(mol*s)
+  n: 2.03
+  Ea:
+  - 13370.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + OH <=> HNCO + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 4400.0
+  - cm^3/(mol*s)
+  n: 2.26
+  Ea:
+  - 6400.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCN + OH <=> NH2 + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 160.0
+  - cm^3/(mol*s)
+  n: 2.56
+  Ea:
+  - 9000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: H2CN + N <=> N2 + CH2(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 60000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 400.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: C(T) + N2 <=> CN + N
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 63000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 46020.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH + N2 <=> HCN + N
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3120000000.0
+  - cm^3/(mol*s)
+  n: 0.88
+  Ea:
+  - 20130.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(T) + N2 <=> HCN + NH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 74000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(S) + N2 <=> NH + HCN
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 65000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: C(T) + NO <=> CN + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 19000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: C(T) + NO <=> CO + N
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 29000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH + NO <=> HCN + O(T)
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 41000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH + NO <=> H + NCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 16200000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH + NO <=> N + HCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 24600000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(T) + NO <=> H + HNCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.1e+17
+  - cm^3/(mol*s)
+  n: -1.38
+  Ea:
+  - 1270.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(T) + NO <=> OH + HCN
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 290000000000000.0
+  - cm^3/(mol*s)
+  n: -0.69
+  Ea:
+  - 760.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(T) + NO <=> H + HCNO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 38000000000000.0
+  - cm^3/(mol*s)
+  n: -0.36
+  Ea:
+  - 580.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(S) + NO <=> H + HNCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3.1e+17
+  - cm^3/(mol*s)
+  n: -1.38
+  Ea:
+  - 1270.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(S) + NO <=> OH + HCN
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 290000000000000.0
+  - cm^3/(mol*s)
+  n: -0.69
+  Ea:
+  - 760.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH2(S) + NO <=> H + HCNO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 38000000000000.0
+  - cm^3/(mol*s)
+  n: -0.36
+  Ea:
+  - 580.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH3 + NO <=> HCN + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 96000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 28800.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH3 + NO <=> H2CN + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 1000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 21750.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNN + O(T) <=> CO + H + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 22000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNN + O(T) <=> HCN + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNN + O2 <=> O(T) + HCO + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNN + OH <=> H + HCO + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 12000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNN + H <=> CH2(T) + N2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 100000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + O(T) <=> NH + CO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 98000000.0
+  - cm^3/(mol*s)
+  n: 1.41
+  Ea:
+  - 8500.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + O(T) <=> HNO + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 150000000.0
+  - cm^3/(mol*s)
+  n: 1.57
+  Ea:
+  - 44000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + O(T) <=> NCO + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2200000.0
+  - cm^3/(mol*s)
+  n: 2.11
+  Ea:
+  - 11400.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + H <=> NH2 + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 22500000.0
+  - cm^3/(mol*s)
+  n: 1.7
+  Ea:
+  - 3800.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + H <=> H2 + NCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 105000.0
+  - cm^3/(mol*s)
+  n: 2.5
+  Ea:
+  - 13300.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + OH <=> NCO + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 33000000.0
+  - cm^3/(mol*s)
+  n: 1.5
+  Ea:
+  - 3600.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HNCO + OH <=> NH2 + CO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3300000.0
+  - cm^3/(mol*s)
+  n: 1.5
+  Ea:
+  - 3600.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNO + H <=> H + HNCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 2100000000000000.0
+  - cm^3/(mol*s)
+  n: -0.69
+  Ea:
+  - 2850.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNO + H <=> OH + HCN
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 270000000000.0
+  - cm^3/(mol*s)
+  n: 0.18
+  Ea:
+  - 2120.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCNO + H <=> NH2 + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 170000000000000.0
+  - cm^3/(mol*s)
+  n: -0.75
+  Ea:
+  - 2890.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HOCN + H <=> H + HNCO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 20000000.0
+  - cm^3/(mol*s)
+  n: 2.0
+  Ea:
+  - 2000.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: HCCO + NO <=> HCNO + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 9000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH3 + N <=> H2CN + H
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 610000000000000.0
+  - cm^3/(mol*s)
+  n: -0.31
+  Ea:
+  - 290.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CH3 + N <=> HCN + H2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3700000000000.0
+  - cm^3/(mol*s)
+  n: 0.15
+  Ea:
+  - -90.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH3 + H <=> NH2 + H2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 540000.0
+  - cm^3/(mol*s)
+  n: 2.4
+  Ea:
+  - 9915.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH3 + OH <=> NH2 + H2O
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 50000000.0
+  - cm^3/(mol*s)
+  n: 1.6
+  Ea:
+  - 955.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH3 + O(T) <=> NH2 + OH
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 9400000.0
+  - cm^3/(mol*s)
+  n: 1.94
+  Ea:
+  - 6460.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NH + CO2 <=> HNO + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 10000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 14350.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: CN + NO2 <=> NCO + NO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 6160000000000000.0
+  - cm^3/(mol*s)
+  n: -0.752
+  Ea:
+  - 345.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: NCO + NO2 <=> N2O + CO2
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3250000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - -705.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: N + CO2 <=> NO + CO
+degeneracy: 1.0
+kinetics:
+  type: Arrhenius
+  A:
+  - 3000000000000.0
+  - cm^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 11300.0
+  - cal/mol
+  T0:
+  - 1.0
+  - K
+---
+label: O(T) + CH3 => H + H2 + CO
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -2217,7 +3704,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H4 <=> H + CH2CHO
+label: O(T) + C2H4 <=> H + CH2CHO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2232,7 +3719,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + C2H5 <=> H + CH3CHO
+label: O(T) + C2H5 <=> H + CH3CHO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2263,7 +3750,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + O2 => H + H + CO2
+label: CH2(T) + O2 => H + H + CO2
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -2279,7 +3766,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + O2 <=> O + CH2O
+label: CH2(T) + O2 <=> O(T) + CH2O
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2294,7 +3781,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: CH2 + CH2 => H + H + C2H2
+label: CH2(T) + CH2(T) => H + H + C2H2
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -2326,7 +3813,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: C2H3 + O2 <=> O + CH2CHO
+label: C2H3 + O2 <=> O(T) + CH2CHO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2356,7 +3843,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3CHO <=> OH + CH2CHO
+label: O(T) + CH3CHO <=> OH + CH2CHO
 degeneracy: 1.0
 kinetics:
   type: Arrhenius
@@ -2371,7 +3858,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH3CHO => OH + CH3 + CO
+label: O(T) + CH3CHO => OH + CH3 + CO
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -2482,7 +3969,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + CH2CHO => H + CH2 + CO2
+label: O(T) + CH2CHO => H + CH2(T) + CO2
 degeneracy: 1.0
 reversible: false
 kinetics:
@@ -2590,7 +4077,7 @@ kinetics:
   - 1.0
   - K
 ---
-label: O + O <=> O2
+label: O(T) + O(T) <=> O2
 degeneracy: 1.0
 kinetics:
   type: ThirdBody
@@ -2612,7 +4099,7 @@ kinetics:
     - 0.0
     - cal/mol
 ---
-label: O + H <=> OH
+label: O(T) + H <=> OH
 degeneracy: 1.0
 kinetics:
   type: ThirdBody
@@ -2718,7 +4205,140 @@ kinetics:
     - 17000.0
     - cal/mol
 ---
-label: O + CO <=> CO2
+label: NO + O(T) <=> NO2
+degeneracy: 1.0
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.06e+20
+    - cm^6/(mol^2*s)
+    n: -1.41
+    Ea:
+    - 0.0
+    - cal/mol
+---
+label: NNH <=> N2 + H
+degeneracy: 1.0
+duplicate: true
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 130000000000000.0
+    - cm^3/(mol*s)
+    n: -0.11
+    Ea:
+    - 4980.0
+    - cal/mol
+---
+label: H + NO <=> HNO
+degeneracy: 1.0
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 4.48e+19
+    - cm^6/(mol^2*s)
+    n: -1.32
+    Ea:
+    - 740.0
+    - cal/mol
+---
+label: NCO <=> N + CO
+degeneracy: 1.0
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 310000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 54050.0
+    - cal/mol
+---
+label: HCN <=> H + CN
+degeneracy: 1.0
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.04e+29
+    - cm^3/(mol*s)
+    n: -3.3
+    Ea:
+    - 126600.0
+    - cal/mol
+---
+label: HNCO <=> NH + CO
+degeneracy: 1.0
+kinetics:
+  type: ThirdBody
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.18e+16
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 84720.0
+    - cal/mol
+---
+label: O(T) + CO <=> CO2
 degeneracy: 1.0
 elementary_high_p: true
 kinetics:
@@ -2751,7 +4371,71 @@ kinetics:
     '[C]=O': 1.5
     '[Ar]': 0.5
 ---
-label: H + CH2 <=> CH3
+label: N2O <=> N2 + O(T)
+degeneracy: 1.0
+elementary_high_p: true
+kinetics:
+  type: Lindemann
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 79100000000.0
+    - s^-1
+    n: 0.0
+    Ea:
+    - 56020.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 637000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 56640.0
+    - cal/mol
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.625
+---
+label: H + HCN <=> H2CN
+degeneracy: 1.0
+elementary_high_p: true
+kinetics:
+  type: Lindemann
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 33000000000000.0
+    - cm^3/(mol*s)
+    n: 0.0
+    Ea:
+    - 0.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.4e+26
+    - cm^6/(mol^2*s)
+    n: -3.4
+    Ea:
+    - 1900.0
+    - cal/mol
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 0.7
+---
+label: H + CH2(T) <=> CH3
 degeneracy: 1.0
 elementary_high_p: true
 kinetics:
@@ -3418,7 +5102,7 @@ kinetics:
     '[C]=O': 1.5
     '[Ar]': 0.7
 ---
-label: CH2 + CO <=> CH2CO
+label: CH2(T) + CO <=> CH2CO
 degeneracy: 1.0
 elementary_high_p: true
 kinetics:
@@ -3584,6 +5268,48 @@ kinetics:
     '[H][H]': 2.0
     '[C]=O': 1.5
     '[Ar]': 0.7
+---
+label: CH + N2 <=> HCNN
+degeneracy: 1.0
+elementary_high_p: true
+kinetics:
+  type: Troe
+  alpha: 0.667
+  T3:
+  - 235.0
+  - K
+  T1:
+  - 2117.0
+  - K
+  T2:
+  - 4536.0
+  - K
+  arrheniusHigh:
+    type: Arrhenius
+    A:
+    - 3100000000000.0
+    - cm^3/(mol*s)
+    n: 0.15
+    Ea:
+    - 0.0
+    - cal/mol
+  arrheniusLow:
+    type: Arrhenius
+    A:
+    - 1.3e+25
+    - cm^6/(mol^2*s)
+    n: -3.16
+    Ea:
+    - 740.0
+    - cal/mol
+  efficiencies:
+    C: 2.0
+    O=C=O: 2.0
+    CC: 3.0
+    O: 6.0
+    '[H][H]': 2.0
+    '[C]=O': 1.5
+    '[Ar]': 1.0
 ---
 label: CH + H2 <=> CH3
 degeneracy: 1.0

@@ -383,14 +383,14 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- CdsJ
+- CsJ
 - CsJ
 - CdsJ
 - CtJ
 - CbJ
 - C=SJ
 - CO_rad
-- CdsJ
-- CsJ
 - CdsJ
 - CsJ
 ---
@@ -420,6 +420,10 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- CsJ-Cd
+- CsJ-S2s
+- CsJ-Cs
+- CsJ-HH
 - CsJ-HHH
 - CsJ-CsHH
 - CsJ-CsCsH
@@ -439,10 +443,6 @@ children:
 - CsJ-OneDe
 - CsJ-TwoDe
 - CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
 - CsJ-Cd
 - CsJ-S2s
 - CsJ-Cs
@@ -503,9 +503,6 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- CsJ-SsCs
-- CsJ-SsSs
-- CsJ-SsH
 - CsJ-SsOneDe
 - CsJ-SsSsSs
 - CsJ-SsCsSs
@@ -513,6 +510,9 @@ children:
 - CsJ-SsCsH
 - CsJ-SsSsH
 - CsJ-SsHH
+- CsJ-SsCs
+- CsJ-SsSs
+- CsJ-SsH
 - CsJ-SsCs
 - CsJ-SsSs
 - CsJ-SsH

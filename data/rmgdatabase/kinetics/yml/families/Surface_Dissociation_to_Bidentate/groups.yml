@@ -9,14 +9,14 @@ group: |2+
 short_description: ''
 long_description: ''
 children:
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
 - C
 - O
 - N
+- C=R
+- C=O
+- R-H
+- CR-H
+- C-H
 ---
 label: VacantSite1
 group: |2

@@ -72,12 +72,12 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- O_rad/NonDe
+- O_rad/OneDe
+- O_rad/NonDe
+- O_rad/OneDe
 - O_rad/NonDeC
 - O_rad/NonDeO
-- O_rad/OneDe
-- O_rad/NonDe
-- O_rad/OneDe
-- O_rad/NonDe
 - O_rad/OneDe
 ---
 label: O_rad/NonDe

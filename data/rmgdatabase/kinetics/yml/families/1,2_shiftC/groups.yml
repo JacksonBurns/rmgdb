@@ -15,14 +15,14 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- CdsJ
+- CsJ
 - CsJ
 - CdsJ
 - CtJ
 - CbJ
 - C=SJ
 - CO_rad
-- CdsJ
-- CsJ
 - CdsJ
 - CsJ
 ---
@@ -33,24 +33,24 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- C-H
-- CH=O
-- CH2-H
-- CH2
-- CO
-- C2O
-- C=*
-- C#*
-- C$*
 - CC
 - CN
 - CO
+- C=*
+- C#*
+- C$*
+- C-H
+- CH=O
+- CH2-H
 - C-H
 - C-O
 - C-C
 - C=*
 - C#*
 - C$*
+- CH2
+- CO
+- C2O
 ---
 label: cCsCJ
 group: |2
@@ -135,6 +135,10 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- CsJ-Cd
+- CsJ-S2s
+- CsJ-Cs
+- CsJ-HH
 - CsJ-HHH
 - CsJ-CsHH
 - CsJ-CsCsH
@@ -154,10 +158,6 @@ children:
 - CsJ-OneDe
 - CsJ-TwoDe
 - CsJ-ThreeDe
-- CsJ-Cd
-- CsJ-S2s
-- CsJ-Cs
-- CsJ-HH
 - CsJ-Cd
 - CsJ-S2s
 - CsJ-Cs

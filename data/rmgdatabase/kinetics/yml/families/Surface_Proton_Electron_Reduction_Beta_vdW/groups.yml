@@ -10,9 +10,15 @@ children:
 - CRX
 - ORX
 - NRX
-- C
-- N
-- O
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
 - H
 - C
 - N
@@ -21,23 +27,17 @@ children:
 - O
 - N
 - C-H
-- CRX
-- ORX
-- NRX
 - CC
 - NN
 - NC
 - OC
 - 'ON'
-- CRX
-- ORX
-- NRX
 - CX
 - OX
 - NX
-- CX
-- OX
-- NX
+- C
+- N
+- O
 ---
 label: Proton
 group: |2
@@ -56,10 +56,10 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- O=C=OX
 - CCX
 - COX
 - CNX
-- O=C=OX
 ---
 label: O=C=OX
 group: |2
@@ -81,10 +81,10 @@ group: |2
 short_description: ''
 long_description: ''
 children:
+- HN=N-X
 - NCX
 - NOX
 - NNX
-- HN=N-X
 ---
 label: ORX
 group: |2

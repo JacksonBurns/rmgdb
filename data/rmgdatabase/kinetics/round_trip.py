@@ -54,6 +54,25 @@ def pull_kinetics(fk_col, fk_id, engine):
         r = bm.iloc[0]
         return clean_dict({"type": r.kinetics_type, "A": [r.A_val, r.A_unit] if pd.notna(r.A_val) else None, "n": r.n, "w0": [r.w0_val, r.w0_unit] if pd.notna(r.w0_val) else None, "E0": [r.E0_val, r.E0_unit] if pd.notna(r.E0_val) else None, "Tmin": [r.Tmin_val, r.Tmin_unit] if pd.notna(r.Tmin_val) else None, "Tmax": [r.Tmax_val, r.Tmax_unit] if pd.notna(r.Tmax_val) else None, "comment": r.comment})
 
+    # Check Marcus
+    marcus = pd.read_sql(text(f"SELECT * FROM kinetics_marcus_table WHERE {fk_col} = :id"), engine, params={"id": fk_id})
+    if not marcus.empty:
+        r = marcus.iloc[0]
+        c_df = pd.read_sql(text(f"SELECT * FROM kinetics_marcus_coefs_table WHERE marcus_id = :id ORDER BY coef_index"), engine, params={"id": r.id})
+        coefs = [float(x) for x in c_df["coeff_value"].tolist()] if not c_df.empty else None
+        
+        return clean_dict({
+            "type": "Marcus",
+            "A": [r.A_val, r.A_unit] if pd.notna(r.A_val) else None,
+            "n": r.n,
+            "lmbd_i_coefs": coefs,
+            "beta": [r.beta_val, r.beta_unit] if pd.notna(r.beta_val) else None,
+            "wr": [r.wr_val, r.wr_unit] if pd.notna(r.wr_val) else None,
+            "wp": [r.wp_val, r.wp_unit] if pd.notna(r.wp_val) else None,
+            "lmbd_o": [r.lmbd_o_val, r.lmbd_o_unit] if pd.notna(r.lmbd_o_val) else None,
+            "comment": r.comment
+        })
+
     # Load Efficiencies
     eff_df = pd.read_sql(text(f"SELECT * FROM kinetics_efficiencies_table WHERE {fk_col} = :id"), engine, params={"id": fk_id})
     effs = {r.species_label: float(r.efficiency) for _, r in eff_df.iterrows()} if not eff_df.empty else None

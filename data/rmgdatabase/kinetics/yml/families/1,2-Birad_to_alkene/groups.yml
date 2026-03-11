@@ -368,20 +368,20 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- N=O
-- N3s
-- N3d
-- NH
-- NN
 - 'NO'
 - NN
+- N3s
+- N3d
+- N=*
+- N#*
+- N=O
 - N-C
 - N-H
 - N-H2
 - N-H
 - N-N
-- N=*
-- N#*
+- NH
+- NN
 ---
 label: N3s
 group: |2

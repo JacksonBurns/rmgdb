@@ -167,6 +167,26 @@ class KineticsArrheniusBM(SCHEMA_BASE):
     Tmax_val = Column(Float); Tmax_unit = Column(String)
     comment = Column(String)
 
+class KineticsMarcus(SCHEMA_BASE):
+    __tablename__ = "kinetics_marcus_table"
+    id = Column(Integer, primary_key=True)
+    library_reaction_id = mapped_column(ForeignKey("kinetics_library_reactions_table.id"))
+    family_rule_id = mapped_column(ForeignKey("kinetics_family_rules_table.id"))
+    family_training_reaction_id = mapped_column(ForeignKey("kinetics_family_training_reactions_table.id"))
+    A_val = Column(Float); A_unit = Column(String); n = Column(Float)
+    beta_val = Column(Float); beta_unit = Column(String)
+    wr_val = Column(Float); wr_unit = Column(String)
+    wp_val = Column(Float); wp_unit = Column(String)
+    lmbd_o_val = Column(Float); lmbd_o_unit = Column(String)
+    comment = Column(String)
+
+class KineticsMarcusCoefs(SCHEMA_BASE):
+    __tablename__ = "kinetics_marcus_coefs_table"
+    id = Column(Integer, primary_key=True)
+    marcus_id = mapped_column(ForeignKey("kinetics_marcus_table.id"))
+    coef_index = Column(Integer)
+    coeff_value = Column(Float)
+
 class KineticsTroe(SCHEMA_BASE):
     __tablename__ = "kinetics_troe_table"
     id = Column(Integer, primary_key=True)

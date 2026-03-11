@@ -14,12 +14,12 @@ group: "\n1 *6 Xo  u0 {2,[D,T,Q]}\n2 *4 R!H u0 px c0 {1,[D,T,Q]}\t\n"
 short_description: ''
 long_description: ''
 children:
-- C
-- O
+- OH
 - C
 - N
 - O
-- OH
+- C
+- O
 - O
 ---
 label: R-C-H
@@ -53,10 +53,10 @@ short_description: ''
 long_description: ''
 children:
 - O-H
+- O=N
+- O-H
 - O-C
 - O-N
-- O-H
-- O=N
 - O-H
 - O-N
 - O-C
@@ -124,21 +124,21 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- C-H
-- CH=O
-- CH2-H
-- CH2
-- CO
-- C2O
-- C=*
-- C#*
-- C$*
 - CC
 - CN
 - CO
+- C=*
+- C#*
+- C$*
+- C-H
+- CH=O
+- CH2-H
 - C-H
 - C-O
 - C-C
 - C=*
 - C#*
 - C$*
+- CH2
+- CO
+- C2O

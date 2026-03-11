@@ -40,6 +40,7 @@ SELECT
         a.kinetics_type, 
         ep.kinetics_type, 
         bm.kinetics_type,
+        CASE WHEN m.id IS NOT NULL THEN 'Marcus' END,
         CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
         CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
         CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
@@ -53,6 +54,8 @@ SELECT
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
     
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
     t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
@@ -73,6 +76,7 @@ LEFT JOIN adj_reactions ar ON ar.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_table a ON a.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.library_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.library_reaction_id = r.id
+LEFT JOIN kinetics_marcus_table m ON m.library_reaction_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.library_reaction_id = r.id
 LEFT JOIN kinetics_lindemann_table lind ON lind.library_reaction_id = r.id
 LEFT JOIN kinetics_third_body_table tb ON tb.library_reaction_id = r.id
@@ -97,6 +101,7 @@ SELECT
         a.kinetics_type, 
         ep.kinetics_type, 
         bm.kinetics_type,
+        CASE WHEN m.id IS NOT NULL THEN 'Marcus' END,
         CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
         CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
         CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
@@ -110,6 +115,8 @@ SELECT
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
     
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
     t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
@@ -130,6 +137,7 @@ LEFT JOIN adj_reactions ar ON ar.training_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_table a ON a.family_training_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.family_training_reaction_id = r.id
 LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.family_training_reaction_id = r.id
+LEFT JOIN kinetics_marcus_table m ON m.family_training_reaction_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.family_training_reaction_id = r.id
 LEFT JOIN kinetics_lindemann_table lind ON lind.family_training_reaction_id = r.id
 LEFT JOIN kinetics_third_body_table tb ON tb.family_training_reaction_id = r.id
@@ -146,6 +154,7 @@ SELECT
         a.kinetics_type, 
         ep.kinetics_type, 
         bm.kinetics_type,
+        CASE WHEN m.id IS NOT NULL THEN 'Marcus' END,
         CASE WHEN t.id IS NOT NULL THEN 'Troe' END,
         CASE WHEN lind.id IS NOT NULL THEN 'Lindemann' END,
         CASE WHEN tb.id IS NOT NULL THEN 'ThirdBody' END,
@@ -159,6 +168,8 @@ SELECT
     ep.alpha as ep_alpha, ep.E0_val as ep_E0_val, ep.E0_unit as ep_E0_unit,
     
     bm.w0_val as bm_w0_val, bm.w0_unit as bm_w0_unit, bm.E0_val as bm_E0_val, bm.E0_unit as bm_E0_unit,
+    
+    m.A_val as marcus_A_val, m.A_unit as marcus_A_unit, m.n as marcus_n, m.beta_val as marcus_beta_val, m.beta_unit as marcus_beta_unit, m.wr_val as marcus_wr_val, m.wr_unit as marcus_wr_unit, m.wp_val as marcus_wp_val, m.wp_unit as marcus_wp_unit, m.lmbd_o_val as marcus_lmbd_o_val, m.lmbd_o_unit as marcus_lmbd_o_unit,
     
     t.alpha as troe_alpha, t.T3_val as troe_T3, t.T1_val as troe_T1, t.T2_val as troe_T2, 
     t.high_A_val as troe_high_A, t.high_n as troe_high_n, t.high_Ea_val as troe_high_Ea,
@@ -178,6 +189,7 @@ JOIN kinetics_families_table f ON f.id = r.family_id
 LEFT JOIN kinetics_arrhenius_table a ON a.family_rule_id = r.id
 LEFT JOIN kinetics_arrhenius_ep_table ep ON ep.family_rule_id = r.id
 LEFT JOIN kinetics_arrhenius_bm_table bm ON bm.family_rule_id = r.id
+LEFT JOIN kinetics_marcus_table m ON m.family_rule_id = r.id
 LEFT JOIN kinetics_troe_table t ON t.family_rule_id = r.id
 LEFT JOIN kinetics_lindemann_table lind ON lind.family_rule_id = r.id
 LEFT JOIN kinetics_third_body_table tb ON tb.family_rule_id = r.id

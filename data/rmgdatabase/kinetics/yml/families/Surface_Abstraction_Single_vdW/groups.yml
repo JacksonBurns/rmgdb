@@ -17,12 +17,12 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- C
-- O
+- OH
 - C
 - N
 - O
-- OH
+- C
+- O
 - O
 ---
 label: O-R

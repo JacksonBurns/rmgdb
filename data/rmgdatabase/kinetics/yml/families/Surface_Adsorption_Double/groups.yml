@@ -12,9 +12,15 @@ children:
 - CRX
 - ORX
 - NRX
-- C
-- N
-- O
+- CRX
+- ORX
+- NRX
+- CRX
+- ORX
+- NRX
+- CX
+- OX
+- NX
 - H
 - C
 - N
@@ -23,23 +29,17 @@ children:
 - O
 - N
 - C-H
-- CRX
-- ORX
-- NRX
 - CC
 - NN
 - NC
 - OC
 - 'ON'
-- CRX
-- ORX
-- NRX
 - CX
 - OX
 - NX
-- CX
-- OX
-- NX
+- C
+- N
+- O
 ---
 label: VacantSite
 group: |2
@@ -56,24 +56,24 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- C-H
-- CH=O
-- CH2-H
-- CH2
-- CO
-- C2O
-- C=*
-- C#*
-- C$*
 - CC
 - CN
 - CO
+- C=*
+- C#*
+- C$*
+- C-H
+- CH=O
+- CH2-H
 - C-H
 - C-O
 - C-C
 - C=*
 - C#*
 - C$*
+- CH2
+- CO
+- C2O
 ---
 label: CH2
 group: |2
@@ -116,20 +116,20 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- N=O
-- N3s
-- N3d
-- NH
-- NN
 - 'NO'
 - NN
+- N3s
+- N3d
+- N=*
+- N#*
+- N=O
 - N-C
 - N-H
 - N-H2
 - N-H
 - N-N
-- N=*
-- N#*
+- NH
+- NN
 ---
 label: NH
 group: |2
@@ -150,10 +150,10 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- N2H2
 - N-N
 - N=N
 - N#N
+- N2H2
 ---
 label: N2H2
 group: |2
@@ -175,10 +175,10 @@ short_description: ''
 long_description: ''
 children:
 - O-H
+- O=N
+- O-H
 - O-C
 - O-N
-- O-H
-- O=N
 - O-H
 - O-N
 - O-C

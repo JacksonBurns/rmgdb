@@ -7,14 +7,14 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- R-H
-- CR-H
-- C-H
-- C=R
-- C=O
 - C
 - O
 - N
+- C=R
+- C=O
+- R-H
+- CR-H
+- C-H
 ---
 label: VacantSite
 group: |2
@@ -33,24 +33,24 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- C-H
-- CH=O
-- CH2-H
-- CH2
-- CO
-- C2O
-- C=*
-- C#*
-- C$*
 - CC
 - CN
 - CO
+- C=*
+- C#*
+- C$*
+- C-H
+- CH=O
+- CH2-H
 - C-H
 - C-O
 - C-C
 - C=*
 - C#*
 - C$*
+- CH2
+- CO
+- C2O
 ---
 label: O
 group: |2
@@ -62,10 +62,10 @@ short_description: ''
 long_description: ''
 children:
 - O-H
+- O=N
+- O-H
 - O-C
 - O-N
-- O-H
-- O=N
 - O-H
 - O-N
 - O-C
@@ -135,20 +135,20 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- N=O
-- N3s
-- N3d
-- NH
-- NN
 - 'NO'
 - NN
+- N3s
+- N3d
+- N=*
+- N#*
+- N=O
 - N-C
 - N-H
 - N-H2
 - N-H
 - N-N
-- N=*
-- N#*
+- NH
+- NN
 ---
 label: N-H2
 group: |2

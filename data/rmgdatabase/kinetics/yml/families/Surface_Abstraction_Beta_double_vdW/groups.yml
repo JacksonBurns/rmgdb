@@ -14,12 +14,12 @@ group: "\n1 *6 Xo  u0 {2,S}\n2 *4 R!H u0 px cx {1,S}\t\n"
 short_description: ''
 long_description: ''
 children:
-- C
-- O
+- OH
 - C
 - N
 - O
-- OH
+- C
+- O
 - O
 ---
 label: R-C-H

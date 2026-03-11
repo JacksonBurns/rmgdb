@@ -7,8 +7,8 @@ from rmgdb.kinetics.schema import (
     KineticsLibraries, KineticsLibraryDictionary, KineticsLibraryReactions, KineticsLibraryReactionSpecies,
     KineticsFamilies, KineticsFamilyGroups, KineticsFamilyForbiddenGroups, KineticsFamilyGroupsTree, KineticsFamilyRules,
     KineticsFamilyTrainingDictionary, KineticsFamilyTrainingReactions, KineticsFamilyTrainingReactionSpecies,
-    KineticsArrhenius, KineticsArrheniusEP, KineticsArrheniusBM, KineticsTroe, KineticsLindemann, 
-    KineticsThirdBody, KineticsEfficiencies, KineticsChebyshev, KineticsChebyshevCoeffs,
+    KineticsArrhenius, KineticsArrheniusEP, KineticsArrheniusBM, KineticsMarcus, KineticsMarcusCoefs, 
+    KineticsTroe, KineticsLindemann, KineticsThirdBody, KineticsEfficiencies, KineticsChebyshev, KineticsChebyshevCoeffs,
     KineticsPDepArrhenius, KineticsPDepArrheniusPressures, KineticsSoluteTSDiff, SCHEMA_BASE
 )
 from rmgdb.kinetics.views import (
@@ -26,7 +26,8 @@ SCHEMA_BASE.metadata.create_all(engine)
 
 COUNTS = {"lib": 0, "lib_dict": 0, "lib_reac": 0, "lib_reac_spec": 0, "fam": 0, "fam_group": 0, "fam_forb": 0, "fam_tree": 0, 
           "fam_rule": 0, "fam_train_dict": 0, "fam_train_reac": 0, "fam_train_spec": 0,
-          "k_arr": 0, "k_arrep": 0, "k_arrbm": 0, "k_troe": 0, "k_lind": 0, "k_3b": 0, "k_eff": 0,
+          "k_arr": 0, "k_arrep": 0, "k_arrbm": 0, "k_marcus": 0, "k_marcus_c": 0,
+          "k_troe": 0, "k_lind": 0, "k_3b": 0, "k_eff": 0,
           "k_cheb": 0, "k_cheb_c": 0, "k_pdep": 0, "k_pdep_p": 0, "k_solutets": 0}
 LABEL_TO_ID = {None: None}
 
@@ -107,6 +108,30 @@ def process_kinetics(kinetics, fk_col, fk_id):
         w0v, w0u = parse_val_unit(d.get("w0")); E0v, E0u = parse_val_unit(d.get("E0"))
         row = KineticsArrheniusBM(id=COUNTS["k_arrbm"], kinetics_type=ktype, A_val=Av, A_unit=Au, n=nv, w0_val=to_float(w0v), w0_unit=w0u, E0_val=to_float(E0v), E0_unit=E0u, Tmin_val=Tminv, Tmin_unit=Tminu, Tmax_val=Tmaxv, Tmax_unit=Tmaxu, comment=d.get("comment"))
         setattr(row, fk_col, fk_id); SESSION.add(row); COUNTS["k_arrbm"] += 1
+
+    elif ktype == "Marcus":
+        Av, Au = parse_val_unit(d.get("A"))
+        nv_raw = d.get("n")
+        nv = nv_raw[0] if isinstance(nv_raw, (tuple, list)) and len(nv_raw)>0 else nv_raw
+        beta_v, beta_u = parse_val_unit(d.get("beta"))
+        wr_v, wr_u = parse_val_unit(d.get("wr"))
+        wp_v, wp_u = parse_val_unit(d.get("wp"))
+        lmbd_o_v, lmbd_o_u = parse_val_unit(d.get("lmbd_o"))
+
+        row = KineticsMarcus(
+            id=COUNTS["k_marcus"], A_val=to_float(Av), A_unit=Au, n=to_float(nv),
+            beta_val=to_float(beta_v), beta_unit=beta_u, wr_val=to_float(wr_v), wr_unit=wr_u,
+            wp_val=to_float(wp_v), wp_unit=wp_u, lmbd_o_val=to_float(lmbd_o_v), lmbd_o_unit=lmbd_o_u,
+            comment=d.get("comment")
+        )
+        setattr(row, fk_col, fk_id); SESSION.add(row); SESSION.flush()
+        
+        coefs = d.get("lmbd_i_coefs", [])
+        if coefs:
+            for i, val in enumerate(coefs):
+                SESSION.add(KineticsMarcusCoefs(id=COUNTS["k_marcus_c"], marcus_id=row.id, coef_index=i, coeff_value=to_float(val)))
+                COUNTS["k_marcus_c"] += 1
+        COUNTS["k_marcus"] += 1
 
     elif ktype == "Troe":
         hA, hAu, hn, hEa, hEau, _, _, Tminv, Tminu, Tmaxv, Tmaxu = extract_base_arr(d.get("arrheniusHigh", {}).get("data", {}))

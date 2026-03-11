@@ -64,9 +64,6 @@ group: |2
 short_description: ''
 long_description: ''
 children:
-- CsJ-SsCs
-- CsJ-SsSs
-- CsJ-SsH
 - CsJ-SsOneDe
 - CsJ-SsSsSs
 - CsJ-SsCsSs
@@ -74,6 +71,9 @@ children:
 - CsJ-SsCsH
 - CsJ-SsSsH
 - CsJ-SsHH
+- CsJ-SsCs
+- CsJ-SsSs
+- CsJ-SsH
 - CsJ-SsCs
 - CsJ-SsSs
 - CsJ-SsH
