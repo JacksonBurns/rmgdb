@@ -4,7 +4,7 @@ The ReactionMechanismGenerator Database Standard and Database
 How to check that the database is correct:
  - to actually be able to run the Python source files from RMG-database, every single class and function has to be defined within `rmgdatabase`, so we are guaranteed that as long as the files can actually be _executed_, we are storing all of the information.
  - one should be able to run `build.py` and then `round_trip.py`, and then `round_trip.py` again without changing any of the generated `.yml` files (this process builds the binary database from the Python source files, then dumps them to YML, then rebuilds the binary from the dumped YML, i.e., if there is any change in tha YML that means that we don't have all the data in the binary format and that the YML is missing something that the Python source originally had).
- I have validated that this is the case for the kinetics database, but it should be checked for the others as well (as of March 11 2026, I think solvation might need some help here?)
+ I have validated that this is the case for the kinetics database, but it should be checked for the others as well.
 
 # About
 This repository contains:
