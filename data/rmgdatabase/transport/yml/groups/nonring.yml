@@ -7,7 +7,7 @@ children:
 - Cl
 - Br
 - N_centered
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -26,7 +26,7 @@ children:
 - CddR2
 - CtHR
 - CtR2
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -35,7 +35,7 @@ transportGroup: null
 ---
 label: CsH3R
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CsH3R
 long_description: ''
 group: |2
 
@@ -53,7 +53,7 @@ transportGroup:
 ---
 label: CsH2R2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CsH2R2
 long_description: ''
 group: |2
 
@@ -71,7 +71,7 @@ transportGroup:
 ---
 label: CsHR3
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CsHR3
 long_description: ''
 group: |2
 
@@ -90,7 +90,7 @@ transportGroup:
 label: CsR4
 children:
 - CsF
-short_description: nonring_library valu
+short_description: nonring_library value for CsR4
 long_description: ''
 group: |2
 
@@ -109,7 +109,7 @@ transportGroup:
 label: CsF
 children:
 - CsF2
-short_description: nonring_library valu
+short_description: nonring_library value for CsF
 long_description: Tb from https://doi.org/10.1021/ie00008a029
 group: |2
 
@@ -128,7 +128,7 @@ transportGroup:
 label: CsF2
 children:
 - CsF3
-short_description: nonring_library valu
+short_description: nonring_library value for CsF2
 long_description: Tb from https://doi.org/10.1021/ie00008a029
 group: |2
 
@@ -146,7 +146,7 @@ transportGroup:
 ---
 label: CsF3
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CsF3
 long_description: Tb from https://doi.org/10.1021/ie00008a029
 group: |2
 
@@ -164,7 +164,7 @@ transportGroup:
 ---
 label: CdH2R
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CdH2R
 long_description: ''
 group: |2
 
@@ -182,7 +182,7 @@ transportGroup:
 label: CdR3
 children:
 - Ketone_Ccentered
-short_description: nonring_library valu
+short_description: nonring_library value for CdR3
 long_description: ''
 group: |2
 
@@ -201,7 +201,7 @@ label: Ketone_Ccentered
 children:
 - Acid_Ccentered
 - Ester_Ccentered
-short_description: nonring_library valu
+short_description: nonring_library value for Ketone_Ccentered
 long_description: ''
 group: |2
 
@@ -218,7 +218,7 @@ transportGroup:
 ---
 label: Acid_Ccentered
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Acid_Ccentered
 long_description: ''
 group: |2
 
@@ -236,7 +236,7 @@ transportGroup:
 ---
 label: Ester_Ccentered
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Ester_Ccentered
 long_description: ''
 group: |2
 
@@ -255,7 +255,7 @@ transportGroup:
 label: CdHR2
 children:
 - Aldehyde_Ccentered
-short_description: nonring_library valu
+short_description: nonring_library value for CdHR2
 long_description: ''
 group: |2
 
@@ -272,7 +272,7 @@ transportGroup:
 ---
 label: Aldehyde_Ccentered
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Aldehyde_Ccentered
 long_description: ''
 group: |2
 
@@ -289,7 +289,7 @@ transportGroup:
 ---
 label: CddR2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CddR2
 long_description: ''
 group: |2
 
@@ -305,7 +305,7 @@ transportGroup:
 ---
 label: CtHR
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CtHR
 long_description: ''
 group: |2
 
@@ -321,7 +321,7 @@ transportGroup:
 ---
 label: CtR2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for CtR2
 long_description: ''
 group: |2
 
@@ -340,7 +340,7 @@ children:
 - Alcohol
 - Ether
 - Od
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -351,7 +351,7 @@ label: Alcohol
 children:
 - Phenol
 - Acid_Ocentered1
-short_description: nonring_library valu
+short_description: nonring_library value for Alcohol
 long_description: ''
 group: |2
 
@@ -367,7 +367,7 @@ transportGroup:
 ---
 label: Phenol
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Phenol
 long_description: ''
 group: |2
 
@@ -383,7 +383,7 @@ transportGroup:
 ---
 label: Acid_Ocentered1
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Acid_Ocentered1
 long_description: ''
 group: |2
 
@@ -402,7 +402,7 @@ transportGroup:
 label: Ether
 children:
 - Ester_Ocentered1
-short_description: nonring_library valu
+short_description: nonring_library value for Ether
 long_description: ''
 group: |2
 
@@ -418,7 +418,7 @@ transportGroup:
 ---
 label: Ester_Ocentered1
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Ester_Ocentered1
 long_description: ''
 group: |2
 
@@ -438,7 +438,7 @@ label: Od
 children:
 - Ketone_Ocentered
 - Aldehyde_Ocentered
-short_description: nonring_library valu
+short_description: nonring_library value for Od
 long_description: ''
 group: |2
 
@@ -455,7 +455,7 @@ label: Ketone_Ocentered
 children:
 - Acid_Ocentered2
 - Ester_Ocentered2
-short_description: nonring_library valu
+short_description: nonring_library value for Ketone_Ocentered
 long_description: ''
 group: |2
 
@@ -472,7 +472,7 @@ transportGroup:
 ---
 label: Aldehyde_Ocentered
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Aldehyde_Ocentered
 long_description: ''
 group: |2
 
@@ -489,7 +489,7 @@ transportGroup:
 ---
 label: Acid_Ocentered2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Acid_Ocentered2
 long_description: ''
 group: |2
 
@@ -507,7 +507,7 @@ transportGroup:
 ---
 label: Ester_Ocentered2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Ester_Ocentered2
 long_description: ''
 group: |2
 
@@ -527,7 +527,7 @@ label: S_centered
 children:
 - Thiol
 - Thioether
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -536,7 +536,7 @@ transportGroup: null
 ---
 label: Thiol
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Thiol
 long_description: ''
 group: |2
 
@@ -552,7 +552,7 @@ transportGroup:
 ---
 label: Thioether
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Thioether
 long_description: ''
 group: |2
 
@@ -569,7 +569,7 @@ transportGroup:
 label: F
 children:
 - F-Cs
-short_description: Tb from https://doi.
+short_description: Tb from https://doi.org/10.1021/ie00008a029
 long_description: ''
 group: |2
 
@@ -583,7 +583,7 @@ transportGroup:
 ---
 label: F-Cs
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for F-Cs
 long_description: Corrected for with carbon center groups
 group: |2
 
@@ -601,7 +601,7 @@ transportGroup:
 ---
 label: Cl
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for chlorine
 long_description: Tb from https://doi.org/10.1021/ie00008a029
 group: |2
 
@@ -615,7 +615,7 @@ transportGroup:
 ---
 label: Br
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for bromine
 long_description: Tb from https://doi.org/10.1021/ie00008a029
 group: |2
 
@@ -633,7 +633,7 @@ children:
 - NsHR2
 - NsR3
 - Nt-CtR
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -642,7 +642,7 @@ transportGroup: null
 ---
 label: NsH2R
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for NsH2R
 long_description: ''
 group: |2
 
@@ -659,7 +659,7 @@ transportGroup:
 ---
 label: NsHR2
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for NsHR2
 long_description: ''
 group: |2
 
@@ -677,7 +677,7 @@ transportGroup:
 label: NsR3
 children:
 - NsOs2R
-short_description: nonring_library valu
+short_description: nonring_library value for NsR3
 long_description: ''
 group: |2
 
@@ -694,7 +694,7 @@ transportGroup:
 ---
 label: Nt-CtR
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for Nt-CtR
 long_description: ''
 group: |2
 
@@ -710,7 +710,7 @@ transportGroup:
 ---
 label: NsOs2R
 children: []
-short_description: nonring_library valu
+short_description: nonring_library value for NsOs2R
 long_description: ''
 group: |2
 

@@ -37,7 +37,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: library value for H2
+short_description: library value for H2O
 long_description: ''
 label: H2O
 adjacency_list: |2
@@ -57,7 +57,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: library value for H2
+short_description: library value for H2O2
 long_description: ''
 label: H2O2
 adjacency_list: |2
@@ -78,7 +78,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: library value for CO
+short_description: library value for CO2
 long_description: ''
 label: CO2
 adjacency_list: |2
@@ -117,7 +117,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: library value for H2
+short_description: library value for H2S
 long_description: ''
 label: H2S
 adjacency_list: |2
@@ -137,7 +137,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: GRI-Mech3.0 value fo
+short_description: GRI-Mech3.0 value for N2
 long_description: ''
 label: N2
 adjacency_list: |2
@@ -156,7 +156,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: GRI-Mech3.0 value fo
+short_description: GRI-Mech3.0 value for C
 long_description: ''
 label: C(S)
 adjacency_list: |2
@@ -174,7 +174,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: GRI-Mech3.0 value fo
+short_description: GRI-Mech3.0 value for NH
 long_description: ''
 label: NH(S)
 adjacency_list: |2
@@ -193,7 +193,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: GRI-Mech3.0 value fo
+short_description: GRI-Mech3.0 value for N
 long_description: ''
 label: N(D)
 adjacency_list: |2

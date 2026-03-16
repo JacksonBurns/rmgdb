@@ -4,7 +4,7 @@ children:
 - O_centered_ring
 - S_centered_ring
 - N_centered_ring
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -20,7 +20,7 @@ children:
 - CdringHR2
 - Cddring
 - Ctring
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -29,7 +29,7 @@ transportGroup: null
 ---
 label: CsringH2R2
 children: []
-short_description: ring_library value f
+short_description: ring_library value for CsringH2R2
 long_description: ''
 group: |2
 
@@ -47,7 +47,7 @@ transportGroup:
 ---
 label: CsringHR3
 children: []
-short_description: ring_library value f
+short_description: ring_library value for CsringHR3
 long_description: ''
 group: |2
 
@@ -65,7 +65,7 @@ transportGroup:
 ---
 label: CsringR4
 children: []
-short_description: ring_library value f
+short_description: ring_library value for CsringR4
 long_description: ''
 group: |2
 
@@ -84,7 +84,7 @@ transportGroup:
 label: CdringR3
 children:
 - Ketone_ring
-short_description: ring_library value f
+short_description: ring_library value for CdringR3
 long_description: ''
 group: |2
 
@@ -101,7 +101,7 @@ transportGroup:
 ---
 label: Ketone_ring
 children: []
-short_description: ring_library value f
+short_description: ring_library value for Ketone_ring
 long_description: ''
 group: |2
 
@@ -118,7 +118,7 @@ transportGroup:
 ---
 label: CdringHR2
 children: []
-short_description: ring_library value f
+short_description: ring_library value for CdringHR2
 long_description: ''
 group: |2
 
@@ -135,7 +135,7 @@ transportGroup:
 ---
 label: Cddring
 children: []
-short_description: Made up value for R=
+short_description: Made up value for R=C=R in ring
 long_description: |2
 
   Made up value for R=C=R in a ring.
@@ -156,7 +156,7 @@ transportGroup:
 ---
 label: Ctring
 children: []
-short_description: Made up value for C#
+short_description: Made up value for C#R (triple bond) in ring
 long_description: |2
 
   Made up value for triple bond in a ring.
@@ -177,7 +177,7 @@ transportGroup:
 label: O_centered_ring
 children:
 - Ether_ring
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -186,7 +186,7 @@ transportGroup: null
 ---
 label: Ether_ring
 children: []
-short_description: ring_library value f
+short_description: ring_library value for Ether_ring
 long_description: ''
 group: |2
 
@@ -203,7 +203,7 @@ transportGroup:
 label: S_centered_ring
 children:
 - Thioether_ring
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -212,7 +212,7 @@ transportGroup: null
 ---
 label: Thioether_ring
 children: []
-short_description: ring_library value f
+short_description: ring_library value for Thioether_ring
 long_description: ''
 group: |2
 
@@ -230,7 +230,7 @@ label: N_centered_ring
 children:
 - NsringHR2
 - NdringR2
-short_description: 'Dummy node for head '
+short_description: Dummy node for head of tree
 long_description: ''
 group: |2
 
@@ -239,7 +239,7 @@ transportGroup: null
 ---
 label: NsringHR2
 children: []
-short_description: ring_library value f
+short_description: ring_library value for NsringHR2
 long_description: ''
 group: |2
 
@@ -256,7 +256,7 @@ transportGroup:
 ---
 label: NdringR2
 children: []
-short_description: ring_library value f
+short_description: ring_library value for NdringR2
 long_description: ''
 group: |2
 

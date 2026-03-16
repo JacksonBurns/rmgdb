@@ -5,15 +5,15 @@ group: |2
 
   1 * R u0
 children:
+- aromatic-ortho
+- aromatic-meta
+- aromatic-para
+- intVal7
 - intVal7
 - intRVal7
 - Cs(Val7)3-Cd-Cd-Cs(Val7)3
 - int14_gauche
 - int15
-- aromatic-ortho
-- aromatic-meta
-- aromatic-para
-- intVal7
 - ketene
 - C
 - O

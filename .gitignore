@@ -1,6 +1,9 @@
 # built databases
 *.db
 
+# ...except for the demo
+!demo_db/*.db
+
 # vscode config
 .vscode
 

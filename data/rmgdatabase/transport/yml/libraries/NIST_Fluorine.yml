@@ -1,4 +1,4 @@
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: AR
 adjacency_list: |2
@@ -16,7 +16,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C
 adjacency_list: |2
@@ -34,7 +34,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H
 adjacency_list: |2
@@ -55,7 +55,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.5
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H2
 adjacency_list: |2
@@ -76,7 +76,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.5
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H3
 adjacency_list: |2
@@ -99,7 +99,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H4
 adjacency_list: |2
@@ -122,7 +122,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.5
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H5
 adjacency_list: |2
@@ -147,7 +147,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.5
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2H6
 adjacency_list: |2
@@ -172,7 +172,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.5
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C3H6
 adjacency_list: |2
@@ -198,7 +198,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C3H7
 adjacency_list: |2
@@ -226,7 +226,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C3H8
 adjacency_list: |2
@@ -254,7 +254,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH
 adjacency_list: |2
@@ -274,7 +274,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2
 adjacency_list: |2
@@ -295,7 +295,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2(S)
 adjacency_list: |2
@@ -315,7 +315,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CO
 adjacency_list: |2
@@ -337,7 +337,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2O
 adjacency_list: |2
@@ -358,7 +358,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2OH
 adjacency_list: |2
@@ -381,7 +381,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3
 adjacency_list: |2
@@ -403,7 +403,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3CCH2
 adjacency_list: |2
@@ -429,7 +429,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3CHO
 adjacency_list: |2
@@ -453,7 +453,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CHO
 adjacency_list: |2
@@ -477,7 +477,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3CO
 adjacency_list: |2
@@ -501,7 +501,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3O
 adjacency_list: |2
@@ -524,7 +524,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3OH
 adjacency_list: |2
@@ -547,7 +547,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH4
 adjacency_list: |2
@@ -569,7 +569,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 13.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CO
 adjacency_list: |2
@@ -588,7 +588,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.8
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CO2
 adjacency_list: |2
@@ -608,7 +608,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.1
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: H
 adjacency_list: |2
@@ -627,7 +627,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: H2
 adjacency_list: |2
@@ -646,7 +646,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 280.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: H2O
 adjacency_list: |2
@@ -666,7 +666,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: H2O2
 adjacency_list: |2
@@ -687,7 +687,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 3.8
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: HCCO
 adjacency_list: |2
@@ -709,7 +709,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: HCCOH
 adjacency_list: |2
@@ -731,7 +731,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 2.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: HCO
 adjacency_list: |2
@@ -752,7 +752,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: HO2
 adjacency_list: |2
@@ -773,7 +773,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: N2
 adjacency_list: |2
@@ -792,7 +792,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 4.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: O
 adjacency_list: |2
@@ -811,7 +811,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: O2
 adjacency_list: |2
@@ -831,7 +831,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 3.8
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: OH
 adjacency_list: |2
@@ -851,7 +851,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: F
 adjacency_list: |2
@@ -870,7 +870,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: F2
 adjacency_list: |2
@@ -889,7 +889,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 3.8
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: HF
 adjacency_list: |2
@@ -908,7 +908,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3F
 adjacency_list: |2
@@ -930,7 +930,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F2
 adjacency_list: |2
@@ -952,7 +952,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF3
 adjacency_list: |2
@@ -974,7 +974,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF4
 adjacency_list: |2
@@ -996,7 +996,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F
 adjacency_list: |2
@@ -1018,7 +1018,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2
 adjacency_list: |2
@@ -1040,7 +1040,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3
 adjacency_list: |2
@@ -1062,7 +1062,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF
 adjacency_list: |2
@@ -1082,7 +1082,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2
 adjacency_list: |2
@@ -1102,7 +1102,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF
 adjacency_list: |2
@@ -1122,7 +1122,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3O
 adjacency_list: |2
@@ -1145,7 +1145,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFO
 adjacency_list: |2
@@ -1166,7 +1166,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2O
 adjacency_list: |2
@@ -1187,7 +1187,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CFO
 adjacency_list: |2
@@ -1208,7 +1208,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3-CH2F
 adjacency_list: |2
@@ -1233,7 +1233,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3-CHF2
 adjacency_list: |2
@@ -1258,7 +1258,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CH2F
 adjacency_list: |2
@@ -1283,7 +1283,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3-CF3
 adjacency_list: |2
@@ -1308,7 +1308,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CHF2
 adjacency_list: |2
@@ -1333,7 +1333,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CF3
 adjacency_list: |2
@@ -1358,7 +1358,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2-CHF2
 adjacency_list: |2
@@ -1383,7 +1383,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2-CF3
 adjacency_list: |2
@@ -1408,7 +1408,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3-CF3
 adjacency_list: |2
@@ -1433,7 +1433,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3-CHF
 adjacency_list: |2
@@ -1458,7 +1458,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CH2
 adjacency_list: |2
@@ -1483,7 +1483,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH3-CF2
 adjacency_list: |2
@@ -1508,7 +1508,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CHF
 adjacency_list: |2
@@ -1533,7 +1533,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2-CH2
 adjacency_list: |2
@@ -1558,7 +1558,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2F-CF2
 adjacency_list: |2
@@ -1583,7 +1583,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2-CHF
 adjacency_list: |2
@@ -1608,7 +1608,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHF2-CF2
 adjacency_list: |2
@@ -1633,7 +1633,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3-CH2
 adjacency_list: |2
@@ -1658,7 +1658,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3-CHF
 adjacency_list: |2
@@ -1683,7 +1683,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3-CF2
 adjacency_list: |2
@@ -1708,7 +1708,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CHF
 adjacency_list: |2
@@ -1731,7 +1731,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CF2
 adjacency_list: |2
@@ -1754,7 +1754,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCHF[Z]
 adjacency_list: |2
@@ -1777,7 +1777,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCF2
 adjacency_list: |2
@@ -1800,7 +1800,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2CF2
 adjacency_list: |2
@@ -1823,7 +1823,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CF
 adjacency_list: |2
@@ -1846,7 +1846,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCH[Z]
 adjacency_list: |2
@@ -1869,7 +1869,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCF[Z]
 adjacency_list: |2
@@ -1892,7 +1892,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2CH
 adjacency_list: |2
@@ -1915,7 +1915,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2CF
 adjacency_list: |2
@@ -1938,7 +1938,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2HF
 adjacency_list: |2
@@ -1959,7 +1959,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: C2F2
 adjacency_list: |2
@@ -1980,7 +1980,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCO
 adjacency_list: |2
@@ -2002,7 +2002,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF2CO
 adjacency_list: |2
@@ -2024,7 +2024,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CFCO
 adjacency_list: |2
@@ -2046,7 +2046,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3CO
 adjacency_list: |2
@@ -2070,7 +2070,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3CHO
 adjacency_list: |2
@@ -2094,7 +2094,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3COF
 adjacency_list: |2
@@ -2118,7 +2118,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3CHCH2
 adjacency_list: |2
@@ -2144,7 +2144,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3CCH2
 adjacency_list: |2
@@ -2170,7 +2170,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3CCH
 adjacency_list: |2
@@ -2194,7 +2194,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CF3COCH3
 adjacency_list: |2
@@ -2221,7 +2221,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CFCF3
 adjacency_list: |2
@@ -2247,7 +2247,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CFCCF3
 adjacency_list: |2
@@ -2271,7 +2271,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH-CFCF3
 adjacency_list: |2
@@ -2297,7 +2297,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCHCF3
 adjacency_list: |2
@@ -2323,7 +2323,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 0.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CFCHCF3
 adjacency_list: |2
@@ -2349,7 +2349,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CHFCCF3
 adjacency_list: |2
@@ -2375,7 +2375,7 @@ transport:
   polarizability_unit: angstroms^3
   rotrelaxcollnum: 1.0
 ---
-short_description: From NIST CH2F2 mode
+short_description: From NIST CH2F2 model
 long_description: ''
 label: CH2CFO
 adjacency_list: |2
