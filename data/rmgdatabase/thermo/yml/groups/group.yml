@@ -5,6 +5,7 @@ group: |2
 
   1 * R ux
 children:
+- ketene
 - aromatic-ortho
 - aromatic-meta
 - aromatic-para
@@ -14,7 +15,6 @@ children:
 - Cs(Val7)3-Cd-Cd-Cs(Val7)3
 - int14_gauche
 - int15
-- ketene
 - C
 - O
 - Si
