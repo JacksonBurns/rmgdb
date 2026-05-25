@@ -12,15 +12,15 @@ long_description: ''
 children: []
 ---
 label: R-H
-group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 R!H u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n4 *4\
-  \ Xo  u0 {1,S}\n"
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}\n3 *3 H   u0\
+  \ {2,S}\n4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
 label: C-H
-group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 C   u0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n4 *4\
-  \ Xo  u0 {1,S}\n"
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 C   u0 p0 c0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\
+  4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
@@ -34,15 +34,36 @@ long_description: ''
 children: []
 ---
 label: O-H
-group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 O   u0 px {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\
+group: "\n1 *1 R!H u0 {2,S} {4,S}\n2 *2 O   u0 p2 c0 {1,S} {3,S}\n3 *3 H   u0 {2,S}\n\
   4 *4 Xo  u0 {1,S}\n"
 short_description: ''
 long_description: ''
 children: []
 ---
-label: Bidentate
-group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R!H u0 px cx {1,S} {3,S}\n3 *3 R   u0\
-  \ {2,S}\n4 *4 Xo  u0 {1,S}\n5    Xo  u0\n"
+label: N-R
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 N u0 p1 c0 {1,S} {3,S}\n3 *3 R   u0\
+  \ c0 {2,S}\n4 *4 Xo  u0 {1,S}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-N
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 N   u0\
+  \ p1 c0 {2,S}\n4 *4 Xo  u0 {1,S}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: surf1
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 R!H u0 px c0 {1,S} {3,S} {5,[S,D,T]}\n\
+  3 *3 R   u0 c0 {2,S}\n4 *4 Xo  u0 {1,S}\n5 Xo u0 p0 c0 {2,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: surf2
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 R   u0\
+  \ c0 {2,S} {5,[S,D,T]}\n4 *4 Xo  u0 {1,S}\n5 Xo u0 p0 c0 {3,[S,D,T]}\n"
 forbidden: true
 short_description: ''
 long_description: ''

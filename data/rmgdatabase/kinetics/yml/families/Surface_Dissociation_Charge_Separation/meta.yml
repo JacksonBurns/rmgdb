@@ -1,0 +1,47 @@
+short_description: ''
+long_description: "\nSurface bond fission of one species into two distinct adsorbates.\n\
+  Atom *1 is bonded to the surface (*3). The image below shows a single bond,\nbut\
+  \ single and double are possible. What matters is that the bond\nbetween *1 and\
+  \ *2 must be single and have charge separation across it.\n\n   *1[+]--*2[-]   \
+  \       *1      *2\n    |            ---->    |      ||\n  ~*3~ + ~*4~~        \
+  \   ~*3~ + ~*4~~\n\nThe rate, which should be in mol/m2/s,\nwill be given by k *\
+  \ (mol/m2) * (mol/m2)\nso k should be in (m2/mol/s)\n"
+template:
+  reactants:
+  - Combined
+  - VacantSite
+  products:
+  - Adsorbate1
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*4'
+  - - CHANGE_BOND
+    - '*2'
+    - 1
+    - '*4'
+  - - LOSE_PAIR
+    - '*2'
+    - '1'
+  - - GAIN_PAIR
+    - '*1'
+    - '1'
+  - - LOSE_CHARGE
+    - '*1'
+    - '1'
+  - - GAIN_CHARGE
+    - '*2'
+    - '1'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 2
+auto_generated: false

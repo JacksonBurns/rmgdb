@@ -9,12 +9,10 @@ label: Abstracting
 group: "\n1 *6 Xo  u0 {2,[D,T,Q]}\n2 *4 R!H u0 px c0 {1,[D,T,Q]}\t\n"
 short_description: ''
 long_description: ''
-children:
-- C
-- O
+children: []
 ---
 label: R-C-H
-group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 C u0 px c0 {1,S} {3,S}\n3 *3 H \
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 C u0 p0 c0 {1,S} {3,S}\n3 *3 H \
   \  u0 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
@@ -52,12 +50,11 @@ long_description: ''
 children: []
 ---
 label: R-R-H
-group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 H\
-  \   u0 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n"
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}\n3\
+  \ *3 H   u0 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n"
 short_description: ''
 long_description: ''
-children:
-- R-C-H
+children: []
 ---
 label: R-CH3
 group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 C   u0 p0 c0 {1,S} {3,S} {5,S} {6,S}\n\
@@ -70,7 +67,40 @@ label: C
 group: "\n1 *4 C  u0 px c0 {2,[D,T,Q]}\n2 *6 Xo u0 p0 c0 {1,[D,T,Q]}\n"
 short_description: ''
 long_description: ''
-children:
-- C=*
-- C#*
-- C$*
+children: []
+---
+label: R-R-N
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 p[0,2] c0 {1,S} {3,S}\n3\
+  \ *3 N   u0 p1 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-N-R
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 N u0 p1 c0 {1,S} {3,S}\n3 *3 R \
+  \  u0 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Surf_Atom1
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 R\
+  \   u0 {2,S} {5,[S,D,T]}\n4 *5 Xo  u0 {1,[D,T]}\n5 Xo u0 {3,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: Surf_Atom2
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 px c0 {1,S} {3,S} {5,[S,D]}\n\
+  3 *3 R   u0 {2,S}\n4 *5 Xo  u0 {1,[D,T]}\n5 Xo u0 {2,[S,D]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: Surf_beta
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,[D,T]}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 R\
+  \   u0 {2,S} {5,[S,D,T]}\n4 *5 Xo  u0 {1,[D,T]}\n5 R u0 {3,[S,D,T]} {6,[S,D,T]}\n\
+  6 Xo u0 {5,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''

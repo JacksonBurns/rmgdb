@@ -32,6 +32,26 @@ group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 C  u0 px c0 {1,D}\n3 *3 Xo u0 p
   \ {1,[S,D]}\n"
 short_description: ''
 long_description: ''
+children:
+- C=N
+---
+label: C=N
+group: "\n1 *1 C  u0 p0 c0 {2,D} {3,[S,D]}\n2 *2 N  u0 p1 c0 {1,D}\n3 *3 Xo u0 p0\
+  \ {1,[S,D]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: N=R
+group: "\n1 *1 N  u0 p1 c0 {2,D} {3,S}\n2 *2 R!H u0 px c0 {1,D}\n3 *3 Xo u0 p0 {1,S}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: N=C
+group: "\n1 *1 N  u0 p1 c0 {2,D} {3,S}\n2 *2 C  u0 p0 c0 {1,D}\n3 *3 Xo u0 p0 {1,S}\n"
+short_description: ''
+long_description: ''
 children: []
 ---
 label: AdsorbateVdW
@@ -41,9 +61,9 @@ forbidden: true
 short_description: ''
 long_description: ''
 ---
-label: Bidentate
-group: "\n1 *1 R!H u0 px c0 {2,D} {3,[S,D]}\n2 *2 R!H u0 px c0 {1,D}\n3 *3 Xo  u0\
-  \ {1,[S,D]}\n4    Xo  u0\n"
+label: Surf
+group: "\n1 *1 R!H u0 px c0 {2,D} {3,[S,D]}\n2 *2 R!H u0 px c0 {1,D} {4,[S,D,T]}\n\
+  3 *3 Xo  u0 {1,[S,D]}\n4 Xo u0 p0 c0 {2,[S,D,T]}\n"
 forbidden: true
 short_description: ''
 long_description: ''

@@ -1,21 +1,27 @@
-cd data/rmgdatabase/kinetics
-rm kinetics.db || true
-python build.py
-python round_trip.py
-cd ../solvation
-rm solvation.db || true
-python build.py
-python round_trip.py
-cd ../thermo
-rm thermo.db || true
-python build.py
-python round_trip.py
-cd ../statmech
-rm statmech.db || true
-python build.py
-python round_trip.py
-cd ../transport
-rm transport.db || true
-python build.py
-python round_trip.py
-cd ../../../
+#!/bin/bash
+
+python scripts/fetch_latest_rmg_data.py
+
+# Define the chemical property types
+chemical_types=("kinetics" "solvation" "thermo" "statmech" "transport")
+
+# Loop through each chemical property type
+for type in "${chemical_types[@]}"; do
+    echo "Building $type database..."
+    cd "data/rmgdatabase/$type"
+
+    # Remove existing database
+    rm "${type}.db" || true
+
+    # Build and validate the database
+    python build.py
+    python round_trip.py
+
+    # Copy the built database to the db directory
+    cp "${type}.db" "../../../db/${type}.db"
+
+    # Return to the main directory
+    cd ../../../
+done
+
+echo "All databases built successfully!"
