@@ -18,20 +18,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.14'
 
-      - name: Install dependencies
+      - name: Install
         run: |
           python -m pip install --upgrade pip
-          pip install sqlalchemy pandas numpy
+          pip install -e ./standard
+          pip install -e ./data
 
       - name: Run data update script
         run: |
           python scripts/fetch_latest_rmg_data.py
 
-      - name: Build databases
+      - name: Build databases with logging
         run: |
-          ./build.sh
+          ./build.sh > build.log 2>&1
+          echo "BUILD_LOG_FILE=build.log" >> $GITHUB_ENV
 
       - name: Check for changes
         id: changes
@@ -44,15 +46,24 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Update RMG database data [skip ci]"
-          git push origin main
+          git commit -m "automated rmg database data update"
 
-      - name: Create Pull Request (if needed)
+      - name: Create Pull Request with build log
         if: env.CHANGES == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update RMG database data"
           title: "Update RMG database data"
-          body: "Automated update of RMG database data from the official repository."
+          body: |
+            Automated update of RMG database data from the official repository.
+
+            <details>
+            <summary>Build process log</summary>
+
+            ```
+            $(cat build.log)
+            ```
+
+            </details>
           branch: "update-rmg-data"
