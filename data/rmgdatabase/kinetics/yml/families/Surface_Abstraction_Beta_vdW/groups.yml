@@ -39,15 +39,38 @@ short_description: ''
 long_description: ''
 children: []
 ---
-label: Donating_Bidentate
+label: R-N-R
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 N u0 p1 c0 {1,S} {3,S}\n3 *3 R   u0\
+  \ {2,S}\n4 *5 Xo  u0 {1,S}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: R-R-N
+group: "\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 R!H u0 px c0 {1,S} {3,S}\n3 *3 N   u0\
+  \ p1 {2,S}\n4 *5 Xo  u0 {1,S}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Surface_atom1
 group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R   u0 px cx {1,S} {3,S}\n3 *3 R   u0\
-  \ {2,S}\n4 *5 Xo  u0 {1,S}\n5    Xo  u0 \n"
+  \ {2,S} {5,[S,D,T]}\n4 *5 Xo  u0 {1,S}\n5    Xo  u0 {3,[S,D,T]} \n"
 forbidden: true
 short_description: ''
 long_description: ''
 ---
-label: Abstracting_Bidentate
-group: "\n1 *6 Xo  u0 {2,D}\n2 *4 R!H u0 px cx {1,D}\t\n3    Xo  u0 \n"
+label: Surface_atom2
+group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R   u0 px cx {1,S} {3,S} {5,[S,D,T]}\n\
+  3 *3 R   u0 {2,S}\n4 *5 Xo  u0 {1,S}\n5    Xo  u0 {2,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: Surface_beta
+group: "\n1 *1 R!H u0 px cx {2,S} {4,S}\n2 *2 R   u0 px cx {1,S} {3,S}\n3 *3 R   u0\
+  \ {2,S} {5,[S,D,T]}\n4 *5 Xo  u0 {1,S}\n5 R!H u0 {3,[S,D,T]} [6,[S,D,T]}\n6 Xo u0\
+  \ {5,[S,D,T]}\n"
 forbidden: true
 short_description: ''
 long_description: ''

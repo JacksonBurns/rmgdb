@@ -107,6 +107,13 @@ short_description: ''
 long_description: ''
 children: []
 ---
+label: N-R
+group: "\nmultiplicity [1]\n1 *1 R!H u0 px c0 {2,[S]}\n2 *2 N   u0 p1 c0 {1,[S]}\n\
+  3 *3 Xv  u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
+---
 label: C-O
 group: "\n1 *2 O u0 px cx {2,[S,D]}\n2 *1 C u0 {1,[S,D]}\n3 *3 Xv u0 p0 c0\n"
 forbidden: true
@@ -124,3 +131,15 @@ group: "\n1 *2 C u0 {2,S}\n2 *1 H u0 {1,S}\n3 *3 Xv u0 p0 c0\n"
 forbidden: true
 short_description: ''
 long_description: "\nC should not match to *2 with a less heavy atom\n"
+---
+label: N-O
+group: "\n1 *2 O u0 {2,S}\n2 *1 N u0 {1,S}\n3 *3 Xv u0 p0 c0\n"
+forbidden: true
+short_description: ''
+long_description: "\n should not match to *2 with a less heavy atom\n"
+---
+label: H-N
+group: "\n1 *2 N u0 {2,S}\n2 *1 H u0 {1,S}\n3 *3 Xv u0 p0 c0\n"
+forbidden: true
+short_description: ''
+long_description: "\n should not match to *2 with a less heavy atom\n"

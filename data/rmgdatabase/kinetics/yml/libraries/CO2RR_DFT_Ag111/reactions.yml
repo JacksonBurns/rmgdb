@@ -1,0 +1,171 @@
+label: CO2X + proton <=> CO2HX
+degeneracy: 1.0
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.75
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CO2X + proton <=> CHO2X
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 1.25
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CO2HX + proton <=> OCX + H2O
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.25
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CO2HX + proton <=> HCOOHX
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 2.4
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CHO2X + proton <=> HCOOHX
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 2.64
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: OCX + proton <=> CHOX
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.45
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CHOX + proton <=> XCHOH
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 2.14
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: CHOX + proton <=> CH2OX
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 2.6
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K
+---
+label: XCH2OH + proton <=> XCH2 + H2O
+short_description: CO2RR_Ag111
+long_description: Calculated by Manish Kumar Kothakonda
+kinetics:
+  type: SurfaceChargeTransfer
+  A:
+  - 25000000000.0
+  - m^3/(mol*s)
+  n: 0.0
+  Ea:
+  - 0.79
+  - eV/molecule
+  Tmin:
+  - 298.0
+  - K
+  Tmax:
+  - 3000.0
+  - K

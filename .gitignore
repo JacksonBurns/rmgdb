@@ -1,8 +1,13 @@
 # built databases
 *.db
 
-# ...except for the demo
-!demo_db/*.db
+# extraneous rmg-database files
+data/rmgdatabase/thermo/original/ml
+data/rmgdatabase/thermo/original/sidt
+data/rmgdatabase/thermo/original/uncertainty
+
+# ...except for the databases in the db/ directory, which are built from the data and should be tracked
+!db/*.db
 
 # vscode config
 .vscode

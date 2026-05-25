@@ -112,9 +112,3 @@ short_description: ''
 long_description: "\nThe adsorbing atom should not be adjacent to a radical.\ne.g.\
   \ this is not allowed:\n\n.O-O.    -->   .O-O\n                  |\n   X       \
   \       X\n"
----
-label: chargedSpecies
-group: "\n1 *1 R u1 c[+1,-1]\n"
-forbidden: true
-short_description: ''
-long_description: "\nThe adsorbing atom should not have a charge\n"

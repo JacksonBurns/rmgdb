@@ -1,0 +1,108 @@
+label: HOCHO
+adjacency_list: "1 O u0 p2 c0 {2,S} {4,S}\n2 C u0 p0 c0 {1,S} {3,D} {5,S}\n3 O u0\
+  \ p2 c0 {2,D}\n4 H u0 p0 c0 {1,S}\n5 H u0 p0 c0 {2,S}\n"
+---
+label: CO
+adjacency_list: "1 C u0 p1 c-1 {2,T}\n2 O u0 p1 c+1 {1,T}\n"
+---
+label: H2O
+adjacency_list: "1 O u0 p2 c0 {2,S} {3,S}\n2 H u0 p0 c0 {1,S}\n3 H u0 p0 c0 {1,S}\n"
+---
+label: CO2
+adjacency_list: "1 O u0 p2 c0 {2,D}\n2 C u0 p0 c0 {1,D} {3,D}\n3 O u0 p2 c0 {2,D}\n"
+---
+label: H2
+adjacency_list: "1 H u0 p0 c0 {2,S}\n2 H u0 p0 c0 {1,S}\n"
+---
+label: OH
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 H u0 p0 c0 {1,S}\n"
+---
+label: HOCO
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {4,S}\n2 C u1 p0 c0 {1,S} {3,D}\n\
+  3 O u0 p2 c0 {2,D}\n4 H u0 p0 c0 {1,S}\n"
+---
+label: OCHO
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 C u0 p0 c0 {1,S} {3,D} {4,S}\n\
+  3 O u0 p2 c0 {2,D}\n4 H u0 p0 c0 {2,S}\n"
+---
+label: HO2
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {3,S}\n2 O u1 p2 c0 {1,S}\n3 H\
+  \ u0 p0 c0 {1,S}\n"
+---
+label: H2O2
+adjacency_list: "1 O u0 p2 c0 {2,S} {3,S}\n2 O u0 p2 c0 {1,S} {4,S}\n3 H u0 p0 c0\
+  \ {1,S}\n4 H u0 p0 c0 {2,S}\n"
+---
+label: O2
+adjacency_list: "multiplicity 3\n1 O u1 p2 c0 {2,S}\n2 O u1 p2 c0 {1,S}\n"
+---
+label: HOC(O)OO
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C\
+  \ u0 p0 c0 {2,S} {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {6,S}\n6 H\
+  \ u0 p0 c0 {5,S}\n"
+---
+label: HOCOO
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {5,S}\n2 C u0 p0 c0 {1,S} {3,S}\
+  \ {4,D}\n3 O u1 p2 c0 {2,S}\n4 O u0 p2 c0 {2,D}\n5 H u0 p0 c0 {1,S}\n"
+---
+label: CO3
+adjacency_list: "1 O u0 p2 c0 {2,D}\n2 C u0 p0 c0 {1,D} {3,S} {4,S}\n3 O u0 p2 c0\
+  \ {2,S} {4,S}\n4 O u0 p2 c0 {2,S} {3,S}\n"
+---
+label: HOC(O)OOH
+adjacency_list: "1 O u0 p2 c0 {2,S} {6,S}\n2 O u0 p2 c0 {1,S} {3,S}\n3 C u0 p0 c0\
+  \ {2,S} {4,D} {5,S}\n4 O u0 p2 c0 {3,D}\n5 O u0 p2 c0 {3,S} {7,S}\n6 H u0 p0 c0\
+  \ {1,S}\n7 H u0 p0 c0 {5,S}\n"
+---
+label: HCO(OH)2
+adjacency_list: "multiplicity 2\n1 C u0 p0 c0 {2,S} {3,S} {4,S} {5,S}\n2 O u1 p2 c0\
+  \ {1,S}\n3 O u0 p2 c0 {1,S} {6,S}\n4 O u0 p2 c0 {1,S} {7,S}\n5 H u0 p0 c0 {1,S}\n\
+  6 H u0 p0 c0 {3,S}\n7 H u0 p0 c0 {4,S}\n"
+---
+label: CO(OH)2
+adjacency_list: "1 C u0 p0 c0 {2,D} {3,S} {4,S}\n2 O u0 p2 c0 {1,D}\n3 O u0 p2 c0\
+  \ {1,S} {5,S}\n4 O u0 p2 c0 {1,S} {6,S}\n5 H u0 p0 c0 {3,S}\n6 H u0 p0 c0 {4,S}\n"
+---
+label: DHC
+adjacency_list: "multiplicity 1\n1 O u0 p2 c0 {2,S} {4,S}\n2 C u0 p1 c0 {1,S} {3,S}\n\
+  3 O u0 p2 c0 {2,S} {5,S}\n4 H u0 p0 c0 {1,S}\n5 H u0 p0 c0 {3,S}\n"
+---
+label: HCO
+adjacency_list: "multiplicity 2\n1 C u1 p0 c0 {2,D} {3,S}\n2 O u0 p2 c0 {1,D}\n3 H\
+  \ u0 p0 c0 {1,S}\n"
+---
+label: O[CH]O
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {4,S}\n2 C u1 p0 c0 {1,S} {3,S}\
+  \ {5,S}\n3 O u0 p2 c0 {2,S} {6,S}\n4 H u0 p0 c0 {1,S}\n5 H u0 p0 c0 {2,S}\n6 H u0\
+  \ p0 c0 {3,S}\n"
+---
+label: '[O]CO'
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 C u0 p0 c0 {1,S} {3,S} {4,S}\
+  \ {5,S}\n3 O u0 p2 c0 {2,S} {6,S}\n4 H u0 p0 c0 {2,S}\n5 H u0 p0 c0 {2,S}\n6 H u0\
+  \ p0 c0 {3,S}\n"
+---
+label: CH2O
+adjacency_list: "1 C u0 p0 c0 {2,D} {3,S} {4,S}\n2 O u0 p2 c0 {1,D}\n3 H u0 p0 c0\
+  \ {1,S}\n4 H u0 p0 c0 {1,S}\n"
+---
+label: O[C](O)O
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {5,S}\n2 C u1 p0 c0 {1,S} {3,S}\
+  \ {4,S}\n3 O u0 p2 c0 {2,S} {6,S}\n4 O u0 p2 c0 {2,S} {7,S}\n5 H u0 p0 c0 {1,S}\n\
+  6 H u0 p0 c0 {3,S}\n7 H u0 p0 c0 {4,S}\n"
+---
+label: '[O]C(O)O'
+adjacency_list: "multiplicity 2\n1 O u1 p2 c0 {2,S}\n2 C u0 p0 c0 {1,S} {3,S} {4,S}\
+  \ {5,S}\n3 O u0 p2 c0 {2,S} {6,S}\n4 O u0 p2 c0 {2,S} {7,S}\n5 H u0 p0 c0 {2,S}\n\
+  6 H u0 p0 c0 {3,S}\n7 H u0 p0 c0 {4,S}\n"
+---
+label: O[CH]OO
+adjacency_list: "multiplicity 2\n1 O u0 p2 c0 {2,S} {5,S}\n2 C u1 p0 c0 {1,S} {3,S}\
+  \ {6,S}\n3 O u0 p2 c0 {2,S} {4,S}\n4 O u0 p2 c0 {3,S} {7,S}\n5 H u0 p0 c0 {1,S}\n\
+  6 H u0 p0 c0 {2,S}\n7 H u0 p0 c0 {4,S}\n"
+---
+label: O=C(O)O
+adjacency_list: "1 O u0 p2 c0 {2,D}\n2 C u0 p0 c0 {1,D} {3,S} {4,S}\n3 O u0 p2 c0\
+  \ {2,S} {5,S}\n4 O u0 p2 c0 {2,S} {6,S}\n5 H u0 p0 c0 {3,S}\n6 H u0 p0 c0 {4,S}\n"
+---
+label: H
+adjacency_list: "multiplicity 2\n1 H u1 p0 c0"

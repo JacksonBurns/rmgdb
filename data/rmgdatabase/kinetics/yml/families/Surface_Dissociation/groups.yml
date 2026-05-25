@@ -21,6 +21,7 @@ children:
 - C-H
 - C-O
 - C-C
+- C-N
 ---
 label: O
 group: "\n1 *1 O  u0 {2,S} {3,S}\n2 *2 R  u0 {1,S}\n3 *3 Xo u0 {1,S}\n"
@@ -71,6 +72,8 @@ children:
 - N-H2
 - N-H
 - N-N
+- N-O
+- N-C
 ---
 label: N-H2
 group: "\n1 *1 N  u0 p1 {2,S} {3,S} {4,S}\n2 *2 H  u0    {1,S}\n3 *3 Xo u0    {1,S}\n\
@@ -165,3 +168,35 @@ group: "\n1 *1 C   u0 {2,S} {3,D} {4,S}\n2 *2 H   u0 {1,S}\n3 *3 Xo  u0 {1,D}\n4
 short_description: ''
 long_description: ''
 children: []
+---
+label: C-N
+group: "\n1 *1 C   u0 {2,S} {3,[S,D,T]}\n2 *2 N   u0 {1,S}\n3 *3 Xo  u0 {1,[S,D,T]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-O
+group: "\n1 *1 N  u0 {2,S} {3,[S,D]}\n2 *2 O  u0 {1,S}\n3 *3 Xo u0 {1,[S,D]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: N-C
+group: "\n1 *1 N  u0 {2,S} {3,[S,D]}\n2 *2 C  u0 {1,S}\n3 *3 Xo u0 {1,[S,D]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Surf_Atom
+group: "\n1 *1 R!H u0 c0 {2,S} {3,[S,D,T]}\n2 *2 R   u0 c0 {1,S} {4,[S,D,T]}\n3 *3\
+  \ Xo  u0 {1,[S,D,T]}\n4 Xo u0 {2,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
+---
+label: beta_Surf_Atom
+group: "\n1 *1 R!H u0 c0 {2,S} {3,[S,D,T]}\n2 *2 R   u0 c0 {1,S} {4,[S,D,T]}\n3 *3\
+  \ Xo  u0 {1,[S,D,T]}\n4 R!H u0 {2,[S,D,T]} {5,[S,D,T]}\n5 Xo u0 {4,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''

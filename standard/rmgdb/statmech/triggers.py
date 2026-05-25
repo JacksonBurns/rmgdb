@@ -1,6 +1,6 @@
 def check_short_desc(mapper, connection, target):
-    if target.short_description is not None and len(target.short_description) > 20:
-        print("short description > 20, consider using long.")
+    if target.short_description is not None and len(target.short_description) > 50:
+        print("short description > 50, consider using long.")
 
 
 def delete_empty_desc(mapper, connection, target):

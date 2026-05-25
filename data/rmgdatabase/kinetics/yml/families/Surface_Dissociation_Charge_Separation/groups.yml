@@ -1,0 +1,19 @@
+label: Combined
+group: "\n1 *1 Val5 u0 p0 c+1 {2,S} {3,[S,D]}\n2 *2 R!H u0 p[1,2,3] c-1 {1,S}\n3 *3\
+  \ Xo u0 p0 c0 {1,[S,D]}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite
+group: "\n1 *4 Xv u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Surf
+group: "\n1 *1 Val5 u0 p0 c+1 {2,S} {3,[S,D]}\n2 *2 R!H u0 p[1,2,3] c-1 {1,S} {4,[S,D,T]}\n\
+  3 *3 Xo u0 p0 c0 {1,[S,D]}\n4 Xo u0 c0 {2,[S,D,T]}\n"
+forbidden: true
+short_description: ''
+long_description: ''
