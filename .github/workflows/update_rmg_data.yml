@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.14'
 
@@ -33,12 +33,27 @@ jobs:
       - name: Build databases with logging
         run: |
           ./build.sh > build.log 2>&1
-          echo "BUILD_LOG_FILE=build.log" >> $GITHUB_ENV
 
       - name: Check for changes
         id: changes
         run: |
           git diff --exit-code || echo "CHANGES=true" >> $GITHUB_ENV
+
+      - name: Upload build log artifact
+        if: env.CHANGES == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
+          retention-days: 14
+
+      - name: Prepare truncated build log for PR body
+        if: env.CHANGES == 'true'
+        run: |
+          # Grab only the first 50 lines to avoid PR body length limits
+          echo "BUILD_LOG_TRUNCATED<<EOF" >> $GITHUB_ENV
+          head -n 50 build.log >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Commit and push changes
         if: env.CHANGES == 'true'
@@ -50,7 +65,7 @@ jobs:
 
       - name: Create Pull Request with build log
         if: env.CHANGES == 'true'
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update RMG database data"
@@ -58,11 +73,13 @@ jobs:
           body: |
             Automated update of RMG database data from the official repository.
 
-            <details>
-            <summary>Build process log</summary>
+            **Note:** The full `build.log` file has been uploaded as a workflow artifact. You can download it directly from the [Actions Run page](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}).
 
-            ```
-            $(cat build.log)
+            <details>
+            <summary>Build process log (First 50 lines)</summary>
+
+            ```text
+            ${{ env.BUILD_LOG_TRUNCATED }}
             ```
 
             </details>
