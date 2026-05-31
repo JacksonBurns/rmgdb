@@ -5,16 +5,6 @@ group: |2
 
   1 *1 R ux
 children:
-- aromatic-ortho
-- aromatic-meta
-- aromatic-para
-- intVal7
-- intVal7
-- intRVal7
-- Cs(Val7)3-Cd-Cd-Cs(Val7)3
-- int14_gauche
-- int15
-- ketene
 - C
 - O
 - Si
@@ -25,6 +15,16 @@ children:
 - I1s
 - N
 - Li
+- intVal7
+- intRVal7
+- Cs(Val7)3-Cd-Cd-Cs(Val7)3
+- int14_gauche
+- int15
+- aromatic-ortho
+- aromatic-meta
+- aromatic-para
+- intVal7
+- ketene
 thermo:
   type: ThermoData
   Tdata:
@@ -3330,18 +3330,6 @@ group: |2
   2 *2 C    ux {1,[S,D]}
   3    Val7 u0 {1,S}
 children:
-- Cs(Val7)2-Cs(Val7)2
-- 3ring-Cs(Val7)2-Cs(Val7)2
-- Cs(Val7)2-C(Val7)
-- Cs(Val7)-Cs(Val7)
-- Cs(Val7)-Cds(Val7)
-- Cds(Val7)-Cds(Val7)
-- Cds(Val7)=Cds(Val7)
-- Cd(Val7)-CO
-- Cs(Val7)3-CO
-- Cs(Val7)2-CO
-- Cs(Val7)-CO
-- Cd(Val7)=CdOs
 - Cs(Val7)3-Cs(Val7)3
 - Cs(Val7)3-Cs(Val7)2
 - Cs(Val7)3-C(Val7)
@@ -3361,6 +3349,18 @@ children:
 - Cs(Cl)-CdOs
 - Cs(Br)-CdOs
 - Cd(Val7)2=CdOs
+- Cd(Val7)=CdOs
+- Cs(Val7)2-Cs(Val7)2
+- 3ring-Cs(Val7)2-Cs(Val7)2
+- Cs(Val7)2-C(Val7)
+- Cs(Val7)-Cs(Val7)
+- Cs(Val7)-Cds(Val7)
+- Cds(Val7)-Cds(Val7)
+- Cds(Val7)=Cds(Val7)
+- Cd(Val7)-CO
+- Cs(Val7)3-CO
+- Cs(Val7)2-CO
+- Cs(Val7)-CO
 - Cd(Val7)=CdOs
 thermo:
   type: ThermoData
@@ -3757,9 +3757,9 @@ group: |2
   4    Val7        u0 {1,S}
   5    Val7        u0 {2,S}
 children:
-- 3ring-Cs(Val7)2-C(Val7)
 - Cs(Val7)2-Cs(Val7)
 - Cs(Val7)2-Cds(Val7)
+- 3ring-Cs(Val7)2-C(Val7)
 - Cs(Val7)2-Cs(Val7)
 - Cs(Val7)2-Cds(Val7)
 thermo:
