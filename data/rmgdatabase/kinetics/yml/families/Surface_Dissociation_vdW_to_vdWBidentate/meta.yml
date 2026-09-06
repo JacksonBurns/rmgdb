@@ -1,0 +1,49 @@
+short_description: ''
+long_description: "\nDissociation of a physisorbed species (e.g., formic acid HCOOH)\
+  \ into a vdW bidentate (e.g., formate XOCHXO)\nExample: HOC(H)O.[X] + [X] + [X]\
+  \ -> [X]~OC(H)O[X] + [X]H\nand an adsorbate with a single bond to the surface (e.g.,\
+  \ XH). The formic acid is initially physisorbed via a vdW \ninteraction through\
+  \ the carbonyl oxygen (*3). Upon dissociation, the R!H-R bond (*1-*4) breaks, \n\
+  the R!H (*1) forms a single bond to the surface site (*5), the carbonyl oxygen (*3)\
+  \ \nretains a vdW interaction with a neighboring vacant site (*6), and the R (*4)\
+  \ adsorbs \nonto a second vacant site (*7), yielding bidentate formate.\n\n *4-*1--*2=*3\
+  \                                *1-*2=*3      *4\n     :                      \
+  \       ---->      |     :       |\n   ~*5~    +   ~*6~~    +   ~*7~~          \
+  \ ~*5~  ~*6~ +  ~*7~\n\n\nThe rate, which should be in mol/m2/s,\nwill be given\
+  \ by k * (mol/m2) * (mol/m2)* (mol/m2)\nso k should be in (m4/mol2/s)\n"
+template:
+  reactants:
+  - Combined
+  - VacantSite1
+  - VacantSite2
+  products:
+  - Adsorbate1
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*5'
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*4'
+  - - FORM_BOND
+    - '*4'
+    - 1
+    - '*7'
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*6'
+reversible: true
+reverse_map: {}
+reactant_num: 3
+product_num: 2
+auto_generated: false
