@@ -1,0 +1,27 @@
+short_description: ''
+long_description: "\nIf a monodentate adsorbate bound through oxygen with a single\
+  \ bond has\ndouble bond to another oxygen in the beta position, the adsorbate can\
+  \ fall\nover into a resonant vdW bidentate configuration.\n\n *1-*2=*3         \
+  \        *1-*2=*3  \n  |              ---->     |     :     \n~*4~ + ~*5~~     \
+  \        ~*4~~~~*5~~ \n\nThe rate, which should be in mol/m2/s,\nwill be given by\
+  \ k * (mol/m2) * (mol/m2)\nso k should be in (m2/mol/s)\n"
+template:
+  reactants:
+  - Monodentate
+  - VacantSite
+  products:
+  - Bidentate
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*3'
+    - 1
+    - '*5'
+  - - CHANGE_BOND
+    - '*3'
+    - -1
+    - '*5'
+reversible: true
+reverse_map: {}
+auto_generated: false
