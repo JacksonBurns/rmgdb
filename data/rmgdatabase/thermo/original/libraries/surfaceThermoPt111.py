@@ -6799,3 +6799,149 @@ smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e
     facet = "111",
 )
 
+entry(
+    index = 189,
+    label = "XOC(OH)XO",
+    molecule = 
+"""
+
+1 X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 C u0 p0 c0 {3,S} {4,D} {6,S}
+6 O u0 p2 c0 {5,S} {7,S}
+7 H u0 p0 c0 {6,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.0132778475072701, 0.03262763570826161, -3.706098829519851e-05, 2.096041512034588e-08, -4.666933663368346e-12, -70967.1755533581, -4.753586717239662], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[12.852353741526818, -0.005708248771628979, 1.0285808664489898e-05, -5.5671600419076475e-09, 1.0106531250678213e-12, -73924.19842778567, -64.4494113654015], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+longDesc = u"""
+Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
+Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
+
+https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
+
+DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
+functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
+were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 190,
+    label = "XOCHXO",
+    molecule = 
+"""
+
+1 X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 C u0 p0 c0 {3,S} {4,D} {6,S}
+6 H u0 p0 c0 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.6165935107244351, 0.019132391091999826, -1.5642611413361872e-05, 5.337266845617638e-09, -3.026531181237793e-13, -46561.971688002785, -8.062865453803674], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[10.12207668059553, -0.005529179348276206, 1.000785310396524e-05, -5.4540314377069534e-09, 9.942679182786377e-13, -48848.38411329424, -51.70745437048771], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+longDesc = u"""
+Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
+Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
+
+https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
+
+DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
+functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
+were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 191,
+    label = "XONXO",
+    molecule = 
+"""
+
+1 X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 N u0 p1 c0 {3,S} {4,D}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[1.4117756821173957, 0.01712445350067062, -1.9505149613955086e-05, 1.0631531313123912e-08, -2.2362974139967698e-12, -12387.441053228096, 0.1288760418910435], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[7.416397342191096, -0.0022117372144478597, 4.0858000854061744e-06, -2.291322508018934e-09, 4.27175762829595e-13, -13889.598435609205, -30.16711541716133], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+longDesc = u"""
+Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
+Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
+
+https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
+
+DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
+functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
+were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
+The two lowest frequencies, 75.63 and 87.45,where replaced by the 2D gas model.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+
+entry(
+    index = 192,
+    label = "XONOXO",
+    molecule = 
+"""
+
+1 X u0 p0 c0 {3,S}
+2 X u0 p0 c0 {4,vdW}
+3 O u0 p2 c0 {1,S} {5,S}
+4 O u0 p2 c0 {2,vdW} {5,D}
+5 N u0 p0 c+1 {3,S} {4,D} {6,S}
+6 O u0 p3 c-1 {5,S}
+""",
+    thermo = NASA(
+        polynomials = [
+            NASAPolynomial(coeffs=[0.35268956369357773, 0.030141496012083935, -3.846630125662419e-05, 2.4187368908998293e-08, -6.070945726301281e-12, -16383.878377676221, 5.103242795106304], Tmin=(298.0,'K'),Tmax=(1000.0, 'K')),
+            NASAPolynomial(coeffs=[10.127707317962248, -0.0032701078682509667, 6.043449928115586e-06, -3.3882505910338063e-09, 6.315087150572749e-13, -18736.263933287715, -43.74719985478448], Tmin=(1000.0,'K'), Tmax=(2000.0, 'K')),
+        ],
+        Tmin = (298.0,'K'),
+        Tmax = (2000.0,'K'),
+    ),
+longDesc = u"""
+Calculated by Kirk Badger at Brown University using statistical mechanics methods implemented in
+Franklin Goldsmith's thermo_kinetics_scripts repository in the new_workflow folder:
+
+https://github.com/franklingoldsmith/thermo_kinetics_scripts/tree/main/new_workflow
+
+DFT calculations were performed with Quantum Espresso using PAW pseudopotentals and the BEEF-vdW
+functional for an optimized 3x3x4 supercell with the bottom 2 layers fixed. The following settings
+were applied: kpoints=5x5x1, ecutwfc=50 Ry (60 Ry single point evaluation after),
+smearing='marzari-vanderbilt', degauss=0.02, mixing_mode='local-TF', conv_thr=1e-12, fmax=1e-3.
+The two lowest frequencies, 41.46 and 68.57,where replaced by the 2D gas model.
+""",
+    metal = "Pt",
+    facet = "111",
+)
+

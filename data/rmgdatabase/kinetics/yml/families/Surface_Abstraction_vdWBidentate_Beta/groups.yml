@@ -1,0 +1,12 @@
+label: Donating
+group: "\n1 *1 O   u0 p2 {2,S} {5,S}\n2 *2 R!H u0 {1,S} {3,D} {4,S}\n3 *3 O   u0 p2\
+  \ {2,D} {6,vdW}\n4 *4 R u0 {2,S}\n5 *5 X  u0 {1,S}\n6 *6 X  u0 {3,vdW}\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: Abstracting
+group: "\n1 *8 Xo  u0 {2,[D,T,Q]}\n2 *7 R!H u0 px c0 {1,[D,T,Q]}\t\n"
+short_description: ''
+long_description: ''
+children: []
