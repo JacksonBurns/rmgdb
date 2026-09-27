@@ -1,0 +1,43 @@
+short_description: ''
+long_description: "\nSurface bond fission of a vdW bidentate (e.g., formate XOCHXO)\
+  \ into two adsorbates.\nExample: [X]~OC(H)O[X] -> [X]O + O=C[X]H\nThe *1-*2 bond\
+  \ (C-O) breaks. Atom *1 (O) has a single bond to surface site *4 and \nincreases\
+  \ to a double bond. Atom *3 (O) has a vdW bond to surface \nsite *5. The vdW bond\
+  \ is broke and *2 (C) forms a new bond to *5.\n\n *1-*2=*3              *1     *2=*3\n\
+  \  |     :     ---->    ||      |\n~*4~  ~*5~~           ~*4~ + ~*5~~\n\n\nThe rate,\
+  \ which should be in mol/m2/s,\nwill be given by k * (mol/m2)\nso k should be in\
+  \ (1/s)\n"
+template:
+  reactants:
+  - Combined
+  products:
+  - Adsorbate1
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*4'
+  - - BREAK_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - 1
+    - '*5'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*5'
+  - - FORM_BOND
+    - '*2'
+    - 1
+    - '*5'
+reversible: true
+reverse_map: {}
+reactant_num: 1
+product_num: 2
+auto_generated: false
