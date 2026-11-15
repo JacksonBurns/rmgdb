@@ -1,0 +1,18 @@
+label: Combined
+group: "\nmultiplicity [1]\n1 *1 R!H u0 px c0 {2,S} {4,S}\n2 *2 R!H u0 px c0 {1,S}\
+  \ {3,D}\n3 *3 O  u0 p2 c0 {2,D}\n4 *4 R   u0 px c0 {1,S}\n5 *5 Xv  u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite1
+group: "\n1 *6 Xv u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
+---
+label: VacantSite2
+group: "\n1 *7 Xv u0 p0 c0\n"
+short_description: ''
+long_description: ''
+children: []
