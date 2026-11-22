@@ -1,0 +1,56 @@
+short_description: ''
+long_description: "\nSurface abstraction of the beta R!H-R atom of a vdW bidentate\
+  \ by a neighboring surface adsorbate. \nExample:  [X]~OC(H)O[X] + O=[X]-> OCO.[X]\
+  \ + O[X] + [X]\nThe bond fission occurs at the beta position: the R!H-H bond (*2-*4)\
+  \ breaks, and *4 (R) \nis transferred to the abstracting adsorbate *7, which weakens\
+  \ its own surface bond (*7-*8) upon \ngaining R. Simultaneously, the *1-*2 bond\
+  \ (O-R) strengthens and *3 (O) detaches from surface \nsite *6, releasing CO2. A\
+  \ vacant site (*6) is produced as a product.\n\n    *4\n     |\n *1-*2=*3      \
+  \    *7            *1=*2=*3    *7-*4\n  |     :          ||      ---->         \
+  \     |\n~*5~ +~*6~  +     ~*8~~           ~*5~  +   ~*8~~  + ~*6~\n\nThe rate,\
+  \ which should be in mol/m2/s,\nwill be given by k * (mol/m2) * (mol/m2)\nso k should\
+  \ be in (m2/mol/s). \n"
+template:
+  reactants:
+  - Donating
+  - Abstracting
+  products:
+  - Adsorbate2
+  - Adsorbate3
+  - VacantSite
+  ownReverse: false
+recipe:
+  actions:
+  - - FORM_BOND
+    - '*4'
+    - 1
+    - '*7'
+  - - CHANGE_BOND
+    - '*7'
+    - -1
+    - '*8'
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*5'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - CHANGE_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*4'
+reversible: true
+reverse_map: {}
+reactant_num: 2
+product_num: 3
+auto_generated: false

@@ -1,0 +1,46 @@
+short_description: ''
+long_description: "\nSurface bond fission of a vdW bidentate adsorbate via beta-scission\
+  \ into a physisorbed species and an adsorbate with a single bond.\nExample: [X]~OC(H)O[X]\
+  \ -> OCO.[X] + H[X]\nThe *1-*2 bond order (O-C) increases as *2 (C) releases *4\
+  \ (R), \nand the *3 (O) vdW bond 'breaks', releasing the physisorbed species.\n\
+  \    *4\n     |\n *1-*2=*3           *1=*2=*3  *4\n  |     :     ---->         \
+  \   |\n~*5~  ~*6~~           ~*5~ + ~*6~~\n\n\nThe rate, which should be in mol/m2/s,\n\
+  will be given by k * (mol/m2)\nso k should be in (1/s)\n"
+template:
+  reactants:
+  - Combined
+  products:
+  - Adsorbate1
+  - Adsorbate2
+  ownReverse: false
+recipe:
+  actions:
+  - - CHANGE_BOND
+    - '*1'
+    - -1
+    - '*5'
+  - - CHANGE_BOND
+    - '*1'
+    - 1
+    - '*2'
+  - - BREAK_BOND
+    - '*2'
+    - 1
+    - '*4'
+  - - CHANGE_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - BREAK_BOND
+    - '*3'
+    - 1
+    - '*6'
+  - - FORM_BOND
+    - '*4'
+    - 1
+    - '*6'
+reversible: true
+reverse_map: {}
+reactant_num: 1
+product_num: 2
+auto_generated: false
